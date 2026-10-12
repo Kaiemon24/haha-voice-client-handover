@@ -1,6 +1,6 @@
 # Cài và tích hợp qua agent
 
-Một prompt khởi động giúp agent tải, kiểm và dẫn khách qua cài đặt. Nó không tự đoán đích hoặc bỏ qua bước khách xác nhận đường dẫn.
+Một prompt khởi động giúp agent tải, kiểm và dẫn khách qua cài đặt. Bắt đầu ở [SETUP.md](SETUP.md): tối đa ba câu hỏi về nơi lưu, cách nối vào OS và xác nhận bản xem trước. Các mục dưới là chi tiết vận hành; không tạo thêm một vòng phỏng vấn.
 
 ## 1. Lấy đúng bản
 
@@ -12,7 +12,7 @@ Mục truy cập này thay chỉ dẫn xin quyền riêng tư trong snapshot/PDF
 
 ## 2. Chọn đích và kiểm OS đang có
 
-Agent hỏi khách thư mục công việc sẽ sử dụng HAHA/Voice, kiểm `AGENTS.md`, router được khai báo và các skill cùng tên trong phạm vi đó. Không quét toàn bộ máy hoặc thay cấu trúc OS của khách. Giữ quy tắc và giọng thương hiệu đã duyệt.
+Agent dùng câu hỏi 1 và 2 của SETUP.md để chọn nơi lưu và kiểu tích hợp; dùng lại thông tin đã có. Kiểm `AGENTS.md`, router được khai báo và các skill cùng tên trong phạm vi đó. Không quét toàn bộ máy hoặc thay cấu trúc OS của khách. Giữ quy tắc và giọng thương hiệu đã duyệt.
 
 Codex tiêu chuẩn: dùng `--skill-layout codex`; bộ cài đặt skill ở `.agents/skills/haha` và `.agents/skills/voice`, dữ liệu ở `Brand asset/HAHA/Design system`. HTML nằm ngay lớp đầu thư mục Design system. Đây là phạm vi workspace, không tự cài toàn máy.
 
@@ -30,7 +30,7 @@ python installer/install_client_package.py --target-root "THU_MUC_KHACH_CHON" --
 python installer/install_client_package.py --target-root "THU_MUC_KHACH_CHON" --skill-layout codex --apply --confirm
 ```
 
-Bộ cài chỉ tạo tệp mới hoặc giữ tệp giống mã kiểm. Tệp khác nội dung làm dừng; không ghi đè Voice đã có hay router của OS. Khách muốn nâng cấp cần phương án đối chiếu và lưu bản cũ riêng. Không tự cài Python/Codex/GitHub CLI hoặc đổi quyền.
+Bộ cài chỉ tạo tệp mới hoặc giữ tệp giống mã kiểm. Tệp khác nội dung làm dừng; không ghi đè Voice đã có hay router của OS. Khách muốn nâng cấp cần phương án đối chiếu và lưu bản cũ riêng. Công cụ thiếu chỉ được cài nếu đúng tên, nguồn, vị trí, quyền và chi phí đã nằm trong bản xem trước được khách xác nhận ở câu 3 của SETUP.md; không tự cài toàn máy hoặc đổi quyền. Nếu preview mới khác bản đã duyệt, dừng nhánh apply.
 
 ## 4. Skill được gọi như thế nào
 

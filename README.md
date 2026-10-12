@@ -1,6 +1,6 @@
 # HAHA Design System + Voice — Client handover
 
-Repository công khai chứa trọn bộ bàn giao độc lập, không cần KAI OS. Bắt đầu tại [START-HERE.md](START-HERE.md); agent đọc [INSTALL.md](INSTALL.md) để tải đúng bản, kiểm và tích hợp vào OS của khách.
+Repository công khai chứa trọn bộ bàn giao độc lập, không cần KAI OS. Bắt đầu tại [START-HERE.md](START-HERE.md): dán một prompt, trả lời tối đa ba câu. Agent đọc [SETUP.md](SETUP.md), rồi [INSTALL.md](INSTALL.md) để tải đúng bản, kiểm và tích hợp vào OS của khách.
 
 - HAHA 1.1.0: baseline hình 1.0.1 giữ nguyên 239 bản ghi; bổ sung cài đặt/discovery/thư viện mở rộng. Có Voice đi kèm.
 - Voice 1.0.1: phương pháp và script ngôn ngữ của 1.0.0 giữ nguyên; bổ sung cách cài và nhận skill.
