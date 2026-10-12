@@ -4,7 +4,7 @@ Repository riêng tư chứa trọn bộ bàn giao độc lập, không cần KA
 
 - HAHA 1.1.0: baseline hình 1.0.1 giữ nguyên 239 bản ghi; bổ sung cài đặt/discovery/thư viện mở rộng. Có Voice đi kèm.
 - Voice 1.0.1: phương pháp và script ngôn ngữ của 1.0.0 giữ nguyên; bổ sung cách cài và nhận skill.
-- [Release v1.1.0](../../releases/tag/v1.1.0): hai ZIP và SHA-256. `RELEASES.json` giữ phiên bản, đường dẫn và mã kiểm.
+- [Release v1.1.0](https://github.com/Kaiemon24/haha-voice-client-handover/releases/tag/v1.1.0): hai ZIP và SHA-256. `RELEASES.json` giữ phiên bản, đường dẫn và mã kiểm.
 - [Library elements](LIBRARY-ELEMENTS.md): tạo, kiểm, duyệt và lập chỉ mục tài sản mới của khách.
 - [HAHA online preview](https://haha-design-system-handover.dihocdi.chatgpt.site): xem baseline hình; cài từ release GitHub.
 
