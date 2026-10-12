@@ -1,6 +1,6 @@
 # HAHA Design System + Voice — Client handover
 
-Repository riêng tư chứa trọn bộ bàn giao độc lập, không cần KAI OS. Bắt đầu tại [START-HERE.md](START-HERE.md); agent đọc [INSTALL.md](INSTALL.md) để tải đúng bản, kiểm và tích hợp vào OS của khách.
+Repository công khai chứa trọn bộ bàn giao độc lập, không cần KAI OS. Bắt đầu tại [START-HERE.md](START-HERE.md); agent đọc [INSTALL.md](INSTALL.md) để tải đúng bản, kiểm và tích hợp vào OS của khách.
 
 - HAHA 1.1.0: baseline hình 1.0.1 giữ nguyên 239 bản ghi; bổ sung cài đặt/discovery/thư viện mở rộng. Có Voice đi kèm.
 - Voice 1.0.1: phương pháp và script ngôn ngữ của 1.0.0 giữ nguyên; bổ sung cách cài và nhận skill.
@@ -10,4 +10,6 @@ Repository riêng tư chứa trọn bộ bàn giao độc lập, không cần KA
 
 `packages/haha` và `packages/voice` chứa source snapshot, installer, manifest, checksum, hướng dẫn HTML/PDF và tài liệu bàn giao. Đây là delivery snapshot; không chứa source OS, retired history, secrets, cache hay ảnh Pinterest có giới hạn tái phân phối.
 
-Kiểm đóng gói/fixture được người giao thực hiện; khách xác nhận quyền truy cập, đích, menu và một nhiệm vụ thật sau cài. Repository private không tự cấp quyền cho khách.
+Khách đọc và tải gói không cần đăng nhập GitHub. Sau cài, khách vẫn xác nhận đích, menu và một nhiệm vụ thật. Kiểm thử đóng gói không thay cho nghiệm thu trên máy khách.
+
+Quyền truy cập đã chuyển sang công khai. Chỉ dẫn yêu cầu quyền riêng tư trong các snapshot/PDF cũ được thay bằng mục truy cập ở INSTALL.md hiện hành; phiên bản và mã kiểm ZIP giữ nguyên. Việc công khai kho không chuyển quyền sở hữu logo hay cấp giấy phép mở cho tài sản thương hiệu.

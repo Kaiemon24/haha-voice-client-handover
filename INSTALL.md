@@ -4,7 +4,9 @@ Một prompt khởi động giúp agent tải, kiểm và dẫn khách qua cài 
 
 ## 1. Lấy đúng bản
 
-Đọc README tại repository GitHub riêng tư đã được cấp quyền. Chọn release `v1.1.0`, tải gói HAHA 1.1.0 (đã có Voice) hoặc Voice 1.0.1 độc lập. Dùng quyền GitHub hiện có; thiếu quyền thì dừng và đề nghị người giao cấp quyền qua GitHub. Không xin khách dán token vào chat, không chuyển sang bản khác hay nguồn Drive cũ.
+Repository Kaiemon24/haha-voice-client-handover đã công khai: đọc hướng dẫn và tải release không cần tài khoản, token hoặc lời mời GitHub. Chọn release `v1.1.0`, gói HAHA 1.1.0 (đã có Voice) hoặc Voice 1.0.1 độc lập. Nếu đường dẫn lỗi, kiểm lại đúng kho và phiên bản; không chuyển sang bản khác hay nguồn Drive cũ.
+
+Mục truy cập này thay chỉ dẫn xin quyền riêng tư trong snapshot/PDF cũ. ZIP và mã kiểm phát hành giữ nguyên; các quy tắc cài đặt, xác nhận đích và nghiệm thu trong gói vẫn áp dụng. Công khai kho không chuyển quyền sở hữu nhãn hiệu hoặc cấp giấy phép mở cho tài sản HAHA.
 
 Đối chiếu SHA-256 ZIP với `RELEASES.json` tại commit được khóa. Giải nén vào thư mục tạm do khách chọn, kiểm đường dẫn và `checksums.sha256`. Mở installer trước khi chạy. Không dùng chuỗi tải rồi thực thi chưa kiểm.
 

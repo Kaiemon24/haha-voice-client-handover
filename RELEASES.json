@@ -21,6 +21,6 @@
     }
   ],
   "sourceSnapshot": "delivery snapshots only",
-  "access": "private; recipient permissions required",
+  "access": "public; anonymous read and release download",
   "methods": "Voice rules/scripts retained; discovery/install docs updated"
 }
