@@ -1,0 +1,18 @@
+/* HAHA table recipes: flat monochrome reading grid, 16px cells; slide data stays on its fixed canvas. */
+.application318-table{width:100%;border-collapse:collapse;border:1px solid var(--green);box-shadow:none!important;font-family:var(--reading);font-size:16px;line-height:1.65;table-layout:auto}
+.application318-table caption{text-align:start;padding:16px;font-weight:700;background:var(--panel);color:var(--ink)}
+.application318-table th,.application318-table td{padding:16px!important;border:1px solid var(--line)!important;vertical-align:top;text-align:start!important;overflow-wrap:break-word}
+.application318-table thead{background:var(--muted);color:var(--ink)}
+.application318-table tbody th{font-weight:700;color:var(--green)}
+.application318-table[data-recipe="role-table"] th:first-child{width:27%}
+.application318-table[data-recipe="role-table"] th:nth-child(2){width:21%}
+.application318-table [data-cell-role="numeric"]{text-align:end!important;font-variant-numeric:tabular-nums}
+.application318-wrap{overflow:auto;max-width:100%;margin:24px 0;border-radius:4px;box-shadow:none!important}
+.application318-wrap:focus-visible{outline:2px solid var(--green);outline-offset:4px}
+.application318-table[data-recipe="routing"]{font-size:14px}
+.s283-canvas table th,.s283-canvas table td{border-bottom:1px solid var(--line)!important;vertical-align:top}
+.s283-canvas table thead th{font-weight:700}
+.depth311-grid h3{margin:0 0 24px}.depth311-grid+.depth311-nested{margin-top:32px}
+@media(max-width:700px){.application318-table{min-width:580px}.application318-table[data-recipe="role-table"]{min-width:0}.application318-table[data-recipe="role-table"],.application318-table[data-recipe="role-table"] tbody,.application318-table[data-recipe="role-table"] tr,.application318-table[data-recipe="role-table"] td,.application318-table[data-recipe="role-table"] tbody th{display:block;width:auto!important}.application318-table[data-recipe="role-table"] thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.application318-table[data-recipe="role-table"] tr{border-bottom:1px solid var(--line);padding:8px 0}.application318-table[data-recipe="role-table"] td,.application318-table[data-recipe="role-table"] tbody th{border:0!important;padding:8px 16px!important}.application318-table[data-recipe="role-table"] td:before{content:attr(data-column) " · ";font-weight:700}.application318-table[data-recipe="role-table"] tbody th{background:var(--muted)}}
+
+.application318-numeric{ text-align:end!important;font-variant-numeric:tabular-nums }

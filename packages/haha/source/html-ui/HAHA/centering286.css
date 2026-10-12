@@ -1,0 +1,11 @@
+/* HAHA286: single-content carriers share two-axis centering. Composite cards retain reading layout. */
+.c282-label,.s283-number,.count262,.toc283-count,.kai-single-content,[data-single-content]{display:inline-flex;align-items:center;justify-content:center;text-align:center}
+button,.button,.topnav a{display:inline-flex;align-items:center;justify-content:center;text-align:center}
+.kai-single-content>svg,[data-single-content]>svg{flex:none;display:block;margin-inline:auto}
+
+.ov252-shape{display:flex;align-items:center;justify-content:center;text-align:center}
+.centering286-rule p+p{margin-top:16px}
+.centering286-ui{margin-bottom:32px}
+.topnav a{border-top:3px solid transparent}button.ui261-important{border-top-width:3px}
+
+.k240 [data-variant=step-index],.k240 [data-variant=primary-label]{display:inline-flex!important;align-items:center;justify-content:center;text-align:center!important}

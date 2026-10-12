@@ -1,0 +1,49 @@
+# Vietnamese lint–rewrite–re-lint gate
+
+| Need | Path | Rule |
+|---|---|---|
+| Order | [Order](#order) | Read when you need order; retain the prerequisites and limits stated in that section. |
+| Statuses | [Statuses](#statuses) | Read when you need statuses; retain the prerequisites and limits stated in that section. |
+| Source-bound proof | [Source-bound proof](#source-bound-proof) | Read when you need source-bound proof; retain the prerequisites and limits stated in that section. |
+
+Owner: `viet-natural-decision-editor/v0.2`. This reference adapts the useful
+mechanism from SlopMonster without importing its English vocabulary or score.
+For the detection catalogue, examples and limits, read [Nhận diện văn tiếng
+Việt có dấu hiệu máy móc](vietnamese-ai-sounding-detection.md).
+
+## Order
+
+1. Freeze the final merged reader text and its source claims.
+2. Run `scripts/check_vietnamese_release.py`.
+3. Classify each finding as a lexical/translation, structure/rhythm,
+   source-bound proof, or final-merge signal.
+4. Repair only the flagged wording, using the meaning-first workflow and
+   preserving numbers, conditions, actors, certainty, names, links, and
+   machine values.
+5. Run the checker again after the last merge and keep the receipt beside the
+   report evidence.
+
+## Statuses
+
+- **BLOCKED:** meaning drift, dropped condition, changed number or actor,
+  unsupported proof, or a sentence that cannot be reconciled to its source.
+- **WARNING:** translation-shaped order, abstract slogan, mechanical rhythm,
+  unnecessary generic English, or lowercase sentence opening.
+- **PASS:** no blocker remains and all changed units were checked against
+  source truth. PASS is a release status, not a numerical naturalness score.
+
+The checker is deterministic evidence. It does not replace a Vietnamese reader
+review, a read-aloud pass, or the report-format source/render gates. Terms owned
+by a report template, such as `Input standard` and `Output standard`, may be
+passed in the explicit allowlist and must not be translated by this gate.
+
+The catalogue's patterns and counts are review signals only. They do not decide
+whether a sentence was written by AI, and they must not rewrite a legal quote,
+proper name, technical key, or intentional brand line.
+
+## Source-bound proof
+
+Quantities and social proof require a source-claim list. A number beside
+`khách hàng`, `người dùng`, `đánh giá`, `tin tưởng`, `hài lòng`, or a similar
+proof noun is BLOCKED when the exact claim is absent from that list. This is a
+source check, not a fluency judgment.

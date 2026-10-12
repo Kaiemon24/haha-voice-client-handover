@@ -1,0 +1,349 @@
+{
+  "id": "handover-flow",
+  "width": 1000,
+  "height": 1070,
+  "nodes": [
+    {
+      "id": "s1",
+      "x": 60,
+      "y": 110,
+      "w": 400,
+      "h": 112,
+      "title": "01 · Nhận đề bài",
+      "support": [
+        "Chọn người đọc, đầu ra",
+        "và quyền dùng tài sản."
+      ],
+      "kind": "step",
+      "phaseGroup": "brief",
+      "tool": "Client + agent",
+      "dependsOn": "User brief",
+      "output": "Bound brief"
+    },
+    {
+      "id": "s2",
+      "x": 540,
+      "y": 110,
+      "w": 400,
+      "h": 112,
+      "title": "02 · Kiểm bộ đã cài",
+      "support": [
+        "Đối chiếu phiên bản",
+        "và mã kiểm tệp."
+      ],
+      "kind": "step",
+      "phaseGroup": "research",
+      "tool": "Python inspector",
+      "dependsOn": "Installed bundle",
+      "output": "Integrity result"
+    },
+    {
+      "id": "s3",
+      "x": 540,
+      "y": 300,
+      "w": 400,
+      "h": 112,
+      "title": "03 · Chọn đúng hướng dẫn",
+      "support": [
+        "Đọc phần HAHA cần dùng",
+        "và giọng viết hoặc nói."
+      ],
+      "kind": "step",
+      "phaseGroup": "direction",
+      "tool": "Agent + local Markdown",
+      "dependsOn": "Brief + valid bundle",
+      "output": "Selected rules"
+    },
+    {
+      "id": "s4",
+      "x": 60,
+      "y": 300,
+      "w": 400,
+      "h": 112,
+      "title": "04 · Ghép thành phần thật",
+      "support": [
+        "Dùng mẫu bảng, nút, hình;",
+        "thích ứng theo HAHA."
+      ],
+      "kind": "step",
+      "phaseGroup": "production",
+      "tool": "Agent + browser",
+      "dependsOn": "Selected rules",
+      "output": "Component plan"
+    },
+    {
+      "id": "s5",
+      "x": 60,
+      "y": 490,
+      "w": 400,
+      "h": 112,
+      "title": "05 · Dựng bản nháp",
+      "support": [
+        "Giữ sự thật, logo gốc",
+        "và thứ bậc nội dung."
+      ],
+      "kind": "step",
+      "phaseGroup": "production",
+      "tool": "Authoring tool",
+      "dependsOn": "Component plan",
+      "output": "Task draft"
+    },
+    {
+      "id": "s6",
+      "x": 540,
+      "y": 490,
+      "w": 400,
+      "h": 112,
+      "title": "06 · Kiểm lời và nghĩa",
+      "support": [
+        "Kiểm tiếng Việt hoặc Anh;",
+        "đọc lại quyền và cam kết."
+      ],
+      "kind": "step",
+      "phaseGroup": "production",
+      "tool": "Voice scripts + reviewer",
+      "dependsOn": "Task draft",
+      "output": "Reviewed copy"
+    },
+    {
+      "id": "s7",
+      "x": 540,
+      "y": 680,
+      "w": 400,
+      "h": 112,
+      "title": "07 · Kiểm đầu ra thật",
+      "support": [
+        "Xem bản rộng, hẹp",
+        "và bản xuất cần dùng."
+      ],
+      "kind": "step",
+      "phaseGroup": "publish",
+      "tool": "Renderer + reviewer",
+      "dependsOn": "Reviewed draft",
+      "output": "Rendered proof"
+    },
+    {
+      "id": "s8",
+      "x": 60,
+      "y": 900,
+      "w": 400,
+      "h": 112,
+      "title": "08 · Bàn giao đã kiểm",
+      "support": [
+        "Gửi bản được xác nhận;",
+        "ghi phiên bản và giới hạn."
+      ],
+      "kind": "step",
+      "phaseGroup": "handoff",
+      "tool": "Client + agent",
+      "dependsOn": "Accepted proof + permission",
+      "output": "Verified delivery"
+    },
+    {
+      "id": "q",
+      "x": 60,
+      "y": 660,
+      "w": 340,
+      "h": 170,
+      "title": "Đủ bằng chứng",
+      "support": [
+        "và quyền gửi?"
+      ],
+      "kind": "decision",
+      "phaseGroup": "publish",
+      "tool": "Client + reviewer",
+      "dependsOn": "Rendered proof",
+      "output": "Accept or rework"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "from": "s1",
+      "to": "s2",
+      "points": [
+        [
+          460,
+          166
+        ],
+        [
+          540,
+          166
+        ]
+      ],
+      "label": ""
+    },
+    {
+      "id": "e2",
+      "from": "s2",
+      "to": "s3",
+      "points": [
+        [
+          740,
+          222
+        ],
+        [
+          740,
+          300
+        ]
+      ],
+      "label": ""
+    },
+    {
+      "id": "e3",
+      "from": "s3",
+      "to": "s4",
+      "points": [
+        [
+          540,
+          356
+        ],
+        [
+          460,
+          356
+        ]
+      ],
+      "label": ""
+    },
+    {
+      "id": "e4",
+      "from": "s4",
+      "to": "s5",
+      "points": [
+        [
+          260,
+          412
+        ],
+        [
+          260,
+          490
+        ]
+      ],
+      "label": ""
+    },
+    {
+      "id": "e5",
+      "from": "s5",
+      "to": "s6",
+      "points": [
+        [
+          460,
+          546
+        ],
+        [
+          540,
+          546
+        ]
+      ],
+      "label": ""
+    },
+    {
+      "id": "e6",
+      "from": "s6",
+      "to": "s7",
+      "points": [
+        [
+          740,
+          602
+        ],
+        [
+          740,
+          680
+        ]
+      ],
+      "label": ""
+    },
+    {
+      "id": "e7",
+      "from": "s7",
+      "to": "q",
+      "points": [
+        [
+          540,
+          736
+        ],
+        [
+          470,
+          736
+        ],
+        [
+          470,
+          745
+        ],
+        [
+          400,
+          745
+        ]
+      ],
+      "label": ""
+    },
+    {
+      "id": "e8",
+      "from": "q",
+      "to": "s8",
+      "points": [
+        [
+          230,
+          830
+        ],
+        [
+          230,
+          855
+        ],
+        [
+          260,
+          855
+        ],
+        [
+          260,
+          900
+        ]
+      ],
+      "label": "Yes",
+      "labelCenter": {
+        "x": 244.5,
+        "y": 860.5
+      },
+      "labelMask": {
+        "x": 207,
+        "y": 832,
+        "width": 76,
+        "height": 52
+      }
+    },
+    {
+      "id": "e9",
+      "from": "q",
+      "to": "s4",
+      "points": [
+        [
+          60,
+          745
+        ],
+        [
+          45,
+          745
+        ],
+        [
+          45,
+          356
+        ],
+        [
+          60,
+          356
+        ]
+      ],
+      "label": "No",
+      "labelCenter": {
+        "x": 45.0,
+        "y": 443.5
+      },
+      "labelMask": {
+        "x": 7,
+        "y": 415,
+        "width": 76,
+        "height": 52
+      }
+    }
+  ]
+}

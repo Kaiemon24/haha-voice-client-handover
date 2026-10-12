@@ -1,0 +1,182 @@
+{
+  "schema": "portable-client-package/v1",
+  "name": "Voice-OS-1.0.1-client",
+  "version": "1.0.1",
+  "packageTypes": [
+    "skill"
+  ],
+  "noncanonicalSnapshot": true,
+  "target": "client-chosen Codex workspace",
+  "runtimeDependencies": [
+    "Python 3.10+ standard library",
+    "Client Codex application/account",
+    "Modern browser for HTML"
+  ],
+  "installFiles": [
+    {
+      "source": "source/skill/voice/agents/openai.yaml",
+      "target": ".agents/skills/voice/agents/openai.yaml",
+      "sha256": "35fd629cc636c997cca5c147f91062ad3d0b00c5cc78b94ed8ee56963c1d5ea7"
+    },
+    {
+      "source": "source/skill/voice/functions/en/LICENSE",
+      "target": ".agents/skills/voice/functions/en/LICENSE",
+      "sha256": "c0f18cfb62c0745fc89316fd691678f594dcf06b9a018ee2c78a5f202e214ab0"
+    },
+    {
+      "source": "source/skill/voice/functions/en/README.md",
+      "target": ".agents/skills/voice/functions/en/README.md",
+      "sha256": "9562830bc75feca3678e027482a9a0c356e88dd3fd26577f2ac6629cae0e58ea"
+    },
+    {
+      "source": "source/skill/voice/functions/en/references/principles.md",
+      "target": ".agents/skills/voice/functions/en/references/principles.md",
+      "sha256": "3ecdb51425735d82439a53ec4dc932a7e49ebd10e9769ce9eed3a376590766c5"
+    },
+    {
+      "source": "source/skill/voice/functions/en/references/signs-of-ai-writing.md",
+      "target": ".agents/skills/voice/functions/en/references/signs-of-ai-writing.md",
+      "sha256": "6b90a3687398ce86918cc969d998b0e7fdf153d8461d06b8d6115a78466b44f1"
+    },
+    {
+      "source": "source/skill/voice/functions/en/references/upstream-provenance.md",
+      "target": ".agents/skills/voice/functions/en/references/upstream-provenance.md",
+      "sha256": "7b8afc29f61ac55369f909cc5fefc04b5c8529b371a3b7cbc70e917f2d13343c"
+    },
+    {
+      "source": "source/skill/voice/functions/en/scripts/deslop.py",
+      "target": ".agents/skills/voice/functions/en/scripts/deslop.py",
+      "sha256": "d31fd8c9b7013bd857c38afa53b59aa734a9cf96e5026ff69921e43537a9fd5a"
+    },
+    {
+      "source": "source/skill/voice/functions/vi/README.md",
+      "target": ".agents/skills/voice/functions/vi/README.md",
+      "sha256": "cddf58ebaf91f40395e7ae35bb8972ae4e9f94d7d5d216a686b6a4d91819b25c"
+    },
+    {
+      "source": "source/skill/voice/functions/vi/references/field-answer-reader-fit.md",
+      "target": ".agents/skills/voice/functions/vi/references/field-answer-reader-fit.md",
+      "sha256": "797fc595582b05da8b9d8145857611c5a6fe22341f9dec3d4a20ba46cf98a179"
+    },
+    {
+      "source": "source/skill/voice/functions/vi/references/humanization-register-and-translationese.md",
+      "target": ".agents/skills/voice/functions/vi/references/humanization-register-and-translationese.md",
+      "sha256": "d5cca7425b770e1c5a6039402fac779f281c9c969fa1cee984ffc2b6e595a4cb"
+    },
+    {
+      "source": "source/skill/voice/functions/vi/references/vietnamese-ai-sounding-detection.md",
+      "target": ".agents/skills/voice/functions/vi/references/vietnamese-ai-sounding-detection.md",
+      "sha256": "184f8cdef1e24aff27e23bdc218fc5626477655968da84267c7d6b6243f9ff8c"
+    },
+    {
+      "source": "source/skill/voice/functions/vi/references/vietnamese-lint-rewrite-gate.md",
+      "target": ".agents/skills/voice/functions/vi/references/vietnamese-lint-rewrite-gate.md",
+      "sha256": "2a9dc6f72c4e2cfd32e50e60e7b8bc95d7dd14694c5a7d0ae16491dfa7d1031a"
+    },
+    {
+      "source": "source/skill/voice/functions/vi/references/vietnamese-sentence-opening-case-v1.md",
+      "target": ".agents/skills/voice/functions/vi/references/vietnamese-sentence-opening-case-v1.md",
+      "sha256": "d9018d976b530a9b1eb15f1e0dc96bf587fbc039670dfb353d717bc2fb727d14"
+    },
+    {
+      "source": "source/skill/voice/functions/vi/references/voice-profile-and-blind-review.md",
+      "target": ".agents/skills/voice/functions/vi/references/voice-profile-and-blind-review.md",
+      "sha256": "735e6db004225a7eef5d5967a39bab56d0846710a76bbd31f811fc99b1acf630"
+    },
+    {
+      "source": "source/skill/voice/functions/vi/references/writing-voice-profile.md",
+      "target": ".agents/skills/voice/functions/vi/references/writing-voice-profile.md",
+      "sha256": "a81b3f372229b0eec0e12769d7f810037e1af0a10c69ed460a7fe0b38fda299a"
+    },
+    {
+      "source": "source/skill/voice/functions/vi/scripts/check_vietnamese_release.py",
+      "target": ".agents/skills/voice/functions/vi/scripts/check_vietnamese_release.py",
+      "sha256": "c40f6f4386d482fc7ff35fca76505e03b8b7d14a178d668d9adafb54beb0d283"
+    },
+    {
+      "source": "source/skill/voice/references/brand/voice-and-tone.md",
+      "target": ".agents/skills/voice/references/brand/voice-and-tone.md",
+      "sha256": "48af4814b9405404e9002cbd95873c1644377be877efb8a6a858bcd90b977ab3"
+    },
+    {
+      "source": "source/skill/voice/references/brand/voice-baselines.md",
+      "target": ".agents/skills/voice/references/brand/voice-baselines.md",
+      "sha256": "d76e4620ade1586e5be60bae5bd7fdaff2ccaef23329bc73c803a7f7c1ce0384"
+    },
+    {
+      "source": "source/skill/voice/references/brand/voice-evidence-method.md",
+      "target": ".agents/skills/voice/references/brand/voice-evidence-method.md",
+      "sha256": "cdacf4aec5453ae63ce0131e8cfc1ffe54a190b283f6c7203aea1e4003d48b05"
+    },
+    {
+      "source": "source/skill/voice/references/brand/voice-portable-contract.md",
+      "target": ".agents/skills/voice/references/brand/voice-portable-contract.md",
+      "sha256": "8c8a6edb0030ded85110c46bb013565273b6a454c191eb6ff892e6fdb2f3d841"
+    },
+    {
+      "source": "source/skill/voice/references/brand/voice-sources.md",
+      "target": ".agents/skills/voice/references/brand/voice-sources.md",
+      "sha256": "7c18d0ec54d4af68a402f18c9930362319cda03e91e9a28ef23c45fbabdb7a9d"
+    },
+    {
+      "source": "source/skill/voice/references/client-integration.md",
+      "target": ".agents/skills/voice/references/client-integration.md",
+      "sha256": "80298df8c736c31d3e8c37e689a62be37b910ae4e7a388179b7d78e7cf4a36e2"
+    },
+    {
+      "source": "source/skill/voice/references/output-handoff.md",
+      "target": ".agents/skills/voice/references/output-handoff.md",
+      "sha256": "552de591bfeaecd4b44f025007b27be2a59996c357e1c95d7d94e36d89f08baa"
+    },
+    {
+      "source": "source/skill/voice/references/output-voice.md",
+      "target": ".agents/skills/voice/references/output-voice.md",
+      "sha256": "437c69ff8a9d4df9d01523245eaad907b196f538d875ce6f453640e22a9aabb1"
+    },
+    {
+      "source": "source/skill/voice/references/portable-bootstrap.md",
+      "target": ".agents/skills/voice/references/portable-bootstrap.md",
+      "sha256": "b610f40d1a91dd55ed2c6c1785aa9db3d1fa925e0df8a93dfbb97f5658eb92ff"
+    },
+    {
+      "source": "source/skill/voice/references/script-usage.md",
+      "target": ".agents/skills/voice/references/script-usage.md",
+      "sha256": "22a900382c85ec16bb73944e66d2d7f2d3288d32f13f0f5a0878694481b64e6a"
+    },
+    {
+      "source": "source/skill/voice/scripts/verify_output_receipt.py",
+      "target": ".agents/skills/voice/scripts/verify_output_receipt.py",
+      "sha256": "5a698b45f936ae444b45d177ca6fd6bc9896d6613dec6f547181eb5c826df1ff"
+    },
+    {
+      "source": "source/skill/voice/scripts/voice_contract.py",
+      "target": ".agents/skills/voice/scripts/voice_contract.py",
+      "sha256": "c2bb2df24c290d0f7648894f30ed65eb6e34f5330891f2437bc3f1145fd8149e"
+    },
+    {
+      "source": "source/skill/voice/SKILL.md",
+      "target": ".agents/skills/voice/SKILL.md",
+      "sha256": "faa6431514f2b81cd0c1f239a6f21b4614a28f84c3da25dca78b8c59f43572ad"
+    }
+  ],
+  "routingMutations": false,
+  "requiresClientConfirmation": true,
+  "excluded": [
+    "Research capture bitmaps",
+    "Private task history",
+    "Credentials/caches/retired executable skills"
+  ],
+  "mutableAfterPreview": [
+    "installer/install-preview.json",
+    "installer/install-preview.md"
+  ],
+  "rights": "HAHA supplied-asset client work permitted by owner; trademark and third-party scope remain separate; Be Vietnam Pro SIL OFL included.",
+  "proofScope": "Packaging and isolated fixture only. Not installed on a real client machine.",
+  "defaultSkillLayout": "codex",
+  "supportedSkillLayouts": [
+    "codex",
+    "kai-os"
+  ],
+  "sourceBaseline": "Voice1.0.0 methods/scripts unchanged; delivery/install guide updated",
+  "supersedes": "1.0.0"
+}

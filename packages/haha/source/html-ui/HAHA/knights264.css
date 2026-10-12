@@ -1,0 +1,4 @@
+.knight264-intro{margin-bottom:32px}.knight264-grid{margin-bottom:48px}
+.motion-icon.knight264 .moving{animation:knight264-bob 3s ease-in-out infinite;transform-box:view-box;transform-origin:16px 16px}
+@keyframes knight264-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-1px)}}
+@media(prefers-reduced-motion:reduce){.knight264 *{animation:none!important}}

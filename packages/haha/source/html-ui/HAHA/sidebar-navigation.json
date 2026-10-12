@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sidebar-navigation/v1",
+  "brand": "HAHA",
+  "version": "0.13-sidebar-trial",
+  "userApproved": "RUN298 option1 approves RUN297 visual direction",
+  "mainCard": {
+    "border": 1,
+    "radius": 0,
+    "shadow": 2,
+    "blur": 0,
+    "spread": 0,
+    "fontWeight": 700
+  },
+  "children": {
+    "indent": 20,
+    "bullet": 4,
+    "shadow": 0,
+    "fontWeight": 400
+  },
+  "receivingSurface": {
+    "light": "#000000",
+    "dark": "#FFFFFF"
+  },
+  "invariants": [
+    "One outer silhouette/shadow per main group",
+    "Keep counts and anchor targets",
+    "Keyboard expand/collapse and current section retained",
+    "No horizontal scroll or shadow clipping"
+  ]
+}

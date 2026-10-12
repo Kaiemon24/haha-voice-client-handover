@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "client-github-release/v1",
+  "tag": "v1.1.0",
+  "repo": "Kaiemon24/haha-voice-client-handover",
+  "packages": [
+    {
+      "name": "HAHA-Design-System-1.1.0-client",
+      "version": "1.1.0",
+      "file": "HAHA-Design-System-1.1.0-client.zip",
+      "sha256": "a1f34b73d63324ea1510606f666b046bc7b36dd50dd357293680debec01cee3c",
+      "bytes": 16829168,
+      "packagePath": "packages/haha"
+    },
+    {
+      "name": "Voice-OS-1.0.1-client",
+      "version": "1.0.1",
+      "file": "Voice-OS-1.0.1-client.zip",
+      "sha256": "89c83fa58ea8fc9d8c4462a708656805397f6cae196fe155beda52d7667416b3",
+      "bytes": 499552,
+      "packagePath": "packages/voice"
+    }
+  ],
+  "sourceSnapshot": "delivery snapshots only",
+  "access": "private; recipient permissions required",
+  "methods": "Voice rules/scripts retained; discovery/install docs updated"
+}

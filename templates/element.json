@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "brand-library-element/v1",
+  "id": "client-selected-id",
+  "version": "0.1.0",
+  "brand": "HAHA",
+  "type": "client-selected-type",
+  "purpose": "",
+  "useWhen": [],
+  "avoidWhen": [],
+  "baselineVersion": "1.0.1-client-snapshot",
+  "selectedRules": [],
+  "files": [],
+  "dependencies": [],
+  "sourceRights": [],
+  "accessibility": {},
+  "validation": [],
+  "approval": null,
+  "status": "draft"
+}

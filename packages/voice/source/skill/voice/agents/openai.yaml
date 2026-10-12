@@ -1,0 +1,6 @@
+interface:
+  display_name: "Voice"
+  short_description: "Viết và kiểm giọng Việt/Anh"
+  default_prompt: "Use $voice for the requested task."
+policy:
+  allow_implicit_invocation: true

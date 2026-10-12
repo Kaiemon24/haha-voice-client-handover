@@ -1,0 +1,15 @@
+{
+  "status": "local-trial-not-admitted",
+  "sourceIdentity": "232 inherited functions mapped one-to-one",
+  "scope": "232 inherited functions plus logo/four production applications/two Overview specimens; three views and six Application groups",
+  "pending": [
+    "Existing full admission/rights and native export requirements, outside this metadata repair"
+  ],
+  "evidenceSource": "record-dossiers.json",
+  "productionReady": false,
+  "retrievalRevision": "0.12-trial",
+  "retrievalEvidence": "Current approved-component-standard native census; current239 record source closure; no new export/admission claim",
+  "libraryCount": 195,
+  "applicationCount": 42,
+  "productionJobs": 5
+}

@@ -1,0 +1,12 @@
+> NON-CANONICAL DELIVERY SNAPSHOT — 2026.10.12-v1. Portable adaptation; not the source OS authority.
+
+# Upstream provenance
+
+- **Source:** [ItsssssJack/SlopMonster](https://github.com/ItsssssJack/SlopMonster)
+- **Audited revision:** `f261dbf11c2a206ecd8780c070a46dae64edd8be`
+- **License:** MIT; the upstream `LICENSE` file is retained with this skill.
+- **Retained mechanics:** visible-text linting, source-preserving rewrite,
+  optional independent cleanse, re-lint, and a receipt of findings.
+- **Adaptation boundary:** this skill remains English-only. Vietnamese wording,
+  source-bound proof, and language exceptions belong to
+  `viet-natural-decision-editor`.

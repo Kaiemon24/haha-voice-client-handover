@@ -1,0 +1,7 @@
+.count262{display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;margin-left:16px;padding:4px 8px;background:var(--muted);color:var(--ink);border:1px solid var(--line);border-radius:4px;box-shadow:2px 2px 0 var(--shadow);font:700 16px/1.5 'Be Vietnam Pro',sans-serif;white-space:nowrap}
+.rail a:has(.count262){display:grid;grid-template-columns:24px minmax(0,1fr) auto;gap:8px}.count262-rail{margin:0;padding:2px 4px;min-width:32px;font-size:16px}.count262-name{min-width:0;overflow-wrap:break-word}
+.count262-group{display:flex;align-items:center;gap:16px;margin:0 0 24px}.count262-group .count262{margin:0}
+.chart262-coverage{margin-bottom:32px}.chart262-coverage ul{margin:16px 0 0;display:grid;gap:16px;padding-left:24px}.chart262-coverage p:last-child{margin-bottom:0}
+#library,#applications{scroll-margin-top:128px}
+@media(max-width:1000px){#library,#applications{scroll-margin-top:176px}}
+@media(max-width:800px){.section-head h1 .count262,.section-head h2 .count262{margin-top:16px}.rail a:has(.count262){grid-template-columns:24px minmax(0,1fr) auto}}

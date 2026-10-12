@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="handover-flow" name="Workflow">
+    <mxGraphModel page="1" pageWidth="1000" pageHeight="1070">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s1" value="01 · Nhận đề bài&#10;Chọn người đọc, đầu ra&#10;và quyền dùng tài sản." vertex="1" parent="1" nodeType="step" phaseGroup="brief" stepId="s1" tool="Client + agent" dependsOn="User brief" output="Bound brief" agentInstruction="Apply the shipped package rules; verify actual task output." logic="Rework on insufficient evidence; deliver only with scoped permission." minSafeBoxGapPx="7" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=28;fillColor=#DFEDE7;strokeColor=#466458;fontColor=#1F2633;strokeWidth=2;spacing=12;">
+          <mxGeometry as="geometry" x="60" y="110" width="400" height="112" />
+        </mxCell>
+        <mxCell id="s2" value="02 · Kiểm bộ đã cài&#10;Đối chiếu phiên bản&#10;và mã kiểm tệp." vertex="1" parent="1" nodeType="step" phaseGroup="research" stepId="s2" tool="Python inspector" dependsOn="Installed bundle" output="Integrity result" agentInstruction="Apply the shipped package rules; verify actual task output." logic="Rework on insufficient evidence; deliver only with scoped permission." minSafeBoxGapPx="7" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=28;fillColor=#DFEDE7;strokeColor=#466458;fontColor=#1F2633;strokeWidth=2;spacing=12;">
+          <mxGeometry as="geometry" x="540" y="110" width="400" height="112" />
+        </mxCell>
+        <mxCell id="s3" value="03 · Chọn đúng hướng dẫn&#10;Đọc phần HAHA cần dùng&#10;và giọng viết hoặc nói." vertex="1" parent="1" nodeType="step" phaseGroup="direction" stepId="s3" tool="Agent + local Markdown" dependsOn="Brief + valid bundle" output="Selected rules" agentInstruction="Apply the shipped package rules; verify actual task output." logic="Rework on insufficient evidence; deliver only with scoped permission." minSafeBoxGapPx="8" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=28;fillColor=#DFEDE7;strokeColor=#466458;fontColor=#1F2633;strokeWidth=2;spacing=12;">
+          <mxGeometry as="geometry" x="540" y="300" width="400" height="112" />
+        </mxCell>
+        <mxCell id="s4" value="04 · Ghép thành phần thật&#10;Dùng mẫu bảng, nút, hình;&#10;thích ứng theo HAHA." vertex="1" parent="1" nodeType="step" phaseGroup="production" stepId="s4" tool="Agent + browser" dependsOn="Selected rules" output="Component plan" agentInstruction="Apply the shipped package rules; verify actual task output." logic="Rework on insufficient evidence; deliver only with scoped permission." minSafeBoxGapPx="7" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=28;fillColor=#DFEDE7;strokeColor=#466458;fontColor=#1F2633;strokeWidth=2;spacing=12;">
+          <mxGeometry as="geometry" x="60" y="300" width="400" height="112" />
+        </mxCell>
+        <mxCell id="s5" value="05 · Dựng bản nháp&#10;Giữ sự thật, logo gốc&#10;và thứ bậc nội dung." vertex="1" parent="1" nodeType="step" phaseGroup="production" stepId="s5" tool="Authoring tool" dependsOn="Component plan" output="Task draft" agentInstruction="Apply the shipped package rules; verify actual task output." logic="Rework on insufficient evidence; deliver only with scoped permission." minSafeBoxGapPx="8" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=28;fillColor=#DFEDE7;strokeColor=#466458;fontColor=#1F2633;strokeWidth=2;spacing=12;">
+          <mxGeometry as="geometry" x="60" y="490" width="400" height="112" />
+        </mxCell>
+        <mxCell id="s6" value="06 · Kiểm lời và nghĩa&#10;Kiểm tiếng Việt hoặc Anh;&#10;đọc lại quyền và cam kết." vertex="1" parent="1" nodeType="step" phaseGroup="production" stepId="s6" tool="Voice scripts + reviewer" dependsOn="Task draft" output="Reviewed copy" agentInstruction="Apply the shipped package rules; verify actual task output." logic="Rework on insufficient evidence; deliver only with scoped permission." minSafeBoxGapPx="7" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=28;fillColor=#DFEDE7;strokeColor=#466458;fontColor=#1F2633;strokeWidth=2;spacing=12;">
+          <mxGeometry as="geometry" x="540" y="490" width="400" height="112" />
+        </mxCell>
+        <mxCell id="s7" value="07 · Kiểm đầu ra thật&#10;Xem bản rộng, hẹp&#10;và bản xuất cần dùng." vertex="1" parent="1" nodeType="step" phaseGroup="publish" stepId="s7" tool="Renderer + reviewer" dependsOn="Reviewed draft" output="Rendered proof" agentInstruction="Apply the shipped package rules; verify actual task output." logic="Rework on insufficient evidence; deliver only with scoped permission." minSafeBoxGapPx="7" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=28;fillColor=#DFEDE7;strokeColor=#466458;fontColor=#1F2633;strokeWidth=2;spacing=12;">
+          <mxGeometry as="geometry" x="540" y="680" width="400" height="112" />
+        </mxCell>
+        <mxCell id="s8" value="08 · Bàn giao đã kiểm&#10;Gửi bản được xác nhận;&#10;ghi phiên bản và giới hạn." vertex="1" parent="1" nodeType="step" phaseGroup="handoff" stepId="s8" tool="Client + agent" dependsOn="Accepted proof + permission" output="Verified delivery" agentInstruction="Apply the shipped package rules; verify actual task output." logic="Rework on insufficient evidence; deliver only with scoped permission." minSafeBoxGapPx="7" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=28;fillColor=#DFEDE7;strokeColor=#466458;fontColor=#1F2633;strokeWidth=2;spacing=12;">
+          <mxGeometry as="geometry" x="60" y="900" width="400" height="112" />
+        </mxCell>
+        <mxCell id="q" value="Đủ bằng chứng&#10;và quyền gửi?" vertex="1" parent="1" nodeType="decision" phaseGroup="publish" stepId="q" tool="Client + reviewer" dependsOn="Rendered proof" output="Accept or rework" agentInstruction="Apply the shipped package rules; verify actual task output." logic="Rework on insufficient evidence; deliver only with scoped permission." minSafeBoxGapPx="7.460937499999999" style="rhombus;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=28;fillColor=#FFF0CC;strokeColor=#466458;fontColor=#1F2633;strokeWidth=2;spacing=12;spacingLeft=20;spacingRight=20;spacingTop=12;spacingBottom=12;spacingLeft=20;spacingRight=20;spacingTop=12;spacingBottom=12;spacingLeft=20;spacingRight=20;spacingTop=12;spacingBottom=12;spacingLeft=20;spacingRight=20;spacingTop=12;spacingBottom=12;">
+          <mxGeometry as="geometry" x="60" y="660" width="340" height="170" />
+        </mxCell>
+        <mxCell id="e1" value="" edge="1" parent="1" source="s1" target="s2" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;strokeColor=#526174;fontFamily=Arial;fontSize=28;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="" edge="1" parent="1" source="s2" target="s3" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;strokeColor=#526174;fontFamily=Arial;fontSize=28;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="" edge="1" parent="1" source="s3" target="s4" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;strokeColor=#526174;fontFamily=Arial;fontSize=28;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="" edge="1" parent="1" source="s4" target="s5" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;strokeColor=#526174;fontFamily=Arial;fontSize=28;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="" edge="1" parent="1" source="s5" target="s6" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;strokeColor=#526174;fontFamily=Arial;fontSize=28;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="" edge="1" parent="1" source="s6" target="s7" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;strokeColor=#526174;fontFamily=Arial;fontSize=28;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="" edge="1" parent="1" source="s7" target="q" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;strokeColor=#526174;fontFamily=Arial;fontSize=28;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="470" y="736" />
+              <mxPoint x="470" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="Yes" edge="1" parent="1" source="q" target="s8" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;strokeColor=#526174;fontFamily=Arial;fontSize=28;labelBackgroundColor=#FFFFFF;" minLabelShapeGapPx="15.0" minLabelArrowGapPx="17.0" minLabelTextGapPx="31.0" minLabelStrokeGapPx="8" collisionCount="0" placementMode="reserved-mask-offset" labelGapMode="white-mask-erases-connector">
+          <mxGeometry as="geometry" relative="1" x="0" y="0">
+            <Array as="points">
+              <mxPoint x="230" y="855" />
+              <mxPoint x="260" y="855" />
+            </Array>
+            <mxPoint as="offset" x="-10.5" y="5.5" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="No" edge="1" parent="1" source="q" target="s4" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeWidth=2;strokeColor=#526174;fontFamily=Arial;fontSize=28;labelBackgroundColor=#FFFFFF;" minLabelShapeGapPx="16.0" minLabelArrowGapPx="65.0" minLabelTextGapPx="63.288803561530536" minLabelStrokeGapPx="8" collisionCount="0" placementMode="reserved-mask-offset" labelGapMode="white-mask-erases-connector">
+          <mxGeometry as="geometry" relative="1" x="0" y="0">
+            <Array as="points">
+              <mxPoint x="45" y="745" />
+              <mxPoint x="45" y="356" />
+            </Array>
+            <mxPoint as="offset" x="0.0" y="-107.0" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

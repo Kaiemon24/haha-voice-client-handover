@@ -1,0 +1,100 @@
+# Nhận diện văn tiếng Việt có dấu hiệu máy móc
+
+| Need | Path | Rule |
+|---|---|---|
+| Cơ chế kiểm tra ba lớp | [Cơ chế kiểm tra ba lớp](#cơ-chế-kiểm-tra-ba-lớp) | Read when you need cơ chế kiểm tra ba lớp; retain the prerequisites and limits stated in that section. |
+| Bản đồ tín hiệu, cách sửa và giới hạn | [Bản đồ tín hiệu, cách sửa và giới hạn](#bản-đồ-tín-hiệu-cách-sửa-và-giới-hạn) | Read when you need bản đồ tín hiệu, cách sửa và giới hạn; retain the prerequisites and limits stated in that section. |
+| Quy trình xử lý một cảnh báo | [Quy trình xử lý một cảnh báo](#quy-trình-xử-lý-một-cảnh-báo) | Read when you need quy trình xử lý một cảnh báo; retain the prerequisites and limits stated in that section. |
+| Mười trường hợp điển hình | [Mười trường hợp điển hình](#mười-trường-hợp-điển-hình) | Read when you need mười trường hợp điển hình; retain the prerequisites and limits stated in that section. |
+| Không thể quyết định bằng lint | [Không thể quyết định bằng lint](#không-thể-quyết-định-bằng-lint) | Read when you need không thể quyết định bằng lint; retain the prerequisites and limits stated in that section. |
+
+Owner: `viet-natural-decision-editor/v0.2`.
+
+Tài liệu này mô tả cách phát hiện và sửa những tín hiệu thường làm câu tiếng
+Việt nghe như bản dịch hoặc bản ráp tự động. Đây là bộ kiểm tra định hướng, không
+phải máy đo xem văn bản có do AI viết hay không. Một tín hiệu chỉ mở một lượt xem
+lại; kết luận cuối phải đối chiếu nguồn, người đọc và ngữ cảnh.
+
+## Cơ chế kiểm tra ba lớp
+
+1. **Tín hiệu từ ngữ và cấu trúc:** bộ lint tìm cụm sáo, trật tự giống tiếng
+   Anh, từ tiếng Anh không cần thiết, nhịp liệt kê đều, câu hỏi tự hỏi–tự trả lời,
+   mở đầu viết thường và dấu câu dày. Kết quả là cảnh báo có dòng và mẫu cụ thể.
+2. **Tín hiệu ở cấp đoạn:** người biên tập xem chủ thể, động từ, quan hệ nguyên
+   nhân–kết quả, độ dài câu và sự lặp mở đầu. Cùng một mẫu xuất hiện dày trong
+   một trang hoặc một phần đáng xem lại hơn một lần xuất hiện có chủ ý.
+3. **Cổng nguồn và người đọc:** mọi số liệu, bằng chứng xã hội, tên riêng, điều
+   kiện và mức độ chắc chắn phải khớp nguồn khóa. Đọc thành tiếng và đọc lại sau
+   khi ráp dữ liệu để bắt lỗi mà regex không thấy.
+
+Không gộp ba lớp thành một điểm số. Trạng thái phát hành là **PASS**, **WARNING**
+hoặc **BLOCKED**:
+
+- **BLOCKED:** sai nghĩa, đổi số liệu/chủ thể/điều kiện, bịa bằng chứng, hoặc
+  không thể nối câu với nguồn.
+- **WARNING:** câu dịch theo trật tự tiếng Anh, sáo, lặp nhịp, từ tiếng Anh
+  không cần thiết, dấu câu máy móc hoặc lỗi ráp chữ; cần người sửa và đọc lại.
+- **PASS:** không còn lỗi chặn và mọi thay đổi đã đối chiếu nguồn. PASS không
+  chứng minh văn bản do người viết hay đạt “điểm tự nhiên” nào.
+
+## Bản đồ tín hiệu, cách sửa và giới hạn
+
+| Nhóm tín hiệu | Cách phát hiện | Vì sao nghe như máy | Cách sửa | Giới hạn cần giữ |
+|---|---|---|---|---|
+| Trật tự dịch | Chuỗi danh từ dài; `việc … được thực hiện`, `cung cấp khả năng`, `trong việc` | Giữ nguyên khung tiếng Anh thay vì nêu việc chính | Đưa chủ thể và động từ lên trước; bỏ danh từ hóa | Giữ cấu trúc nếu là tên quy trình hoặc điều khoản chính thức |
+| Khẩu hiệu trừu tượng | `khai phá toàn bộ tiềm năng`, `tạo ra giá trị`, `tối ưu hóa hiệu quả`, `mang tính chiến lược` | Nhiều lợi ích nhưng không có hành động hay đối tượng | Thay bằng việc làm, đối tượng và kết quả kiểm tra được | Không xóa thông điệp thương hiệu đã được duyệt; cần thêm nghĩa cụ thể |
+| Nhịp đối xứng | Lặp `không chỉ… mà còn`, `từ… đến…`, ba vế cùng độ dài hoặc cùng cách mở đầu | Sự đều đặn giống văn được sinh theo khuôn | Giữ ý chính, gộp hoặc tách câu; thay đổi độ dài có chủ đích | Một lần dùng trong tiêu đề có thể là dụng ý tu từ |
+| Câu tự hỏi–tự trả lời | `Câu hỏi là… Câu trả lời là…`, `Kết quả? …` | Giả lập hội thoại để kéo dài một ý | Viết thẳng kết luận hoặc câu hỏi thật sự cần người đọc trả lời | Giữ khi tài liệu thật sự là kịch bản hỏi–đáp |
+| Từ nối và dấu câu dày | Hai gạch ngang dài, chấm phẩy hoặc `vì vậy` lặp liên tiếp | Câu bị nối cơ học và nhịp đọc không giống người nói | Tách câu; dùng dấu phẩy hoặc từ nối đúng quan hệ | Dấu câu trong mã, tên tài liệu và trích dẫn không lint |
+| Quy trình rỗng | `tiếp tục theo dõi`, `đẩy mạnh`, `tăng cường` nhưng thiếu ai làm gì | Nghe như lời khuyên chung, không giúp quyết định | Nêu chủ thể, đối tượng, thời điểm và tiêu chí | Có thể giữ trong action log nếu trường đó yêu cầu câu ngắn |
+| Tiếng Anh không cần thiết | Từ chung như `native`, `workflow`, `output`, `next step` trong câu tiếng Việt | Tạo cảm giác ráp từ nhiều nguồn | Dịch hoặc giải thích ở lần đầu; giữ allowlist của template/kỹ thuật | Giữ tên riêng, khóa máy, URL, tên tab và thuật ngữ bắt buộc |
+| Bằng chứng phóng đại | Số đứng cạnh `khách hàng`, `người dùng`, `tin tưởng`, `hài lòng` mà không có claim nguồn | Câu trơn tru nhưng không đáng tin | Chặn phát hành; thêm excerpt nguồn hoặc hạ mức khẳng định | Không suy ra “đã mua” từ “muốn thử” |
+| Ráp chữ cuối | Mở đầu viết thường, chủ thể mơ hồ, bullet vỡ dòng hoặc lặp từ sau merge | Lỗi không có trong bản nguồn, chỉ xuất hiện ở lớp hiển thị | Lint reader layer sau merge, rồi đọc lại từng vùng hiển thị | Không sửa machine key, công thức, mã, URL hoặc tên pháp lý |
+
+## Quy trình xử lý một cảnh báo
+
+1. **Khoanh dòng:** ghi rule, dòng, câu đầy đủ và vùng hiển thị nếu là slide.
+2. **Đối chiếu nguồn:** đánh dấu chủ thể, số liệu, điều kiện, thời gian, mức độ
+   chắc chắn và tên riêng phải giữ.
+3. **Sửa một ý:** viết lại từ nghĩa tiếng Việt; không thêm lợi ích, bằng chứng,
+   hành động hoặc mức chắc chắn mới.
+4. **Đọc độc lập:** đọc câu sau khi bỏ nguồn; kiểm tra câu hỏi mà người đọc cần
+   trả lời và nhịp khi đọc thành tiếng.
+5. **Đối chiếu lại và ráp lại:** chạy lint trên bản cuối cùng, kiểm tra reader
+   unit, rồi mới chạy kiểm tra native/render của report-format.
+
+Lớp ngôn ngữ không được tự đổi layout, thứ tự slide, số liệu, nguồn hay ý định
+chiến lược. Nếu câu không vừa khung, chuyển sang layout/chia slide theo owner
+report-format; không thu nhỏ chữ để che lỗi sức chứa.
+
+## Mười trường hợp điển hình
+
+Các ví dụ dưới đây là mẫu huấn luyện; chúng không phải bằng chứng cho khách hàng
+hay sản phẩm thật.
+
+| Mã | Trước | Tín hiệu | Sửa theo hướng | Sau |
+|---|---|---|---|---|
+| VI-S01 | Việc phân công lại nhân sự được thực hiện để đáp ứng nhu cầu tăng. | Dịch theo trật tự Anh, danh từ hóa | Đưa hành động và nguyên nhân lên trước | Số yêu cầu tăng nên đội dự án cần phân công lại nhân sự. |
+| VI-S02 | Giải pháp khai phá toàn bộ tiềm năng tăng trưởng. | Khẩu hiệu không có đối tượng | Nêu việc đo được | Giải pháp giúp nhóm thử hai kênh trước khi mở rộng. |
+| VI-S03 | Không chỉ rút ngắn thời gian mà còn tối ưu hóa hiệu quả. | Đối xứng và lợi ích trừu tượng | Giữ một kết quả kiểm tra được | Thời gian xử lý giảm từ 40 xuống 25 phút. |
+| VI-S04 | Câu hỏi là làm sao mở rộng? Câu trả lời là cần quy trình. | Tự hỏi–tự trả lời | Nêu điều kiện quyết định | Chỉ mở rộng sau khi quy trình thử đạt tiêu chí đã thống nhất. |
+| VI-S05 | Chúng tôi sẽ tiếp tục theo dõi và đẩy mạnh hoạt động. | Quy trình rỗng | Nêu người, việc và mốc | Đội nội dung xem lại 10 bài có lượt lưu thấp vào thứ Sáu. |
+| VI-S06 | Đây là một giải pháp mang tính chiến lược để tạo ra giá trị. | Cụm trừu tượng lặp | Đổi sang lợi ích cụ thể | Mô-đun giúp giảng viên dùng lại bài tập và phản hồi. |
+| VI-S07 | Cập nhật native trong workflow để có output tốt hơn. | Tiếng Anh chung không cần thiết | Dịch và giữ ngoại lệ có lý do | Cập nhật bản trình bày trong quy trình để dễ đọc hơn. |
+| VI-S08 | Hơn 10.000 khách hàng tin tưởng dịch vụ. | Bằng chứng không có claim nguồn | Chặn, yêu cầu excerpt | Chưa phát hành: cần nguồn xác nhận con số và hành động “tin tưởng”. |
+| VI-S09 | Nhóm nghiên cứu phân tích dữ liệu, xây dựng khuyến nghị, triển khai thử nghiệm. | Ba vế đều và dày | Tách theo vai trò | Nhóm nghiên cứu phân tích dữ liệu. Sau đó, nhóm thử khuyến nghị ở một điểm chạm. |
+| VI-S10 | kết quả cho thấy doanh thu tăng 15%. | Lỗi ráp chữ sau merge | Viết hoa và giữ kỳ so sánh | Kết quả cho thấy doanh thu tăng 15%; kỳ so sánh cần ghi rõ. |
+
+## Không thể quyết định bằng lint
+
+Lint không tự biết một câu trang trọng là dụng ý pháp lý, một thuật ngữ là bắt
+buộc của giao diện, hay một trích dẫn đang được giữ nguyên. Lint cũng không
+đánh giá được hàm ý hình ảnh, giọng của người phát ngôn, mức phù hợp với thương
+hiệu hoặc việc một insight có thật sự đổi quyết định. Những điểm này cần người
+đọc có ngữ cảnh và bằng chứng nguồn.
+
+### Biên nhận tối thiểu
+
+Mỗi lượt phát hành ghi `status`, danh sách finding theo dòng, nguồn claim đã dùng,
+allowlist thuật ngữ, các câu đã sửa và giới hạn còn lại. Không ghi một điểm số
+“tự nhiên” thay cho biên nhận.

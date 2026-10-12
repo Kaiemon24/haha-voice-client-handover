@@ -1,0 +1,1 @@
+const selected248=new URLSearchParams(location.search).get('item');location.hash='#applications';(()=>{const found=document.getElementById(selected248);if(!found?.matches('.slide-record')){document.querySelector('#view').textContent='Mẫu chưa có trong danh mục. Không tự chọn mẫu thay thế.';return;}document.querySelector('#view').replaceChildren(found);window.scrollTo(0,0)})();

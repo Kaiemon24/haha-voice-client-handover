@@ -1,0 +1,22 @@
+🎯 OUTPUT INTENT
+Create ONE new wide master photograph for the HAHA monochrome design system. It should work as a slide background and website hero image with a quiet usable text field. Produce a single scene, not a style sheet or collage.
+🔒 REFERENCE LOCKS
+Three attached images are style references only. Image 1: black-and-white collaborative white-desk work. Image 2: dark wood, matte textiles and restrained work objects. Image 3: soft window daylight and contemporary workspace. Transfer their monochrome editorial realism, tactile surfaces and professional activity. Do not copy faces, exact rooms, exact device screens, documents, data, identities, logos or compositions. Depict a fictional workspace and fictional people; this is illustrative, not a photograph of HAHA's actual staff or office.
+👤 SUBJECT
+Two fictional Vietnamese adult colleagues at a small dark wood work table on the right half of the frame, calmly reviewing a single open unbranded laptop and a plain notebook. One seated, one standing slightly behind and to the side, fully natural anatomy and plausible hands. Solid matte charcoal and off-white professional casual clothing. One small unbranded ceramic cup. Only these few selected objects.
+🌍 ENVIRONMENT
+A modern understated consulting workspace: soft off-white plaster wall, restrained dark furniture, subtle depth and no clutter. The left 40-45 percent is a continuous quiet pale wall field with no people, no furniture crossing it, no strong window grids and no high-contrast detail. The work area and two complete upper-body silhouettes live on the right. Human faces remain readable, not silhouettes. No decorative plants, logos or artwork.
+🎬 ACTION
+A settled candid moment of collaboration: the seated colleague reviews the laptop while the standing colleague indicates a point in the plain notebook. Calm practical work, no handshake, no presentation to camera, no exaggerated stock-photo smiles. Keep hands simple and credible.
+💡 LIGHTING
+Large soft daylight key from camera-left, gentle tonal gradients, moderate black-and-white contrast with preserved detail in charcoal fabrics, natural skin and shadow areas. Pale wall stays calm and evenly lit. No theatrical spotlights, harsh rim light or blown highlights.
+📷 CAMERA
+Polished editorial photograph, eye level, medium-wide natural perspective approximately 35mm equivalent, straight architectural verticals. One horizontal 16:9 frame with enough breathing room above both heads. Work table and upper bodies occupy the rightmost half; no face or hand chopped at frame boundaries. Moderate depth of field: relevant people and table clear, quiet wall subtly recedes.
+🎨 METATOKENS
+Neutral monochrome only; soft minimalism, modern professionalism, authentic working detail, matte materials, restrained natural retouching, fine subtle photographic grain, 16K-detail fidelity as finish intent only.
+✅ REQUIRED LOCKS
+One coherent photographic scene; two fictional colleagues; black, white and neutral gray only; continuous quiet left text field; plausible anatomy; no readable device or document text; complete heads; no logos; no embedded title. Keep the three reference images' restrained editorial visual grammar without copying their shot layouts.
+⚠️ EXCLUSIONS
+No collage, panels, image grid, typography, watermark, brand marks, colored accents, sepia or blue tint, neon, chrome sculpture, abstract 3D shapes, dramatic silhouettes, cluttered props, fake graphs, readable numbers or claims, extra people, extra limbs, fused hands, oversized device, plastic-looking skin or glossy corporate advertising pose.
+📐 OUTPUT SPECIFICATION
+One opaque landscape 16:9 image at provider-supported native dimensions. Preserve original provider pixels; do not upscale. No text or logos.

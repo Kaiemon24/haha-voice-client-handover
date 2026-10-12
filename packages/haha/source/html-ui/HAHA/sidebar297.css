@@ -1,0 +1,24 @@
+/* Review-only sidebar proposal; shared hierarchy, brand-specific depth. */
+:root{--rail-card-shadow:3px;--rail-card-ink:#000;--rail-card-radius:4px}
+body.dark{--rail-card-ink:#fff}
+body[data-sidebar-brand="HAHA"]{--rail-card-shadow:2px;--rail-card-radius:0px}
+.rail nav#toc{padding:4px 10px 16px 0}
+#toc>:is(a,details){border:1px solid var(--rail-card-ink);border-radius:var(--rail-card-radius);background:var(--panel);box-shadow:var(--rail-card-shadow) var(--rail-card-shadow) 0 var(--rail-card-ink)!important;margin:0 0 18px;min-width:0;overflow:visible}
+#toc>a{font-weight:700;padding:12px;min-height:48px;gap:10px}
+#toc>a[aria-current]{border-left:3px solid var(--fire);padding-left:10px}
+#toc>details>summary{display:flex;align-items:center;gap:8px;min-height:48px;padding:12px;cursor:pointer;font-weight:700;border-radius:var(--rail-card-radius);list-style:none}
+#toc>details>summary::-webkit-details-marker{display:none}
+#toc>details>summary::after{content:'›';margin-left:auto;transform:rotate(0deg);font-size:20px;line-height:1}
+#toc>details[open]>summary::after{transform:rotate(90deg)}
+#toc>details>summary>a{display:block;flex:1;min-width:0;margin:0;padding:0;border:0!important;box-shadow:none!important;background:transparent!important;font-weight:700;line-height:1.5}
+#toc>details>summary>svg{flex:none;width:24px;height:24px}
+#toc>details .toc283-children{padding:4px 10px 12px 20px;margin:0;display:grid;gap:8px}
+#toc>details .toc283-children>a{position:relative;display:flex;align-items:flex-start;gap:8px;min-height:44px;padding:10px 6px 10px 16px;margin:0;border:0!important;border-radius:2px;box-shadow:none!important;font-weight:400;line-height:1.5;min-width:0}
+#toc>details .toc283-children>a::before{content:'';width:4px;height:4px;background:currentColor;position:absolute;left:3px;top:20px;border-radius:50%}
+#toc>details .toc283-children>a[aria-current]{background:var(--muted);font-weight:700;outline:1px solid var(--rail-card-ink)}
+#toc a>span:first-of-type{min-width:0;overflow-wrap:anywhere}
+#toc .toc283-count,#toc .count-badge{flex:none;margin-left:auto}
+#toc a:focus-visible,#toc summary:focus-visible{outline:2px solid var(--rail-card-ink);outline-offset:4px}
+@media(forced-colors:active){#toc>:is(a,details){box-shadow:none;border:1px solid CanvasText}}
+@media(max-width:800px){.rail nav#toc{padding-right:10px}.rail.open{max-height:65dvh}#toc>details .toc283-children{padding-left:24px}}
+

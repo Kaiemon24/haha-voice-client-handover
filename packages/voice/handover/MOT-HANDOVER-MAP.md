@@ -1,0 +1,15 @@
+# Map of Transfer — Bản đồ bàn giao
+
+| Phần | Trách nhiệm |
+|---|---|
+| source/skill | Hướng dẫn và script độc lập; không cần KAI OS. |
+| COMPILED-VOICE.md | Toàn bộ phương pháp Voice cho môi trường chỉ đọc văn bản. |
+| installer | Xem trước, kiểm hash và cài riêng vào workspace khách. |
+| sop | Hướng dẫn P/A/C/K và thử sau cài. |
+| handover | Sơ đồ sửa được và bản đồ chức năng. |
+| provenance | Nguồn và phiên bản; original.txt bất động, không kích hoạt. |
+| manifest + checksums | Mã kiểm và đường dẫn đích, giữ một bản cố định. |
+
+## GitHub + integration update
+
+Release GitHub pinned/hash verified → inspect client OS/target → preview → client confirmation → apply → actual discovery and task check. See INSTALL.md. Source UI baseline unchanged; custom elements follow separate versioned library.

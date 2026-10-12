@@ -1,0 +1,83 @@
+> NON-CANONICAL DELIVERY SNAPSHOT — 2026.10.12-v1. Portable adaptation; not the source OS authority.
+
+# Voice sources and extraction receipt
+
+| Need | Path | Rule |
+|---|---|---|
+| PDF evidence | [PDF evidence](#pdf-evidence) | Read when you need pdf evidence; retain the prerequisites and limits stated in that section. |
+| Original linked sources checked | [Original linked sources checked](#original-linked-sources-checked) | Read when you need original linked sources checked; retain the prerequisites and limits stated in that section. |
+| Additional source, not from the PDF | [Additional source, not from the PDF](#additional-source-not-from-the-pdf) | Read when you need additional source, not from the pdf; retain the prerequisites and limits stated in that section. |
+| Source-to-rule disposition | [Source-to-rule disposition](#source-to-rule-disposition) | Read when you need source-to-rule disposition; retain the prerequisites and limits stated in that section. |
+| Illustrative original copy, not brand facts | [Illustrative original copy, not brand facts](#illustrative-original-copy-not-brand-facts) | Read when you need illustrative original copy, not brand facts; retain the prerequisites and limits stated in that section. |
+| Integration and remaining proof | [Integration and remaining proof](#integration-and-remaining-proof) | Read when you need integration and remaining proof; retain the prerequisites and limits stated in that section. |
+
+Audit date: 2026-09-28. Historical source-inspection date; does not certify current availability or current activation.
+
+## PDF evidence
+
+Historical source title: 25 Claude Design Tricks Guide.pdf. This public-method
+source is not bundled and is not needed for the distilled rules below.
+SHA-256: d8f9a82e5cf34514b853375c18296ed3e077c0088f866d04d09d4d2f2681631d.
+Reread actual page 5 and page 8 with bundled pypdf; earlier system Python lacked libraries, no dependency installed.
+
+- Tip06, page5, heading Copy: study the top five in your niche. Prompt requests five niche companies, headline/button/first-screen patterns, reusable copy rules and page rewriting. Distilled into V02. "Top" is replaced with evidence-backed relevance, not invented ranking; an example free CTA is never permission to invent an offer.
+- Tip12, page8, heading Make a tone-of-voice skill. Prompt asks for five real scripts/posts, openings, sentence rhythm, vocabulary, banned terms and added technical-writing guides. Distilled into V01/V03.
+- The final automatic-update instruction is NOT adopted. Feedback creates a scoped candidate with review, preservation and approval.
+- Tip04 page5 also includes voice in brand research. Duolingo is an example, not this system's identity.
+- This PDF offers useful methods, not the complete eight-block framework, tone scenarios, Vietnamese rules or QA suite below. Those are an OS synthesis.
+
+## Original linked sources checked
+
+### Google developer documentation style guide
+Page and source hub: https://developers.google.com/style/tone and https://developers.google.com/style
+Inspected the actual tone page. Use clear, respectful, useful technical communication; avoid unhelpful jargon and inflated phrasing. Read-aloud and peer checks are useful review methods. Do not impose the technical-doc personality on every campaign.
+Source page states CC BY 4.0 for documentation except noted exceptions. This module paraphrases concepts and attributes them; does not copy examples.
+
+### Apple Style Guide
+Page/hub: https://support.apple.com/en-gb/guide/applestyleguide/welcome/web
+Inspected landing page and table of contents, June2026 label. Supports a distinct editorial-mechanics layer: terminology, numbers, inclusive/international writing, units and notation. Did NOT audit every linked chapter; do not claim detailed Apple-rule compliance. Public access is not permission to redistribute the guide.
+
+### ASD-STE100
+PDF link: https://asd-ste100.org/
+Fetch returned401 in this run. Record as PDF-recommended but inaccessible. Do not claim to have learned/validated the actual normative rule set, reproduce it, or label output compliant. PDF's short/plain-sentence summary is only secondary evidence.
+
+### Duolingo
+PDF link https://design.duolingo.com/ redirected to https://blog.duolingo.com/hub/design/
+Inspected hub only; insufficient to extract current brand voice. Do not cite it as a validated voice specimen or pretend the redirect page is the former guidelines.
+
+## Additional source, not from the PDF
+
+Mailchimp Voice and Tone:
+https://styleguide.mailchimp.com/voice-and-tone/
+Hub: https://styleguide.mailchimp.com/
+Inspected original page. Distill stable voice vs situation-sensitive tone and reader emotional state. Clarity takes priority over forced humor. Do not adopt Mailchimp's characteristic humor as a default identity. No distinctive wording copied.
+
+## Source-to-rule disposition
+
+PDF06 → niche discovery, V02 → keep method; constrain ranking, claims and copying.
+PDF12 → sample extraction, V01 → keep method; insufficient samples remain proposed.
+PDF12 → feedback update → replace auto-mutation with explicitly approved instruction-change proposal.
+Google → clear helpful technical copy and read-aloud review → apply by channel.
+Apple landing/contents → editorial-mechanics coverage → deeper rules require chapter inspection.
+Mailchimp → voice/tone separation and scenario matrix → original brand-specific synthesis.
+ASD → no normative extraction → inaccessible.
+OS synthesis → eight blocks, local-first shortlist, provenance, Vietnamese pronouns, component-state linkage, held-out/false-claim/rendered tests → explicitly new, not attributed to PDF.
+
+## Illustrative original copy, not brand facts
+
+Assumption: a paid report tool, no confirmed free plan.
+Bad: "Bắt đầu miễn phí và bứt phá hiệu suất."
+Proposed: "Xem gói dịch vụ." Reason: real action without an invented offer.
+
+Assumption: save request failed; local retention unknown.
+Bad: "Oops! Tất cả đã an toàn nhé!"
+Proposed: "Chưa lưu được thay đổi. Kiểm tra kết nối rồi thử lại."
+Reason: do not claim data safety; avoid cheerful certainty during failure.
+These are synthetic review examples, not approved client copy or measured conversion improvements.
+
+## Integration and remaining proof
+
+The selected portable Voice closure owns the included method. This historical
+source register does not certify installation, rendered outcomes, current
+external availability or authentic brand fit. Only supplied task samples and
+current output evidence can support those claims.

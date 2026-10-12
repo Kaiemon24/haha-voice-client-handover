@@ -1,0 +1,186 @@
+"""Voice field coverage, portable compilation and exact consumer binding.
+Mechanical checks are not a naturalness, brand-authenticity or publication claim.
+"""
+import argparse
+import hashlib
+import json
+from pathlib import Path
+
+BLOCKS = ("context", "niche", "traits", "tones", "locales", "claims",
+          "components", "examples", "governance", "procedure")
+LOCALE_FIELDS = ("address", "syntax", "rhythm", "terminology", "opening", "closing",
+                 "do", "dont", "normalExample", "errorExample", "uncertainExample")
+
+def sha(data):
+    return hashlib.sha256(data).hexdigest()
+
+def text(value):
+    return isinstance(value, str) and bool(value.strip())
+
+def need(ok, message):
+    if not ok:
+        raise ValueError(message)
+
+def validate_voice(v):
+    need(isinstance(v, dict) and v.get("schemaVersion") == "brand-voice/v1", "voice schema")
+    for k in ("id", "version", "systemId"):
+        need(text(v.get(k)), "voice identity: " + k)
+    need(v.get("status") in ("proposed", "approved"), "voice status")
+    ctx = v.get("context", {})
+    for k in ("audience", "job", "channels", "owner"):
+        need(text(ctx.get(k)), "context: " + k)
+    niche = v.get("niche", {})
+    for k in ("domain", "readerKnowledge", "readerDecision", "risks",
+              "evidenceNeeded", "termPolicy", "emotionalContext", "excludedPromises"):
+        need(text(niche.get(k)), "niche: " + k)
+    sources = v.get("sources", [])
+    need(isinstance(sources, list) and sources, "sources absent")
+    ids = [s.get("id") for s in sources]
+    need(all(text(i) for i in ids) and len(set(ids)) == len(ids), "source identity")
+    for s in sources:
+        need(s.get("kind") in ("approved-rule", "authentic-sample", "inspiration",
+                              "fixture-assumption", "proposal"), "source kind")
+        need(text(s.get("locator")) and text(s.get("rights")), "source provenance")
+    traits = v.get("traits", [])
+    need(isinstance(traits, list) and 3 <= len(traits) <= 5, "three to five observable traits")
+    ruleids = set()
+    for r in traits:
+        for k in ("id", "instruction", "appliesWhen", "exception",
+                  "positiveExample", "negativeExample", "confidence"):
+            need(text(r.get(k)), "trait: " + k)
+        need(r["id"] not in ruleids, "duplicate rule id")
+        ruleids.add(r["id"])
+        need(r.get("status") in ("proposed", "approved"), "rule status")
+        need(isinstance(r.get("sourceRefs"), list) and r["sourceRefs"]
+             and set(r["sourceRefs"]) <= set(ids), "rule source unresolved")
+    tones = v.get("tones", [])
+    need(isinstance(tones, list) and tones, "tone coverage missing")
+    for t in tones:
+        for k in ("scenario", "readerState", "informationOrder", "personalityLimit", "action"):
+            need(text(t.get(k)), "tone: " + k)
+    need({"normal", "error", "uncertain"} <= {t["scenario"] for t in tones}, "tone scenario coverage")
+    locales = v.get("locales", {})
+    need(isinstance(locales, dict) and locales, "language profiles absent")
+    exception = v.get("languageException")
+    if not {"en", "vi"} <= set(locales):
+        need(isinstance(exception, dict) and text(exception.get("userDirection"))
+             and set(exception.get("languages", [])) == set(locales), "EN/VI required without explicit exception")
+    for lang, profile in locales.items():
+        need(isinstance(profile, dict), "locale object")
+        for k in LOCALE_FIELDS:
+            need(text(profile.get(k)), lang + ": " + k)
+        if lang not in ("en", "vi"):
+            need(text(profile.get("reviewLimit")) and text(profile.get("conventions")), "additional locale limits")
+    claims = v.get("claims", {})
+    for k in ("immutable", "allowed", "forbidden", "unknownHandling"):
+        need(text(claims.get(k)), "claims: " + k)
+    components = v.get("components", [])
+    need(isinstance(components, list) and components, "component coverage")
+    for c in components:
+        for k in ("type", "behavior", "copyRule", "budget", "notApplicable"):
+            need(text(c.get(k)), "component: " + k)
+    examples = v.get("examples", [])
+    need(isinstance(examples, list) and examples, "examples absent")
+    for e in examples:
+        for k in ("scenario", "language", "facts", "before", "after", "reason"):
+            need(text(e.get(k)), "example: " + k)
+        need(e["language"] in locales, "example locale")
+        need(isinstance(e.get("ruleIds"), list) and e["ruleIds"]
+             and set(e["ruleIds"]) <= ruleids, "example rules unresolved")
+    need(set(locales) <= {e["language"] for e in examples}, "example language coverage")
+    governance = v.get("governance", {})
+    for k in ("versionReason", "approvalRef", "authenticity", "gaps", "updatePolicy"):
+        need(text(governance.get(k)), "governance: " + k)
+    if v["status"] == "approved":
+        need(governance["approvalRef"] not in ("none", "pending"), "approval missing")
+    if governance["authenticity"] == "learned":
+        need(any(s["kind"] == "authentic-sample" for s in sources), "learned voice without corpus")
+    need(isinstance(v.get("procedure"), list) and len(v["procedure"]) >= 4
+         and all(text(s) for s in v["procedure"]), "portable writing procedure")
+    return v
+
+def compile_voice(v):
+    validate_voice(v)
+    out = [f"# {v['id']} — Voice guideline", "", "Generated; DO NOT EDIT. Source: voice model.",
+           f"System: {v['systemId']} | Version: {v['version']} | Status: {v['status']}",
+           "Field coverage is not evidence of native quality or authentic brand fit.", ""]
+    def flatten(value, depth=0):
+        prefix = "  " * depth
+        if isinstance(value, dict):
+            for k, x in value.items():
+                if isinstance(x, (dict, list)):
+                    out.append(prefix + "- " + k + ":")
+                    flatten(x, depth + 1)
+                else:
+                    out.append(prefix + "- " + k + ": " + str(x))
+        elif isinstance(value, list):
+            for i, x in enumerate(value, 1):
+                if isinstance(x, (dict, list)):
+                    out.append(prefix + "- Item " + str(i) + ":")
+                    flatten(x, depth + 1)
+                else:
+                    out.append(prefix + "- " + str(x))
+    for name in (*BLOCKS, "sources"):
+        out += ["## " + name, ""]
+        flatten(v[name])
+        out.append("")
+    if v.get("languageException"):
+        out += ["## Explicit language exception", ""]
+        flatten(v["languageException"])
+    return "\n".join(out) + "\n"
+
+def voice_binding(v, voice_bytes):
+    return {"id": v["id"], "version": v["version"], "systemId": v["systemId"],
+            "path": "VOICE.md", "sha256": sha(voice_bytes), "status": v["status"],
+            "languages": sorted(v["locales"])}
+
+def resolve_voice(root, expected, language):
+    """Read only a fixed VOICE.md inside explicit package root; fail on mismatch."""
+    supplied = Path(root).absolute()
+    for p in (supplied, *supplied.parents):
+        need(not p.is_symlink() and not (hasattr(p, "is_junction") and p.is_junction()), "reparse path")
+    root = supplied.resolve()
+    bpath = root / "DesignBinding.json"
+    for p in (root, bpath, root / "VOICE.md", *root.parents):
+        need(not p.is_symlink() and not (hasattr(p, "is_junction") and p.is_junction()), "reparse path")
+    binding = json.loads(bpath.read_text(encoding="utf-8"))
+    need(binding.get("systemId") == expected["systemId"]
+         and binding.get("version") == expected["systemVersion"], "system binding mismatch")
+    v = binding.get("voice", {})
+    for k in ("id", "version", "sha256"):
+        need(v.get(k) == expected[k], "voice binding mismatch: " + k)
+    need(v.get("systemId") == binding["systemId"] and v.get("path") == "VOICE.md", "voice path/owner")
+    need(language in v.get("languages", []), "unsupported language")
+    raw = (root / "VOICE.md").read_bytes()
+    need(sha(raw) == v["sha256"], "voice hash mismatch")
+    return {"language": language, "voice": v, "guideline": raw.decode("utf-8"),
+            "scope": "apply-only; no profile update"}
+
+def changed_paths(before, after, prefix=""):
+    if type(before) is not type(after):
+        return [prefix]
+    if isinstance(before, dict):
+        result = []
+        for k in sorted(set(before) | set(after)):
+            p = prefix + "/" + k
+            if k not in before or k not in after:
+                result.append(p)
+            else:
+                result += changed_paths(before[k], after[k], p)
+        return result
+    return [] if before == after else [prefix]
+
+if __name__ == "__main__":
+    p = argparse.ArgumentParser()
+    p.add_argument("--model", type=Path, required=True)
+    p.add_argument("--output", type=Path)
+    a = p.parse_args()
+    v = json.loads(a.model.read_text(encoding="utf-8"))
+    result = compile_voice(v)
+    if a.output:
+        need(not a.output.exists(), "output exists; choose new version")
+        need(".codex" not in a.output.resolve().parts, "no active instruction output")
+        a.output.parent.mkdir(parents=True, exist_ok=True)
+        a.output.write_text(result, encoding="utf-8", newline="\n")
+    print(json.dumps({"status": "PASS", "scope": "field coverage only",
+                      "voiceId": v["id"], "languages": sorted(v["locales"])}))

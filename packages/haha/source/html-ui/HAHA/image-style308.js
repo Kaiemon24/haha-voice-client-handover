@@ -1,0 +1,18 @@
+/* Local HAHA Image style specimen. Source grammar: IMAGE-STYLE.md. */
+window.HAHAImageStyle308=(()=>{
+const master='assets/ai/image-style-master308.png';
+const alt='Ảnh AI đen–trắng: hai đồng nghiệp hư cấu làm việc bên phải; tường sáng và vùng trống bên trái.';
+function photo(cls=''){return `<img class="${cls}" src="${master}" width="1672" height="941" alt="${alt}">`}
+function render(){return `<div class="image-style308">
+<header><h2>Một phong cách ảnh. Nhiều cách áp dụng.</h2><p>Đen–trắng trung tính, ánh sáng dịu, chất liệu lì và ít vật dụng. Đổi chủ thể theo việc cần truyền đạt.</p></header>
+<section class="image308-block"><h3>01 · Ba hình cùng phong cách</h3><div class="image308-refs">${[
+['Làm việc cùng nhau','Bàn sáng, cử chỉ tự nhiên và chi tiết công việc.'],
+['Chất liệu có chiều sâu','Gỗ tối, vải lì và vật dụng được chọn lọc.'],
+['Ánh sáng và không gian','Ánh sáng cửa sổ dịu, bố cục hiện đại và khoảng thở.']
+].map(([title,body],i)=>`<figure><a href="assets/references/image-style-ref-${i+1}.svg" target="_blank" rel="noopener"><img src="assets/references/image-style-ref-${i+1}.svg" alt="Tham chiếu ${i+1}: ${title}"></a><figcaption><strong>${title}</strong><span>${body}</span></figcaption></figure>`).join('')}</div><p class="note">Tham chiếu từ brandkit HAHA để đọc phong cách; chưa nhận các ảnh này làm tài sản công khai của thương hiệu.</p></section>
+<section class="image308-block"><h3>02 · Hình mẫu tổng bằng AI</h3><figure class="image308-master"><a href="${master}" target="_blank" rel="noopener">${photo()}</a><figcaption>Một hình gốc ngang 1672 × 941 px. Người và không gian hư cấu; chưa phóng lớn.</figcaption></figure><div class="image308-links"><a href="${master}" download>Tải hình gốc</a><a href="IMAGE-STYLE-PROMPT.txt" target="_blank" rel="noopener">Prompt đã dùng</a><a href="IMAGE-STYLE.md">Hướng dẫn tạo và áp dụng</a></div></section>
+<section class="image308-block"><h3>03 · Áp dụng vào nền slide</h3><figure><div class="image308-slide">${photo()}<div class="image308-copy"><span class="image308-kicker">HAHA · MẪU BỐ CỤC</span><strong>Rõ việc.<br>Rõ bước.</strong><p>Giữ một thông điệp ngắn trong vùng trống.</p></div></div><figcaption>Ảnh giữ toàn khung 16:9; chữ đặt riêng bên trái, ngoài người và vật dụng chính.</figcaption></figure></section>
+<section class="image308-block"><h3>04 · Áp dụng vào website</h3><figure class="image308-website"><div class="image308-sitehead">${logoMark305()}<span>Dịch vụ · Cách làm</span></div><div class="image308-hero">${photo()}<div class="image308-copy"><span class="image308-kicker">MẪU BỐ CỤC WEBSITE</span><strong>Một mục tiêu.<br>Một hướng làm.</strong><p>Chừa vùng riêng cho nội dung và hành động.</p></div></div><figcaption>Ở màn hình hẹp: giữ ảnh ngang toàn khung và đưa chữ xuống dưới. Không cắt người thành ảnh dọc.</figcaption></figure></section>
+<section class="image308-block"><h3>05 · Khóa phong cách khi tạo hình mới</h3><ul class="image308-rules"><li><strong>Màu:</strong> đen, trắng và xám trung tính; không pha xanh, vàng hoặc nâu.</li><li><strong>Ánh sáng:</strong> dịu, giữ rõ mặt và chi tiết trong vùng tối; tránh bóng người chỉ còn đường viền.</li><li><strong>Chủ thể:</strong> công việc có mục đích; ít đồ, cử chỉ bình tĩnh, hình thể đáng tin.</li><li><strong>Bố cục:</strong> tạo vùng trống trước; chữ, logo và dữ liệu đặt bằng lớp riêng sau đó.</li><li><strong>Tái sử dụng:</strong> dùng hình mẫu để khóa phong cách, đổi người và bối cảnh khi nội dung cần. Hình AI không chứng minh nhân sự hay văn phòng thật.</li><li><strong>Kiểm:</strong> ảnh gốc, nền slide, website rộng/hẹp, vùng chữ, bàn tay và đường cắt. Phóng lớn cần duyệt riêng hình gốc.</li></ul></section>
+</div>`}
+return {render,master};})();

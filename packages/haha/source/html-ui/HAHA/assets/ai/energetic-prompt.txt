@@ -1,0 +1,22 @@
+🎯 OUTPUT INTENT
+Original illustrative concept plate for HAHA brand-system documentation. Exact brand text, logo and typography will be added as editable HTML separately, as planned.
+🔒 REFERENCE LOCKS
+HAHA identity is monochrome black, white and neutral gray. Reference structure is inspiration only; no copied source identity, wording, character or composition.
+👤 SUBJECT
+Three original broad diagonal black paper ribbons crossing only the lower-right half of a white field, ascending direction with clear depth and controlled sharp cast shadows. Upper-left forty percent stays empty white for deterministic typography. Asymmetrical visual momentum without copying the reference line positions.
+🌍 ENVIRONMENT
+Controlled neutral studio or white design field, as described. Only intentional subject and negative space.
+🎬 ACTION
+Static composition with the described object or resting presenter.
+💡 LIGHTING
+Soft directional studio light; preserve black detail and clear silhouette on white.
+📷 CAMERA
+Straight-on editorial composition, natural object depth, no room or poster mockup border.
+🎨 METATOKENS
+Polished editorial realism, restrained texture, 16K-detail fidelity as finish intent only.
+✅ REQUIRED LOCKS
+Monochrome; intentional left/top text-safe area; original visual concept; no exact brand copy in pixels.
+⚠️ EXCLUSIONS
+No text, letters, numbers, logos, watermark, saturated color, borrowed poster, extra subject, collaged panels.
+📐 OUTPUT SPECIFICATION
+One opaque native image, portrait 2:3. Preserve native output; no upscale.

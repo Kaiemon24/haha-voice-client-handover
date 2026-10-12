@@ -1,0 +1,30 @@
+.k241{margin-bottom:32px}.k241 [data-role=quote]{font-size:var(--k-quote)!important}.k241 code[data-role=prompt]{font-size:var(--k-prompt)!important;white-space:pre-wrap;overflow-wrap:anywhere;display:block}.k241 .k241-command{border:2px solid var(--k-fire);padding:24px;display:grid;gap:24px;background:var(--k-panel);margin-top:24px}.k241 pre{margin:0;white-space:pre-wrap;min-width:0}.k241 .k241-copy-status{font:16px/1.5 var(--k-reading)}.k241 .k241-data th,.k241 .k241-data td{font-size:var(--k-body)!important;background:var(--k-panel)!important;color:var(--k-ink)!important}.k241 .k241-data th{font-weight:700!important}.k241 .k241-data .k241-selected{box-shadow:inset 0 3px var(--k-fire);border-left:2px solid var(--k-fire)!important}.k241 [data-variant=data-value]{font-variant-numeric:tabular-nums;font-weight:700!important}.k241 .k241-mobile-column{display:none}.k241 .k241-source{border-top:2px solid var(--k-fire);padding-top:24px!important;margin-top:32px!important}.k241 .k241-notes{display:grid;gap:24px}.k241 .k241-quote{position:relative;display:grid;gap:24px;padding:24px;background:var(--k-panel);border:1px solid var(--k-support);box-shadow:6px 6px 0 var(--k-ink)}.k241 .k241-mark{font:700 40px/1 Be Vietnam Pro;color:var(--k-fire)}.k241 .k241-close{justify-self:end}.k241 blockquote{border:0!important;font-weight:400!important}.k241 figure{margin:0;display:grid;gap:24px}.k241 .k241-bars{display:grid;gap:24px}.k241 .k241-bar-row{display:grid;grid-template-columns:80px minmax(0,1fr) 40px;gap:16px;align-items:center}.k241 .k241-track{border-left:1px solid var(--k-support);height:32px}.k241 .k241-bar{height:32px;background:var(--k-support)}.k241 .k241-focus{background:var(--k-fire)}.k241 .k241-axis{display:flex;justify-content:space-between;margin:0 56px 0 96px;border-top:1px solid var(--k-support);padding-top:8px}.k241 :focus-visible{outline:3px solid var(--k-fire);outline-offset:-3px}@media(max-width:640px){.k241 .k241-data .k241-mobile-column{display:block;font-weight:700;margin-bottom:8px!important}.k241 .k241-data tbody tr{margin-bottom:24px}.k241 .k241-command,.k241 .k241-quote{padding:16px}.k241 .k241-bar-row{grid-template-columns:48px minmax(0,1fr) 24px;gap:8px}.k241 .k241-axis{margin-left:56px;margin-right:32px}}
+.k241 [data-role=quote]{font-weight:400!important}.k241 .k241-data th{text-align:left}
+
+/*242: shared component anatomy and measured marks.*/
+.k240 .k240-guide-grid{margin-top:32px;gap:32px}
+.k240 .k240-guide-grid>section{display:flex;flex-direction:column;align-items:stretch;gap:16px}
+.k240 .k240-guide-grid>section details{margin-top:8px;margin-bottom:0}
+.k241 .k241-data .k241-selected{box-shadow:none;border-left:2px solid var(--k-fire)!important;border-right:2px solid var(--k-fire)!important}
+.k241 .k241-data thead .k241-selected{border-top:2px solid var(--k-fire)!important}
+.k241 .k241-data tbody tr:last-child .k241-selected{border-bottom:2px solid var(--k-fire)!important}
+.k241 .k241-quote{display:block}
+.k241 .k242-quote-words{display:grid;gap:24px;max-width:100%}
+.k241 .k241-mark{display:block;width:32px;height:27px;flex:none; margin:0 0 16px;color:var(--k-fire)}
+.k241 .k241-close{margin-top:0;margin-bottom:0;transform:rotate(180deg)}
+.k241 .k242-single{width:48px;height:40px;transform:scaleY(-1)}
+@media(max-width:640px){.k241 .k241-data .k241-selected{border:2px solid var(--k-fire)!important}}
+
+/* Area carriers share the declared shape contract; strokes/icon paths retain geometry. */
+.k240,.k240 .k240-card,.k240 details,.k240 .k240-picture,.k241 .k241-command,.k241 .k241-quote{border-radius:var(--k-radius)!important;box-shadow:var(--k-shadow) var(--k-shadow) 0 var(--k-ink)!important}
+.k240 [data-variant=step-index],.k240 [data-variant=primary-label],.k240 [data-variant=button]{border-radius:var(--k-radius)!important;box-shadow:var(--k-control-shadow) var(--k-control-shadow) 0 var(--k-ink)!important}
+.k240 details{margin-bottom:6px}
+.k240 .k240-card{gap:24px}
+.k241 .k241-track{overflow:visible}
+.k241 .k241-bar{border-radius:var(--k-data-radius);box-shadow:var(--k-data-shadow) var(--k-data-shadow) 0 var(--k-ink)}
+.k241 table{box-shadow:var(--k-shadow) var(--k-shadow) 0 var(--k-ink);border-radius:var(--k-radius)}
+nav button{border-radius:4px;box-shadow:3px 3px 0 #000000}
+.k241 .k241-close{justify-self:start}.k241 .k241-quote{max-width:100%}
+
+/* Reserve thin data depth outside the quantitative track. */
+.k241 .k241-bar-row{column-gap:calc(16px + var(--k-data-shadow,0px))}.k241 .k241-axis{margin-left:calc(96px + var(--k-data-shadow,0px));margin-right:calc(56px + var(--k-data-shadow,0px))}@media(max-width:640px){.k241 .k241-bar-row{column-gap:calc(8px + var(--k-data-shadow,0px))}.k241 .k241-axis{margin-left:calc(56px + var(--k-data-shadow,0px));margin-right:calc(32px + var(--k-data-shadow,0px))}}

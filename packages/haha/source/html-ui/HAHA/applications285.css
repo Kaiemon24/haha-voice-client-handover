@@ -1,0 +1,87 @@
+/* HAHA285 local Applications repair: existing16pxminimum painted clearance. */
+.actions{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start}
+.topbar .tools,.discovery259-suggestions{gap:24px}
+.card .actions,.slide-record>.actions,.media284-editor .actions{gap:24px}
+.theory285-downloads{margin-top:24px}
+.slide283-page .slide283-tools,.product280 .controls280{gap:24px}
+.s285-recipe{display:grid;gap:12px;margin:24px 0;font-size:16px;max-width:72ch}
+.s285-recipe p{margin:0}
+.s285-divider{display:grid;grid-template-columns:1.4fr 1fr;gap:48px;align-items:center;width:100%}
+.default-divider .s283-head{margin-top:0}
+.default-divider .s283-head h2{text-align:left}
+.s285-section-contents{padding:32px;background:var(--action-bg,#000000);color:var(--action-ink,#FFFFFF)}
+.s285-section-contents h3{color:inherit;margin-bottom:24px}
+.s285-section-contents ol{gap:24px}
+.s285-section-images{width:400px;max-width:100%;justify-self:center;display:grid;gap:24px}
+.s285-section-images>div{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.s285-thanks{width:100%;display:grid;gap:24px}
+.default-close .s283-head{text-align:center;margin-bottom:24px}
+.default-close .s283-head h2{font-size:80px;line-height:1.2}
+.default-close .s283-eyebrow{display:none}
+.s285-thanks-images{display:grid;grid-template-columns:1fr 1.1fr 1.25fr 1.1fr 1fr;gap:24px;align-items:end}
+.s284-mixed>section{display:grid;grid-template-columns:1fr;gap:0}
+.s284-mixed>section h3{margin-bottom:12px}
+.s285-table-image-row{display:grid;grid-template-columns:1.5fr 1fr;gap:32px;align-items:center}
+.s285-table-image-row>.s284-slot{width:280px;justify-self:center;align-self:center}
+.s285-consumer{display:grid;grid-template-columns:.8fr 1.4fr .9fr;gap:24px;align-items:start;width:100%}
+.s285-consumer h3,.s285-market h3,.s285-sales h3,.s285-ranking h3{font-size:24px;line-height:1.25;margin-bottom:12px}
+.s285-consumer h4{font:700 20px/1.4 'Be Vietnam Pro';margin:0 0 8px;color:var(--green)}
+.s285-signal-list{padding:16px;display:grid;gap:20px}
+.s285-signal-list h3{margin:0}
+.s285-signal-list p,.s285-consumer .s285-insight p,.s285-product-trends p,.s285-source{font-size:20px;line-height:1.4}
+.s285-consumer-center,.s285-product-trends{display:grid;gap:24px;min-width:0}
+.s285-consumer-center .s283-chart{padding:16px}
+.s285-consumer .s283-chart svg{width:100%;min-width:0;max-height:none}
+.s285-column svg{height:220px}
+.s285-consumer .s285-insight{padding:16px}
+.s285-product-trends{gap:20px}
+.s285-product-trends>section{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center}
+.s285-product-trends .s284-slot{width:120px}
+.s285-market{display:grid;grid-template-columns:320px 1fr;gap:32px;width:100%;align-items:start}
+.s285-market>div,.s285-sales>div{display:grid;gap:24px;min-width:0}
+.s285-donut{padding:12px}
+.s285-donut svg{height:180px;min-width:0!important;width:100%}
+.s285-market-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.s285-market-metrics .s283-panel{padding:16px}
+.s285-market-metrics h3{font-size:20px;line-height:1.4;margin-bottom:12px}
+.s285-market-metrics .s283-value{font-size:32px;line-height:1.3}
+.s285-market th,.s285-market td,.s285-sales th,.s285-sales td,.s285-competitors th,.s285-competitors td,.s285-ranking th,.s285-ranking td{font-size:20px;line-height:1.4;padding:8px 12px}
+.s285-source{margin:0}
+.s285-sales{display:grid;grid-template-columns:320px 1fr;gap:32px;width:100%;align-items:start}
+.s285-sales .s284-slot{width:288px;justify-self:center}
+.s285-insight p+p{margin-top:16px}
+.s285-sales .s285-insight{padding:24px}
+.s285-sales .s285-insight p{font-size:20px;line-height:1.4}
+.s285-competitors{display:grid;grid-template-columns:1.9fr 1fr;gap:32px;align-items:start;width:100%}
+.s285-questions{display:grid;gap:16px;padding:24px}
+.s285-questions h3{font-size:24px;line-height:1.25;margin:0 0 8px}
+.s285-questions p{font-size:20px;line-height:1.4}
+.s285-ranking{display:grid;gap:24px;width:100%}
+.s285-ranking .s285-insight{padding:16px 24px}
+.s285-ranking .s285-insight p{font-size:20px;line-height:1.4}
+.text-dashboard .s283-eyebrow,.text-overview .s283-eyebrow,.text-sales-mix .s283-eyebrow,.text-competitors .s283-eyebrow,.text-ranking .s283-eyebrow{font-size:16px}
+@media(max-width:1279px){
+ .slide283-page .s285-divider,.slide283-page .s285-consumer,.slide283-page .s285-market,.slide283-page .s285-sales,.slide283-page .s285-competitors,.slide283-page .s285-table-image-row{grid-template-columns:1fr}
+ .slide283-page .s285-section-images,.slide283-page .s285-table-image-row>.s284-slot,.slide283-page .s285-sales .s284-slot{width:100%}
+ .slide283-page .s285-section-images>div{grid-template-columns:1fr}
+ .slide283-page .s285-market-metrics{grid-template-columns:1fr}
+ .slide283-page .s285-market table,.slide283-page .s285-sales table,.slide283-page .s285-competitors table,.slide283-page .s285-ranking table{min-width:700px}
+ .slide283-page .s285-thanks-images{grid-template-columns:1fr}
+ .slide283-page .default-close .s283-head h2{font-size:40px}
+ .slide283-page .s285-section-contents{padding:24px}
+ .slide283-page .s285-section-contents li{gap:20px;align-items:flex-start}
+ .slide283-page .s285-section-contents li strong{font-size:20px;line-height:1.4}
+ .slide283-page .s285-product-trends>section{grid-template-columns:120px 1fr}
+ .slide283-page .s285-column{overflow:auto}
+ .slide283-page .s285-column svg{width:500px;min-width:500px}
+}
+
+.s285-section-contents li strong{color:inherit}
+.s285-table-image-row>.s284-slot,.s284-mixed .s284-slot{width:240px}
+@media(max-width:1279px){.slide283-page .s285-table-image-row>.s284-slot{width:100%}}
+
+.inline-controls,.tabs{gap:24px;flex-wrap:wrap}
+#type,#spacing{display:flex;flex-direction:column;gap:24px}
+
+/* Shared reading width for standalone slides; native1280 and gallery retained. */
+@media(max-width:1279px){.slide283-page .slide283-full{width:100%}}

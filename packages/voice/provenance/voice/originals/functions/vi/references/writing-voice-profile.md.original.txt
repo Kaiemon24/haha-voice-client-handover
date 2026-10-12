@@ -1,0 +1,119 @@
+# Writing voice profile
+
+| Need | Path | Rule |
+|---|---|---|
+| 1. Purpose and scope | [1. Purpose and scope](#1-purpose-and-scope) | Read when you need 1. purpose and scope; retain the prerequisites and limits stated in that section. |
+| 2. Inputs | [2. Inputs](#2-inputs) | Read when you need 2. inputs; retain the prerequisites and limits stated in that section. |
+| 3. Workflow | [3. Workflow](#3-workflow) | Read when you need 3. workflow; retain the prerequisites and limits stated in that section. |
+| 4. Tools and permissions | [4. Tools and permissions](#4-tools-and-permissions) | Read when you need 4. tools and permissions; retain the prerequisites and limits stated in that section. |
+| 5. Output | [5. Output](#5-output) | Read when you need 5. output; retain the prerequisites and limits stated in that section. |
+| 6. Verification and stopping | [6. Verification and stopping](#6-verification-and-stopping) | Read when you need 6. verification and stopping; retain the prerequisites and limits stated in that section. |
+| 7. Supporting material | [7. Supporting material](#7-supporting-material) | Read when you need 7. supporting material; retain the prerequisites and limits stated in that section. |
+
+This module defines the reusable profile workflow for Vietnamese reports,
+slides, documents, spreadsheets and design copy. The canonical Vietnamese
+owner remains Voice’s internal Vietnamese function; this is a capability module, not
+a competing language skill.
+
+## 1. Purpose and scope
+
+Own Vietnamese profile extraction and final language review. The shared brand module supplies
+cross-language brand voice and situational tone when a system profile exists;
+this module remains usable without Design for ordinary Vietnamese editing.
+Do not create a second independent brand profile from the same samples.
+
+## 2. Inputs
+
+Use the current reader, purpose, channel, facts, language, approved profile,
+permitted samples and existing promotion authority. If a Design voice binding
+is supplied, inspect its actual rules and version/hash rather than trusting
+its label. Missing or stale rules block that brand-specific claim, not neutral
+Vietnamese drafting.
+
+## 3. Workflow
+
+### Entry choice
+
+Reuse an existing task choice and profile before asking. Only for a requested profile operation with no resolved choice, ask: “Bạn muốn dùng giọng văn có sẵn hay tạo giọng văn mới?” Ordinary editing does not require profile creation. For an existing
+profile, show its audience, register, sentence rhythm, preferred words, banned
+words, technical-term policy and a short example.
+
+For a new profile, collect a 200–500 word sample in the target language. If it
+is too short, fragmented or not representative, mark `NEEDS_SAMPLE` and do not
+invent a voice.
+
+NEEDS_SAMPLE applies to a learned personal/brand profile. It does not prohibit
+a clearly labeled neutral baseline or applying an existing complete profile.
+Five pieces are a useful diversity target, not a required second quota.
+
+### Shared brand profile
+
+When a Design profile is bound, consume its chosen traits, tone context,
+preferred/avoided terms and claim constraints. Preserve the single profile
+identity; return proposed Vietnamese adaptations as a scoped delta rather than
+silently rewriting the multilingual master. The parent report owner retains
+structure, facts and format. Do not translate an English word-count threshold
+into a Vietnamese quality gate or introduce a mandatory report recap.
+
+If the request is to research/create a multilingual brand voice, use Voice’s shared brand function. It supplies the research method; this owner
+applies Vietnamese realization and the final source-bound language check.
+No Design dependency is required for standalone Vietnamese editing with
+complete supplied rules.
+
+### Profile extraction
+
+Record observations before recommendations: sentence length and paragraph
+rhythm; preferred verbs, nouns, connectors and pronouns; idea order and
+transitions; point of view and certainty markers; heading and bullet behavior;
+and preferred, tolerated or avoided terms.
+
+Generate four tables when requested: `Rule cá nhân`, `Giọng văn`, `Cấu trúc câu
+chuyện`, and `Tối ưu hóa SEO`. Personal rules take precedence over defaults;
+record conflicts rather than silently resolving them.
+
+### Evolving a profile
+
+When feedback changes wording, structure or rhythm and promotion authority is not already explicit for that profile, ask: “Bạn có muốn chuyển
+phản hồi này thành cập nhật cho framework giọng văn và danh sách từ nên dùng/từ
+cần tránh không?” Only an affirmative answer may update the profile. Store the
+feedback excerpt, before/after example, reason, date and affected contexts.
+
+The default Vietnamese report voice is direct, concrete and decision oriented:
+one idea per line, clear subject and action, natural Vietnamese word order,
+short paragraphs, selective emphasis and explicit uncertainty. Preserve
+numbers, conditions, actors, source boundaries and certainty. Translate generic
+English prose; retain `Input standard`, `Output standard`, `Block A`, `Block B`,
+`Block C` and official names when they are field labels or source terms.
+
+Run the Vietnamese lint–rewrite–re-lint gate after final content merge and
+before layout/export. Use `PASS`, `WARNING` or `BLOCKED`; never use one
+naturalness score. Voice changes cannot change source truth, layout, scene IDs,
+strategy or output schema.
+
+## 4. Tools and permissions
+
+Read scoped supplied materials. Do not upload samples, install a source
+package, auto-promote feedback, or change shared skill instructions. Ordinary
+copy repair does not grant shared profile promotion. Method changes remain
+Teacher-controlled.
+
+## 5. Output
+
+Return the selected profile identity/status, Vietnamese wording or proposed
+profile delta, source-linked rules/examples, unresolved context and language
+review result. Preserve the parent artifact's schema and machine identifiers.
+
+## 6. Verification and stopping
+
+Compare actors, conditions, negation, dates, numbers, certainty and permission
+against the original meaning. Test no samples, existing complete profile,
+stale binding and feedback without promotion authority. Run the existing
+Vietnamese final-merge gate for delivered reader copy; source checks alone do
+not certify naturalness. Reuse already settled choices.
+
+## 7. Supporting material
+
+This owner's SKILL.md and conditional language-review references remain the
+Vietnamese authority. The canonical Voice shared brand module supplies its voice
+method only for multilingual brand-profile research. report-format stays the
+report-structure caller; no new public route or project path is required.

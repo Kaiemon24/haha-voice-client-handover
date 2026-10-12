@@ -1,0 +1,55 @@
+# VIETNAMESE HUMANIZATION, REGISTER, AND TRANSLATIONESE
+
+| Need | Path | Rule |
+|---|---|---|
+| THREE-LAYER DIAGNOSIS | [THREE-LAYER DIAGNOSIS](#three-layer-diagnosis) | Read when you need three-layer diagnosis; retain the prerequisites and limits stated in that section. |
+| INTERVENTION LEVELS | [INTERVENTION LEVELS](#intervention-levels) | Read when you need intervention levels; retain the prerequisites and limits stated in that section. |
+| REGISTER MAP | [REGISTER MAP](#register-map) | Read when you need register map; retain the prerequisites and limits stated in that section. |
+| TRANSLATIONESE PATTERNS | [TRANSLATIONESE PATTERNS](#translationese-patterns) | Read when you need translationese patterns; retain the prerequisites and limits stated in that section. |
+| TWO-WAY AUDIT | [TWO-WAY AUDIT](#two-way-audit) | Read when you need two-way audit; retain the prerequisites and limits stated in that section. |
+
+Use this reference for reader-facing Vietnamese that feels machine-shaped, over-smoothed, translation-shaped, or mismatched to its professional register. It extends the canonical editor; it does not create another Vietnamese voice owner.
+
+## THREE-LAYER DIAGNOSIS
+
+Read in this order:
+
+1. **Paragraph:** check argument flow, opening/closing function, repeated structure, abstract claims without usable information, and uniform rhythm.
+2. **Sentence:** identify actor, action, logic, certainty, condition, and the information that should arrive first in natural Vietnamese.
+3. **Word:** only then inspect clichés, nominalization, weak verbs, literal metaphors, filler transitions, and terminology.
+
+When several patterns hit one sentence, repair it once at the structural level and reassess. Do not perform a chain of one-for-one synonym replacements.
+
+## INTERVENTION LEVELS
+
+- **Light:** local repair while preserving structure and voice.
+- **Medium:** merge or split sentences, remove empty framing, or clarify the actor.
+- **Deep:** reorder a paragraph only when its structure hides the decision or argument; recheck the preservation ledger after every paragraph.
+
+Prefer the lowest level that solves the reader problem. Keep already-natural sentences unchanged.
+
+## REGISTER MAP
+
+- **Technical:** prioritize precision, explicit actors, consistent terms, and unchanged code/API/paths. Passive voice may be correct when the process matters more than the operator.
+- **Workplace:** state action, owner, deadline, and handoff directly; preserve the organization's form of address.
+- **Academic:** retain hedges, limitations, citations, terminology, and valid nominalization.
+- **Marketing/product:** persuasion requires supplied evidence; never invent benefits, metrics, testimonials, or urgency.
+- **Customer care:** acknowledge the issue briefly, then state current status and next action; do not promise beyond authority.
+- **Social/blog:** preserve authentic colloquial, regional, generational, and rhythmic choices when they belong to the source voice.
+- **Administrative/legal/policy:** precision outranks conversational ease; preserve definitions, scope, conditions, obligation words, and legally functional lists.
+
+## TRANSLATIONESE PATTERNS
+
+- Long noun chains, stacked nominalization, dummy subjects, weak verb constructions, English-order passive clauses, literal business metaphors, and multiple administrative layers may justify structural repair.
+- `thông qua việc`, passive voice, long sentences, Sino-Vietnamese terms, `tận dụng`, and `liền mạch` are not errors by themselves.
+- Preserve near-English order when subtitle timing, bilingual forms, or sentence alignment requires it.
+- Do not convert `may` into certainty, `shall` into advice, association into causation, or an approved term into a newly invented Vietnamese term.
+
+## TWO-WAY AUDIT
+
+1. Compare output against input to detect missing facts, numbers, names, dates, negation, conditions, exceptions, certainty, scope, quotations, and terms.
+2. Read output alone to detect awkward rhythm, register drift, illogical transitions, unnecessary edits, and terminology inconsistency.
+
+Any invented fact or changed decision truth is a blocker even when the result sounds fluent. When naturalness conflicts with preservation, preserve truth and flag the unresolved wording.
+
+Provenance: selective merge from runtime `humanizer-vi` (`SKILL.md` SHA-256 `75498f178751d78a9b4616289baacc52338e3e15d20f7af78e78b02ef2231e68`) and `translationese-cleaner-vi` (`SKILL.md` SHA-256 `b70b6bad226a643c25e7ccab5c256310b53039d87fd585390355894f81967260`).

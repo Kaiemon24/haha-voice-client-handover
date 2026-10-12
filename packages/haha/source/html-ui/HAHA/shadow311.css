@@ -1,0 +1,40 @@
+/* Compiled from semantic241.json depthPolicy; role selectors, no universal shadow. */
+:root{--depth-ink:#000;--depth-flat:none;--depth-control:2px 2px 0 0 var(--depth-ink);--depth-hover:3px 3px 0 0 var(--depth-ink);--depth-floating:4px 4px 0 0 var(--depth-ink)}
+body.dark,[data-depth-surface="dark"]{--depth-ink:#fff}
+[data-depth-surface="light"]{--depth-ink:#000}
+:root body :is(button,.button){box-shadow:var(--depth-control)!important;border:1px solid var(--depth-ink);transform:none!important}
+:root body :is(button,.button):not(:disabled):not([aria-disabled="true"]):hover{box-shadow:var(--depth-hover)!important}
+:root body :is(button,.button):not(:disabled):not([aria-disabled="true"]):active{box-shadow:none!important}
+:root body :is(button,.button):disabled,:root body :is(button,.button)[aria-disabled="true"],:root body button[role="tab"]:is(:hover,:active,:focus,:not(:hover)),:root body .topnav a,:root body .rail a{box-shadow:none!important}
+:root body :is(button,.button):focus-visible{outline:2px solid var(--depth-ink)!important;outline-offset:4px!important}
+:root body dialog{box-shadow:var(--depth-floating)!important;border:1px solid var(--depth-ink)}
+.depth311-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:24px 0}
+.depth311-scene{background:#fff;color:#000;padding:24px;border:1px solid #767676;min-width:0}
+.depth311-scene[data-depth-surface="dark"]{background:#080808;color:#fff}
+.depth311-scene h3{color:inherit;font-size:24px;line-height:1.35}
+.depth311-controls{display:flex;gap:20px;flex-wrap:wrap;margin:24px 0 28px}
+.depth311-scene button{background:transparent!important;color:inherit!important;min-height:44px;padding:12px 16px}
+.depth311-scene button.primary{background:var(--depth-ink)!important;color:#fff!important}
+.depth311-scene[data-depth-surface="dark"] button.primary{color:#000!important}
+.depth311-floating{padding:24px;margin:28px 4px 24px 0;border:1px solid var(--depth-ink);box-shadow:var(--depth-floating)!important;border-radius:4px}
+.depth311-flat{padding:24px;margin:24px 0;border:1px solid var(--depth-ink);box-shadow:none!important;border-radius:4px}
+.depth311-scene p{margin:12px 0;font-size:16px;line-height:1.65;color:inherit}
+.depth311-values{font-size:16px;overflow-wrap:anywhere}
+.depth311-nested{padding:24px;margin:24px 0;background:#171717;color:#fff;border:1px solid #767676}
+.depth311-nested>.depth311-scene{max-width:480px;margin:24px 0}
+.depth311-note{font-size:16px;line-height:1.65}
+@media(max-width:700px){.depth311-grid{grid-template-columns:1fr}.depth311-scene,.depth311-nested{padding:20px}.depth311-controls{gap:20px}}
+@media print,(forced-colors:active){:root body :is(button,.button),:root body dialog,.depth311-floating{box-shadow:none!important}:root body :is(button,.button):focus-visible{outline:2px solid CanvasText!important}}
+
+.model-page:not(.light){--depth-ink:#fff}.model-page.light{--depth-ink:#000}
+
+:root body :is(.k240,.k240-card,.k241-command,.k241-quote,.k240-picture,.ov252-reference,.ov252-scale,.ov252-color,.q280-words cite){box-shadow:none!important}
+
+body.dark,[data-depth-surface],.model-page{--depth-control:2px 2px 0 0 var(--depth-ink);--depth-hover:3px 3px 0 0 var(--depth-ink);--depth-floating:4px 4px 0 0 var(--depth-ink)}
+
+.depth311-scene strong,.depth311-nested>strong{color:inherit!important}
+
+:root body :is(button,.button)[aria-busy="true"]:disabled{box-shadow:var(--depth-control)!important}
+
+/* Media exceptions cover higher-specificity hover and loading intersections. */
+@media print,(forced-colors:active){:root body :is(button,.button):not(:disabled):not([aria-disabled="true"]):hover,:root body :is(button,.button)[aria-busy="true"]:disabled,:root body :is(button,.button):is(:active,:disabled,:focus-visible),:root body dialog,.depth311-floating{box-shadow:none!important}}

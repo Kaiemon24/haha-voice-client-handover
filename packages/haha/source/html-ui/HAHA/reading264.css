@@ -1,0 +1,13 @@
+/* LOCAL HAHA PREVIEW. Scope: direct five-actions specimen; source roles/tokens preserved. */
+#reading .reading264-inline{grid-column:1/-1}
+#reading .reading264-inline>.demo{display:block;min-height:0;padding:0;background:transparent}
+#reading .reading264-inline .k240{--k-card-inset:16px;--k-gap:24px}
+#reading .reading264-inline .k240-steps{grid-template-columns:repeat(5,minmax(0,1fr));gap:24px}
+#reading .reading264-inline .k240-steps>.k240-card{grid-column:auto;padding:16px;gap:24px}
+/* Five constrained columns use the existing narrow-group recipe32/16/16/16,
+   rather than splitting short headings or shrinking an individual text run. */
+@media(min-width:1001px){#reading .reading264-inline{padding:16px}#reading .reading264-inline .k240{--k-inset:16px;--k-head:32px;--k-sub:16px;--k-body:16px;--k-note:16px}}
+@media(max-width:1000px){#reading .reading264-inline .k240-steps{grid-template-columns:repeat(2,minmax(0,1fr))}#reading .reading264-inline .k240-steps>.k240-card:last-child{grid-column:1/-1}}
+@media(max-width:640px){#reading .reading264-inline .k240-steps{grid-template-columns:1fr}#reading .reading264-inline .k240-steps>.k240-card:last-child{grid-column:auto}}
+
+#reading .reading265-inline{grid-column:1/-1}#reading .reading265-inline>.demo{display:block;padding:0;min-height:0;background:transparent}#reading .reading265-inline .k240{max-width:100%;min-width:0}

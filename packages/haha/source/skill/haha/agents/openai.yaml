@@ -1,0 +1,6 @@
+interface:
+  display_name: "HAHA"
+  short_description: "Áp dụng bộ thiết kế và giọng HAHA"
+  default_prompt: "Use $haha for the requested task."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,22 @@
+🎯 OUTPUT INTENT
+Create a new independent photographic wardrobe example for a monochrome brand recording guide. One native portrait image that clearly shows an appropriate complete outfit; not a crop or panel from another presenter photo.
+🔒 REFERENCE LOCKS
+No image attachments. The person is fictional and independent; do not emulate an existing presenter. Palette locked to black, charcoal, gray and off-white. This is a practical wardrobe example, not a fashion campaign.
+👤 SUBJECT
+One fictional Vietnamese adult male presenter in his early thirties. Plain matte charcoal cotton overshirt open over a light-gray crew-neck shirt, straight black trousers, simple black shoes, no visible logos, jewelry or patterns. Natural friendly expression. Entire body visible including head, hands and shoes, generous balanced headroom and footroom. Natural fabric weave and believable garment fit.
+🌍 ENVIRONMENT
+A seamless pale warm-gray studio backdrop and floor, uncluttered, no furniture. Separate neutral setting dedicated to showing the outfit.
+🎬 ACTION
+Standing upright relaxed, facing camera, arms resting naturally beside the body, feet grounded, no dramatic pose.
+💡 LIGHTING
+Soft large key light front-left, gentle fill, natural skin texture, a faint soft contact shadow under shoes, even neutral white balance.
+📷 CAMERA
+Eye-level editorial photograph, full-body framing, natural 60mm-equivalent perspective, camera far enough to avoid distortion, focus on face and clothing, portrait composition with all extremities fully inside the image.
+🎨 METATOKENS
+Clean practical editorial realism, restrained retouching, visible cloth texture, 16K-detail fidelity as finish intent only.
+✅ REQUIRED LOCKS
+One person; complete head-to-shoe framing; unbranded solid matte garments; monochrome wardrobe; image stands alone.
+⚠️ EXCLUSIONS
+No lettering, watermark, logo, collage, infographic, color accent, cropped feet, missing hands, tight close-up or luxury fashion pose.
+📐 OUTPUT SPECIFICATION
+Native portrait 4:5 aspect ratio, opaque background, one image. Preserve original provider pixels; no upscale.

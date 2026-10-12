@@ -1,0 +1,76 @@
+{
+  "sources": [
+    {
+      "id": "bold",
+      "url": "https://www.pinterest.com/pin/516647388506045253/",
+      "image": "https://i.pinimg.com/736x/55/bc/87/55bc877a6a90624820868662abaf7130.jpg",
+      "w": 735,
+      "h": 1043,
+      "complete": true,
+      "method": "public search-indexed image; pin itself login-gated; no login bypass; analysis screenshot only",
+      "localPath": "assets/references/bold.svg",
+      "sha256": "78388ed4dfc4ccb11cc39b240f7fc36d31b3e6b18b755b927a25557c1b4115d7",
+      "rights": "reference-only private study; not a reusable/admitted asset or public distribution license",
+      "inspected": true,
+      "extraction": "Only hierarchy, visual rhythm and spacing; source lettering and identity excluded"
+    },
+    {
+      "id": "energetic",
+      "url": "https://in.pinterest.com/pin/6333255706380378/",
+      "image": "https://i.pinimg.com/originals/bf/35/e1/bf35e166510eaf088d607e18bfe06733.jpg",
+      "w": 2000,
+      "h": 2846,
+      "complete": true,
+      "method": "public search-indexed image; pin itself login-gated; no login bypass; analysis screenshot only",
+      "localPath": "assets/references/energetic.svg",
+      "sha256": "7a680e3d891bbae2d4b0bdacaf7a01ab7dbd490371caa2fe7df55d4742ec2831",
+      "rights": "reference-only private study; not a reusable/admitted asset or public distribution license",
+      "inspected": true,
+      "extraction": "Only hierarchy, visual rhythm and spacing; source lettering and identity excluded"
+    },
+    {
+      "id": "vibrant",
+      "url": "https://www.pinterest.com/pin/673569688025765531/",
+      "image": "https://i.pinimg.com/736x/69/4a/c7/694ac7cdd993417f528db4e072551819.jpg",
+      "w": 700,
+      "h": 700,
+      "complete": true,
+      "method": "public search-indexed image; pin itself login-gated; no login bypass; analysis screenshot only",
+      "localPath": "assets/references/vibrant.svg",
+      "sha256": "c3eaad682913f336f36e2ad61f7731b7e2058529d6909352195191503503073b",
+      "rights": "reference-only private study; not a reusable/admitted asset or public distribution license",
+      "inspected": true,
+      "extraction": "Only hierarchy, visual rhythm and spacing; source lettering and identity excluded"
+    },
+    {
+      "id": "sophisticated",
+      "url": "https://jp.pinterest.com/pin/1337074888732543/",
+      "image": "https://i.pinimg.com/originals/00/25/c1/0025c19b7ad825f4afb5e3fc76ab47a2.jpg",
+      "w": 800,
+      "h": 1200,
+      "complete": true,
+      "method": "public search-indexed image; pin itself login-gated; no login bypass; analysis screenshot only",
+      "localPath": "assets/references/sophisticated.svg",
+      "sha256": "1bbf97328367449dbb0b9430e60ae85a321c58e3848ae64417f424f6d4e0a109",
+      "rights": "reference-only private study; not a reusable/admitted asset or public distribution license",
+      "inspected": true,
+      "extraction": "Only hierarchy, visual rhythm and spacing; source lettering and identity excluded"
+    },
+    {
+      "id": "modern",
+      "url": "https://www.pinterest.com/pin/516647388506045253/",
+      "image": "https://i.pinimg.com/736x/55/bc/87/55bc877a6a90624820868662abaf7130.jpg",
+      "w": 735,
+      "h": 1043,
+      "complete": true,
+      "method": "public search-indexed image; pin itself login-gated; no login bypass; analysis screenshot only",
+      "localPath": "assets/references/modern.svg",
+      "sha256": "78388ed4dfc4ccb11cc39b240f7fc36d31b3e6b18b755b927a25557c1b4115d7",
+      "rights": "reference-only private study; not a reusable/admitted asset or public distribution license",
+      "inspected": true,
+      "extraction": "Only hierarchy, visual rhythm and spacing; source lettering and identity excluded"
+    }
+  ],
+  "sourcePixels": "Public search-indexed Pinterest image visually inspected; screenshot made for requested private moodboard. Pin page may request login; no bypass.",
+  "publicationAllowed": false
+}

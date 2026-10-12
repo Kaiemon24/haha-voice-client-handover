@@ -1,0 +1,29 @@
+# VIETNAMESE SENTENCE-OPENING CASE V1
+
+| Need | Path | Rule |
+|---|---|---|
+| RULE | [RULE](#rule) | Read when you need rule; retain the prerequisites and limits stated in that section. |
+| EXCEPTIONS | [EXCEPTIONS](#exceptions) | Read when you need exceptions; retain the prerequisites and limits stated in that section. |
+| EDITING ORDER | [EDITING ORDER](#editing-order) | Read when you need editing order; retain the prerequisites and limits stated in that section. |
+| FAILURE EXAMPLE | [FAILURE EXAMPLE](#failure-example) | Read when you need failure example; retain the prerequisites and limits stated in that section. |
+
+## RULE
+
+Every complete reader-facing Vietnamese sentence starts with an uppercase letter. Apply this to body copy, captions, notes, bullets, table cells, cards, expanded details, tooltips, accessibility text, and dynamically revealed content.
+
+## EXCEPTIONS
+
+Keep lowercase only when it is part of an official identity or machine-readable value: deliberately lowercase brand/proper names, URLs, email addresses, file paths, code, formulas, stable IDs, hexadecimal values, hashtags, and exact source titles.
+
+## EDITING ORDER
+
+1. Correct the canonical content or registry.
+2. Rebuild the reader artifact.
+3. Activate every tab/state and scan rendered plus accessible text.
+4. Use runtime normalization only as a safeguard for dynamic copy.
+5. Treat a user screenshot as a blocking regression fixture until the same state is visibly clean.
+
+## FAILURE EXAMPLE
+
+- Reject: `QUYẾT ĐỊNH CHUYỂN TIẾP` followed by `kiểm tra cách đối thủ...`
+- Accept: `QUYẾT ĐỊNH CHUYỂN TIẾP` followed by `Kiểm tra cách đối thủ...`

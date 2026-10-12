@@ -1,0 +1,31 @@
+/* HAHA shared control states: the hard shadow is the outer depth cue. */
+:root{--kai-control-time:140ms;--kai-control-ease:cubic-bezier(.2,.7,.3,1)}
+button,.button,.topnav a,.ui261-shell .brand{transition:transform var(--kai-control-time) var(--kai-control-ease),box-shadow var(--kai-control-time) var(--kai-control-ease),background-color var(--kai-control-time) linear,color var(--kai-control-time) linear;touch-action:manipulation}
+button:hover,.button:hover,button[data-reuse]:hover,.ui261-highlight:hover{outline:none;outline-offset:0}
+@media(hover:hover){button:not(:disabled):not([aria-disabled=true]):hover,.button:not([aria-disabled=true]):hover,.topnav a:hover{transform:translateY(-2px);box-shadow:3px 5px 0 var(--shadow);filter:none}
+.topnav a:not([aria-current]):hover{background:var(--muted);color:var(--ink)}
+.ui261-quiet:hover{transform:none;box-shadow:none;text-decoration-thickness:3px}}
+button:not(:disabled):not([aria-disabled=true]):active,.button:not([aria-disabled=true]):active,.topnav a:active{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--shadow)}
+/* Keyboard focus sits inside the control; selected and primary fills use gold. */
+body :focus-visible{outline:3px solid var(--green)!important;outline-offset:-3px!important}
+button.primary:focus-visible,button.ui261-important:focus-visible,.v251-controls button[aria-pressed=true]:focus-visible,.topnav a[aria-current]:focus-visible{outline-color:var(--fire)!important}
+button.ui261-highlight:focus-visible,button[data-reuse]:focus-visible{outline-color:#000000!important}
+body button[data-reuse]:focus-visible,#view:has(#library) :focus-visible,#view:has(#applications) :focus-visible,.model-page :focus-visible{box-shadow:3px 3px 0 var(--shadow)}
+body .ui261-quiet:focus-visible{outline:none!important;box-shadow:none!important;text-decoration:underline;text-decoration-thickness:3px;text-decoration-color:var(--green)}
+button:disabled,button[aria-disabled=true],.button[aria-disabled=true]{opacity:1!important;background:var(--muted)!important;color:var(--ink)!important;border-color:var(--line)!important;transform:none!important;box-shadow:none!important;cursor:not-allowed;transition:none!important}
+.button268-framework{width:100%;display:grid;gap:32px;margin:32px 0 0;border-top:1px solid var(--line);padding-top:32px}
+#ui-buttons{grid-column:1/-1}#ui-buttons>.demo{display:block}
+.button268-demo [data-state268-run]{min-inline-size:184px}
+.button268-framework h4,.button268-framework p{margin:0}.button268-framework ul{margin:0;padding-left:24px;display:grid;gap:16px}
+.button268-demo{display:grid;gap:24px;padding:24px;border:1px solid var(--line);border-radius:4px;background:var(--paper)}
+.button268-demo .inline-controls{gap:24px}.button268-demo [data-state268-result]{min-height:48px;margin:0;font-size:16px}
+.button268-table-wrap{overflow:auto;max-width:100%;border:1px solid var(--line);border-radius:4px}
+.button268-table{border-collapse:collapse;width:100%;font-size:16px;background:var(--panel)}
+.button268-table th,.button268-table td{padding:16px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);min-width:140px}
+.button268-table th{color:var(--green);font-weight:700}.button268-table td:last-child{min-width:230px}
+.button268-icon{width:48px;height:48px;padding:12px;display:inline-flex;align-items:center;justify-content:center}.button268-icon svg{width:24px;height:24px}
+body.paused button,body.paused .button,body.paused .topnav a,body.paused .ui261-shell .brand{transition:none!important}
+body.paused button:not(:disabled):not([aria-disabled=true]):hover,body.paused .button:not([aria-disabled=true]):hover,body.paused .topnav a:hover,body.paused button:not(:disabled):not([aria-disabled=true]):active,body.paused .button:not([aria-disabled=true]):active,body.paused .topnav a:active{transform:none!important;box-shadow:3px 3px 0 var(--shadow)}
+@media(prefers-reduced-motion:reduce){button,.button,.topnav a,.ui261-shell .brand{transition:none!important}button:not(:disabled):not([aria-disabled=true]):hover,.button:not([aria-disabled=true]):hover,.topnav a:hover,button:not(:disabled):not([aria-disabled=true]):active,.button:not([aria-disabled=true]):active,.topnav a:active{transform:none!important;box-shadow:3px 3px 0 var(--shadow)}}
+@media(forced-colors:active){body :focus-visible{outline:3px solid Highlight!important;outline-offset:-3px!important}.ui261-quiet:focus-visible{outline:2px solid Highlight!important}button:disabled{color:GrayText!important;border-color:GrayText!important}.topnav a[aria-current],button.ui261-important[aria-pressed=true]{border-bottom-color:Highlight!important}}
+@media(max-width:800px){.button268-demo{padding:16px}.button268-table th,.button268-table td{padding:12px}.button268-framework{gap:24px}}

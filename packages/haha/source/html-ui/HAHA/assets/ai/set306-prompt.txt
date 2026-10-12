@@ -1,0 +1,22 @@
+🎯 OUTPUT INTENT
+Create a new independent landscape photograph illustrating a bright neutral recording set for a monochrome brand guide. The image must show the set itself rather than reuse a cropped presenter portrait.
+🔒 REFERENCE LOCKS
+No image attachments. This is a new proposed studio environment. Black, white, charcoal and neutral gray only; no brand marks.
+👤 SUBJECT
+An empty compact recording studio, with a simple matte black chair on the right side, a small off-white side table, a restrained dark floor lamp and a low charcoal storage cabinet at the far right. No people. Objects are complete and recognizably functional.
+🌍 ENVIRONMENT
+Pale textured neutral wall, light matte floor, intentional clean open space across the left half, gentle depth behind the chair. No clutter, decorative logos, text, green plants or colorful artwork. Comfortable credible room scale, minimal furniture, clear usable wall area.
+🎬 ACTION
+An empty still set prepared before recording, chair positioned for a presenter to sit, furniture grounded, nothing moving.
+💡 LIGHTING
+Large soft daylight-style key from front-left, subtle soft shadows, neutral balanced whites, bright wall with enough separation from matte dark furniture, no dramatic spotlight.
+📷 CAMERA
+Eye-level architectural editorial photograph, medium-wide 35mm-equivalent perspective, level verticals, landscape composition, whole chair and lamp visible, enough floor and headroom to show the arrangement.
+🎨 METATOKENS
+Clean editorial realism, tactile matte surfaces, restrained contrast, 16K-detail fidelity as finish intent only.
+✅ REQUIRED LOCKS
+Empty room with no people; complete furniture silhouettes; purposeful left negative space; bright neutral set; independent landscape source.
+⚠️ EXCLUSIONS
+No text, watermark, logo, collage, studio diagram, colorful accents, oversized equipment, heavily theatrical lighting or chopped furniture.
+📐 OUTPUT SPECIFICATION
+Native landscape 16:9 aspect ratio, opaque background, one image. Preserve original provider pixels; no upscale.
