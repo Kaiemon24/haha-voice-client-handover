@@ -1,32 +1,12 @@
-# Bắt đầu cài HAHA + Voice
+# Bắt đầu cài HAHA + Voice 1.1.1
 
-Sao chép toàn bộ prompt dưới đây, dán vào agent bạn đang dùng và trả lời tối đa ba câu hỏi. Agent tự kiểm môi trường, đưa bản xem trước rồi mới cài phần bạn xác nhận.
-
-## Prompt cài đặt
+Mở đúng thư mục làm việc trong Codex, rồi dán nguyên yêu cầu dưới đây. Agent tải gói và tự thực hiện; chỉ hỏi khi có thông tin hoặc quyền thực sự còn thiếu. Không cần đính kèm ZIP hoặc tự chọn kiến trúc thư mục.
 
 ```text
-Cài HAHA + Voice theo https://github.com/Kaiemon24/haha-voice-client-handover/blob/f0110b2b9285a13529d43145453eca26db771c6b/SETUP.md và INSTALL.md cùng commit. Gói HAHA 1.1.0 đã gồm Voice; tải release v1.1.0 và kiểm SHA-256 theo RELEASES.json trước khi chạy.
-Tự kiểm ứng dụng, OS, skill và công cụ hiện có. Hỏi tối đa 3 câu, dùng lại đáp án đã có:
-1. Bạn muốn lưu bộ HAHA và tài sản mới ở thư mục nào?
-2. Bạn muốn nối vào OS hiện có hay dùng riêng trong thư mục này?
-3. Bạn xác nhận bản xem trước để tôi cài và tích hợp không?
-Trước câu 3, trình đúng đường dẫn, thay đổi skill/router/thư viện, xung đột và công cụ cần cài với nguồn, vị trí, quyền, chi phí. Sau xác nhận, chỉ áp dụng phần được duyệt và OS cho phép; không ghi đè hoặc tự đổi quyền. Nếu phát sinh phạm vi mới, dừng nhánh đó.
-Kiểm nhận skill và một tác vụ thật; hướng dẫn gọi /haha, /voice theo ứng dụng, dùng DESIGN.md/HTML và tạo/lưu tài sản theo LIBRARY-ELEMENTS.md. Trả nơi lưu, kết quả kiểm và bước còn chờ.
+Thiết lập HAHA + Voice 1.1.1 để tôi dùng trong workspace đang mở, theo https://github.com/Kaiemon24/haha-voice-client-handover/blob/36658bf05dc3b67decd99146300a5f9812ed121b/SETUP.md. Tải đúng HAHA-Voice-1.1.1-client.zip ở release v1.1.1; gói đã gồm cả HAHA và Voice. Kiểm SHA-256 trước khi chạy: cddcc1fe8d1510ff33f55ae9e78254e3b612ead1ba3ffe6287a6114271e4d693.
+Tôi yêu cầu cài mới trong workspace đã xác định: tự kiểm môi trường, dùng mặc định an toàn, tạo cây skill cùng đủ tài nguyên và xử lý các bước theo hướng dẫn. Không bắt tôi chọn cấu trúc hay kiểu tích hợp. Nếu chưa xác định workspace, hỏi đúng nơi lưu.
+Xem trước đường dẫn và thay đổi; chỉ áp dụng trong quyền đã có. Nếu hệ thống yêu cầu duyệt riêng, chờ xác nhận bản xem trước. Không ghi đè; hỏi khi xung đột, thiếu quyền, công cụ hoặc có chi phí; dừng nhánh bị chặn.
+Kiểm skill được nhận và chạy tác vụ thật: kiểm tài nguyên HAHA, mở HTML và thử Tái sử dụng; dùng Voice viết lại mẫu thông báo, giữ nguyên dữ kiện. Nếu menu chưa nhận, kiểm cách gọi đúng và thử đọc trực tiếp SKILL.md đã cài; báo riêng trạng thái menu. Chỉ báo dùng được theo bằng chứng, rồi hướng dẫn ngắn nơi làm việc, cách gọi, đầu vào và đầu ra.
 ```
 
-## Các bước bạn sẽ thấy
-
-1. Chọn nơi lưu bộ HAHA và tài sản mới.
-2. Chọn nối vào OS hiện có hoặc dùng riêng.
-3. Xem đường dẫn, thay đổi và công cụ cần thiết; xác nhận để cài.
-
-Sau cài, agent hướng dẫn chọn skill, mở design system và lưu tài sản mới. Nếu môi trường không hỗ trợ hoặc cần quyền mới ngoài bản đã duyệt, phần đó được ghi rõ là chưa thiết lập.
-
-## Chi tiết khi cần
-
-- [Quy trình ba câu hỏi](SETUP.md).
-- [Cài đặt, gọi skill và tích hợp OS](INSTALL.md).
-- [Tạo và lưu tài sản mới](LIBRARY-ELEMENTS.md).
-- [Release v1.1.0](https://github.com/Kaiemon24/haha-voice-client-handover/releases/tag/v1.1.0).
-
-Repository công khai, tải không cần tài khoản GitHub. Hướng dẫn được ghim theo commit; ZIP phát hành và mã kiểm giữ nguyên.
+Sau cài, kiểm riêng đủ tệp, ứng dụng nhận skill, tác vụ thật và người nhận nghiệm thu. Không dùng kết quả máy dựng thay kết quả máy khách.
