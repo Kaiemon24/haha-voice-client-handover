@@ -1,42 +1,75 @@
-# Bắt đầu cài HAHA + Voice
+# Cài HAHA + Voice 1.1.1 — agent tự thiết lập
 
-Khách dán một prompt từ START-HERE.md, trả lời tối đa ba câu hỏi rồi nhận hướng dẫn dùng. Agent đọc quy trình này trước khi hỏi. Gói HAHA 1.1.0 đã gồm Voice; không cần tải thêm Voice nếu không có nhu cầu dùng riêng.
+## Bản phát hành cố định cần tải
 
-## 1. Kiểm trước khi hỏi
+- Release: [v1.1.1](https://github.com/Kaiemon24/haha-voice-client-handover/releases/tag/v1.1.1).
+- ZIP: [HAHA-Voice-1.1.1-client.zip](https://github.com/Kaiemon24/haha-voice-client-handover/releases/download/v1.1.1/HAHA-Voice-1.1.1-client.zip). Gói này đã gồm cả HAHA và Voice; không tải thêm Voice riêng.
+- Dung lượng: 16783261 byte.
+- SHA-256 độc lập từ bản bàn giao: `cddcc1fe8d1510ff33f55ae9e78254e3b612ead1ba3ffe6287a6114271e4d693`.
 
-Đọc INSTALL.md, RELEASES.json và LIBRARY-ELEMENTS.md tại cùng commit với hướng dẫn này. Chọn release v1.1.0. Kiểm mã SHA-256 ZIP và nội dung giải nén trước khi thực thi; đọc installer. Kho công khai, không yêu cầu token, GitHub CLI hay tài khoản để tải.
+Agent tải đúng URL này vào thư mục nguồn tạm thuộc tác vụ, kiểm SHA-256 trước khi giải nén hoặc chạy; đọc bộ cài và kiểm toàn bộ checksums.sha256. Không dùng latest, không thay ZIP khác hoặc tự lấy packages/haha cũ từ nhánh main. Thư mục packages/ trong kho giữ source lịch sử 1.1.0; source của 1.1.1 nằm đầy đủ trong ZIP mới. Tải công khai không cần tài khoản GitHub, Git hay GitHub CLI.
 
-Kiểm chỉ trong phạm vi công việc: ứng dụng agent đang dùng, quy tắc OS được khai báo, nơi ứng dụng nhận skill, HAHA/Voice hiện có, Python và quyền ghi. Không quét toàn máy, không đoán đường dẫn hoặc tự đổi quyền. Kiểm xung đột trước khi lập kế hoạch.
+Bạn chỉ cần mở đúng thư mục làm việc trong Codex rồi dán prompt được bàn giao. Agent thực hiện các bước dưới đây; chỉ cần bạn trả lời khi thiếu thông tin, có xung đột hoặc hệ thống yêu cầu quyền riêng.
 
-## 2. Tối đa ba câu hỏi
+## Kết quả sau khi cài
 
-Dùng lại câu trả lời đã có. Hai câu đầu có thể gửi cùng lúc. Không lồng nhiều quyết định không liên quan vào một câu.
+```text
+WORKSPACE/
+  .agents/skills/haha/
+    SKILL.md
+    agents/openai.yaml
+    references/
+    scripts/inspect_haha.py
+    assets/design-system/DESIGN.md
+    assets/design-system/VOICE.md
+    assets/design-system/design-system.html
+    assets/design-system/assets/
+  .agents/skills/voice/
+    SKILL.md
+    references/
+    functions/
+    scripts/
+  HAHA-Voice-work/
+    input/
+    output/
+    library/custom/
+```
 
-1. **Nơi lưu:** “Bạn muốn lưu bộ HAHA và tài sản mới ở thư mục nào?” Nếu khách chưa biết, đề xuất một thư mục cụ thể trong workspace hiện có và đưa vào bản xem trước; chưa ghi vào đó.
-2. **Cách dùng:** “Bạn muốn nối HAHA + Voice vào OS đang dùng hay dùng riêng trong thư mục này?” Đọc OS trước, giải thích ngắn lựa chọn phù hợp. Nếu không nhận diện được ứng dụng đích, dùng câu này để xác định ứng dụng và kiểu tích hợp.
-3. **Xác nhận:** Sau khi hoàn tất kiểm tra và bản xem trước, hỏi “Bạn xác nhận bản xem trước này để tôi cài và tích hợp không?”
+WORKSPACE là thư mục người dùng đã mở hoặc chỉ định rõ trong ứng dụng, không phải một thư mục shell tình cờ. Chỉ hỏi nơi lưu khi không xác định được đúng thư mục. Tài nguyên thiết kế và font nằm trong cây skill haha; Voice là skill đi kèm riêng. Không cần KAI OS, skill Design mẹ hay thư mục máy dựng. Không chép thêm một bản Brand asset hoặc skill toàn máy để chữa menu.
 
-Bản xem trước ở câu 3 phải ghi đường dẫn chính xác; layout; tệp tạo/giữ nguyên; thay đổi đăng ký hoặc router; nơi lưu tài sản mới; mọi xung đột; kiểm nghiệm thu và cách hoàn tác. Chỉ thực hiện phần đã được khách xác nhận và OS cho phép. Không coi câu trả lời 1 hoặc 2 là quyền sửa router, ghi đè hoặc cài công cụ.
+## Agent thực hiện
 
-## 3. Công cụ cần thiết
+1. Kiểm đúng gói HAHA-Voice-1.1.1-client.zip và mã SHA-256 nhận cùng prompt trước khi giải nén/chạy. Kiểm đường dẫn ZIP không vượt ra ngoài thư mục giải nén, không có liên kết tệp; đọc checksums.sha256 và kiểm toàn bộ file. Không tải rồi thực thi trong một chuỗi chưa kiểm.
+2. Kiểm ứng dụng, hệ điều hành, công cụ hiện có, quy tắc workspace và skill trùng tên trong đúng phạm vi. Ưu tiên Python có sẵn, gồm Python đi cùng ứng dụng nếu dùng được. Gói chỉ cần Python 3.10+ và thư viện chuẩn cho bộ cài; không tự cài Python, sửa quyền, đổi cấu hình toàn máy hoặc tải thêm gói trả phí.
+3. Dùng mặc định cài mới vào .agents/skills. Xác định đường dẫn tuyệt đối và chạy bộ cài ở chế độ xem trước. Đọc tệp tạo mới, giữ nguyên và xung đột. Trình bản xem trước ngắn; yêu cầu cài đặt trong prompt cho phép phần cài mới đã nêu, nhưng không thay thế cổng duyệt riêng của máy đích. Nếu máy đích yêu cầu xác nhận riêng thì chờ đúng xác nhận đó. Không đặt ba câu hỏi cố định về thư mục và kiến trúc OS.
+4. Chỉ sau khi đúng quyền, chạy chế độ áp dụng. Không ghi đè skill/Voice đã có hoặc router. Nếu trùng tên khác nội dung, giữ nguyên và trình phạm vi nâng cấp riêng: tệp nào thay, bản cũ lưu đâu, cách khôi phục; chưa duyệt thì nhánh nâng cấp dừng. Chạy lại gói giống mã giữ nguyên file, không tạo cây skill lồng nhau.
+5. Tạo HAHA-Voice-work/input, output và library/custom trong workspace nếu chưa có, chỉ bằng thao tác tạo mới. Đây là dữ liệu khách; không ghi đầu ra hay tài sản tùy chỉnh vào thư viện mẫu cố định. Nếu đã có dữ liệu, giữ nguyên. Chỉ mục tài sản mới ghi mục đích, nguồn chỉnh sửa, bản xem, quy tắc, phụ thuộc, quyền dùng, phiên bản và kiểm tra trước khi đưa vào dùng lại.
+6. Đọc lại mã mọi file đã cài. Chạy hai tác vụ thử trong mục dưới từ đúng workspace và một thư mục con khác. Không tuyên bố menu đã nhận chỉ vì thư mục tồn tại. Giới hạn hai lần thử cùng một chẩn đoán, sau đó xét lại nguyên nhân; không lặp vô hạn hay đổi phương thức để vượt quyền bị từ chối.
 
-Dùng công cụ có sẵn trước. Python 3.10+ là yêu cầu để chạy installer đi kèm; không buộc khách cài Codex, Git hoặc GitHub CLI nếu agent hiện có tải và xử lý gói được.
+Agent dùng cùng Python đã kiểm và truyền đường dẫn thật, không yêu cầu khách tự gõ lệnh:
 
-Nếu thiếu công cụ, trước câu 3 hãy ghi đúng tên/phiên bản, nguồn chính thức, cách kiểm gói tải, vị trí cài, thay đổi dự kiến, quyền cần và chi phí. Chỉ cài đúng công cụ được xác nhận; ưu tiên phạm vi người dùng hoặc workspace, không tự nâng quyền. Nếu khách không chấp nhận hoặc môi trường cấm cài, giữ nhánh đó ở trạng thái chưa thiết lập và đưa cách làm thủ công. Không yêu cầu khách dán mật khẩu/token vào chat.
+```text
+python installer/install_client_package.py --target-root "WORKSPACE_ABSOLUTE" --preview
+python installer/install_client_package.py --target-root "WORKSPACE_ABSOLUTE" --apply --confirm
+```
 
-## 4. Cài, nối và kiểm
+WORKSPACE_ABSOLUTE phải được agent thay bằng đường dẫn thực. Cờ --confirm là tham số kỹ thuật, không tự tạo bằng chứng người dùng đã cấp quyền. Sau lỗi hoặc gián đoạn, đọc lại bản xem trước/biên nhận và trạng thái file trước khi thử lại. Bộ cài chỉ khôi phục các file nó vừa tạo và vẫn đúng mã; giữ nguyên thay đổi của người khác. Không xóa thư mục, bản cũ hay dữ liệu khách để dọn dẹp.
 
-Sau câu 3: thực hiện công cụ được duyệt nếu cần; chạy preview của installer với đích/layout đã chọn, đọc lại trước apply. Nếu khác bản khách duyệt, không apply. Nếu giống, apply và kiểm toàn vẹn.
+## Hai tác vụ thử bắt buộc
 
-Codex tiêu chuẩn dùng .agents/skills/haha và .agents/skills/voice. Chỉ dùng layout theo nhóm của OS nếu cơ chế thật đã được đọc và đích được xác nhận. Bộ cài không sửa router; agent chỉ làm thay đổi tích hợp được liệt kê và được phép. Nếu OS yêu cầu một quy trình duyệt riêng, để thay đổi đó chờ quy trình ấy; không lách bằng bản sao hoặc symlink.
+- HAHA: chạy scripts/inspect_haha.py của skill đã cài. Kết quả phải là status PASS, không thiếu tài nguyên và mã khớp package-manifest262.json. Sau đó mở assets/design-system/design-system.html, chọn một mẫu, thử Tái sử dụng và xác nhận font/hình/quy tắc tải được. Ghi rõ vùng nào chưa xem hoặc chưa thử; kiểm mã không chứng minh chất lượng thiết kế.
+- Voice: đọc SKILL.md và đúng hướng dẫn tiếng Việt đã cài; viết lại mẫu trong assets/examples/install-smoke-input.md thành một thông báo ngắn. Giữ nguyên giờ, ngày, hình thức họp và hạn xác nhận. Đọc lại đầu ra và đối chiếu từng dữ kiện. Tác vụ này không cần gửi email, tạo tài liệu ngoài hay dùng mô hình trả phí.
 
-Kiểm ứng dụng nhận skill, rồi một tác vụ nhỏ dùng đúng DESIGN.md và VOICE.md. Hướng dẫn chọn /haha hoặc /voice trong menu nếu ứng dụng hỗ trợ; CLI/IDE có thể dùng /skills hoặc $haha, $voice. HTML là bản xem và lấy chỉ dẫn Tái sử dụng; Markdown là tuyến đọc quy tắc cho agent.
+Ghi bốn trạng thái riêng: đủ file/tài nguyên; ứng dụng nhận skill; tác vụ thực tế; người nhận ký nghiệm thu. Chỉ đánh dấu từng trạng thái đạt khi có bằng chứng của chính bước đó. Thử cục bộ của bên giao không chứng minh máy Mac của khách hoặc mọi phiên bản Codex.
 
-Mở HTML lớp đầu Design system; thử Tái sử dụng và một mẫu. Tài sản khách tạo nằm trong thư viện mở rộng có phiên bản, nguồn sửa được, preview, quy tắc, mã kiểm và chỉ mục; không sửa baseline phát hành. Chi tiết trong LIBRARY-ELEMENTS.md.
+## Nếu chưa gọi được trong menu
 
-## 5. Kết quả khách nhận
+Xác nhận đúng workspace, vị trí .agents/skills, metadata name/description, mục skill bị tắt, bản trùng tên và cơ chế nạp lại được ứng dụng hỗ trợ. Không mặc định /haha hoặc /voice có ở mọi ứng dụng. CLI/IDE hỗ trợ /skills hoặc $haha, $voice; giao diện khác dùng mục chọn thực sự quan sát được.
 
-Trả một biên nhận ngắn: phiên bản, nơi lưu, skill được nhận, kết quả tác vụ, cách gọi lần sau, nơi lưu tài sản mới và bước chưa kiểm. Chỉ ghi “đã cài và dùng được” khi có bằng chứng tại môi trường khách. Không dùng kiểm thử máy dựng để thay nghiệm thu của khách.
+Khi menu chưa nhận, có thể dùng ngay đường đọc file: nhờ agent mở chính .agents/skills/haha/SKILL.md hoặc .agents/skills/voice/SKILL.md trong workspace đã xác định rồi làm cùng tác vụ thử. Báo rõ đây là gọi trực tiếp qua file, menu vẫn chờ xác minh. Nếu cần chat mới hay khởi động lại, đưa một bước ngắn để khách thực hiện; không tự khởi động lại ứng dụng hoặc tuyên bố khách đã làm.
 
-Nếu sau câu 3 xuất hiện quyền, xung đột, chi phí hoặc đích mới ngoài bản đã duyệt, dừng riêng nhánh đó và ghi quyết định còn thiếu; không vượt giới hạn ba câu bằng chuỗi hỏi tiếp hoặc tự bỏ qua quyền. Quy trình này giảm hỏi trong trường hợp đủ điều kiện, không bảo đảm mọi OS cài xong trong ba câu.
+## Hướng dẫn dùng sau khi thử đạt
 
+Trả đúng năm mục ngắn: thư mục làm việc; cách gọi đã thử; một ví dụ; nơi đặt đầu vào/đầu ra; điểm còn chờ. Ví dụ: dùng HAHA chọn mẫu thẻ quyết định cho nội dung mới; dùng Voice viết lại thông báo theo dữ kiện và giọng đã duyệt. HAHA dùng VOICE.md của thương hiệu; Voice chung hỗ trợ phương pháp và kiểm nghĩa, không tự thay giọng thương hiệu.
+
+Giữ nguyên logo, bản quyền và giới hạn tài sản trong CLIENT-USE.md. Gói này là ảnh chụp bàn giao, không phải nguồn chỉ dẫn chính thức của bên dựng. Không xin token trong chat, đổi quyền, xuất bản, mua công cụ hoặc gửi thay khách. Nguồn cơ chế Codex: https://learn.chatgpt.com/docs/build-skills .

@@ -1,15 +1,15 @@
-# HAHA Design System + Voice — Client handover
+# HAHA + Voice — bàn giao độc lập
 
-Repository công khai chứa trọn bộ bàn giao độc lập, không cần KAI OS. Bắt đầu tại [START-HERE.md](START-HERE.md): dán một prompt, trả lời tối đa ba câu. Agent đọc [SETUP.md](SETUP.md), rồi [INSTALL.md](INSTALL.md) để tải đúng bản, kiểm và tích hợp vào OS của khách.
+Bản hiện hành: **1.1.1**. Mở thư mục làm việc trong Codex rồi dán yêu cầu tại [START-HERE.md](START-HERE.md). Agent tự kiểm môi trường, tải đúng gói, tạo cây skill và tài nguyên, thử sử dụng rồi hướng dẫn ngắn. Chỉ hỏi khi thiếu nơi lưu, gặp xung đột hoặc cần quyền riêng.
 
-- HAHA 1.1.0: baseline hình 1.0.1 giữ nguyên 239 bản ghi; bổ sung cài đặt/discovery/thư viện mở rộng. Có Voice đi kèm.
-- Voice 1.0.1: phương pháp và script ngôn ngữ của 1.0.0 giữ nguyên; bổ sung cách cài và nhận skill.
-- [Release v1.1.0](https://github.com/Kaiemon24/haha-voice-client-handover/releases/tag/v1.1.0): hai ZIP và SHA-256. `RELEASES.json` giữ phiên bản, đường dẫn và mã kiểm.
-- [Library elements](LIBRARY-ELEMENTS.md): tạo, kiểm, duyệt và lập chỉ mục tài sản mới của khách.
-- [HAHA online preview](https://haha-design-system-handover.dihocdi.chatgpt.site): xem baseline hình; cài từ release GitHub.
+- [Bản phát hành 1.1.1](https://github.com/Kaiemon24/haha-voice-client-handover/releases/tag/v1.1.1): một ZIP đã gồm HAHA và Voice.
+- [Hướng dẫn tự thiết lập](SETUP.md), [cài và phục hồi](INSTALL.md), [tài sản mở rộng](LIBRARY-ELEMENTS.md).
+- Mã ZIP và dung lượng chính xác trong [RELEASES.json](RELEASES.json).
+- Đích mặc định: `.agents/skills/haha` và `.agents/skills/voice` trong workspace đã xác định. Tài nguyên HAHA nằm trong skill haha; dữ liệu khách ở `HAHA-Voice-work`.
+- Giữ nhận diện và nội dung mẫu gốc; bản 1.1.1 tổ chức lại đích cài và cập nhật đường dẫn/metadata kiểm tra. Bộ cài không ghi đè nội dung khác mã.
 
-`packages/haha` và `packages/voice` chứa source snapshot, installer, manifest, checksum, hướng dẫn HTML/PDF và tài liệu bàn giao. Đây là delivery snapshot; không chứa source OS, retired history, secrets, cache hay ảnh Pinterest có giới hạn tái phân phối.
+Đã kiểm cơ chế cài và tài nguyên cục bộ. Menu, tác vụ thật và nghiệm thu trên máy khách còn chờ; thư mục tồn tại không chứng minh ứng dụng đã nhận skill. Không bảo đảm mọi môi trường cài được khi thiếu quyền hoặc công cụ.
 
-Khách đọc và tải gói không cần đăng nhập GitHub. Sau cài, khách vẫn xác nhận đích, menu và một nhiệm vụ thật. Kiểm thử đóng gói không thay cho nghiệm thu trên máy khách.
+## Nguồn và phiên bản trước
 
-Quyền truy cập đã chuyển sang công khai. Chỉ dẫn yêu cầu quyền riêng tư trong các snapshot/PDF cũ được thay bằng mục truy cập ở INSTALL.md hiện hành; phiên bản và mã kiểm ZIP giữ nguyên. Việc công khai kho không chuyển quyền sở hữu logo hay cấp giấy phép mở cho tài sản thương hiệu.
+Source đầy đủ của 1.1.1 nằm trong ZIP mới. `packages/haha`, `packages/voice` và release v1.1.0 được giữ làm lịch sử; không dùng chúng thay ZIP 1.1.1. Gói là ảnh chụp bàn giao, không cần OS của bên dựng. Quyền tài sản theo CLIENT-USE.md; kho công khai không cấp giấy phép mở cho thương hiệu. Không kèm bí mật, hồ sơ trình duyệt hay dữ liệu khách.
