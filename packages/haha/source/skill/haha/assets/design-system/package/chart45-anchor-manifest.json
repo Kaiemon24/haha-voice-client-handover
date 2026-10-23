@@ -1,0 +1,770 @@
+{
+  "schemaVersion": "scoped-chart-anchor-rollout/v1",
+  "status": "PREPARATION_NOT_ACTIVATED",
+  "brand": "HAHA",
+  "version": "1.2.4-anchor-output-review",
+  "sourceVersion": "1.2.3-reuse-output-review",
+  "scope": "Onlyactualheaderheight-basedanchorplacement; graphics/data/fonts/media unchanged",
+  "files": [
+    {
+      "path": "application280.html",
+      "sha256": "f3e5f69928e081448e83f06195333389e5e6c61abfab1d63b75d132f9532ec34"
+    },
+    {
+      "path": "application318.css",
+      "sha256": "08eb9b86fed97ea1816c5a27af443368e0a6e5f02b076aa0e6cd10cf0fe97443"
+    },
+    {
+      "path": "application318.js",
+      "sha256": "e670556fc7213c15a7ba9384a0f01fe9cbad95ae43a3fb7328c93ccfcf598dbf"
+    },
+    {
+      "path": "APPLICATIONS.md",
+      "sha256": "fb43e17931115b6ba0955bddc49c5590a989c19406ea0338a48be79da6f68aa0"
+    },
+    {
+      "path": "applications280.css",
+      "sha256": "b01033e0606eb702e9e0a674c450df16bd1424d2d6c6a01d326ef6afad2adeea"
+    },
+    {
+      "path": "applications280.js",
+      "sha256": "cc942ccdd388aefdc117192a22cd3d8f9b77a035994ad0de7929806cabba347e"
+    },
+    {
+      "path": "applications283.css",
+      "sha256": "029a0cff8dfd165623f3f487192e6c36d39eff1a8977bced1e5bb190a05d62ac"
+    },
+    {
+      "path": "applications285.css",
+      "sha256": "1fd2de8d68dcfc6911b0f25c0fafbf4c1c0805469f0106e458186511f4743246"
+    },
+    {
+      "path": "assets/ai/bold-prompt.txt",
+      "sha256": "8c1bf1e207a2cf2ad0134151ebd63328611a56a4c0284ea958c39052a6e7cfd5"
+    },
+    {
+      "path": "assets/ai/bold.png",
+      "sha256": "de3fde77f68bb05d4c36fea60de90fcbad4152260cc4baced8d565c568753627"
+    },
+    {
+      "path": "assets/ai/energetic-prompt.txt",
+      "sha256": "bc858e81cd846dcb8753121d253c77de9bff8ccf87b71bcfe7dbb9b89ae58e64"
+    },
+    {
+      "path": "assets/ai/energetic.png",
+      "sha256": "24c097d60b7d96405fc7202eee140894a01bf572904ead7e5b9b4101a021c81f"
+    },
+    {
+      "path": "assets/ai/image-style-master308.png",
+      "sha256": "0f3b0c40694a224486162b3c192fd5968e4598bebd486051bccdc9228b6fef51"
+    },
+    {
+      "path": "assets/ai/modern-prompt.txt",
+      "sha256": "51cd91b8bd58040e75e311e042709ee7f1bcf50ea729c9160da52001d9b4b5ef"
+    },
+    {
+      "path": "assets/ai/modern.png",
+      "sha256": "e86df6a4cdc08e5016cb6ebf7b34ec812c468b2492fa247b6c5e1d50a98a49d6"
+    },
+    {
+      "path": "assets/ai/presenter-prompt.txt",
+      "sha256": "a626fa5aae23044a8ec5d2640a44181651b0895611532f8b9b6895bd51ce1730"
+    },
+    {
+      "path": "assets/ai/presenter.png",
+      "sha256": "98f3fae277618206294d992de93628d8be4715d5a032d0b30e700b2910b8a000"
+    },
+    {
+      "path": "assets/ai/provenance.json",
+      "sha256": "e3b8dacfd43ede787be5ff71faeaba283cebdad797e63784451100594a60aa9a"
+    },
+    {
+      "path": "assets/ai/set306-prompt.txt",
+      "sha256": "1c3fc7c3b3e407462d13b44543eb11986da5158c40ea16f71a5f72ac0e5a8625"
+    },
+    {
+      "path": "assets/ai/set306.png",
+      "sha256": "d607c5b90872d01c477d918ba2a154251fd02663d1b6ee283f122229310a3766"
+    },
+    {
+      "path": "assets/ai/sophisticated-prompt.txt",
+      "sha256": "d6dca7ccddc7ba3864a6c37408e11143e9fa9d27f705994478cc80224808556f"
+    },
+    {
+      "path": "assets/ai/sophisticated.png",
+      "sha256": "75b1c75eb390546063f0da52332341a59862f6a49ceddc86e0a61b256f0fdcd0"
+    },
+    {
+      "path": "assets/ai/vibrant-prompt.txt",
+      "sha256": "280e53b8d918a76aeb97d6e950b3d70739694991e6f723f70d2cb6f121a566cd"
+    },
+    {
+      "path": "assets/ai/vibrant.png",
+      "sha256": "b32125af7c484907898bf5ce07dad5eddaf4881b3f6b29c0ce52d8080fdc6af4"
+    },
+    {
+      "path": "assets/ai/wardrobe306-prompt.txt",
+      "sha256": "c35b4460f66654e953ee3fb66f78771f6884af2f30da742d8bd52134677adc64"
+    },
+    {
+      "path": "assets/ai/wardrobe306.png",
+      "sha256": "fec999cd8f26f14cf1249aefb43cba4cd5ffbd01f95347c1c03dd925de0480eb"
+    },
+    {
+      "path": "assets/fonts/be-vietnam-pro-400.ttf",
+      "sha256": "4ad53eac036092be79a34b5fa0aa32d0ebb3c7e5df4bc058764f5614fbf148a0"
+    },
+    {
+      "path": "assets/fonts/be-vietnam-pro-500.ttf",
+      "sha256": "557a1c42a7f8eb83f84255d475017b1235c1101b899367f974a1cbfa19cd7c3d"
+    },
+    {
+      "path": "assets/fonts/be-vietnam-pro-600.ttf",
+      "sha256": "cbf437bf71c8536a7aaed632dce2583ea5ec97c07efffc625c31991d1027ba3b"
+    },
+    {
+      "path": "assets/fonts/be-vietnam-pro-700.ttf",
+      "sha256": "aef76cd15b8c9faa1ff21951bb71963a774aa381526c557e5a52f38d430c4650"
+    },
+    {
+      "path": "assets/fonts/be-vietnam-pro-800.ttf",
+      "sha256": "116124d76142998ec6b49b76b0024314d5f0ef910e8898fa75a5dc38f6f03c6a"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha256": "adba7f9c81d62e8b3c6c2ebfd24b1e86b162fcba89995497ec0bf32108ca95e5"
+    },
+    {
+      "path": "assets/fonts/provenance.json",
+      "sha256": "2528607d83e1a8d90d0ae571f9872477ef49339dd4a3484f764437378966d814"
+    },
+    {
+      "path": "assets/logos/Logo black.png",
+      "sha256": "7a380809db132c382532cc4d1b43d735928b0766571811363d9b7bdb52c3d9ef"
+    },
+    {
+      "path": "assets/logos/Logo white.png",
+      "sha256": "ed1f2ab041a54b8af8b61c40332994ad8f202d3c8bf76a813d4d6dc00d70cbbf"
+    },
+    {
+      "path": "assets/references/bold.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/energetic.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/image-style-ref-1.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/image-style-ref-2.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/image-style-ref-3.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/modern.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/pinterest.json",
+      "sha256": "32d1eb0e98615fa1539338bd76cf6cfd2292bfba216aacd57609ceb707ab3c73"
+    },
+    {
+      "path": "assets/references/sophisticated.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/vibrant.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "atlas248.css",
+      "sha256": "bd45823059de7b5e04c35c377c34b4d98cb155771858275dbbd27b1b71090b35"
+    },
+    {
+      "path": "atlas248.js",
+      "sha256": "68a36bb1f735b42295b6e2f7a5ce1cc4c09f8373d6d29930505f008d49053e69"
+    },
+    {
+      "path": "BUTTON-STATES.md",
+      "sha256": "d59b17115886d4eac3f4dbbcc2debacef035e373d8f19cde0d8ee85ffede3a27"
+    },
+    {
+      "path": "buttons268.css",
+      "sha256": "7072268f95d2bbb72038a8321c50e9615a3305cd5c1794f027d531c04fac0e75"
+    },
+    {
+      "path": "buttons268.js",
+      "sha256": "d2e85f217a4b36ad6904b161ee862bd76247d910dca4f4ff03b26e7e58295ae2"
+    },
+    {
+      "path": "CENTERING.md",
+      "sha256": "9dcf5f990c689b398be8744d43df94cd242b035b69950002ba174fc34d32fa17"
+    },
+    {
+      "path": "centering286.css",
+      "sha256": "bedd1f9bab57b53a04cc879dfc6f6f1526dc698b49bb0571eb46d61bb80145b9"
+    },
+    {
+      "path": "chart45-anchor.css",
+      "sha256": "52ac630c4874d33b020d220ad36ff90faa7526dcaa05c7762c3a8c86f638959b"
+    },
+    {
+      "path": "chart45-anchor.js",
+      "sha256": "72b9477ab02edc38521ee031609dc66e7c396267727b236d41f5336a02964ddd"
+    },
+    {
+      "path": "chart45-catalogue.js",
+      "sha256": "5eb86bbbed47971ce45a300d216b1360d5e558253cf25bf9f1712202e2bd911b"
+    },
+    {
+      "path": "chart45-core.js",
+      "sha256": "9877f8f2716bf64a0264e26f26462136ab7c0518a76ef5249d01b30ecd737e89"
+    },
+    {
+      "path": "chart45-data.js",
+      "sha256": "0dd26b52facd21aa32f4efb8cf2dd4577113ae8b72816dab536d19666d237ec1"
+    },
+    {
+      "path": "chart45-data.json",
+      "sha256": "baeb4a9126032b149e889037bc20740b2483b81cfbabfc1fbe373f97e416aba1"
+    },
+    {
+      "path": "chart45-preparation.json",
+      "sha256": "6fa7a3863f09ea9abb0f191dd63503102ffdb12e584a271847528fe5988c27cf"
+    },
+    {
+      "path": "chart45-profile.json",
+      "sha256": "c2c0bc428b7f768dc2c04b86d05ccc9f5b47132a0d6db3e44a2cdf5515e8797f"
+    },
+    {
+      "path": "chart45-roles.css",
+      "sha256": "2fa99b1f32a68b25e14585358d01a2fc4af811a7d573fbbb9225d11572658555"
+    },
+    {
+      "path": "chart45-rollout-manifest.json",
+      "sha256": "2ef069952bfb3ed67c8983f7f6fbf1fbe573c7538c747b5182f6da6758b66afd"
+    },
+    {
+      "path": "chart45-target.json",
+      "sha256": "15fb720c6cc661491d050802b49e087c6dccb5b5d20131e12dced3a30ebe4a93"
+    },
+    {
+      "path": "CHARTS.md",
+      "sha256": "9f1667a1dafe4b088a16ecbaf5f9c3241bdf39ec16898e53842ad465ed397d41"
+    },
+    {
+      "path": "charts262.js",
+      "sha256": "e4c1a9a998dc27a2c4b6630ec2ac1b33cb4513d27bbcda7466ce8e1147f63f9e"
+    },
+    {
+      "path": "charts264.js",
+      "sha256": "e4e9d489c81857a9d4df332a854fbc59eb209482bf74913423608cbce309a20d"
+    },
+    {
+      "path": "charts279.js",
+      "sha256": "86fd39f2a70eb7b5cc7f1b4210b3d5b5aa023b531dbcb05679673de351d78fc4"
+    },
+    {
+      "path": "CLIENT-USE.md",
+      "sha256": "52199347a0a8d6e76a460bc751b7bcd7ebb395e2243b965591e685715607dc45"
+    },
+    {
+      "path": "config305.js",
+      "sha256": "cba0f7b3e68167a6637280f60abfe1e810371ded9b0cef351fa27171e40691a2"
+    },
+    {
+      "path": "config316.js",
+      "sha256": "b503a8b079d373e2121b93f8eb6ea9fccd63a4fda36a869077b83d651fdff1ba"
+    },
+    {
+      "path": "connections265.js",
+      "sha256": "ef9c68860f61a111b19da5510926dc294a8508aec5be30656056e54fdeba4a56"
+    },
+    {
+      "path": "connections267.css",
+      "sha256": "c3176bea6a038c0b4d894ec94f99a478a89db366995358901dbf72e9b0d282b8"
+    },
+    {
+      "path": "connections267.js",
+      "sha256": "5088b54e5784128b7386e8034fd96a31267271a047cea21413c7a532df32bd82"
+    },
+    {
+      "path": "CONNECTORS.md",
+      "sha256": "ac18d5f0bcd3b5da8979b468a39d4f647bba1fd1030a83ea0639af1f51d277e3"
+    },
+    {
+      "path": "consumer260.js",
+      "sha256": "a50f8344b0bc6104ec02ae67fb2244d9551bec28dcc2c533fea10202e7d64b71"
+    },
+    {
+      "path": "CONTENT-GROUPS.md",
+      "sha256": "c954c7aa6c981713d8464cc1793fb0493895b8e7a255cb7f73bff99c567d3fd9"
+    },
+    {
+      "path": "content282-data.js",
+      "sha256": "4d66f206f05d54f94d13ed0cfa78330f5c711b77398496fac8457ded0ff88aa3"
+    },
+    {
+      "path": "content282.css",
+      "sha256": "f884933077b9609a6df55c2248d936dac19f47b5069767ee7e4036e8adc1704c"
+    },
+    {
+      "path": "content282.html",
+      "sha256": "5739765579e4e195c0d30a2bd77bb07bad3ffeec7d1de72922ac9ff1e77282e5"
+    },
+    {
+      "path": "content282.js",
+      "sha256": "0587e42e9b9ceee4df9e3441b1c1642654708a488ccdb0eb9a6c6d003f54e0a7"
+    },
+    {
+      "path": "core-manifest316.json",
+      "sha256": "cc312c3b9aedb785218e3c45a7c53cfe83cfbf8cbbfc33a73cde34f371d3cf4e"
+    },
+    {
+      "path": "core-manifest42.json",
+      "sha256": "4c9b0b80fb449eb420fa78ced1a6e09a645a73473e7a71053e52ff07ac1b48b1"
+    },
+    {
+      "path": "counts262.css",
+      "sha256": "cdafd688046981a86ff6f41fed585d0763da76dcba574b7833f36d0e0712c151"
+    },
+    {
+      "path": "counts262.js",
+      "sha256": "cc4960ce881d05e66ac24db53b042103ce143421536896225dc222dc0287cf22"
+    },
+    {
+      "path": "CSS.md",
+      "sha256": "9cfc0e7bb839713e223e4e95ed322a34fb8e3f71a782d6f0ed966ecb1de8d3d3"
+    },
+    {
+      "path": "design-system-maps.html",
+      "sha256": "c5f44a136a7cbd02e760bb910ed1c0ec877d86882b22428339e5251b683a7d42"
+    },
+    {
+      "path": "design-system.html",
+      "sha256": "c5f44a136a7cbd02e760bb910ed1c0ec877d86882b22428339e5251b683a7d42"
+    },
+    {
+      "path": "DESIGN.md",
+      "sha256": "68a2250d4f7cb85e9da1699652682f08a75688a726e31c17987f8af1285f72de"
+    },
+    {
+      "path": "DesignBinding.json",
+      "sha256": "6667d74139adb3c984e41ed34efd3bf8b0c447bb34b5bcb1fd3c6246e39c219b"
+    },
+    {
+      "path": "DesignBinding42.json",
+      "sha256": "1766f1534da6d876ed31d332e82127c4329cbfb7f51d11176a7b23bd2ecce15c"
+    },
+    {
+      "path": "discovery259.js",
+      "sha256": "275beb49f598c75c1cc8f47243442c31a6ba3ea862704a45435fc4387264c378"
+    },
+    {
+      "path": "elements/manifest.json",
+      "sha256": "f80c8d7df3af848d983de0b20812e567864b81e29da29dcbc7a96b94f3c843ff"
+    },
+    {
+      "path": "fixtures241.json",
+      "sha256": "d3c9fcd3fad65ee68aabeb2c139254578ef0586c59ef82f19b5b3684eb5913ac"
+    },
+    {
+      "path": "frame45-rollout-manifest.json",
+      "sha256": "b36ab46ef35b2283197318000e19a2702d0aa4ee0f0098f14cd13803cb527d40"
+    },
+    {
+      "path": "frame45.css",
+      "sha256": "b4b3710c66b3ccef7be8d654cade25c7368b9dd2e0f50f476d4515c01107354c"
+    },
+    {
+      "path": "frame45.js",
+      "sha256": "b64378b126a41bafa0d8374622fbc0a1d35e2b70be819c89680053fddca6da33"
+    },
+    {
+      "path": "haha305.css",
+      "sha256": "8de38e78a520df10fddcdc17f0a8dbc5fa79de1d9e355e3485b1edbd9cdaa3ef"
+    },
+    {
+      "path": "icons248-data.js",
+      "sha256": "73222589b8167df58a2f069901f738ecb319c2cbc5a16694205269a65b5dcf04"
+    },
+    {
+      "path": "IMAGE-STYLE-PROMPT.txt",
+      "sha256": "940892220a193c1170a962d09bda7fe015e81b11b58f4bcd56c50a6c77f4898c"
+    },
+    {
+      "path": "image-style-provenance.json",
+      "sha256": "2fd43bb1120e8a7f4ef909395ad45642f8d33d1a5a7b58d2779bfc178c78eeaf"
+    },
+    {
+      "path": "IMAGE-STYLE.md",
+      "sha256": "6e592d330c91037c4420a2e59ef40365add16cc40166e3970a3d36ca004afa23"
+    },
+    {
+      "path": "image-style308.css",
+      "sha256": "c6d1dc94bc2b75d77eb56d3aef965aef14aa6599cacf4211d6ea8fc6b1c8fca1"
+    },
+    {
+      "path": "image-style308.js",
+      "sha256": "dba3f24f86567076018357efcb6ead86a46fe7fb354603af8bd65a37ad04d2cb"
+    },
+    {
+      "path": "index-maps.html",
+      "sha256": "d08b30e8536635014089bafeff39ea0b2fc69952f47822cc27f38d37c4557426"
+    },
+    {
+      "path": "index.html",
+      "sha256": "2c7bbb6ed5d3e8405173cd0982e64eb33914c20a0e2cd3e1d097736444e153e8"
+    },
+    {
+      "path": "knights264.css",
+      "sha256": "887dbc97843c276744d9c35a0f864b9b7093eae6086b846b97233d309015c8d8"
+    },
+    {
+      "path": "knights264.js",
+      "sha256": "3394b643041728f411b6eed0543bf48c284b32919cb9f6bbc6c327e2fce520b2"
+    },
+    {
+      "path": "LISTING.md",
+      "sha256": "faba875db5160ed86a27bb45afbb160747a130d292b87ee7b166b188824dc0f8"
+    },
+    {
+      "path": "listing287-data.js",
+      "sha256": "d6fae7a24e730838405593e6ac105b1f017b95af22215e8e3b6a388c36d35ee8"
+    },
+    {
+      "path": "listing287.css",
+      "sha256": "ebbf893bd7bf23c2fa6ffabb495bd134f289cb697a633a56fa6acf31f3eded3a"
+    },
+    {
+      "path": "listing287.html",
+      "sha256": "960fbac8822e44755c1ebb3ece5ae8dce29d5654e3e47353fcece6998300023c"
+    },
+    {
+      "path": "listing287.js",
+      "sha256": "961a48c8ebdcc951ee5a6cebbd8b405abed4ae11c07a10bfce49c4fd1f02c942"
+    },
+    {
+      "path": "LOGO.md",
+      "sha256": "2abe170481ea3bfbd7e5714fd896b47b495ff38f94f369827a6c4e213bb88be9"
+    },
+    {
+      "path": "maps42/pages/index.html",
+      "sha256": "f5d72da69e6a5f551c79934d544128a71c9480d810d11de13bea0c63fca07648"
+    },
+    {
+      "path": "maps42/pages/sources.html",
+      "sha256": "db289e17af3aa7ed336f4e7718bd4e861c1098c27a0b536da8009403ad60c16a"
+    },
+    {
+      "path": "maps42/pages/united-states.html",
+      "sha256": "873c314e0dcf4489c1a9b756f965861873001bd8d8a0b97bd2e49f70b5c62872"
+    },
+    {
+      "path": "maps42/pages/vietnam.html",
+      "sha256": "1cf59d83a1b3b7cdd232c0329ce1553e3a6cf61eea67a3402277ad88efe9a899"
+    },
+    {
+      "path": "maps42/pages/world.html",
+      "sha256": "7fe55f75dbbbbbcca507b6f86d5f4ff350afd3e2ed60ae2ba2ed9e52b5e1d843"
+    },
+    {
+      "path": "maps42-adapter.js",
+      "sha256": "5da8462f1d124a32600d1bd235f54ef5e7a68ba191875eb9ebe422c7e77ef828"
+    },
+    {
+      "path": "maps42-gallery.css",
+      "sha256": "cec90d7220e24ec28e6217b5bf0bb34f416f8d8abd02617079f1a35ff99cd544"
+    },
+    {
+      "path": "maps42.data.js",
+      "sha256": "3c38716b3185e0a78f678192709e5e7be80c77e102f09633bf2fb061da5f177b"
+    },
+    {
+      "path": "MAPS42.md",
+      "sha256": "da2542377e0d26e72bf36ae86348f7aeb4f75ac195ad2d933cd9a2b986537227"
+    },
+    {
+      "path": "maps42.model.json",
+      "sha256": "7fcc9c1af24000fd37c41318af083b5bf2cc61bb7e7dd17561d3544d50c05d36"
+    },
+    {
+      "path": "model121-energy.png",
+      "sha256": "a6c766a2e59421edd76d81024f0762393c4f5c7e3a4976613814c81e9ba5f072"
+    },
+    {
+      "path": "model121-guide.png",
+      "sha256": "09010700cfabea94acc4994cae3237ffccbe6bf673816b895d8eccc9ba6dfcc7"
+    },
+    {
+      "path": "model121-storage.png",
+      "sha256": "5ba1928a4086bfbb4447a356749119e43c009793df8f2a009593205389bdcd53"
+    },
+    {
+      "path": "models248.html",
+      "sha256": "63b1453e49766a49bd52e590f272133cb7056ae223d679c3fdd99af7010bb674"
+    },
+    {
+      "path": "models248.js",
+      "sha256": "801cbbcb5028e3f366db3d4bc826213a5c0c0924b94db3e78bed032b0ed12e88"
+    },
+    {
+      "path": "NAVIGATION.md",
+      "sha256": "3b7141849a704e612514c3012f880b51fb496daf29059935ff59833b90a66503"
+    },
+    {
+      "path": "overview252.css",
+      "sha256": "dda44c7339a045f60f35adaed5cf813c594c58b519c22a0296cb296c6679cd9e"
+    },
+    {
+      "path": "overview252.js",
+      "sha256": "d0f2adaf515ab5d3b5062718727f8e3f6127a9a8d454fe5773518a59f6e68417"
+    },
+    {
+      "path": "package-manifest262.json",
+      "sha256": "435cf57fa3b19d9c391959c70f1851b50081120ac5ad553f5715604d8afe5fd2"
+    },
+    {
+      "path": "package-manifest42.json",
+      "sha256": "9edd6a25a205b0803372714353fde51256d4d69e82ac17781ad91257a9f09f14"
+    },
+    {
+      "path": "portable-client.js",
+      "sha256": "eceb4ade413ea25ac9597cb62228980a5b8ae488c386a847511283db56cf9703"
+    },
+    {
+      "path": "preparation-coverage.json",
+      "sha256": "ebb1ec5d5c1c671fdde4fc64e1b76a6315d704af803a443181b6ce36abc9fb71"
+    },
+    {
+      "path": "products283.js",
+      "sha256": "6d97c4859a6b895618d707ea061d36afdb67c880ee5096c85e25917893b651b8"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "sha256": "d1c6ad11d30ca5cf3856bf356e40aa0f232c95518b14d3e8f0a2b34695748a91"
+    },
+    {
+      "path": "quotes280.js",
+      "sha256": "f989991309d00c2fc168f58a72375ac437cca3e9407d86546de618ce0a0452b4"
+    },
+    {
+      "path": "reading248.html",
+      "sha256": "a17cd8f9fe4bf6bcee2f16f008a2b5dcc0d5778b5c05e64d9dad645443dc38d2"
+    },
+    {
+      "path": "reading248.js",
+      "sha256": "a9dd3c4bc9f9c095a27a3b8a2436bfcabe745ce89a3d58a0b5945ebe634b885f"
+    },
+    {
+      "path": "reading264.css",
+      "sha256": "166f4058e7f2e92c02906d5703b5891028bb8c3e0e3028ce34cd60acc7645f74"
+    },
+    {
+      "path": "record-dossiers.json",
+      "sha256": "fc5fcde669c805e520a3b1ac51c8d8a7fde8aa9484ca28d32c80d01505aa5503"
+    },
+    {
+      "path": "records42.json",
+      "sha256": "062b242f9be21e42d6d882ff4d2bcdba576b664e1de5c5caef8571213fa1529b"
+    },
+    {
+      "path": "reuse-records316.js",
+      "sha256": "efd7978f93814bdaca55c7795c86a991684cdd0b52db1e1240f2cf5e202ce685"
+    },
+    {
+      "path": "reuse-routing.json",
+      "sha256": "7b9bbf71be0fd2edb9726f2dd2696593978dd918b67d97d4e5ff29cede7f8bac"
+    },
+    {
+      "path": "REUSE.md",
+      "sha256": "05a32cb07fa65f0c6f495f8e7eb2e8c549637f2a23601e2a959d7b6af18e0e24"
+    },
+    {
+      "path": "reuse300.css",
+      "sha256": "d486a92fd7964f18d7c06eb240c9a5186c3e5e40752f9448e711df53b10fd0f1"
+    },
+    {
+      "path": "reuse300.js",
+      "sha256": "5530896210333b7bf97ba315e94ec362095dda5e843a109276aebcb91f5b993e"
+    },
+    {
+      "path": "RIGHTS.md",
+      "sha256": "fa52e3eb137ff9394e398a4d31a00ad125ad11e9ad4ecfad47929e406cb3c64a"
+    },
+    {
+      "path": "RULES.md",
+      "sha256": "68f5a0b8ab4d0965d7bebbe3d259833d6bac6372a1173b4bcccb31848d9edbfb"
+    },
+    {
+      "path": "semantic240-data.js",
+      "sha256": "9a042990b0f7152204f4e2bb63200ed523567d8b25898f76a611a9cfbc8fa175"
+    },
+    {
+      "path": "semantic240.css",
+      "sha256": "947299bbaf19c91403c2f54ae767f4679958f8aa36effd1c0dfb78322cf92621"
+    },
+    {
+      "path": "semantic240.js",
+      "sha256": "6248a1f04b60c8e426aa4aaae2b54ef2e4514a7a37d73340c888944a03d4ca90"
+    },
+    {
+      "path": "semantic241-data.js",
+      "sha256": "b19721a2a5fc13d0f44b425527b64dc4d7bc91f3bf250b14102d21b8b9b4c9fd"
+    },
+    {
+      "path": "semantic241.css",
+      "sha256": "60056746fd1438bca03d83941fc973d132a6f89d351c9b3b3ecb148fe3e527ca"
+    },
+    {
+      "path": "semantic241.js",
+      "sha256": "b2ed62e50abc75a39fb60b148726aa967bd8634506e7f6494519b7879e6f2f49"
+    },
+    {
+      "path": "semantic241.json",
+      "sha256": "08ded835effc3a7f1b2b9176e68c509f2ebf0255deeded28daba610250e7dc5f"
+    },
+    {
+      "path": "SHADOW.md",
+      "sha256": "9d8057b789fe04b7c16c39e807d2d67daa47e5992a7680861fc769939f080909"
+    },
+    {
+      "path": "shadow311.css",
+      "sha256": "ab4b25bed50a50dbc43104af8f2a13c34241e23a62f62eb896fb37cf1f4b8aee"
+    },
+    {
+      "path": "shadow311.js",
+      "sha256": "b79c45f081f2070ea6f82d0208210dc06142294a60ea7ea34cb9d7ac8dd3830b"
+    },
+    {
+      "path": "sidebar-navigation.json",
+      "sha256": "a6f2682c6ed3ca7c4d197f3d009c170fc48dfe77d342dfc934ac0ac9ae065978"
+    },
+    {
+      "path": "sidebar297.css",
+      "sha256": "a0d70997dc5eed3bc896bd589cf36e68005db699f159798cab6db5e1057656f3"
+    },
+    {
+      "path": "slide-layouts284.json",
+      "sha256": "9f978dbea688141bfb204ac22b4d37bbbb759f701f1954f2abc744f9c862f030"
+    },
+    {
+      "path": "slide-layouts285.json",
+      "sha256": "80992805a77c7f8735d86b0c7976c728fadfda4d55f9dc59642dcc7f39dac350"
+    },
+    {
+      "path": "SLIDE-MEDIA.md",
+      "sha256": "d60eedd9e4b9623f45430941994b5951530ba7307df5b128fae03e9587ca5444"
+    },
+    {
+      "path": "slide-media284.css",
+      "sha256": "52031809bf0c0721743155194190ad150b3e73924882ea693fc0a2ebc1b9ff56"
+    },
+    {
+      "path": "slide-media284.js",
+      "sha256": "4322dba5bcf68681ccb833d6a2fef52ddbcc65e901613d1d6952ef1a15661816"
+    },
+    {
+      "path": "SLIDE-ROLES.md",
+      "sha256": "ecfb9c68d50bacaa767502d3bce5c0e294e31dfbc0c083917b13115b1f92d003"
+    },
+    {
+      "path": "slide248.html",
+      "sha256": "e278306a73298050637f1964cc8e0a600fc8f9e8c1da4c582f087adf3672769f"
+    },
+    {
+      "path": "slide248.js",
+      "sha256": "6c543610bf3e0285b6f5855baa35c97b2c3bd4f6e784b03c2fb585523602bbf1"
+    },
+    {
+      "path": "slide283-entry.js",
+      "sha256": "6a6fec590a2e87f2b7da8723edd016e92fbf0a8e19e92a0fad68d21e8223e2e7"
+    },
+    {
+      "path": "slide283.html",
+      "sha256": "407b2ce96b60662b72b758996f1206d679562abfe42720aa3650c3b980386966"
+    },
+    {
+      "path": "slides283.js",
+      "sha256": "83ff5f4e4c2b9673ea897ec2e6039af2797d33e964a6fc24c14dde521ab99352"
+    },
+    {
+      "path": "slides284.js",
+      "sha256": "ae8a727338a7b6708b7a6a3201d13973460a5d460884b04d78d8f22b88e4fea0"
+    },
+    {
+      "path": "slides285.js",
+      "sha256": "570084fbc2195f9077f118d9dfdc5b897be023dfd271854ca7f424cb9ea664cf"
+    },
+    {
+      "path": "studio-data305.js",
+      "sha256": "0dc098777a7c0dc1947e9b1b8469f5186bd267dbae40d099532cf7f2ac5d708f"
+    },
+    {
+      "path": "studio.css",
+      "sha256": "d15194e6dc5898b7ee504600e47b02fbaca2647b1791f270948192d83d48f898"
+    },
+    {
+      "path": "studio.js",
+      "sha256": "13f5ce79b431deb92a9fee7b955991c3d271f09f2e0d076423576b79436ef079"
+    },
+    {
+      "path": "STUDIO.md",
+      "sha256": "9989ad93cee27d4e889435e49aeceae759f750203d6068f685505b624614e58d"
+    },
+    {
+      "path": "theory248.html",
+      "sha256": "9d0c1966ccbf9d1c0990d2d21cf052afa0d1a743b515b5002336ec19fef93364"
+    },
+    {
+      "path": "theory248.pdf",
+      "sha256": "0ff986d96bbdaea1a29f46f1e19c8b384a04a041e4c1c378d1f0adbbdde0aaa3"
+    },
+    {
+      "path": "TOKENS.md",
+      "sha256": "b80fd565dcea76ea6e5bc5ba09989bf8909032b5a0b2cde0100143645be65ae9"
+    },
+    {
+      "path": "trial305.js",
+      "sha256": "1c19015a456a0d6efad5ac2e9e4f199a9d0da1076a2561dc1b521fcbb0b3ff8f"
+    },
+    {
+      "path": "UI.md",
+      "sha256": "63c3dea6437248e85359ddcd7b350b3c78e49aae7c954c99cac0be6b22597d26"
+    },
+    {
+      "path": "ui261-data.js",
+      "sha256": "823d13000d4f6716c944b6cb80ca400e23e42898014f134ed1bc44231975248a"
+    },
+    {
+      "path": "ui261.css",
+      "sha256": "829eabd59dacba7277263179cb8394caa43a46194c126e83b158268d87a72c22"
+    },
+    {
+      "path": "VOICE-MODEL.json",
+      "sha256": "6e460869018df4b58f4707b8011abcece6f86ad786e5c3b6932f5557a7f52d79"
+    },
+    {
+      "path": "VOICE.md",
+      "sha256": "46debb9ae2bc8f62e790d25e6a70791bd6598d01db04cf5cc8dca0bcabcd8270"
+    },
+    {
+      "path": "voice251.css",
+      "sha256": "1de0b1f5232926d9ed6505543b1784d579c8c5fdd0ed3c551e4f6f2ac5f915c5"
+    },
+    {
+      "path": "voice251.js",
+      "sha256": "950ad630233e0c0c70cf9859f07b30f6472c88b83b6cef86bcd03d2f7c98c4e0"
+    },
+    {
+      "path": "WEB-RELEASE.json",
+      "sha256": "d0f4c7c345996496129301aa62bea854f2ce0c78117a99e28015c159a6f09891"
+    }
+  ]
+}

@@ -1,0 +1,1729 @@
+{
+  "records": [
+    {
+      "id": "content-heading-1",
+      "role": "heading",
+      "title": "Tiêu đề và nhãn dẫn",
+      "sourceSlide": "default-cover",
+      "sourceOrdinal": 0,
+      "variants": [],
+      "usedBy": [
+        "default-cover",
+        "default-agenda",
+        "default-divider",
+        "default-close",
+        "image-hero",
+        "image-strip",
+        "image-grid",
+        "image-story",
+        "image-detail",
+        "image-collage",
+        "image-pair",
+        "image-mosaic",
+        "image-background",
+        "image-split",
+        "text-matrix",
+        "text-tables",
+        "text-columns",
+        "text-evidence",
+        "text-plan",
+        "text-dashboard",
+        "text-overview",
+        "text-mixed",
+        "text-sections",
+        "text-journey",
+        "text-sales-mix",
+        "text-competitors",
+        "text-ranking"
+      ],
+      "structuralVariants": [
+        {
+          "anatomy": "s283-head|HEADER",
+          "sourceSlide": "default-cover"
+        },
+        {
+          "anatomy": "|H3",
+          "sourceSlide": "image-hero"
+        }
+      ]
+    },
+    {
+      "id": "content-text-1",
+      "role": "text",
+      "title": "Khối chữ · nội dung và chú thích",
+      "sourceSlide": "default-cover",
+      "sourceOrdinal": 1,
+      "variants": [
+        {
+          "textRole": "Đoạn nội dung"
+        },
+        {
+          "textRole": "Chú thích"
+        }
+      ],
+      "usedBy": [
+        "default-cover",
+        "default-close",
+        "image-hero",
+        "image-story",
+        "image-pair",
+        "image-split",
+        "text-matrix",
+        "text-tables",
+        "text-columns",
+        "text-evidence",
+        "text-plan",
+        "text-dashboard",
+        "text-overview",
+        "text-mixed",
+        "text-sections",
+        "text-journey",
+        "text-sales-mix",
+        "text-competitors",
+        "text-ranking"
+      ],
+      "structuralVariants": [
+        {
+          "anatomy": "s283-intro|P",
+          "sourceSlide": "default-cover"
+        },
+        {
+          "anatomy": "s283-caption|P",
+          "sourceSlide": "default-cover"
+        },
+        {
+          "anatomy": "|P",
+          "sourceSlide": "image-hero"
+        },
+        {
+          "anatomy": "s283-scroll-note|P",
+          "sourceSlide": "text-matrix"
+        },
+        {
+          "anatomy": "s285-source|P",
+          "sourceSlide": "text-overview"
+        }
+      ]
+    },
+    {
+      "id": "content-media-1",
+      "role": "media",
+      "title": "Khung hình ảnh",
+      "sourceSlide": "default-divider",
+      "sourceOrdinal": 2,
+      "variants": [
+        {
+          "ratio": "4/1"
+        },
+        {
+          "ratio": "4/5"
+        },
+        {
+          "ratio": "4/3"
+        },
+        {
+          "ratio": "16/9"
+        },
+        {
+          "ratio": "1/1"
+        },
+        {
+          "ratio": "3/1"
+        },
+        {
+          "ratio": "2/1"
+        },
+        {
+          "ratio": "4/7"
+        },
+        {
+          "ratio": "3/4"
+        }
+      ],
+      "usedBy": [
+        "default-cover",
+        "default-agenda",
+        "default-divider",
+        "default-close",
+        "image-hero",
+        "image-strip",
+        "image-grid",
+        "image-story",
+        "image-detail",
+        "image-collage",
+        "image-pair",
+        "image-mosaic",
+        "image-background",
+        "image-split",
+        "text-dashboard",
+        "text-mixed",
+        "text-sections",
+        "text-sales-mix"
+      ],
+      "defaultMediaChosen": true,
+      "structuralVariants": [
+        {
+          "anatomy": "s284-slot|FIGURE",
+          "sourceSlide": "default-cover"
+        },
+        {
+          "anatomy": "s284-bg s284-slot|FIGURE",
+          "sourceSlide": "image-background"
+        },
+        {
+          "anatomy": "s284-side-bg s284-slot|FIGURE",
+          "sourceSlide": "image-split"
+        }
+      ]
+    },
+    {
+      "id": "content-source-1",
+      "role": "source",
+      "title": "Nguồn và số trang",
+      "sourceSlide": "default-cover",
+      "sourceOrdinal": 4,
+      "variants": [],
+      "usedBy": [
+        "default-cover",
+        "default-agenda",
+        "default-divider",
+        "default-close",
+        "image-hero",
+        "image-strip",
+        "image-grid",
+        "image-story",
+        "image-detail",
+        "image-collage",
+        "image-pair",
+        "image-mosaic",
+        "image-background",
+        "image-split",
+        "text-matrix",
+        "text-tables",
+        "text-columns",
+        "text-evidence",
+        "text-plan",
+        "text-dashboard",
+        "text-overview",
+        "text-mixed",
+        "text-sections",
+        "text-journey",
+        "text-sales-mix",
+        "text-competitors",
+        "text-ranking"
+      ],
+      "structuralVariants": [
+        {
+          "anatomy": "s283-footer|FOOTER",
+          "sourceSlide": "default-cover"
+        }
+      ]
+    },
+    {
+      "id": "content-list-1",
+      "role": "list",
+      "title": "Danh sách và các bước",
+      "sourceSlide": "default-agenda",
+      "sourceOrdinal": 2,
+      "variants": [],
+      "usedBy": [
+        "default-agenda",
+        "text-plan"
+      ],
+      "structuralVariants": [
+        {
+          "anatomy": "|OL",
+          "sourceSlide": "default-agenda"
+        }
+      ]
+    },
+    {
+      "id": "content-panel-1",
+      "role": "panel",
+      "title": "Thẻ tiêu đề và diễn giải",
+      "sourceSlide": "default-divider",
+      "sourceOrdinal": 1,
+      "variants": [],
+      "usedBy": [
+        "default-divider",
+        "image-background",
+        "text-matrix",
+        "text-columns",
+        "text-evidence",
+        "text-dashboard",
+        "text-sections",
+        "text-sales-mix",
+        "text-competitors",
+        "text-ranking"
+      ],
+      "structuralVariants": [
+        {
+          "anatomy": "s283-panel s285-section-contents|SECTION",
+          "sourceSlide": "default-divider"
+        },
+        {
+          "anatomy": "s283-panel|SECTION",
+          "sourceSlide": "image-background"
+        },
+        {
+          "anatomy": "s283-panel s285-signal-list|SECTION",
+          "sourceSlide": "text-dashboard"
+        },
+        {
+          "anatomy": "s283-panel s285-insight|SECTION",
+          "sourceSlide": "text-dashboard"
+        },
+        {
+          "anatomy": "s283-panel s285-questions|SECTION",
+          "sourceSlide": "text-competitors"
+        }
+      ]
+    },
+    {
+      "id": "content-table-1",
+      "role": "table",
+      "title": "Bảng đối chiếu",
+      "sourceSlide": "text-matrix",
+      "sourceOrdinal": 1,
+      "variants": [
+        {
+          "columns": 3
+        },
+        {
+          "columns": 2
+        },
+        {
+          "columns": 4
+        },
+        {
+          "columns": 5
+        },
+        {
+          "columns": 6
+        }
+      ],
+      "usedBy": [
+        "text-matrix",
+        "text-tables",
+        "text-plan",
+        "text-overview",
+        "text-mixed",
+        "text-journey",
+        "text-sales-mix",
+        "text-competitors",
+        "text-ranking"
+      ],
+      "structuralVariants": [
+        {
+          "anatomy": "s283-table|DIV",
+          "sourceSlide": "text-matrix"
+        }
+      ]
+    },
+    {
+      "id": "content-chart-column-1",
+      "role": "chart-column",
+      "title": "Biểu đồ cột trong slide",
+      "sourceSlide": "text-evidence",
+      "sourceOrdinal": 1,
+      "variants": [],
+      "usedBy": [
+        "text-evidence",
+        "text-dashboard"
+      ],
+      "structuralVariants": [
+        {
+          "anatomy": "s283-chart|DIV",
+          "sourceSlide": "text-evidence"
+        },
+        {
+          "anatomy": "s283-chart s285-column|DIV",
+          "sourceSlide": "text-dashboard"
+        }
+      ]
+    },
+    {
+      "id": "content-metric-1",
+      "role": "metric",
+      "title": "Chỉ số và điều kiện",
+      "sourceSlide": "text-evidence",
+      "sourceOrdinal": 2,
+      "variants": [],
+      "usedBy": [
+        "text-evidence",
+        "text-overview"
+      ],
+      "structuralVariants": [
+        {
+          "anatomy": "s283-panel|SECTION",
+          "sourceSlide": "text-evidence"
+        }
+      ]
+    },
+    {
+      "id": "content-chart-donut-1",
+      "role": "chart-donut",
+      "title": "Biểu đồ tỷ trọng trong slide",
+      "sourceSlide": "text-overview",
+      "sourceOrdinal": 1,
+      "variants": [],
+      "usedBy": [
+        "text-overview",
+        "text-sales-mix"
+      ],
+      "structuralVariants": [
+        {
+          "anatomy": "s283-chart s285-donut|DIV",
+          "sourceSlide": "text-overview"
+        }
+      ]
+    }
+  ],
+  "compositions": [
+    {
+      "id": "default-cover",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 1,
+          "tag": "P",
+          "classes": "s283-intro"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 2,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 3,
+          "tag": "P",
+          "classes": "s283-caption"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 4,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-text-1",
+        "content-media-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "default-agenda",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 1,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-list-1",
+          "ordinal": 2,
+          "tag": "OL",
+          "classes": ""
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 3,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-media-1",
+        "content-list-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "default-divider",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 1,
+          "tag": "SECTION",
+          "classes": "s285-section-contents s283-panel"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 2,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 3,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 4,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 5,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-panel-1",
+        "content-media-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "default-close",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 1,
+          "tag": "P",
+          "classes": "s283-intro"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 2,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 3,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 4,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 5,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 6,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 7,
+          "tag": "P",
+          "classes": "s283-caption"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 8,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-text-1",
+        "content-media-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "image-hero",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 1,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 2,
+          "tag": "H3",
+          "classes": ""
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 3,
+          "tag": "P",
+          "classes": ""
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 4,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-media-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "image-strip",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 1,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 2,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 3,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 4,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-media-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "image-grid",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 1,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 2,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 3,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 4,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 5,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-media-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "image-story",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 1,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 2,
+          "tag": "H3",
+          "classes": ""
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 3,
+          "tag": "P",
+          "classes": ""
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 4,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 5,
+          "tag": "H3",
+          "classes": ""
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 6,
+          "tag": "P",
+          "classes": ""
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 7,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-media-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "image-detail",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 1,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 2,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 3,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 4,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-media-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "image-collage",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 1,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 2,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 3,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 4,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-media-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "image-pair",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 1,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 2,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 3,
+          "tag": "P",
+          "classes": "s283-caption"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 4,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-media-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "image-mosaic",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 1,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 2,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 3,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 4,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 5,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 6,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 7,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-media-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "image-background",
+      "units": [
+        {
+          "componentId": "content-media-1",
+          "ordinal": 0,
+          "tag": "FIGURE",
+          "classes": "s284-slot s284-bg"
+        },
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 1,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 2,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 3,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-media-1",
+        "content-heading-1",
+        "content-panel-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "image-split",
+      "units": [
+        {
+          "componentId": "content-media-1",
+          "ordinal": 0,
+          "tag": "FIGURE",
+          "classes": "s284-slot s284-side-bg"
+        },
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 1,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 2,
+          "tag": "H3",
+          "classes": ""
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 3,
+          "tag": "P",
+          "classes": ""
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 4,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-media-1",
+        "content-heading-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "text-matrix",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-table-1",
+          "ordinal": 1,
+          "tag": "DIV",
+          "classes": "s283-table"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 2,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 3,
+          "tag": "P",
+          "classes": "s283-scroll-note"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 4,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-table-1",
+        "content-panel-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "text-tables",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 1,
+          "tag": "H3",
+          "classes": ""
+        },
+        {
+          "componentId": "content-table-1",
+          "ordinal": 2,
+          "tag": "DIV",
+          "classes": "s283-table"
+        },
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 3,
+          "tag": "H3",
+          "classes": ""
+        },
+        {
+          "componentId": "content-table-1",
+          "ordinal": 4,
+          "tag": "DIV",
+          "classes": "s283-table"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 5,
+          "tag": "P",
+          "classes": "s283-scroll-note"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 6,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-table-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "text-columns",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 1,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 2,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 3,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 4,
+          "tag": "P",
+          "classes": "s283-scroll-note"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 5,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-panel-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "text-evidence",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-chart-column-1",
+          "ordinal": 1,
+          "tag": "DIV",
+          "classes": "s283-chart"
+        },
+        {
+          "componentId": "content-metric-1",
+          "ordinal": 2,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-metric-1",
+          "ordinal": 3,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 4,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 5,
+          "tag": "P",
+          "classes": "s283-scroll-note"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 6,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-chart-column-1",
+        "content-metric-1",
+        "content-panel-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "text-plan",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-list-1",
+          "ordinal": 1,
+          "tag": "OL",
+          "classes": ""
+        },
+        {
+          "componentId": "content-table-1",
+          "ordinal": 2,
+          "tag": "DIV",
+          "classes": "s283-table"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 3,
+          "tag": "P",
+          "classes": "s283-scroll-note"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 4,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-list-1",
+        "content-table-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "text-dashboard",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 1,
+          "tag": "SECTION",
+          "classes": "s283-panel s285-signal-list"
+        },
+        {
+          "componentId": "content-chart-column-1",
+          "ordinal": 2,
+          "tag": "DIV",
+          "classes": "s283-chart s285-column"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 3,
+          "tag": "SECTION",
+          "classes": "s283-panel s285-insight"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 4,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 5,
+          "tag": "P",
+          "classes": ""
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 6,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 7,
+          "tag": "P",
+          "classes": ""
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 8,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 9,
+          "tag": "P",
+          "classes": ""
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 10,
+          "tag": "P",
+          "classes": "s283-scroll-note"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 11,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-panel-1",
+        "content-chart-column-1",
+        "content-media-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "text-overview",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-chart-donut-1",
+          "ordinal": 1,
+          "tag": "DIV",
+          "classes": "s283-chart s285-donut"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 2,
+          "tag": "P",
+          "classes": "s285-source"
+        },
+        {
+          "componentId": "content-metric-1",
+          "ordinal": 3,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-metric-1",
+          "ordinal": 4,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-metric-1",
+          "ordinal": 5,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-table-1",
+          "ordinal": 6,
+          "tag": "DIV",
+          "classes": "s283-table"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 7,
+          "tag": "P",
+          "classes": "s285-source"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 8,
+          "tag": "P",
+          "classes": "s283-scroll-note"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 9,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-chart-donut-1",
+        "content-text-1",
+        "content-metric-1",
+        "content-table-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "text-mixed",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 1,
+          "tag": "H3",
+          "classes": ""
+        },
+        {
+          "componentId": "content-table-1",
+          "ordinal": 2,
+          "tag": "DIV",
+          "classes": "s283-table"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 3,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 4,
+          "tag": "H3",
+          "classes": ""
+        },
+        {
+          "componentId": "content-table-1",
+          "ordinal": 5,
+          "tag": "DIV",
+          "classes": "s283-table"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 6,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 7,
+          "tag": "P",
+          "classes": "s283-scroll-note"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 8,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-table-1",
+        "content-media-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "text-sections",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 1,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 2,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 3,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 4,
+          "tag": "SECTION",
+          "classes": "s283-panel"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 5,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 6,
+          "tag": "P",
+          "classes": "s283-scroll-note"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 7,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-panel-1",
+        "content-media-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "text-journey",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-table-1",
+          "ordinal": 1,
+          "tag": "DIV",
+          "classes": "s283-table"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 2,
+          "tag": "P",
+          "classes": "s283-caption"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 3,
+          "tag": "P",
+          "classes": "s283-scroll-note"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 4,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-table-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "text-sales-mix",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-chart-donut-1",
+          "ordinal": 1,
+          "tag": "DIV",
+          "classes": "s283-chart s285-donut"
+        },
+        {
+          "componentId": "content-media-1",
+          "ordinal": 2,
+          "tag": "FIGURE",
+          "classes": "s284-slot "
+        },
+        {
+          "componentId": "content-table-1",
+          "ordinal": 3,
+          "tag": "DIV",
+          "classes": "s283-table"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 4,
+          "tag": "SECTION",
+          "classes": "s283-panel s285-insight"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 5,
+          "tag": "P",
+          "classes": "s283-scroll-note"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 6,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-chart-donut-1",
+        "content-media-1",
+        "content-table-1",
+        "content-panel-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "text-competitors",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-table-1",
+          "ordinal": 1,
+          "tag": "DIV",
+          "classes": "s283-table"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 2,
+          "tag": "SECTION",
+          "classes": "s283-panel s285-questions"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 3,
+          "tag": "P",
+          "classes": "s283-scroll-note"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 4,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-table-1",
+        "content-panel-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    },
+    {
+      "id": "text-ranking",
+      "units": [
+        {
+          "componentId": "content-heading-1",
+          "ordinal": 0,
+          "tag": "HEADER",
+          "classes": "s283-head"
+        },
+        {
+          "componentId": "content-table-1",
+          "ordinal": 1,
+          "tag": "DIV",
+          "classes": "s283-table"
+        },
+        {
+          "componentId": "content-panel-1",
+          "ordinal": 2,
+          "tag": "SECTION",
+          "classes": "s283-panel s285-insight"
+        },
+        {
+          "componentId": "content-text-1",
+          "ordinal": 3,
+          "tag": "P",
+          "classes": "s283-scroll-note"
+        },
+        {
+          "componentId": "content-source-1",
+          "ordinal": 4,
+          "tag": "FOOTER",
+          "classes": "s283-footer"
+        }
+      ],
+      "componentIds": [
+        "content-heading-1",
+        "content-table-1",
+        "content-panel-1",
+        "content-text-1",
+        "content-source-1"
+      ]
+    }
+  ],
+  "version": "compact-design-system-v2",
+  "status": "scoped-structure-derived",
+  "generated": true,
+  "doNotEdit": true,
+  "source": {
+    "rule": "Design references/design-system/compact-role-model-v2.md",
+    "ruleSha256": "34305f21f598f78f9e025aef1f24a3ce0596e422f17521598d2793bd17a45b53",
+    "nativePackage": "1.2.9-compact",
+    "nativeSlideFiles": [
+      "slides285.js"
+    ]
+  }
+}

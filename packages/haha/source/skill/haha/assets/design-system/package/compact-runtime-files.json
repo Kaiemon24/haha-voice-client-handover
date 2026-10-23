@@ -1,0 +1,753 @@
+{
+  "schema": "design-runtime-files/v1",
+  "generated": true,
+  "doNotEdit": true,
+  "source": "Design compact-design-system/v2 + target native package",
+  "sourceRuleSha256": "b9f53df56802e56e07f7bff1482acbc4aeabba62916ee0d3ea3a23737f8026d6",
+  "files": [
+    {
+      "path": "application280.html",
+      "sha256": "b147c6be9d7059c0efc594b11e73f2c093374ad5c4d4a3da067746089fbc1719"
+    },
+    {
+      "path": "application318.css",
+      "sha256": "08eb9b86fed97ea1816c5a27af443368e0a6e5f02b076aa0e6cd10cf0fe97443"
+    },
+    {
+      "path": "application318.js",
+      "sha256": "e670556fc7213c15a7ba9384a0f01fe9cbad95ae43a3fb7328c93ccfcf598dbf"
+    },
+    {
+      "path": "applications280.css",
+      "sha256": "b01033e0606eb702e9e0a674c450df16bd1424d2d6c6a01d326ef6afad2adeea"
+    },
+    {
+      "path": "applications280.js",
+      "sha256": "cc942ccdd388aefdc117192a22cd3d8f9b77a035994ad0de7929806cabba347e"
+    },
+    {
+      "path": "applications283.css",
+      "sha256": "029a0cff8dfd165623f3f487192e6c36d39eff1a8977bced1e5bb190a05d62ac"
+    },
+    {
+      "path": "applications285.css",
+      "sha256": "1fd2de8d68dcfc6911b0f25c0fafbf4c1c0805469f0106e458186511f4743246"
+    },
+    {
+      "path": "assets/ai/bold.png",
+      "sha256": "de3fde77f68bb05d4c36fea60de90fcbad4152260cc4baced8d565c568753627"
+    },
+    {
+      "path": "assets/ai/energetic.png",
+      "sha256": "24c097d60b7d96405fc7202eee140894a01bf572904ead7e5b9b4101a021c81f"
+    },
+    {
+      "path": "assets/ai/image-style-master308.png",
+      "sha256": "0f3b0c40694a224486162b3c192fd5968e4598bebd486051bccdc9228b6fef51"
+    },
+    {
+      "path": "assets/ai/modern.png",
+      "sha256": "e86df6a4cdc08e5016cb6ebf7b34ec812c468b2492fa247b6c5e1d50a98a49d6"
+    },
+    {
+      "path": "assets/ai/presenter.png",
+      "sha256": "98f3fae277618206294d992de93628d8be4715d5a032d0b30e700b2910b8a000"
+    },
+    {
+      "path": "assets/ai/set306.png",
+      "sha256": "d607c5b90872d01c477d918ba2a154251fd02663d1b6ee283f122229310a3766"
+    },
+    {
+      "path": "assets/ai/sophisticated.png",
+      "sha256": "75b1c75eb390546063f0da52332341a59862f6a49ceddc86e0a61b256f0fdcd0"
+    },
+    {
+      "path": "assets/ai/vibrant.png",
+      "sha256": "b32125af7c484907898bf5ce07dad5eddaf4881b3f6b29c0ce52d8080fdc6af4"
+    },
+    {
+      "path": "assets/ai/wardrobe306.png",
+      "sha256": "fec999cd8f26f14cf1249aefb43cba4cd5ffbd01f95347c1c03dd925de0480eb"
+    },
+    {
+      "path": "assets/fonts/be-vietnam-pro-400.ttf",
+      "sha256": "4ad53eac036092be79a34b5fa0aa32d0ebb3c7e5df4bc058764f5614fbf148a0"
+    },
+    {
+      "path": "assets/fonts/be-vietnam-pro-500.ttf",
+      "sha256": "557a1c42a7f8eb83f84255d475017b1235c1101b899367f974a1cbfa19cd7c3d"
+    },
+    {
+      "path": "assets/fonts/be-vietnam-pro-600.ttf",
+      "sha256": "cbf437bf71c8536a7aaed632dce2583ea5ec97c07efffc625c31991d1027ba3b"
+    },
+    {
+      "path": "assets/fonts/be-vietnam-pro-700.ttf",
+      "sha256": "aef76cd15b8c9faa1ff21951bb71963a774aa381526c557e5a52f38d430c4650"
+    },
+    {
+      "path": "assets/fonts/be-vietnam-pro-800.ttf",
+      "sha256": "116124d76142998ec6b49b76b0024314d5f0ef910e8898fa75a5dc38f6f03c6a"
+    },
+    {
+      "path": "assets/logos/Logo black.png",
+      "sha256": "7a380809db132c382532cc4d1b43d735928b0766571811363d9b7bdb52c3d9ef"
+    },
+    {
+      "path": "assets/logos/Logo white.png",
+      "sha256": "ed1f2ab041a54b8af8b61c40332994ad8f202d3c8bf76a813d4d6dc00d70cbbf"
+    },
+    {
+      "path": "assets/references/bold.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/energetic.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/image-style-ref-1.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/image-style-ref-2.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/image-style-ref-3.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/modern.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/sophisticated.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "assets/references/vibrant.svg",
+      "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "path": "atlas248.css",
+      "sha256": "4555765dddda8cd6acb637f7f4727adf978a2e49da24ccf6f4d3e679fd2fbbc5"
+    },
+    {
+      "path": "atlas248.js",
+      "sha256": "bb7bce77473103a1b25b7d3ccbb90e4ab5bf6c1c65cf2f7782de0fbb34dd5605"
+    },
+    {
+      "path": "body-keywords58.js",
+      "sha256": "57b2d2f3692a5369ebf3d86684ccb198693b64a299c49dd6ac2f5a3f56b8e979"
+    },
+    {
+      "path": "buttons268.css",
+      "sha256": "7072268f95d2bbb72038a8321c50e9615a3305cd5c1794f027d531c04fac0e75"
+    },
+    {
+      "path": "buttons268.js",
+      "sha256": "c5e950ed9a6960da1e32d9eb7ec9611f962b165d9af3725c6858d1fed1f2c65e"
+    },
+    {
+      "path": "centering286.css",
+      "sha256": "bedd1f9bab57b53a04cc879dfc6f6f1526dc698b49bb0571eb46d61bb80145b9"
+    },
+    {
+      "path": "chart45-anchor.css",
+      "sha256": "52ac630c4874d33b020d220ad36ff90faa7526dcaa05c7762c3a8c86f638959b"
+    },
+    {
+      "path": "chart45-anchor.js",
+      "sha256": "72b9477ab02edc38521ee031609dc66e7c396267727b236d41f5336a02964ddd"
+    },
+    {
+      "path": "chart45-catalogue.js",
+      "sha256": "30636ae7d25fb8eed5fab7e7be786d819031002df6d8070088ca9df7e9e1b195"
+    },
+    {
+      "path": "chart45-core.js",
+      "sha256": "9877f8f2716bf64a0264e26f26462136ab7c0518a76ef5249d01b30ecd737e89"
+    },
+    {
+      "path": "chart45-data.js",
+      "sha256": "b6307787c25ebe869e9f0a283d264c79c2e8467ceace2ae6333bfd24e7030ab6"
+    },
+    {
+      "path": "chart45-roles.css",
+      "sha256": "2fa99b1f32a68b25e14585358d01a2fc4af811a7d573fbbb9225d11572658555"
+    },
+    {
+      "path": "charts262.js",
+      "sha256": "e4c1a9a998dc27a2c4b6630ec2ac1b33cb4513d27bbcda7466ce8e1147f63f9e"
+    },
+    {
+      "path": "charts264.js",
+      "sha256": "e4e9d489c81857a9d4df332a854fbc59eb209482bf74913423608cbce309a20d"
+    },
+    {
+      "path": "charts279.js",
+      "sha256": "d44b8c3f9cce0a0e2018926fbf052b30f4e88c975b9e1e666c9c4cf83cddb223"
+    },
+    {
+      "path": "compact/maps/united-states.html",
+      "sha256": "acccabda1f38a116d40fae3abe0adf6d0103a0ab3ec65ab105d0ea07263fa9bd"
+    },
+    {
+      "path": "compact/maps/vietnam.html",
+      "sha256": "3adda5a610b526e0d99615e7477124d5009ea09cb33370958393b9d332fe16c6"
+    },
+    {
+      "path": "compact/maps/world.html",
+      "sha256": "b252c8ce7cdb97c5743f3c8070264c861315f218a1436da6931fd84dda0137bb"
+    },
+    {
+      "path": "compact-binding.js",
+      "sha256": "fffb8f75427fa0ce993206fa5f4020b91701cd94b9616d9b155ff27795765ff0"
+    },
+    {
+      "path": "compact-design.css",
+      "sha256": "0a271dba5f3b1cb2f54212d33ad643eb55a6974793d91f9b15ffecfbafcb12ec"
+    },
+    {
+      "path": "compact-design.js",
+      "sha256": "f047e2c2758d09d5bedb5f1f1322a0866afc1c654dd76989ed80ee79a3f2be46"
+    },
+    {
+      "path": "compact-effects.js",
+      "sha256": "956a5a681f5b13fa9be4fe6e4a62dbfe7d83c102bb7567ec392f3edefe5ee138"
+    },
+    {
+      "path": "compact-guidelines.js",
+      "sha256": "9bacf39fcb9b4263df1b35df1921e38101218f42bd6caf24c905a06cf603f3e0"
+    },
+    {
+      "path": "config305.js",
+      "sha256": "cba0f7b3e68167a6637280f60abfe1e810371ded9b0cef351fa27171e40691a2"
+    },
+    {
+      "path": "config316.js",
+      "sha256": "c8b61b64f0444d2751a294e784710614aacac72feaae6509b8667da91171eb20"
+    },
+    {
+      "path": "connections265.js",
+      "sha256": "ef9c68860f61a111b19da5510926dc294a8508aec5be30656056e54fdeba4a56"
+    },
+    {
+      "path": "connections267.css",
+      "sha256": "c3176bea6a038c0b4d894ec94f99a478a89db366995358901dbf72e9b0d282b8"
+    },
+    {
+      "path": "connections267.js",
+      "sha256": "5088b54e5784128b7386e8034fd96a31267271a047cea21413c7a532df32bd82"
+    },
+    {
+      "path": "consumer260.js",
+      "sha256": "a50f8344b0bc6104ec02ae67fb2244d9551bec28dcc2c533fea10202e7d64b71"
+    },
+    {
+      "path": "content282-data.js",
+      "sha256": "4d66f206f05d54f94d13ed0cfa78330f5c711b77398496fac8457ded0ff88aa3"
+    },
+    {
+      "path": "content282.css",
+      "sha256": "f884933077b9609a6df55c2248d936dac19f47b5069767ee7e4036e8adc1704c"
+    },
+    {
+      "path": "content282.html",
+      "sha256": "c97b474140bea2da17dd5afcfecff953c36c986ffff692182b76c0b2209a9c14"
+    },
+    {
+      "path": "content282.js",
+      "sha256": "0587e42e9b9ceee4df9e3441b1c1642654708a488ccdb0eb9a6c6d003f54e0a7"
+    },
+    {
+      "path": "counts262.css",
+      "sha256": "cdafd688046981a86ff6f41fed585d0763da76dcba574b7833f36d0e0712c151"
+    },
+    {
+      "path": "counts262.js",
+      "sha256": "cc4960ce881d05e66ac24db53b042103ce143421536896225dc222dc0287cf22"
+    },
+    {
+      "path": "design-system-maps.html",
+      "sha256": "6906f4600188f26f6dc57fda7b77e821fc1ba3b13cede64a97b1b3339015d214"
+    },
+    {
+      "path": "design-system.html",
+      "sha256": "57619ac7316a029d3f2aaa87f8be60b35a996656a7659e010e2f634d50cfd3a4"
+    },
+    {
+      "path": "discovery259.js",
+      "sha256": "275beb49f598c75c1cc8f47243442c31a6ba3ea862704a45435fc4387264c378"
+    },
+    {
+      "path": "frame45.css",
+      "sha256": "b4b3710c66b3ccef7be8d654cade25c7368b9dd2e0f50f476d4515c01107354c"
+    },
+    {
+      "path": "frame45.js",
+      "sha256": "b64378b126a41bafa0d8374622fbc0a1d35e2b70be819c89680053fddca6da33"
+    },
+    {
+      "path": "haha305.css",
+      "sha256": "8de38e78a520df10fddcdc17f0a8dbc5fa79de1d9e355e3485b1edbd9cdaa3ef"
+    },
+    {
+      "path": "icons248-data.js",
+      "sha256": "73222589b8167df58a2f069901f738ecb319c2cbc5a16694205269a65b5dcf04"
+    },
+    {
+      "path": "image-style308.css",
+      "sha256": "c6d1dc94bc2b75d77eb56d3aef965aef14aa6599cacf4211d6ea8fc6b1c8fca1"
+    },
+    {
+      "path": "image-style308.js",
+      "sha256": "dba3f24f86567076018357efcb6ead86a46fe7fb354603af8bd65a37ad04d2cb"
+    },
+    {
+      "path": "index-maps.html",
+      "sha256": "7a4f49cce10eaad0c69701dcc7a1d15fefb41840c8409ae35323529dded9e688"
+    },
+    {
+      "path": "index.html",
+      "sha256": "f5f9057994cec6321885a629cdeed425ef71373fb1fc1afa22c6f5668c2417d1"
+    },
+    {
+      "path": "knights264.css",
+      "sha256": "887dbc97843c276744d9c35a0f864b9b7093eae6086b846b97233d309015c8d8"
+    },
+    {
+      "path": "knights264.js",
+      "sha256": "3394b643041728f411b6eed0543bf48c284b32919cb9f6bbc6c327e2fce520b2"
+    },
+    {
+      "path": "legacy-entry64.js",
+      "sha256": "0a7d77028fe7544b576efa1c2459f78c21f52a09c84c624f3516e5f0c8d59ce1"
+    },
+    {
+      "path": "listing287-data.js",
+      "sha256": "d6fae7a24e730838405593e6ac105b1f017b95af22215e8e3b6a388c36d35ee8"
+    },
+    {
+      "path": "listing287.css",
+      "sha256": "ebbf893bd7bf23c2fa6ffabb495bd134f289cb697a633a56fa6acf31f3eded3a"
+    },
+    {
+      "path": "listing287.html",
+      "sha256": "0332227d4c6433a02e99b1414e737e97330f9b2fe67257aeeabaec20437d1b6d"
+    },
+    {
+      "path": "listing287.js",
+      "sha256": "961a48c8ebdcc951ee5a6cebbd8b405abed4ae11c07a10bfce49c4fd1f02c942"
+    },
+    {
+      "path": "maps42/pages/index.html",
+      "sha256": "451d48a3733a1acf06c575ed0c46c290ce61e37c0c7bbb9537b0c84989c05c06"
+    },
+    {
+      "path": "maps42/pages/sources.html",
+      "sha256": "0186e4bcf09083be82e88b4c7cf03ab83fece1694611d712fed30bbe6a1a6ae9"
+    },
+    {
+      "path": "maps42/pages/united-states.html",
+      "sha256": "f9146d24b8919ee4cc6b4d9bf53c54c0f0748aeb480e9e35d2b375d94e28293c"
+    },
+    {
+      "path": "maps42/pages/vietnam.html",
+      "sha256": "b30327e18906efe1134cb31a5090c62a2734e13b4b11627c1589e2fdef14c365"
+    },
+    {
+      "path": "maps42/pages/world.html",
+      "sha256": "6d35eb747430f05bb7a1fbd215be85e4cb203a2d70cfd01c7f3a9449ac158180"
+    },
+    {
+      "path": "maps42-adapter.js",
+      "sha256": "063239d0ad12ee108a059b0d3dcd56d895914b43900ca70ff22a258146722bd1"
+    },
+    {
+      "path": "maps42-gallery.css",
+      "sha256": "cec90d7220e24ec28e6217b5bf0bb34f416f8d8abd02617079f1a35ff99cd544"
+    },
+    {
+      "path": "maps42.data.js",
+      "sha256": "3c38716b3185e0a78f678192709e5e7be80c77e102f09633bf2fb061da5f177b"
+    },
+    {
+      "path": "model121-energy.png",
+      "sha256": "a6c766a2e59421edd76d81024f0762393c4f5c7e3a4976613814c81e9ba5f072"
+    },
+    {
+      "path": "model121-guide.png",
+      "sha256": "09010700cfabea94acc4994cae3237ffccbe6bf673816b895d8eccc9ba6dfcc7"
+    },
+    {
+      "path": "model121-storage.png",
+      "sha256": "5ba1928a4086bfbb4447a356749119e43c009793df8f2a009593205389bdcd53"
+    },
+    {
+      "path": "models248.html",
+      "sha256": "9b1b0bb5cb0f1821fa79bc4099fcc401a5ef9c18d604dced272fedfd7d4a2a64"
+    },
+    {
+      "path": "models248.js",
+      "sha256": "801cbbcb5028e3f366db3d4bc826213a5c0c0924b94db3e78bed032b0ed12e88"
+    },
+    {
+      "path": "overview252.css",
+      "sha256": "dda44c7339a045f60f35adaed5cf813c594c58b519c22a0296cb296c6679cd9e"
+    },
+    {
+      "path": "overview252.js",
+      "sha256": "f6a6462d0e4a93fcab97f30329321757b7388c9b697a5e5ddc43956c609df797"
+    },
+    {
+      "path": "pdf-figures58/chart-bar.html",
+      "sha256": "b42a4fdfc0680febbdfd1a026760fc6888848f1157651e872e8e30d6446ede60"
+    },
+    {
+      "path": "pdf-figures58/chart-box.html",
+      "sha256": "986191a3f06faceaafcc3bf975473a84255f0b56c3a84f1c6a3cd6ca37603eed"
+    },
+    {
+      "path": "pdf-figures58/chart-candlestick.html",
+      "sha256": "5dd515d0c28c1d2dc81f93fcb0cc002149861601d837bb06cd8139fd04fff6d9"
+    },
+    {
+      "path": "pdf-figures58/chart-decision-tree.html",
+      "sha256": "95104e477cadca7f02554c1148d968baadcad0d28193300a48d16d9c7dd06654"
+    },
+    {
+      "path": "pdf-figures58/chart-dependency-network.html",
+      "sha256": "68e1c9778615331a2c67827e6e5b33baf2716bdd3f4fb3e48b90d01d6d5f04d5"
+    },
+    {
+      "path": "pdf-figures58/chart-donut.html",
+      "sha256": "80b7b7cb19bd12e4895b800c5abcb90b2d76646d969f72b64e20aea24f1336a7"
+    },
+    {
+      "path": "pdf-figures58/chart-funnel.html",
+      "sha256": "d7a21759842ca223bf46e5c70eefca80709b40b99351312d5e549ed2c40e973c"
+    },
+    {
+      "path": "pdf-figures58/chart-gantt.html",
+      "sha256": "96f766e9effdb53ecc054a97f8bbd7a5c00755955fdb25b0f05ea8261feb7249"
+    },
+    {
+      "path": "pdf-figures58/chart-heatmap.html",
+      "sha256": "c5b0eb2747a10318e51821f567278018ef7fb297e9c180d75a12ac097f63e85c"
+    },
+    {
+      "path": "pdf-figures58/chart-histogram.html",
+      "sha256": "603566deb694e5e2cdc639845f72847bea8ec95fbe9319af1009e713afe7d496"
+    },
+    {
+      "path": "pdf-figures58/chart-journey-comparison.html",
+      "sha256": "a814d480a1a4bf2591f28e957d867494d9c15691c0b33467df752caeb49dcaa3"
+    },
+    {
+      "path": "pdf-figures58/chart-kpi-table.html",
+      "sha256": "c322804f863bd2b3da5526e1019e23642d12b34027575be38ff4781c31921f66"
+    },
+    {
+      "path": "pdf-figures58/chart-line.html",
+      "sha256": "8a759b0928f9cbde78f313be51c40a5c295250218b0fdfdfb5f8ebb54b4de0e8"
+    },
+    {
+      "path": "pdf-figures58/chart-parallel.html",
+      "sha256": "79f68f0601b811767e2f3f3e7e65ce23d9f83be597a37a8711a2b355989d7286"
+    },
+    {
+      "path": "pdf-figures58/chart-regional-map.html",
+      "sha256": "5a32b34d9e2566b1c9fb39986534885fb1dc656a9c768c736c1e0c62fbd57c57"
+    },
+    {
+      "path": "pdf-figures58/chart-sankey.html",
+      "sha256": "61f53377acedc2798835d8c43ca89931b2e802cef6dfcb8a6d367881e17d18e5"
+    },
+    {
+      "path": "pdf-figures58/chart-scatter.html",
+      "sha256": "7f8cc6c86230fcc076ebc2a883c649ca5ec47ffd49b7a61ff32e2c04c06e0350"
+    },
+    {
+      "path": "pdf-figures58/chart-slope.html",
+      "sha256": "44a07db604581f5bc1259c55dbe1764befdf712cc302750eb951acf4afe48487"
+    },
+    {
+      "path": "pdf-figures58/chart-stacked-absolute.html",
+      "sha256": "3e4daeb82bdaebdaac511cc6e5731ee0c85ed3427749fbdf9f11e77c3199e9f0"
+    },
+    {
+      "path": "pdf-figures58/chart-waterfall.html",
+      "sha256": "1d947eab7d6f35799ff7b3d7f9ea1cb3fa5f07f76aaffe3eeb7a19b97315438a"
+    },
+    {
+      "path": "pdf-figures58/slide283-default-agenda.html",
+      "sha256": "a1655137d9cc7a4e19c84219b3390e582e4c0182e3f28163a447c076c02ef66a"
+    },
+    {
+      "path": "pdf-figures58/slide283-default-close.html",
+      "sha256": "660cd36926e3b24ad84eb58e239e64c5feeb6559d911e7839a1664f0cab288fd"
+    },
+    {
+      "path": "pdf-figures58/slide283-default-cover.html",
+      "sha256": "12f99e58834c87aa370b64ea1b4e9cc74395dcfd6641282b6185fafec9c9cfb2"
+    },
+    {
+      "path": "pdf-figures58/slide283-default-divider.html",
+      "sha256": "e5e6e7a4b3c09095d8e68f2fdc3a696afedd270051241a8720d0663b180de3ef"
+    },
+    {
+      "path": "pdf-figures58/slide283-image-background.html",
+      "sha256": "7e84e4b042f1ee271a3b9f7379952184743a033d2450e0a00cd0168945e554ab"
+    },
+    {
+      "path": "pdf-figures58/slide283-image-collage.html",
+      "sha256": "142b6bbc7afb2567a3695f5650d20256a9b01f6254e1a6b5cca8248e1e7b74f4"
+    },
+    {
+      "path": "pdf-figures58/slide283-image-detail.html",
+      "sha256": "3f5ef75bbcb6e77a76449591c2813dd9f90e99556bc7cb9dcfc237058cf5d65f"
+    },
+    {
+      "path": "pdf-figures58/slide283-image-grid.html",
+      "sha256": "72e44d2c8b19e1b6b1535acccedff39b01488b4412c721a3d13bf2d444faf744"
+    },
+    {
+      "path": "pdf-figures58/slide283-image-hero.html",
+      "sha256": "700c2ebb68b6480597dc330ea7ca7123945258a49dc1a4bdbe289bd2ba666a2d"
+    },
+    {
+      "path": "pdf-figures58/slide283-image-mosaic.html",
+      "sha256": "dac71a49dffead3db7a39bce3d120459c6b0cb75daf358d0ca434a249512c9f0"
+    },
+    {
+      "path": "pdf-figures58/slide283-image-pair.html",
+      "sha256": "c514b6089782c8610fcb7c859f4a17300a1ed2dfcc98dbc68da438f9c9153de7"
+    },
+    {
+      "path": "pdf-figures58/slide283-image-split.html",
+      "sha256": "65d44c14f6a47cf92fabed953efdbd75478542d11fe935e46768fdacd64b98ff"
+    },
+    {
+      "path": "pdf-figures58/slide283-image-story.html",
+      "sha256": "d7641e5bbf26ed2664e7321d67be489c6c6c54ffb786e8abb239b84e9ea76c5b"
+    },
+    {
+      "path": "pdf-figures58/slide283-image-strip.html",
+      "sha256": "f200029fa78ecd2b3965d83a33f4555ad96127013a3b83a2b811898836af72ef"
+    },
+    {
+      "path": "pdf-figures58/slide283-text-columns.html",
+      "sha256": "3745d20cc2976770ce90858c835eededb811b1666fa51704cf0303fb67fa30fa"
+    },
+    {
+      "path": "pdf-figures58/slide283-text-competitors.html",
+      "sha256": "7337f893706b1272c87b11b78d987681bfc9b6e6296fdb479be9dd92c4e04958"
+    },
+    {
+      "path": "pdf-figures58/slide283-text-dashboard.html",
+      "sha256": "4bf0c77e44a8375a985d286850d29e4cf3df39ae4eace128be1f0a20b7305999"
+    },
+    {
+      "path": "pdf-figures58/slide283-text-evidence.html",
+      "sha256": "a150e102201ff2e0d16a27f06d8e7a962adbeb421c4aab47c0ed7de62a0a0224"
+    },
+    {
+      "path": "pdf-figures58/slide283-text-journey.html",
+      "sha256": "6eb17d836dcf0ac1ffdb968e9b827e4f41f870d8b760edd14348eb9ee5b1df15"
+    },
+    {
+      "path": "pdf-figures58/slide283-text-matrix.html",
+      "sha256": "d85728d3b970d258a51a40d8644bf260700b139eef18f1b8bc0b8c3e49f50d9c"
+    },
+    {
+      "path": "pdf-figures58/slide283-text-mixed.html",
+      "sha256": "0dc9a96a77b677d8373a2df1855c447f04a7ed9d8e0c8f5a569b751acc46b413"
+    },
+    {
+      "path": "pdf-figures58/slide283-text-overview.html",
+      "sha256": "b8b9fed90527efaf266675b48e2d46cbd11010c6358ea50610a498c59a3979f8"
+    },
+    {
+      "path": "pdf-figures58/slide283-text-plan.html",
+      "sha256": "22e9212ad9b786e3db4fbc45a598e3872aa812eae4051b46f7e514b27d9775b1"
+    },
+    {
+      "path": "pdf-figures58/slide283-text-ranking.html",
+      "sha256": "20f5ed21d968aacf35bc54d0c1b02f63f9cdf25c158e1d2f273b4a63e1d3bd3c"
+    },
+    {
+      "path": "pdf-figures58/slide283-text-sales-mix.html",
+      "sha256": "369f7886e44ff8598f1366ffadd7963c41ea6c60366399f1bc5556f31a1e8691"
+    },
+    {
+      "path": "pdf-figures58/slide283-text-sections.html",
+      "sha256": "305ffe067424674c5f5deedea3eab34b3cf9e3ea81e1586531acaea3311e3322"
+    },
+    {
+      "path": "pdf-figures58/slide283-text-tables.html",
+      "sha256": "276b23892b84c066f93edd8c797e8b399f49b5d5a03de9d1089435510f0f7a33"
+    },
+    {
+      "path": "portable-client.js",
+      "sha256": "6359563fcc3865a0230b350398a73c6f6c0c41ecd71c2831557ccbc46054c3a2"
+    },
+    {
+      "path": "products283.js",
+      "sha256": "6d97c4859a6b895618d707ea061d36afdb67c880ee5096c85e25917893b651b8"
+    },
+    {
+      "path": "quotes280.js",
+      "sha256": "f989991309d00c2fc168f58a72375ac437cca3e9407d86546de618ce0a0452b4"
+    },
+    {
+      "path": "reader-guidance61.css",
+      "sha256": "13f5d81416f4faff8a6e4e6e0b9d55e41025ef0725ce32dd3a250a664c9b6d8b"
+    },
+    {
+      "path": "reader-guidance61.js",
+      "sha256": "91d4e63eff4b78c34babeb2220a71aa9bcf9f7b19923fc1c9565b3436188c526"
+    },
+    {
+      "path": "reading248.html",
+      "sha256": "6e0d7bd57a435a2d77df98b08f454b8092ebb3bb8488019295b113aafb264b6f"
+    },
+    {
+      "path": "reading248.js",
+      "sha256": "a9dd3c4bc9f9c095a27a3b8a2436bfcabe745ce89a3d58a0b5945ebe634b885f"
+    },
+    {
+      "path": "reading264.css",
+      "sha256": "166f4058e7f2e92c02906d5703b5891028bb8c3e0e3028ce34cd60acc7645f74"
+    },
+    {
+      "path": "reuse-records316.js",
+      "sha256": "9b4d4e7deed32993d71e158b03e2f932ecead98c31d01387a1dec296a24ffdaf"
+    },
+    {
+      "path": "reuse300.css",
+      "sha256": "d486a92fd7964f18d7c06eb240c9a5186c3e5e40752f9448e711df53b10fd0f1"
+    },
+    {
+      "path": "reuse300.js",
+      "sha256": "d6f3e9f8df37f7d493aab0d58584af4c065d6b43ff107994911b5664e465d601"
+    },
+    {
+      "path": "semantic240-data.js",
+      "sha256": "2f46e81456408c21fe7d14e0d5261f2e9d015cc97601c1a78d94b6cecd46f802"
+    },
+    {
+      "path": "semantic240.css",
+      "sha256": "947299bbaf19c91403c2f54ae767f4679958f8aa36effd1c0dfb78322cf92621"
+    },
+    {
+      "path": "semantic240.js",
+      "sha256": "6248a1f04b60c8e426aa4aaae2b54ef2e4514a7a37d73340c888944a03d4ca90"
+    },
+    {
+      "path": "semantic241-data.js",
+      "sha256": "f7392bb4090a8e710b404b62c53c7b3bddbdd48bbd7f44d456b4f69079138641"
+    },
+    {
+      "path": "semantic241.css",
+      "sha256": "60056746fd1438bca03d83941fc973d132a6f89d351c9b3b3ecb148fe3e527ca"
+    },
+    {
+      "path": "semantic241.js",
+      "sha256": "b2ed62e50abc75a39fb60b148726aa967bd8634506e7f6494519b7879e6f2f49"
+    },
+    {
+      "path": "shadow311.css",
+      "sha256": "ab4b25bed50a50dbc43104af8f2a13c34241e23a62f62eb896fb37cf1f4b8aee"
+    },
+    {
+      "path": "shadow311.js",
+      "sha256": "fdcaea0158c4d7d06a9545e449e36a37e498109c2c9426822fe8cfc6132d9cbc"
+    },
+    {
+      "path": "shadow47.css",
+      "sha256": "85513237933a2c926a1df6ef038c50adf7f1268360b7bbf52be902c767d75582"
+    },
+    {
+      "path": "shadow47.js",
+      "sha256": "771393c0e6a918a85614c3ba6a06c0020002af23a0fcdd5a720f6dc96235282d"
+    },
+    {
+      "path": "sidebar297.css",
+      "sha256": "a0d70997dc5eed3bc896bd589cf36e68005db699f159798cab6db5e1057656f3"
+    },
+    {
+      "path": "slide-media284.css",
+      "sha256": "52031809bf0c0721743155194190ad150b3e73924882ea693fc0a2ebc1b9ff56"
+    },
+    {
+      "path": "slide-media284.js",
+      "sha256": "4322dba5bcf68681ccb833d6a2fef52ddbcc65e901613d1d6952ef1a15661816"
+    },
+    {
+      "path": "slide248.html",
+      "sha256": "2087f7895322ce1274da35d581a37683969effa41a21421d79511a0d790b2133"
+    },
+    {
+      "path": "slide248.js",
+      "sha256": "6c543610bf3e0285b6f5855baa35c97b2c3bd4f6e784b03c2fb585523602bbf1"
+    },
+    {
+      "path": "slide283-entry.js",
+      "sha256": "6a6fec590a2e87f2b7da8723edd016e92fbf0a8e19e92a0fad68d21e8223e2e7"
+    },
+    {
+      "path": "slide283.html",
+      "sha256": "6ffc302a983bcae048eea48e0472e2048289acea79386be58bb67056a1d2ba45"
+    },
+    {
+      "path": "slides283.js",
+      "sha256": "83ff5f4e4c2b9673ea897ec2e6039af2797d33e964a6fc24c14dde521ab99352"
+    },
+    {
+      "path": "slides284.js",
+      "sha256": "ae8a727338a7b6708b7a6a3201d13973460a5d460884b04d78d8f22b88e4fea0"
+    },
+    {
+      "path": "slides285.js",
+      "sha256": "570084fbc2195f9077f118d9dfdc5b897be023dfd271854ca7f424cb9ea664cf"
+    },
+    {
+      "path": "studio-data305.js",
+      "sha256": "0dc098777a7c0dc1947e9b1b8469f5186bd267dbae40d099532cf7f2ac5d708f"
+    },
+    {
+      "path": "studio.css",
+      "sha256": "d15194e6dc5898b7ee504600e47b02fbaca2647b1791f270948192d83d48f898"
+    },
+    {
+      "path": "studio.js",
+      "sha256": "13f5ce79b431deb92a9fee7b955991c3d271f09f2e0d076423576b79436ef079"
+    },
+    {
+      "path": "theory248.html",
+      "sha256": "0f422e08208983d77e2a21d9d2f6596c3a0999ec93ef01d69fae74d9615b337b"
+    },
+    {
+      "path": "trial305.js",
+      "sha256": "1c19015a456a0d6efad5ac2e9e4f199a9d0da1076a2561dc1b521fcbb0b3ff8f"
+    },
+    {
+      "path": "ui261-data.js",
+      "sha256": "823d13000d4f6716c944b6cb80ca400e23e42898014f134ed1bc44231975248a"
+    },
+    {
+      "path": "ui261.css",
+      "sha256": "829eabd59dacba7277263179cb8394caa43a46194c126e83b158268d87a72c22"
+    },
+    {
+      "path": "voice251.css",
+      "sha256": "1de0b1f5232926d9ed6505543b1784d579c8c5fdd0ed3c551e4f6f2ac5f915c5"
+    },
+    {
+      "path": "voice251.js",
+      "sha256": "950ad630233e0c0c70cf9859f07b30f6472c88b83b6cef86bcd03d2f7c98c4e0"
+    }
+  ]
+}

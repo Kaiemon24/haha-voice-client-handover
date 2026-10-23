@@ -1,0 +1,20 @@
+/* Layout-only HAHA carriers. Original fonts, colors, images and source text retained. */
+#poster-moodboard .poster-art{aspect-ratio:3/4}
+#poster-moodboard .poster-art>img{object-fit:contain}
+#thumbnail-guideline .video-frame.thumb.editorial{aspect-ratio:9/16;width:340px;max-width:100%;margin-inline:auto}
+#thumbnail-guideline .thumb.editorial>.scene{position:absolute;left:0;bottom:5%;width:100%;height:auto;max-height:52%;object-fit:contain}
+#thumbnail-guideline .thumb.editorial>.brand-stamp{left:8%;top:5%;width:28%}
+#thumbnail-guideline .thumb.editorial .thumb-title{left:8%;top:19%;width:84%;font-size:7.2cqw}
+#thumbnail-guideline .thumb.editorial .lesson-number{left:8%;bottom:auto;top:40%;font-size:3.3cqw}
+.frame45-slide-wrap{position:relative;width:100%;padding:0;overflow:visible}
+#image-style .frame45-slide-wrap>.image308-slide{width:1280px;height:720px;aspect-ratio:16/9;transform-origin:top left;overflow:hidden}
+#image-style .frame45-slide-wrap>.image308-slide>img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+#image-style .frame45-slide-wrap>.image308-slide>.image308-copy{position:absolute;left:5%;top:7%;width:43%;padding:0;display:block}
+#image-style .frame45-slide-wrap>.image308-slide .image308-kicker{font-size:20px;line-height:1.6}
+#image-style .frame45-slide-wrap>.image308-slide .image308-copy>strong{font-size:64px;line-height:1.12;margin-top:12px}
+#image-style .frame45-slide-wrap>.image308-slide .image308-copy p{font-size:24px;line-height:1.5;margin-top:14px}
+.frame45-tools{display:flex;flex-wrap:wrap;gap:24px;margin-top:24px}
+.frame45-reading{padding:24px;background:var(--paper);color:var(--ink);border:1px solid var(--line);margin-top:24px;font:16px/1.6 'Be Vietnam Pro',sans-serif}
+.frame45-reading>.image308-copy{position:static;width:auto;padding:0}
+.frame45-reading strong{display:block;margin:12px 0;font-size:24px;line-height:1.4}
+.frame45-reading p{font-size:16px;line-height:1.6}

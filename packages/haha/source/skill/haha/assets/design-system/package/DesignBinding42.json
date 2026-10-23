@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "legacy-local-membership-binding/v1",
+  "systemId": "haha-monochrome",
+  "packageVersion": "1.1.0-maps-run42",
+  "selectedEntry": "design-system-maps.html",
+  "model": "maps42.model.json",
+  "catalog": "elements/manifest.json",
+  "records": "records42.json",
+  "legacyBinding": "DesignBinding.json",
+  "authority": "RUN42 explicit local membership/default decision; active skill/registry/Brand routes remain unchanged"
+}

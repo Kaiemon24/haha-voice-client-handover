@@ -2,14 +2,9 @@
 
 ```mermaid
 flowchart TD
-A[Nhận đề bài] --> B[Kiểm gói và chọn hướng dẫn]
-B --> C[Ghép thành phần thật và viết bản nháp]
-C --> D[Kiểm lời, nghĩa và bản xuất]
-D --> E{Đủ bằng chứng và quyền gửi?}
-E -->|Có| F[Bàn giao và ghi phiên bản]
-E -->|Chưa| C
+A[Yêu cầu trong workspace đã chọn] --> B[Đọc skill HAHA hoặc Voice]
+B --> C[Chọn quy tắc và vật liệu phù hợp]
+C --> D[Dựng bản nháp từ dữ kiện thật]
+D --> E[Kiểm nội dung và đầu ra thực tế]
+E --> F[Bàn giao hoặc nêu giới hạn cụ thể]
 ```
-
-## GitHub + integration update
-
-Release GitHub pinned/hash verified → inspect client OS/target → preview → client confirmation → apply → actual discovery and task check. See INSTALL.md. Source UI baseline unchanged; custom elements follow separate versioned library.

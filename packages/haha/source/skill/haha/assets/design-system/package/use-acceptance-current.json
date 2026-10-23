@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "design-use-acceptance/v1",
+  "status": "approved-for-task-reuse",
+  "systemId": "haha-design",
+  "version": "1.2.6-doc-output-review",
+  "scope": "Read and reuse the selected HAHA local rules for user-requested tasks. Preserve HAHA visual identity and per-asset rights; require current output-specific proof.",
+  "authority": "Prepared for the exact RUN45 sealed activation decision; effective only after that decision is recorded and the bundle applies. User requested KAI/HAHA adoption after accepting MELAB.",
+  "requiresNewDesignApproval": false,
+  "publicationAllowed": false,
+  "admissionAllowed": false,
+  "unverifiedEvidenceBlocks": "Only the affected asset or output claim; never infer rights or publication."
+}

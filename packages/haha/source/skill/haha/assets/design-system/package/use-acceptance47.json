@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "design-use-acceptance/v1",
+  "status": "approved-for-task-reuse",
+  "systemId": "haha-design",
+  "version": "1.2.7-shadow-theory-review",
+  "scope": "Read and reuse the selected HAHA local rules for user-requested tasks. Preserve HAHA visual identity and per-asset rights; require current output-specific proof. Mandatory brand-adapted carrier shadows in the selected current Overview/Library/Applications; preserve full chart/data/frame functions and explicit output-specific proof.",
+  "authority": "This selected shadow revision is prepared for the exact RUN47 activation decision and becomes effective only after that decision and verified cutover. Prior baseline acceptance and rights limitations remain unchanged.",
+  "requiresNewDesignApproval": false,
+  "publicationAllowed": false,
+  "admissionAllowed": false,
+  "unverifiedEvidenceBlocks": "Only the affected asset or output claim; never infer rights or publication."
+}

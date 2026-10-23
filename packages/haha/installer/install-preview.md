@@ -1,3 +1,3 @@
-# Install preview
+# Chưa xem trước trên máy khách
 
-Run installer --preview against the client-selected root and layout. No client installation has been performed by the publisher.
+Agent chạy chế độ --preview sau khi xác định đúng workspace. Bản này chưa phải nghiệm thu cài đặt.

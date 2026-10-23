@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "DesignBinding/v1",
+  "brand": "HAHA",
+  "systemId": "haha-monochrome",
+  "version": "1.2.11-reader",
+  "status": "approved-for-task-reuse",
+  "source": {
+    "path": "semantic241.json",
+    "sha256": "e2e31b1a6b67dd29f550014f396091e7905a481d72ddf5367d747d3ba08d27bc"
+  },
+  "voice": {
+    "id": "haha-voice",
+    "version": "0.10-trial-draft309",
+    "systemId": "haha-monochrome",
+    "path": "VOICE.md",
+    "sha256": "46debb9ae2bc8f62e790d25e6a70791bd6598d01db04cf5cc8dca0bcabcd8270",
+    "status": "proposed",
+    "languages": [
+      "en",
+      "vi"
+    ]
+  },
+  "productionReady": false,
+  "consumerScope": "Accepted compact structure for authorized local task reuse; governed activation and destination readback required. Public actions, rights and new-output proof stay separate.",
+  "baseline": {
+    "systemId": "kai-green-watch",
+    "version": "300.1-preparation",
+    "manifestSha256": "dd3259235da794fff49c77ad79359745c44216cd413af8c6e0882e7055c9cb81",
+    "transfer": "All functions/counts; source identity excluded",
+    "currentModelVersion": "0.12-trial"
+  },
+  "trialExtras": [
+    "logo-pair",
+    "poster-moodboard",
+    "thumbnail-guideline",
+    "edit-guideline",
+    "image-style"
+  ],
+  "depth": {
+    "path": "SHADOW47.md",
+    "sha256": "6dfd241b8bc3ce9b7af8efb98102198b0bd8bd94378e5e3721a5d64db483a2d5",
+    "source": "shadow47.model.json.depthPolicy",
+    "modelSha256": "048c0fbbd6734972cdd45424aef7e7e27beebf84c8cbce9eb36c412a3c417042"
+  },
+  "packageVersion": "1.2.11-reader",
+  "systemHash": "sha256:e2e31b1a6b67dd29f550014f396091e7905a481d72ddf5367d747d3ba08d27bc",
+  "retrieval": {
+    "map": "reuse-routing.json",
+    "records": "REUSE.md",
+    "human": "design-system.html",
+    "productionAllowed": false,
+    "hashPolicy": "Generated retrieval projections are bound by outer package-manifest262.json; core manifest is non-cyclic source closure."
+  },
+  "sourceVersion": "1.2.10-reader",
+  "appearanceContract": "mandatory-shadow/v1",
+  "readerGuidance": {
+    "version": "2.1.0",
+    "policy": {
+      "path": "slide-reader-policy.json",
+      "sha256": "387a1c9a3664bc3e2be1db911509b2eb91acb3971cd000e8d58e17898632b41e"
+    },
+    "artifactRevision": "official-role-model-20261023",
+    "scope": "Current shared slide guidance; unchanged brand identity and frozen compact structure. Effective after exact activation approval."
+  },
+  "compactProfile": {
+    "id": "compact-design-system/v2",
+    "revision": "20261021-r09",
+    "ruleSha256": "b9f53df56802e56e07f7bff1482acbc4aeabba62916ee0d3ea3a23737f8026d6",
+    "source": "Brand asset/KAI/Design system/snapshots/compact-20261021-r09/snapshot-manifest.json",
+    "componentMap": "component-map.json",
+    "reuseScope": "Approved local task reuse; separate rights, admission, exports and public actions remain gated.",
+    "roleModel": {
+      "path": ".codex/skills/Visual/design/references/design-system/compact-role-model-v2.json",
+      "sha256": "6187b5cac7152e1412309e2404c43354eee1346485b84116d5320a50b290e9e9"
+    },
+    "sharedGuidanceVersion": "2.1.0",
+    "scope": "Frozen accepted structural selection; shared guidance source is independently versioned at2.1.0."
+  },
+  "slideTemplateGuidance": {
+    "path": "slide-reader-policy.json",
+    "sha256": "387a1c9a3664bc3e2be1db911509b2eb91acb3971cd000e8d58e17898632b41e"
+  }
+}

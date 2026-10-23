@@ -1,15 +1,11 @@
-# HAHA + Voice — bàn giao độc lập
+# HAHA 1.2.11-reader + Voice — bản bàn giao độc lập
 
-Bản hiện hành: **1.1.1**. Mở thư mục làm việc trong Codex rồi dán yêu cầu tại [START-HERE.md](START-HERE.md). Agent tự kiểm môi trường, tải đúng gói, tạo cây skill và tài nguyên, thử sử dụng rồi hướng dẫn ngắn. Chỉ hỏi khi thiếu nơi lưu, gặp xung đột hoặc cần quyền riêng.
+Dùng dữ liệu HAHA 1.2.11-reader mới nhất và bốn PDF theo công việc. Voice được giữ nguyên từ bản bàn giao 1.1.1; không sửa OS Voice của bên giao hoặc ghi đè Voice khác mã trên máy khách.
 
-- [Bản phát hành 1.1.1](https://github.com/Kaiemon24/haha-voice-client-handover/releases/tag/v1.1.1): một ZIP đã gồm HAHA và Voice.
-- [Hướng dẫn tự thiết lập](SETUP.md), [cài và phục hồi](INSTALL.md), [tài sản mở rộng](LIBRARY-ELEMENTS.md).
-- Mã ZIP và dung lượng chính xác trong [RELEASES.json](RELEASES.json).
-- Đích mặc định: `.agents/skills/haha` và `.agents/skills/voice` trong workspace đã xác định. Tài nguyên HAHA nằm trong skill haha; dữ liệu khách ở `HAHA-Voice-work`.
-- Giữ nhận diện và nội dung mẫu gốc; bản 1.1.1 tổ chức lại đích cài và cập nhật đường dẫn/metadata kiểm tra. Bộ cài không ghi đè nội dung khác mã.
+Đọc SETUP.md; các tệp cài đặt đầy đủ nằm trong packages/haha. Kiểm archive/checksums, chọn đúng workspace và xem trước. Bộ cài mặc định thêm .agents/skills/haha và .agents/skills/voice; không sửa router/toàn máy. Tệp trùng khác mã là xung đột và cần phạm vi nâng cấp riêng.
 
-Đã kiểm cơ chế cài và tài nguyên cục bộ. Menu, tác vụ thật và nghiệm thu trên máy khách còn chờ; thư mục tồn tại không chứng minh ứng dụng đã nhận skill. Không bảo đảm mọi môi trường cài được khi thiếu quyền hoặc công cụ.
+HAHA: mở packages/haha/source/skill/haha/SKILL.md; tài nguyên có một nơi tại packages/haha/source/skill/haha/assets/design-system/package, đầu vào/đầu ra và thư viện tùy chỉnh ở HAHA-Voice-work. HTML là thư viện trực quan; Markdown là quy tắc; bốn PDF ở packages/haha/source/skill/haha/assets/design-system/documents/index.html. Mẫu nguồn bất biến; tạo extension có nguồn sửa được, preview, quyền, phụ thuộc, phiên bản và kiểm tra riêng.
 
-## Nguồn và phiên bản trước
+Bản chụp không cần KAI OS hay thư mục máy dựng. Python 3.10+ và thư viện chuẩn dùng bộ cài/kiểm; Codex và trình duyệt hiện có dùng tác vụ thực tế. Không tự cài công cụ/đổi quyền/xuất bản/gửi thay khách. Giữ CLIENT-USE và giấy phép font; kho công khai không cấp giấy phép mở cho thương hiệu.
 
-Source đầy đủ của 1.1.1 nằm trong ZIP mới. `packages/haha`, `packages/voice` và release v1.1.0 được giữ làm lịch sử; không dùng chúng thay ZIP 1.1.1. Gói là ảnh chụp bàn giao, không cần OS của bên dựng. Quyền tài sản theo CLIENT-USE.md; kho công khai không cấp giấy phép mở cho thương hiệu. Không kèm bí mật, hồ sơ trình duyệt hay dữ liệu khách.
+Bốn trạng thái tách riêng: đủ tệp; ứng dụng nhận skill; tác vụ thật; người nhận nghiệm thu. Local fixture không chứng minh ba trạng thái sau. Kiểm tra đúng tệp và mã kiểm từ URL bản phát hành đã ghim trước khi sử dụng.

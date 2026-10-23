@@ -1,0 +1,2 @@
+/* Carrier/anchor placement only: no chart graphic, data, type or color rules. */
+#charts,.sc45-card,.sc45-alias{scroll-margin-top:calc(var(--chart45-header-height,96px) + 16px)}

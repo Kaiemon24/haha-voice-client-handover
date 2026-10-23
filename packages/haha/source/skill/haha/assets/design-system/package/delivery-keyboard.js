@@ -1,0 +1,2 @@
+// Noncanonical handover accessibility adapter; canonical HAHA files remain unchanged.
+document.addEventListener('keydown',function(event){if(event.key!=='Escape')return;const menu=document.getElementById('menu'),rail=document.querySelector('.rail');if(menu&&rail&&menu.getAttribute('aria-expanded')==='true'){rail.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.focus();event.preventDefault();}});

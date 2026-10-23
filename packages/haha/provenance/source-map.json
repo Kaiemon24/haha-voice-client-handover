@@ -1,1102 +1,1822 @@
 {
-  "schema": "client-source-map/v1",
-  "classification": "NON-CANONICAL DELIVERY SNAPSHOT",
-  "sourceVersion": "HAHA0.12",
-  "deliveryVersion": "1.0.1-client-snapshot",
-  "brandFiles": [
+  "schemaVersion": "portable-source-map/v2",
+  "noncanonicalSnapshot": true,
+  "sourceVersion": "1.2.11-reader",
+  "files": [
     {
-      "source": "application280.html",
-      "sourceSha256": "f3e5f69928e081448e83f06195333389e5e6c61abfab1d63b75d132f9532ec34",
-      "delivered": "application280.html",
-      "deliveredSha256": "f3e5f69928e081448e83f06195333389e5e6c61abfab1d63b75d132f9532ec34",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/application280.html",
+      "sourceSha256": "b147c6be9d7059c0efc594b11e73f2c093374ad5c4d4a3da067746089fbc1719",
+      "delivered": "source/skill/haha/assets/design-system/package/application280.html",
+      "deliveredSha256": "b147c6be9d7059c0efc594b11e73f2c093374ad5c4d4a3da067746089fbc1719"
     },
     {
-      "source": "application318.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/application318.css",
       "sourceSha256": "08eb9b86fed97ea1816c5a27af443368e0a6e5f02b076aa0e6cd10cf0fe97443",
-      "delivered": "application318.css",
-      "deliveredSha256": "08eb9b86fed97ea1816c5a27af443368e0a6e5f02b076aa0e6cd10cf0fe97443",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/application318.css",
+      "deliveredSha256": "08eb9b86fed97ea1816c5a27af443368e0a6e5f02b076aa0e6cd10cf0fe97443"
     },
     {
-      "source": "application318.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/application318.js",
       "sourceSha256": "e670556fc7213c15a7ba9384a0f01fe9cbad95ae43a3fb7328c93ccfcf598dbf",
-      "delivered": "application318.js",
-      "deliveredSha256": "e670556fc7213c15a7ba9384a0f01fe9cbad95ae43a3fb7328c93ccfcf598dbf",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/application318.js",
+      "deliveredSha256": "e670556fc7213c15a7ba9384a0f01fe9cbad95ae43a3fb7328c93ccfcf598dbf"
     },
     {
-      "source": "APPLICATIONS.md",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/APPLICATIONS.md",
       "sourceSha256": "fb43e17931115b6ba0955bddc49c5590a989c19406ea0338a48be79da6f68aa0",
-      "delivered": "APPLICATIONS.md",
-      "deliveredSha256": "fb43e17931115b6ba0955bddc49c5590a989c19406ea0338a48be79da6f68aa0",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/APPLICATIONS.md",
+      "deliveredSha256": "fb43e17931115b6ba0955bddc49c5590a989c19406ea0338a48be79da6f68aa0"
     },
     {
-      "source": "applications280.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/applications280.css",
       "sourceSha256": "b01033e0606eb702e9e0a674c450df16bd1424d2d6c6a01d326ef6afad2adeea",
-      "delivered": "applications280.css",
-      "deliveredSha256": "b01033e0606eb702e9e0a674c450df16bd1424d2d6c6a01d326ef6afad2adeea",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/applications280.css",
+      "deliveredSha256": "b01033e0606eb702e9e0a674c450df16bd1424d2d6c6a01d326ef6afad2adeea"
     },
     {
-      "source": "applications280.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/applications280.js",
       "sourceSha256": "cc942ccdd388aefdc117192a22cd3d8f9b77a035994ad0de7929806cabba347e",
-      "delivered": "applications280.js",
-      "deliveredSha256": "cc942ccdd388aefdc117192a22cd3d8f9b77a035994ad0de7929806cabba347e",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/applications280.js",
+      "deliveredSha256": "cc942ccdd388aefdc117192a22cd3d8f9b77a035994ad0de7929806cabba347e"
     },
     {
-      "source": "applications283.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/applications283.css",
       "sourceSha256": "029a0cff8dfd165623f3f487192e6c36d39eff1a8977bced1e5bb190a05d62ac",
-      "delivered": "applications283.css",
-      "deliveredSha256": "029a0cff8dfd165623f3f487192e6c36d39eff1a8977bced1e5bb190a05d62ac",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/applications283.css",
+      "deliveredSha256": "029a0cff8dfd165623f3f487192e6c36d39eff1a8977bced1e5bb190a05d62ac"
     },
     {
-      "source": "applications285.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/applications285.css",
       "sourceSha256": "1fd2de8d68dcfc6911b0f25c0fafbf4c1c0805469f0106e458186511f4743246",
-      "delivered": "applications285.css",
-      "deliveredSha256": "1fd2de8d68dcfc6911b0f25c0fafbf4c1c0805469f0106e458186511f4743246",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/applications285.css",
+      "deliveredSha256": "1fd2de8d68dcfc6911b0f25c0fafbf4c1c0805469f0106e458186511f4743246"
     },
     {
-      "source": "assets/ai/bold-prompt.txt",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/artifact-manifest61.json",
+      "sourceSha256": "1c58d33a56a562ee0c33f2737602048768657d02659fc9f228fc92d0eb2ef87c",
+      "delivered": "source/skill/haha/assets/design-system/package/artifact-manifest61.json",
+      "deliveredSha256": "1c58d33a56a562ee0c33f2737602048768657d02659fc9f228fc92d0eb2ef87c"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/bold-prompt.txt",
       "sourceSha256": "8c1bf1e207a2cf2ad0134151ebd63328611a56a4c0284ea958c39052a6e7cfd5",
-      "delivered": "assets/ai/bold-prompt.txt",
-      "deliveredSha256": "8c1bf1e207a2cf2ad0134151ebd63328611a56a4c0284ea958c39052a6e7cfd5",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/bold-prompt.txt",
+      "deliveredSha256": "8c1bf1e207a2cf2ad0134151ebd63328611a56a4c0284ea958c39052a6e7cfd5"
     },
     {
-      "source": "assets/ai/bold.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/bold.png",
       "sourceSha256": "de3fde77f68bb05d4c36fea60de90fcbad4152260cc4baced8d565c568753627",
-      "delivered": "assets/ai/bold.png",
-      "deliveredSha256": "de3fde77f68bb05d4c36fea60de90fcbad4152260cc4baced8d565c568753627",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/bold.png",
+      "deliveredSha256": "de3fde77f68bb05d4c36fea60de90fcbad4152260cc4baced8d565c568753627"
     },
     {
-      "source": "assets/ai/energetic-prompt.txt",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/energetic-prompt.txt",
       "sourceSha256": "bc858e81cd846dcb8753121d253c77de9bff8ccf87b71bcfe7dbb9b89ae58e64",
-      "delivered": "assets/ai/energetic-prompt.txt",
-      "deliveredSha256": "bc858e81cd846dcb8753121d253c77de9bff8ccf87b71bcfe7dbb9b89ae58e64",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/energetic-prompt.txt",
+      "deliveredSha256": "bc858e81cd846dcb8753121d253c77de9bff8ccf87b71bcfe7dbb9b89ae58e64"
     },
     {
-      "source": "assets/ai/energetic.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/energetic.png",
       "sourceSha256": "24c097d60b7d96405fc7202eee140894a01bf572904ead7e5b9b4101a021c81f",
-      "delivered": "assets/ai/energetic.png",
-      "deliveredSha256": "24c097d60b7d96405fc7202eee140894a01bf572904ead7e5b9b4101a021c81f",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/energetic.png",
+      "deliveredSha256": "24c097d60b7d96405fc7202eee140894a01bf572904ead7e5b9b4101a021c81f"
     },
     {
-      "source": "assets/ai/image-style-master308.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/image-style-master308.png",
       "sourceSha256": "0f3b0c40694a224486162b3c192fd5968e4598bebd486051bccdc9228b6fef51",
-      "delivered": "assets/ai/image-style-master308.png",
-      "deliveredSha256": "0f3b0c40694a224486162b3c192fd5968e4598bebd486051bccdc9228b6fef51",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/image-style-master308.png",
+      "deliveredSha256": "0f3b0c40694a224486162b3c192fd5968e4598bebd486051bccdc9228b6fef51"
     },
     {
-      "source": "assets/ai/modern-prompt.txt",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/modern-prompt.txt",
       "sourceSha256": "51cd91b8bd58040e75e311e042709ee7f1bcf50ea729c9160da52001d9b4b5ef",
-      "delivered": "assets/ai/modern-prompt.txt",
-      "deliveredSha256": "51cd91b8bd58040e75e311e042709ee7f1bcf50ea729c9160da52001d9b4b5ef",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/modern-prompt.txt",
+      "deliveredSha256": "51cd91b8bd58040e75e311e042709ee7f1bcf50ea729c9160da52001d9b4b5ef"
     },
     {
-      "source": "assets/ai/modern.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/modern.png",
       "sourceSha256": "e86df6a4cdc08e5016cb6ebf7b34ec812c468b2492fa247b6c5e1d50a98a49d6",
-      "delivered": "assets/ai/modern.png",
-      "deliveredSha256": "e86df6a4cdc08e5016cb6ebf7b34ec812c468b2492fa247b6c5e1d50a98a49d6",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/modern.png",
+      "deliveredSha256": "e86df6a4cdc08e5016cb6ebf7b34ec812c468b2492fa247b6c5e1d50a98a49d6"
     },
     {
-      "source": "assets/ai/presenter-prompt.txt",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/presenter-prompt.txt",
       "sourceSha256": "a626fa5aae23044a8ec5d2640a44181651b0895611532f8b9b6895bd51ce1730",
-      "delivered": "assets/ai/presenter-prompt.txt",
-      "deliveredSha256": "a626fa5aae23044a8ec5d2640a44181651b0895611532f8b9b6895bd51ce1730",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/presenter-prompt.txt",
+      "deliveredSha256": "a626fa5aae23044a8ec5d2640a44181651b0895611532f8b9b6895bd51ce1730"
     },
     {
-      "source": "assets/ai/presenter.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/presenter.png",
       "sourceSha256": "98f3fae277618206294d992de93628d8be4715d5a032d0b30e700b2910b8a000",
-      "delivered": "assets/ai/presenter.png",
-      "deliveredSha256": "98f3fae277618206294d992de93628d8be4715d5a032d0b30e700b2910b8a000",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/presenter.png",
+      "deliveredSha256": "98f3fae277618206294d992de93628d8be4715d5a032d0b30e700b2910b8a000"
     },
     {
-      "source": "assets/ai/provenance.json",
-      "sourceSha256": "49cf88ea66bac0bbf89ff2be2af0f6de3cac73b4617cd21a303b6b728df7559d",
-      "delivered": "assets/ai/provenance.json",
-      "deliveredSha256": "e3b8dacfd43ede787be5ff71faeaba283cebdad797e63784451100594a60aa9a",
-      "adapted": true
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/provenance.json",
+      "sourceSha256": "e3b8dacfd43ede787be5ff71faeaba283cebdad797e63784451100594a60aa9a",
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/provenance.json",
+      "deliveredSha256": "e3b8dacfd43ede787be5ff71faeaba283cebdad797e63784451100594a60aa9a"
     },
     {
-      "source": "assets/ai/set306-prompt.txt",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/set306-prompt.txt",
       "sourceSha256": "1c3fc7c3b3e407462d13b44543eb11986da5158c40ea16f71a5f72ac0e5a8625",
-      "delivered": "assets/ai/set306-prompt.txt",
-      "deliveredSha256": "1c3fc7c3b3e407462d13b44543eb11986da5158c40ea16f71a5f72ac0e5a8625",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/set306-prompt.txt",
+      "deliveredSha256": "1c3fc7c3b3e407462d13b44543eb11986da5158c40ea16f71a5f72ac0e5a8625"
     },
     {
-      "source": "assets/ai/set306.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/set306.png",
       "sourceSha256": "d607c5b90872d01c477d918ba2a154251fd02663d1b6ee283f122229310a3766",
-      "delivered": "assets/ai/set306.png",
-      "deliveredSha256": "d607c5b90872d01c477d918ba2a154251fd02663d1b6ee283f122229310a3766",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/set306.png",
+      "deliveredSha256": "d607c5b90872d01c477d918ba2a154251fd02663d1b6ee283f122229310a3766"
     },
     {
-      "source": "assets/ai/sophisticated-prompt.txt",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/sophisticated-prompt.txt",
       "sourceSha256": "d6dca7ccddc7ba3864a6c37408e11143e9fa9d27f705994478cc80224808556f",
-      "delivered": "assets/ai/sophisticated-prompt.txt",
-      "deliveredSha256": "d6dca7ccddc7ba3864a6c37408e11143e9fa9d27f705994478cc80224808556f",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/sophisticated-prompt.txt",
+      "deliveredSha256": "d6dca7ccddc7ba3864a6c37408e11143e9fa9d27f705994478cc80224808556f"
     },
     {
-      "source": "assets/ai/sophisticated.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/sophisticated.png",
       "sourceSha256": "75b1c75eb390546063f0da52332341a59862f6a49ceddc86e0a61b256f0fdcd0",
-      "delivered": "assets/ai/sophisticated.png",
-      "deliveredSha256": "75b1c75eb390546063f0da52332341a59862f6a49ceddc86e0a61b256f0fdcd0",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/sophisticated.png",
+      "deliveredSha256": "75b1c75eb390546063f0da52332341a59862f6a49ceddc86e0a61b256f0fdcd0"
     },
     {
-      "source": "assets/ai/vibrant-prompt.txt",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/vibrant-prompt.txt",
       "sourceSha256": "280e53b8d918a76aeb97d6e950b3d70739694991e6f723f70d2cb6f121a566cd",
-      "delivered": "assets/ai/vibrant-prompt.txt",
-      "deliveredSha256": "280e53b8d918a76aeb97d6e950b3d70739694991e6f723f70d2cb6f121a566cd",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/vibrant-prompt.txt",
+      "deliveredSha256": "280e53b8d918a76aeb97d6e950b3d70739694991e6f723f70d2cb6f121a566cd"
     },
     {
-      "source": "assets/ai/vibrant.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/vibrant.png",
       "sourceSha256": "b32125af7c484907898bf5ce07dad5eddaf4881b3f6b29c0ce52d8080fdc6af4",
-      "delivered": "assets/ai/vibrant.png",
-      "deliveredSha256": "b32125af7c484907898bf5ce07dad5eddaf4881b3f6b29c0ce52d8080fdc6af4",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/vibrant.png",
+      "deliveredSha256": "b32125af7c484907898bf5ce07dad5eddaf4881b3f6b29c0ce52d8080fdc6af4"
     },
     {
-      "source": "assets/ai/wardrobe306-prompt.txt",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/wardrobe306-prompt.txt",
       "sourceSha256": "c35b4460f66654e953ee3fb66f78771f6884af2f30da742d8bd52134677adc64",
-      "delivered": "assets/ai/wardrobe306-prompt.txt",
-      "deliveredSha256": "c35b4460f66654e953ee3fb66f78771f6884af2f30da742d8bd52134677adc64",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/wardrobe306-prompt.txt",
+      "deliveredSha256": "c35b4460f66654e953ee3fb66f78771f6884af2f30da742d8bd52134677adc64"
     },
     {
-      "source": "assets/ai/wardrobe306.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/ai/wardrobe306.png",
       "sourceSha256": "fec999cd8f26f14cf1249aefb43cba4cd5ffbd01f95347c1c03dd925de0480eb",
-      "delivered": "assets/ai/wardrobe306.png",
-      "deliveredSha256": "fec999cd8f26f14cf1249aefb43cba4cd5ffbd01f95347c1c03dd925de0480eb",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/ai/wardrobe306.png",
+      "deliveredSha256": "fec999cd8f26f14cf1249aefb43cba4cd5ffbd01f95347c1c03dd925de0480eb"
     },
     {
-      "source": "assets/fonts/be-vietnam-pro-400.ttf",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/fonts/be-vietnam-pro-400.ttf",
       "sourceSha256": "4ad53eac036092be79a34b5fa0aa32d0ebb3c7e5df4bc058764f5614fbf148a0",
-      "delivered": "assets/fonts/be-vietnam-pro-400.ttf",
-      "deliveredSha256": "4ad53eac036092be79a34b5fa0aa32d0ebb3c7e5df4bc058764f5614fbf148a0",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-400.ttf",
+      "deliveredSha256": "4ad53eac036092be79a34b5fa0aa32d0ebb3c7e5df4bc058764f5614fbf148a0"
     },
     {
-      "source": "assets/fonts/be-vietnam-pro-500.ttf",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/fonts/be-vietnam-pro-500.ttf",
       "sourceSha256": "557a1c42a7f8eb83f84255d475017b1235c1101b899367f974a1cbfa19cd7c3d",
-      "delivered": "assets/fonts/be-vietnam-pro-500.ttf",
-      "deliveredSha256": "557a1c42a7f8eb83f84255d475017b1235c1101b899367f974a1cbfa19cd7c3d",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-500.ttf",
+      "deliveredSha256": "557a1c42a7f8eb83f84255d475017b1235c1101b899367f974a1cbfa19cd7c3d"
     },
     {
-      "source": "assets/fonts/be-vietnam-pro-600.ttf",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/fonts/be-vietnam-pro-600.ttf",
       "sourceSha256": "cbf437bf71c8536a7aaed632dce2583ea5ec97c07efffc625c31991d1027ba3b",
-      "delivered": "assets/fonts/be-vietnam-pro-600.ttf",
-      "deliveredSha256": "cbf437bf71c8536a7aaed632dce2583ea5ec97c07efffc625c31991d1027ba3b",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-600.ttf",
+      "deliveredSha256": "cbf437bf71c8536a7aaed632dce2583ea5ec97c07efffc625c31991d1027ba3b"
     },
     {
-      "source": "assets/fonts/be-vietnam-pro-700.ttf",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/fonts/be-vietnam-pro-700.ttf",
       "sourceSha256": "aef76cd15b8c9faa1ff21951bb71963a774aa381526c557e5a52f38d430c4650",
-      "delivered": "assets/fonts/be-vietnam-pro-700.ttf",
-      "deliveredSha256": "aef76cd15b8c9faa1ff21951bb71963a774aa381526c557e5a52f38d430c4650",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-700.ttf",
+      "deliveredSha256": "aef76cd15b8c9faa1ff21951bb71963a774aa381526c557e5a52f38d430c4650"
     },
     {
-      "source": "assets/fonts/be-vietnam-pro-800.ttf",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/fonts/be-vietnam-pro-800.ttf",
       "sourceSha256": "116124d76142998ec6b49b76b0024314d5f0ef910e8898fa75a5dc38f6f03c6a",
-      "delivered": "assets/fonts/be-vietnam-pro-800.ttf",
-      "deliveredSha256": "116124d76142998ec6b49b76b0024314d5f0ef910e8898fa75a5dc38f6f03c6a",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-800.ttf",
+      "deliveredSha256": "116124d76142998ec6b49b76b0024314d5f0ef910e8898fa75a5dc38f6f03c6a"
     },
     {
-      "source": "assets/fonts/provenance.json",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/fonts/OFL.txt",
+      "sourceSha256": "adba7f9c81d62e8b3c6c2ebfd24b1e86b162fcba89995497ec0bf32108ca95e5",
+      "delivered": "source/skill/haha/assets/design-system/package/assets/fonts/OFL.txt",
+      "deliveredSha256": "adba7f9c81d62e8b3c6c2ebfd24b1e86b162fcba89995497ec0bf32108ca95e5"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/fonts/provenance.json",
       "sourceSha256": "2528607d83e1a8d90d0ae571f9872477ef49339dd4a3484f764437378966d814",
-      "delivered": "assets/fonts/provenance.json",
-      "deliveredSha256": "2528607d83e1a8d90d0ae571f9872477ef49339dd4a3484f764437378966d814",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/fonts/provenance.json",
+      "deliveredSha256": "2528607d83e1a8d90d0ae571f9872477ef49339dd4a3484f764437378966d814"
     },
     {
-      "source": "assets/logos/Logo black.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/logos/Logo black.png",
       "sourceSha256": "7a380809db132c382532cc4d1b43d735928b0766571811363d9b7bdb52c3d9ef",
-      "delivered": "assets/logos/Logo black.png",
-      "deliveredSha256": "7a380809db132c382532cc4d1b43d735928b0766571811363d9b7bdb52c3d9ef",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/logos/Logo black.png",
+      "deliveredSha256": "7a380809db132c382532cc4d1b43d735928b0766571811363d9b7bdb52c3d9ef"
     },
     {
-      "source": "assets/logos/Logo white.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/logos/Logo white.png",
       "sourceSha256": "ed1f2ab041a54b8af8b61c40332994ad8f202d3c8bf76a813d4d6dc00d70cbbf",
-      "delivered": "assets/logos/Logo white.png",
-      "deliveredSha256": "ed1f2ab041a54b8af8b61c40332994ad8f202d3c8bf76a813d4d6dc00d70cbbf",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/assets/logos/Logo white.png",
+      "deliveredSha256": "ed1f2ab041a54b8af8b61c40332994ad8f202d3c8bf76a813d4d6dc00d70cbbf"
     },
     {
-      "source": "assets/references/pinterest.json",
-      "sourceSha256": "f662c7422e71f98b59131c4b3b8e5547f69376ce68dcbb3b46d7118140830cf6",
-      "delivered": "assets/references/pinterest.json",
-      "deliveredSha256": "32d1eb0e98615fa1539338bd76cf6cfd2292bfba216aacd57609ceb707ab3c73",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/references/bold.svg",
+      "sourceSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432",
+      "delivered": "source/skill/haha/assets/design-system/package/assets/references/bold.svg",
+      "deliveredSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/references/energetic.svg",
+      "sourceSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432",
+      "delivered": "source/skill/haha/assets/design-system/package/assets/references/energetic.svg",
+      "deliveredSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/references/image-style-ref-1.svg",
+      "sourceSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432",
+      "delivered": "source/skill/haha/assets/design-system/package/assets/references/image-style-ref-1.svg",
+      "deliveredSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/references/image-style-ref-2.svg",
+      "sourceSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432",
+      "delivered": "source/skill/haha/assets/design-system/package/assets/references/image-style-ref-2.svg",
+      "deliveredSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/references/image-style-ref-3.svg",
+      "sourceSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432",
+      "delivered": "source/skill/haha/assets/design-system/package/assets/references/image-style-ref-3.svg",
+      "deliveredSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/references/modern.svg",
+      "sourceSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432",
+      "delivered": "source/skill/haha/assets/design-system/package/assets/references/modern.svg",
+      "deliveredSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/references/pinterest.json",
+      "sourceSha256": "32d1eb0e98615fa1539338bd76cf6cfd2292bfba216aacd57609ceb707ab3c73",
+      "delivered": "source/skill/haha/assets/design-system/package/assets/references/pinterest.json",
+      "deliveredSha256": "32d1eb0e98615fa1539338bd76cf6cfd2292bfba216aacd57609ceb707ab3c73"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/references/sophisticated.svg",
+      "sourceSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432",
+      "delivered": "source/skill/haha/assets/design-system/package/assets/references/sophisticated.svg",
+      "deliveredSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/assets/references/vibrant.svg",
+      "sourceSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432",
+      "delivered": "source/skill/haha/assets/design-system/package/assets/references/vibrant.svg",
+      "deliveredSha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/atlas248.css",
+      "sourceSha256": "4555765dddda8cd6acb637f7f4727adf978a2e49da24ccf6f4d3e679fd2fbbc5",
+      "delivered": "source/skill/haha/assets/design-system/package/atlas248.css",
+      "deliveredSha256": "4555765dddda8cd6acb637f7f4727adf978a2e49da24ccf6f4d3e679fd2fbbc5"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/atlas248.js",
+      "sourceSha256": "bb7bce77473103a1b25b7d3ccbb90e4ab5bf6c1c65cf2f7782de0fbb34dd5605",
+      "delivered": "source/skill/haha/assets/design-system/package/atlas248.js",
+      "deliveredSha256": "f37a95041ed03bfdee4457247d5d9bfb36c671edeecf8db00927328e0e36a971",
       "adapted": true
     },
     {
-      "source": "atlas248.css",
-      "sourceSha256": "bd45823059de7b5e04c35c377c34b4d98cb155771858275dbbd27b1b71090b35",
-      "delivered": "atlas248.css",
-      "deliveredSha256": "bd45823059de7b5e04c35c377c34b4d98cb155771858275dbbd27b1b71090b35",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/body-keywords58.js",
+      "sourceSha256": "57b2d2f3692a5369ebf3d86684ccb198693b64a299c49dd6ac2f5a3f56b8e979",
+      "delivered": "source/skill/haha/assets/design-system/package/body-keywords58.js",
+      "deliveredSha256": "57b2d2f3692a5369ebf3d86684ccb198693b64a299c49dd6ac2f5a3f56b8e979"
     },
     {
-      "source": "atlas248.js",
-      "sourceSha256": "2dcf0ffe0c77b34940d7cfc705ec0a4b01cc8eb7ae9ae13cf3bad80969a67f5c",
-      "delivered": "atlas248.js",
-      "deliveredSha256": "2dcf0ffe0c77b34940d7cfc705ec0a4b01cc8eb7ae9ae13cf3bad80969a67f5c",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/BUTTON-STATES.md",
+      "sourceSha256": "48f64d397395996e596d6cbb3795d3060fa4bf66a9f554f0ff93d48a42d58ea0",
+      "delivered": "source/skill/haha/assets/design-system/package/BUTTON-STATES.md",
+      "deliveredSha256": "48f64d397395996e596d6cbb3795d3060fa4bf66a9f554f0ff93d48a42d58ea0"
     },
     {
-      "source": "BUTTON-STATES.md",
-      "sourceSha256": "d59b17115886d4eac3f4dbbcc2debacef035e373d8f19cde0d8ee85ffede3a27",
-      "delivered": "BUTTON-STATES.md",
-      "deliveredSha256": "d59b17115886d4eac3f4dbbcc2debacef035e373d8f19cde0d8ee85ffede3a27",
-      "adapted": false
-    },
-    {
-      "source": "buttons268.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/buttons268.css",
       "sourceSha256": "7072268f95d2bbb72038a8321c50e9615a3305cd5c1794f027d531c04fac0e75",
-      "delivered": "buttons268.css",
-      "deliveredSha256": "7072268f95d2bbb72038a8321c50e9615a3305cd5c1794f027d531c04fac0e75",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/buttons268.css",
+      "deliveredSha256": "7072268f95d2bbb72038a8321c50e9615a3305cd5c1794f027d531c04fac0e75"
     },
     {
-      "source": "buttons268.js",
-      "sourceSha256": "d2e85f217a4b36ad6904b161ee862bd76247d910dca4f4ff03b26e7e58295ae2",
-      "delivered": "buttons268.js",
-      "deliveredSha256": "d2e85f217a4b36ad6904b161ee862bd76247d910dca4f4ff03b26e7e58295ae2",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/buttons268.js",
+      "sourceSha256": "c5e950ed9a6960da1e32d9eb7ec9611f962b165d9af3725c6858d1fed1f2c65e",
+      "delivered": "source/skill/haha/assets/design-system/package/buttons268.js",
+      "deliveredSha256": "c5e950ed9a6960da1e32d9eb7ec9611f962b165d9af3725c6858d1fed1f2c65e"
     },
     {
-      "source": "CENTERING.md",
-      "sourceSha256": "9dcf5f990c689b398be8744d43df94cd242b035b69950002ba174fc34d32fa17",
-      "delivered": "CENTERING.md",
-      "deliveredSha256": "9dcf5f990c689b398be8744d43df94cd242b035b69950002ba174fc34d32fa17",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/CENTERING.md",
+      "sourceSha256": "50879d8ce39aa96dc9597c1870d8ad04d44574a8cd1771d7c602b5483fb3e40d",
+      "delivered": "source/skill/haha/assets/design-system/package/CENTERING.md",
+      "deliveredSha256": "50879d8ce39aa96dc9597c1870d8ad04d44574a8cd1771d7c602b5483fb3e40d"
     },
     {
-      "source": "centering286.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/centering286.css",
       "sourceSha256": "bedd1f9bab57b53a04cc879dfc6f6f1526dc698b49bb0571eb46d61bb80145b9",
-      "delivered": "centering286.css",
-      "deliveredSha256": "bedd1f9bab57b53a04cc879dfc6f6f1526dc698b49bb0571eb46d61bb80145b9",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/centering286.css",
+      "deliveredSha256": "bedd1f9bab57b53a04cc879dfc6f6f1526dc698b49bb0571eb46d61bb80145b9"
     },
     {
-      "source": "CHARTS.md",
-      "sourceSha256": "9f1667a1dafe4b088a16ecbaf5f9c3241bdf39ec16898e53842ad465ed397d41",
-      "delivered": "CHARTS.md",
-      "deliveredSha256": "9f1667a1dafe4b088a16ecbaf5f9c3241bdf39ec16898e53842ad465ed397d41",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/chart45-anchor-manifest.json",
+      "sourceSha256": "edbf61909a62ee89dce6a78878e1a7af68e163f867048601ff5e34bf393029b4",
+      "delivered": "source/skill/haha/assets/design-system/package/chart45-anchor-manifest.json",
+      "deliveredSha256": "edbf61909a62ee89dce6a78878e1a7af68e163f867048601ff5e34bf393029b4"
     },
     {
-      "source": "charts262.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/chart45-anchor.css",
+      "sourceSha256": "52ac630c4874d33b020d220ad36ff90faa7526dcaa05c7762c3a8c86f638959b",
+      "delivered": "source/skill/haha/assets/design-system/package/chart45-anchor.css",
+      "deliveredSha256": "52ac630c4874d33b020d220ad36ff90faa7526dcaa05c7762c3a8c86f638959b"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/chart45-anchor.js",
+      "sourceSha256": "72b9477ab02edc38521ee031609dc66e7c396267727b236d41f5336a02964ddd",
+      "delivered": "source/skill/haha/assets/design-system/package/chart45-anchor.js",
+      "deliveredSha256": "72b9477ab02edc38521ee031609dc66e7c396267727b236d41f5336a02964ddd"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/chart45-catalogue.js",
+      "sourceSha256": "30636ae7d25fb8eed5fab7e7be786d819031002df6d8070088ca9df7e9e1b195",
+      "delivered": "source/skill/haha/assets/design-system/package/chart45-catalogue.js",
+      "deliveredSha256": "30636ae7d25fb8eed5fab7e7be786d819031002df6d8070088ca9df7e9e1b195"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/chart45-core.js",
+      "sourceSha256": "9877f8f2716bf64a0264e26f26462136ab7c0518a76ef5249d01b30ecd737e89",
+      "delivered": "source/skill/haha/assets/design-system/package/chart45-core.js",
+      "deliveredSha256": "9877f8f2716bf64a0264e26f26462136ab7c0518a76ef5249d01b30ecd737e89"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/chart45-data.js",
+      "sourceSha256": "b6307787c25ebe869e9f0a283d264c79c2e8467ceace2ae6333bfd24e7030ab6",
+      "delivered": "source/skill/haha/assets/design-system/package/chart45-data.js",
+      "deliveredSha256": "12e22611f72d52e6882cb3864e6d0fa401de739b8cfb9db008746a3d57106274",
+      "adapted": true
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/chart45-data.json",
+      "sourceSha256": "baeb4a9126032b149e889037bc20740b2483b81cfbabfc1fbe373f97e416aba1",
+      "delivered": "source/skill/haha/assets/design-system/package/chart45-data.json",
+      "deliveredSha256": "baeb4a9126032b149e889037bc20740b2483b81cfbabfc1fbe373f97e416aba1"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/chart45-doc-manifest.json",
+      "sourceSha256": "318ce0ad43af2d5cbfe7a74a19a01dfd28ab0de14fc9b2590b44e0403f61ba9d",
+      "delivered": "source/skill/haha/assets/design-system/package/chart45-doc-manifest.json",
+      "deliveredSha256": "318ce0ad43af2d5cbfe7a74a19a01dfd28ab0de14fc9b2590b44e0403f61ba9d"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/chart45-profile.json",
+      "sourceSha256": "c2c0bc428b7f768dc2c04b86d05ccc9f5b47132a0d6db3e44a2cdf5515e8797f",
+      "delivered": "source/skill/haha/assets/design-system/package/chart45-profile.json",
+      "deliveredSha256": "c2c0bc428b7f768dc2c04b86d05ccc9f5b47132a0d6db3e44a2cdf5515e8797f"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/chart45-roles.css",
+      "sourceSha256": "2fa99b1f32a68b25e14585358d01a2fc4af811a7d573fbbb9225d11572658555",
+      "delivered": "source/skill/haha/assets/design-system/package/chart45-roles.css",
+      "deliveredSha256": "2fa99b1f32a68b25e14585358d01a2fc4af811a7d573fbbb9225d11572658555"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/chart45-target.json",
+      "sourceSha256": "2f06f3ccf8c7f922689f272ae7ec563a58a42391d48c4c9accfb35132cc5c762",
+      "delivered": "source/skill/haha/assets/design-system/package/chart45-target.json",
+      "deliveredSha256": "2f06f3ccf8c7f922689f272ae7ec563a58a42391d48c4c9accfb35132cc5c762"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/CHARTS-BASELINE.md",
+      "sourceSha256": "2848682ffe806e8a345517dd555f8f919933bb023c790c1b45cdb11d8a47da11",
+      "delivered": "source/skill/haha/assets/design-system/package/CHARTS-BASELINE.md",
+      "deliveredSha256": "2848682ffe806e8a345517dd555f8f919933bb023c790c1b45cdb11d8a47da11"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/CHARTS.md",
+      "sourceSha256": "d7a62d20efaedc3e70415d1b54546a37f408a14c8c66f60e858401490bc2a89c",
+      "delivered": "source/skill/haha/assets/design-system/package/CHARTS.md",
+      "deliveredSha256": "d7a62d20efaedc3e70415d1b54546a37f408a14c8c66f60e858401490bc2a89c"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/charts262.js",
       "sourceSha256": "e4c1a9a998dc27a2c4b6630ec2ac1b33cb4513d27bbcda7466ce8e1147f63f9e",
-      "delivered": "charts262.js",
-      "deliveredSha256": "e4c1a9a998dc27a2c4b6630ec2ac1b33cb4513d27bbcda7466ce8e1147f63f9e",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/charts262.js",
+      "deliveredSha256": "e4c1a9a998dc27a2c4b6630ec2ac1b33cb4513d27bbcda7466ce8e1147f63f9e"
     },
     {
-      "source": "charts264.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/charts264.js",
       "sourceSha256": "e4e9d489c81857a9d4df332a854fbc59eb209482bf74913423608cbce309a20d",
-      "delivered": "charts264.js",
-      "deliveredSha256": "e4e9d489c81857a9d4df332a854fbc59eb209482bf74913423608cbce309a20d",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/charts264.js",
+      "deliveredSha256": "e4e9d489c81857a9d4df332a854fbc59eb209482bf74913423608cbce309a20d"
     },
     {
-      "source": "charts279.js",
-      "sourceSha256": "86fd39f2a70eb7b5cc7f1b4210b3d5b5aa023b531dbcb05679673de351d78fc4",
-      "delivered": "charts279.js",
-      "deliveredSha256": "86fd39f2a70eb7b5cc7f1b4210b3d5b5aa023b531dbcb05679673de351d78fc4",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/charts279.js",
+      "sourceSha256": "d44b8c3f9cce0a0e2018926fbf052b30f4e88c975b9e1e666c9c4cf83cddb223",
+      "delivered": "source/skill/haha/assets/design-system/package/charts279.js",
+      "deliveredSha256": "d44b8c3f9cce0a0e2018926fbf052b30f4e88c975b9e1e666c9c4cf83cddb223"
     },
     {
-      "source": "config305.js",
-      "sourceSha256": "fba0b5c0e3b186e0700cc2b512c68db541fd74411721861f4bb8e9dddd967573",
-      "delivered": "config305.js",
-      "deliveredSha256": "077cb8627a9aefda7cc4d7051592e855ff7f6419dd5dc165e0d986cd6308c076",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/CLIENT-USE.md",
+      "sourceSha256": "52199347a0a8d6e76a460bc751b7bcd7ebb395e2243b965591e685715607dc45",
+      "delivered": "source/skill/haha/assets/design-system/package/CLIENT-USE.md",
+      "deliveredSha256": "52199347a0a8d6e76a460bc751b7bcd7ebb395e2243b965591e685715607dc45"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/compact/maps/united-states.html",
+      "sourceSha256": "acccabda1f38a116d40fae3abe0adf6d0103a0ab3ec65ab105d0ea07263fa9bd",
+      "delivered": "source/skill/haha/assets/design-system/package/compact/maps/united-states.html",
+      "deliveredSha256": "acccabda1f38a116d40fae3abe0adf6d0103a0ab3ec65ab105d0ea07263fa9bd"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/compact/maps/vietnam.html",
+      "sourceSha256": "3adda5a610b526e0d99615e7477124d5009ea09cb33370958393b9d332fe16c6",
+      "delivered": "source/skill/haha/assets/design-system/package/compact/maps/vietnam.html",
+      "deliveredSha256": "3adda5a610b526e0d99615e7477124d5009ea09cb33370958393b9d332fe16c6"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/compact/maps/world.html",
+      "sourceSha256": "b252c8ce7cdb97c5743f3c8070264c861315f218a1436da6931fd84dda0137bb",
+      "delivered": "source/skill/haha/assets/design-system/package/compact/maps/world.html",
+      "deliveredSha256": "b252c8ce7cdb97c5743f3c8070264c861315f218a1436da6931fd84dda0137bb"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/compact-binding.js",
+      "sourceSha256": "552c8e203aa1c652beda8f4f2cc51b74352ae20140caad812260353fabfcc0cc",
+      "delivered": "source/skill/haha/assets/design-system/package/compact-binding.js",
+      "deliveredSha256": "552c8e203aa1c652beda8f4f2cc51b74352ae20140caad812260353fabfcc0cc"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/compact-design.css",
+      "sourceSha256": "0a271dba5f3b1cb2f54212d33ad643eb55a6974793d91f9b15ffecfbafcb12ec",
+      "delivered": "source/skill/haha/assets/design-system/package/compact-design.css",
+      "deliveredSha256": "0a271dba5f3b1cb2f54212d33ad643eb55a6974793d91f9b15ffecfbafcb12ec"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/compact-design.js",
+      "sourceSha256": "f047e2c2758d09d5bedb5f1f1322a0866afc1c654dd76989ed80ee79a3f2be46",
+      "delivered": "source/skill/haha/assets/design-system/package/compact-design.js",
+      "deliveredSha256": "f047e2c2758d09d5bedb5f1f1322a0866afc1c654dd76989ed80ee79a3f2be46"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/compact-effects.js",
+      "sourceSha256": "956a5a681f5b13fa9be4fe6e4a62dbfe7d83c102bb7567ec392f3edefe5ee138",
+      "delivered": "source/skill/haha/assets/design-system/package/compact-effects.js",
+      "deliveredSha256": "956a5a681f5b13fa9be4fe6e4a62dbfe7d83c102bb7567ec392f3edefe5ee138"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/compact-guidelines.js",
+      "sourceSha256": "9bacf39fcb9b4263df1b35df1921e38101218f42bd6caf24c905a06cf603f3e0",
+      "delivered": "source/skill/haha/assets/design-system/package/compact-guidelines.js",
+      "deliveredSha256": "9bacf39fcb9b4263df1b35df1921e38101218f42bd6caf24c905a06cf603f3e0"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/compact-runtime-files.json",
+      "sourceSha256": "7f69f6221f53ec0811e4f3c35a3ef50e503962cf5bfd39b696604d848d2231c2",
+      "delivered": "source/skill/haha/assets/design-system/package/compact-runtime-files.json",
+      "deliveredSha256": "7f69f6221f53ec0811e4f3c35a3ef50e503962cf5bfd39b696604d848d2231c2"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/component-map.json",
+      "sourceSha256": "66278278af3b7589a8aa652756a7dde407b5bb21d39eba7a1fa42821291057ce",
+      "delivered": "source/skill/haha/assets/design-system/package/component-map.json",
+      "deliveredSha256": "66278278af3b7589a8aa652756a7dde407b5bb21d39eba7a1fa42821291057ce"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/COMPOSITION.md",
+      "sourceSha256": "45dd9042b613447230dd0e59ce546e7a3659b4a146f53ee7daa9f34e3523997f",
+      "delivered": "source/skill/haha/assets/design-system/package/COMPOSITION.md",
+      "deliveredSha256": "45dd9042b613447230dd0e59ce546e7a3659b4a146f53ee7daa9f34e3523997f"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/config305.js",
+      "sourceSha256": "cba0f7b3e68167a6637280f60abfe1e810371ded9b0cef351fa27171e40691a2",
+      "delivered": "source/skill/haha/assets/design-system/package/config305.js",
+      "deliveredSha256": "f1eb292dfe7d35fecd3562cc5d9fc645a6e61b0fe6d50160a7d92cf8932fd39f",
       "adapted": true
     },
     {
-      "source": "config316.js",
-      "sourceSha256": "a1491543e4e457c837eba724c7eb7030cdd7bd2a2f3d556e0128057721913dcd",
-      "delivered": "config316.js",
-      "deliveredSha256": "077cb8627a9aefda7cc4d7051592e855ff7f6419dd5dc165e0d986cd6308c076",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/config316.js",
+      "sourceSha256": "54f126f62daf826c8510f66f78fef54a19145a97497f06107cc19f16defbe161",
+      "delivered": "source/skill/haha/assets/design-system/package/config316.js",
+      "deliveredSha256": "f1eb292dfe7d35fecd3562cc5d9fc645a6e61b0fe6d50160a7d92cf8932fd39f",
       "adapted": true
     },
     {
-      "source": "connections265.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/connections265.js",
       "sourceSha256": "ef9c68860f61a111b19da5510926dc294a8508aec5be30656056e54fdeba4a56",
-      "delivered": "connections265.js",
-      "deliveredSha256": "ef9c68860f61a111b19da5510926dc294a8508aec5be30656056e54fdeba4a56",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/connections265.js",
+      "deliveredSha256": "ef9c68860f61a111b19da5510926dc294a8508aec5be30656056e54fdeba4a56"
     },
     {
-      "source": "connections267.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/connections267.css",
       "sourceSha256": "c3176bea6a038c0b4d894ec94f99a478a89db366995358901dbf72e9b0d282b8",
-      "delivered": "connections267.css",
-      "deliveredSha256": "c3176bea6a038c0b4d894ec94f99a478a89db366995358901dbf72e9b0d282b8",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/connections267.css",
+      "deliveredSha256": "c3176bea6a038c0b4d894ec94f99a478a89db366995358901dbf72e9b0d282b8"
     },
     {
-      "source": "connections267.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/connections267.js",
       "sourceSha256": "5088b54e5784128b7386e8034fd96a31267271a047cea21413c7a532df32bd82",
-      "delivered": "connections267.js",
-      "deliveredSha256": "5088b54e5784128b7386e8034fd96a31267271a047cea21413c7a532df32bd82",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/connections267.js",
+      "deliveredSha256": "5088b54e5784128b7386e8034fd96a31267271a047cea21413c7a532df32bd82"
     },
     {
-      "source": "CONNECTORS.md",
-      "sourceSha256": "ac18d5f0bcd3b5da8979b468a39d4f647bba1fd1030a83ea0639af1f51d277e3",
-      "delivered": "CONNECTORS.md",
-      "deliveredSha256": "ac18d5f0bcd3b5da8979b468a39d4f647bba1fd1030a83ea0639af1f51d277e3",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/CONNECTORS.md",
+      "sourceSha256": "9f8e17acee2dafa848b6d330e780445e9d40c15ad3c9bda821a0c12bbde99496",
+      "delivered": "source/skill/haha/assets/design-system/package/CONNECTORS.md",
+      "deliveredSha256": "9f8e17acee2dafa848b6d330e780445e9d40c15ad3c9bda821a0c12bbde99496"
     },
     {
-      "source": "consumer260.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/consumer260.js",
       "sourceSha256": "a50f8344b0bc6104ec02ae67fb2244d9551bec28dcc2c533fea10202e7d64b71",
-      "delivered": "consumer260.js",
-      "deliveredSha256": "a50f8344b0bc6104ec02ae67fb2244d9551bec28dcc2c533fea10202e7d64b71",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/consumer260.js",
+      "deliveredSha256": "a50f8344b0bc6104ec02ae67fb2244d9551bec28dcc2c533fea10202e7d64b71"
     },
     {
-      "source": "CONTENT-GROUPS.md",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/CONTENT-GROUPS.md",
       "sourceSha256": "c954c7aa6c981713d8464cc1793fb0493895b8e7a255cb7f73bff99c567d3fd9",
-      "delivered": "CONTENT-GROUPS.md",
-      "deliveredSha256": "c954c7aa6c981713d8464cc1793fb0493895b8e7a255cb7f73bff99c567d3fd9",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/CONTENT-GROUPS.md",
+      "deliveredSha256": "c954c7aa6c981713d8464cc1793fb0493895b8e7a255cb7f73bff99c567d3fd9"
     },
     {
-      "source": "content282-data.js",
-      "sourceSha256": "5277920091b4743049a962200f527fb46f81c3e12b4cb4640aab19f05ff8b41c",
-      "delivered": "content282-data.js",
-      "deliveredSha256": "4d66f206f05d54f94d13ed0cfa78330f5c711b77398496fac8457ded0ff88aa3",
-      "adapted": true
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/content282-data.js",
+      "sourceSha256": "4d66f206f05d54f94d13ed0cfa78330f5c711b77398496fac8457ded0ff88aa3",
+      "delivered": "source/skill/haha/assets/design-system/package/content282-data.js",
+      "deliveredSha256": "4d66f206f05d54f94d13ed0cfa78330f5c711b77398496fac8457ded0ff88aa3"
     },
     {
-      "source": "content282.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/content282.css",
       "sourceSha256": "f884933077b9609a6df55c2248d936dac19f47b5069767ee7e4036e8adc1704c",
-      "delivered": "content282.css",
-      "deliveredSha256": "f884933077b9609a6df55c2248d936dac19f47b5069767ee7e4036e8adc1704c",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/content282.css",
+      "deliveredSha256": "f884933077b9609a6df55c2248d936dac19f47b5069767ee7e4036e8adc1704c"
     },
     {
-      "source": "content282.html",
-      "sourceSha256": "5739765579e4e195c0d30a2bd77bb07bad3ffeec7d1de72922ac9ff1e77282e5",
-      "delivered": "content282.html",
-      "deliveredSha256": "5739765579e4e195c0d30a2bd77bb07bad3ffeec7d1de72922ac9ff1e77282e5",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/content282.html",
+      "sourceSha256": "c97b474140bea2da17dd5afcfecff953c36c986ffff692182b76c0b2209a9c14",
+      "delivered": "source/skill/haha/assets/design-system/package/content282.html",
+      "deliveredSha256": "c97b474140bea2da17dd5afcfecff953c36c986ffff692182b76c0b2209a9c14"
     },
     {
-      "source": "content282.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/content282.js",
       "sourceSha256": "0587e42e9b9ceee4df9e3441b1c1642654708a488ccdb0eb9a6c6d003f54e0a7",
-      "delivered": "content282.js",
-      "deliveredSha256": "0587e42e9b9ceee4df9e3441b1c1642654708a488ccdb0eb9a6c6d003f54e0a7",
-      "adapted": false
-    },
-    {
-      "source": "core-manifest316.json",
-      "sourceSha256": "cd4aa141f3c4e0a2710199fdd2ea9f754eefc51fad566b55a8ff33d3903ea48f",
-      "delivered": "core-manifest316.json",
-      "deliveredSha256": "61e2c816799311c5ac7cdaa7a0d7a520c1500251f0400e72119270da96aaec29",
+      "delivered": "source/skill/haha/assets/design-system/package/content282.js",
+      "deliveredSha256": "92ec4bff372748e797c8936a77d1c6091262ff67b61a6c53a482cbd57101b299",
       "adapted": true
     },
     {
-      "source": "counts262.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/core-manifest316.json",
+      "sourceSha256": "bd54aa0f76b781ca99e3f5a92b98e4729543ab1440aca96a7f7e7860091de758",
+      "delivered": "source/skill/haha/assets/design-system/package/core-manifest316.json",
+      "deliveredSha256": "24cc34e552f632d03c161e46cd984a22846bebf89f0d7b8798a6907fa3ab70c1",
+      "adapted": true
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/counts262.css",
       "sourceSha256": "cdafd688046981a86ff6f41fed585d0763da76dcba574b7833f36d0e0712c151",
-      "delivered": "counts262.css",
-      "deliveredSha256": "cdafd688046981a86ff6f41fed585d0763da76dcba574b7833f36d0e0712c151",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/counts262.css",
+      "deliveredSha256": "cdafd688046981a86ff6f41fed585d0763da76dcba574b7833f36d0e0712c151"
     },
     {
-      "source": "counts262.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/counts262.js",
       "sourceSha256": "cc4960ce881d05e66ac24db53b042103ce143421536896225dc222dc0287cf22",
-      "delivered": "counts262.js",
-      "deliveredSha256": "cc4960ce881d05e66ac24db53b042103ce143421536896225dc222dc0287cf22",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/counts262.js",
+      "deliveredSha256": "cc4960ce881d05e66ac24db53b042103ce143421536896225dc222dc0287cf22"
     },
     {
-      "source": "CSS.md",
-      "sourceSha256": "9cfc0e7bb839713e223e4e95ed322a34fb8e3f71a782d6f0ed966ecb1de8d3d3",
-      "delivered": "CSS.md",
-      "deliveredSha256": "9cfc0e7bb839713e223e4e95ed322a34fb8e3f71a782d6f0ed966ecb1de8d3d3",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/CSS.md",
+      "sourceSha256": "17ef9c9c99a982461e963cfa340d0cb9359cc4b7de5b6206560e81d01f06f2c3",
+      "delivered": "source/skill/haha/assets/design-system/package/CSS.md",
+      "deliveredSha256": "17ef9c9c99a982461e963cfa340d0cb9359cc4b7de5b6206560e81d01f06f2c3"
     },
     {
-      "source": "design-system.html",
-      "sourceSha256": "ebedc71fb15b8abc8d1507f80396cbfbde645357f4a574f49db4e1a9ebeb75da",
-      "delivered": "design-system.html",
-      "deliveredSha256": "2c7bbb6ed5d3e8405173cd0982e64eb33914c20a0e2cd3e1d097736444e153e8",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/DESIGN-BASELINE.md",
+      "sourceSha256": "897770636d585543e74532aaaf5ffe9021cbee61bc9eaa18dc6f89aa2da20560",
+      "delivered": "source/skill/haha/assets/design-system/package/DESIGN-BASELINE.md",
+      "deliveredSha256": "897770636d585543e74532aaaf5ffe9021cbee61bc9eaa18dc6f89aa2da20560"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/design-system-maps.html",
+      "sourceSha256": "6906f4600188f26f6dc57fda7b77e821fc1ba3b13cede64a97b1b3339015d214",
+      "delivered": "source/skill/haha/assets/design-system/package/design-system-maps.html",
+      "deliveredSha256": "6906f4600188f26f6dc57fda7b77e821fc1ba3b13cede64a97b1b3339015d214"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/design-system.html",
+      "sourceSha256": "4baec3062972d1aa14455b58a02dff7cd4ec88ea54d56404b35113a7f3076c56",
+      "delivered": "source/skill/haha/assets/design-system/package/design-system.html",
+      "deliveredSha256": "a00cd753d25ca19bdb8c6f71578625c9eb381784befac9a2fd34b4bcbf7903a1",
       "adapted": true
     },
     {
-      "source": "DESIGN.md",
-      "sourceSha256": "20a3ce842c34054b29a9d90bb848d89381f75449459102598d175e223d7b72d4",
-      "delivered": "DESIGN.md",
-      "deliveredSha256": "167714ff3368b14b3934df74d5b5294abd2b9a261be5a91fb048e18e6a2a3717",
-      "adapted": true
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/DESIGN.md",
+      "sourceSha256": "d992636f729a8e50c6dbed75f3558dc10875863f585ea9219a88a69edb12c1d6",
+      "delivered": "source/skill/haha/assets/design-system/package/DESIGN.md",
+      "deliveredSha256": "d992636f729a8e50c6dbed75f3558dc10875863f585ea9219a88a69edb12c1d6"
     },
     {
-      "source": "DesignBinding.json",
-      "sourceSha256": "6667d74139adb3c984e41ed34efd3bf8b0c447bb34b5bcb1fd3c6246e39c219b",
-      "delivered": "DesignBinding.json",
-      "deliveredSha256": "6667d74139adb3c984e41ed34efd3bf8b0c447bb34b5bcb1fd3c6246e39c219b",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/DesignBinding.json",
+      "sourceSha256": "bd58ba3b7c7cf356a3c4b22391360e10922759fe1903e26606e0ad767c46ccca",
+      "delivered": "source/skill/haha/assets/design-system/package/DesignBinding.json",
+      "deliveredSha256": "bd58ba3b7c7cf356a3c4b22391360e10922759fe1903e26606e0ad767c46ccca"
     },
     {
-      "source": "discovery259.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/DesignBinding42.json",
+      "sourceSha256": "1766f1534da6d876ed31d332e82127c4329cbfb7f51d11176a7b23bd2ecce15c",
+      "delivered": "source/skill/haha/assets/design-system/package/DesignBinding42.json",
+      "deliveredSha256": "1766f1534da6d876ed31d332e82127c4329cbfb7f51d11176a7b23bd2ecce15c"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/discovery259.js",
       "sourceSha256": "275beb49f598c75c1cc8f47243442c31a6ba3ea862704a45435fc4387264c378",
-      "delivered": "discovery259.js",
-      "deliveredSha256": "275beb49f598c75c1cc8f47243442c31a6ba3ea862704a45435fc4387264c378",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/discovery259.js",
+      "deliveredSha256": "275beb49f598c75c1cc8f47243442c31a6ba3ea862704a45435fc4387264c378"
     },
     {
-      "source": "fixtures241.json",
-      "sourceSha256": "d3c9fcd3fad65ee68aabeb2c139254578ef0586c59ef82f19b5b3684eb5913ac",
-      "delivered": "fixtures241.json",
-      "deliveredSha256": "d3c9fcd3fad65ee68aabeb2c139254578ef0586c59ef82f19b5b3684eb5913ac",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/elements/manifest.json",
+      "sourceSha256": "f80c8d7df3af848d983de0b20812e567864b81e29da29dcbc7a96b94f3c843ff",
+      "delivered": "source/skill/haha/assets/design-system/package/elements/manifest.json",
+      "deliveredSha256": "f80c8d7df3af848d983de0b20812e567864b81e29da29dcbc7a96b94f3c843ff"
     },
     {
-      "source": "haha305.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/fixtures241.json",
+      "sourceSha256": "4298816a99200190f7d6e2ed09f03e3dbbca55f790557c8430c9a57ca6bf68f2",
+      "delivered": "source/skill/haha/assets/design-system/package/fixtures241.json",
+      "deliveredSha256": "4298816a99200190f7d6e2ed09f03e3dbbca55f790557c8430c9a57ca6bf68f2"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/frame45.css",
+      "sourceSha256": "b4b3710c66b3ccef7be8d654cade25c7368b9dd2e0f50f476d4515c01107354c",
+      "delivered": "source/skill/haha/assets/design-system/package/frame45.css",
+      "deliveredSha256": "b4b3710c66b3ccef7be8d654cade25c7368b9dd2e0f50f476d4515c01107354c"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/frame45.js",
+      "sourceSha256": "b64378b126a41bafa0d8374622fbc0a1d35e2b70be819c89680053fddca6da33",
+      "delivered": "source/skill/haha/assets/design-system/package/frame45.js",
+      "deliveredSha256": "b64378b126a41bafa0d8374622fbc0a1d35e2b70be819c89680053fddca6da33"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/haha305.css",
       "sourceSha256": "8de38e78a520df10fddcdc17f0a8dbc5fa79de1d9e355e3485b1edbd9cdaa3ef",
-      "delivered": "haha305.css",
-      "deliveredSha256": "8de38e78a520df10fddcdc17f0a8dbc5fa79de1d9e355e3485b1edbd9cdaa3ef",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/haha305.css",
+      "deliveredSha256": "8de38e78a520df10fddcdc17f0a8dbc5fa79de1d9e355e3485b1edbd9cdaa3ef"
     },
     {
-      "source": "icons248-data.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/icons248-data.js",
       "sourceSha256": "73222589b8167df58a2f069901f738ecb319c2cbc5a16694205269a65b5dcf04",
-      "delivered": "icons248-data.js",
-      "deliveredSha256": "73222589b8167df58a2f069901f738ecb319c2cbc5a16694205269a65b5dcf04",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/icons248-data.js",
+      "deliveredSha256": "73222589b8167df58a2f069901f738ecb319c2cbc5a16694205269a65b5dcf04"
     },
     {
-      "source": "IMAGE-STYLE-PROMPT.txt",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/IMAGE-STYLE-PROMPT.txt",
       "sourceSha256": "940892220a193c1170a962d09bda7fe015e81b11b58f4bcd56c50a6c77f4898c",
-      "delivered": "IMAGE-STYLE-PROMPT.txt",
-      "deliveredSha256": "940892220a193c1170a962d09bda7fe015e81b11b58f4bcd56c50a6c77f4898c",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/IMAGE-STYLE-PROMPT.txt",
+      "deliveredSha256": "940892220a193c1170a962d09bda7fe015e81b11b58f4bcd56c50a6c77f4898c"
     },
     {
-      "source": "image-style-provenance.json",
-      "sourceSha256": "8a94e3a01cb7ddf388bce52aa02723f4b81055dd6d0e1270b9a001be86a36c57",
-      "delivered": "image-style-provenance.json",
-      "deliveredSha256": "2fd43bb1120e8a7f4ef909395ad45642f8d33d1a5a7b58d2779bfc178c78eeaf",
-      "adapted": true
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/image-style-provenance.json",
+      "sourceSha256": "2fd43bb1120e8a7f4ef909395ad45642f8d33d1a5a7b58d2779bfc178c78eeaf",
+      "delivered": "source/skill/haha/assets/design-system/package/image-style-provenance.json",
+      "deliveredSha256": "2fd43bb1120e8a7f4ef909395ad45642f8d33d1a5a7b58d2779bfc178c78eeaf"
     },
     {
-      "source": "IMAGE-STYLE.md",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/IMAGE-STYLE.md",
       "sourceSha256": "6e592d330c91037c4420a2e59ef40365add16cc40166e3970a3d36ca004afa23",
-      "delivered": "IMAGE-STYLE.md",
-      "deliveredSha256": "6e592d330c91037c4420a2e59ef40365add16cc40166e3970a3d36ca004afa23",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/IMAGE-STYLE.md",
+      "deliveredSha256": "6e592d330c91037c4420a2e59ef40365add16cc40166e3970a3d36ca004afa23"
     },
     {
-      "source": "image-style308.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/image-style308.css",
       "sourceSha256": "c6d1dc94bc2b75d77eb56d3aef965aef14aa6599cacf4211d6ea8fc6b1c8fca1",
-      "delivered": "image-style308.css",
-      "deliveredSha256": "c6d1dc94bc2b75d77eb56d3aef965aef14aa6599cacf4211d6ea8fc6b1c8fca1",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/image-style308.css",
+      "deliveredSha256": "c6d1dc94bc2b75d77eb56d3aef965aef14aa6599cacf4211d6ea8fc6b1c8fca1"
     },
     {
-      "source": "image-style308.js",
-      "sourceSha256": "fe3ab91aba25328c210b4b31381226799c2e82dbc728065312a4be671f8c4aa2",
-      "delivered": "image-style308.js",
-      "deliveredSha256": "dba3f24f86567076018357efcb6ead86a46fe7fb354603af8bd65a37ad04d2cb",
-      "adapted": true
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/image-style308.js",
+      "sourceSha256": "dba3f24f86567076018357efcb6ead86a46fe7fb354603af8bd65a37ad04d2cb",
+      "delivered": "source/skill/haha/assets/design-system/package/image-style308.js",
+      "deliveredSha256": "dba3f24f86567076018357efcb6ead86a46fe7fb354603af8bd65a37ad04d2cb"
     },
     {
-      "source": "knights264.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/index-maps.html",
+      "sourceSha256": "7a4f49cce10eaad0c69701dcc7a1d15fefb41840c8409ae35323529dded9e688",
+      "delivered": "source/skill/haha/assets/design-system/package/index-maps.html",
+      "deliveredSha256": "7a4f49cce10eaad0c69701dcc7a1d15fefb41840c8409ae35323529dded9e688"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/index.html",
+      "sourceSha256": "f5f9057994cec6321885a629cdeed425ef71373fb1fc1afa22c6f5668c2417d1",
+      "delivered": "source/skill/haha/assets/design-system/package/index.html",
+      "deliveredSha256": "f5f9057994cec6321885a629cdeed425ef71373fb1fc1afa22c6f5668c2417d1"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/knights264.css",
       "sourceSha256": "887dbc97843c276744d9c35a0f864b9b7093eae6086b846b97233d309015c8d8",
-      "delivered": "knights264.css",
-      "deliveredSha256": "887dbc97843c276744d9c35a0f864b9b7093eae6086b846b97233d309015c8d8",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/knights264.css",
+      "deliveredSha256": "887dbc97843c276744d9c35a0f864b9b7093eae6086b846b97233d309015c8d8"
     },
     {
-      "source": "knights264.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/knights264.js",
       "sourceSha256": "3394b643041728f411b6eed0543bf48c284b32919cb9f6bbc6c327e2fce520b2",
-      "delivered": "knights264.js",
-      "deliveredSha256": "3394b643041728f411b6eed0543bf48c284b32919cb9f6bbc6c327e2fce520b2",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/knights264.js",
+      "deliveredSha256": "3394b643041728f411b6eed0543bf48c284b32919cb9f6bbc6c327e2fce520b2"
     },
     {
-      "source": "LISTING.md",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/legacy-entry64.js",
+      "sourceSha256": "0a7d77028fe7544b576efa1c2459f78c21f52a09c84c624f3516e5f0c8d59ce1",
+      "delivered": "source/skill/haha/assets/design-system/package/legacy-entry64.js",
+      "deliveredSha256": "0a7d77028fe7544b576efa1c2459f78c21f52a09c84c624f3516e5f0c8d59ce1"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/LISTING.md",
       "sourceSha256": "faba875db5160ed86a27bb45afbb160747a130d292b87ee7b166b188824dc0f8",
-      "delivered": "LISTING.md",
-      "deliveredSha256": "faba875db5160ed86a27bb45afbb160747a130d292b87ee7b166b188824dc0f8",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/LISTING.md",
+      "deliveredSha256": "faba875db5160ed86a27bb45afbb160747a130d292b87ee7b166b188824dc0f8"
     },
     {
-      "source": "listing287-data.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/listing287-data.js",
       "sourceSha256": "d6fae7a24e730838405593e6ac105b1f017b95af22215e8e3b6a388c36d35ee8",
-      "delivered": "listing287-data.js",
-      "deliveredSha256": "d6fae7a24e730838405593e6ac105b1f017b95af22215e8e3b6a388c36d35ee8",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/listing287-data.js",
+      "deliveredSha256": "d6fae7a24e730838405593e6ac105b1f017b95af22215e8e3b6a388c36d35ee8"
     },
     {
-      "source": "listing287.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/listing287.css",
       "sourceSha256": "ebbf893bd7bf23c2fa6ffabb495bd134f289cb697a633a56fa6acf31f3eded3a",
-      "delivered": "listing287.css",
-      "deliveredSha256": "ebbf893bd7bf23c2fa6ffabb495bd134f289cb697a633a56fa6acf31f3eded3a",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/listing287.css",
+      "deliveredSha256": "ebbf893bd7bf23c2fa6ffabb495bd134f289cb697a633a56fa6acf31f3eded3a"
     },
     {
-      "source": "listing287.html",
-      "sourceSha256": "960fbac8822e44755c1ebb3ece5ae8dce29d5654e3e47353fcece6998300023c",
-      "delivered": "listing287.html",
-      "deliveredSha256": "960fbac8822e44755c1ebb3ece5ae8dce29d5654e3e47353fcece6998300023c",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/listing287.html",
+      "sourceSha256": "0332227d4c6433a02e99b1414e737e97330f9b2fe67257aeeabaec20437d1b6d",
+      "delivered": "source/skill/haha/assets/design-system/package/listing287.html",
+      "deliveredSha256": "0332227d4c6433a02e99b1414e737e97330f9b2fe67257aeeabaec20437d1b6d"
     },
     {
-      "source": "listing287.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/listing287.js",
       "sourceSha256": "961a48c8ebdcc951ee5a6cebbd8b405abed4ae11c07a10bfce49c4fd1f02c942",
-      "delivered": "listing287.js",
-      "deliveredSha256": "961a48c8ebdcc951ee5a6cebbd8b405abed4ae11c07a10bfce49c4fd1f02c942",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/listing287.js",
+      "deliveredSha256": "961a48c8ebdcc951ee5a6cebbd8b405abed4ae11c07a10bfce49c4fd1f02c942"
     },
     {
-      "source": "LOGO.md",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/LOGO.md",
       "sourceSha256": "2abe170481ea3bfbd7e5714fd896b47b495ff38f94f369827a6c4e213bb88be9",
-      "delivered": "LOGO.md",
-      "deliveredSha256": "2abe170481ea3bfbd7e5714fd896b47b495ff38f94f369827a6c4e213bb88be9",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/LOGO.md",
+      "deliveredSha256": "2abe170481ea3bfbd7e5714fd896b47b495ff38f94f369827a6c4e213bb88be9"
     },
     {
-      "source": "model121-energy.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/maps42/pages/index.html",
+      "sourceSha256": "451d48a3733a1acf06c575ed0c46c290ce61e37c0c7bbb9537b0c84989c05c06",
+      "delivered": "source/skill/haha/assets/design-system/package/maps42/pages/index.html",
+      "deliveredSha256": "451d48a3733a1acf06c575ed0c46c290ce61e37c0c7bbb9537b0c84989c05c06"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/maps42/pages/sources.html",
+      "sourceSha256": "0186e4bcf09083be82e88b4c7cf03ab83fece1694611d712fed30bbe6a1a6ae9",
+      "delivered": "source/skill/haha/assets/design-system/package/maps42/pages/sources.html",
+      "deliveredSha256": "0186e4bcf09083be82e88b4c7cf03ab83fece1694611d712fed30bbe6a1a6ae9"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/maps42/pages/united-states.html",
+      "sourceSha256": "f9146d24b8919ee4cc6b4d9bf53c54c0f0748aeb480e9e35d2b375d94e28293c",
+      "delivered": "source/skill/haha/assets/design-system/package/maps42/pages/united-states.html",
+      "deliveredSha256": "f9146d24b8919ee4cc6b4d9bf53c54c0f0748aeb480e9e35d2b375d94e28293c"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/maps42/pages/vietnam.html",
+      "sourceSha256": "b30327e18906efe1134cb31a5090c62a2734e13b4b11627c1589e2fdef14c365",
+      "delivered": "source/skill/haha/assets/design-system/package/maps42/pages/vietnam.html",
+      "deliveredSha256": "b30327e18906efe1134cb31a5090c62a2734e13b4b11627c1589e2fdef14c365"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/maps42/pages/world.html",
+      "sourceSha256": "6d35eb747430f05bb7a1fbd215be85e4cb203a2d70cfd01c7f3a9449ac158180",
+      "delivered": "source/skill/haha/assets/design-system/package/maps42/pages/world.html",
+      "deliveredSha256": "6d35eb747430f05bb7a1fbd215be85e4cb203a2d70cfd01c7f3a9449ac158180"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/maps42-adapter.js",
+      "sourceSha256": "063239d0ad12ee108a059b0d3dcd56d895914b43900ca70ff22a258146722bd1",
+      "delivered": "source/skill/haha/assets/design-system/package/maps42-adapter.js",
+      "deliveredSha256": "063239d0ad12ee108a059b0d3dcd56d895914b43900ca70ff22a258146722bd1"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/maps42-gallery.css",
+      "sourceSha256": "cec90d7220e24ec28e6217b5bf0bb34f416f8d8abd02617079f1a35ff99cd544",
+      "delivered": "source/skill/haha/assets/design-system/package/maps42-gallery.css",
+      "deliveredSha256": "cec90d7220e24ec28e6217b5bf0bb34f416f8d8abd02617079f1a35ff99cd544"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/maps42.data.js",
+      "sourceSha256": "3c38716b3185e0a78f678192709e5e7be80c77e102f09633bf2fb061da5f177b",
+      "delivered": "source/skill/haha/assets/design-system/package/maps42.data.js",
+      "deliveredSha256": "3c38716b3185e0a78f678192709e5e7be80c77e102f09633bf2fb061da5f177b"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/MAPS42.md",
+      "sourceSha256": "da2542377e0d26e72bf36ae86348f7aeb4f75ac195ad2d933cd9a2b986537227",
+      "delivered": "source/skill/haha/assets/design-system/package/MAPS42.md",
+      "deliveredSha256": "da2542377e0d26e72bf36ae86348f7aeb4f75ac195ad2d933cd9a2b986537227"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/maps42.model.json",
+      "sourceSha256": "7fcc9c1af24000fd37c41318af083b5bf2cc61bb7e7dd17561d3544d50c05d36",
+      "delivered": "source/skill/haha/assets/design-system/package/maps42.model.json",
+      "deliveredSha256": "7fcc9c1af24000fd37c41318af083b5bf2cc61bb7e7dd17561d3544d50c05d36"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/model121-energy.png",
       "sourceSha256": "a6c766a2e59421edd76d81024f0762393c4f5c7e3a4976613814c81e9ba5f072",
-      "delivered": "model121-energy.png",
-      "deliveredSha256": "a6c766a2e59421edd76d81024f0762393c4f5c7e3a4976613814c81e9ba5f072",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/model121-energy.png",
+      "deliveredSha256": "a6c766a2e59421edd76d81024f0762393c4f5c7e3a4976613814c81e9ba5f072"
     },
     {
-      "source": "model121-guide.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/model121-guide.png",
       "sourceSha256": "09010700cfabea94acc4994cae3237ffccbe6bf673816b895d8eccc9ba6dfcc7",
-      "delivered": "model121-guide.png",
-      "deliveredSha256": "09010700cfabea94acc4994cae3237ffccbe6bf673816b895d8eccc9ba6dfcc7",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/model121-guide.png",
+      "deliveredSha256": "09010700cfabea94acc4994cae3237ffccbe6bf673816b895d8eccc9ba6dfcc7"
     },
     {
-      "source": "model121-storage.png",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/model121-storage.png",
       "sourceSha256": "5ba1928a4086bfbb4447a356749119e43c009793df8f2a009593205389bdcd53",
-      "delivered": "model121-storage.png",
-      "deliveredSha256": "5ba1928a4086bfbb4447a356749119e43c009793df8f2a009593205389bdcd53",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/model121-storage.png",
+      "deliveredSha256": "5ba1928a4086bfbb4447a356749119e43c009793df8f2a009593205389bdcd53"
     },
     {
-      "source": "models248.html",
-      "sourceSha256": "63b1453e49766a49bd52e590f272133cb7056ae223d679c3fdd99af7010bb674",
-      "delivered": "models248.html",
-      "deliveredSha256": "63b1453e49766a49bd52e590f272133cb7056ae223d679c3fdd99af7010bb674",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/models248.html",
+      "sourceSha256": "9b1b0bb5cb0f1821fa79bc4099fcc401a5ef9c18d604dced272fedfd7d4a2a64",
+      "delivered": "source/skill/haha/assets/design-system/package/models248.html",
+      "deliveredSha256": "9b1b0bb5cb0f1821fa79bc4099fcc401a5ef9c18d604dced272fedfd7d4a2a64"
     },
     {
-      "source": "models248.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/models248.js",
       "sourceSha256": "801cbbcb5028e3f366db3d4bc826213a5c0c0924b94db3e78bed032b0ed12e88",
-      "delivered": "models248.js",
-      "deliveredSha256": "801cbbcb5028e3f366db3d4bc826213a5c0c0924b94db3e78bed032b0ed12e88",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/models248.js",
+      "deliveredSha256": "801cbbcb5028e3f366db3d4bc826213a5c0c0924b94db3e78bed032b0ed12e88"
     },
     {
-      "source": "overview252.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/NAVIGATION.md",
+      "sourceSha256": "3b7141849a704e612514c3012f880b51fb496daf29059935ff59833b90a66503",
+      "delivered": "source/skill/haha/assets/design-system/package/NAVIGATION.md",
+      "deliveredSha256": "3b7141849a704e612514c3012f880b51fb496daf29059935ff59833b90a66503"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/overview252.css",
       "sourceSha256": "dda44c7339a045f60f35adaed5cf813c594c58b519c22a0296cb296c6679cd9e",
-      "delivered": "overview252.css",
-      "deliveredSha256": "dda44c7339a045f60f35adaed5cf813c594c58b519c22a0296cb296c6679cd9e",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/overview252.css",
+      "deliveredSha256": "dda44c7339a045f60f35adaed5cf813c594c58b519c22a0296cb296c6679cd9e"
     },
     {
-      "source": "overview252.js",
-      "sourceSha256": "d0f2adaf515ab5d3b5062718727f8e3f6127a9a8d454fe5773518a59f6e68417",
-      "delivered": "overview252.js",
-      "deliveredSha256": "d0f2adaf515ab5d3b5062718727f8e3f6127a9a8d454fe5773518a59f6e68417",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/overview252.js",
+      "sourceSha256": "f6a6462d0e4a93fcab97f30329321757b7388c9b697a5e5ddc43956c609df797",
+      "delivered": "source/skill/haha/assets/design-system/package/overview252.js",
+      "deliveredSha256": "f6a6462d0e4a93fcab97f30329321757b7388c9b697a5e5ddc43956c609df797"
     },
     {
-      "source": "package-manifest262.json",
-      "sourceSha256": "b2c4b29d49e08b417eedaca1df4b941dc9481e409403e82f3c64d4fe19537b32",
-      "delivered": "package-manifest262.json",
-      "deliveredSha256": "5a4f88177a7b4c698063f678bc690d229a348ade9864afa141da9afae1900067",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/package-manifest262.json",
+      "sourceSha256": "69a451a2ab37230f0dec57700013cd3309be24f99084f75408570bd6ffcbb62c",
+      "delivered": "source/skill/haha/assets/design-system/package/package-manifest262.json",
+      "deliveredSha256": "a37d6c4bb260a42a46d3a5f1e2308509a9c4cb9d79ce4742434c07e3b428e07e",
       "adapted": true
     },
     {
-      "source": "preparation-coverage.json",
-      "sourceSha256": "ad9f129b0769b993590e4a6b1160ed046c0266cc994dea68d87b8aa49169bc52",
-      "delivered": "preparation-coverage.json",
-      "deliveredSha256": "ebb1ec5d5c1c671fdde4fc64e1b76a6315d704af803a443181b6ce36abc9fb71",
-      "adapted": true
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/portable-client.js",
+      "sourceSha256": "6359563fcc3865a0230b350398a73c6f6c0c41ecd71c2831557ccbc46054c3a2",
+      "delivered": "source/skill/haha/assets/design-system/package/portable-client.js",
+      "deliveredSha256": "6359563fcc3865a0230b350398a73c6f6c0c41ecd71c2831557ccbc46054c3a2"
     },
     {
-      "source": "products283.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/products283.js",
       "sourceSha256": "6d97c4859a6b895618d707ea061d36afdb67c880ee5096c85e25917893b651b8",
-      "delivered": "products283.js",
-      "deliveredSha256": "6d97c4859a6b895618d707ea061d36afdb67c880ee5096c85e25917893b651b8",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/products283.js",
+      "deliveredSha256": "6d97c4859a6b895618d707ea061d36afdb67c880ee5096c85e25917893b651b8"
     },
     {
-      "source": "quotes280.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/PROVENANCE.json",
+      "sourceSha256": "d1c6ad11d30ca5cf3856bf356e40aa0f232c95518b14d3e8f0a2b34695748a91",
+      "delivered": "source/skill/haha/assets/design-system/package/PROVENANCE.json",
+      "deliveredSha256": "d1c6ad11d30ca5cf3856bf356e40aa0f232c95518b14d3e8f0a2b34695748a91"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/quotes280.js",
       "sourceSha256": "f989991309d00c2fc168f58a72375ac437cca3e9407d86546de618ce0a0452b4",
-      "delivered": "quotes280.js",
-      "deliveredSha256": "f989991309d00c2fc168f58a72375ac437cca3e9407d86546de618ce0a0452b4",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/quotes280.js",
+      "deliveredSha256": "f989991309d00c2fc168f58a72375ac437cca3e9407d86546de618ce0a0452b4"
     },
     {
-      "source": "reading248.html",
-      "sourceSha256": "a17cd8f9fe4bf6bcee2f16f008a2b5dcc0d5778b5c05e64d9dad645443dc38d2",
-      "delivered": "reading248.html",
-      "deliveredSha256": "a17cd8f9fe4bf6bcee2f16f008a2b5dcc0d5778b5c05e64d9dad645443dc38d2",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/reader-guidance-binding.json",
+      "sourceSha256": "e2de7044bfc54ce0237901cd82d4196e6776319669eccb23de8874a70e26222d",
+      "delivered": "source/skill/haha/assets/design-system/package/reader-guidance-binding.json",
+      "deliveredSha256": "e2de7044bfc54ce0237901cd82d4196e6776319669eccb23de8874a70e26222d"
     },
     {
-      "source": "reading248.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/reader-guidance61.css",
+      "sourceSha256": "13f5d81416f4faff8a6e4e6e0b9d55e41025ef0725ce32dd3a250a664c9b6d8b",
+      "delivered": "source/skill/haha/assets/design-system/package/reader-guidance61.css",
+      "deliveredSha256": "13f5d81416f4faff8a6e4e6e0b9d55e41025ef0725ce32dd3a250a664c9b6d8b"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/reader-guidance61.js",
+      "sourceSha256": "3f7f2922d0ce7ea1cfb5920ffed690b3a913e260ceda374d73060e3ddad6cbd4",
+      "delivered": "source/skill/haha/assets/design-system/package/reader-guidance61.js",
+      "deliveredSha256": "1cc736f8fccf2bc3a4e01ce532d5e8545cb2c9f0cddec281cc2fe562cd5cc9e7",
+      "adapted": true
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/reading248.html",
+      "sourceSha256": "6e0d7bd57a435a2d77df98b08f454b8092ebb3bb8488019295b113aafb264b6f",
+      "delivered": "source/skill/haha/assets/design-system/package/reading248.html",
+      "deliveredSha256": "6e0d7bd57a435a2d77df98b08f454b8092ebb3bb8488019295b113aafb264b6f"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/reading248.js",
       "sourceSha256": "a9dd3c4bc9f9c095a27a3b8a2436bfcabe745ce89a3d58a0b5945ebe634b885f",
-      "delivered": "reading248.js",
-      "deliveredSha256": "a9dd3c4bc9f9c095a27a3b8a2436bfcabe745ce89a3d58a0b5945ebe634b885f",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/reading248.js",
+      "deliveredSha256": "a9dd3c4bc9f9c095a27a3b8a2436bfcabe745ce89a3d58a0b5945ebe634b885f"
     },
     {
-      "source": "reading264.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/reading264.css",
       "sourceSha256": "166f4058e7f2e92c02906d5703b5891028bb8c3e0e3028ce34cd60acc7645f74",
-      "delivered": "reading264.css",
-      "deliveredSha256": "166f4058e7f2e92c02906d5703b5891028bb8c3e0e3028ce34cd60acc7645f74",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/reading264.css",
+      "deliveredSha256": "166f4058e7f2e92c02906d5703b5891028bb8c3e0e3028ce34cd60acc7645f74"
     },
     {
-      "source": "record-dossiers.json",
-      "sourceSha256": "70abf29b883fa09f821f49336a38508046cb3972853acfd53476f77a48e061bd",
-      "delivered": "record-dossiers.json",
-      "deliveredSha256": "5940a9fc873fffb9f483d2560608c8958d313fafb604d36a0ff1f8ffee8b19ae",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/record-dossiers.json",
+      "sourceSha256": "08f99a132cbdc6076d9bca4823ee9e51405812f226bc9a9845c586b351565483",
+      "delivered": "source/skill/haha/assets/design-system/package/record-dossiers.json",
+      "deliveredSha256": "08f99a132cbdc6076d9bca4823ee9e51405812f226bc9a9845c586b351565483"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/reuse-records316.js",
+      "sourceSha256": "9b4d4e7deed32993d71e158b03e2f932ecead98c31d01387a1dec296a24ffdaf",
+      "delivered": "source/skill/haha/assets/design-system/package/reuse-records316.js",
+      "deliveredSha256": "8a3d1075090396b72c4bc5aa4392ba5a1731bc82a7c9e88aac2b280422473659",
       "adapted": true
     },
     {
-      "source": "reuse-records316.js",
-      "sourceSha256": "df93a58c77f9cd6252ee9db8820c4c0605ac86965de25fa78008715a74bebaf0",
-      "delivered": "reuse-records316.js",
-      "deliveredSha256": "a78b57d2cb3d3de92a47e3579a03468f5bdfc0fd0f9619224268c56e3e0033f0",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/reuse-routing.json",
+      "sourceSha256": "79fbc8de4f753365af6347a7a5124b95a8efc63bb774a94672d4f4a1e9425b9e",
+      "delivered": "source/skill/haha/assets/design-system/package/reuse-routing.json",
+      "deliveredSha256": "8f72aeb72b0c5f17bb7531c5363521abeb1ecfa959c03fc2c44f10c128438df6",
       "adapted": true
     },
     {
-      "source": "reuse-routing.json",
-      "sourceSha256": "95e041b0cb089b214a60eeef579d1082e60f49c72852f427d0b7dd8990bbbe8a",
-      "delivered": "reuse-routing.json",
-      "deliveredSha256": "e0a1ee5fd379c1684456e1ce6dd29cf8070553937c443ac52497a36502c1efe2",
-      "adapted": true
-    },
-    {
-      "source": "REUSE.md",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/REUSE.md",
       "sourceSha256": "05a32cb07fa65f0c6f495f8e7eb2e8c549637f2a23601e2a959d7b6af18e0e24",
-      "delivered": "REUSE.md",
-      "deliveredSha256": "05a32cb07fa65f0c6f495f8e7eb2e8c549637f2a23601e2a959d7b6af18e0e24",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/REUSE.md",
+      "deliveredSha256": "05a32cb07fa65f0c6f495f8e7eb2e8c549637f2a23601e2a959d7b6af18e0e24"
     },
     {
-      "source": "reuse300.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/reuse300.css",
       "sourceSha256": "d486a92fd7964f18d7c06eb240c9a5186c3e5e40752f9448e711df53b10fd0f1",
-      "delivered": "reuse300.css",
-      "deliveredSha256": "d486a92fd7964f18d7c06eb240c9a5186c3e5e40752f9448e711df53b10fd0f1",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/reuse300.css",
+      "deliveredSha256": "d486a92fd7964f18d7c06eb240c9a5186c3e5e40752f9448e711df53b10fd0f1"
     },
     {
-      "source": "reuse300.js",
-      "sourceSha256": "9e2ffc8fb81cddcdf5560d935b8d56675956de61a6699049263e3f5dfdbd895f",
-      "delivered": "reuse300.js",
-      "deliveredSha256": "5530896210333b7bf97ba315e94ec362095dda5e843a109276aebcb91f5b993e",
-      "adapted": true
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/reuse300.js",
+      "sourceSha256": "d6f3e9f8df37f7d493aab0d58584af4c065d6b43ff107994911b5664e465d601",
+      "delivered": "source/skill/haha/assets/design-system/package/reuse300.js",
+      "deliveredSha256": "d6f3e9f8df37f7d493aab0d58584af4c065d6b43ff107994911b5664e465d601"
     },
     {
-      "source": "RULES.md",
-      "sourceSha256": "68f5a0b8ab4d0965d7bebbe3d259833d6bac6372a1173b4bcccb31848d9edbfb",
-      "delivered": "RULES.md",
-      "deliveredSha256": "68f5a0b8ab4d0965d7bebbe3d259833d6bac6372a1173b4bcccb31848d9edbfb",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/RIGHTS.md",
+      "sourceSha256": "fa52e3eb137ff9394e398a4d31a00ad125ad11e9ad4ecfad47929e406cb3c64a",
+      "delivered": "source/skill/haha/assets/design-system/package/RIGHTS.md",
+      "deliveredSha256": "fa52e3eb137ff9394e398a4d31a00ad125ad11e9ad4ecfad47929e406cb3c64a"
     },
     {
-      "source": "semantic240-data.js",
-      "sourceSha256": "9a042990b0f7152204f4e2bb63200ed523567d8b25898f76a611a9cfbc8fa175",
-      "delivered": "semantic240-data.js",
-      "deliveredSha256": "9a042990b0f7152204f4e2bb63200ed523567d8b25898f76a611a9cfbc8fa175",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/RULES.md",
+      "sourceSha256": "ae708ecd891faadd93e8112a5adf3dce54d24975acc22869c9739d3e42492742",
+      "delivered": "source/skill/haha/assets/design-system/package/RULES.md",
+      "deliveredSha256": "ae708ecd891faadd93e8112a5adf3dce54d24975acc22869c9739d3e42492742"
     },
     {
-      "source": "semantic240.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/semantic240-data.js",
+      "sourceSha256": "2f46e81456408c21fe7d14e0d5261f2e9d015cc97601c1a78d94b6cecd46f802",
+      "delivered": "source/skill/haha/assets/design-system/package/semantic240-data.js",
+      "deliveredSha256": "2f46e81456408c21fe7d14e0d5261f2e9d015cc97601c1a78d94b6cecd46f802"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/semantic240.css",
       "sourceSha256": "947299bbaf19c91403c2f54ae767f4679958f8aa36effd1c0dfb78322cf92621",
-      "delivered": "semantic240.css",
-      "deliveredSha256": "947299bbaf19c91403c2f54ae767f4679958f8aa36effd1c0dfb78322cf92621",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/semantic240.css",
+      "deliveredSha256": "947299bbaf19c91403c2f54ae767f4679958f8aa36effd1c0dfb78322cf92621"
     },
     {
-      "source": "semantic240.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/semantic240.js",
       "sourceSha256": "6248a1f04b60c8e426aa4aaae2b54ef2e4514a7a37d73340c888944a03d4ca90",
-      "delivered": "semantic240.js",
-      "deliveredSha256": "6248a1f04b60c8e426aa4aaae2b54ef2e4514a7a37d73340c888944a03d4ca90",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/semantic240.js",
+      "deliveredSha256": "6248a1f04b60c8e426aa4aaae2b54ef2e4514a7a37d73340c888944a03d4ca90"
     },
     {
-      "source": "semantic241-data.js",
-      "sourceSha256": "b19721a2a5fc13d0f44b425527b64dc4d7bc91f3bf250b14102d21b8b9b4c9fd",
-      "delivered": "semantic241-data.js",
-      "deliveredSha256": "b19721a2a5fc13d0f44b425527b64dc4d7bc91f3bf250b14102d21b8b9b4c9fd",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/semantic241-data.js",
+      "sourceSha256": "f7392bb4090a8e710b404b62c53c7b3bddbdd48bbd7f44d456b4f69079138641",
+      "delivered": "source/skill/haha/assets/design-system/package/semantic241-data.js",
+      "deliveredSha256": "f7392bb4090a8e710b404b62c53c7b3bddbdd48bbd7f44d456b4f69079138641"
     },
     {
-      "source": "semantic241.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/semantic241.css",
       "sourceSha256": "60056746fd1438bca03d83941fc973d132a6f89d351c9b3b3ecb148fe3e527ca",
-      "delivered": "semantic241.css",
-      "deliveredSha256": "60056746fd1438bca03d83941fc973d132a6f89d351c9b3b3ecb148fe3e527ca",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/semantic241.css",
+      "deliveredSha256": "60056746fd1438bca03d83941fc973d132a6f89d351c9b3b3ecb148fe3e527ca"
     },
     {
-      "source": "semantic241.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/semantic241.js",
       "sourceSha256": "b2ed62e50abc75a39fb60b148726aa967bd8634506e7f6494519b7879e6f2f49",
-      "delivered": "semantic241.js",
-      "deliveredSha256": "b2ed62e50abc75a39fb60b148726aa967bd8634506e7f6494519b7879e6f2f49",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/semantic241.js",
+      "deliveredSha256": "b2ed62e50abc75a39fb60b148726aa967bd8634506e7f6494519b7879e6f2f49"
     },
     {
-      "source": "semantic241.json",
-      "sourceSha256": "3b92a226d484073f289cb5f59143032c89fa4bcf215c7310c9d45a21dfa856bb",
-      "delivered": "semantic241.json",
-      "deliveredSha256": "08ded835effc3a7f1b2b9176e68c509f2ebf0255deeded28daba610250e7dc5f",
-      "adapted": true
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/semantic241.json",
+      "sourceSha256": "e2e31b1a6b67dd29f550014f396091e7905a481d72ddf5367d747d3ba08d27bc",
+      "delivered": "source/skill/haha/assets/design-system/package/semantic241.json",
+      "deliveredSha256": "e2e31b1a6b67dd29f550014f396091e7905a481d72ddf5367d747d3ba08d27bc"
     },
     {
-      "source": "SHADOW.md",
-      "sourceSha256": "9d8057b789fe04b7c16c39e807d2d67daa47e5992a7680861fc769939f080909",
-      "delivered": "SHADOW.md",
-      "deliveredSha256": "9d8057b789fe04b7c16c39e807d2d67daa47e5992a7680861fc769939f080909",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/SHADOW.md",
+      "sourceSha256": "6dfd241b8bc3ce9b7af8efb98102198b0bd8bd94378e5e3721a5d64db483a2d5",
+      "delivered": "source/skill/haha/assets/design-system/package/SHADOW.md",
+      "deliveredSha256": "6dfd241b8bc3ce9b7af8efb98102198b0bd8bd94378e5e3721a5d64db483a2d5"
     },
     {
-      "source": "shadow311.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/shadow311.css",
       "sourceSha256": "ab4b25bed50a50dbc43104af8f2a13c34241e23a62f62eb896fb37cf1f4b8aee",
-      "delivered": "shadow311.css",
-      "deliveredSha256": "ab4b25bed50a50dbc43104af8f2a13c34241e23a62f62eb896fb37cf1f4b8aee",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/shadow311.css",
+      "deliveredSha256": "ab4b25bed50a50dbc43104af8f2a13c34241e23a62f62eb896fb37cf1f4b8aee"
     },
     {
-      "source": "shadow311.js",
-      "sourceSha256": "b79c45f081f2070ea6f82d0208210dc06142294a60ea7ea34cb9d7ac8dd3830b",
-      "delivered": "shadow311.js",
-      "deliveredSha256": "b79c45f081f2070ea6f82d0208210dc06142294a60ea7ea34cb9d7ac8dd3830b",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/shadow311.js",
+      "sourceSha256": "fdcaea0158c4d7d06a9545e449e36a37e498109c2c9426822fe8cfc6132d9cbc",
+      "delivered": "source/skill/haha/assets/design-system/package/shadow311.js",
+      "deliveredSha256": "fdcaea0158c4d7d06a9545e449e36a37e498109c2c9426822fe8cfc6132d9cbc"
     },
     {
-      "source": "slide-layouts284.json",
-      "sourceSha256": "912455c5c4a00e218f9e7bb0a467f338886868e4aa552395b336c67d3e996a8b",
-      "delivered": "slide-layouts284.json",
-      "deliveredSha256": "9f978dbea688141bfb204ac22b4d37bbbb759f701f1954f2abc744f9c862f030",
-      "adapted": true
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/shadow47.css",
+      "sourceSha256": "85513237933a2c926a1df6ef038c50adf7f1268360b7bbf52be902c767d75582",
+      "delivered": "source/skill/haha/assets/design-system/package/shadow47.css",
+      "deliveredSha256": "85513237933a2c926a1df6ef038c50adf7f1268360b7bbf52be902c767d75582"
     },
     {
-      "source": "slide-layouts285.json",
-      "sourceSha256": "45dde139e6a3ae15c58b8a2bf4eade59afe253db6a4a90696fe43cf5ba55c048",
-      "delivered": "slide-layouts285.json",
-      "deliveredSha256": "80992805a77c7f8735d86b0c7976c728fadfda4d55f9dc59642dcc7f39dac350",
-      "adapted": true
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/shadow47.js",
+      "sourceSha256": "771393c0e6a918a85614c3ba6a06c0020002af23a0fcdd5a720f6dc96235282d",
+      "delivered": "source/skill/haha/assets/design-system/package/shadow47.js",
+      "deliveredSha256": "771393c0e6a918a85614c3ba6a06c0020002af23a0fcdd5a720f6dc96235282d"
     },
     {
-      "source": "SLIDE-MEDIA.md",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/SHADOW47.md",
+      "sourceSha256": "6dfd241b8bc3ce9b7af8efb98102198b0bd8bd94378e5e3721a5d64db483a2d5",
+      "delivered": "source/skill/haha/assets/design-system/package/SHADOW47.md",
+      "deliveredSha256": "6dfd241b8bc3ce9b7af8efb98102198b0bd8bd94378e5e3721a5d64db483a2d5"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/shadow47.model.json",
+      "sourceSha256": "048c0fbbd6734972cdd45424aef7e7e27beebf84c8cbce9eb36c412a3c417042",
+      "delivered": "source/skill/haha/assets/design-system/package/shadow47.model.json",
+      "deliveredSha256": "048c0fbbd6734972cdd45424aef7e7e27beebf84c8cbce9eb36c412a3c417042"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/sidebar-navigation.json",
+      "sourceSha256": "a6f2682c6ed3ca7c4d197f3d009c170fc48dfe77d342dfc934ac0ac9ae065978",
+      "delivered": "source/skill/haha/assets/design-system/package/sidebar-navigation.json",
+      "deliveredSha256": "a6f2682c6ed3ca7c4d197f3d009c170fc48dfe77d342dfc934ac0ac9ae065978"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/sidebar297.css",
+      "sourceSha256": "a0d70997dc5eed3bc896bd589cf36e68005db699f159798cab6db5e1057656f3",
+      "delivered": "source/skill/haha/assets/design-system/package/sidebar297.css",
+      "deliveredSha256": "a0d70997dc5eed3bc896bd589cf36e68005db699f159798cab6db5e1057656f3"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/slide-layouts284.json",
+      "sourceSha256": "9f978dbea688141bfb204ac22b4d37bbbb759f701f1954f2abc744f9c862f030",
+      "delivered": "source/skill/haha/assets/design-system/package/slide-layouts284.json",
+      "deliveredSha256": "9f978dbea688141bfb204ac22b4d37bbbb759f701f1954f2abc744f9c862f030"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/slide-layouts285.json",
+      "sourceSha256": "80992805a77c7f8735d86b0c7976c728fadfda4d55f9dc59642dcc7f39dac350",
+      "delivered": "source/skill/haha/assets/design-system/package/slide-layouts285.json",
+      "deliveredSha256": "80992805a77c7f8735d86b0c7976c728fadfda4d55f9dc59642dcc7f39dac350"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/SLIDE-MEDIA.md",
       "sourceSha256": "d60eedd9e4b9623f45430941994b5951530ba7307df5b128fae03e9587ca5444",
-      "delivered": "SLIDE-MEDIA.md",
-      "deliveredSha256": "d60eedd9e4b9623f45430941994b5951530ba7307df5b128fae03e9587ca5444",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/SLIDE-MEDIA.md",
+      "deliveredSha256": "d60eedd9e4b9623f45430941994b5951530ba7307df5b128fae03e9587ca5444"
     },
     {
-      "source": "slide-media284.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/slide-media284.css",
       "sourceSha256": "52031809bf0c0721743155194190ad150b3e73924882ea693fc0a2ebc1b9ff56",
-      "delivered": "slide-media284.css",
-      "deliveredSha256": "52031809bf0c0721743155194190ad150b3e73924882ea693fc0a2ebc1b9ff56",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/slide-media284.css",
+      "deliveredSha256": "52031809bf0c0721743155194190ad150b3e73924882ea693fc0a2ebc1b9ff56"
     },
     {
-      "source": "slide-media284.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/slide-media284.js",
       "sourceSha256": "4322dba5bcf68681ccb833d6a2fef52ddbcc65e901613d1d6952ef1a15661816",
-      "delivered": "slide-media284.js",
-      "deliveredSha256": "4322dba5bcf68681ccb833d6a2fef52ddbcc65e901613d1d6952ef1a15661816",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/slide-media284.js",
+      "deliveredSha256": "4322dba5bcf68681ccb833d6a2fef52ddbcc65e901613d1d6952ef1a15661816"
     },
     {
-      "source": "SLIDE-ROLES.md",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/slide-reader-policy.json",
+      "sourceSha256": "387a1c9a3664bc3e2be1db911509b2eb91acb3971cd000e8d58e17898632b41e",
+      "delivered": "source/skill/haha/assets/design-system/package/slide-reader-policy.json",
+      "deliveredSha256": "387a1c9a3664bc3e2be1db911509b2eb91acb3971cd000e8d58e17898632b41e"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/SLIDE-ROLES.md",
       "sourceSha256": "ecfb9c68d50bacaa767502d3bce5c0e294e31dfbc0c083917b13115b1f92d003",
-      "delivered": "SLIDE-ROLES.md",
-      "deliveredSha256": "ecfb9c68d50bacaa767502d3bce5c0e294e31dfbc0c083917b13115b1f92d003",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/SLIDE-ROLES.md",
+      "deliveredSha256": "ecfb9c68d50bacaa767502d3bce5c0e294e31dfbc0c083917b13115b1f92d003"
     },
     {
-      "source": "slide248.html",
-      "sourceSha256": "e278306a73298050637f1964cc8e0a600fc8f9e8c1da4c582f087adf3672769f",
-      "delivered": "slide248.html",
-      "deliveredSha256": "e278306a73298050637f1964cc8e0a600fc8f9e8c1da4c582f087adf3672769f",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/slide248.html",
+      "sourceSha256": "2087f7895322ce1274da35d581a37683969effa41a21421d79511a0d790b2133",
+      "delivered": "source/skill/haha/assets/design-system/package/slide248.html",
+      "deliveredSha256": "2087f7895322ce1274da35d581a37683969effa41a21421d79511a0d790b2133"
     },
     {
-      "source": "slide248.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/slide248.js",
       "sourceSha256": "6c543610bf3e0285b6f5855baa35c97b2c3bd4f6e784b03c2fb585523602bbf1",
-      "delivered": "slide248.js",
-      "deliveredSha256": "6c543610bf3e0285b6f5855baa35c97b2c3bd4f6e784b03c2fb585523602bbf1",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/slide248.js",
+      "deliveredSha256": "6c543610bf3e0285b6f5855baa35c97b2c3bd4f6e784b03c2fb585523602bbf1"
     },
     {
-      "source": "slide283-entry.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/slide283-entry.js",
       "sourceSha256": "6a6fec590a2e87f2b7da8723edd016e92fbf0a8e19e92a0fad68d21e8223e2e7",
-      "delivered": "slide283-entry.js",
-      "deliveredSha256": "6a6fec590a2e87f2b7da8723edd016e92fbf0a8e19e92a0fad68d21e8223e2e7",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/slide283-entry.js",
+      "deliveredSha256": "6a6fec590a2e87f2b7da8723edd016e92fbf0a8e19e92a0fad68d21e8223e2e7"
     },
     {
-      "source": "slide283.html",
-      "sourceSha256": "407b2ce96b60662b72b758996f1206d679562abfe42720aa3650c3b980386966",
-      "delivered": "slide283.html",
-      "deliveredSha256": "407b2ce96b60662b72b758996f1206d679562abfe42720aa3650c3b980386966",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/slide283.html",
+      "sourceSha256": "6ffc302a983bcae048eea48e0472e2048289acea79386be58bb67056a1d2ba45",
+      "delivered": "source/skill/haha/assets/design-system/package/slide283.html",
+      "deliveredSha256": "6ffc302a983bcae048eea48e0472e2048289acea79386be58bb67056a1d2ba45"
     },
     {
-      "source": "slides283.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/slides283.js",
       "sourceSha256": "83ff5f4e4c2b9673ea897ec2e6039af2797d33e964a6fc24c14dde521ab99352",
-      "delivered": "slides283.js",
-      "deliveredSha256": "83ff5f4e4c2b9673ea897ec2e6039af2797d33e964a6fc24c14dde521ab99352",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/slides283.js",
+      "deliveredSha256": "83ff5f4e4c2b9673ea897ec2e6039af2797d33e964a6fc24c14dde521ab99352"
     },
     {
-      "source": "slides284.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/slides284.js",
       "sourceSha256": "ae8a727338a7b6708b7a6a3201d13973460a5d460884b04d78d8f22b88e4fea0",
-      "delivered": "slides284.js",
-      "deliveredSha256": "ae8a727338a7b6708b7a6a3201d13973460a5d460884b04d78d8f22b88e4fea0",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/slides284.js",
+      "deliveredSha256": "ae8a727338a7b6708b7a6a3201d13973460a5d460884b04d78d8f22b88e4fea0"
     },
     {
-      "source": "slides285.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/slides285.js",
       "sourceSha256": "570084fbc2195f9077f118d9dfdc5b897be023dfd271854ca7f424cb9ea664cf",
-      "delivered": "slides285.js",
-      "deliveredSha256": "570084fbc2195f9077f118d9dfdc5b897be023dfd271854ca7f424cb9ea664cf",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/slides285.js",
+      "deliveredSha256": "570084fbc2195f9077f118d9dfdc5b897be023dfd271854ca7f424cb9ea664cf"
     },
     {
-      "source": "studio-data305.js",
-      "sourceSha256": "48dab09d571819611e5d8d421e34beaed192326af5729a11051437620eefba98",
-      "delivered": "studio-data305.js",
-      "deliveredSha256": "0dc098777a7c0dc1947e9b1b8469f5186bd267dbae40d099532cf7f2ac5d708f",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/studio-data305.js",
+      "sourceSha256": "0dc098777a7c0dc1947e9b1b8469f5186bd267dbae40d099532cf7f2ac5d708f",
+      "delivered": "source/skill/haha/assets/design-system/package/studio-data305.js",
+      "deliveredSha256": "0dc098777a7c0dc1947e9b1b8469f5186bd267dbae40d099532cf7f2ac5d708f"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/studio.css",
+      "sourceSha256": "d15194e6dc5898b7ee504600e47b02fbaca2647b1791f270948192d83d48f898",
+      "delivered": "source/skill/haha/assets/design-system/package/studio.css",
+      "deliveredSha256": "d15194e6dc5898b7ee504600e47b02fbaca2647b1791f270948192d83d48f898"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/studio.js",
+      "sourceSha256": "13f5ce79b431deb92a9fee7b955991c3d271f09f2e0d076423576b79436ef079",
+      "delivered": "source/skill/haha/assets/design-system/package/studio.js",
+      "deliveredSha256": "13f5ce79b431deb92a9fee7b955991c3d271f09f2e0d076423576b79436ef079"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/STUDIO.md",
+      "sourceSha256": "9989ad93cee27d4e889435e49aeceae759f750203d6068f685505b624614e58d",
+      "delivered": "source/skill/haha/assets/design-system/package/STUDIO.md",
+      "deliveredSha256": "9989ad93cee27d4e889435e49aeceae759f750203d6068f685505b624614e58d"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/theory248.html",
+      "sourceSha256": "0f422e08208983d77e2a21d9d2f6596c3a0999ec93ef01d69fae74d9615b337b",
+      "delivered": "source/skill/haha/assets/design-system/package/theory248.html",
+      "deliveredSha256": "7e4cd7c3797e689cbad60a788335cf45728f84f7069969fdbc46f8f66469dae4",
       "adapted": true
     },
     {
-      "source": "studio.css",
-      "sourceSha256": "d15194e6dc5898b7ee504600e47b02fbaca2647b1791f270948192d83d48f898",
-      "delivered": "studio.css",
-      "deliveredSha256": "d15194e6dc5898b7ee504600e47b02fbaca2647b1791f270948192d83d48f898",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/TOKENS.md",
+      "sourceSha256": "d20f56d155e3d82a79fc7b2a5aebad6071c6aecee6c0d7dd9596e0a8231ab6a0",
+      "delivered": "source/skill/haha/assets/design-system/package/TOKENS.md",
+      "deliveredSha256": "d20f56d155e3d82a79fc7b2a5aebad6071c6aecee6c0d7dd9596e0a8231ab6a0"
     },
     {
-      "source": "studio.js",
-      "sourceSha256": "13f5ce79b431deb92a9fee7b955991c3d271f09f2e0d076423576b79436ef079",
-      "delivered": "studio.js",
-      "deliveredSha256": "13f5ce79b431deb92a9fee7b955991c3d271f09f2e0d076423576b79436ef079",
-      "adapted": false
-    },
-    {
-      "source": "STUDIO.md",
-      "sourceSha256": "9989ad93cee27d4e889435e49aeceae759f750203d6068f685505b624614e58d",
-      "delivered": "STUDIO.md",
-      "deliveredSha256": "9989ad93cee27d4e889435e49aeceae759f750203d6068f685505b624614e58d",
-      "adapted": false
-    },
-    {
-      "source": "theory248.html",
-      "sourceSha256": "9d0c1966ccbf9d1c0990d2d21cf052afa0d1a743b515b5002336ec19fef93364",
-      "delivered": "theory248.html",
-      "deliveredSha256": "9d0c1966ccbf9d1c0990d2d21cf052afa0d1a743b515b5002336ec19fef93364",
-      "adapted": false
-    },
-    {
-      "source": "theory248.pdf",
-      "sourceSha256": "0ff986d96bbdaea1a29f46f1e19c8b384a04a041e4c1c378d1f0adbbdde0aaa3",
-      "delivered": "theory248.pdf",
-      "deliveredSha256": "0ff986d96bbdaea1a29f46f1e19c8b384a04a041e4c1c378d1f0adbbdde0aaa3",
-      "adapted": false
-    },
-    {
-      "source": "TOKENS.md",
-      "sourceSha256": "b80fd565dcea76ea6e5bc5ba09989bf8909032b5a0b2cde0100143645be65ae9",
-      "delivered": "TOKENS.md",
-      "deliveredSha256": "b80fd565dcea76ea6e5bc5ba09989bf8909032b5a0b2cde0100143645be65ae9",
-      "adapted": false
-    },
-    {
-      "source": "trial305.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/trial305.js",
       "sourceSha256": "1c19015a456a0d6efad5ac2e9e4f199a9d0da1076a2561dc1b521fcbb0b3ff8f",
-      "delivered": "trial305.js",
-      "deliveredSha256": "1c19015a456a0d6efad5ac2e9e4f199a9d0da1076a2561dc1b521fcbb0b3ff8f",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/trial305.js",
+      "deliveredSha256": "1c19015a456a0d6efad5ac2e9e4f199a9d0da1076a2561dc1b521fcbb0b3ff8f"
     },
     {
-      "source": "UI.md",
-      "sourceSha256": "63c3dea6437248e85359ddcd7b350b3c78e49aae7c954c99cac0be6b22597d26",
-      "delivered": "UI.md",
-      "deliveredSha256": "63c3dea6437248e85359ddcd7b350b3c78e49aae7c954c99cac0be6b22597d26",
-      "adapted": false
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/UI.md",
+      "sourceSha256": "04053274e032f80e1fa08d0d65c99f082de2f0ec710f5694b6101e6a7bb7552f",
+      "delivered": "source/skill/haha/assets/design-system/package/UI.md",
+      "deliveredSha256": "04053274e032f80e1fa08d0d65c99f082de2f0ec710f5694b6101e6a7bb7552f"
     },
     {
-      "source": "ui261-data.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/ui261-data.js",
       "sourceSha256": "823d13000d4f6716c944b6cb80ca400e23e42898014f134ed1bc44231975248a",
-      "delivered": "ui261-data.js",
-      "deliveredSha256": "823d13000d4f6716c944b6cb80ca400e23e42898014f134ed1bc44231975248a",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/ui261-data.js",
+      "deliveredSha256": "823d13000d4f6716c944b6cb80ca400e23e42898014f134ed1bc44231975248a"
     },
     {
-      "source": "ui261.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/ui261.css",
       "sourceSha256": "829eabd59dacba7277263179cb8394caa43a46194c126e83b158268d87a72c22",
-      "delivered": "ui261.css",
-      "deliveredSha256": "829eabd59dacba7277263179cb8394caa43a46194c126e83b158268d87a72c22",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/ui261.css",
+      "deliveredSha256": "829eabd59dacba7277263179cb8394caa43a46194c126e83b158268d87a72c22"
     },
     {
-      "source": "VOICE-MODEL.json",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/use-acceptance-current.json",
+      "sourceSha256": "c50228a5ac5734eec0f40687aa8127377b2ced3e749f360d0b268e8fe06b8794",
+      "delivered": "source/skill/haha/assets/design-system/package/use-acceptance-current.json",
+      "deliveredSha256": "c50228a5ac5734eec0f40687aa8127377b2ced3e749f360d0b268e8fe06b8794"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/use-acceptance47.json",
+      "sourceSha256": "afa797f1c0a37e993d4616d1ff137f2e681bbfee5771fae5517f1888e3951e65",
+      "delivered": "source/skill/haha/assets/design-system/package/use-acceptance47.json",
+      "deliveredSha256": "afa797f1c0a37e993d4616d1ff137f2e681bbfee5771fae5517f1888e3951e65"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/USE-BEFORE47.md",
+      "sourceSha256": "fecebea0730188c852d6a89e19c85f060cd2bee78cdad6e7efce8758ca190cc2",
+      "delivered": "source/skill/haha/assets/design-system/package/USE-BEFORE47.md",
+      "deliveredSha256": "fecebea0730188c852d6a89e19c85f060cd2bee78cdad6e7efce8758ca190cc2"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/USE-CURRENT.md",
+      "sourceSha256": "25e1235f33251bfce30d48726b5e59750cf87c4c84de0dcfde8129b5337fe622",
+      "delivered": "source/skill/haha/assets/design-system/package/USE-CURRENT.md",
+      "deliveredSha256": "25e1235f33251bfce30d48726b5e59750cf87c4c84de0dcfde8129b5337fe622"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/USE-SOURCE64.md",
+      "sourceSha256": "9e50bd52b5de6c2c20ace0154cc6b14ecc8d2bab36046e6f3b4012cfd67e8264",
+      "delivered": "source/skill/haha/assets/design-system/package/USE-SOURCE64.md",
+      "deliveredSha256": "9e50bd52b5de6c2c20ace0154cc6b14ecc8d2bab36046e6f3b4012cfd67e8264"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/USE.md",
+      "sourceSha256": "25e1235f33251bfce30d48726b5e59750cf87c4c84de0dcfde8129b5337fe622",
+      "delivered": "source/skill/haha/assets/design-system/package/USE.md",
+      "deliveredSha256": "25e1235f33251bfce30d48726b5e59750cf87c4c84de0dcfde8129b5337fe622"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/VOICE-MODEL.json",
       "sourceSha256": "6e460869018df4b58f4707b8011abcece6f86ad786e5c3b6932f5557a7f52d79",
-      "delivered": "VOICE-MODEL.json",
-      "deliveredSha256": "6e460869018df4b58f4707b8011abcece6f86ad786e5c3b6932f5557a7f52d79",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/VOICE-MODEL.json",
+      "deliveredSha256": "6e460869018df4b58f4707b8011abcece6f86ad786e5c3b6932f5557a7f52d79"
     },
     {
-      "source": "VOICE.md",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/VOICE.md",
       "sourceSha256": "46debb9ae2bc8f62e790d25e6a70791bd6598d01db04cf5cc8dca0bcabcd8270",
-      "delivered": "VOICE.md",
-      "deliveredSha256": "46debb9ae2bc8f62e790d25e6a70791bd6598d01db04cf5cc8dca0bcabcd8270",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/VOICE.md",
+      "deliveredSha256": "46debb9ae2bc8f62e790d25e6a70791bd6598d01db04cf5cc8dca0bcabcd8270"
     },
     {
-      "source": "voice251.css",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/voice251.css",
       "sourceSha256": "1de0b1f5232926d9ed6505543b1784d579c8c5fdd0ed3c551e4f6f2ac5f915c5",
-      "delivered": "voice251.css",
-      "deliveredSha256": "1de0b1f5232926d9ed6505543b1784d579c8c5fdd0ed3c551e4f6f2ac5f915c5",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/voice251.css",
+      "deliveredSha256": "1de0b1f5232926d9ed6505543b1784d579c8c5fdd0ed3c551e4f6f2ac5f915c5"
     },
     {
-      "source": "voice251.js",
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/voice251.js",
       "sourceSha256": "950ad630233e0c0c70cf9859f07b30f6472c88b83b6cef86bcd03d2f7c98c4e0",
-      "delivered": "voice251.js",
-      "deliveredSha256": "950ad630233e0c0c70cf9859f07b30f6472c88b83b6cef86bcd03d2f7c98c4e0",
-      "adapted": false
+      "delivered": "source/skill/haha/assets/design-system/package/voice251.js",
+      "deliveredSha256": "950ad630233e0c0c70cf9859f07b30f6472c88b83b6cef86bcd03d2f7c98c4e0"
+    },
+    {
+      "source": "Brand asset/HAHA/Design system/packages/1.2.11-reader/WEB-RELEASE.json",
+      "sourceSha256": "d0f4c7c345996496129301aa62bea854f2ce0c78117a99e28015c159a6f09891",
+      "delivered": "source/skill/haha/assets/design-system/package/WEB-RELEASE.json",
+      "deliveredSha256": "d0f4c7c345996496129301aa62bea854f2ce0c78117a99e28015c159a6f09891"
     }
   ],
   "excluded": [
     {
-      "path": "assets/references/bold.png",
-      "sha256": "78388ed4dfc4ccb11cc39b240f7fc36d31b3e6b18b755b927a25557c1b4115d7",
-      "reason": "Research-only capture, not redistributed; linked reference carrier preserved"
+      "path": "adoption-proof45.json",
+      "sourceSha256": "ec0356184113490b9e2813886e5729c0dc9da26ddca01875456cc4a9c50685cf",
+      "reason": "Internal source acceptance/projection proof; retained at source, not client execution."
     },
     {
-      "path": "assets/references/energetic.png",
-      "sha256": "7a680e3d891bbae2d4b0bdacaf7a01ab7dbd490371caa2fe7df55d4742ec2831",
-      "reason": "Research-only capture, not redistributed; linked reference carrier preserved"
+      "path": "adoption-proof47.json",
+      "sourceSha256": "66c20398b1b49a5cf0be1871ef39797faf002324563db87ea5abbd2b4081d958",
+      "reason": "Internal source acceptance/projection proof; retained at source, not client execution."
     },
     {
-      "path": "assets/references/image-style-ref-1.png",
-      "sha256": "75f03d558d26f39f0099e5d3c5ba28b55e8487f7acba06d4894b9e332f8b4915",
-      "reason": "Research-only capture, not redistributed; linked reference carrier preserved"
+      "path": "chart45-preparation.json",
+      "sourceSha256": "6fa7a3863f09ea9abb0f191dd63503102ffdb12e584a271847528fe5988c27cf",
+      "reason": "Superseded PDF or historical build/source inventory; current four PDFs and portable closure replace its delivery role."
     },
     {
-      "path": "assets/references/image-style-ref-2.png",
-      "sha256": "fe0161990500b1242a685eb04b980ccedadc377340bd67e2c1182e682c149f60",
-      "reason": "Research-only capture, not redistributed; linked reference carrier preserved"
+      "path": "chart45-rollout-manifest.json",
+      "sourceSha256": "2ef069952bfb3ed67c8983f7f6fbf1fbe573c7538c747b5182f6da6758b66afd",
+      "reason": "Internal source acceptance/projection proof; retained at source, not client execution."
     },
     {
-      "path": "assets/references/image-style-ref-3.png",
-      "sha256": "3534e88b24e8f288bdaaec237fb970f72827eed48b3abd0df09bff562fe0bd1c",
-      "reason": "Research-only capture, not redistributed; linked reference carrier preserved"
+      "path": "core-manifest42.json",
+      "sourceSha256": "ff140368063846ca62724d78860b28c6cf866532947ce8a3bd34b9f16db5343f",
+      "reason": "Superseded PDF or historical build/source inventory; current four PDFs and portable closure replace its delivery role."
     },
     {
-      "path": "assets/references/modern.png",
-      "sha256": "78388ed4dfc4ccb11cc39b240f7fc36d31b3e6b18b755b927a25557c1b4115d7",
-      "reason": "Research-only capture, not redistributed; linked reference carrier preserved"
+      "path": "design-system.pdf",
+      "sourceSha256": "fda6140fb5a2665b223fc93dff2f5717351ad1697021a8154e0a3bc8497a5c59",
+      "reason": "Superseded PDF or historical build/source inventory; current four PDFs and portable closure replace its delivery role."
     },
     {
-      "path": "assets/references/sophisticated.png",
-      "sha256": "1bbf97328367449dbb0b9430e60ae85a321c58e3848ae64417f424f6d4e0a109",
-      "reason": "Research-only capture, not redistributed; linked reference carrier preserved"
+      "path": "frame45-rollout-manifest.json",
+      "sourceSha256": "b36ab46ef35b2283197318000e19a2702d0aa4ee0f0098f14cd13803cb527d40",
+      "reason": "Internal source acceptance/projection proof; retained at source, not client execution."
     },
     {
-      "path": "assets/references/vibrant.png",
-      "sha256": "c3eaad682913f336f36e2ad61f7731b7e2058529d6909352195191503503073b",
-      "reason": "Research-only capture, not redistributed; linked reference carrier preserved"
+      "path": "package-manifest42.json",
+      "sourceSha256": "9edd6a25a205b0803372714353fde51256d4d69e82ac17781ad91257a9f09f14",
+      "reason": "Superseded PDF or historical build/source inventory; current four PDFs and portable closure replace its delivery role."
     },
     {
-      "path": "PROVENANCE.json",
-      "sha256": "6e2760de19b5ee64b2b659d96ce905be61f37f2065b365fc6833a10940df6627",
-      "reason": "Internal legacy before/after source bodies not operational dependencies"
+      "path": "package-manifest45.json",
+      "sourceSha256": "08279b5d9e56926a8a9cb3148193fc7a6d860d33b6679c713650dc0812c4083d",
+      "reason": "Superseded PDF or historical build/source inventory; current four PDFs and portable closure replace its delivery role."
+    },
+    {
+      "path": "package-manifest47.json",
+      "sourceSha256": "d63362790a672ca34377e07d36d8fcb3bca52e23e7c6a5ee7b89c8f7109d4d14",
+      "reason": "Superseded PDF or historical build/source inventory; current four PDFs and portable closure replace its delivery role."
+    },
+    {
+      "path": "package-manifest64.json",
+      "sourceSha256": "44aa5e3230203a18ca4568784ec9cfcdce6b90452f7d29584d28fa6b82d7d1b2",
+      "reason": "Superseded PDF or historical build/source inventory; current four PDFs and portable closure replace its delivery role."
+    },
+    {
+      "path": "pdf-build-proof/embedded-font-check.json",
+      "sourceSha256": "98567b492668afab76979268c724def8d7c9e0cebc34f67eb105eff26e23bb72",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-build-proof/guidance-native-runs.json",
+      "sourceSha256": "eae0d5f382937266bd913351fac5d34c5659cd1b6b088a99f57669f31c025328",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-build-proof/layout-objects.json",
+      "sourceSha256": "61ac34f961e9bf399664b511e262b06c0c1500b6d57b7689435ab8f9cdb648a1",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-build-proof/native-reader-check.json",
+      "sourceSha256": "78b9976be34460059d3a092e82f932c643d48cce129425373988fa358fc58804",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-build-proof/navigation.json",
+      "sourceSha256": "001de8019eeaa1c7f47e000384ba2a84bc1f199dc8a89906940d41238ab67da5",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-build-proof/page-plan.json",
+      "sourceSha256": "8b8f11ca95dbd05d90d94700a3618f86c78288e213c70f367a79385b026c8641",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-build-proof/pdf-delivery-receipt.json",
+      "sourceSha256": "f2413afc7fc1d5f679e03b490a2e575a9f08e735454ebf207e00da520e61de11",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-build-proof/portable-guidance-plan.json",
+      "sourceSha256": "0dbfed0dda374e9ffac58127edde7f612bcbd62f3bff90b677cd5e5e920aa464",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-build-proof/reader-copy.json",
+      "sourceSha256": "4d7d4a4a19a56814acb504fdbe5700f1897c9c6ca12c676d8e96ad67ef7eab3c",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-build-proof/slide-reader-contract-current.json",
+      "sourceSha256": "a4b5f4b03fa27de28018bc5aaa2431c762a0470abe80c6cd11fa33c33fdf6b68",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-build-proof/source-navigation-preservation.json",
+      "sourceSha256": "1a1abd4e57a3bfdb9b5f4879604f2c0d0474d8eaed1c5b8fed96048c2ff93d9e",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-build-proof/visual-self-review.json",
+      "sourceSha256": "6c5e89846555861432116e80f6487cd834a494537f92da895037acebb84e5553",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-checks.json",
+      "sourceSha256": "826c52f70db376f9886dbff5f4f2a49f8710545b5f2459f69e757855f2fe5758",
+      "reason": "Superseded PDF or historical build/source inventory; current four PDFs and portable closure replace its delivery role."
+    },
+    {
+      "path": "pdf-figures58/chart-bar.html",
+      "sourceSha256": "b42a4fdfc0680febbdfd1a026760fc6888848f1157651e872e8e30d6446ede60",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-box.html",
+      "sourceSha256": "986191a3f06faceaafcc3bf975473a84255f0b56c3a84f1c6a3cd6ca37603eed",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-candlestick.html",
+      "sourceSha256": "5dd515d0c28c1d2dc81f93fcb0cc002149861601d837bb06cd8139fd04fff6d9",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-decision-tree.html",
+      "sourceSha256": "95104e477cadca7f02554c1148d968baadcad0d28193300a48d16d9c7dd06654",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-dependency-network.html",
+      "sourceSha256": "68e1c9778615331a2c67827e6e5b33baf2716bdd3f4fb3e48b90d01d6d5f04d5",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-donut.html",
+      "sourceSha256": "80b7b7cb19bd12e4895b800c5abcb90b2d76646d969f72b64e20aea24f1336a7",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-funnel.html",
+      "sourceSha256": "d7a21759842ca223bf46e5c70eefca80709b40b99351312d5e549ed2c40e973c",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-gantt.html",
+      "sourceSha256": "96f766e9effdb53ecc054a97f8bbd7a5c00755955fdb25b0f05ea8261feb7249",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-heatmap.html",
+      "sourceSha256": "c5b0eb2747a10318e51821f567278018ef7fb297e9c180d75a12ac097f63e85c",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-histogram.html",
+      "sourceSha256": "603566deb694e5e2cdc639845f72847bea8ec95fbe9319af1009e713afe7d496",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-journey-comparison.html",
+      "sourceSha256": "a814d480a1a4bf2591f28e957d867494d9c15691c0b33467df752caeb49dcaa3",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-kpi-table.html",
+      "sourceSha256": "c322804f863bd2b3da5526e1019e23642d12b34027575be38ff4781c31921f66",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-line.html",
+      "sourceSha256": "8a759b0928f9cbde78f313be51c40a5c295250218b0fdfdfb5f8ebb54b4de0e8",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-parallel.html",
+      "sourceSha256": "79f68f0601b811767e2f3f3e7e65ce23d9f83be597a37a8711a2b355989d7286",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-regional-map.html",
+      "sourceSha256": "5a32b34d9e2566b1c9fb39986534885fb1dc656a9c768c736c1e0c62fbd57c57",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-sankey.html",
+      "sourceSha256": "61f53377acedc2798835d8c43ca89931b2e802cef6dfcb8a6d367881e17d18e5",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-scatter.html",
+      "sourceSha256": "7f8cc6c86230fcc076ebc2a883c649ca5ec47ffd49b7a61ff32e2c04c06e0350",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-slope.html",
+      "sourceSha256": "44a07db604581f5bc1259c55dbe1764befdf712cc302750eb951acf4afe48487",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-stacked-absolute.html",
+      "sourceSha256": "3e4daeb82bdaebdaac511cc6e5731ee0c85ed3427749fbdf9f11e77c3199e9f0",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/chart-waterfall.html",
+      "sourceSha256": "1d947eab7d6f35799ff7b3d7f9ea1cb3fa5f07f76aaffe3eeb7a19b97315438a",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-default-agenda.html",
+      "sourceSha256": "a1655137d9cc7a4e19c84219b3390e582e4c0182e3f28163a447c076c02ef66a",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-default-close.html",
+      "sourceSha256": "660cd36926e3b24ad84eb58e239e64c5feeb6559d911e7839a1664f0cab288fd",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-default-cover.html",
+      "sourceSha256": "12f99e58834c87aa370b64ea1b4e9cc74395dcfd6641282b6185fafec9c9cfb2",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-default-divider.html",
+      "sourceSha256": "e5e6e7a4b3c09095d8e68f2fdc3a696afedd270051241a8720d0663b180de3ef",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-image-background.html",
+      "sourceSha256": "7e84e4b042f1ee271a3b9f7379952184743a033d2450e0a00cd0168945e554ab",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-image-collage.html",
+      "sourceSha256": "142b6bbc7afb2567a3695f5650d20256a9b01f6254e1a6b5cca8248e1e7b74f4",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-image-detail.html",
+      "sourceSha256": "3f5ef75bbcb6e77a76449591c2813dd9f90e99556bc7cb9dcfc237058cf5d65f",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-image-grid.html",
+      "sourceSha256": "72e44d2c8b19e1b6b1535acccedff39b01488b4412c721a3d13bf2d444faf744",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-image-hero.html",
+      "sourceSha256": "700c2ebb68b6480597dc330ea7ca7123945258a49dc1a4bdbe289bd2ba666a2d",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-image-mosaic.html",
+      "sourceSha256": "dac71a49dffead3db7a39bce3d120459c6b0cb75daf358d0ca434a249512c9f0",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-image-pair.html",
+      "sourceSha256": "c514b6089782c8610fcb7c859f4a17300a1ed2dfcc98dbc68da438f9c9153de7",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-image-split.html",
+      "sourceSha256": "65d44c14f6a47cf92fabed953efdbd75478542d11fe935e46768fdacd64b98ff",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-image-story.html",
+      "sourceSha256": "d7641e5bbf26ed2664e7321d67be489c6c6c54ffb786e8abb239b84e9ea76c5b",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-image-strip.html",
+      "sourceSha256": "f200029fa78ecd2b3965d83a33f4555ad96127013a3b83a2b811898836af72ef",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-text-columns.html",
+      "sourceSha256": "3745d20cc2976770ce90858c835eededb811b1666fa51704cf0303fb67fa30fa",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-text-competitors.html",
+      "sourceSha256": "7337f893706b1272c87b11b78d987681bfc9b6e6296fdb479be9dd92c4e04958",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-text-dashboard.html",
+      "sourceSha256": "4bf0c77e44a8375a985d286850d29e4cf3df39ae4eace128be1f0a20b7305999",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-text-evidence.html",
+      "sourceSha256": "a150e102201ff2e0d16a27f06d8e7a962adbeb421c4aab47c0ed7de62a0a0224",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-text-journey.html",
+      "sourceSha256": "6eb17d836dcf0ac1ffdb968e9b827e4f41f870d8b760edd14348eb9ee5b1df15",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-text-matrix.html",
+      "sourceSha256": "d85728d3b970d258a51a40d8644bf260700b139eef18f1b8bc0b8c3e49f50d9c",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-text-mixed.html",
+      "sourceSha256": "0dc9a96a77b677d8373a2df1855c447f04a7ed9d8e0c8f5a569b751acc46b413",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-text-overview.html",
+      "sourceSha256": "b8b9fed90527efaf266675b48e2d46cbd11010c6358ea50610a498c59a3979f8",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-text-plan.html",
+      "sourceSha256": "22e9212ad9b786e3db4fbc45a598e3872aa812eae4051b46f7e514b27d9775b1",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-text-ranking.html",
+      "sourceSha256": "20f5ed21d968aacf35bc54d0c1b02f63f9cdf25c158e1d2f273b4a63e1d3bd3c",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-text-sales-mix.html",
+      "sourceSha256": "369f7886e44ff8598f1366ffadd7963c41ea6c60366399f1bc5556f31a1e8691",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-text-sections.html",
+      "sourceSha256": "305ffe067424674c5f5deedea3eab34b3cf9e3ea81e1586531acaea3311e3322",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-figures58/slide283-text-tables.html",
+      "sourceSha256": "276b23892b84c066f93edd8c797e8b399f49b5d5a03de9d1089435510f0f7a33",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "pdf-manifest.json",
+      "sourceSha256": "dbe20a8449bbc8b8127d50a8bab370d837f780c1782e3b432173652f5e01c60a",
+      "reason": "Superseded PDF or historical build/source inventory; current four PDFs and portable closure replace its delivery role."
+    },
+    {
+      "path": "preparation-coverage.json",
+      "sourceSha256": "ebb1ec5d5c1c671fdde4fc64e1b76a6315d704af803a443181b6ce36abc9fb71",
+      "reason": "Superseded PDF or historical build/source inventory; current four PDFs and portable closure replace its delivery role."
+    },
+    {
+      "path": "proof/compact-20261020/independent-review.json",
+      "sourceSha256": "7f40aaa6709f3af4c3890a631b1a608a35881917b00a5dbf09c01aac5301a6ee",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "proof/compact-20261020/verification-1080.json",
+      "sourceSha256": "1f3f8ed8548003b8e6882b19e52746512fb8626251c24db6f63d83c3e7485f3c",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "proof/compact-20261020/verification-390.json",
+      "sourceSha256": "4da8226660fb52cd70aa088e25f49e1fb41d8a4dddb96717480edc8971b57b09",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "proof/slide-content-first-20261021/guidance-render-proof.json",
+      "sourceSha256": "1b221bf500b93f2926a10b880c9707378acf708be03ae678c67c01f096d834a6",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "proof/slide-content-first-20261021/guidance-tests.json",
+      "sourceSha256": "27d9f0f763f01715e9296f3481cbe3e98ab4be7616b31679cd7d54993fccf511",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "proof/slide-content-first-20261021/haha-pdf-final-verification.json",
+      "sourceSha256": "3e12e2dfccfa7c5015b65b02255580749ee0eaafc1a59d5c4575799aa8b70bc6",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "proof/slide-content-first-20261021/visual-review.json",
+      "sourceSha256": "167ea00d113e77b5cbaf5f01fc99615ecca4a129c9f8978235b6eafb39be3bfa",
+      "reason": "Retired build/capture evidence, not operational client material."
+    },
+    {
+      "path": "quality-proof-compact.json",
+      "sourceSha256": "9b9f9204ae57988c031788d68490d6b8c19d8ec91210fbc0a80ab759cf0e968d",
+      "reason": "Internal source acceptance/projection proof; retained at source, not client execution."
+    },
+    {
+      "path": "quality-proof-current.json",
+      "sourceSha256": "4c084ddf0bc9a4a641803efa8fd1e550afded27125e49d408e01eb8f465e7767",
+      "reason": "Internal source acceptance/projection proof; retained at source, not client execution."
+    },
+    {
+      "path": "quality-proof64.json",
+      "sourceSha256": "1189f0074705dde873a13649472df20b441fcd0b3b72ce967b8c52223236b358",
+      "reason": "Internal source acceptance/projection proof; retained at source, not client execution."
+    },
+    {
+      "path": "records42.json",
+      "sourceSha256": "0e7ad1b4729c92210dfded4cdbf54e34f744d3e8872cc154db5509d698d1aba4",
+      "reason": "Superseded PDF or historical build/source inventory; current four PDFs and portable closure replace its delivery role."
+    },
+    {
+      "path": "release-candidate64.json",
+      "sourceSha256": "ccb74d76ee73a8e80a9c7b663c595c91d2da3d772e15aa7110434b548e9f9edb",
+      "reason": "Superseded PDF or historical build/source inventory; current four PDFs and portable closure replace its delivery role."
+    },
+    {
+      "path": "theory248.pdf",
+      "sourceSha256": "0ff986d96bbdaea1a29f46f1e19c8b384a04a041e4c1c378d1f0adbbdde0aaa3",
+      "reason": "Superseded PDF or historical build/source inventory; current four PDFs and portable closure replace its delivery role."
     }
   ],
-  "instructionImports": [
+  "adaptations": [
     {
-      "owner": "Design",
-      "source": "references/design-system/surface-and-table-contract.md",
-      "sha256": "d79ffbbb5d914cf71e26af151521e23af9f113862b08c5d8522f163ab4101a06",
-      "targets": [
-        "source/skill/haha/references/apply-design.md",
-        "source/skill/haha/SKILL.md"
-      ]
+      "file": "reuse-routing.json",
+      "change": "Remove only build-machine sourceRoot provenance; canonical original unchanged."
     },
     {
-      "owner": "Design",
-      "source": "references/design-system/approved-package-baseline.md",
-      "sha256": "b4260fd011682681ab1d2dd65c19dbe8748bf007dc4f69a8db34982c1d2fb76b",
-      "targets": [
-        "source/skill/haha/SKILL.md"
-      ]
+      "file": "core-manifest316.json",
+      "change": "Remove only build-machine sourceRoot provenance; canonical original unchanged."
     },
     {
-      "owner": "Design",
-      "source": "references/design-system/surface-and-table-contract.md",
-      "sha256": "b73bb103d1bcc4faddc9d110215906fde7716a229f321bc84ec7e2ee9784876f",
-      "selection": "Approved sidebar hierarchy only",
-      "targets": [
-        "source/skill/haha/SKILL.md",
-        "source/html-ui/HAHA/NAVIGATION.md"
-      ]
+      "file": "package-manifest262.json",
+      "change": "Remove only build-machine sourceRoot provenance; canonical original unchanged."
+    },
+    {
+      "file": "atlas248.js",
+      "change": "Retired single-PDF reference now opens current four-purpose PDF index."
+    },
+    {
+      "file": "chart45-data.js",
+      "change": "Retired single-PDF reference now opens current four-purpose PDF index."
+    },
+    {
+      "file": "config316.js",
+      "change": "Retired single-PDF reference now opens current four-purpose PDF index."
+    },
+    {
+      "file": "content282.js",
+      "change": "Retired single-PDF reference now opens current four-purpose PDF index."
+    },
+    {
+      "file": "reader-guidance61.js",
+      "change": "Retired single-PDF reference now opens current four-purpose PDF index."
+    },
+    {
+      "file": "theory248.html",
+      "change": "Retired single-PDF reference now opens current four-purpose PDF index."
+    },
+    {
+      "file": "design-system.html + delivery-keyboard.js",
+      "change": "Delivery-only Escape handler closes mobile rail and restores menu focus; one added script tag. Canonical HTML remains untouched.",
+      "originalHtmlSha256": "4baec3062972d1aa14455b58a02dff7cd4ec88ea54d56404b35113a7f3076c56",
+      "deliveredHtmlSha256": "a00cd753d25ca19bdb8c6f71578625c9eb381784befac9a2fd34b4bcbf7903a1",
+      "adapterSha256": "5f746ca03a79700d37c4b8b8400460d0565214c7b636d521087020acc365929c"
+    },
+    {
+      "file": "design-system.html + delivery-keyboard.js",
+      "change": "Delivery-only Escape handler closes mobile rail and restores menu focus; one added script tag. Canonical HTML remains untouched.",
+      "originalHtmlSha256": "4baec3062972d1aa14455b58a02dff7cd4ec88ea54d56404b35113a7f3076c56",
+      "deliveredHtmlSha256": "a00cd753d25ca19bdb8c6f71578625c9eb381784befac9a2fd34b4bcbf7903a1",
+      "adapterSha256": "5f746ca03a79700d37c4b8b8400460d0565214c7b636d521087020acc365929c"
     }
   ],
-  "rightsConfirmation": "Client use of supplied HAHA assets for their work, user confirmed2026-10-12",
-  "privateSourceRootShipped": false,
-  "deliveryAdapters": [
-    "Portable workspace roots, refreshed reuse/hash manifests",
-    "Research captures replaced with explicit reference-link SVGs",
-    "Client-use consent kept separate from publication and admission",
-    "Local source paths removed from runtime metadata"
-  ],
-  "mappingReadback": "Updated against exact final staged client bytes",
-  "sidebarSourceVersion": "HAHA0.13-sidebar-trial",
-  "baselineSnapshot": "1.0.0-client",
-  "sidebarSourceFiles": [
+  "sourcePDFs": [
     {
-      "source": "sidebar297.css",
-      "sourceSha256": "a0d70997dc5eed3bc896bd589cf36e68005db699f159798cab6db5e1057656f3",
-      "delivered": "source/html-ui/HAHA/sidebar297.css",
-      "deliveredSha256": "a0d70997dc5eed3bc896bd589cf36e68005db699f159798cab6db5e1057656f3"
+      "purpose": "slides",
+      "title": "Tạo slide",
+      "file": "01-slides.pdf",
+      "sha256": "0fd0943a93a91e756717dccb9026453b943550f82bebc911073a0688c327fb12",
+      "pages": 1197,
+      "bytes": 20979963
     },
     {
-      "source": "sidebar-navigation.json",
-      "sourceSha256": "a6f2682c6ed3ca7c4d197f3d009c170fc48dfe77d342dfc934ac0ac9ae065978",
-      "delivered": "source/html-ui/HAHA/sidebar-navigation.json",
-      "deliveredSha256": "a6f2682c6ed3ca7c4d197f3d009c170fc48dfe77d342dfc934ac0ac9ae065978"
+      "purpose": "web-app-ui",
+      "title": "Tạo web, app và giao diện",
+      "file": "02-web-app-ui.pdf",
+      "sha256": "f9ba39490ef02c469a5403af6cd58001da2c11b9d7981f8683e06a7d004f9fc4",
+      "pages": 1118,
+      "bytes": 19664957
     },
     {
-      "source": "NAVIGATION.md",
-      "sourceSha256": "3b7141849a704e612514c3012f880b51fb496daf29059935ff59833b90a66503",
-      "delivered": "source/html-ui/HAHA/NAVIGATION.md",
-      "deliveredSha256": "3b7141849a704e612514c3012f880b51fb496daf29059935ff59833b90a66503"
+      "purpose": "design",
+      "title": "Thiết kế tĩnh",
+      "file": "03-design.pdf",
+      "sha256": "5e837f331450880617a1eb8626f8239987b4bbe75f3c4459c4b1862a309f0b1e",
+      "pages": 1042,
+      "bytes": 17684596
+    },
+    {
+      "purpose": "edit",
+      "title": "Biên tập và chuyển động",
+      "file": "04-edit.pdf",
+      "sha256": "b8683dfcaf04f44d0543a2872e1ddc74d785f8c704ad2930c9fd1bbe519a7683",
+      "pages": 1052,
+      "bytes": 17997204
     }
-  ]
+  ],
+  "sourceOsInstructions": "Selected portable method is copied into shipped skill/references; no source OS runtime call."
 }

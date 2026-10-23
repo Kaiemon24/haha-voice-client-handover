@@ -1,0 +1,313 @@
+{
+  "schemaVersion": "legacy-brand-chart-target/v1",
+  "status": "PREPARATION_NOT_ACTIVATED",
+  "brand": "HAHA",
+  "version": "1.2.6-doc-output-review",
+  "sourceVersion": "1.1.0-maps-run42",
+  "entry": "design-system.html",
+  "atlasGlobal": "HAHAAtlas248",
+  "styleGlobal": "HAHAChartStyle279",
+  "maps": [
+    {
+      "semanticId": "map-us",
+      "localId": "chart-map-united-states",
+      "title": "Bản đồ Hoa Kỳ",
+      "purpose": "Đọc 50 tiểu bang và Washington, DC, cùng nguồn đường bao năm 2017.",
+      "file": "maps42/pages/united-states.html",
+      "limit": "Không dùng màu nền làm số liệu; Alaska và Hawaii được đặt lại vị trí, Alaska thu nhỏ tương đối.",
+      "dependencies": [
+        "core-manifest42.json",
+        "maps42/pages/index.html",
+        "maps42/pages/sources.html",
+        "maps42/pages/united-states.html",
+        "maps42/pages/vietnam.html",
+        "maps42/pages/world.html",
+        "maps42-gallery.css",
+        "MAPS42.md",
+        "maps42.model.json",
+        "maps42.data.js",
+        "maps42-adapter.js"
+      ],
+      "dependencyFiles": [
+        {
+          "path": "core-manifest42.json",
+          "sha256": "4c9b0b80fb449eb420fa78ced1a6e09a645a73473e7a71053e52ff07ac1b48b1"
+        },
+        {
+          "path": "maps42/pages/index.html",
+          "sha256": "f5d72da69e6a5f551c79934d544128a71c9480d810d11de13bea0c63fca07648"
+        },
+        {
+          "path": "maps42/pages/sources.html",
+          "sha256": "db289e17af3aa7ed336f4e7718bd4e861c1098c27a0b536da8009403ad60c16a"
+        },
+        {
+          "path": "maps42/pages/united-states.html",
+          "sha256": "873c314e0dcf4489c1a9b756f965861873001bd8d8a0b97bd2e49f70b5c62872"
+        },
+        {
+          "path": "maps42/pages/vietnam.html",
+          "sha256": "1cf59d83a1b3b7cdd232c0329ce1553e3a6cf61eea67a3402277ad88efe9a899"
+        },
+        {
+          "path": "maps42/pages/world.html",
+          "sha256": "7fe55f75dbbbbbcca507b6f86d5f4ff350afd3e2ed60ae2ba2ed9e52b5e1d843"
+        },
+        {
+          "path": "maps42-gallery.css",
+          "sha256": "cec90d7220e24ec28e6217b5bf0bb34f416f8d8abd02617079f1a35ff99cd544"
+        },
+        {
+          "path": "MAPS42.md",
+          "sha256": "da2542377e0d26e72bf36ae86348f7aeb4f75ac195ad2d933cd9a2b986537227"
+        },
+        {
+          "path": "maps42.model.json",
+          "sha256": "7fcc9c1af24000fd37c41318af083b5bf2cc61bb7e7dd17561d3544d50c05d36"
+        },
+        {
+          "path": "maps42.data.js",
+          "sha256": "3c38716b3185e0a78f678192709e5e7be80c77e102f09633bf2fb061da5f177b"
+        },
+        {
+          "path": "maps42-adapter.js",
+          "sha256": "5da8462f1d124a32600d1bd235f54ef5e7a68ba191875eb9ebe422c7e77ef828"
+        }
+      ]
+    },
+    {
+      "semanticId": "map-vietnam",
+      "localId": "chart-map-vietnam",
+      "title": "Bản đồ Việt Nam và các đảo",
+      "purpose": "Đọc đường bờ khái quát và bảy vị trí đại diện có nguồn tại Việt Nam.",
+      "file": "maps42/pages/vietnam.html",
+      "limit": "Không phải danh mục đầy đủ đảo, đá, bãi cạn và bãi ngầm; không thể hiện ranh giới biển.",
+      "dependencies": [
+        "core-manifest42.json",
+        "maps42/pages/index.html",
+        "maps42/pages/sources.html",
+        "maps42/pages/united-states.html",
+        "maps42/pages/vietnam.html",
+        "maps42/pages/world.html",
+        "maps42-gallery.css",
+        "MAPS42.md",
+        "maps42.model.json",
+        "maps42.data.js",
+        "maps42-adapter.js"
+      ],
+      "dependencyFiles": [
+        {
+          "path": "core-manifest42.json",
+          "sha256": "4c9b0b80fb449eb420fa78ced1a6e09a645a73473e7a71053e52ff07ac1b48b1"
+        },
+        {
+          "path": "maps42/pages/index.html",
+          "sha256": "f5d72da69e6a5f551c79934d544128a71c9480d810d11de13bea0c63fca07648"
+        },
+        {
+          "path": "maps42/pages/sources.html",
+          "sha256": "db289e17af3aa7ed336f4e7718bd4e861c1098c27a0b536da8009403ad60c16a"
+        },
+        {
+          "path": "maps42/pages/united-states.html",
+          "sha256": "873c314e0dcf4489c1a9b756f965861873001bd8d8a0b97bd2e49f70b5c62872"
+        },
+        {
+          "path": "maps42/pages/vietnam.html",
+          "sha256": "1cf59d83a1b3b7cdd232c0329ce1553e3a6cf61eea67a3402277ad88efe9a899"
+        },
+        {
+          "path": "maps42/pages/world.html",
+          "sha256": "7fe55f75dbbbbbcca507b6f86d5f4ff350afd3e2ed60ae2ba2ed9e52b5e1d843"
+        },
+        {
+          "path": "maps42-gallery.css",
+          "sha256": "cec90d7220e24ec28e6217b5bf0bb34f416f8d8abd02617079f1a35ff99cd544"
+        },
+        {
+          "path": "MAPS42.md",
+          "sha256": "da2542377e0d26e72bf36ae86348f7aeb4f75ac195ad2d933cd9a2b986537227"
+        },
+        {
+          "path": "maps42.model.json",
+          "sha256": "7fcc9c1af24000fd37c41318af083b5bf2cc61bb7e7dd17561d3544d50c05d36"
+        },
+        {
+          "path": "maps42.data.js",
+          "sha256": "3c38716b3185e0a78f678192709e5e7be80c77e102f09633bf2fb061da5f177b"
+        },
+        {
+          "path": "maps42-adapter.js",
+          "sha256": "5da8462f1d124a32600d1bd235f54ef5e7a68ba191875eb9ebe422c7e77ef828"
+        }
+      ]
+    },
+    {
+      "semanticId": "map-world-3d",
+      "localId": "chart-map-world",
+      "title": "Quả địa cầu thế giới 3D",
+      "purpose": "Xoay khối cầu thật, đổi góc nhìn và đọc đường bờ tự nhiên thế giới.",
+      "file": "maps42/pages/world.html",
+      "limit": "Không phân loại chủ quyền; đảo rất nhỏ có thể vắng ở tỷ lệ khái quát 1:110 triệu.",
+      "dependencies": [
+        "core-manifest42.json",
+        "maps42/pages/index.html",
+        "maps42/pages/sources.html",
+        "maps42/pages/united-states.html",
+        "maps42/pages/vietnam.html",
+        "maps42/pages/world.html",
+        "maps42-gallery.css",
+        "MAPS42.md",
+        "maps42.model.json",
+        "maps42.data.js",
+        "maps42-adapter.js"
+      ],
+      "dependencyFiles": [
+        {
+          "path": "core-manifest42.json",
+          "sha256": "4c9b0b80fb449eb420fa78ced1a6e09a645a73473e7a71053e52ff07ac1b48b1"
+        },
+        {
+          "path": "maps42/pages/index.html",
+          "sha256": "f5d72da69e6a5f551c79934d544128a71c9480d810d11de13bea0c63fca07648"
+        },
+        {
+          "path": "maps42/pages/sources.html",
+          "sha256": "db289e17af3aa7ed336f4e7718bd4e861c1098c27a0b536da8009403ad60c16a"
+        },
+        {
+          "path": "maps42/pages/united-states.html",
+          "sha256": "873c314e0dcf4489c1a9b756f965861873001bd8d8a0b97bd2e49f70b5c62872"
+        },
+        {
+          "path": "maps42/pages/vietnam.html",
+          "sha256": "1cf59d83a1b3b7cdd232c0329ce1553e3a6cf61eea67a3402277ad88efe9a899"
+        },
+        {
+          "path": "maps42/pages/world.html",
+          "sha256": "7fe55f75dbbbbbcca507b6f86d5f4ff350afd3e2ed60ae2ba2ed9e52b5e1d843"
+        },
+        {
+          "path": "maps42-gallery.css",
+          "sha256": "cec90d7220e24ec28e6217b5bf0bb34f416f8d8abd02617079f1a35ff99cd544"
+        },
+        {
+          "path": "MAPS42.md",
+          "sha256": "da2542377e0d26e72bf36ae86348f7aeb4f75ac195ad2d933cd9a2b986537227"
+        },
+        {
+          "path": "maps42.model.json",
+          "sha256": "7fcc9c1af24000fd37c41318af083b5bf2cc61bb7e7dd17561d3544d50c05d36"
+        },
+        {
+          "path": "maps42.data.js",
+          "sha256": "3c38716b3185e0a78f678192709e5e7be80c77e102f09633bf2fb061da5f177b"
+        },
+        {
+          "path": "maps42-adapter.js",
+          "sha256": "5da8462f1d124a32600d1bd235f54ef5e7a68ba191875eb9ebe422c7e77ef828"
+        }
+      ]
+    }
+  ],
+  "localAliases": {
+    "chart-map-united-states": "map-us",
+    "chart-map-vietnam": "map-vietnam",
+    "chart-map-world": "map-world-3d"
+  },
+  "profileSha256": "c2c0bc428b7f768dc2c04b86d05ccc9f5b47132a0d6db3e44a2cdf5515e8797f",
+  "dataSha256": "baeb4a9126032b149e889037bc20740b2483b81cfbabfc1fbe373f97e416aba1",
+  "sharedDependencies": [
+    "chart45-profile.json",
+    "chart45-data.json",
+    "chart45-core.js",
+    "chart45-catalogue.js",
+    "chart45-roles.css",
+    "chart45-target.json",
+    "atlas248.css",
+    "charts279.js",
+    "semantic241-data.js",
+    "chart45-anchor.css",
+    "chart45-anchor.js",
+    "CHARTS.md",
+    "DESIGN.md",
+    "CHARTS-BASELINE.md",
+    "DESIGN-BASELINE.md"
+  ],
+  "visualSkin": {
+    "contentOffset": 0,
+    "largeShapeOffset": 0,
+    "blur": 0,
+    "colorToken": "--shadow",
+    "minimumShapeExtent": 24,
+    "flatFamilies": [
+      "line",
+      "area",
+      "scatter",
+      "slope",
+      "dumbbell",
+      "lollipop",
+      "sparklines",
+      "monitored-series",
+      "progress-ring",
+      "sankey",
+      "dependency-network",
+      "decision-tree",
+      "journey-comparison",
+      "kpi-table"
+    ],
+    "rule": "Dấu dữ liệu giữ phẳng, không bóng; khối nội dung độc lập có một bóng ngoài 4px. Kiểm nhãn và đường bao trong hai chế độ.",
+    "joinedShapeRule": "Joined parts share one silhouette, square internal seams and no shadow; preserve all data bounds and meaningful dividers."
+  },
+  "outputContract": {
+    "schemaVersion": "design-system-outputs/v2",
+    "sharedProfiles": {
+      "charts": {
+        "path": "chart45-profile.json",
+        "sha256": "c2c0bc428b7f768dc2c04b86d05ccc9f5b47132a0d6db3e44a2cdf5515e8797f"
+      }
+    },
+    "chartData": {
+      "path": "chart45-data.json",
+      "sha256": "baeb4a9126032b149e889037bc20740b2483b81cfbabfc1fbe373f97e416aba1",
+      "selection": "accepted-example"
+    },
+    "formats": {
+      "html": {
+        "path": "design-system.html",
+        "status": "candidate-actual-proof-required"
+      },
+      "markdown": {
+        "path": "DESIGN.md",
+        "chartGuide": "CHARTS.md",
+        "status": "generated-source-bound-reference"
+      },
+      "pdf": {
+        "status": "PENDING_FULL_SYSTEM_DERIVATIVE",
+        "existingTheoryPDF": "theory248.pdf",
+        "existingTheoryIsFullSystemOutput": false
+      }
+    }
+  },
+  "documentation": {
+    "schemaVersion": "brand-chart-documentation/v1",
+    "chartGuide": {
+      "path": "CHARTS.md",
+      "sha256": "d7a62d20efaedc3e70415d1b54546a37f408a14c8c66f60e858401490bc2a89c"
+    },
+    "designGuide": {
+      "path": "DESIGN.md",
+      "sha256": "a96e5558dea7d41f9ec603a57a802eba86a3ed4abd8e8a34a08e8aa9eb3ac3be"
+    },
+    "historicalGuides": [
+      {
+        "path": "DESIGN-BASELINE.md",
+        "sha256": "68a2250d4f7cb85e9da1699652682f08a75688a726e31c17987f8af1285f72de"
+      },
+      {
+        "path": "CHARTS-BASELINE.md",
+        "sha256": "9f1667a1dafe4b088a16ecbaf5f9c3241bdf39ec16898e53842ad465ed397d41"
+      }
+    ]
+  }
+}

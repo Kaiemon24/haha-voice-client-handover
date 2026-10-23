@@ -1,0 +1,284 @@
+{
+  "schemaVersion": "legacy-system-membership-extension/v1",
+  "systemId": "haha-monochrome",
+  "version": "1.1.0-maps-run42",
+  "selectedEntry": "design-system-maps.html",
+  "legacyBase": {
+    "packageVersion": "1.0.0-client-snapshot",
+    "sitesVersion": 2,
+    "commit": "ee82a63ae5a7bf749fa3a41cf640efa045992fe2",
+    "fileCount": 159,
+    "manifest": {
+      "path": "package-manifest262.json",
+      "sha256": "435cf57fa3b19d9c391959c70f1851b50081120ac5ad553f5715604d8afe5fd2"
+    },
+    "records": {
+      "path": "record-dossiers.json",
+      "sha256": "fc5fcde669c805e520a3b1ac51c8d8a7fde8aa9484ca28d32c80d01505aa5503"
+    }
+  },
+  "counts": {
+    "overview": 2,
+    "library": 198,
+    "charts": 40,
+    "applications": 42
+  },
+  "defaultComponents": [
+    "chart-map-united-states",
+    "chart-map-vietnam",
+    "chart-map-world"
+  ],
+  "elements": [
+    {
+      "id": "chart-map-united-states",
+      "globalRoleId": "map-us",
+      "title": "Bản đồ Hoa Kỳ",
+      "purpose": "Đọc 50 tiểu bang và Washington, DC, cùng nguồn đường bao năm 2017.",
+      "kind": "chart",
+      "family": "charts",
+      "view": "library",
+      "systemId": "haha-monochrome",
+      "itemVersion": "1.0.0",
+      "packageVersion": "1.1.0-maps-run42",
+      "source": "maps42/pages/united-states.html",
+      "entry": "design-system-maps.html#chart-map-united-states",
+      "defaultComponent": true,
+      "localMembership": "USER_APPROVED_ADDED",
+      "limit": "Không dùng màu nền làm số liệu; Alaska và Hawaii được đặt lại vị trí, Alaska thu nhỏ tương đối.",
+      "usage": {
+        "use": [
+          "Cần đọc hình dạng và vị trí địa lý với nguồn, giới hạn dữ liệu và thao tác tương tác."
+        ],
+        "avoid": [
+          "Không dùng màu nền làm số liệu; Alaska và Hawaii được đặt lại vị trí, Alaska thu nhỏ tương đối.",
+          "Không dùng để đo đạc, phân định chủ quyền hoặc suy ra dữ liệu thống kê không có trong nguồn."
+        ]
+      },
+      "geometryApproval": {
+        "sourceSha256": "01596b9525f2903ae5f151048dd9328f75206bd89258dfdf12c5f41c20c3cc44",
+        "globalRoleId": "map-us",
+        "preservedGeometrySha256": "1876c178eb8632d0922c5a4b0c5c6eaceddbd1581964b31ca1890a6be9eeee90",
+        "receivingComposition": {
+          "revision": 3,
+          "authority": "Parent measured US SVG bbox -57.63,12.98,1014.69,593.59 and authorized exact receiving-only repair.",
+          "rootViewBox": {
+            "from": "0 0 975 610",
+            "to": "-76 -8 1056 640"
+          },
+          "stateListRule": ".state-list button{min-width:0;overflow-wrap:anywhere}",
+          "pathCoordinatesUnchanged": true,
+          "nativeScriptBytesUnchanged": true,
+          "materialVersion": "1.0.1",
+          "materialHash": "7af4ebf4be745d995c71ed30e828d3b5cd3fadefe1676c628a1e3caeb595d3f5",
+          "currentBrowser": "PENDING_PARENT_CURRENT_RECAPTURE"
+        }
+      },
+      "ruleRefs": [
+        "type",
+        "colors",
+        "spacing",
+        "component-rules",
+        "layout-rules",
+        "motion-rules",
+        "shadow-guideline"
+      ],
+      "adaptation": {
+        "preserve": [
+          "Nguồn địa lý, đường bao và tọa độ",
+          "Điều khiển, bàn phím, phóng to, kéo, giảm chuyển động và bản phẳng dự phòng",
+          "Tên gọi, phạm vi, thông tin tranh chấp và nguồn"
+        ],
+        "mayChange": [
+          "Nội dung thực có nguồn",
+          "Các vai trò màu, logo và bề mặt HAHA"
+        ],
+        "readFiles": [
+          "MAPS42.md",
+          "RULES.md",
+          "TOKENS.md",
+          "SHADOW.md"
+        ]
+      },
+      "rights": {
+        "localMembership": "User approved three named brand variants",
+        "public": "Separate publication/data/asset rights gates retained",
+        "sourceNotice": "maps42/pages/sources.html; embedded source license notices retained"
+      },
+      "readiness": {
+        "geometry": "Accepted path/coordinate bytes preserved; receiving viewBox/text wrap revision3 explicit; current browser pending.",
+        "brandRender": "PENDING_PARENT_BROWSER_PROOF",
+        "controls": "PENDING_PARENT_BROWSER_ACTIONS",
+        "wholeSystem": "Inherited trial/rights limits retained"
+      },
+      "productionAllowed": false,
+      "dataMaterial": {
+        "materialRef": "data-native--map-us@1.0.1",
+        "materialHash": "sha256:7af4ebf4be745d995c71ed30e828d3b5cd3fadefe1676c628a1e3caeb595d3f5",
+        "canonicalPath": ".codex/skills/Visual/html-motion-graphic/functions/effects/libraries/data/native-maps/map-us/1.0.1/",
+        "binding": "Parent supplied exact canonical material identity; approved prototype retained as frozen local source",
+        "status": "DECLARED_PARENT_HASH_PENDING_CANONICAL_READBACK"
+      },
+      "currentSource": {
+        "path": "maps42/pages/united-states.html",
+        "sha256": "873c314e0dcf4489c1a9b756f965861873001bd8d8a0b97bd2e49f70b5c62872"
+      }
+    },
+    {
+      "id": "chart-map-vietnam",
+      "globalRoleId": "map-vietnam",
+      "title": "Bản đồ Việt Nam và các đảo",
+      "purpose": "Đọc đường bờ khái quát và bảy vị trí đại diện có nguồn tại Việt Nam.",
+      "kind": "chart",
+      "family": "charts",
+      "view": "library",
+      "systemId": "haha-monochrome",
+      "itemVersion": "1.0.0",
+      "packageVersion": "1.1.0-maps-run42",
+      "source": "maps42/pages/vietnam.html",
+      "entry": "design-system-maps.html#chart-map-vietnam",
+      "defaultComponent": true,
+      "localMembership": "USER_APPROVED_ADDED",
+      "limit": "Không phải danh mục đầy đủ đảo, đá, bãi cạn và bãi ngầm; không thể hiện ranh giới biển.",
+      "usage": {
+        "use": [
+          "Cần đọc hình dạng và vị trí địa lý với nguồn, giới hạn dữ liệu và thao tác tương tác."
+        ],
+        "avoid": [
+          "Không phải danh mục đầy đủ đảo, đá, bãi cạn và bãi ngầm; không thể hiện ranh giới biển.",
+          "Không dùng để đo đạc, phân định chủ quyền hoặc suy ra dữ liệu thống kê không có trong nguồn."
+        ]
+      },
+      "geometryApproval": {
+        "sourceSha256": "89420106e70fbf5a2ec38222a39baedc4a3876e6b22e160fd78dc4f0b6d7ce6e",
+        "globalRoleId": "map-vietnam",
+        "preservedGeometrySha256": "04a80a2969bd4375126d879b7cb481c998504e025a6bfab66471a70799c6b63e"
+      },
+      "ruleRefs": [
+        "type",
+        "colors",
+        "spacing",
+        "component-rules",
+        "layout-rules",
+        "motion-rules",
+        "shadow-guideline"
+      ],
+      "adaptation": {
+        "preserve": [
+          "Nguồn địa lý, đường bao và tọa độ",
+          "Điều khiển, bàn phím, phóng to, kéo, giảm chuyển động và bản phẳng dự phòng",
+          "Tên gọi, phạm vi, thông tin tranh chấp và nguồn"
+        ],
+        "mayChange": [
+          "Nội dung thực có nguồn",
+          "Các vai trò màu, logo và bề mặt HAHA"
+        ],
+        "readFiles": [
+          "MAPS42.md",
+          "RULES.md",
+          "TOKENS.md",
+          "SHADOW.md"
+        ]
+      },
+      "rights": {
+        "localMembership": "User approved three named brand variants",
+        "public": "Separate publication/data/asset rights gates retained",
+        "sourceNotice": "maps42/pages/sources.html; embedded source license notices retained"
+      },
+      "readiness": {
+        "geometry": "Accepted source geometry preserved",
+        "brandRender": "PENDING_PARENT_BROWSER_PROOF",
+        "controls": "PENDING_PARENT_BROWSER_ACTIONS",
+        "wholeSystem": "Inherited trial/rights limits retained"
+      },
+      "productionAllowed": false,
+      "dataMaterial": {
+        "materialRef": "data-native--map-vietnam@1.0.0",
+        "materialHash": "sha256:3a71c218e361a59640c2c6e506a2b28c3d146094d33df6e626b56cc57c7c30e2",
+        "canonicalPath": ".codex/skills/Visual/html-motion-graphic/functions/effects/libraries/data/native-maps/map-vietnam/1.0.0/",
+        "binding": "Parent supplied exact canonical material identity; approved prototype retained as frozen local source",
+        "status": "DECLARED_PARENT_HASH_PENDING_CANONICAL_READBACK"
+      }
+    },
+    {
+      "id": "chart-map-world",
+      "globalRoleId": "map-world-3d",
+      "title": "Quả địa cầu thế giới 3D",
+      "purpose": "Xoay khối cầu thật, đổi góc nhìn và đọc đường bờ tự nhiên thế giới.",
+      "kind": "chart",
+      "family": "charts",
+      "view": "library",
+      "systemId": "haha-monochrome",
+      "itemVersion": "1.0.0",
+      "packageVersion": "1.1.0-maps-run42",
+      "source": "maps42/pages/world.html",
+      "entry": "design-system-maps.html#chart-map-world",
+      "defaultComponent": true,
+      "localMembership": "USER_APPROVED_ADDED",
+      "limit": "Không phân loại chủ quyền; đảo rất nhỏ có thể vắng ở tỷ lệ khái quát 1:110 triệu.",
+      "usage": {
+        "use": [
+          "Cần đọc hình dạng và vị trí địa lý với nguồn, giới hạn dữ liệu và thao tác tương tác."
+        ],
+        "avoid": [
+          "Không phân loại chủ quyền; đảo rất nhỏ có thể vắng ở tỷ lệ khái quát 1:110 triệu.",
+          "Không dùng để đo đạc, phân định chủ quyền hoặc suy ra dữ liệu thống kê không có trong nguồn."
+        ]
+      },
+      "geometryApproval": {
+        "sourceSha256": "fff7f84ce0bd5732ffb2aebe530a2a9dfafda8eb114aab5bdc6cf1230a6bd9e9",
+        "globalRoleId": "map-world-3d",
+        "preservedGeometrySha256": "b9b6cf9f9f05d80de31f240eb51be77b62189c50098609278d63711a0f2cf4a2"
+      },
+      "ruleRefs": [
+        "type",
+        "colors",
+        "spacing",
+        "component-rules",
+        "layout-rules",
+        "motion-rules",
+        "shadow-guideline"
+      ],
+      "adaptation": {
+        "preserve": [
+          "Nguồn địa lý, đường bao và tọa độ",
+          "Điều khiển, bàn phím, phóng to, kéo, giảm chuyển động và bản phẳng dự phòng",
+          "Tên gọi, phạm vi, thông tin tranh chấp và nguồn"
+        ],
+        "mayChange": [
+          "Nội dung thực có nguồn",
+          "Các vai trò màu, logo và bề mặt HAHA"
+        ],
+        "readFiles": [
+          "MAPS42.md",
+          "RULES.md",
+          "TOKENS.md",
+          "SHADOW.md"
+        ]
+      },
+      "rights": {
+        "localMembership": "User approved three named brand variants",
+        "public": "Separate publication/data/asset rights gates retained",
+        "sourceNotice": "maps42/pages/sources.html; embedded source license notices retained"
+      },
+      "readiness": {
+        "geometry": "Accepted source geometry preserved",
+        "brandRender": "PENDING_PARENT_BROWSER_PROOF",
+        "controls": "PENDING_PARENT_BROWSER_ACTIONS",
+        "wholeSystem": "Inherited trial/rights limits retained"
+      },
+      "productionAllowed": false,
+      "dataMaterial": {
+        "materialRef": "data-native--map-world-3d@1.0.0",
+        "materialHash": "sha256:160019501933a426a5551ee00d130202b9c753358c9e7fa86356bea46298ab89",
+        "canonicalPath": ".codex/skills/Visual/html-motion-graphic/functions/effects/libraries/data/native-maps/map-world-3d/1.0.0/",
+        "binding": "Parent supplied exact canonical material identity; approved prototype retained as frozen local source",
+        "status": "DECLARED_PARENT_HASH_PENDING_CANONICAL_READBACK"
+      }
+    }
+  ],
+  "authority": "Three named maps local membership/default components approved in RUN42; no instruction, registry, runtime or public-release activation",
+  "preservedSidebar": {
+    "path": "sidebar297.css",
+    "sha256": "a0d70997dc5eed3bc896bd589cf36e68005db699f159798cab6db5e1057656f3"
+  }
+}

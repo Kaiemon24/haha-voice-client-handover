@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "portable-slide-template-guidance/v2",
+  "version": "2.1.0",
+  "status": "Shared slide-authoring guidance; activation and reuse follow the selected Design package authority.",
+  "priorityRules": [
+    {
+      "id": "relevant-ai-illustration",
+      "title": "Khuyến khích minh họa bằng AI khi phù hợp",
+      "text": "Với slide nhiều hình, ít chữ, xác định ý nghĩa và vị trí từng khung ảnh. Tạo hình minh họa bằng AI khi phù hợp, đúng nội dung và phong cách thương hiệu; đặt ảnh thật vào placeholder trước khi bàn giao slide hoàn chỉnh. Giữ tỷ lệ, vùng an toàn, điểm nhìn và cách cắt ảnh của mẫu; kiểm ảnh đã tải và không còn khung trống ngoài chủ đích. Mẫu thư viện có thể giữ placeholder trung tính để tái sử dụng; phải ghi rõ đó là mẫu. Tuân thủ quyền sử dụng, riêng tư, chi phí và quy trình Image; không dùng ảnh tạo làm bằng chứng người, sự kiện hay dự án thật, không bịa số liệu."
+    },
+    {
+      "id": "flexible-visual-rhythm",
+      "title": "Nhịp tham chiếu: 3 slide chữ / 1 slide hình",
+      "text": "Dùng mốc 3 slide nhiều chữ, ít hình / 1 slide nhiều hình, ít chữ để rà soát nhịp toàn bộ bài. Không bắt buộc ba slide chữ liên tiếp và không cần chờ đủ ba mới dùng hình. Có thể xen kẽ, đặt hình sớm hoặc dùng nhiều slide hình liên tục khi nội dung phù hợp. Hình phải mang ý nghĩa giải thích; icon nhỏ, nền trang trí và trang chỉ có tiêu đề không được tính. Với bài ngắn hoặc số trang đã chốt, sắp lại trong phạm vi đó; không thêm hình hay trang thừa để đủ tỷ lệ."
+    },
+    {
+      "id": "content-first-clarity",
+      "title": "Theo nội dung; trực quan, ngắn và dễ hiểu",
+      "text": "Chọn template và cách sắp xếp theo câu hỏi cần trả lời, không ép nội dung vào một công thức cố định. Ưu tiên trực quan hóa bằng các component hiện có khi giúp người đọc hiểu nhanh hơn: sơ đồ cho quan hệ hoặc tiến trình, biểu đồ cho dữ liệu, ảnh cho bối cảnh và ví dụ. Mỗi slide tập trung một thông điệp; viết ngắn gọn, đi thẳng vào ý chính, dùng từ dễ hiểu. Giữ dữ kiện, điều kiện và nguồn cần thiết; không rút gọn đến mất nghĩa."
+    }
+  ],
+  "rules": [
+    {
+      "id": "relevant-ai-illustration",
+      "title": "Khuyến khích minh họa bằng AI khi phù hợp",
+      "text": "Với slide nhiều hình, ít chữ, xác định ý nghĩa và vị trí từng khung ảnh. Tạo hình minh họa bằng AI khi phù hợp, đúng nội dung và phong cách thương hiệu; đặt ảnh thật vào placeholder trước khi bàn giao slide hoàn chỉnh. Giữ tỷ lệ, vùng an toàn, điểm nhìn và cách cắt ảnh của mẫu; kiểm ảnh đã tải và không còn khung trống ngoài chủ đích. Mẫu thư viện có thể giữ placeholder trung tính để tái sử dụng; phải ghi rõ đó là mẫu. Tuân thủ quyền sử dụng, riêng tư, chi phí và quy trình Image; không dùng ảnh tạo làm bằng chứng người, sự kiện hay dự án thật, không bịa số liệu."
+    },
+    {
+      "id": "flexible-visual-rhythm",
+      "title": "Nhịp tham chiếu: 3 slide chữ / 1 slide hình",
+      "text": "Dùng mốc 3 slide nhiều chữ, ít hình / 1 slide nhiều hình, ít chữ để rà soát nhịp toàn bộ bài. Không bắt buộc ba slide chữ liên tiếp và không cần chờ đủ ba mới dùng hình. Có thể xen kẽ, đặt hình sớm hoặc dùng nhiều slide hình liên tục khi nội dung phù hợp. Hình phải mang ý nghĩa giải thích; icon nhỏ, nền trang trí và trang chỉ có tiêu đề không được tính. Với bài ngắn hoặc số trang đã chốt, sắp lại trong phạm vi đó; không thêm hình hay trang thừa để đủ tỷ lệ."
+    },
+    {
+      "id": "content-first-clarity",
+      "title": "Theo nội dung; trực quan, ngắn và dễ hiểu",
+      "text": "Chọn template và cách sắp xếp theo câu hỏi cần trả lời, không ép nội dung vào một công thức cố định. Ưu tiên trực quan hóa bằng các component hiện có khi giúp người đọc hiểu nhanh hơn: sơ đồ cho quan hệ hoặc tiến trình, biểu đồ cho dữ liệu, ảnh cho bối cảnh và ví dụ. Mỗi slide tập trung một thông điệp; viết ngắn gọn, đi thẳng vào ý chính, dùng từ dễ hiểu. Giữ dữ kiện, điều kiện và nguồn cần thiết; không rút gọn đến mất nghĩa."
+    },
+    {
+      "id": "semantic-headline-icons",
+      "title": "Dùng icon có nghĩa ở tiêu đề",
+      "text": "Đặt một icon phù hợp với ý chính bên cạnh tiêu đề slide hoặc tiêu đề nhóm khi giúp định hướng và hợp mẫu đã chọn. Dùng bộ icon đã duyệt của thương hiệu; đồng bộ nét, kích thước, màu và khoảng cách với chữ. Giữ tiêu đề là chữ đọc được, căn icon theo nhóm chữ thực tế kể cả khi xuống dòng; icon không thay nội dung, không che chữ và không thay hình minh họa chính. Kiểm tiêu đề cùng icon trên bản HTML và PDF cuối. Với tiêu đề đã khóa, trích nguyên văn hoặc mẫu chủ đích không có icon, giữ thiết kế và ghi lý do."
+    },
+    {
+      "title": "Giữ nghĩa trước khi rút gọn",
+      "text": "Đọc toàn bộ nguồn. Chọn câu hỏi chính cho từng slide, viết lại ngắn và rõ theo giọng được hướng dẫn trong cẩm nang này. Giữ người phụ trách, số/đơn vị, thứ tự, điều kiện, phủ định và trạng thái đề xuất hoặc ví dụ. Không biến lịch tham chiếu thành cam kết. Ghi rõ phần gộp, đưa vào ghi chú/phụ lục hoặc loại khỏi phạm vi."
+    },
+    {
+      "title": "Chọn cách chia ý",
+      "text": "Một ý giải thích liên tục dùng đoạn ngắn. Nhiều ý song song dùng danh sách có bullet; các bước có thứ tự dùng số; so sánh dùng bảng; quan hệ dùng sơ đồ đúng nghĩa. Số ngoài thẻ không thay cho danh sách các tác vụ bên trong. Chỉ dùng icon thay bullet khi nó bổ sung nghĩa và hợp bộ biểu tượng của thương hiệu."
+    },
+    {
+      "title": "Nhấn từ khóa trong thân bài",
+      "text": "In đậm chọn lọc từ/cụm từ quan trọng trong thân bài bằng phông đậm thật của thương hiệu; phần còn lại thường. Giữ phủ định và điều kiện cần hiểu. Không lấy tiêu đề đậm hoặc cả đoạn đậm làm bằng chứng rằng từ khóa đã được nhấn đúng."
+    },
+    {
+      "title": "Kiểm chính bản xuất cuối",
+      "text": "Giữ phông, màu, bóng, khung và vùng an toàn của thương hiệu trong cẩm nang. Kiểm bản xuất thật: đủ ý/điều kiện; tiếng Việt đủ dấu; bullet và chữ đậm đúng; hình không mất/cắt; nhịp toàn bộ bộ slide đạt; nguồn và chú thích đúng. Sửa lỗi trước bàn giao. Chỉ khẳng định đã tuân thủ sau khi kiểm chính đầu ra đó."
+    }
+  ],
+  "relationshipTable": [
+    [
+      "Một ý liên tục",
+      "Đoạn ngắn",
+      "Không cắt vụn câu bằng dấu đầu dòng."
+    ],
+    [
+      "Nhiều ý song song",
+      "Danh sách gạch đầu dòng",
+      "Một ý độc lập trên mỗi mục."
+    ],
+    [
+      "Các bước có thứ tự",
+      "Số hoặc sơ đồ tiến trình",
+      "Giữ đúng thứ tự và người phụ trách."
+    ],
+    [
+      "So sánh cùng tiêu chí",
+      "Bảng đối chiếu",
+      "Dùng chung tiêu chí cho các đối tượng."
+    ],
+    [
+      "Số liệu hoặc quan hệ",
+      "Biểu đồ hoặc sơ đồ",
+      "Chỉ vẽ dữ liệu và quan hệ có nguồn."
+    ]
+  ],
+  "example": [
+    [
+      "Đọc toàn bộ nguồn",
+      " trước khi chọn ý chính."
+    ],
+    [
+      "Giữ điều kiện và phủ định",
+      " khi viết ngắn lại."
+    ],
+    [
+      "Chọn hình giải thích",
+      " đúng quan hệ cần truyền đạt."
+    ]
+  ],
+  "cadence": {
+    "textToVisualReference": [
+      3,
+      1
+    ],
+    "requiresConsecutiveText": false,
+    "requiresMinimumTextRun": false,
+    "contentFirst": true,
+    "shortOrFixedCount": "recompose without filler or page inflation"
+  },
+  "scope": "Shared slide authoring; target brand fonts, palette and existing component library remain controlling.",
+  "brand": "HAHA",
+  "portableHTML": "<section class=\"reader-guide\" id=\"slide-template-guidance\" data-reader-guide=\"2.1.0\" aria-labelledby=\"reader-guide-title\"><p class=\"rg-label\">HAHA / HƯỚNG DẪN DÙNG SLIDE TEMPLATE</p><h2 id=\"reader-guide-title\">Làm slide theo nội dung</h2><p class=\"rg-intro\">Chọn đúng ý. Giải thích trực quan. Viết ngắn và dễ hiểu.</p><ol class=\"rg-rules rg-priority\"><li><h3>Khuyến khích minh họa bằng AI khi phù hợp</h3><p>Với slide nhiều hình, ít chữ, xác định ý nghĩa và vị trí từng khung ảnh. Tạo hình minh họa bằng AI khi phù hợp, đúng nội dung và phong cách thương hiệu; đặt ảnh thật vào placeholder trước khi bàn giao slide hoàn chỉnh. Giữ tỷ lệ, vùng an toàn, điểm nhìn và cách cắt ảnh của mẫu; kiểm ảnh đã tải và không còn khung trống ngoài chủ đích. Mẫu thư viện có thể giữ placeholder trung tính để tái sử dụng; phải ghi rõ đó là mẫu. Tuân thủ quyền sử dụng, riêng tư, chi phí và quy trình Image; không dùng ảnh tạo làm bằng chứng người, sự kiện hay dự án thật, không bịa số liệu.</p></li><li><h3>Nhịp tham chiếu: 3 slide chữ / 1 slide hình</h3><p>Dùng mốc 3 slide nhiều chữ, ít hình / 1 slide nhiều hình, ít chữ để rà soát nhịp toàn bộ bài. <strong>Không bắt buộc ba slide chữ liên tiếp</strong> và không cần chờ đủ ba mới dùng hình. Có thể xen kẽ, đặt hình sớm hoặc dùng nhiều slide hình liên tục khi nội dung phù hợp. Hình phải mang ý nghĩa giải thích; icon nhỏ, nền trang trí và trang chỉ có tiêu đề không được tính. Với bài ngắn hoặc số trang đã chốt, sắp lại trong phạm vi đó; không thêm hình hay trang thừa để đủ tỷ lệ.</p></li><li><h3>Theo nội dung; trực quan, ngắn và dễ hiểu</h3><p>Chọn template và cách sắp xếp <strong>theo câu hỏi cần trả lời</strong>, không ép nội dung vào một công thức cố định. Ưu tiên trực quan hóa bằng các component hiện có khi giúp người đọc hiểu nhanh hơn: sơ đồ cho quan hệ hoặc tiến trình, biểu đồ cho dữ liệu, ảnh cho bối cảnh và ví dụ. Mỗi slide tập trung một thông điệp; viết ngắn gọn, đi thẳng vào ý chính, dùng từ dễ hiểu. Giữ dữ kiện, điều kiện và nguồn cần thiết; không rút gọn đến mất nghĩa.</p></li></ol><details class=\"rg-detail\"><summary>Giữ nghĩa, cấu trúc và kiểm bản xuất</summary><ol class=\"rg-rules\"><li><h3>Dùng icon có nghĩa ở tiêu đề</h3><p>Đặt một icon phù hợp với ý chính bên cạnh tiêu đề slide hoặc tiêu đề nhóm khi giúp định hướng và hợp mẫu đã chọn. Dùng bộ icon đã duyệt của thương hiệu; đồng bộ nét, kích thước, màu và khoảng cách với chữ. Giữ tiêu đề là chữ đọc được, căn icon theo nhóm chữ thực tế kể cả khi xuống dòng; icon không thay nội dung, không che chữ và không thay hình minh họa chính. Kiểm tiêu đề cùng icon trên bản HTML và PDF cuối. Với tiêu đề đã khóa, trích nguyên văn hoặc mẫu chủ đích không có icon, giữ thiết kế và ghi lý do.</p></li><li><h3>Giữ nghĩa trước khi rút gọn</h3><p>Đọc toàn bộ nguồn. Chọn câu hỏi chính cho từng slide, viết lại ngắn và rõ theo giọng được hướng dẫn trong cẩm nang này. Giữ người phụ trách, số/đơn vị, thứ tự, điều kiện, phủ định và trạng thái đề xuất hoặc ví dụ. Không biến lịch tham chiếu thành cam kết. Ghi rõ phần gộp, đưa vào ghi chú/phụ lục hoặc loại khỏi phạm vi.</p></li><li><h3>Chọn cách chia ý</h3><p>Một ý giải thích liên tục dùng đoạn ngắn. Nhiều ý song song dùng danh sách có bullet; các bước có thứ tự dùng số; so sánh dùng bảng; quan hệ dùng sơ đồ đúng nghĩa. Số ngoài thẻ không thay cho danh sách các tác vụ bên trong. Chỉ dùng icon thay bullet khi nó bổ sung nghĩa và hợp bộ biểu tượng của thương hiệu.</p></li><li><h3>Nhấn từ khóa trong thân bài</h3><p>In đậm chọn lọc từ/cụm từ quan trọng trong thân bài bằng phông đậm thật của thương hiệu; phần còn lại thường. Giữ phủ định và điều kiện cần hiểu. Không lấy tiêu đề đậm hoặc cả đoạn đậm làm bằng chứng rằng từ khóa đã được nhấn đúng.</p></li><li><h3>Kiểm chính bản xuất cuối</h3><p>Giữ phông, màu, bóng, khung và vùng an toàn của thương hiệu trong cẩm nang. Kiểm bản xuất thật: đủ ý/điều kiện; tiếng Việt đủ dấu; bullet và chữ đậm đúng; hình không mất/cắt; nhịp toàn bộ bộ slide đạt; nguồn và chú thích đúng. Sửa lỗi trước bàn giao. Chỉ khẳng định đã tuân thủ sau khi kiểm chính đầu ra đó.</p></li></ol><h3>Chọn hình thức theo quan hệ nội dung</h3><div class=\"rg-table-scroll\"><table><thead><tr><th>Nội dung</th><th>Cách thể hiện</th><th>Điều cần giữ</th></tr></thead><tbody><tr><td>Một ý liên tục</td><td>Đoạn ngắn</td><td>Không cắt vụn câu bằng dấu đầu dòng.</td></tr><tr><td>Nhiều ý song song</td><td>Danh sách gạch đầu dòng</td><td>Một ý độc lập trên mỗi mục.</td></tr><tr><td>Các bước có thứ tự</td><td>Số hoặc sơ đồ tiến trình</td><td>Giữ đúng thứ tự và người phụ trách.</td></tr><tr><td>So sánh cùng tiêu chí</td><td>Bảng đối chiếu</td><td>Dùng chung tiêu chí cho các đối tượng.</td></tr><tr><td>Số liệu hoặc quan hệ</td><td>Biểu đồ hoặc sơ đồ</td><td>Chỉ vẽ dữ liệu và quan hệ có nguồn.</td></tr></tbody></table></div><div class=\"rg-example\"><h3>Ví dụ: nhiều việc song song</h3><ul><li><strong>Đọc toàn bộ nguồn</strong> trước khi chọn ý chính.</li><li><strong>Giữ điều kiện và phủ định</strong> khi viết ngắn lại.</li><li><strong>Chọn hình giải thích</strong> đúng quan hệ cần truyền đạt.</li></ul></div></details><p>Ví dụ hợp lệ: chữ → hình → chữ → hình; hoặc hình → hình → chữ. Không phải chờ đủ ba slide chữ mới dùng hình.</p><div class=\"rg-links\"><a href=\"design-system.pdf\">PDF bản trước · chưa cập nhật</a><a href=\"DESIGN.md#huong-dan-dung-slide-template\">Đọc hướng dẫn dạng văn bản</a><a href=\"#slides-image\">Chọn mẫu nhiều hình</a></div></section>",
+  "sourceSha256": "2058e7cacd3ddb3139c6c73bbe12868bf6deba102fd7aca9adb723130c231dfd"
+}

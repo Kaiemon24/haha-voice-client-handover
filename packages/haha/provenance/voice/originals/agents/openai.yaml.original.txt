@@ -1,6 +1,0 @@
-interface:
-  display_name: "Voice"
-  short_description: "Apply and review EN/VI reader copy"
-  default_prompt: "Use $voice to apply the controlling voice and review the final merged reader copy."
-policy:
-  allow_implicit_invocation: true

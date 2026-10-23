@@ -6,13 +6,13 @@ description: Apply the bundled HAHA design system and brand voice to visual and 
 
 ## Chọn dữ liệu
 
-Tìm `Brand asset/HAHA/Design system` trong workspace được khách chọn khi cài. Dùng `scripts/inspect_haha.py` để kiểm manifest và phiên bản; có thể truyền `--brand-root` khi gói chưa cài. Đọc bảng đường dẫn mở đầu `DESIGN.md`, sau đó chỉ mở phần/quy tắc/mẫu phù hợp nhiệm vụ. Không quét toàn bộ máy, chọn thư mục mới nhất hay lấy nhận diện thương hiệu khác thay HAHA.
+Tìm `assets/design-system/package` bên trong thư mục của chính skill này; xác định theo đường dẫn SKILL.md đã được nạp, không theo thư mục shell. Dùng `scripts/inspect_haha.py` để kiểm manifest và phiên bản; có thể truyền `--brand-root` khi gói chưa cài. Đọc bảng đường dẫn mở đầu `DESIGN.md`, sau đó chỉ mở phần/quy tắc/mẫu phù hợp nhiệm vụ. Không quét toàn bộ máy, chọn thư mục mới nhất hay lấy nhận diện thương hiệu khác thay HAHA.
 
 ## Áp dụng
 
 Đọc `references/apply-design.md` và `references/quality-checks.md` trước khi dựng. Dùng vật liệu và thành phần thật của HAHA: font, vai trò màu, chữ đậm, hình học, bảng có khung/khoảng đệm, trạng thái, nền và bóng theo `SHADOW.md`. Với điều hướng, đọc `NAVIGATION.md`: nhóm chính dùng thẻ có bóng2px; mục con dùng dấu đầu dòng, thụt thêm20px và không có bóng riêng. Mỗi vùng nội dung phải có mẫu được chọn hoặc lý do không dùng. Giữ chức năng và loại mẫu; được thay đổi hình ảnh/bố cục theo nhiệm vụ khi vẫn phù hợp HAHA.
 
-Với nội dung đọc/nghe, `VOICE.md` trong bộ HAHA là hướng dẫn thương hiệu. Voice chung đi kèm trong the bundled `voice` sibling selected during installation bổ sung phương pháp EN/VI, kiểm nghĩa và tình huống; không thay giọng thương hiệu đã duyệt. Voice nói ở đây là cách viết kịch bản để nói, không phải tạo âm thanh.
+Với nội dung đọc/nghe, `VOICE.md` trong bộ HAHA là hướng dẫn thương hiệu. Voice chung đi kèm trong skill `voice` cùng cấp đã chọn khi cài bổ sung phương pháp EN/VI, kiểm nghĩa và tình huống; không thay giọng thương hiệu đã duyệt. Voice nói ở đây là cách viết kịch bản để nói, không phải tạo âm thanh.
 
 Logo giữ hình chữ gốc, tỷ lệ và vùng đặt theo `LOGO.md`; không vẽ lại, gõ lại hay tự đặt mascot. Hình AI là minh họa. Đọc `CLIENT-USE.md` về phạm vi tài sản và các giới hạn alpha/in/video. Nguồn nghiên cứu không phải tài sản HAHA được phép phân phối lại.
 
@@ -24,10 +24,14 @@ Không báo đã lưu/gửi/thanh toán/cài/xuất bản khi chưa có thao tá
 
 ## Tệp đi kèm
 
-`references/apply-design.md`, `references/quality-checks.md`, `scripts/inspect_haha.py`, bộ HAHA trong Brand asset, và Voice đi kèm. Không cần Design, Teacher Mode, Skill Manager hay thư mục dự án của bên tạo để chạy.
+`references/apply-design.md`, `references/quality-checks.md`, `scripts/inspect_haha.py`, bộ HAHA trong assets/design-system/package, và Voice đi kèm. Không cần Design, Teacher Mode, Skill Manager hay thư mục dự án của bên tạo để chạy.
 
 ## Client installation and discovery
 
 For explicit install/adopt/integrate requests, read `references/client-integration.md`. This delivery defaults to workspace `.agents/skills`; preserve the client OS routing and approval rules. Ordinary application does not rerun setup.
 
 For new reusable visual elements, read `references/library-elements.md`; keep baseline source immutable and index only verified, approved client extensions.
+
+## Phiên bản và tài liệu hiện hành
+
+Bản dữ liệu: **1.2.11-reader**. Đọc `references/current-production.md` trước khi tạo đầu ra. Thư viện có đúng Overview và Library; Logo, Design và Edit nằm trong Overview. Bốn tài liệu theo công việc nằm tại `assets/design-system/documents/index.html`; chúng là PDF đã kiểm sẵn, không phải chứng nhận cho đầu ra mới. Giữ Voice đi kèm nguyên bản; không nâng cấp, ghi đè hoặc đổi quyền Voice đã có.

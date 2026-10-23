@@ -1,47 +1,18 @@
 {
   "schemaVersion": "client-github-release/v1",
-  "tag": "v1.1.1",
+  "tag": "v1.2.11-reader",
   "repo": "Kaiemon24/haha-voice-client-handover",
   "packages": [
     {
-      "name": "HAHA-Voice-1.1.1-client",
-      "version": "1.1.1",
-      "file": "HAHA-Voice-1.1.1-client.zip",
-      "sha256": "cddcc1fe8d1510ff33f55ae9e78254e3b612ead1ba3ffe6287a6114271e4d693",
-      "bytes": 16783261,
-      "downloadUrl": "https://github.com/Kaiemon24/haha-voice-client-handover/releases/download/v1.1.1/HAHA-Voice-1.1.1-client.zip",
-      "source": "Full source/skill closure inside release ZIP; packages/ folder remains historical"
+      "name": "HAHA-Voice-1.2.11-reader-client",
+      "version": "1.2.11-reader",
+      "file": "HAHA-Voice-1.2.11-reader-client.zip",
+      "sha256": "0e87ff8fd0d6e00f520368092b7d3bc6dee5bf5959c1f198614a8f3c2e180fa8",
+      "bytes": 75154317,
+      "downloadUrl": "https://github.com/Kaiemon24/haha-voice-client-handover/releases/download/v1.2.11-reader/HAHA-Voice-1.2.11-reader-client.zip"
     }
   ],
-  "sourceSnapshot": "non-canonical delivery snapshots only",
-  "access": "public; anonymous release download",
-  "recipientAcceptance": "PENDING; local tests do not certify recipient discovery/task/signature",
-  "previousReleases": [
-    {
-      "schemaVersion": "client-github-release/v1",
-      "tag": "v1.1.0",
-      "repo": "Kaiemon24/haha-voice-client-handover",
-      "packages": [
-        {
-          "name": "HAHA-Design-System-1.1.0-client",
-          "version": "1.1.0",
-          "file": "HAHA-Design-System-1.1.0-client.zip",
-          "sha256": "a1f34b73d63324ea1510606f666b046bc7b36dd50dd357293680debec01cee3c",
-          "bytes": 16829168,
-          "packagePath": "packages/haha"
-        },
-        {
-          "name": "Voice-OS-1.0.1-client",
-          "version": "1.0.1",
-          "file": "Voice-OS-1.0.1-client.zip",
-          "sha256": "89c83fa58ea8fc9d8c4462a708656805397f6cae196fe155beda52d7667416b3",
-          "bytes": 499552,
-          "packagePath": "packages/voice"
-        }
-      ],
-      "sourceSnapshot": "delivery snapshots only",
-      "access": "public; anonymous read and release download",
-      "methods": "Voice rules/scripts retained; discovery/install docs updated"
-    }
-  ]
+  "voicePreservation": "Exact30Voice files from1.1.1; existing packages/voice and standaloneVoice release assets remain unchanged.",
+  "recipientAcceptance": "PENDING",
+  "availabilityCheck": "Verify the exact pinned release URL and archive SHA-256 before extraction or use."
 }
