@@ -1,9 +1,9 @@
-# Bản đồ bàn giao
+# Bản đồ bàn giao HAHA
 
-- source/skill/haha: adapter, quy tắc áp dụng, kiểm tra và thư viện HAHA 1.2.11-reader.
-- source/skill/voice: 30 tệp nguyên byte từ archive 1.1.1, không nâng cấp.
-- assets/design-system/package: thư viện HTML, Markdown, font/hình/data/phụ thuộc.
-- assets/design-system/documents: bốn PDF đã kiểm, hash và giới hạn.
-- installer: xem trước, áp dụng có xác nhận, xung đột không ghi đè, khôi phục tệp vừa tạo đúng mã.
-- provenance/source-map.json: nguồn và thích nghi; manifest/checksums: danh sách cài và mã kiểm.
-- HAHA-Voice-work: dữ liệu/extension khách, không thuộc baseline.
+- source/skill/haha: hướng dẫn, bộ kiểm và toàn bộ tài nguyên đã chọn.
+- assets/design-system: HTML, quy tắc, giọng và bốn PDF hiện hành.
+- installer: cài mới cộng thêm, xem trước, chống ghi đè và đọc lại.
+- SETUP.md và INSTALL.md: quy trình tự thiết lập có cổng quyền máy đích.
+- provenance/source-map.json: mã nguồn và bản thích nghi bàn giao; không phải chỉ dẫn OS nguồn.
+- sop và handover: hướng dẫn thao tác, quy trình và bản đồ tệp.
+- Voice: gói chung hiện có giữ nguyên; nguồn đi kèm HAHA giữ đúng byte.

@@ -1,0 +1,145 @@
+/* Receiving-only vertical reading composition.
+   Parent opts the cloned iframe into html[data-melab-receiving="reading"].
+   Append after original CSS and injected fixed-canvas rules.
+   Desktop exact-canvas fit uses a separate mode; never apply this to originals. */
+html[data-melab-receiving="reading"] body.asset-doc {
+  width:100%!important; min-width:0!important; max-width:100%!important;
+  height:auto!important; min-height:0!important; margin:0!important; padding:0!important;
+  overflow:visible!important; box-sizing:border-box!important;
+}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas {
+  width:100%!important; max-width:100%!important; min-width:0!important;
+  height:auto!important; min-height:0!important; aspect-ratio:auto!important;
+  padding:16px!important; margin:0!important; transform:none!important;
+  display:flex!important; flex-direction:column!important; gap:24px;
+}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas :is(
+ .s283-band,.s283-agenda,.s283-hero,.s283-image-grid,.s283-matrix,.s283-evidence,.s283-plan,.s283-metrics,
+ .s284-grid,.s284-pair,.s284-mosaic,.s284-detail,.s284-detail-parts,.s284-collage,.s284-dashboard,
+ .s284-overview,.s284-three-metrics,.s284-sections,
+ .s285-divider,.s285-consumer,.s285-market,.s285-sales,.s285-competitors,.s285-table-image-row,
+ .s285-market-metrics,.s285-thanks-images
+) { grid-template-columns:minmax(0,1fr)!important; gap:24px!important; width:100%!important; min-width:0!important; }
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas :is(
+ .s283-story>div,.s284-mixed>section,.s285-section-images>div,.s285-product-trends>section
+) { grid-template-columns:minmax(0,1fr)!important; gap:24px!important; min-width:0!important; }
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas :is(
+ .s283-head,.s283-body,.s283-footer,.s283-panel,.s283-table,.s283-chart,
+ .s285-consumer-center,.s285-product-trends,.s285-section-images,.s284-split-words,.s284-bg-message
+) { min-width:0!important; max-width:100%!important; height:auto!important; min-height:0!important; flex-shrink:0!important; }
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas .s283-body {
+  flex:none!important; justify-content:flex-start!important; align-items:stretch!important;
+}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas .s284-slot {
+  width:100%!important; max-width:100%!important; min-width:0!important; height:auto!important;
+}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas :is(
+ .default-cover .s284-slot,.image-grid .s284-slot,.image-mosaic .s284-slot
+) { aspect-ratio:16/9!important; }
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas :is(.s284-bg,.s284-side-bg) {
+  position:relative!important; inset:auto!important; width:100%!important; height:auto!important; order:2!important;
+}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas .s284-bg { aspect-ratio:16/9!important; }
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas .s284-side-bg { aspect-ratio:4/7!important; }
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas:is(.image-background,.image-split) .s283-head {
+  order:0!important; width:100%!important; margin-left:0!important; margin-top:0!important; position:relative!important;
+}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas:is(.image-background,.image-split) .s283-body {
+  order:1!important; width:100%!important; margin-left:0!important; position:relative!important;
+}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas:is(.image-background,.image-split) .s283-footer {
+  order:3!important; width:100%!important; margin-left:0!important; position:relative!important;
+}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas .s283-labels {
+  flex-wrap:wrap!important; gap:16px!important;
+}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas :is(.s283-chart,.s283-table) {
+  overflow:visible!important; max-width:100%!important; min-width:0!important;
+}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas svg {
+  display:block; width:100%!important; max-width:100%!important; min-width:0!important;
+  height:auto!important; max-height:none!important;
+}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas .s284-placeholder {display:flex!important;flex-direction:column!important;align-items:center;justify-content:center;gap:12px;padding:16px;text-align:center;min-width:0}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas .s284-placeholder svg {width:36px!important;height:36px!important;flex:none!important}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas .s283-footer {display:flex!important;flex-wrap:wrap!important;justify-content:space-between!important;gap:16px!important}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas .s283-footer>span {display:flex!important;align-items:center;gap:12px;min-width:0;flex-wrap:wrap}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas table {
+  width:100%!important; min-width:0!important; max-width:100%!important; table-layout:fixed!important;
+}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas :is(th,td) {
+  min-width:0!important; max-width:100%!important; white-space:normal!important; overflow-wrap:anywhere;
+}
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas h2 { font-size:32px!important; line-height:1.2!important; }
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas h3 { font-size:24px!important; line-height:1.3!important; }
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas h4 { font-size:20px!important; line-height:1.4!important; }
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas :is(p,li) { font-size:20px!important; line-height:1.5!important; }
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas :is(th,td) { font-size:18px!important; line-height:1.5!important; padding:12px!important; }
+html[data-melab-receiving="reading"] body.asset-doc .slide-canvas :is(small,.s283-eyebrow,.s283-footer) {
+  font-size:16px!important; line-height:1.5!important;
+}
+html[data-melab-receiving="reading"] .catalogue-table-reading {display:grid;gap:16px;width:100%;font-size:18px;line-height:1.5}
+html[data-melab-receiving="reading"] .catalogue-table-reading dl {margin:0;padding:16px;border:1px solid #D9E0EF;border-radius:12px;display:grid;grid-template-columns:minmax(0,1fr);gap:4px}
+html[data-melab-receiving="reading"] .catalogue-table-reading dt {font-weight:700;margin-top:12px}
+html[data-melab-receiving="reading"] .catalogue-table-reading dt:first-child {margin-top:0}
+html[data-melab-receiving="reading"] .catalogue-table-reading dd {margin:0 0 8px;overflow-wrap:anywhere}
+html[data-melab-receiving="reading"] .catalogue-chart-reading {margin:16px 0;font-size:16px;line-height:1.6;padding:16px;border:1px solid #D9E0EF;border-radius:12px}
+html[data-melab-receiving="reading"] .catalogue-chart-reading :is(summary,li) {font-size:16px!important;line-height:1.6!important}
+/* SVG viewBox labels may still shrink: add an unscaled complete data reading
+   projection or regenerate responsive chart labels. This CSS alone cannot
+   certify a 16px effective chart-label floor.
+   For >3 columns prefer semantic vertical row-cards with every header/value;
+   table-layout:fixed is only a conservative wrapping fallback. */
+
+/* Paired receiving colors apply to both whole-canvas and vertical modes.
+   The original native recipe has a fixed pale image slot, while its dark
+   ink token changes independently; repair the complete pair in the clone. */
+body.asset-doc.dark .slide-canvas :is(.s284-slot,.s284-placeholder) {
+  background:#263756!important; color:#F7F9FF!important;
+  border-color:#AFC2FF!important;
+}
+body.asset-doc.dark .slide-canvas .s284-placeholder :is(strong,small) {
+  color:#F7F9FF!important;
+}
+body.asset-doc.dark .slide-canvas :is(.s284-placeholder svg,.s283-eyebrow) {
+  color:#AFC2FF!important;
+}
+
+/* Native long specimens keep their own vertical document. Remove inherited
+   fixed chart tracks in this receiver and preserve complete unscaled data. */
+html[data-melab-receiving="flow"] body.asset-doc .demo:has(.chart-svg) {
+  overflow:visible!important;min-width:0!important;max-width:100%!important;
+}
+html[data-melab-receiving="flow"] body.asset-doc :is(.chart-svg,.k241-chart svg) {
+  width:100%!important;min-width:0!important;max-width:100%!important;height:auto!important;
+}
+@media(max-width:760px){
+ html[data-melab-receiving="flow"] body.asset-doc :is(.demo,.k240,.q280-words,.connection267-node) {
+  min-width:0!important;max-width:100%!important;box-sizing:border-box!important;overflow-wrap:anywhere!important;
+ }
+ html[data-melab-receiving="flow"] body.asset-doc .demo {padding:16px!important}
+ html[data-melab-receiving="flow"] body.asset-doc .k240 {--k-inset:16px!important;--k-card-inset:16px!important;--k-gap:16px!important;--k-head:32px!important}
+ html[data-melab-receiving="flow"] body.asset-doc :is(.k240-head,.k240-head [data-role],.k240-media figure,.k240-media [data-role],.q280-words *) {
+  min-width:0!important;overflow-wrap:anywhere!important;
+ }
+ html[data-melab-receiving="flow"] body.asset-doc .k240-media {grid-template-columns:minmax(0,1fr)!important}
+ html[data-melab-receiving="flow"] body.asset-doc :is(.button268-table-wrap,.k240-table-wrap) {overflow:visible!important;min-width:0!important}
+ html[data-melab-receiving="flow"] body.asset-doc :is(.catalogue-table-reading,.catalogue-chart-reading) {font-size:16px;line-height:1.6;min-width:0;width:100%}
+ html[data-melab-receiving="flow"] .catalogue-table-reading {display:grid;gap:16px}
+ html[data-melab-receiving="flow"] .catalogue-table-reading dl {margin:0;padding:16px;border:1px solid var(--line);border-radius:12px;display:grid;grid-template-columns:minmax(0,1fr);gap:4px}
+ html[data-melab-receiving="flow"] .catalogue-table-reading dt {font-weight:700;margin-top:12px}
+ html[data-melab-receiving="flow"] .catalogue-table-reading dt:first-child {margin-top:0}
+ html[data-melab-receiving="flow"] .catalogue-table-reading dd {margin:0 0 8px;overflow-wrap:anywhere}
+ html[data-melab-receiving="flow"] body.asset-doc .k241 .k241-bar-row {grid-template-columns:minmax(0,1fr) 32px!important;gap:8px!important}
+ html[data-melab-receiving="flow"] body.asset-doc .k241 .k241-bar-row [data-variant="row-label"] {grid-column:1/-1}
+ html[data-melab-receiving="flow"] body.asset-doc .k241 .k241-axis {margin-left:0!important;margin-right:40px!important}
+ html[data-melab-receiving="flow"] body.asset-doc .demo:has(.connector267-variants) {padding:0!important}
+ html[data-melab-receiving="flow"] body.asset-doc :is(.relation265-demo,.connection267-dashed,.connection267-curved) {
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:24px!important;
+ }
+ html[data-melab-receiving="flow"] body.asset-doc :is(.relation265-demo>.relation-source,.relation265-demo .card,.connection267-node) {padding:20px!important}
+ html[data-melab-receiving="flow"] body.asset-doc :is(.relation-source,.relation-targets .card,.connection267-node) :is(strong,p) {
+  overflow-wrap:normal!important;word-break:normal!important;
+ }
+}
+

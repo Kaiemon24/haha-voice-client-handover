@@ -1,0 +1,379 @@
+{
+  "version": "285.1-review",
+  "canvas": [
+    1280,
+    720
+  ],
+  "requiredBase": [
+    "default-cover",
+    "default-agenda",
+    "default-divider",
+    "default-close"
+  ],
+  "counts": {
+    "slides-default": 4,
+    "slides-image": 10,
+    "slides-text": 13
+  },
+  "layouts": [
+    {
+      "id": "default-cover",
+      "title": "Mở đầu báo cáo",
+      "group": "slides-default",
+      "signature": "title+onepanorama+presenter",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "c9bb71dfff03e18f8b78aba083a2d4f3bab523441b7333d8741ba6b30d39c666",
+      "locator": "1",
+      "adaptation": "Tiêu đề, thông tin báo cáo và một dải ảnh toàn cảnh. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "User screenshot and full-size file inspected"
+    },
+    {
+      "id": "default-agenda",
+      "title": "Mục lục",
+      "group": "slides-default",
+      "signature": "portrait+numberedagenda",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "4ba36957498c25615a3b72315989818dd04ef0def4bc2b6b2c7ba6e1503b7ab4",
+      "locator": "2",
+      "adaptation": "Ảnh dọc bên trái; danh sách phần có mô tả bên phải. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "User screenshot and full-size file inspected",
+      "usage": {
+        "function": "Dẫn đường cho toàn báo cáo.",
+        "content": "Tên các phần lớn theo đúng thứ tự; số phần và mô tả ngắn nếu cần.",
+        "use": "Đặt sau trang mở đầu. Không liệt kê các mục chi tiết bên trong từng phần.",
+        "capacity": "Mẫu này có ba phần; thêm phần phải kiểm lại hoặc tách trang.",
+        "role": "report-sections"
+      }
+    },
+    {
+      "id": "default-divider",
+      "title": "Mở phần",
+      "group": "slides-default",
+      "signature": "sectiontitle+shortlocaltopics+3imagecollage",
+      "source": "User-attached browser reference",
+      "sourceSha256": null,
+      "locator": "Comment1section",
+      "adaptation": "Original HAHA identity/copy and placeholders; source role/anatomy adapted without photos or logos.",
+      "inspection": "Supplied user image inspected in conversation; orientation/thank-you role and image arrangement observed. No native PowerPoint paint claim.",
+      "usage": {
+        "function": "Giới thiệu một phần và phạm vi đọc của phần đó.",
+        "content": "Số và tên phần; tối đa ba mục ngắn bên trong phần; cụm ảnh liên quan.",
+        "use": "Đặt trước mỗi phần. Danh sách này là mục con, không lặp danh sách phần của mục lục.",
+        "capacity": "Ba nhãn ngắn; giải thích và phân tích nằm ở các slide nội dung tiếp theo.",
+        "role": "section-topics"
+      }
+    },
+    {
+      "id": "default-close",
+      "title": "Kết thúc",
+      "group": "slides-default",
+      "signature": "thankyou+5ascendingimages+presenter",
+      "source": "User-attached browser reference",
+      "sourceSha256": null,
+      "locator": "Comment2thank-you",
+      "adaptation": "Original HAHA identity/copy and placeholders; source role/anatomy adapted without photos or logos.",
+      "inspection": "Supplied user image inspected in conversation; orientation/thank-you role and image arrangement observed. No native PowerPoint paint claim.",
+      "usage": {
+        "function": "Khép lại báo cáo bằng lời cảm ơn.",
+        "content": "Lời cảm ơn, chủ đề báo cáo, năm hình liên quan và tên nhóm trình bày.",
+        "use": "Trang cuối; không thêm bảng phân tích hay bước công việc vào mẫu cảm ơn.",
+        "capacity": "Một lời cảm ơn và một dòng giới thiệu; chọn ảnh cùng chủ đề.",
+        "role": "thank-you"
+      }
+    },
+    {
+      "id": "image-hero",
+      "title": "Hình lớn · lời giải thích",
+      "group": "slides-image",
+      "signature": "landscape+copycolumn",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "6363f05a844f1316d9bef4b2db67085c7d86fe8855bab001b514198d272b787f",
+      "locator": "160",
+      "adaptation": "Một hình ngang lớn và một cột giải thích ngắn. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "Full contact-sheet inspected; selected full-size image revalidated"
+    },
+    {
+      "id": "image-strip",
+      "title": "Dải hình · chuỗi cùng chủ đề",
+      "group": "slides-image",
+      "signature": "3equalimagechronology",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "79337027a7b2206bc1c15adddb3ad5b3f268dd20ffffa6a75ee3423414cbb246",
+      "locator": "113",
+      "adaptation": "Ba hình bằng nhau theo một chuỗi; mỗi hình một nhãn. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "Full contact-sheet inspected; selected full-size image revalidated"
+    },
+    {
+      "id": "image-grid",
+      "title": "Bảng hình · bốn lựa chọn",
+      "group": "slides-image",
+      "signature": "2x2widepeers",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "605f0d23325420c95be0a21b3da4ef8ecd5e09a6d82b3da8945f0b46a4769190",
+      "locator": "98",
+      "adaptation": "Bốn hình đồng cấp trong lưới hai hàng. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "Full contact-sheet inspected; selected full-size image revalidated"
+    },
+    {
+      "id": "image-story",
+      "title": "Hai hàng · hình và ngữ cảnh",
+      "group": "slides-image",
+      "signature": "2horizontalimagecopyrows",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "35ac5a10b09ec03940483d4762b3d2450f454e38b06a2647ff532a99cba5445e",
+      "locator": "79",
+      "adaptation": "Hai hàng hình nhỏ đi cùng lời giải thích; đọc từ trên xuống. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "Full contact-sheet inspected; selected full-size image revalidated"
+    },
+    {
+      "id": "image-detail",
+      "title": "Hình chính · hai chi tiết",
+      "group": "slides-image",
+      "signature": "portrait+2squarecrops",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "df28e0c4b5d360aa9d11c7a15e206701fcd3d3ab1bf51fd3fb7d080d590fca47",
+      "locator": "36",
+      "adaptation": "Một hình dọc lớn; hai cận cảnh ở cột bên. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "Full contact-sheet inspected; selected full-size image revalidated"
+    },
+    {
+      "id": "image-collage",
+      "title": "Toàn cảnh · hai góc nhìn",
+      "group": "slides-image",
+      "signature": "widehero+2stackedimages",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "48488e8873282f67de818f273e729dd4769cfc36141ef043f9144ef485ef0503",
+      "locator": "GTM:31",
+      "adaptation": "Một hình ngang chiếm phần lớn; hai hình phụ xếp dọc. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "PPTX native XML text and object structure; no native paint fidelity claim"
+    },
+    {
+      "id": "image-pair",
+      "title": "Hai hình · đối chiếu ngữ cảnh",
+      "group": "slides-image",
+      "signature": "2equalimages+comparisoncaption",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "48488e8873282f67de818f273e729dd4769cfc36141ef043f9144ef485ef0503",
+      "locator": "GTM:34",
+      "adaptation": "Hai hình ngang đối xứng; một tiêu chí chung để đối chiếu. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "PPTX native XML text and object structure; no native paint fidelity claim"
+    },
+    {
+      "id": "image-mosaic",
+      "title": "Bộ hình · sáu chi tiết",
+      "group": "slides-image",
+      "signature": "3x2media",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "9d4879ea58fee26479f088216524025726c2c4ba95a5d498f47c6d3f02213d7f",
+      "locator": "51",
+      "adaptation": "Sáu hình nhỏ theo lưới; nhãn nằm trong từng khung. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "Full contact-sheet inspected; selected full-size image revalidated"
+    },
+    {
+      "id": "image-background",
+      "title": "Hình làm nền toàn slide",
+      "group": "slides-image",
+      "signature": "fullbleed+opaquereadingzones",
+      "source": "explicit user full-background requirement",
+      "sourceSha256": null,
+      "locator": "USER:BG",
+      "adaptation": "Ảnh phủ toàn nền; chữ đặt trên mặt phẳng HAHA có nền kín. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "PPTX native XML text and object structure; no native paint fidelity claim"
+    },
+    {
+      "id": "image-split",
+      "title": "Dải ảnh dọc · thông điệp lớn",
+      "group": "slides-image",
+      "signature": "leftedgeimageband+rightcopy",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "22aff5e373f52b05f9bb2f2e88255edd5bd1d6f266015ba6ed2cd0757e178d88",
+      "locator": "151",
+      "adaptation": "Dải ảnh sát cạnh bên trái; thông điệp ở vùng nền riêng. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "Full contact-sheet inspected; selected full-size image revalidated"
+    },
+    {
+      "id": "text-matrix",
+      "title": "Bảng đối chiếu · nhận định",
+      "group": "slides-text",
+      "signature": "matrix+judgmentcolumn",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "cf2c05d8e9a5c2d8b034de084305033bbea1cee48730d6cf7f34dbf1dfa35c19",
+      "locator": "74",
+      "adaptation": "Bảng chiếm vùng chính; nhận định có cột riêng. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "Full contact-sheet inspected; selected full-size image revalidated"
+    },
+    {
+      "id": "text-tables",
+      "title": "Hai bảng · hai nhóm dữ kiện",
+      "group": "slides-text",
+      "signature": "2stackedtables",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "c9e2f62cf43494deb35a79694a62f33f66a36fa46eae564494ea4618472bcbaa",
+      "locator": "81",
+      "adaptation": "Hai bảng theo chiều đọc; mỗi bảng có tên nhóm. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "Full contact-sheet inspected; selected full-size image revalidated"
+    },
+    {
+      "id": "text-columns",
+      "title": "Ba nhóm · nhiều trường nội dung",
+      "group": "slides-text",
+      "signature": "3semantictextcolumns",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "48488e8873282f67de818f273e729dd4769cfc36141ef043f9144ef485ef0503",
+      "locator": "GTM:38",
+      "adaptation": "Ba cột có việc làm và đầu ra; cùng nhịp chữ. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "PPTX native XML text and object structure; no native paint fidelity claim"
+    },
+    {
+      "id": "text-evidence",
+      "title": "Biểu đồ · chỉ số · giới hạn",
+      "group": "slides-text",
+      "signature": "chart+2metrics+limit",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "92b65d8f8a0d8df6dcd8525f68fc02c2f3fcc216080ad3ad2b1ebbdaeec3141b",
+      "locator": "3",
+      "adaptation": "Một biểu đồ lớn; chỉ số và diễn giải ở cột bên. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "Full contact-sheet inspected; selected full-size image revalidated"
+    },
+    {
+      "id": "text-plan",
+      "title": "Kế hoạch · bốn điểm kiểm",
+      "group": "slides-text",
+      "signature": "steps+ownershiptable",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "bfff28a10e2ea8713a48f916b87f30fc4623f1c0b9665e9c8143274cc7317be4",
+      "locator": "32",
+      "adaptation": "Bốn bước có thứ tự và bảng trách nhiệm. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "Full contact-sheet inspected; selected full-size image revalidated"
+    },
+    {
+      "id": "text-dashboard",
+      "title": "Nhiều nhóm nhỏ · biểu đồ và hình",
+      "group": "slides-text",
+      "signature": "consumer3column+trendchart+3producttypes",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "c7fc2579e0b8cf3896672449539a2c99a9c2199860461044883de62c8e23c242",
+      "locator": "118",
+      "adaptation": "Function and content roles adapted; original coherent synthetic HAHA examples, no imported market claims.",
+      "inspection": "User screenshot and full-size file inspected",
+      "usage": {
+        "function": "Liên hệ tín hiệu tiêu dùng với bối cảnh và nhóm sản phẩm.",
+        "content": "Thói quen, tiêu chí, trở ngại; số liệu cùng kỳ; ba cách dùng sản phẩm.",
+        "use": "Khi cần giải thích người dùng muốn gì và nhóm sản phẩm nào đáp ứng.",
+        "capacity": "Ba tín hiệu ngắn, một biểu đồ và ba nhóm sản phẩm. Tách phần nghiên cứu chi tiết.",
+        "role": "consumer-signals"
+      }
+    },
+    {
+      "id": "text-overview",
+      "title": "Tổng quan · biểu đồ và bảng",
+      "group": "slides-text",
+      "signature": "scope+3metrics+sharechart+regionaltable",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "db15a843e0d5c185681a6a546b96bacc21f04a0ff5f4a189c085b9051fdde5da",
+      "locator": "138",
+      "adaptation": "Function and content roles adapted; original coherent synthetic HAHA examples, no imported market claims.",
+      "inspection": "User screenshot and full-size file inspected",
+      "usage": {
+        "function": "Xác định quy mô, cơ cấu và động lực của một thị trường.",
+        "content": "Phạm vi, đơn vị, kỳ hiện tại và kỳ so sánh; tỷ trọng nhóm; nhu cầu và điểm cần kiểm.",
+        "use": "Khi mở phần phân tích thị trường; giữ nguồn và điều kiện ngay cạnh số.",
+        "capacity": "Ba nhóm, ba chỉ số; không dùng tỷ trọng để suy ra lợi nhuận.",
+        "role": "market-scope"
+      }
+    },
+    {
+      "id": "text-mixed",
+      "title": "Hai nhóm · bảng kèm hình",
+      "group": "slides-text",
+      "signature": "2tablerows+2images",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "1856c12e270c713a47e3a3b99eb52e0f3c66c4bcb552e7713a2803e92a05a2a2",
+      "locator": "108",
+      "adaptation": "Hai hàng độc lập; mỗi hàng có bảng và một khung ảnh. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "Full contact-sheet inspected; selected full-size image revalidated"
+    },
+    {
+      "id": "text-sections",
+      "title": "Các mục nhỏ · hình dọc",
+      "group": "slides-text",
+      "signature": "4sections+portrait",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "1aa52b97f9e1e4eb1a611addfcfa0566b4d1753006e28bf727dd7b0e2b15bd0f",
+      "locator": "91",
+      "adaptation": "Bốn nhóm giải thích và một ảnh dọc liên hệ chủ đề. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "Full contact-sheet inspected; selected full-size image revalidated"
+    },
+    {
+      "id": "text-journey",
+      "title": "Ma trận · hành trình theo bước",
+      "group": "slides-text",
+      "signature": "journeytable+caption",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "48488e8873282f67de818f273e729dd4769cfc36141ef043f9144ef485ef0503",
+      "locator": "GTM:37",
+      "adaptation": "Các bước là cột; hành động, điểm khó và cải thiện là hàng. Original HAHA copy, empty media slots; source density reduced to1280x720 type floors. Protected products/logos/data are not copied.",
+      "inspection": "PPTX native XML text and object structure; no native paint fidelity claim"
+    },
+    {
+      "id": "text-sales-mix",
+      "title": "Cơ cấu bán hàng · sản lượng và doanh thu",
+      "group": "slides-text",
+      "signature": "share+products+volumeRevenueTable+implications",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "1d2350c13410337df2108c09964cc3fe429e9899e207f877e905c71584de8db7",
+      "locator": "132",
+      "adaptation": "Function/content/anatomy adapted into HAHA; original synthetic values explicitly labeled, no product photos or protected identity copied.",
+      "inspection": "Full-size source file inspected",
+      "usage": {
+        "function": "Đối chiếu tỷ trọng sản lượng với doanh thu để chọn vai trò sản phẩm.",
+        "content": "Sản phẩm, số lượng, tỷ trọng, doanh thu cùng kỳ; hình nhận diện và nhận định có điều kiện.",
+        "use": "Khi chọn sản phẩm chủ lực hoặc kiểm giả định về cơ cấu bán hàng.",
+        "capacity": "Hai sản phẩm và tổng; tăng số dòng phải tách tiếp, không thu nhỏ chữ.",
+        "role": "sales-mix"
+      }
+    },
+    {
+      "id": "text-competitors",
+      "title": "Đối thủ · so sánh và khoảng trống",
+      "group": "slides-text",
+      "signature": "competitorFieldMatrix+4questions",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "ce29fd54696d3d7af43c774f8911d119122eda0dc69dedcaccdd80a5b6635cd2",
+      "locator": "143",
+      "adaptation": "Function/content/anatomy adapted into HAHA; original synthetic values explicitly labeled, no product photos or protected identity copied.",
+      "inspection": "Full-size source file inspected",
+      "usage": {
+        "function": "So sánh đối thủ và xác định khoảng trống có thể kiểm chứng.",
+        "content": "Định vị, điểm mạnh, điểm yếu, mức giá cùng đơn vị; nhóm đối thủ và câu hỏi về cơ hội.",
+        "use": "Khi chọn chỗ đứng cạnh tranh; phân biệt dữ kiện và giả thuyết.",
+        "capacity": "Ba đối thủ và bốn câu hỏi; dùng trang tiếp theo cho đối thủ còn lại.",
+        "role": "competitor-comparison"
+      }
+    },
+    {
+      "id": "text-ranking",
+      "title": "Xếp hạng sản phẩm · bằng chứng và kết luận",
+      "group": "slides-text",
+      "signature": "rankedMultiFieldTable+crossRowSynthesis",
+      "source": "source-location-not-shipped",
+      "sourceSha256": "9f39476830476a785eb47de50da8ca92a0f966287cf0251bb41c09b6aceb40d2",
+      "locator": "144",
+      "adaptation": "Function/content/anatomy adapted into HAHA; original synthetic values explicitly labeled, no product photos or protected identity copied.",
+      "inspection": "Full-size source file inspected",
+      "usage": {
+        "function": "Xếp hạng theo một chỉ số rồi rút ra mẫu chung giữa các hàng.",
+        "content": "Hạng, sản phẩm, nhóm, giá, số lượng trong cùng kỳ và ghi chú; tiêu chí xếp hạng và nguồn.",
+        "use": "Khi kiểm sản phẩm dẫn đầu theo chỉ số đã nêu. Không đánh đồng thứ hạng với chất lượng.",
+        "capacity": "Năm hàng; danh sách dài hơn dùng trang tiếp theo với cùng cột và tiêu chí.",
+        "role": "ranked-products"
+      }
+    }
+  ],
+  "duplicateDisposition": {
+    "default-summary": "Superseded: basics now exactly4 by user direction",
+    "image-compare": "Removed duplicate three-peer-image anatomy; replacement image-detail has portrait plus square closeups",
+    "default-close": "Removed three-image strip; now closing/action/presenter",
+    "default-cover": "Single4:1panorama instead of repeated three icon cards"
+  }
+}

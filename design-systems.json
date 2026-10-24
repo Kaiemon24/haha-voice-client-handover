@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "design-system-client-catalog/v1",
+  "deliveryRevision": "2026.10.24",
+  "systems": [
+    {
+      "brand": "HAHA",
+      "slug": "haha",
+      "version": "1.2.11-reader",
+      "files": 291,
+      "installFiles": 262,
+      "package": "packages/haha",
+      "assetFiles": 223,
+      "entry": "packages/haha/source/skill/haha/assets/design-system/design-system.html",
+      "html": "packages/haha/source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/design-system.html",
+      "pdfRoot": "packages/haha/source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/documents",
+      "dataManifest": "packages/haha/source/skill/haha/assets/design-system/asset-manifest.json",
+      "manifestSha256": "351077212f72ccf90742511e334b4a34e3ae0b104639e1def814e36deacec78d",
+      "inspector": "inspect_haha.py",
+      "archive": "HAHA-1.2.11-reader-client-20261024.zip"
+    },
+    {
+      "brand": "MELAB",
+      "slug": "melab",
+      "version": "0.8.2-reader",
+      "files": 1179,
+      "installFiles": 1156,
+      "package": "packages/melab",
+      "assetFiles": 1151,
+      "entry": "packages/melab/source/skill/melab/assets/design-system/design-system.html",
+      "html": "packages/melab/source/skill/melab/assets/design-system/PDF/purpose-0.8.2-reader-20261023/package/design-system.html",
+      "pdfRoot": "packages/melab/source/skill/melab/assets/design-system/PDF/purpose-0.8.2-reader-20261023/documents",
+      "dataManifest": "packages/melab/source/skill/melab/assets/design-system/asset-manifest.json",
+      "manifestSha256": "7be06807cbdc219aead34c583a428170cd9cc037eabbe6306d4014b37c90cd94",
+      "inspector": "inspect_melab.py",
+      "archive": "MELAB-0.8.2-reader-client-20261024.zip"
+    },
+    {
+      "brand": "DAX",
+      "slug": "dax",
+      "version": "0.1.0-candidate-r23",
+      "files": 1055,
+      "installFiles": 1032,
+      "package": "packages/dax",
+      "assetFiles": 1027,
+      "entry": "packages/dax/source/skill/dax/assets/design-system/design-system.html",
+      "html": "packages/dax/source/skill/dax/assets/design-system/packages/0.1.0-candidate-r23/design-system.html",
+      "pdfRoot": "packages/dax/source/skill/dax/assets/design-system/PDF/purpose-0.1.0-candidate-r23-20261024/documents",
+      "dataManifest": "packages/dax/source/skill/dax/assets/design-system/asset-manifest.json",
+      "manifestSha256": "01fa5f39a294c60d82b83cbcb11fa433ce40e5e1763db86f9d2c7447f2dcfc03",
+      "inspector": "inspect_dax.py",
+      "archive": "DAX-0.1.0-candidate-r23-client-20261024.zip"
+    },
+    {
+      "brand": "LONG THANH",
+      "slug": "long-thanh",
+      "version": "0.1.11-draft",
+      "files": 1034,
+      "installFiles": 1011,
+      "package": "packages/long-thanh",
+      "assetFiles": 1006,
+      "entry": "packages/long-thanh/source/skill/long-thanh/assets/design-system/design-system.html",
+      "html": "packages/long-thanh/source/skill/long-thanh/assets/design-system/packages/0.1.11-draft/design-system.html",
+      "pdfRoot": "packages/long-thanh/source/skill/long-thanh/assets/design-system/PDF/purpose-0.1.11-draft-20261024/documents",
+      "dataManifest": "packages/long-thanh/source/skill/long-thanh/assets/design-system/asset-manifest.json",
+      "manifestSha256": "816eec55a6d1801ee687bf479e4cce88ee5f5c8f4a216b6493bf6f76a24416d5",
+      "inspector": "inspect_long_thanh.py",
+      "archive": "LONG-THANH-0.1.11-draft-client-20261024.zip"
+    }
+  ],
+  "excluded": [
+    "KAI"
+  ],
+  "voice": "Existing package unchanged",
+  "noncanonicalSnapshot": true
+}

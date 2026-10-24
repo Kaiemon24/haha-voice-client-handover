@@ -1,7 +1,0 @@
-{
-  "schemaVersion": "haha-web-release/v1",
-  "baseline": "HAHA0.12 client-curated UI, delivery1.0.0",
-  "sidebarSource": "HAHA0.13-sidebar-trial",
-  "change": "User-approved sidebar hierarchy only; gallery shapes/counts and curated assets unchanged.",
-  "offlineZipUnchanged": true
-}

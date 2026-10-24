@@ -1,18 +1,75 @@
 {
-  "schemaVersion": "client-github-release/v1",
-  "tag": "v1.2.11-reader",
+  "schemaVersion": "client-github-release/v2",
+  "tag": "v2026.10.24-design-systems",
   "repo": "Kaiemon24/haha-voice-client-handover",
   "packages": [
     {
-      "name": "HAHA-Voice-1.2.11-reader-client",
-      "version": "1.2.11-reader",
-      "file": "HAHA-Voice-1.2.11-reader-client.zip",
-      "sha256": "0e87ff8fd0d6e00f520368092b7d3bc6dee5bf5959c1f198614a8f3c2e180fa8",
-      "bytes": 75154317,
-      "downloadUrl": "https://github.com/Kaiemon24/haha-voice-client-handover/releases/download/v1.2.11-reader/HAHA-Voice-1.2.11-reader-client.zip"
+      "file": "HAHA-1.2.11-reader-client-20261024.zip",
+      "bytes": 75182033,
+      "sha256": "a70e4d8bdb99507a46d808d5ef8ce3ecaf8ed1364314d8d15e7bf8fc5f9590d0",
+      "fileCount": 291,
+      "downloadUrl": "https://github.com/Kaiemon24/haha-voice-client-handover/releases/download/v2026.10.24-design-systems/HAHA-1.2.11-reader-client-20261024.zip",
+      "brand": "HAHA",
+      "version": "1.2.11-reader"
+    },
+    {
+      "file": "MELAB-0.8.2-reader-client-20261024.zip",
+      "bytes": 155342312,
+      "sha256": "eb1a3b507f32ee8e2dbfad49740d0ebc6eaa54d64d4b24dce28dba9d5e7b1127",
+      "fileCount": 1179,
+      "downloadUrl": "https://github.com/Kaiemon24/haha-voice-client-handover/releases/download/v2026.10.24-design-systems/MELAB-0.8.2-reader-client-20261024.zip",
+      "brand": "MELAB",
+      "version": "0.8.2-reader"
+    },
+    {
+      "file": "DAX-0.1.0-candidate-r23-client-20261024.zip",
+      "bytes": 154567228,
+      "sha256": "3e9d2eefeceed961b2c1632f65f211a6cdcd8c47ab0e07e7a0b60a7f4b5dade1",
+      "fileCount": 1055,
+      "downloadUrl": "https://github.com/Kaiemon24/haha-voice-client-handover/releases/download/v2026.10.24-design-systems/DAX-0.1.0-candidate-r23-client-20261024.zip",
+      "brand": "DAX",
+      "version": "0.1.0-candidate-r23"
+    },
+    {
+      "file": "LONG-THANH-0.1.11-draft-client-20261024.zip",
+      "bytes": 84176591,
+      "sha256": "bf44f4a4a047d3562f08bf3f2d09254865f7721a39f6c03ddea8253c93575f94",
+      "fileCount": 1034,
+      "downloadUrl": "https://github.com/Kaiemon24/haha-voice-client-handover/releases/download/v2026.10.24-design-systems/LONG-THANH-0.1.11-draft-client-20261024.zip",
+      "brand": "LONG THANH",
+      "version": "0.1.11-draft"
     }
   ],
-  "voicePreservation": "Exact30Voice files from1.1.1; existing packages/voice and standaloneVoice release assets remain unchanged.",
-  "recipientAcceptance": "PENDING",
-  "availabilityCheck": "Verify the exact pinned release URL and archive SHA-256 before extraction or use."
+  "combinedArchive": {
+    "file": "Design-Systems-2026.10.24-client.zip",
+    "downloadUrl": "https://github.com/Kaiemon24/haha-voice-client-handover/releases/download/v2026.10.24-design-systems/Design-Systems-2026.10.24-client.zip",
+    "sha256Source": "Exact release asset digest and independent handover receipt; no self-referential embedded hash"
+  },
+  "previousReleases": [
+    {
+      "schemaVersion": "client-github-release/v1",
+      "tag": "v1.2.11-reader",
+      "repo": "Kaiemon24/haha-voice-client-handover",
+      "packages": [
+        {
+          "name": "HAHA-Voice-1.2.11-reader-client",
+          "version": "1.2.11-reader",
+          "file": "HAHA-Voice-1.2.11-reader-client.zip",
+          "sha256": "0e87ff8fd0d6e00f520368092b7d3bc6dee5bf5959c1f198614a8f3c2e180fa8",
+          "bytes": 75154317,
+          "downloadUrl": "https://github.com/Kaiemon24/haha-voice-client-handover/releases/download/v1.2.11-reader/HAHA-Voice-1.2.11-reader-client.zip"
+        }
+      ],
+      "voicePreservation": "Exact30Voice files from1.1.1; existing packages/voice and standaloneVoice release assets remain unchanged.",
+      "recipientAcceptance": "PENDING",
+      "availabilityCheck": "Verify the exact pinned release URL and archive SHA-256 before extraction or use."
+    }
+  ],
+  "excluded": [
+    "KAI",
+    "Raw Arial font binaries",
+    "Standalone historical packages/voice from new combined ZIP"
+  ],
+  "voicePreservation": "Repo standalone Voice unchanged; 30 exact operational Voice files retained in HAHA",
+  "recipientAcceptance": "PENDING"
 }

@@ -1,0 +1,1 @@
+document.querySelectorAll("[data-chart]").forEach(h=>SharedChart45.mount(h,DAX_CHART_DATA[h.dataset.chart]));

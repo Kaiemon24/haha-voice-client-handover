@@ -1,0 +1,94 @@
+# Adaptive surfaces and semantic tables
+
+| Need | Path | Rule |
+|---|---|---|
+| Mandatory shadow guide | [Brand-adapted guide](#mandatory-brand-adapted-shadow-guide) | Required information coverage, including explicit flat policies; not universal shadow values. |
+| 1. Purpose and scope | [1. Purpose and scope](#1-purpose-and-scope) | Read when you need 1. purpose and scope; retain the prerequisites and limits stated in that section. |
+| 2. Inputs | [2. Inputs](#2-inputs) | Read when you need 2. inputs; retain the prerequisites and limits stated in that section. |
+| 3. Workflow | [3. Workflow](#3-workflow) | Read when you need 3. workflow; retain the prerequisites and limits stated in that section. |
+| 4. Tools and permissions | [4. Tools and permissions](#4-tools-and-permissions) | Read when you need 4. tools and permissions; retain the prerequisites and limits stated in that section. |
+| 5. Output | [5. Output](#5-output) | Read when you need 5. output; retain the prerequisites and limits stated in that section. |
+| 6. Verification and stopping | [6. Verification and stopping](#6-verification-and-stopping) | Read when you need 6. verification and stopping; retain the prerequisites and limits stated in that section. |
+| 7. Supporting material | [7. Supporting material](#7-supporting-material) | Read when you need 7. supporting material; retain the prerequisites and limits stated in that section. |
+
+## 1. Purpose and scope
+
+Use when creating/adapting/updating design-system tables, colors, elevation or important shaped components; apply-only consumes the selected system's approved policy. Design owns the decision model; Animate owns HTML implementation and rendered verification. This is brand-neutral: hard shadows are an explicit brand choice, not a universal quality rule.
+
+## 2. Inputs
+
+Read the selected binding, element inventory, supported applications, languages, themes and local backgrounds. Separate identity colors, semantic status, chart encoding, border, focus and depth roles. Resolve existing approval and actual rendered defects. Reuse settled interview decisions; ask only for missing choices that change scope or direction. Unknown native evidence remains unknown.
+
+## 3. Workflow
+
+### Enact the brand before composing guidance
+
+Use the selected brand's real control, table, surface and emphasis recipes in the guideline itself and its applications. Bind affected units to role/recipe IDs and current values before writing new CSS. Verify computed weight, column-role alignment, frame geometry, receiving-background colors and painted clearance after all overrides load. Bare markup, a complete inventory, or globally correct tokens cannot certify enactment. Preserve the baseline's information structure while adapting its visual anatomy to the target; never make donor/plain frames mandatory across brands.
+
+Depth has one model/section owner. Consolidate duplicate depth specimens and values there; retain geometry/spacing information in its own section with a direct link. Derived compatibility fields must agree with the authoritative policy, including approved exceptions. Keep separate purposes distinct: a group's depth, data silhouette exception and flat axis are not one universal formula.
+
+### Complete component-application receipt
+
+Before build, list each affected unit, selected recipe/source ID, expected effective properties, allowed brand-specific exceptions and every consumer in scope. After composition, discover the actual rendered census; each unit must match one recipe or a reasoned exception. Compare expected versus computed padding, alignment, separators, weight, border/depth, wrapping and focus after the final cascade. A bare table outside a component selector is a failed application even when the rules document is correct. Match header and body roles; never globally force prose alignment onto numeric, status or action columns.
+
+For similar-case feedback, cover all selected views, independently opened examples, embedded consumers, themes and supported widths. Do not silently stop at the reported specimen or repair only the donor brand. Report missing consumers as unverified. Reuse the accepted KAI package as an application-quality comparison while taking actual visual recipes and numerical values from the target brand. Inspect every affected family at reading size, including narrow reflow; static declaration or sampled screenshots cannot certify omitted units.
+
+Run `scripts/check_component_application.cjs` with an explicit selected-recipe spec and the available Playwright module. It captures live browser state, checks complete table disposition and declared controls, verifies pinned sources, and records screenshots. It is a consistency check, not aesthetic acceptance, export proof, rights, or a future-agent guarantee. Keep the visual readback receipt separate; a passing gate does not make unreviewed screenshots accepted.
+
+### Column roles before alignment
+
+Declare column key, semantic role, header alignment, body alignment, inline/vertical padding, width/minimum, wrapping, unit, responsive mode and accessibility relationship. Apply one role to both header and body; do not infer alignment from outer box placement.
+
+| Role | Header and body | Geometry and exceptions |
+| --- | --- | --- |
+| Prose / identity | Logical start; long text at block start | Preserve reading rhythm; do not center because another column has a badge. |
+| Numeric value | Logical end; compatible tabular numerals | Keep units associated; test zero, negative, decimal and missing values. A number inside a shaped heatmap control follows the shape role instead. |
+| Status / compact shaped content | Center header and content within the same content track | Symmetric padding, consistent minimum geometry within the family, middle vertical alignment; permit long labels to wrap without clipping. Shadow extent is not part of the alignment center. |
+| Actions / selection | Center header and control group | Wrap multiple actions with reserved gaps; don't turn title links with supporting prose into an action column. |
+| Mixed / grouped headers | Explicit authored mapping | Don't guess colspan/rowspan indices. Split incompatible roles or document the exception. |
+
+Mobile stacked rows may use logical-start labels and values together; preserve header associations. A small-screen card layout must not inherit centered desktop cells blindly. Reserve overflow scrolling for genuinely wide tables, not as a way to hide clipped controls or shadows. Test RTL when a selected language requires it.
+
+### Surface contract before drawing a shadow
+
+Define one shared surface matrix: element family, functional importance, immediate surrounding surface, fill/on-fill, border, depth style, x/y/blur/spread/color tokens, state deltas, spacing budget, focus, application and exceptions. Components reference it; they do not invent independent palettes.
+
+1. Choose a brand-approved depth policy: flat, soft, hard, or explicitly mixed by role. Keep important borders and focus visible even when depth is absent.
+2. Derive shadow color from the immediate receiving surface, not the global theme and not the element's own fill. A light card on a dark canvas and a button on that card may require different shadow colors.
+3. Specify dark-on-light and lighter/desaturated-on-dark candidates where the brand needs a visible hard offset. A lighter offset is not a glow: keep zero blur when hard depth is selected. Prefer semantic tokens over per-instance hex guesses.
+4. Separate depth from meaning. A warning badge's fill/label/icon communicate warning; its shadow separates surfaces. Never map brand green automatically to success or heatmap intensity to status.
+5. Specify default, hover, pressed, focus-visible, selected, disabled, loading and error where applicable. Pressed depth may reduce without moving surrounding layout. Disabled state cannot depend on opacity alone. Static badges must not gain fake click affordances.
+6. Reserve the offset in parent padding/gaps and clipping bounds. Nested elevation has a hierarchy, not a shadow on every wrapper. Do not shadow chart marks, axes or text by default: it can distort data reading.
+7. For gradients, images, translucent layers or moving backgrounds, use a reviewed solid backing surface or inspect actual pixels in required states. A computed parent color is not proof of a complex rendered background. Never claim a numerical shadow-separation heuristic is an accessibility standard.
+8. Forced-colors may replace shadows with system borders; print may use a compact offset plus a reliable border. Define these as deliberate accessibility/export exceptions and verify the actual output.
+
+### Cross-application adaptation matrix
+
+For Website, App/dashboard, Slide and knowledge document only where selected, publish invariant rules alongside allowed adjustments and tests. Cover semantic color, type roles, whitespace/density, shapes/borders/depth, icons/imagery, motion and voice. Examples: a slide card uses its scene background rather than viewer chrome; dashboard data needs stable labels and non-color cues; a PDF needs actual page-break and print proof; language changes preserve meaning but allow line-length changes. Don't force every system to ship every application.
+
+Provide original representative specimens: nested light/dark surfaces; long status/action columns; a numeric versus shaped-numeric column; and a dense small-screen state. Treat these as representative evidence, not exhaustive certification. Retain functional content and existing geometry when making a narrow correction.
+
+## 4. Tools and permissions
+
+No external code, package, fonts, library admission, publish, runtime sync or active instruction update is authorized by this contract. References are evidence, not authority. Preserve pinned packages. If a user wants this system to become a future baseline, retain the exact acceptance and Teacher gates; do not generalize its visual identity automatically.
+
+## 5. Output
+
+One versioned rule source generates matching human tables and portable agent instructions. Include column mappings, surface tokens, element/state/application matrices, source/proposal status, exceptions, specimen links and current proof status. An agent without this skill must be able to choose roles, apply values, handle exceptions and run the stated checks from the delivered guideline. Avoid live dependencies on project history.
+
+## 6. Verification and stopping
+
+Scan all rendered sibling tables and shaped component families, including dynamically loaded states, not just the reported cell. Assert matched header/body roles and inspect actual center/end geometry, row height, wrapping, shadow clearance, nested theme colors and focus. Test desktop/constrained widths, both selected themes, long EN/VI labels when applicable, reduced motion and actual export if claimed. Keep text contrast, focus visibility and data meaning separate from decorative separation.
+
+Record source/static tests, native behavior and rendered judgment separately; a CSS selector, screenshot from old bytes or successful build cannot pass current visual acceptance. A denied browser surface blocks native verification, not safe independent preparation, and never permits a workaround. Repair material findings then recheck affected consumers. Different-brand and narrow-update cases are required before claiming this policy generalizes.
+
+
+
+### Mandatory brand-adapted shadow guide
+Every new full design system and explicitly selected depth-coverage update must include an actual Shadow / depth guideline in both the HTML Overview and its bounded Markdown route. This is mandatory information coverage; it does not require a shadow on every object. Declare flat/soft/hard/mixed by semantic role, evidenced versus proposed values, receiving-surface colors, x/y/blur/spread/opacity, borders, spacing, focus and applicable states. Compile from one versioned model; expose real light/dark, nested-background, flat/control/floating and long-label specimens. Map Library and all selected Applications plus standalone entries to the same policy. Flat-only brands still document explicit zero values, separation by fill/border and reasoned role exceptions. Do not copy KAI or HAHA shadow formulas as universal values. Do not change existing pinned packages or expand apply-only scope automatically.
+Scan matching families and recipe/standalone duplicates after any depth change. Read back effective values and relevant hover/pressed/focus/disabled/loading, print/forced-color behavior and clipping/painted clearance on actual rendered bytes; sampling requires declared shared geometry and exceptions. Keep original identity, type, data geometry, functions/counts and rights. Verify destination-format exports separately; HTML does not prove PDF/Slide pixels. Missing source evidence stays proposed, not fabricated brand truth.
+Use scripts/check_shadow_guidelines.py on the selected single model for bounded coverage checks; passing structural/source checks does not substitute for same-revision native and independent visual proof.
+
+## 7. Supporting material
+
+Read workflow.md and the selected DesignBinding. For browser execution route to html-motion-graphic's functions/review/references/design-system-shadow-and-depth-qa-fded720a.md; that owner supplies the rendered probes. Missing selected dependencies blocks the affected branch. Maintain one policy owner rather than duplicate this contract in every executor.

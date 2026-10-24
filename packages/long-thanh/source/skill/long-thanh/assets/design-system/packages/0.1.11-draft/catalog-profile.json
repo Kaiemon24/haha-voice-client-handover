@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "design-catalog-profile/v1",
+  "role": "discovery-summary-not-authoritative-rules",
+  "systemId": "long-thanh-industrial",
+  "version": "0.1.11-draft",
+  "sourceModelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+  "editorialScope": "Brand-owned discovery summary and proposed display copy only; selected full model/HTML/Markdown own rules. No extra rights, admission, publication or native-host acceptance.",
+  "profile": {
+    "font": "Be Vietnam Pro",
+    "bodyFont": "Be Vietnam Pro",
+    "shadow": "0px 3px 9px rgba(0,16,46,0.12)",
+    "specimenColors": {
+      "paper": "#F9FBFF",
+      "ink": "#00102E",
+      "accent": "#084DD1",
+      "surface": "#FFFFFF",
+      "on": "#FFFFFF"
+    },
+    "keywords": [
+      "long-thanh",
+      "long-thanh-industrial",
+      "sản phẩm",
+      "quy cách",
+      "nguồn",
+      "thông tin"
+    ],
+    "type": "Sans",
+    "tags": [
+      "Hiện đại",
+      "Bóng mềm",
+      "Sans",
+      "Sản phẩm"
+    ],
+    "body": "Giữ phiên bản, điều kiện và nguồn khi dùng.",
+    "sampleTitle": "Nguồn rõ. Điều kiện đủ.",
+    "sampleBody": "Đối chiếu thông tin trước khi chia sẻ.",
+    "catalogFacets": {
+      "mood": [
+        "Hiện đại"
+      ],
+      "tone": [
+        "Rõ ràng"
+      ],
+      "use": [
+        "Tạo design system",
+        "Website",
+        "Sản phẩm"
+      ],
+      "features": [
+        "Bóng mềm",
+        "Sans"
+      ]
+    },
+    "title": "LONG THÀNH",
+    "subtitle": "Đúng quy cách. Rõ điều kiện.",
+    "description": "Xanh kỹ thuật, đỏ nhận diện và khung thông tin gọn. Dành cho quy cách, vận hành và hồ sơ sản phẩm có nguồn.",
+    "palette": [
+      "#084DD1",
+      "#FF0005",
+      "#F9FBFF",
+      "#00102E",
+      "#E5EEFF"
+    ],
+    "mood": "Có cấu trúc · Rõ ràng",
+    "radius": "4px",
+    "scene": "Đúng quy cách. Rõ điều kiện.",
+    "icon": "industry",
+    "edition": "05",
+    "catalogPersonality": [
+      "Chuyên nghiệp"
+    ]
+  }
+}

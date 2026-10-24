@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "portable-slide-reader-binding/v2",
+  "policy": {
+    "path": "slide-reader-policy.json",
+    "sha256": "d8e01dfe348ffe8e587e3f18475bf09c0d71a41e8799c4ce5c9c18004e31b61b"
+  },
+  "sharedSourceSha256": "2058e7cacd3ddb3139c6c73bbe12868bf6deba102fd7aca9adb723130c231dfd",
+  "files": [
+    {
+      "path": "reader-guidance61.js",
+      "sha256": "953be93bc10ed67d1909f06397f68ea836e02490a48a807c09e401109c1bbdb8"
+    },
+    {
+      "path": "reader-guidance61.css",
+      "sha256": "9c2d6c05784240a745a91b73e9a729aac4ca9519b3fe81b6e0f862d366960a10"
+    },
+    {
+      "path": "DESIGN.md",
+      "sha256": "3114039a9876f894770521124890c75eb16534bd6340560d54a0483c4b897bb4"
+    },
+    {
+      "path": "COMPOSITION.md",
+      "sha256": "10678479dac5836ca24c2fcd533e5ae15dd58dfbe3965b752b629f6343671ba7"
+    }
+  ],
+  "placement": "Slide16:9 before template groups",
+  "priorityRuleCount": 3
+}

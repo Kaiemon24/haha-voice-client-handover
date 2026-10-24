@@ -1,0 +1,4 @@
+interface:
+  display_name: "LONG THANH Design"
+  short_description: "Áp dụng bộ thiết kế LONG THANH đã đóng gói"
+  default_prompt: "Dùng $long-thanh theo đúng phiên bản để áp dụng thiết kế và kiểm đầu ra."

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; media-src 'self'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'">
+<title>Thư viện phần tử</title><link rel="stylesheet" href="../system.css"><script src="data.js" defer></script><script src="gallery.js" defer></script></head>
+<body><header><a class="brand" href="../design-system.html">← Hệ thống thiết kế</a><span id="identity"></span></header>
+<main><p class="eyebrow">THÀNH PHẦN ĐƯỢC CHỌN RIÊNG</p><h1>Thư viện phần tử</h1>
+<p>Chỉ chứa thành phần được yêu cầu thêm rõ ràng. Không tự nhập từ đầu ra mới hay thư viện chung.</p>
+<div class="library-filters"><label>Tìm thành phần<input id="search" type="search" placeholder="Tên, chức năng hoặc phong cách"></label>
+<label>Nhóm<select id="category"><option value="">Tất cả</option></select></label>
+<label>Loại tệp<select id="media"><option value="">Tất cả</option></select></label>
+<label>Chuyển động<select id="motion"><option value="">Tất cả</option><option value="static">Tĩnh</option><option value="animated">Có chuyển động</option><option value="unknown">Chưa rõ</option></select></label>
+<label>Tỷ lệ<select id="aspect"><option value="">Tất cả</option></select></label>
+<button id="clear" type="button">Xóa bộ lọc</button></div>
+<p id="count" role="status"></p><div id="results"></div><p id="empty">Chưa có thành phần nào được thêm.</p>
+<p class="note">Xem trước chỉ dùng tệp đã được kiểm tra. Không chạy mã nhập ngoài hoặc suy ra quyền tái sử dụng từ sự có mặt trong danh sách.</p>
+<a href="manifest.json">Đọc danh sách cho agent</a>
+</main></body></html>

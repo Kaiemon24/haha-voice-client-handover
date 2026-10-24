@@ -1,0 +1,70 @@
+{
+  "schema": "brand-map-source-manifest/v1",
+  "taskName": "design-system-maps",
+  "bodyIndexed": false,
+  "inventoryComplete": true,
+  "sources": [
+    {
+      "id": "us-states",
+      "relative": "us-atlas-3.0.1/states-albers-10m.json",
+      "url": "https://cdn.jsdelivr.net/npm/us-atlas@3.0.1/states-albers-10m.json",
+      "bytes": 82031,
+      "sha256": "6e7bb086a3c791490361968a3094f377f7726c5d0c4900fec03cc42db2305a3d",
+      "license": "ISC; Census 2017-derived geometry",
+      "bodyIndexed": false,
+      "status": "retained-original"
+    },
+    {
+      "id": "world-land",
+      "relative": "world-atlas-2.0.2/land-110m.json",
+      "url": "https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/land-110m.json",
+      "bytes": 55207,
+      "sha256": "ead5f68119c49a9250902e7da303bcb209341bbb8fefe7369a439b48b704658a",
+      "license": "ISC package; underlying Natural Earth public domain",
+      "bodyIndexed": false,
+      "status": "retained-original"
+    },
+    {
+      "id": "ne-countries",
+      "relative": "natural-earth-v5.1.2/geojson/ne_10m_admin_0_countries.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_admin_0_countries.geojson",
+      "bytes": 13287234,
+      "license": "Natural Earth public domain",
+      "sha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
+      "bodyIndexed": false,
+      "status": "retained-original"
+    },
+    {
+      "id": "ne-minor-islands",
+      "relative": "natural-earth-v5.1.2/geojson/ne_10m_minor_islands.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_minor_islands.geojson",
+      "bytes": 1320514,
+      "license": "Natural Earth public domain",
+      "sha256": "8c933ca7a4760256bdc46408355706e39764b0fa01c160c28888b90b4faec29f",
+      "bodyIndexed": false,
+      "status": "retained-original"
+    },
+    {
+      "id": "us-license",
+      "relative": "us-atlas-3.0.1/LICENSE",
+      "url": "https://cdn.jsdelivr.net/npm/us-atlas@3.0.1/LICENSE",
+      "license": "ISC notice",
+      "bytes": 734,
+      "sha256": "8048290dfdb6e83fbed17e8985c8cfc4ce9da9b842642f3d3e497280790cfa31",
+      "bodyIndexed": false,
+      "status": "retained-original"
+    },
+    {
+      "id": "world-license",
+      "relative": "world-atlas-2.0.2/LICENSE",
+      "url": "https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/LICENSE",
+      "license": "ISC notice",
+      "bytes": 734,
+      "sha256": "8048290dfdb6e83fbed17e8985c8cfc4ce9da9b842642f3d3e497280790cfa31",
+      "bodyIndexed": false,
+      "status": "retained-original"
+    }
+  ],
+  "limits": "Data/source notices and pinned original hashes. Executable geographic variants are package-local. No surveyed completeness, maritime boundary or public-release permission claim.",
+  "brand": "KAI"
+}

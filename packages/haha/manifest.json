@@ -1,16 +1,16 @@
 {
   "schema": "portable-client-package/v1",
-  "name": "HAHA-Voice-1.2.11-reader-client",
+  "name": "haha-1.2.11-reader-client-20261024",
   "version": "1.2.11-reader",
+  "deliveryRevision": "2026.10.24",
   "packageTypes": [
     "skill"
   ],
   "noncanonicalSnapshot": true,
-  "target": "verified recipient workspace; additive local install",
   "runtimeDependencies": [
-    "Python 3.10+ standard library",
-    "Client Codex application/account",
-    "Modern browser for HTML"
+    "Python3.10+standard-library",
+    "Modern browser",
+    "Recipient Codex host for native discovery"
   ],
   "installFiles": [
     {
@@ -19,1154 +19,1159 @@
       "sha256": "516328dd8423c27681f4cbeef78d9a8b40c926ab96f0e1f518cf2fc3ad05b833"
     },
     {
-      "source": "source/skill/haha/assets/design-system/design-system.html",
-      "target": ".agents/skills/haha/assets/design-system/design-system.html",
-      "sha256": "c460f88e293017ef545aa10d02794f9a0b4ff10fe10b322fa3a4a0d80931c7e6"
+      "source": "source/skill/haha/assets/design-system/asset-manifest.json",
+      "target": ".agents/skills/haha/assets/design-system/asset-manifest.json",
+      "sha256": "7f20b5f6d11141cec473ba85d8cfc631e7a79a1523b80d447e5b6e0435c7c3d5"
     },
     {
-      "source": "source/skill/haha/assets/design-system/documents/01-slides.pdf",
-      "target": ".agents/skills/haha/assets/design-system/documents/01-slides.pdf",
+      "source": "source/skill/haha/assets/design-system/design-system.html",
+      "target": ".agents/skills/haha/assets/design-system/design-system.html",
+      "sha256": "6c146d08703eb1134ddfa4780088f85a4006a94dc512e5b2741b0e1b4a6a5e0e"
+    },
+    {
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/documents/01-slides.pdf",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/documents/01-slides.pdf",
       "sha256": "0fd0943a93a91e756717dccb9026453b943550f82bebc911073a0688c327fb12"
     },
     {
-      "source": "source/skill/haha/assets/design-system/documents/02-web-app-ui.pdf",
-      "target": ".agents/skills/haha/assets/design-system/documents/02-web-app-ui.pdf",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/documents/02-web-app-ui.pdf",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/documents/02-web-app-ui.pdf",
       "sha256": "f9ba39490ef02c469a5403af6cd58001da2c11b9d7981f8683e06a7d004f9fc4"
     },
     {
-      "source": "source/skill/haha/assets/design-system/documents/03-design.pdf",
-      "target": ".agents/skills/haha/assets/design-system/documents/03-design.pdf",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/documents/03-design.pdf",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/documents/03-design.pdf",
       "sha256": "5e837f331450880617a1eb8626f8239987b4bbe75f3c4459c4b1862a309f0b1e"
     },
     {
-      "source": "source/skill/haha/assets/design-system/documents/04-edit.pdf",
-      "target": ".agents/skills/haha/assets/design-system/documents/04-edit.pdf",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/documents/04-edit.pdf",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/documents/04-edit.pdf",
       "sha256": "b8683dfcaf04f44d0543a2872e1ddc74d785f8c704ad2930c9fd1bbe519a7683"
     },
     {
-      "source": "source/skill/haha/assets/design-system/documents/index.html",
-      "target": ".agents/skills/haha/assets/design-system/documents/index.html",
-      "sha256": "efba6aeed6bc75b207e50b6712858bbc4d8b27e48468e5e4a3b4ba720d5657bc"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/documents/index.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/documents/index.html",
+      "sha256": "892d42740d4bcecaca99cca4f9b84a70b56b322773ca7e51ac4fe23f58f7cdc6"
     },
     {
-      "source": "source/skill/haha/assets/design-system/documents/manifest.json",
-      "target": ".agents/skills/haha/assets/design-system/documents/manifest.json",
-      "sha256": "8a2603ebfd15ff858488431ef74606738cccdf1b62a793dd028da8e351972908"
-    },
-    {
-      "source": "source/skill/haha/assets/design-system/package/application280.html",
-      "target": ".agents/skills/haha/assets/design-system/package/application280.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/application280.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/application280.html",
       "sha256": "b147c6be9d7059c0efc594b11e73f2c093374ad5c4d4a3da067746089fbc1719"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/application318.css",
-      "target": ".agents/skills/haha/assets/design-system/package/application318.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/application318.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/application318.css",
       "sha256": "08eb9b86fed97ea1816c5a27af443368e0a6e5f02b076aa0e6cd10cf0fe97443"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/application318.js",
-      "target": ".agents/skills/haha/assets/design-system/package/application318.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/application318.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/application318.js",
       "sha256": "e670556fc7213c15a7ba9384a0f01fe9cbad95ae43a3fb7328c93ccfcf598dbf"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/APPLICATIONS.md",
-      "target": ".agents/skills/haha/assets/design-system/package/APPLICATIONS.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/APPLICATIONS.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/APPLICATIONS.md",
       "sha256": "fb43e17931115b6ba0955bddc49c5590a989c19406ea0338a48be79da6f68aa0"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/applications280.css",
-      "target": ".agents/skills/haha/assets/design-system/package/applications280.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/applications280.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/applications280.css",
       "sha256": "b01033e0606eb702e9e0a674c450df16bd1424d2d6c6a01d326ef6afad2adeea"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/applications280.js",
-      "target": ".agents/skills/haha/assets/design-system/package/applications280.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/applications280.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/applications280.js",
       "sha256": "cc942ccdd388aefdc117192a22cd3d8f9b77a035994ad0de7929806cabba347e"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/applications283.css",
-      "target": ".agents/skills/haha/assets/design-system/package/applications283.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/applications283.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/applications283.css",
       "sha256": "029a0cff8dfd165623f3f487192e6c36d39eff1a8977bced1e5bb190a05d62ac"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/applications285.css",
-      "target": ".agents/skills/haha/assets/design-system/package/applications285.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/applications285.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/applications285.css",
       "sha256": "1fd2de8d68dcfc6911b0f25c0fafbf4c1c0805469f0106e458186511f4743246"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/artifact-manifest61.json",
-      "target": ".agents/skills/haha/assets/design-system/package/artifact-manifest61.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/artifact-manifest61.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/artifact-manifest61.json",
       "sha256": "1c58d33a56a562ee0c33f2737602048768657d02659fc9f228fc92d0eb2ef87c"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/bold-prompt.txt",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/bold-prompt.txt",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/bold-prompt.txt",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/bold-prompt.txt",
       "sha256": "8c1bf1e207a2cf2ad0134151ebd63328611a56a4c0284ea958c39052a6e7cfd5"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/bold.png",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/bold.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/bold.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/bold.png",
       "sha256": "de3fde77f68bb05d4c36fea60de90fcbad4152260cc4baced8d565c568753627"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/energetic-prompt.txt",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/energetic-prompt.txt",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/energetic-prompt.txt",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/energetic-prompt.txt",
       "sha256": "bc858e81cd846dcb8753121d253c77de9bff8ccf87b71bcfe7dbb9b89ae58e64"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/energetic.png",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/energetic.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/energetic.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/energetic.png",
       "sha256": "24c097d60b7d96405fc7202eee140894a01bf572904ead7e5b9b4101a021c81f"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/image-style-master308.png",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/image-style-master308.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/image-style-master308.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/image-style-master308.png",
       "sha256": "0f3b0c40694a224486162b3c192fd5968e4598bebd486051bccdc9228b6fef51"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/modern-prompt.txt",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/modern-prompt.txt",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/modern-prompt.txt",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/modern-prompt.txt",
       "sha256": "51cd91b8bd58040e75e311e042709ee7f1bcf50ea729c9160da52001d9b4b5ef"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/modern.png",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/modern.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/modern.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/modern.png",
       "sha256": "e86df6a4cdc08e5016cb6ebf7b34ec812c468b2492fa247b6c5e1d50a98a49d6"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/presenter-prompt.txt",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/presenter-prompt.txt",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/presenter-prompt.txt",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/presenter-prompt.txt",
       "sha256": "a626fa5aae23044a8ec5d2640a44181651b0895611532f8b9b6895bd51ce1730"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/presenter.png",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/presenter.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/presenter.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/presenter.png",
       "sha256": "98f3fae277618206294d992de93628d8be4715d5a032d0b30e700b2910b8a000"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/provenance.json",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/provenance.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/provenance.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/provenance.json",
       "sha256": "e3b8dacfd43ede787be5ff71faeaba283cebdad797e63784451100594a60aa9a"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/set306-prompt.txt",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/set306-prompt.txt",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/set306-prompt.txt",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/set306-prompt.txt",
       "sha256": "1c3fc7c3b3e407462d13b44543eb11986da5158c40ea16f71a5f72ac0e5a8625"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/set306.png",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/set306.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/set306.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/set306.png",
       "sha256": "d607c5b90872d01c477d918ba2a154251fd02663d1b6ee283f122229310a3766"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/sophisticated-prompt.txt",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/sophisticated-prompt.txt",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/sophisticated-prompt.txt",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/sophisticated-prompt.txt",
       "sha256": "d6dca7ccddc7ba3864a6c37408e11143e9fa9d27f705994478cc80224808556f"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/sophisticated.png",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/sophisticated.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/sophisticated.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/sophisticated.png",
       "sha256": "75b1c75eb390546063f0da52332341a59862f6a49ceddc86e0a61b256f0fdcd0"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/vibrant-prompt.txt",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/vibrant-prompt.txt",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/vibrant-prompt.txt",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/vibrant-prompt.txt",
       "sha256": "280e53b8d918a76aeb97d6e950b3d70739694991e6f723f70d2cb6f121a566cd"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/vibrant.png",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/vibrant.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/vibrant.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/vibrant.png",
       "sha256": "b32125af7c484907898bf5ce07dad5eddaf4881b3f6b29c0ce52d8080fdc6af4"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/wardrobe306-prompt.txt",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/wardrobe306-prompt.txt",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/wardrobe306-prompt.txt",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/wardrobe306-prompt.txt",
       "sha256": "c35b4460f66654e953ee3fb66f78771f6884af2f30da742d8bd52134677adc64"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/ai/wardrobe306.png",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/ai/wardrobe306.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/wardrobe306.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/ai/wardrobe306.png",
       "sha256": "fec999cd8f26f14cf1249aefb43cba4cd5ffbd01f95347c1c03dd925de0480eb"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-400.ttf",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-400.ttf",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/be-vietnam-pro-400.ttf",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/be-vietnam-pro-400.ttf",
       "sha256": "4ad53eac036092be79a34b5fa0aa32d0ebb3c7e5df4bc058764f5614fbf148a0"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-500.ttf",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-500.ttf",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/be-vietnam-pro-500.ttf",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/be-vietnam-pro-500.ttf",
       "sha256": "557a1c42a7f8eb83f84255d475017b1235c1101b899367f974a1cbfa19cd7c3d"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-600.ttf",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-600.ttf",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/be-vietnam-pro-600.ttf",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/be-vietnam-pro-600.ttf",
       "sha256": "cbf437bf71c8536a7aaed632dce2583ea5ec97c07efffc625c31991d1027ba3b"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-700.ttf",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-700.ttf",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/be-vietnam-pro-700.ttf",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/be-vietnam-pro-700.ttf",
       "sha256": "aef76cd15b8c9faa1ff21951bb71963a774aa381526c557e5a52f38d430c4650"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-800.ttf",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/fonts/be-vietnam-pro-800.ttf",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/be-vietnam-pro-800.ttf",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/be-vietnam-pro-800.ttf",
       "sha256": "116124d76142998ec6b49b76b0024314d5f0ef910e8898fa75a5dc38f6f03c6a"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/fonts/OFL.txt",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/fonts/OFL.txt",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/OFL.txt",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/OFL.txt",
       "sha256": "adba7f9c81d62e8b3c6c2ebfd24b1e86b162fcba89995497ec0bf32108ca95e5"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/fonts/provenance.json",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/fonts/provenance.json",
-      "sha256": "2528607d83e1a8d90d0ae571f9872477ef49339dd4a3484f764437378966d814"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/provenance.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/fonts/provenance.json",
+      "sha256": "812f6e529f9bb6787bc6ed5813e136f0ece64b1999d964aff5f5b59e843165a6"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/logos/Logo black.png",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/logos/Logo black.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/logos/Logo black.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/logos/Logo black.png",
       "sha256": "7a380809db132c382532cc4d1b43d735928b0766571811363d9b7bdb52c3d9ef"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/logos/Logo white.png",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/logos/Logo white.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/logos/Logo white.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/logos/Logo white.png",
       "sha256": "ed1f2ab041a54b8af8b61c40332994ad8f202d3c8bf76a813d4d6dc00d70cbbf"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/references/bold.svg",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/references/bold.svg",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/bold.svg",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/bold.svg",
       "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/references/energetic.svg",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/references/energetic.svg",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/energetic.svg",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/energetic.svg",
       "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/references/image-style-ref-1.svg",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/references/image-style-ref-1.svg",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/image-style-ref-1.svg",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/image-style-ref-1.svg",
       "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/references/image-style-ref-2.svg",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/references/image-style-ref-2.svg",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/image-style-ref-2.svg",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/image-style-ref-2.svg",
       "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/references/image-style-ref-3.svg",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/references/image-style-ref-3.svg",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/image-style-ref-3.svg",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/image-style-ref-3.svg",
       "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/references/modern.svg",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/references/modern.svg",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/modern.svg",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/modern.svg",
       "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/references/pinterest.json",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/references/pinterest.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/pinterest.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/pinterest.json",
       "sha256": "32d1eb0e98615fa1539338bd76cf6cfd2292bfba216aacd57609ceb707ab3c73"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/references/sophisticated.svg",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/references/sophisticated.svg",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/sophisticated.svg",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/sophisticated.svg",
       "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/assets/references/vibrant.svg",
-      "target": ".agents/skills/haha/assets/design-system/package/assets/references/vibrant.svg",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/vibrant.svg",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/assets/references/vibrant.svg",
       "sha256": "3b02d4510cb6553327fbaa01387b41848dae1821188fbc7f356fa730da5b1432"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/atlas248.css",
-      "target": ".agents/skills/haha/assets/design-system/package/atlas248.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/atlas248.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/atlas248.css",
       "sha256": "4555765dddda8cd6acb637f7f4727adf978a2e49da24ccf6f4d3e679fd2fbbc5"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/atlas248.js",
-      "target": ".agents/skills/haha/assets/design-system/package/atlas248.js",
-      "sha256": "f37a95041ed03bfdee4457247d5d9bfb36c671edeecf8db00927328e0e36a971"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/atlas248.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/atlas248.js",
+      "sha256": "e27d048494eea82707e93d9e05d6755ba96faad949587a654e09abdae9433188"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/body-keywords58.js",
-      "target": ".agents/skills/haha/assets/design-system/package/body-keywords58.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/body-keywords58.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/body-keywords58.js",
       "sha256": "57b2d2f3692a5369ebf3d86684ccb198693b64a299c49dd6ac2f5a3f56b8e979"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/BUTTON-STATES.md",
-      "target": ".agents/skills/haha/assets/design-system/package/BUTTON-STATES.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/BUTTON-STATES.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/BUTTON-STATES.md",
       "sha256": "48f64d397395996e596d6cbb3795d3060fa4bf66a9f554f0ff93d48a42d58ea0"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/buttons268.css",
-      "target": ".agents/skills/haha/assets/design-system/package/buttons268.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/buttons268.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/buttons268.css",
       "sha256": "7072268f95d2bbb72038a8321c50e9615a3305cd5c1794f027d531c04fac0e75"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/buttons268.js",
-      "target": ".agents/skills/haha/assets/design-system/package/buttons268.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/buttons268.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/buttons268.js",
       "sha256": "c5e950ed9a6960da1e32d9eb7ec9611f962b165d9af3725c6858d1fed1f2c65e"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/CENTERING.md",
-      "target": ".agents/skills/haha/assets/design-system/package/CENTERING.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CENTERING.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CENTERING.md",
       "sha256": "50879d8ce39aa96dc9597c1870d8ad04d44574a8cd1771d7c602b5483fb3e40d"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/centering286.css",
-      "target": ".agents/skills/haha/assets/design-system/package/centering286.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/centering286.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/centering286.css",
       "sha256": "bedd1f9bab57b53a04cc879dfc6f6f1526dc698b49bb0571eb46d61bb80145b9"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/chart45-anchor-manifest.json",
-      "target": ".agents/skills/haha/assets/design-system/package/chart45-anchor-manifest.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-anchor-manifest.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-anchor-manifest.json",
       "sha256": "edbf61909a62ee89dce6a78878e1a7af68e163f867048601ff5e34bf393029b4"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/chart45-anchor.css",
-      "target": ".agents/skills/haha/assets/design-system/package/chart45-anchor.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-anchor.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-anchor.css",
       "sha256": "52ac630c4874d33b020d220ad36ff90faa7526dcaa05c7762c3a8c86f638959b"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/chart45-anchor.js",
-      "target": ".agents/skills/haha/assets/design-system/package/chart45-anchor.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-anchor.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-anchor.js",
       "sha256": "72b9477ab02edc38521ee031609dc66e7c396267727b236d41f5336a02964ddd"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/chart45-catalogue.js",
-      "target": ".agents/skills/haha/assets/design-system/package/chart45-catalogue.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-catalogue.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-catalogue.js",
       "sha256": "30636ae7d25fb8eed5fab7e7be786d819031002df6d8070088ca9df7e9e1b195"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/chart45-core.js",
-      "target": ".agents/skills/haha/assets/design-system/package/chart45-core.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-core.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-core.js",
       "sha256": "9877f8f2716bf64a0264e26f26462136ab7c0518a76ef5249d01b30ecd737e89"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/chart45-data.js",
-      "target": ".agents/skills/haha/assets/design-system/package/chart45-data.js",
-      "sha256": "12e22611f72d52e6882cb3864e6d0fa401de739b8cfb9db008746a3d57106274"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-data.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-data.js",
+      "sha256": "d776c1dca50ec0a87f6d6473f8a2d561551a8b728f5897ab2fbc0ded8ae6139a"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/chart45-data.json",
-      "target": ".agents/skills/haha/assets/design-system/package/chart45-data.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-data.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-data.json",
       "sha256": "baeb4a9126032b149e889037bc20740b2483b81cfbabfc1fbe373f97e416aba1"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/chart45-doc-manifest.json",
-      "target": ".agents/skills/haha/assets/design-system/package/chart45-doc-manifest.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-doc-manifest.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-doc-manifest.json",
       "sha256": "318ce0ad43af2d5cbfe7a74a19a01dfd28ab0de14fc9b2590b44e0403f61ba9d"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/chart45-profile.json",
-      "target": ".agents/skills/haha/assets/design-system/package/chart45-profile.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-profile.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-profile.json",
       "sha256": "c2c0bc428b7f768dc2c04b86d05ccc9f5b47132a0d6db3e44a2cdf5515e8797f"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/chart45-roles.css",
-      "target": ".agents/skills/haha/assets/design-system/package/chart45-roles.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-roles.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-roles.css",
       "sha256": "2fa99b1f32a68b25e14585358d01a2fc4af811a7d573fbbb9225d11572658555"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/chart45-target.json",
-      "target": ".agents/skills/haha/assets/design-system/package/chart45-target.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-target.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/chart45-target.json",
       "sha256": "2f06f3ccf8c7f922689f272ae7ec563a58a42391d48c4c9accfb35132cc5c762"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/CHARTS-BASELINE.md",
-      "target": ".agents/skills/haha/assets/design-system/package/CHARTS-BASELINE.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CHARTS-BASELINE.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CHARTS-BASELINE.md",
       "sha256": "2848682ffe806e8a345517dd555f8f919933bb023c790c1b45cdb11d8a47da11"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/CHARTS.md",
-      "target": ".agents/skills/haha/assets/design-system/package/CHARTS.md",
-      "sha256": "d7a62d20efaedc3e70415d1b54546a37f408a14c8c66f60e858401490bc2a89c"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CHARTS.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CHARTS.md",
+      "sha256": "f722baeb5ff7de688e32c7494a92399ad7da52445aeee056f22000715e67caf5"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/charts262.js",
-      "target": ".agents/skills/haha/assets/design-system/package/charts262.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/charts262.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/charts262.js",
       "sha256": "e4c1a9a998dc27a2c4b6630ec2ac1b33cb4513d27bbcda7466ce8e1147f63f9e"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/charts264.js",
-      "target": ".agents/skills/haha/assets/design-system/package/charts264.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/charts264.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/charts264.js",
       "sha256": "e4e9d489c81857a9d4df332a854fbc59eb209482bf74913423608cbce309a20d"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/charts279.js",
-      "target": ".agents/skills/haha/assets/design-system/package/charts279.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/charts279.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/charts279.js",
       "sha256": "d44b8c3f9cce0a0e2018926fbf052b30f4e88c975b9e1e666c9c4cf83cddb223"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/CLIENT-USE.md",
-      "target": ".agents/skills/haha/assets/design-system/package/CLIENT-USE.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CLIENT-USE.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CLIENT-USE.md",
       "sha256": "52199347a0a8d6e76a460bc751b7bcd7ebb395e2243b965591e685715607dc45"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/compact/maps/united-states.html",
-      "target": ".agents/skills/haha/assets/design-system/package/compact/maps/united-states.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact/maps/united-states.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact/maps/united-states.html",
       "sha256": "acccabda1f38a116d40fae3abe0adf6d0103a0ab3ec65ab105d0ea07263fa9bd"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/compact/maps/vietnam.html",
-      "target": ".agents/skills/haha/assets/design-system/package/compact/maps/vietnam.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact/maps/vietnam.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact/maps/vietnam.html",
       "sha256": "3adda5a610b526e0d99615e7477124d5009ea09cb33370958393b9d332fe16c6"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/compact/maps/world.html",
-      "target": ".agents/skills/haha/assets/design-system/package/compact/maps/world.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact/maps/world.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact/maps/world.html",
       "sha256": "b252c8ce7cdb97c5743f3c8070264c861315f218a1436da6931fd84dda0137bb"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/compact-binding.js",
-      "target": ".agents/skills/haha/assets/design-system/package/compact-binding.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact-binding.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact-binding.js",
       "sha256": "552c8e203aa1c652beda8f4f2cc51b74352ae20140caad812260353fabfcc0cc"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/compact-design.css",
-      "target": ".agents/skills/haha/assets/design-system/package/compact-design.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact-design.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact-design.css",
       "sha256": "0a271dba5f3b1cb2f54212d33ad643eb55a6974793d91f9b15ffecfbafcb12ec"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/compact-design.js",
-      "target": ".agents/skills/haha/assets/design-system/package/compact-design.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact-design.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact-design.js",
       "sha256": "f047e2c2758d09d5bedb5f1f1322a0866afc1c654dd76989ed80ee79a3f2be46"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/compact-effects.js",
-      "target": ".agents/skills/haha/assets/design-system/package/compact-effects.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact-effects.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact-effects.js",
       "sha256": "956a5a681f5b13fa9be4fe6e4a62dbfe7d83c102bb7567ec392f3edefe5ee138"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/compact-guidelines.js",
-      "target": ".agents/skills/haha/assets/design-system/package/compact-guidelines.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact-guidelines.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact-guidelines.js",
       "sha256": "9bacf39fcb9b4263df1b35df1921e38101218f42bd6caf24c905a06cf603f3e0"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/compact-runtime-files.json",
-      "target": ".agents/skills/haha/assets/design-system/package/compact-runtime-files.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact-runtime-files.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/compact-runtime-files.json",
       "sha256": "7f69f6221f53ec0811e4f3c35a3ef50e503962cf5bfd39b696604d848d2231c2"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/component-map.json",
-      "target": ".agents/skills/haha/assets/design-system/package/component-map.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/component-map.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/component-map.json",
       "sha256": "66278278af3b7589a8aa652756a7dde407b5bb21d39eba7a1fa42821291057ce"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/COMPOSITION.md",
-      "target": ".agents/skills/haha/assets/design-system/package/COMPOSITION.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/COMPOSITION.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/COMPOSITION.md",
       "sha256": "45dd9042b613447230dd0e59ce546e7a3659b4a146f53ee7daa9f34e3523997f"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/config305.js",
-      "target": ".agents/skills/haha/assets/design-system/package/config305.js",
-      "sha256": "f1eb292dfe7d35fecd3562cc5d9fc645a6e61b0fe6d50160a7d92cf8932fd39f"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/config305.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/config305.js",
+      "sha256": "5e80523eaf1c89b69c236686c6ee7ae24b4908161b7fef1fbc44242acf6973cb"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/config316.js",
-      "target": ".agents/skills/haha/assets/design-system/package/config316.js",
-      "sha256": "f1eb292dfe7d35fecd3562cc5d9fc645a6e61b0fe6d50160a7d92cf8932fd39f"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/config316.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/config316.js",
+      "sha256": "5e80523eaf1c89b69c236686c6ee7ae24b4908161b7fef1fbc44242acf6973cb"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/connections265.js",
-      "target": ".agents/skills/haha/assets/design-system/package/connections265.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/connections265.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/connections265.js",
       "sha256": "ef9c68860f61a111b19da5510926dc294a8508aec5be30656056e54fdeba4a56"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/connections267.css",
-      "target": ".agents/skills/haha/assets/design-system/package/connections267.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/connections267.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/connections267.css",
       "sha256": "c3176bea6a038c0b4d894ec94f99a478a89db366995358901dbf72e9b0d282b8"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/connections267.js",
-      "target": ".agents/skills/haha/assets/design-system/package/connections267.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/connections267.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/connections267.js",
       "sha256": "5088b54e5784128b7386e8034fd96a31267271a047cea21413c7a532df32bd82"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/CONNECTORS.md",
-      "target": ".agents/skills/haha/assets/design-system/package/CONNECTORS.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CONNECTORS.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CONNECTORS.md",
       "sha256": "9f8e17acee2dafa848b6d330e780445e9d40c15ad3c9bda821a0c12bbde99496"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/consumer260.js",
-      "target": ".agents/skills/haha/assets/design-system/package/consumer260.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/consumer260.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/consumer260.js",
       "sha256": "a50f8344b0bc6104ec02ae67fb2244d9551bec28dcc2c533fea10202e7d64b71"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/CONTENT-GROUPS.md",
-      "target": ".agents/skills/haha/assets/design-system/package/CONTENT-GROUPS.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CONTENT-GROUPS.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CONTENT-GROUPS.md",
       "sha256": "c954c7aa6c981713d8464cc1793fb0493895b8e7a255cb7f73bff99c567d3fd9"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/content282-data.js",
-      "target": ".agents/skills/haha/assets/design-system/package/content282-data.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/content282-data.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/content282-data.js",
       "sha256": "4d66f206f05d54f94d13ed0cfa78330f5c711b77398496fac8457ded0ff88aa3"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/content282.css",
-      "target": ".agents/skills/haha/assets/design-system/package/content282.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/content282.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/content282.css",
       "sha256": "f884933077b9609a6df55c2248d936dac19f47b5069767ee7e4036e8adc1704c"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/content282.html",
-      "target": ".agents/skills/haha/assets/design-system/package/content282.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/content282.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/content282.html",
       "sha256": "c97b474140bea2da17dd5afcfecff953c36c986ffff692182b76c0b2209a9c14"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/content282.js",
-      "target": ".agents/skills/haha/assets/design-system/package/content282.js",
-      "sha256": "92ec4bff372748e797c8936a77d1c6091262ff67b61a6c53a482cbd57101b299"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/content282.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/content282.js",
+      "sha256": "87d22961e181ce2cbc31424c330477f571cc15bee64b7dc5271162c5205c4b9a"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/core-manifest316.json",
-      "target": ".agents/skills/haha/assets/design-system/package/core-manifest316.json",
-      "sha256": "24cc34e552f632d03c161e46cd984a22846bebf89f0d7b8798a6907fa3ab70c1"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/core-manifest316.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/core-manifest316.json",
+      "sha256": "a9f5f3768ab61361f7105bcc6df29aea322e72e6c5b7afe5354d2ead764359c1"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/counts262.css",
-      "target": ".agents/skills/haha/assets/design-system/package/counts262.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/counts262.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/counts262.css",
       "sha256": "cdafd688046981a86ff6f41fed585d0763da76dcba574b7833f36d0e0712c151"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/counts262.js",
-      "target": ".agents/skills/haha/assets/design-system/package/counts262.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/counts262.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/counts262.js",
       "sha256": "cc4960ce881d05e66ac24db53b042103ce143421536896225dc222dc0287cf22"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/CSS.md",
-      "target": ".agents/skills/haha/assets/design-system/package/CSS.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CSS.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/CSS.md",
       "sha256": "17ef9c9c99a982461e963cfa340d0cb9359cc4b7de5b6206560e81d01f06f2c3"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/delivery-keyboard.js",
-      "target": ".agents/skills/haha/assets/design-system/package/delivery-keyboard.js",
-      "sha256": "5f746ca03a79700d37c4b8b8400460d0565214c7b636d521087020acc365929c"
-    },
-    {
-      "source": "source/skill/haha/assets/design-system/package/DESIGN-BASELINE.md",
-      "target": ".agents/skills/haha/assets/design-system/package/DESIGN-BASELINE.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/DESIGN-BASELINE.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/DESIGN-BASELINE.md",
       "sha256": "897770636d585543e74532aaaf5ffe9021cbee61bc9eaa18dc6f89aa2da20560"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/design-system-maps.html",
-      "target": ".agents/skills/haha/assets/design-system/package/design-system-maps.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/design-system-maps.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/design-system-maps.html",
       "sha256": "6906f4600188f26f6dc57fda7b77e821fc1ba3b13cede64a97b1b3339015d214"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/design-system.html",
-      "target": ".agents/skills/haha/assets/design-system/package/design-system.html",
-      "sha256": "a00cd753d25ca19bdb8c6f71578625c9eb381784befac9a2fd34b4bcbf7903a1"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/design-system.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/design-system.html",
+      "sha256": "4db064ef8695a025bbee44198236e1a9d508b234d5c66345fef75c2c9b3189e3"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/DESIGN.md",
-      "target": ".agents/skills/haha/assets/design-system/package/DESIGN.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/DESIGN.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/DESIGN.md",
       "sha256": "d992636f729a8e50c6dbed75f3558dc10875863f585ea9219a88a69edb12c1d6"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/DesignBinding.json",
-      "target": ".agents/skills/haha/assets/design-system/package/DesignBinding.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/DesignBinding.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/DesignBinding.json",
       "sha256": "bd58ba3b7c7cf356a3c4b22391360e10922759fe1903e26606e0ad767c46ccca"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/DesignBinding42.json",
-      "target": ".agents/skills/haha/assets/design-system/package/DesignBinding42.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/DesignBinding42.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/DesignBinding42.json",
       "sha256": "1766f1534da6d876ed31d332e82127c4329cbfb7f51d11176a7b23bd2ecce15c"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/discovery259.js",
-      "target": ".agents/skills/haha/assets/design-system/package/discovery259.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/discovery259.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/discovery259.js",
       "sha256": "275beb49f598c75c1cc8f47243442c31a6ba3ea862704a45435fc4387264c378"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/elements/manifest.json",
-      "target": ".agents/skills/haha/assets/design-system/package/elements/manifest.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/elements/manifest.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/elements/manifest.json",
       "sha256": "f80c8d7df3af848d983de0b20812e567864b81e29da29dcbc7a96b94f3c843ff"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/fixtures241.json",
-      "target": ".agents/skills/haha/assets/design-system/package/fixtures241.json",
-      "sha256": "4298816a99200190f7d6e2ed09f03e3dbbca55f790557c8430c9a57ca6bf68f2"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/fixtures241.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/fixtures241.json",
+      "sha256": "758f64b2aff5124e58711858f78a572db2dea5b5098215904ba2a4064132c07b"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/frame45.css",
-      "target": ".agents/skills/haha/assets/design-system/package/frame45.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/frame45.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/frame45.css",
       "sha256": "b4b3710c66b3ccef7be8d654cade25c7368b9dd2e0f50f476d4515c01107354c"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/frame45.js",
-      "target": ".agents/skills/haha/assets/design-system/package/frame45.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/frame45.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/frame45.js",
       "sha256": "b64378b126a41bafa0d8374622fbc0a1d35e2b70be819c89680053fddca6da33"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/haha305.css",
-      "target": ".agents/skills/haha/assets/design-system/package/haha305.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/haha305.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/haha305.css",
       "sha256": "8de38e78a520df10fddcdc17f0a8dbc5fa79de1d9e355e3485b1edbd9cdaa3ef"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/icons248-data.js",
-      "target": ".agents/skills/haha/assets/design-system/package/icons248-data.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/icons248-data.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/icons248-data.js",
       "sha256": "73222589b8167df58a2f069901f738ecb319c2cbc5a16694205269a65b5dcf04"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/IMAGE-STYLE-PROMPT.txt",
-      "target": ".agents/skills/haha/assets/design-system/package/IMAGE-STYLE-PROMPT.txt",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/IMAGE-STYLE-PROMPT.txt",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/IMAGE-STYLE-PROMPT.txt",
       "sha256": "940892220a193c1170a962d09bda7fe015e81b11b58f4bcd56c50a6c77f4898c"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/image-style-provenance.json",
-      "target": ".agents/skills/haha/assets/design-system/package/image-style-provenance.json",
-      "sha256": "2fd43bb1120e8a7f4ef909395ad45642f8d33d1a5a7b58d2779bfc178c78eeaf"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/image-style-provenance.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/image-style-provenance.json",
+      "sha256": "611150423d0e8e2910662d289165257ae8aa305bf7d59ba75da8fcd044e353e4"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/IMAGE-STYLE.md",
-      "target": ".agents/skills/haha/assets/design-system/package/IMAGE-STYLE.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/IMAGE-STYLE.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/IMAGE-STYLE.md",
       "sha256": "6e592d330c91037c4420a2e59ef40365add16cc40166e3970a3d36ca004afa23"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/image-style308.css",
-      "target": ".agents/skills/haha/assets/design-system/package/image-style308.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/image-style308.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/image-style308.css",
       "sha256": "c6d1dc94bc2b75d77eb56d3aef965aef14aa6599cacf4211d6ea8fc6b1c8fca1"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/image-style308.js",
-      "target": ".agents/skills/haha/assets/design-system/package/image-style308.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/image-style308.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/image-style308.js",
       "sha256": "dba3f24f86567076018357efcb6ead86a46fe7fb354603af8bd65a37ad04d2cb"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/index-maps.html",
-      "target": ".agents/skills/haha/assets/design-system/package/index-maps.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/index-maps.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/index-maps.html",
       "sha256": "7a4f49cce10eaad0c69701dcc7a1d15fefb41840c8409ae35323529dded9e688"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/index.html",
-      "target": ".agents/skills/haha/assets/design-system/package/index.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/index.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/index.html",
       "sha256": "f5f9057994cec6321885a629cdeed425ef71373fb1fc1afa22c6f5668c2417d1"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/knights264.css",
-      "target": ".agents/skills/haha/assets/design-system/package/knights264.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/knights264.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/knights264.css",
       "sha256": "887dbc97843c276744d9c35a0f864b9b7093eae6086b846b97233d309015c8d8"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/knights264.js",
-      "target": ".agents/skills/haha/assets/design-system/package/knights264.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/knights264.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/knights264.js",
       "sha256": "3394b643041728f411b6eed0543bf48c284b32919cb9f6bbc6c327e2fce520b2"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/legacy-entry64.js",
-      "target": ".agents/skills/haha/assets/design-system/package/legacy-entry64.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/legacy-entry64.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/legacy-entry64.js",
       "sha256": "0a7d77028fe7544b576efa1c2459f78c21f52a09c84c624f3516e5f0c8d59ce1"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/LISTING.md",
-      "target": ".agents/skills/haha/assets/design-system/package/LISTING.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/LISTING.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/LISTING.md",
       "sha256": "faba875db5160ed86a27bb45afbb160747a130d292b87ee7b166b188824dc0f8"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/listing287-data.js",
-      "target": ".agents/skills/haha/assets/design-system/package/listing287-data.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/listing287-data.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/listing287-data.js",
       "sha256": "d6fae7a24e730838405593e6ac105b1f017b95af22215e8e3b6a388c36d35ee8"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/listing287.css",
-      "target": ".agents/skills/haha/assets/design-system/package/listing287.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/listing287.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/listing287.css",
       "sha256": "ebbf893bd7bf23c2fa6ffabb495bd134f289cb697a633a56fa6acf31f3eded3a"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/listing287.html",
-      "target": ".agents/skills/haha/assets/design-system/package/listing287.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/listing287.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/listing287.html",
       "sha256": "0332227d4c6433a02e99b1414e737e97330f9b2fe67257aeeabaec20437d1b6d"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/listing287.js",
-      "target": ".agents/skills/haha/assets/design-system/package/listing287.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/listing287.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/listing287.js",
       "sha256": "961a48c8ebdcc951ee5a6cebbd8b405abed4ae11c07a10bfce49c4fd1f02c942"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/LOGO.md",
-      "target": ".agents/skills/haha/assets/design-system/package/LOGO.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/LOGO.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/LOGO.md",
       "sha256": "2abe170481ea3bfbd7e5714fd896b47b495ff38f94f369827a6c4e213bb88be9"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/maps42/pages/index.html",
-      "target": ".agents/skills/haha/assets/design-system/package/maps42/pages/index.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42/pages/index.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42/pages/index.html",
       "sha256": "451d48a3733a1acf06c575ed0c46c290ce61e37c0c7bbb9537b0c84989c05c06"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/maps42/pages/sources.html",
-      "target": ".agents/skills/haha/assets/design-system/package/maps42/pages/sources.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42/pages/sources.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42/pages/sources.html",
       "sha256": "0186e4bcf09083be82e88b4c7cf03ab83fece1694611d712fed30bbe6a1a6ae9"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/maps42/pages/united-states.html",
-      "target": ".agents/skills/haha/assets/design-system/package/maps42/pages/united-states.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42/pages/united-states.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42/pages/united-states.html",
       "sha256": "f9146d24b8919ee4cc6b4d9bf53c54c0f0748aeb480e9e35d2b375d94e28293c"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/maps42/pages/vietnam.html",
-      "target": ".agents/skills/haha/assets/design-system/package/maps42/pages/vietnam.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42/pages/vietnam.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42/pages/vietnam.html",
       "sha256": "b30327e18906efe1134cb31a5090c62a2734e13b4b11627c1589e2fdef14c365"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/maps42/pages/world.html",
-      "target": ".agents/skills/haha/assets/design-system/package/maps42/pages/world.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42/pages/world.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42/pages/world.html",
       "sha256": "6d35eb747430f05bb7a1fbd215be85e4cb203a2d70cfd01c7f3a9449ac158180"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/maps42-adapter.js",
-      "target": ".agents/skills/haha/assets/design-system/package/maps42-adapter.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42-adapter.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42-adapter.js",
       "sha256": "063239d0ad12ee108a059b0d3dcd56d895914b43900ca70ff22a258146722bd1"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/maps42-gallery.css",
-      "target": ".agents/skills/haha/assets/design-system/package/maps42-gallery.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42-gallery.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42-gallery.css",
       "sha256": "cec90d7220e24ec28e6217b5bf0bb34f416f8d8abd02617079f1a35ff99cd544"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/maps42.data.js",
-      "target": ".agents/skills/haha/assets/design-system/package/maps42.data.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42.data.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42.data.js",
       "sha256": "3c38716b3185e0a78f678192709e5e7be80c77e102f09633bf2fb061da5f177b"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/MAPS42.md",
-      "target": ".agents/skills/haha/assets/design-system/package/MAPS42.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/MAPS42.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/MAPS42.md",
       "sha256": "da2542377e0d26e72bf36ae86348f7aeb4f75ac195ad2d933cd9a2b986537227"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/maps42.model.json",
-      "target": ".agents/skills/haha/assets/design-system/package/maps42.model.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42.model.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/maps42.model.json",
       "sha256": "7fcc9c1af24000fd37c41318af083b5bf2cc61bb7e7dd17561d3544d50c05d36"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/model121-energy.png",
-      "target": ".agents/skills/haha/assets/design-system/package/model121-energy.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/model121-energy.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/model121-energy.png",
       "sha256": "a6c766a2e59421edd76d81024f0762393c4f5c7e3a4976613814c81e9ba5f072"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/model121-guide.png",
-      "target": ".agents/skills/haha/assets/design-system/package/model121-guide.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/model121-guide.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/model121-guide.png",
       "sha256": "09010700cfabea94acc4994cae3237ffccbe6bf673816b895d8eccc9ba6dfcc7"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/model121-storage.png",
-      "target": ".agents/skills/haha/assets/design-system/package/model121-storage.png",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/model121-storage.png",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/model121-storage.png",
       "sha256": "5ba1928a4086bfbb4447a356749119e43c009793df8f2a009593205389bdcd53"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/models248.html",
-      "target": ".agents/skills/haha/assets/design-system/package/models248.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/models248.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/models248.html",
       "sha256": "9b1b0bb5cb0f1821fa79bc4099fcc401a5ef9c18d604dced272fedfd7d4a2a64"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/models248.js",
-      "target": ".agents/skills/haha/assets/design-system/package/models248.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/models248.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/models248.js",
       "sha256": "801cbbcb5028e3f366db3d4bc826213a5c0c0924b94db3e78bed032b0ed12e88"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/NAVIGATION.md",
-      "target": ".agents/skills/haha/assets/design-system/package/NAVIGATION.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/NAVIGATION.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/NAVIGATION.md",
       "sha256": "3b7141849a704e612514c3012f880b51fb496daf29059935ff59833b90a66503"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/overview252.css",
-      "target": ".agents/skills/haha/assets/design-system/package/overview252.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/overview252.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/overview252.css",
       "sha256": "dda44c7339a045f60f35adaed5cf813c594c58b519c22a0296cb296c6679cd9e"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/overview252.js",
-      "target": ".agents/skills/haha/assets/design-system/package/overview252.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/overview252.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/overview252.js",
       "sha256": "f6a6462d0e4a93fcab97f30329321757b7388c9b697a5e5ddc43956c609df797"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/package-manifest-current.json",
-      "target": ".agents/skills/haha/assets/design-system/package/package-manifest-current.json",
-      "sha256": "a37d6c4bb260a42a46d3a5f1e2308509a9c4cb9d79ce4742434c07e3b428e07e"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/package-manifest-current.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/package-manifest-current.json",
+      "sha256": "9c6f822eba5ea107fc18d6b3a01831a561d911c76eb42ae9ae82b019c58528ad"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/package-manifest262.json",
-      "target": ".agents/skills/haha/assets/design-system/package/package-manifest262.json",
-      "sha256": "a37d6c4bb260a42a46d3a5f1e2308509a9c4cb9d79ce4742434c07e3b428e07e"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/package-manifest262.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/package-manifest262.json",
+      "sha256": "9c6f822eba5ea107fc18d6b3a01831a561d911c76eb42ae9ae82b019c58528ad"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/portable-client.js",
-      "target": ".agents/skills/haha/assets/design-system/package/portable-client.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/portable-client.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/portable-client.js",
       "sha256": "6359563fcc3865a0230b350398a73c6f6c0c41ecd71c2831557ccbc46054c3a2"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/products283.js",
-      "target": ".agents/skills/haha/assets/design-system/package/products283.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/portable-core.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/portable-core.json",
+      "sha256": "a9f5f3768ab61361f7105bcc6df29aea322e72e6c5b7afe5354d2ead764359c1"
+    },
+    {
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/products283.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/products283.js",
       "sha256": "6d97c4859a6b895618d707ea061d36afdb67c880ee5096c85e25917893b651b8"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/PROVENANCE.json",
-      "target": ".agents/skills/haha/assets/design-system/package/PROVENANCE.json",
-      "sha256": "d1c6ad11d30ca5cf3856bf356e40aa0f232c95518b14d3e8f0a2b34695748a91"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/PROVENANCE.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/PROVENANCE.json",
+      "sha256": "59a2dae5b8f7eb63c1589288e66d91fdb121b72a74ee2e20c189e2701aefd193"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/quotes280.js",
-      "target": ".agents/skills/haha/assets/design-system/package/quotes280.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/quotes280.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/quotes280.js",
       "sha256": "f989991309d00c2fc168f58a72375ac437cca3e9407d86546de618ce0a0452b4"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/reader-guidance-binding.json",
-      "target": ".agents/skills/haha/assets/design-system/package/reader-guidance-binding.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reader-guidance-binding.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reader-guidance-binding.json",
       "sha256": "e2de7044bfc54ce0237901cd82d4196e6776319669eccb23de8874a70e26222d"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/reader-guidance61.css",
-      "target": ".agents/skills/haha/assets/design-system/package/reader-guidance61.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reader-guidance61.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reader-guidance61.css",
       "sha256": "13f5d81416f4faff8a6e4e6e0b9d55e41025ef0725ce32dd3a250a664c9b6d8b"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/reader-guidance61.js",
-      "target": ".agents/skills/haha/assets/design-system/package/reader-guidance61.js",
-      "sha256": "1cc736f8fccf2bc3a4e01ce532d5e8545cb2c9f0cddec281cc2fe562cd5cc9e7"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reader-guidance61.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reader-guidance61.js",
+      "sha256": "99be83a56d1efe1a1344bf1b3713902c6bbbc48414471ec66ce56acfdf86f152"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/reading248.html",
-      "target": ".agents/skills/haha/assets/design-system/package/reading248.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reading248.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reading248.html",
       "sha256": "6e0d7bd57a435a2d77df98b08f454b8092ebb3bb8488019295b113aafb264b6f"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/reading248.js",
-      "target": ".agents/skills/haha/assets/design-system/package/reading248.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reading248.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reading248.js",
       "sha256": "a9dd3c4bc9f9c095a27a3b8a2436bfcabe745ce89a3d58a0b5945ebe634b885f"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/reading264.css",
-      "target": ".agents/skills/haha/assets/design-system/package/reading264.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reading264.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reading264.css",
       "sha256": "166f4058e7f2e92c02906d5703b5891028bb8c3e0e3028ce34cd60acc7645f74"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/record-dossiers.json",
-      "target": ".agents/skills/haha/assets/design-system/package/record-dossiers.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/record-dossiers.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/record-dossiers.json",
       "sha256": "08f99a132cbdc6076d9bca4823ee9e51405812f226bc9a9845c586b351565483"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/reuse-records316.js",
-      "target": ".agents/skills/haha/assets/design-system/package/reuse-records316.js",
-      "sha256": "8a3d1075090396b72c4bc5aa4392ba5a1731bc82a7c9e88aac2b280422473659"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reuse-records316.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reuse-records316.js",
+      "sha256": "5d92d23e73f99c82a1ab1deb3a46e40169039e3924bd0a5c4ed6867395efc92b"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/reuse-routing.json",
-      "target": ".agents/skills/haha/assets/design-system/package/reuse-routing.json",
-      "sha256": "8f72aeb72b0c5f17bb7531c5363521abeb1ecfa959c03fc2c44f10c128438df6"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reuse-routing.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reuse-routing.json",
+      "sha256": "ec516a74afbc6cce56ca7490fbef354071904f1d58875e51951823b2e3f8cec4"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/REUSE.md",
-      "target": ".agents/skills/haha/assets/design-system/package/REUSE.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/REUSE.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/REUSE.md",
       "sha256": "05a32cb07fa65f0c6f495f8e7eb2e8c549637f2a23601e2a959d7b6af18e0e24"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/reuse300.css",
-      "target": ".agents/skills/haha/assets/design-system/package/reuse300.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reuse300.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reuse300.css",
       "sha256": "d486a92fd7964f18d7c06eb240c9a5186c3e5e40752f9448e711df53b10fd0f1"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/reuse300.js",
-      "target": ".agents/skills/haha/assets/design-system/package/reuse300.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reuse300.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/reuse300.js",
       "sha256": "d6f3e9f8df37f7d493aab0d58584af4c065d6b43ff107994911b5664e465d601"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/RIGHTS.md",
-      "target": ".agents/skills/haha/assets/design-system/package/RIGHTS.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/review-current-pdf-links.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/review-current-pdf-links.js",
+      "sha256": "44082d74416bb05a17b5898a0aa1c25497e9a0a86dd32b22869cde515423ace6"
+    },
+    {
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/RIGHTS.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/RIGHTS.md",
       "sha256": "fa52e3eb137ff9394e398a4d31a00ad125ad11e9ad4ecfad47929e406cb3c64a"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/RULES.md",
-      "target": ".agents/skills/haha/assets/design-system/package/RULES.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/RULES.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/RULES.md",
       "sha256": "ae708ecd891faadd93e8112a5adf3dce54d24975acc22869c9739d3e42492742"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/semantic240-data.js",
-      "target": ".agents/skills/haha/assets/design-system/package/semantic240-data.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic240-data.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic240-data.js",
       "sha256": "2f46e81456408c21fe7d14e0d5261f2e9d015cc97601c1a78d94b6cecd46f802"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/semantic240.css",
-      "target": ".agents/skills/haha/assets/design-system/package/semantic240.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic240.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic240.css",
       "sha256": "947299bbaf19c91403c2f54ae767f4679958f8aa36effd1c0dfb78322cf92621"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/semantic240.js",
-      "target": ".agents/skills/haha/assets/design-system/package/semantic240.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic240.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic240.js",
       "sha256": "6248a1f04b60c8e426aa4aaae2b54ef2e4514a7a37d73340c888944a03d4ca90"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/semantic241-data.js",
-      "target": ".agents/skills/haha/assets/design-system/package/semantic241-data.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic241-data.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic241-data.js",
       "sha256": "f7392bb4090a8e710b404b62c53c7b3bddbdd48bbd7f44d456b4f69079138641"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/semantic241.css",
-      "target": ".agents/skills/haha/assets/design-system/package/semantic241.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic241.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic241.css",
       "sha256": "60056746fd1438bca03d83941fc973d132a6f89d351c9b3b3ecb148fe3e527ca"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/semantic241.js",
-      "target": ".agents/skills/haha/assets/design-system/package/semantic241.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic241.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic241.js",
       "sha256": "b2ed62e50abc75a39fb60b148726aa967bd8634506e7f6494519b7879e6f2f49"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/semantic241.json",
-      "target": ".agents/skills/haha/assets/design-system/package/semantic241.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic241.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/semantic241.json",
       "sha256": "e2e31b1a6b67dd29f550014f396091e7905a481d72ddf5367d747d3ba08d27bc"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/SHADOW.md",
-      "target": ".agents/skills/haha/assets/design-system/package/SHADOW.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/SHADOW.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/SHADOW.md",
       "sha256": "6dfd241b8bc3ce9b7af8efb98102198b0bd8bd94378e5e3721a5d64db483a2d5"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/shadow311.css",
-      "target": ".agents/skills/haha/assets/design-system/package/shadow311.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/shadow311.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/shadow311.css",
       "sha256": "ab4b25bed50a50dbc43104af8f2a13c34241e23a62f62eb896fb37cf1f4b8aee"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/shadow311.js",
-      "target": ".agents/skills/haha/assets/design-system/package/shadow311.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/shadow311.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/shadow311.js",
       "sha256": "fdcaea0158c4d7d06a9545e449e36a37e498109c2c9426822fe8cfc6132d9cbc"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/shadow47.css",
-      "target": ".agents/skills/haha/assets/design-system/package/shadow47.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/shadow47.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/shadow47.css",
       "sha256": "85513237933a2c926a1df6ef038c50adf7f1268360b7bbf52be902c767d75582"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/shadow47.js",
-      "target": ".agents/skills/haha/assets/design-system/package/shadow47.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/shadow47.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/shadow47.js",
       "sha256": "771393c0e6a918a85614c3ba6a06c0020002af23a0fcdd5a720f6dc96235282d"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/SHADOW47.md",
-      "target": ".agents/skills/haha/assets/design-system/package/SHADOW47.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/SHADOW47.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/SHADOW47.md",
       "sha256": "6dfd241b8bc3ce9b7af8efb98102198b0bd8bd94378e5e3721a5d64db483a2d5"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/shadow47.model.json",
-      "target": ".agents/skills/haha/assets/design-system/package/shadow47.model.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/shadow47.model.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/shadow47.model.json",
       "sha256": "048c0fbbd6734972cdd45424aef7e7e27beebf84c8cbce9eb36c412a3c417042"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/sidebar-navigation.json",
-      "target": ".agents/skills/haha/assets/design-system/package/sidebar-navigation.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/sidebar-navigation.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/sidebar-navigation.json",
       "sha256": "a6f2682c6ed3ca7c4d197f3d009c170fc48dfe77d342dfc934ac0ac9ae065978"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/sidebar297.css",
-      "target": ".agents/skills/haha/assets/design-system/package/sidebar297.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/sidebar297.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/sidebar297.css",
       "sha256": "a0d70997dc5eed3bc896bd589cf36e68005db699f159798cab6db5e1057656f3"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/slide-layouts284.json",
-      "target": ".agents/skills/haha/assets/design-system/package/slide-layouts284.json",
-      "sha256": "9f978dbea688141bfb204ac22b4d37bbbb759f701f1954f2abc744f9c862f030"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide-layouts284.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide-layouts284.json",
+      "sha256": "b81cd64df675cfe266665d0c9dabceef1bd255a4a1cbe0e90eadc2ae408b8030"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/slide-layouts285.json",
-      "target": ".agents/skills/haha/assets/design-system/package/slide-layouts285.json",
-      "sha256": "80992805a77c7f8735d86b0c7976c728fadfda4d55f9dc59642dcc7f39dac350"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide-layouts285.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide-layouts285.json",
+      "sha256": "35a525673c20f1c980e4d7930b0aca7d6eb50b368909b291228ac7901d30d244"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/SLIDE-MEDIA.md",
-      "target": ".agents/skills/haha/assets/design-system/package/SLIDE-MEDIA.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/SLIDE-MEDIA.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/SLIDE-MEDIA.md",
       "sha256": "d60eedd9e4b9623f45430941994b5951530ba7307df5b128fae03e9587ca5444"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/slide-media284.css",
-      "target": ".agents/skills/haha/assets/design-system/package/slide-media284.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide-media284.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide-media284.css",
       "sha256": "52031809bf0c0721743155194190ad150b3e73924882ea693fc0a2ebc1b9ff56"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/slide-media284.js",
-      "target": ".agents/skills/haha/assets/design-system/package/slide-media284.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide-media284.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide-media284.js",
       "sha256": "4322dba5bcf68681ccb833d6a2fef52ddbcc65e901613d1d6952ef1a15661816"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/slide-reader-policy.json",
-      "target": ".agents/skills/haha/assets/design-system/package/slide-reader-policy.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide-reader-policy.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide-reader-policy.json",
       "sha256": "387a1c9a3664bc3e2be1db911509b2eb91acb3971cd000e8d58e17898632b41e"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/SLIDE-ROLES.md",
-      "target": ".agents/skills/haha/assets/design-system/package/SLIDE-ROLES.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/SLIDE-ROLES.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/SLIDE-ROLES.md",
       "sha256": "ecfb9c68d50bacaa767502d3bce5c0e294e31dfbc0c083917b13115b1f92d003"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/slide248.html",
-      "target": ".agents/skills/haha/assets/design-system/package/slide248.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide248.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide248.html",
       "sha256": "2087f7895322ce1274da35d581a37683969effa41a21421d79511a0d790b2133"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/slide248.js",
-      "target": ".agents/skills/haha/assets/design-system/package/slide248.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide248.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide248.js",
       "sha256": "6c543610bf3e0285b6f5855baa35c97b2c3bd4f6e784b03c2fb585523602bbf1"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/slide283-entry.js",
-      "target": ".agents/skills/haha/assets/design-system/package/slide283-entry.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide283-entry.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide283-entry.js",
       "sha256": "6a6fec590a2e87f2b7da8723edd016e92fbf0a8e19e92a0fad68d21e8223e2e7"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/slide283.html",
-      "target": ".agents/skills/haha/assets/design-system/package/slide283.html",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide283.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slide283.html",
       "sha256": "6ffc302a983bcae048eea48e0472e2048289acea79386be58bb67056a1d2ba45"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/slides283.js",
-      "target": ".agents/skills/haha/assets/design-system/package/slides283.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slides283.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slides283.js",
       "sha256": "83ff5f4e4c2b9673ea897ec2e6039af2797d33e964a6fc24c14dde521ab99352"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/slides284.js",
-      "target": ".agents/skills/haha/assets/design-system/package/slides284.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slides284.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slides284.js",
       "sha256": "ae8a727338a7b6708b7a6a3201d13973460a5d460884b04d78d8f22b88e4fea0"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/slides285.js",
-      "target": ".agents/skills/haha/assets/design-system/package/slides285.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slides285.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/slides285.js",
       "sha256": "570084fbc2195f9077f118d9dfdc5b897be023dfd271854ca7f424cb9ea664cf"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/studio-data305.js",
-      "target": ".agents/skills/haha/assets/design-system/package/studio-data305.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/studio-data305.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/studio-data305.js",
       "sha256": "0dc098777a7c0dc1947e9b1b8469f5186bd267dbae40d099532cf7f2ac5d708f"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/studio.css",
-      "target": ".agents/skills/haha/assets/design-system/package/studio.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/studio.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/studio.css",
       "sha256": "d15194e6dc5898b7ee504600e47b02fbaca2647b1791f270948192d83d48f898"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/studio.js",
-      "target": ".agents/skills/haha/assets/design-system/package/studio.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/studio.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/studio.js",
       "sha256": "13f5ce79b431deb92a9fee7b955991c3d271f09f2e0d076423576b79436ef079"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/STUDIO.md",
-      "target": ".agents/skills/haha/assets/design-system/package/STUDIO.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/STUDIO.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/STUDIO.md",
       "sha256": "9989ad93cee27d4e889435e49aeceae759f750203d6068f685505b624614e58d"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/theory248.html",
-      "target": ".agents/skills/haha/assets/design-system/package/theory248.html",
-      "sha256": "7e4cd7c3797e689cbad60a788335cf45728f84f7069969fdbc46f8f66469dae4"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/theory248.html",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/theory248.html",
+      "sha256": "1409ca7924bd19490e6ecbf0d78d6e912419e7bfbbba4612b8a12498c9189e38"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/TOKENS.md",
-      "target": ".agents/skills/haha/assets/design-system/package/TOKENS.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/TOKENS.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/TOKENS.md",
       "sha256": "d20f56d155e3d82a79fc7b2a5aebad6071c6aecee6c0d7dd9596e0a8231ab6a0"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/trial305.js",
-      "target": ".agents/skills/haha/assets/design-system/package/trial305.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/trial305.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/trial305.js",
       "sha256": "1c19015a456a0d6efad5ac2e9e4f199a9d0da1076a2561dc1b521fcbb0b3ff8f"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/UI.md",
-      "target": ".agents/skills/haha/assets/design-system/package/UI.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/UI.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/UI.md",
       "sha256": "04053274e032f80e1fa08d0d65c99f082de2f0ec710f5694b6101e6a7bb7552f"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/ui261-data.js",
-      "target": ".agents/skills/haha/assets/design-system/package/ui261-data.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/ui261-data.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/ui261-data.js",
       "sha256": "823d13000d4f6716c944b6cb80ca400e23e42898014f134ed1bc44231975248a"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/ui261.css",
-      "target": ".agents/skills/haha/assets/design-system/package/ui261.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/ui261.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/ui261.css",
       "sha256": "829eabd59dacba7277263179cb8394caa43a46194c126e83b158268d87a72c22"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/use-acceptance-current.json",
-      "target": ".agents/skills/haha/assets/design-system/package/use-acceptance-current.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/use-acceptance-current.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/use-acceptance-current.json",
       "sha256": "c50228a5ac5734eec0f40687aa8127377b2ced3e749f360d0b268e8fe06b8794"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/use-acceptance47.json",
-      "target": ".agents/skills/haha/assets/design-system/package/use-acceptance47.json",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/use-acceptance47.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/use-acceptance47.json",
       "sha256": "afa797f1c0a37e993d4616d1ff137f2e681bbfee5771fae5517f1888e3951e65"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/USE-BEFORE47.md",
-      "target": ".agents/skills/haha/assets/design-system/package/USE-BEFORE47.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/USE-BEFORE47.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/USE-BEFORE47.md",
       "sha256": "fecebea0730188c852d6a89e19c85f060cd2bee78cdad6e7efce8758ca190cc2"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/USE-CURRENT.md",
-      "target": ".agents/skills/haha/assets/design-system/package/USE-CURRENT.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/USE-CURRENT.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/USE-CURRENT.md",
       "sha256": "25e1235f33251bfce30d48726b5e59750cf87c4c84de0dcfde8129b5337fe622"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/USE-SOURCE64.md",
-      "target": ".agents/skills/haha/assets/design-system/package/USE-SOURCE64.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/USE-SOURCE64.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/USE-SOURCE64.md",
       "sha256": "9e50bd52b5de6c2c20ace0154cc6b14ecc8d2bab36046e6f3b4012cfd67e8264"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/USE.md",
-      "target": ".agents/skills/haha/assets/design-system/package/USE.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/USE.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/USE.md",
       "sha256": "25e1235f33251bfce30d48726b5e59750cf87c4c84de0dcfde8129b5337fe622"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/VOICE-MODEL.json",
-      "target": ".agents/skills/haha/assets/design-system/package/VOICE-MODEL.json",
-      "sha256": "6e460869018df4b58f4707b8011abcece6f86ad786e5c3b6932f5557a7f52d79"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/VOICE-MODEL.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/VOICE-MODEL.json",
+      "sha256": "4a9355e622391359a36fdcfe004df2041eb8a1b9141c5ef55cbd7055760eb3da"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/VOICE.md",
-      "target": ".agents/skills/haha/assets/design-system/package/VOICE.md",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/VOICE.md",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/VOICE.md",
       "sha256": "46debb9ae2bc8f62e790d25e6a70791bd6598d01db04cf5cc8dca0bcabcd8270"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/voice251.css",
-      "target": ".agents/skills/haha/assets/design-system/package/voice251.css",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/voice251.css",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/voice251.css",
       "sha256": "1de0b1f5232926d9ed6505543b1784d579c8c5fdd0ed3c551e4f6f2ac5f915c5"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/voice251.js",
-      "target": ".agents/skills/haha/assets/design-system/package/voice251.js",
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/voice251.js",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/voice251.js",
       "sha256": "950ad630233e0c0c70cf9859f07b30f6472c88b83b6cef86bcd03d2f7c98c4e0"
     },
     {
-      "source": "source/skill/haha/assets/design-system/package/WEB-RELEASE.json",
-      "target": ".agents/skills/haha/assets/design-system/package/WEB-RELEASE.json",
-      "sha256": "d0f4c7c345996496129301aa62bea854f2ce0c78117a99e28015c159a6f09891"
+      "source": "source/skill/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/WEB-RELEASE.json",
+      "target": ".agents/skills/haha/assets/design-system/PDF/purpose-1.2.11-reader-20261023/package/WEB-RELEASE.json",
+      "sha256": "bda995559f365f316f2429e5b59a68ff7964d6d03a5fd5322dfe3931a98826c8"
     },
     {
       "source": "source/skill/haha/references/apply-design.md",
       "target": ".agents/skills/haha/references/apply-design.md",
-      "sha256": "8d25da4af68978ee480e5a0e204571ad6d9644ba788c75acd7e45d406a8e2998"
+      "sha256": "c2bcdf67140d1f5c840d8129d97086f05dbf0aace4835ba7de85f23cb2533d15"
     },
     {
       "source": "source/skill/haha/references/client-integration.md",
       "target": ".agents/skills/haha/references/client-integration.md",
-      "sha256": "2dba820e0bb3a43e69f84462213c1a895a447155a91dcd019afe01d9598626e3"
+      "sha256": "6d42d6b9e15a3e8f5fdaac4134ad9914fb9e1b40193997523b195865ff17e4a0"
     },
     {
       "source": "source/skill/haha/references/current-production.md",
       "target": ".agents/skills/haha/references/current-production.md",
-      "sha256": "3aae3a95bbd83ab8a134df83a2eb66707126e51682ef540632f2b3f4b577c73f"
+      "sha256": "f3029a087f7badf2a9211d3f9c8d6f23e0abc0ac58e6d472886859b76bdcb73e"
     },
     {
       "source": "source/skill/haha/references/library-elements.md",
       "target": ".agents/skills/haha/references/library-elements.md",
-      "sha256": "23420fe3a0ad51d15c5f3e295e5dd7f7722f45d3a353f3f80929a427410fb48c"
+      "sha256": "a3a593ee67c05e40e6b728ae3997557cdf84869d7ef6d4b67a41165e1b0d1b35"
     },
     {
       "source": "source/skill/haha/references/quality-checks.md",
       "target": ".agents/skills/haha/references/quality-checks.md",
-      "sha256": "284bb95620f7b4e0b7093618d38d96b8587d3c1e58a7a465d091b555f8714292"
+      "sha256": "c38e8890cbdc1c42b03346f118d2f674f7227c626be113f546239b0f977cb5a5"
     },
     {
       "source": "source/skill/haha/scripts/inspect_haha.py",
       "target": ".agents/skills/haha/scripts/inspect_haha.py",
-      "sha256": "c54aa361939d9933c03d9344777e2503c4f385680c4a6be5456b3710f5295f20"
+      "sha256": "20ebce1aab8fc03272847cd524bc969cce7e7112cb4ddfdf66466db2d73b9fcf"
     },
     {
       "source": "source/skill/haha/SKILL.md",
       "target": ".agents/skills/haha/SKILL.md",
-      "sha256": "994a57af4fbedf8714505fc7729f854df5427c474ad9095c07da7fbe75e5da82"
+      "sha256": "35836cdaab6b4507c003f15061939051e0f91120085b3dcf9fcc4c2a9a66a2fa"
     },
     {
       "source": "source/skill/voice/agents/openai.yaml",
@@ -1319,83 +1324,23 @@
       "sha256": "faa6431514f2b81cd0c1f239a6f21b4614a28f84c3da25dca78b8c59f43572ad"
     }
   ],
-  "routingMutations": false,
-  "requiresClientConfirmation": true,
-  "excluded": [
-    "Research capture bitmaps",
-    "Private task history",
-    "Credentials/caches/retired executable skills"
-  ],
-  "mutableAfterPreview": [
-    "installer/install-preview.json",
-    "installer/install-preview.md",
-    "installer/install-receipt.json"
-  ],
-  "rights": "HAHA supplied-asset client work permitted by owner; trademark and third-party scope remain separate; Be Vietnam Pro SIL OFL included.",
-  "proofScope": "Packaging and isolated fixture only. Not installed on a real client machine.",
-  "sourceBaseline": {
-    "hahaManifestSha256": "44cc5a86b3ad8631d0d6ecd934d1ca6939a1a93da786ef812e769acd50e71e46",
-    "pdfBundleManifestSha256": "25f3b3ba136602643d1d0004337579fb3ac319c8056512198555831dae3e156f"
-  },
-  "supersedes": "1.1.0",
-  "defaultSkillLayout": "codex",
-  "supportedSkillLayouts": [
-    "codex"
-  ],
-  "sourceRelease": {
-    "haha": "1.2.11-reader",
-    "voiceBaselineArchiveSha256": "cddcc1fe8d1510ff33f55ae9e78254e3b612ead1ba3ffe6287a6114271e4d693",
-    "voiceFilesUnchanged": 30
-  },
-  "setupGuide": "SETUP.md",
-  "installTargets": [
+  "brand": "HAHA",
+  "dataManifest": "source/skill/haha/assets/design-system/asset-manifest.json",
+  "functions": [
     {
-      "sourcePath": "source/skill/haha",
-      "targetPath": ".agents/skills/haha"
+      "id": "inspect-current-assets",
+      "entry": "source/skill/haha/scripts/inspect_haha.py",
+      "input": "Exact included asset manifest",
+      "output": "File/hash report; not visual approval"
     },
     {
-      "sourcePath": "source/skill/voice",
-      "targetPath": ".agents/skills/voice"
-    }
-  ],
-  "functionTests": [
-    {
-      "function": "haha",
+      "id": "apply-current-design",
       "entry": "source/skill/haha/SKILL.md",
-      "input": "Harmless supplied brief",
-      "output": "Brand-grounded draft with actual format evidence",
-      "dependencies": [
-        "Bundled HAHA assets",
-        "Existing Codex",
-        "Existing browser for interactive library"
-      ],
-      "safeTest": "Run shipped inspect_haha.py; separately inspect chosen actual HTML/example state after eligibility."
-    },
-    {
-      "function": "voice",
-      "entry": "source/skill/voice/SKILL.md",
-      "input": "Bundled install-smoke-input.md",
-      "output": "Fact-preserving short message",
-      "dependencies": [
-        "Unchanged bundled Voice closure",
-        "Existing Codex"
-      ],
-      "safeTest": "Rewrite smoke input; compare every stated time/date/format/deadline; send nothing."
+      "input": "Authorized client facts, selected current component family and brandVOICE",
+      "output": "New artifact with actual-format/readback proof"
     }
   ],
-  "recipientAcceptance": {
-    "files": "LOCAL_ISOLATED_TESTS_PASS",
-    "nativeDiscovery": "PENDING_RECIPIENT",
-    "realTask": "PENDING_RECIPIENT",
-    "humanSignOff": "PENDING_RECIPIENT"
-  },
-  "handoverReadiness": {
-    "archive": "LOCAL_REVIEW_CANDIDATE",
-    "sopPdf": "EXPORTED_AND_ALL6PAGES_ACTUALLY_READ",
-    "browserInteraction": "REPRESENTATIVE_HEADLESS_STATES_TESTED",
-    "recipientDiscovery": "NOT_TESTED_ON_RECIPIENT",
-    "realTask": "LOCAL_FIXTURES_ONLY",
-    "humanSignoff": "NOT_TESTED_ON_RECIPIENT",
-    "remotePublication": "NOT_ATTEMPTED"
-  }
+  "setup": "SETUP.md",
+  "recipientAcceptance": "NOT_TESTED",
+  "excludedKAI": true
 }

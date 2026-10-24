@@ -1,0 +1,3398 @@
+{
+  "schemaVersion": "melab-dependency-map/v1",
+  "generated": true,
+  "doNotEdit": true,
+  "source": "system.model.json",
+  "sourceSha256": "855c7e52af5bb9cebaa560f64a2e1be02865798e50f790f03072d90837c25f38",
+  "records": [
+    {
+      "id": "logo-pair",
+      "file": "assets/logo.png",
+      "sha256": "68f4e125900c15c2821a65a55e1fab373b1b77b0f93a1edfdcf19e3fd62207f8",
+      "dependencies": []
+    },
+    {
+      "id": "icon-core-bullet-square",
+      "file": "assets/icons/icon-core-bullet-square.svg",
+      "sha256": "65a48e4da41388ee6a73fc9836bab7aaed88427c7215f46b6e5ea34d1572e97e",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-bullet-square-blue-on-white.svg",
+        "assets/icons/icon-core-bullet-square-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-checkbox-empty",
+      "file": "assets/icons/icon-core-checkbox-empty.svg",
+      "sha256": "31883fbcb2894f46a25b309a8332339707a229849e30d596de3b364bf11d70ad",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-checkbox-empty-blue-on-white.svg",
+        "assets/icons/icon-core-checkbox-empty-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-page-outline",
+      "file": "assets/icons/icon-core-page-outline.svg",
+      "sha256": "ad74dbacdb0d76c184e26d7f6ada0c2fa5f75a13f0299f1f60cedf6a6f034160",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-page-outline-blue-on-white.svg",
+        "assets/icons/icon-core-page-outline-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-home",
+      "file": "assets/icons/icon-core-home.svg",
+      "sha256": "120bd12e35522134c890e6ff8c41f4a3e249243caf7ba0b024966d6fa8a430a0",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-home-blue-on-white.svg",
+        "assets/icons/icon-core-home-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-back",
+      "file": "assets/icons/icon-core-back.svg",
+      "sha256": "bfde18920b063d19710c016891cc6ce0918cd4d25ef77ebaa09816150fbadadb",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-back-blue-on-white.svg",
+        "assets/icons/icon-core-back-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-forward",
+      "file": "assets/icons/icon-core-forward.svg",
+      "sha256": "239618c16dbe48af9de9718b00753714f018d921e29fa7577202a1d5d0c6d30c",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-forward-blue-on-white.svg",
+        "assets/icons/icon-core-forward-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-up",
+      "file": "assets/icons/icon-core-up.svg",
+      "sha256": "0ef4d2dffe4428a71d5f3da76d8491392089a79b8d7e54a6c25631cc94fea49b",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-up-blue-on-white.svg",
+        "assets/icons/icon-core-up-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-down",
+      "file": "assets/icons/icon-core-down.svg",
+      "sha256": "2bd85a2f44eabf2ccadcabe8bf7c60ce33db06030e9f179e7d376f3405a127eb",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-down-blue-on-white.svg",
+        "assets/icons/icon-core-down-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-menu",
+      "file": "assets/icons/icon-core-menu.svg",
+      "sha256": "7064d3585af437ec7adf377e44d313aea4aa235cdaa1c99793beac612053d20a",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-menu-blue-on-white.svg",
+        "assets/icons/icon-core-menu-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-expand",
+      "file": "assets/icons/icon-core-expand.svg",
+      "sha256": "cb1c14ab4c94724ee818b89e049f05baf6cf9e13d30a389cbb1343fe602a41e1",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-expand-blue-on-white.svg",
+        "assets/icons/icon-core-expand-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-collapse",
+      "file": "assets/icons/icon-core-collapse.svg",
+      "sha256": "40153374a6a04011592e15d08684abde573236b2e335aaa84c0f2418d8d41c78",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-collapse-blue-on-white.svg",
+        "assets/icons/icon-core-collapse-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-add",
+      "file": "assets/icons/icon-core-add.svg",
+      "sha256": "275fbee2a425f5332059644a001798f9e6bea9f8d009febcb60985803cac751b",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-add-blue-on-white.svg",
+        "assets/icons/icon-core-add-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-edit",
+      "file": "assets/icons/icon-core-edit.svg",
+      "sha256": "65de2de32511fd34eae1df1f5d237b11e7cf3d94dca724e8e1d0d66409607ed2",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-edit-blue-on-white.svg",
+        "assets/icons/icon-core-edit-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-delete",
+      "file": "assets/icons/icon-core-delete.svg",
+      "sha256": "0d5e3989761c3a96bbcfd8998adcdca7531592269949918f0aa6589b8cfe9e1d",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-delete-blue-on-white.svg",
+        "assets/icons/icon-core-delete-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-duplicate",
+      "file": "assets/icons/icon-core-duplicate.svg",
+      "sha256": "d70687bddfe9efaa14e3fcfd003a9055ba8f5f8cdfff5d1b584cf86c1522f23f",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-duplicate-blue-on-white.svg",
+        "assets/icons/icon-core-duplicate-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-save",
+      "file": "assets/icons/icon-core-save.svg",
+      "sha256": "df9468b6fba228afd265a0eca56723096d2e85139cfafe4631a6002c4a55f75d",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-save-blue-on-white.svg",
+        "assets/icons/icon-core-save-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-download",
+      "file": "assets/icons/icon-core-download.svg",
+      "sha256": "ceaee5e695d5d2137af63dedccef64837a0a3f45391be10773bfe67244bce21d",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-download-blue-on-white.svg",
+        "assets/icons/icon-core-download-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-upload",
+      "file": "assets/icons/icon-core-upload.svg",
+      "sha256": "df2b67273f1647bf2435ee62e4864316c6f399e633400e21232e7c460e803edf",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-upload-blue-on-white.svg",
+        "assets/icons/icon-core-upload-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-share",
+      "file": "assets/icons/icon-core-share.svg",
+      "sha256": "bcaeaf4583621bd1d06a12428cf41d7eeb1ce4f4279fb0c82de5c2b2b5a6d938",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-share-blue-on-white.svg",
+        "assets/icons/icon-core-share-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-search",
+      "file": "assets/icons/icon-core-search.svg",
+      "sha256": "bf1ef264eed84e464b9029c2f2e95b0feffb99b508d63681e717c284eed46643",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-search-blue-on-white.svg",
+        "assets/icons/icon-core-search-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-filter",
+      "file": "assets/icons/icon-core-filter.svg",
+      "sha256": "b8091eae1a442999bda6c0537b770be15d82dfd8c537bde2aab6171d356084fb",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-filter-blue-on-white.svg",
+        "assets/icons/icon-core-filter-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-sort",
+      "file": "assets/icons/icon-core-sort.svg",
+      "sha256": "53425f6d97da3f807f20730ed6a2359cd5685b02f8edeee11b6a07ed233788a0",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-sort-blue-on-white.svg",
+        "assets/icons/icon-core-sort-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-grid",
+      "file": "assets/icons/icon-core-grid.svg",
+      "sha256": "ecdb4ebf3ad1e9b6d2d46268c79a6614d26480de05f3a6f40718caf9a1706dcb",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-grid-blue-on-white.svg",
+        "assets/icons/icon-core-grid-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-list",
+      "file": "assets/icons/icon-core-list.svg",
+      "sha256": "65524ab255c8007839d64073e98cce6b790c46c3831641d2e824c89ed1b22e83",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-list-blue-on-white.svg",
+        "assets/icons/icon-core-list-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-zoom-in",
+      "file": "assets/icons/icon-core-zoom-in.svg",
+      "sha256": "c55887c6c4736e50abd26c92cd1e8da3e76d83a8779e3b37c3603892ecfe7b68",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-zoom-in-blue-on-white.svg",
+        "assets/icons/icon-core-zoom-in-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-zoom-out",
+      "file": "assets/icons/icon-core-zoom-out.svg",
+      "sha256": "3a4f5a12f7b3ae233dba4e4eeb499f2207e1d291cb22547a726858f98774fc9d",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-zoom-out-blue-on-white.svg",
+        "assets/icons/icon-core-zoom-out-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-eye",
+      "file": "assets/icons/icon-core-eye.svg",
+      "sha256": "de71478700a83f723236b9fac25e5d99a7dcfcbabdfadc8c5fe80b9e6f4303f6",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-eye-blue-on-white.svg",
+        "assets/icons/icon-core-eye-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-success",
+      "file": "assets/icons/icon-core-success.svg",
+      "sha256": "727b0059c7a9a78cfaaafabf77b535e1b85d3230b47faee296dbdeac2a01cb39",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-success-blue-on-white.svg",
+        "assets/icons/icon-core-success-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-warning",
+      "file": "assets/icons/icon-core-warning.svg",
+      "sha256": "85e617362208e910d3c3bfadd07ce9ccc0f92832dab3aa59e086d4fc2d72f1af",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-warning-blue-on-white.svg",
+        "assets/icons/icon-core-warning-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-error",
+      "file": "assets/icons/icon-core-error.svg",
+      "sha256": "e337ad0be9e83a3bc05c8d685a0a309d103a154e40569c6cdb5944a2f9c3532d",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-error-blue-on-white.svg",
+        "assets/icons/icon-core-error-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-info",
+      "file": "assets/icons/icon-core-info.svg",
+      "sha256": "35a747e90b96e641e4bcb0b12dc9bfdefad740f083f43ecf10c81af1568b528b",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-info-blue-on-white.svg",
+        "assets/icons/icon-core-info-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-loading",
+      "file": "assets/icons/icon-core-loading.svg",
+      "sha256": "476bf4e6efabe63b5a9e59019cf3a1975cff167f1f4223b582b3d6bb7f120c2f",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-loading-blue-on-white.svg",
+        "assets/icons/icon-core-loading-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-help",
+      "file": "assets/icons/icon-core-help.svg",
+      "sha256": "ea1c7133da0f826f3e95089910323ba5ceae028840306e20b51dc67b2da1af57",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-help-blue-on-white.svg",
+        "assets/icons/icon-core-help-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-blocked",
+      "file": "assets/icons/icon-core-blocked.svg",
+      "sha256": "2d1974574cc54b24a013de5afa5937c050cde0fed157cdfe1d8aeba7f5dde406",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-blocked-blue-on-white.svg",
+        "assets/icons/icon-core-blocked-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-pending",
+      "file": "assets/icons/icon-core-pending.svg",
+      "sha256": "76de526aa53253926cc005014bc006a3a450b246762b6cd3683431caec21d10c",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-pending-blue-on-white.svg",
+        "assets/icons/icon-core-pending-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-file",
+      "file": "assets/icons/icon-core-file.svg",
+      "sha256": "78dcb6d421f6e452163449e7db289917dff5b7a3b4c603464ae6370c8e999394",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-file-blue-on-white.svg",
+        "assets/icons/icon-core-file-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-folder",
+      "file": "assets/icons/icon-core-folder.svg",
+      "sha256": "7ef3b8ecde381b9a33e5ff6128c05b77936a8139186f66a334daf7a50572e0d1",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-folder-blue-on-white.svg",
+        "assets/icons/icon-core-folder-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-text",
+      "file": "assets/icons/icon-core-text.svg",
+      "sha256": "e4910f1723e88b006dfea443e53f10060eeaa565c8c25bb1810a6c8f2d4d6f1e",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-text-blue-on-white.svg",
+        "assets/icons/icon-core-text-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-image",
+      "file": "assets/icons/icon-core-image.svg",
+      "sha256": "ecfa1ece4fbbc7f58d1118504e229adf8c9d2b5fb1ec3d07fc0717d69812d9e2",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-image-blue-on-white.svg",
+        "assets/icons/icon-core-image-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-video",
+      "file": "assets/icons/icon-core-video.svg",
+      "sha256": "6054086aab4a8bde6f338cb075f55cc9635065934ad34cec78a92377d4eaf19a",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-video-blue-on-white.svg",
+        "assets/icons/icon-core-video-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-audio",
+      "file": "assets/icons/icon-core-audio.svg",
+      "sha256": "e2808fac7ef50a1dae429b6f855b1258ccbafb84828797241b51ca8b37a67870",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-audio-blue-on-white.svg",
+        "assets/icons/icon-core-audio-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-archive",
+      "file": "assets/icons/icon-core-archive.svg",
+      "sha256": "7d029c801ea761fdba04e0d69c953cb59a9ea9c84bfae0add0114dcc7bf92a78",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-archive-blue-on-white.svg",
+        "assets/icons/icon-core-archive-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-link",
+      "file": "assets/icons/icon-core-link.svg",
+      "sha256": "e50c0477a4b8bda2d57f8126e035284f785287f83f34745b291a01b528590fde",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-link-blue-on-white.svg",
+        "assets/icons/icon-core-link-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-user",
+      "file": "assets/icons/icon-core-user.svg",
+      "sha256": "aac00e1b9e94fa12f515de18bb7d1b3f5c4f47a9abbe29edde9de7aae8fc7e20",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-user-blue-on-white.svg",
+        "assets/icons/icon-core-user-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-team",
+      "file": "assets/icons/icon-core-team.svg",
+      "sha256": "071fc1867d06f73ef05350183a7fadcd72f03c0c5be47e5b5c43690bc1e6a45f",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-team-blue-on-white.svg",
+        "assets/icons/icon-core-team-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-mail",
+      "file": "assets/icons/icon-core-mail.svg",
+      "sha256": "1afa67f99093ae7ec9b3982a82e71f579896b349c5d004e4803b2e203523eb05",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-mail-blue-on-white.svg",
+        "assets/icons/icon-core-mail-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-chat",
+      "file": "assets/icons/icon-core-chat.svg",
+      "sha256": "2603c2f5b7fed2b4bf321273cedaf573e6ecd06e2635d559ecad9722fa310947",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-chat-blue-on-white.svg",
+        "assets/icons/icon-core-chat-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-notification",
+      "file": "assets/icons/icon-core-notification.svg",
+      "sha256": "a24fd1694b722bb1ec8bc07af8484e32a421586c106be18928bfb11b76ac3773",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-notification-blue-on-white.svg",
+        "assets/icons/icon-core-notification-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-calendar",
+      "file": "assets/icons/icon-core-calendar.svg",
+      "sha256": "247394e407df1653531c693fcfd613a45c7f3585dd85eac64707af8f05a1c66e",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-calendar-blue-on-white.svg",
+        "assets/icons/icon-core-calendar-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-meeting",
+      "file": "assets/icons/icon-core-meeting.svg",
+      "sha256": "0931397ba23960bdbe3287317aff4dd91d260fbc7eaa76130ba8f60a26c1b229",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-meeting-blue-on-white.svg",
+        "assets/icons/icon-core-meeting-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-contact",
+      "file": "assets/icons/icon-core-contact.svg",
+      "sha256": "a4eb194910a2e8fc72e3746d853e93cbd1a843453e684ba3116f59fa8f075cfb",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-contact-blue-on-white.svg",
+        "assets/icons/icon-core-contact-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-task",
+      "file": "assets/icons/icon-core-task.svg",
+      "sha256": "3c1d229944279b5aa7338ae540a432f8ceef4de0fc5c34c0274534955f443f95",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-task-blue-on-white.svg",
+        "assets/icons/icon-core-task-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-checklist",
+      "file": "assets/icons/icon-core-checklist.svg",
+      "sha256": "f711a509d8ca498ff84c46b12da6455b9b2526d10063be46fc9959310d6b7f85",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-checklist-blue-on-white.svg",
+        "assets/icons/icon-core-checklist-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-project",
+      "file": "assets/icons/icon-core-project.svg",
+      "sha256": "243232c6438987a1703cedb87c8a59c68939be2ebe97b568caea617a0f3ae272",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-project-blue-on-white.svg",
+        "assets/icons/icon-core-project-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-kanban",
+      "file": "assets/icons/icon-core-kanban.svg",
+      "sha256": "528195e8d28dc52ce96180ead89d56b25ce1718fbac701ee75f08772fc93e518",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-kanban-blue-on-white.svg",
+        "assets/icons/icon-core-kanban-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-flag",
+      "file": "assets/icons/icon-core-flag.svg",
+      "sha256": "33f578e660b5d77b0a5264836c4e8ccbcbb491eab5e4e5ca6de661619e876057",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-flag-blue-on-white.svg",
+        "assets/icons/icon-core-flag-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-target",
+      "file": "assets/icons/icon-core-target.svg",
+      "sha256": "599cb2546fbce44625c5b41835fe8ca68508709ef116325da5fc01708307d508",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-target-blue-on-white.svg",
+        "assets/icons/icon-core-target-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-clock",
+      "file": "assets/icons/icon-core-clock.svg",
+      "sha256": "031c5974be7b27c441889fde9dc99196f0ac06c853961b7330ba2b22e12c7b1a",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-clock-blue-on-white.svg",
+        "assets/icons/icon-core-clock-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-approval",
+      "file": "assets/icons/icon-core-approval.svg",
+      "sha256": "037aae1a4a91046ede6ae11070054da8302225789cbcffb0237cf05c88c9134b",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-approval-blue-on-white.svg",
+        "assets/icons/icon-core-approval-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-bar-chart",
+      "file": "assets/icons/icon-core-bar-chart.svg",
+      "sha256": "3d3e1fc74c41827fbd24dd80cb683906bc1fdf20d7e9f5cff6f83006d6829cad",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-bar-chart-blue-on-white.svg",
+        "assets/icons/icon-core-bar-chart-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-line-chart",
+      "file": "assets/icons/icon-core-line-chart.svg",
+      "sha256": "46854ae0a597b29de1b03ee22fd8d4a19cacd76b1037cb56dff646b5accc5083",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-line-chart-blue-on-white.svg",
+        "assets/icons/icon-core-line-chart-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-pie-chart",
+      "file": "assets/icons/icon-core-pie-chart.svg",
+      "sha256": "59fbb70502c0424cb3e30208dcc21d65e36b1038888adb060a44602fb51af754",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-pie-chart-blue-on-white.svg",
+        "assets/icons/icon-core-pie-chart-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-table",
+      "file": "assets/icons/icon-core-table.svg",
+      "sha256": "748b1b4a9b8b4d0604e5a517025d61555d59526f627b0801a3f388a6299be8e0",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-table-blue-on-white.svg",
+        "assets/icons/icon-core-table-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-trend-up",
+      "file": "assets/icons/icon-core-trend-up.svg",
+      "sha256": "79b1932d177fa5120dcc8646231283469bce0e5ea3ae02011251dd79369dd4b4",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-trend-up-blue-on-white.svg",
+        "assets/icons/icon-core-trend-up-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-trend-down",
+      "file": "assets/icons/icon-core-trend-down.svg",
+      "sha256": "0df32691ed8b9456b8d491439e2056d9f3559596be08fd37bad1329b7da92b18",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-trend-down-blue-on-white.svg",
+        "assets/icons/icon-core-trend-down-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-database",
+      "file": "assets/icons/icon-core-database.svg",
+      "sha256": "7b6159a4b13446fe6f43528ad4ac9e5fab3b0c9c4d99dceaa945f316a2dd9e64",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-database-blue-on-white.svg",
+        "assets/icons/icon-core-database-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-report",
+      "file": "assets/icons/icon-core-report.svg",
+      "sha256": "295a74c9628a52cba43076bf05c92531a653ec760f6d64af87033c10a79fe0cb",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-report-blue-on-white.svg",
+        "assets/icons/icon-core-report-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-agent",
+      "file": "assets/icons/icon-core-agent.svg",
+      "sha256": "a4f61695bb299382499e61f86a878a9663e750b4ea9b5660a31bea90a20a96e8",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-agent-blue-on-white.svg",
+        "assets/icons/icon-core-agent-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-workflow",
+      "file": "assets/icons/icon-core-workflow.svg",
+      "sha256": "38a072eb50b2c82caaabe2f7fcb914b5ec92d7e11624b5077caf8b6799e7ef7d",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-workflow-blue-on-white.svg",
+        "assets/icons/icon-core-workflow-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-terminal",
+      "file": "assets/icons/icon-core-terminal.svg",
+      "sha256": "a2cc50af179020a41a970a5cd73060ef83bad94e2d787b3aca695f860930b645",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-terminal-blue-on-white.svg",
+        "assets/icons/icon-core-terminal-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-code",
+      "file": "assets/icons/icon-core-code.svg",
+      "sha256": "d80d55d5451527a30716061aa37d1a9a4ee61a5aa97ee47cb682c97a052fa155",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-code-blue-on-white.svg",
+        "assets/icons/icon-core-code-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-integration",
+      "file": "assets/icons/icon-core-integration.svg",
+      "sha256": "ed90f667a62c88007d1aeb31a9e40961a4759c04992965253774fe7b75f73d8a",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-integration-blue-on-white.svg",
+        "assets/icons/icon-core-integration-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-run",
+      "file": "assets/icons/icon-core-run.svg",
+      "sha256": "c5b82fecafcee0c328f97f9ec3672dd6aa8daaf15fdafaaf1aa61fe7df34da73",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-run-blue-on-white.svg",
+        "assets/icons/icon-core-run-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-pause",
+      "file": "assets/icons/icon-core-pause.svg",
+      "sha256": "b9f7d6d61a043d3a6b9b6c71a94c55c81854bf159160261228f435bcf8daaf61",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-pause-blue-on-white.svg",
+        "assets/icons/icon-core-pause-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-stop",
+      "file": "assets/icons/icon-core-stop.svg",
+      "sha256": "731a0b355758f136253416ceb3c915b688d987f54c9e8a3d44700608b457afad",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-stop-blue-on-white.svg",
+        "assets/icons/icon-core-stop-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-settings",
+      "file": "assets/icons/icon-core-settings.svg",
+      "sha256": "7bfcf7a78a60e46f16442de7d6dce67413c06e93da6267776a330384908c65e2",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-settings-blue-on-white.svg",
+        "assets/icons/icon-core-settings-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-lock",
+      "file": "assets/icons/icon-core-lock.svg",
+      "sha256": "2aefe10a7c3e42227c2e70ec914fbb619ebc597dd72f6407d753a8c17048e0a9",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-lock-blue-on-white.svg",
+        "assets/icons/icon-core-lock-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-unlock",
+      "file": "assets/icons/icon-core-unlock.svg",
+      "sha256": "a91ab85f6b61ba32689fb0d4050068b78696bfeb6ae6392f20cf730454722a41",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-unlock-blue-on-white.svg",
+        "assets/icons/icon-core-unlock-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-key",
+      "file": "assets/icons/icon-core-key.svg",
+      "sha256": "891eee1d83ed9efb29cdf2b3694dbbea86695b124481d63982d9ab9cd32ecd4f",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-key-blue-on-white.svg",
+        "assets/icons/icon-core-key-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-shield",
+      "file": "assets/icons/icon-core-shield.svg",
+      "sha256": "1df3e93a750ea405f92d4aa6355834c02307345bdd794a9f3b120d949b9966b0",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-shield-blue-on-white.svg",
+        "assets/icons/icon-core-shield-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-permissions",
+      "file": "assets/icons/icon-core-permissions.svg",
+      "sha256": "ccbc14073cdfa518b978a07200130516140a0b2542ff6d8558f5051df83c71f6",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-permissions-blue-on-white.svg",
+        "assets/icons/icon-core-permissions-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-refresh",
+      "file": "assets/icons/icon-core-refresh.svg",
+      "sha256": "02eb43743d2232289cb251b98aaa063e914974aa63fda2e5684a75202fe636b7",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-refresh-blue-on-white.svg",
+        "assets/icons/icon-core-refresh-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-logout",
+      "file": "assets/icons/icon-core-logout.svg",
+      "sha256": "081b0a44f1be14ea418b15b0d48b73e06c878b98676422ddacfcc9778af604d5",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-logout-blue-on-white.svg",
+        "assets/icons/icon-core-logout-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-cart",
+      "file": "assets/icons/icon-core-cart.svg",
+      "sha256": "668103937941486b03be8f917a638b9f2c5608c7a3e090b4dd68b47263bf3d23",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-cart-blue-on-white.svg",
+        "assets/icons/icon-core-cart-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-bag",
+      "file": "assets/icons/icon-core-bag.svg",
+      "sha256": "2ca7ad3a6c12d6119b6954e38635f07fdab27125e7efd130342760563c6d64bb",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-bag-blue-on-white.svg",
+        "assets/icons/icon-core-bag-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-card",
+      "file": "assets/icons/icon-core-card.svg",
+      "sha256": "0bf3917287d0a5ece4f20a0a49b41ee47cb1e18044278211a6346d7517a7d729",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-card-blue-on-white.svg",
+        "assets/icons/icon-core-card-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-receipt",
+      "file": "assets/icons/icon-core-receipt.svg",
+      "sha256": "5e19c8f206ac0bc865d9678477d8a7081520c6196f09f606a198239c79329b8b",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-receipt-blue-on-white.svg",
+        "assets/icons/icon-core-receipt-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-tag",
+      "file": "assets/icons/icon-core-tag.svg",
+      "sha256": "f04124db9771a1aa2b2eb571ef690b8846078314a8d73c8b00cf2fc16243040f",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-tag-blue-on-white.svg",
+        "assets/icons/icon-core-tag-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-package",
+      "file": "assets/icons/icon-core-package.svg",
+      "sha256": "1eb6d0b569c6e1c84e8d157251180a75375ba320e91ab3300ad34276ce4a773b",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-package-blue-on-white.svg",
+        "assets/icons/icon-core-package-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-delivery",
+      "file": "assets/icons/icon-core-delivery.svg",
+      "sha256": "23d2e3ced20370f4ef2f76e2a4cd0352442954e4e03cf22e27c46b52a94dac09",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-delivery-blue-on-white.svg",
+        "assets/icons/icon-core-delivery-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-refund",
+      "file": "assets/icons/icon-core-refund.svg",
+      "sha256": "6d634ae32e16f86a54e3686c9f734b2ce4ae795baeb53cc409d4897d11059bdb",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-refund-blue-on-white.svg",
+        "assets/icons/icon-core-refund-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-book",
+      "file": "assets/icons/icon-core-book.svg",
+      "sha256": "edf6a910e878b1457121b5448997b24a37a0a2a0817cc3b86ad4f0fe88a6da5a",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-book-blue-on-white.svg",
+        "assets/icons/icon-core-book-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-lesson",
+      "file": "assets/icons/icon-core-lesson.svg",
+      "sha256": "018678ab7f62099e44c82639fd37586b24ae3887b3f5489f5e4c9aee9cca942c",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-lesson-blue-on-white.svg",
+        "assets/icons/icon-core-lesson-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-bookmark",
+      "file": "assets/icons/icon-core-bookmark.svg",
+      "sha256": "36477251ca84a4229e84ef0a5ad56e96d290902d919debea0dd8ec8905ef411f",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-bookmark-blue-on-white.svg",
+        "assets/icons/icon-core-bookmark-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-idea",
+      "file": "assets/icons/icon-core-idea.svg",
+      "sha256": "1f49c9f0b2bbecda624c866523ee806d5d4b9eabf00010ab1e35043d33e14cc4",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-idea-blue-on-white.svg",
+        "assets/icons/icon-core-idea-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-microphone",
+      "file": "assets/icons/icon-core-microphone.svg",
+      "sha256": "d618658f6f1232594689099cadf69b5cbdb97b1a2bbaf1afdbea2187824ed49f",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-microphone-blue-on-white.svg",
+        "assets/icons/icon-core-microphone-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-camera",
+      "file": "assets/icons/icon-core-camera.svg",
+      "sha256": "176e173e38f918f899bb36d7473bdb0fe9a367145cf95035b0ed2216e85a467a",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-camera-blue-on-white.svg",
+        "assets/icons/icon-core-camera-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-presentation",
+      "file": "assets/icons/icon-core-presentation.svg",
+      "sha256": "ad2a52ed94ff006769842805f5bdbfafae12af6f7f1f45fbefa6abc0ed0a5d6a",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-presentation-blue-on-white.svg",
+        "assets/icons/icon-core-presentation-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "icon-core-certificate",
+      "file": "assets/icons/icon-core-certificate.svg",
+      "sha256": "c703bcbfa9d733a9324241b7f14c710348c7df3e43ac322396901045f6c4fdcd",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/icon-core-certificate-blue-on-white.svg",
+        "assets/icons/icon-core-certificate-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-pencil",
+      "file": "assets/icons/melab-symbol-pencil.svg",
+      "sha256": "4b012f62ee721e78e216df4967d9e9285c214115d8455ed0f4db809023682a67",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-pencil-blue-on-white.svg",
+        "assets/icons/melab-symbol-pencil-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-safety-badge",
+      "file": "assets/icons/melab-symbol-safety-badge.svg",
+      "sha256": "520de9b86ebf84dc008368523522520134344c53452d160b95768f88ead87adf",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-safety-badge-blue-on-white.svg",
+        "assets/icons/melab-symbol-safety-badge-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-learning-cap",
+      "file": "assets/icons/melab-symbol-learning-cap.svg",
+      "sha256": "ff11f650b47b6a70558667a5fa1a454220e19e90679e4b3b4201924162a54452",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-learning-cap-blue-on-white.svg",
+        "assets/icons/melab-symbol-learning-cap-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-backpack",
+      "file": "assets/icons/melab-symbol-backpack.svg",
+      "sha256": "a7e09ef6f63c78ab35a07c47d1700d05bc0af3e4534777d1914968a1c200f513",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-backpack-blue-on-white.svg",
+        "assets/icons/melab-symbol-backpack-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-next-step",
+      "file": "assets/icons/melab-symbol-next-step.svg",
+      "sha256": "cf647d1b808d0f6e9f39574e619b303f07371f76d52e9fb86f8ba461c48453a4",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-next-step-blue-on-white.svg",
+        "assets/icons/melab-symbol-next-step-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-helping-hand",
+      "file": "assets/icons/melab-symbol-helping-hand.svg",
+      "sha256": "015016bb3e736a576a246f89311b41a627e7e314e8ca4fc15018ba2e9302eae8",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-helping-hand-blue-on-white.svg",
+        "assets/icons/melab-symbol-helping-hand-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-focus-target",
+      "file": "assets/icons/melab-symbol-focus-target.svg",
+      "sha256": "c2832e9acaeb60d5c4b06b1d53274bd538f23a3e9599b64989bb5b11ed223a41",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-focus-target-blue-on-white.svg",
+        "assets/icons/melab-symbol-focus-target-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-direction",
+      "file": "assets/icons/melab-symbol-direction.svg",
+      "sha256": "970f2756167fb2b2dffd4c258e23953e9e23daf85f2fa08476b43efb3d9f4e21",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-direction-blue-on-white.svg",
+        "assets/icons/melab-symbol-direction-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-mentor",
+      "file": "assets/icons/melab-symbol-mentor.svg",
+      "sha256": "2e5b70315f2574f31a1365d8e4856fb68b75fb0b91d7d0c96f53cd355c5d0c2f",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-mentor-blue-on-white.svg",
+        "assets/icons/melab-symbol-mentor-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-energy-flask",
+      "file": "assets/icons/melab-symbol-energy-flask.svg",
+      "sha256": "bf9af83e121e797dd8e361cfc7a87e83cc8c7b80a89d923599906065c4a8c575",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-energy-flask-blue-on-white.svg",
+        "assets/icons/melab-symbol-energy-flask-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-knowledge-scroll",
+      "file": "assets/icons/melab-symbol-knowledge-scroll.svg",
+      "sha256": "d0fd5e4e20e9f3373f989a0af6afa8fb2456191214744704ab452298ac8d3150",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-knowledge-scroll-blue-on-white.svg",
+        "assets/icons/melab-symbol-knowledge-scroll-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-learning-board",
+      "file": "assets/icons/melab-symbol-learning-board.svg",
+      "sha256": "6dc4dc4ce6ded871edd032c3c5acbb582363a7e2d870ee1a2f08c93d62e5207d",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-learning-board-blue-on-white.svg",
+        "assets/icons/melab-symbol-learning-board-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-gathering",
+      "file": "assets/icons/melab-symbol-gathering.svg",
+      "sha256": "951224e0b767c604a90505ead94df501a48d17691ee04c6857ef5c5b2bb57f9d",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-gathering-blue-on-white.svg",
+        "assets/icons/melab-symbol-gathering-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-spark",
+      "file": "assets/icons/melab-symbol-spark.svg",
+      "sha256": "41657e97b18f2552a3b327790cbafa459cd7ffd340408535d6f0f7dfeca19b82",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-spark-blue-on-white.svg",
+        "assets/icons/melab-symbol-spark-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-inspiration",
+      "file": "assets/icons/melab-symbol-inspiration.svg",
+      "sha256": "af591d4385b966a823fb4524c036faae52d53ac5d8435553ab36a298f7346dcf",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-inspiration-blue-on-white.svg",
+        "assets/icons/melab-symbol-inspiration-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-sun",
+      "file": "assets/icons/melab-symbol-sun.svg",
+      "sha256": "3249a4e0e967d87c907a507d8da55be1fa8bba52eb3e6afd66e32b27b805c8f3",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-sun-blue-on-white.svg",
+        "assets/icons/melab-symbol-sun-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-campus",
+      "file": "assets/icons/melab-symbol-campus.svg",
+      "sha256": "0dcaccff0ca9f1e47c126cee1b9660521482b576f4b5f2f63efbdb86d7ec3c40",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-campus-blue-on-white.svg",
+        "assets/icons/melab-symbol-campus-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-open-door",
+      "file": "assets/icons/melab-symbol-open-door.svg",
+      "sha256": "2fbe576e9bec4d8432511c0d770d745a87d1201047aee505197d1555cab0feee",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-open-door-blue-on-white.svg",
+        "assets/icons/melab-symbol-open-door-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-telescope",
+      "file": "assets/icons/melab-symbol-telescope.svg",
+      "sha256": "1a413994bd8332b068c7fa9b3e35b82b790865f587502a0bee3bfcf8ccab43fe",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-telescope-blue-on-white.svg",
+        "assets/icons/melab-symbol-telescope-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-shelter",
+      "file": "assets/icons/melab-symbol-shelter.svg",
+      "sha256": "ab2375da6e5baa51d5ae0a21f22ced3a7f9982d1a8bb73f835d30afa2bf44ced",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-shelter-blue-on-white.svg",
+        "assets/icons/melab-symbol-shelter-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-compass",
+      "file": "assets/icons/melab-symbol-compass.svg",
+      "sha256": "6981dd24d62aaa0f5e6473f2dce9c252eb7be954b14b8050a6cf98491719eb88",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-compass-blue-on-white.svg",
+        "assets/icons/melab-symbol-compass-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-place",
+      "file": "assets/icons/melab-symbol-place.svg",
+      "sha256": "45862f02b3b727bd83d48da9966de5559978089dc0efabd29b203dc524918e5e",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-place-blue-on-white.svg",
+        "assets/icons/melab-symbol-place-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-value-gem",
+      "file": "assets/icons/melab-symbol-value-gem.svg",
+      "sha256": "c1f811dc8d1dcabbd9fa2c3b74df97d1d9f36664047fbf6b3a9bd8896cb96c7e",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-value-gem-blue-on-white.svg",
+        "assets/icons/melab-symbol-value-gem-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-symbol-resource-kit",
+      "file": "assets/icons/melab-symbol-resource-kit.svg",
+      "sha256": "db4a56b0ee0264d5ab4589f411aeccc22b798a6f36ce92261a5117c2a4391477",
+      "dependencies": [
+        "assets/fonts/OFL.txt",
+        "assets/icons/melab-symbol-resource-kit-blue-on-white.svg",
+        "assets/icons/melab-symbol-resource-kit-white-on-blue.svg"
+      ]
+    },
+    {
+      "id": "melab-motion-settings",
+      "file": "assets/motion/melab-motion-settings.svg",
+      "sha256": "45ed9ff5462ff7870d9f906c56d082a73c3ce92f2811cec1ca653eaf36298b1c",
+      "dependencies": [
+        "assets/motion/melab-motion-settings-static.svg",
+        "assets/fonts/OFL.txt",
+        "assets/motion/melab-motion-settings-blue-on-white.svg",
+        "assets/motion/melab-motion-settings-blue-on-white-static.svg",
+        "assets/motion/melab-motion-settings-white-on-blue.svg",
+        "assets/motion/melab-motion-settings-white-on-blue-static.svg"
+      ]
+    },
+    {
+      "id": "melab-motion-edit",
+      "file": "assets/motion/melab-motion-edit.svg",
+      "sha256": "42523f6a89018da705e5184351c60becccf23f5ef70d6ac795d1b91df55e239e",
+      "dependencies": [
+        "assets/motion/melab-motion-edit-static.svg",
+        "assets/fonts/OFL.txt",
+        "assets/motion/melab-motion-edit-blue-on-white.svg",
+        "assets/motion/melab-motion-edit-blue-on-white-static.svg",
+        "assets/motion/melab-motion-edit-white-on-blue.svg",
+        "assets/motion/melab-motion-edit-white-on-blue-static.svg"
+      ]
+    },
+    {
+      "id": "melab-motion-code",
+      "file": "assets/motion/melab-motion-code.svg",
+      "sha256": "f12e23bdb104ddef154b77bbcd91658fdefe96da52f63ef9115b545ca405e9c3",
+      "dependencies": [
+        "assets/motion/melab-motion-code-static.svg",
+        "assets/fonts/OFL.txt",
+        "assets/motion/melab-motion-code-blue-on-white.svg",
+        "assets/motion/melab-motion-code-blue-on-white-static.svg",
+        "assets/motion/melab-motion-code-white-on-blue.svg",
+        "assets/motion/melab-motion-code-white-on-blue-static.svg"
+      ]
+    },
+    {
+      "id": "melab-motion-video",
+      "file": "assets/motion/melab-motion-video.svg",
+      "sha256": "1ce02d4a6c2ac86e1a6f1d3a91bb6a48b8d9b855fe40e791afe4cfb673fc5bd6",
+      "dependencies": [
+        "assets/motion/melab-motion-video-static.svg",
+        "assets/fonts/OFL.txt",
+        "assets/motion/melab-motion-video-blue-on-white.svg",
+        "assets/motion/melab-motion-video-blue-on-white-static.svg",
+        "assets/motion/melab-motion-video-white-on-blue.svg",
+        "assets/motion/melab-motion-video-white-on-blue-static.svg"
+      ]
+    },
+    {
+      "id": "melab-motion-text",
+      "file": "assets/motion/melab-motion-text.svg",
+      "sha256": "9e91c5917f9d748673b773421c153376a889b15b755a1aeef22e39d5aa0829c3",
+      "dependencies": [
+        "assets/motion/melab-motion-text-static.svg",
+        "assets/fonts/OFL.txt",
+        "assets/motion/melab-motion-text-blue-on-white.svg",
+        "assets/motion/melab-motion-text-blue-on-white-static.svg",
+        "assets/motion/melab-motion-text-white-on-blue.svg",
+        "assets/motion/melab-motion-text-white-on-blue-static.svg"
+      ]
+    },
+    {
+      "id": "melab-motion-target",
+      "file": "assets/motion/melab-motion-target.svg",
+      "sha256": "52d59e8486cd0f2c49c4175955a22040cf2408c0ed2702c9d605fc9c1d485cd9",
+      "dependencies": [
+        "assets/motion/melab-motion-target-static.svg",
+        "assets/fonts/OFL.txt",
+        "assets/motion/melab-motion-target-blue-on-white.svg",
+        "assets/motion/melab-motion-target-blue-on-white-static.svg",
+        "assets/motion/melab-motion-target-white-on-blue.svg",
+        "assets/motion/melab-motion-target-white-on-blue-static.svg"
+      ]
+    },
+    {
+      "id": "melab-motion-idea",
+      "file": "assets/motion/melab-motion-idea.svg",
+      "sha256": "d8b78eec7111cf2c105a8f9eb960548992c102ca4437d53f951de5dfda6dab2c",
+      "dependencies": [
+        "assets/motion/melab-motion-idea-static.svg",
+        "assets/fonts/OFL.txt",
+        "assets/motion/melab-motion-idea-blue-on-white.svg",
+        "assets/motion/melab-motion-idea-blue-on-white-static.svg",
+        "assets/motion/melab-motion-idea-white-on-blue.svg",
+        "assets/motion/melab-motion-idea-white-on-blue-static.svg"
+      ]
+    },
+    {
+      "id": "melab-motion-shield",
+      "file": "assets/motion/melab-motion-shield.svg",
+      "sha256": "09121a8c80e8fa7c5df27e65e470970b5d4f003e844e975811edd4d89b26710f",
+      "dependencies": [
+        "assets/motion/melab-motion-shield-static.svg",
+        "assets/fonts/OFL.txt",
+        "assets/motion/melab-motion-shield-blue-on-white.svg",
+        "assets/motion/melab-motion-shield-blue-on-white-static.svg",
+        "assets/motion/melab-motion-shield-white-on-blue.svg",
+        "assets/motion/melab-motion-shield-white-on-blue-static.svg"
+      ]
+    },
+    {
+      "id": "ui-buttons",
+      "file": "assets/specimens/ui-buttons.html",
+      "sha256": "1f21fdf2722d3ab492a72a70609182a917edf4e91bae3b4402f61596a774b609",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/specimens/ui-topnav.html",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "ui-topnav",
+      "file": "assets/specimens/ui-topnav.html",
+      "sha256": "effae4f35591f58ea4c16e07126de1c534d241aa2f1e6ac0909313245c7580cd",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "ui-actions",
+      "file": "assets/specimens/ui-actions.html",
+      "sha256": "67383f88f0901f0575c532ce8c092fa23e95da26b424e2929974936df21b9cfc",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "ui-search",
+      "file": "assets/specimens/ui-search.html",
+      "sha256": "09b419c36781eb9a7481d6a544e6d343867c4eefe51be4c3484e5518bacc1c11",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "ui-tabs",
+      "file": "assets/specimens/ui-tabs.html",
+      "sha256": "c5ab0a2b4a361ddf65c76df945f153b48d6e4b2258538a830c91f323aee362ae",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "ui-check",
+      "file": "assets/specimens/ui-check.html",
+      "sha256": "5561eb003f970f8a0fb21b2055b35da9f539db50e11a521ca6ff5fa1598856b4",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "ui-dialog",
+      "file": "assets/specimens/ui-dialog.html",
+      "sha256": "68dacf003b114e2a8774a6facd7c7f8bebe440fc134dd62be9967dbb43c204d2",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-model-pavilion",
+      "file": "assets/specimens/melab-model-pavilion.html",
+      "sha256": "7333d9fbf53d58f8c13dc4d9e87efe22944a02a99719b4578ae915c7d7ceb05e",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/model-viewer.js",
+        "assets/models/melab-pavilion-static.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-model-toolkit",
+      "file": "assets/specimens/melab-model-toolkit.html",
+      "sha256": "20e38cfbe5c73522c77b6539ee0bc83b7610a30f57c5d08de8891e57c57e4cac",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/model-viewer.js",
+        "assets/models/melab-toolkit-static.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-model-gathering",
+      "file": "assets/specimens/melab-model-gathering.html",
+      "sha256": "2f40fd32d6e2f8d3e74f76b7fc383d0eb520013f5d28776a711dd7176c556e58",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/model-viewer.js",
+        "assets/models/melab-gathering-static.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-bar",
+      "file": "assets/specimens/chart-bar.html",
+      "sha256": "5221e31eb363aac94f6b1b30ba13452aca71c3d231407962930bc2e60c15ef83",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-column",
+      "file": "assets/specimens/chart-column.html",
+      "sha256": "16196393bc7aa257e07822ea4f32d0b1fc7eba66b96800e5e3af1068e8c8c722",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-line",
+      "file": "assets/specimens/chart-line.html",
+      "sha256": "448af0858f1d256a8c7e869e1983df3d75b53457e8da5d103f136757fea7a49b",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-area",
+      "file": "assets/specimens/chart-area.html",
+      "sha256": "cc4f2b672f512437c9e46f22c305029beed7cd35e93b0975d2df84a86132bdd0",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-donut",
+      "file": "assets/specimens/chart-donut.html",
+      "sha256": "99d2485279332b938b3f3d1cba00695093f3b8ab6f6d7aa0e91882283b881fe5",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-stack",
+      "file": "assets/specimens/chart-stack.html",
+      "sha256": "e69cb7e6b249c487d3b794f7e48618832579b70db6e955ddbb1e01d1c187aba6",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-scatter",
+      "file": "assets/specimens/chart-scatter.html",
+      "sha256": "20d323b79ff1d16edd1e7b80f56310dde4b35f79c6b3a84248ca7e21d864cc39",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-pie",
+      "file": "assets/specimens/chart-pie.html",
+      "sha256": "d6c682235f8285633016b01a66c67e98381c110cc750edea191e01c22df0371c",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-histogram",
+      "file": "assets/specimens/chart-histogram.html",
+      "sha256": "1380a998f6ad53b0ae3f54645eec61b64b4d46c9839e18ac1c4dab970b0312a3",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-box",
+      "file": "assets/specimens/chart-box.html",
+      "sha256": "d219fd993dcef92cf95462a6830764bfef16ad6386ad4bee001f1e536ee7ecfb",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-waterfall",
+      "file": "assets/specimens/chart-waterfall.html",
+      "sha256": "66beb9afeed1be79397e66bb52518edf9fb8c9f226ef55b733ae5345027c1b1a",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-heatmap",
+      "file": "assets/specimens/chart-heatmap.html",
+      "sha256": "94522d15b9b68f279b1b0b2d33885e0d5f588d43649c187a5b8b603540e7dc77",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-progress-ring",
+      "file": "assets/specimens/chart-progress-ring.html",
+      "sha256": "9d4609a1a4d91da24533570b49bac74af9787336574d00320b40718f0c37836c",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-stacked-absolute",
+      "file": "assets/specimens/chart-stacked-absolute.html",
+      "sha256": "7d5e7f5facf5c45ff996b22dff854baafdcfb705f61bcd4d584128bc03aa12f4",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-funnel",
+      "file": "assets/specimens/chart-funnel.html",
+      "sha256": "d3010fe77c9fc8f1b298d8e22fd81f852ab4bf4075eacf6c583037276529303d",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-treemap",
+      "file": "assets/specimens/chart-treemap.html",
+      "sha256": "31923c86e9034eefe7289cbfdf9a9da992dd46633b8cd25ee14c6130d4b8bf85",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-diverging",
+      "file": "assets/specimens/chart-diverging.html",
+      "sha256": "90acf1d1ff997da58d36128eb7a6d8a4c980b5ef744c15e5a2fadd43f9bc08be",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-gantt",
+      "file": "assets/specimens/chart-gantt.html",
+      "sha256": "38e8ab621d79d2c7ea3143a1ce7c0809dfad09e83c54765c70145cf9603ab54b",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-grouped",
+      "file": "assets/specimens/chart-grouped.html",
+      "sha256": "07143fc4f7e31e2250a4a4449ddac90e72e935d8af82e3540bf2f5cc531e7173",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-combo",
+      "file": "assets/specimens/chart-combo.html",
+      "sha256": "72c3e1c5e889076c052928850c9993e007f9b273984c1da0edcdc9892cb971e6",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-slope",
+      "file": "assets/specimens/chart-slope.html",
+      "sha256": "0ad611ca1808fcbc5a09aab816fb744dfb20c76b0b25e8a4d40586f93ec2304f",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-dumbbell",
+      "file": "assets/specimens/chart-dumbbell.html",
+      "sha256": "b0d818edcce327db74fff80b7d0c2d5ef0b9a416602ade44b8dd249e0ab7cf63",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-bullet",
+      "file": "assets/specimens/chart-bullet.html",
+      "sha256": "36fc61453f676c8ede7d8786b6132b8e2ec254dbcf708e5621fb7a71564db3b5",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-lollipop",
+      "file": "assets/specimens/chart-lollipop.html",
+      "sha256": "c493ac87fc4b0951d0d1c01ba11c117c6d6565812594eb48164bd5da05bc52be",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-sparklines",
+      "file": "assets/specimens/chart-sparklines.html",
+      "sha256": "0c97cd3741c0df4ccd9e9c9a512692feac9f85df6f1a1f1f9a143870975fa576",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-calendar-density",
+      "file": "assets/specimens/chart-calendar-density.html",
+      "sha256": "fbb317239e1569996b20c232b6b811dd20ac87e0a4cd082c76759b07801530cc",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-state-timeline",
+      "file": "assets/specimens/chart-state-timeline.html",
+      "sha256": "06114322b669c2970742c172480a3aad19f2f738670d9a45b27a8edbf36ba685",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-cohort",
+      "file": "assets/specimens/chart-cohort.html",
+      "sha256": "71fb0b22f3f11fffc5ea7af946cffbc1ee778b4cc5b9e2bd4bd2467021071b30",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-dependency-network",
+      "file": "assets/specimens/chart-dependency-network.html",
+      "sha256": "d4abaea17492867a6f44bfcfc146b792093350487fbe079c563aa328a2caa7a9",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-sankey",
+      "file": "assets/specimens/chart-sankey.html",
+      "sha256": "9a8c9f3734928e5e6c70be5cf2b567a9ea75ed3f7372d5d60ac1ed385f54bf16",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-parallel",
+      "file": "assets/specimens/chart-parallel.html",
+      "sha256": "13f275075810c7b91cda55c9b12944f37af8aeeeb25d77a346f12a427e7a4866",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-candlestick",
+      "file": "assets/specimens/chart-candlestick.html",
+      "sha256": "6bd49b401b1c71f437487668a387ebcf960ba0bf5e663a43f205012e15bcb00f",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-regional-map",
+      "file": "assets/specimens/chart-regional-map.html",
+      "sha256": "cd591e9f8df2244747b693f6f72a8ff7a7378e01dec489caef1b494a3118ccad",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-kpi-table",
+      "file": "assets/specimens/chart-kpi-table.html",
+      "sha256": "b4cae89babf9abccf8b0c82ed811fc4bf2f2dabdfe3d114f5e4b6306fd332eb8",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-monitored-series",
+      "file": "assets/specimens/chart-monitored-series.html",
+      "sha256": "b03d1d081cf9aed5c406c35d7839dafe6b6565f642221df40a22a7e45120d07d",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-decision-tree",
+      "file": "assets/specimens/chart-decision-tree.html",
+      "sha256": "760987ac30e8885994b966b905b0037b1f595a20982162fe4f30bce2aa824fa4",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "chart-journey-comparison",
+      "file": "assets/specimens/chart-journey-comparison.html",
+      "sha256": "7bfa87d857da41aa6fa235925bd6437996cd148910d1177ef6402ecece2983e1",
+      "dependencies": [
+        "assets/charts/chart-data.json",
+        "assets/charts/chart-runtime.css",
+        "assets/charts/chart-runtime.js",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/fonts/OFL.txt",
+        "assets/native-layout.css",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-five-actions",
+      "file": "assets/specimens/reading-five-actions.html",
+      "sha256": "dfefb609833f7c4635e983cffea32e6201cca099450e2a371a10ef5a54323e71",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-moodboard",
+      "file": "assets/specimens/reading-moodboard.html",
+      "sha256": "9c8a30fba4f31374cb66c122959e72b8f18fd2fab7b16597d59876a527583329",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-comparison-table",
+      "file": "assets/specimens/reading-comparison-table.html",
+      "sha256": "2a42ab522e9898eb838bc941fbe785bac5e99d3f95112edb379b1b4849eec2e1",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-quantitative-chart",
+      "file": "assets/specimens/reading-quantitative-chart.html",
+      "sha256": "da69e22000aaa9d0554ca4407e20633345193dd7b3eaafa909e1f0849c3ca706",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-attributed-quote",
+      "file": "assets/specimens/reading-attributed-quote.html",
+      "sha256": "59b3f297a36eeb7fde0e3136c23d9d7079ee0ec2362ea76f309e48a431666abf",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/imagery/melab-image-master-original.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-literal-command",
+      "file": "assets/specimens/reading-literal-command.html",
+      "sha256": "e6448c44812c16f569b5b718781e615a5197aa51bc898ec2921a2077bd06741f",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-connectors",
+      "file": "assets/specimens/reading-connectors.html",
+      "sha256": "47de15b9ded53fef5c2b7c192a9a483d3e5f0bbbacced14cdaca9aeb3cb89084",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/connectors.js",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-listing-status",
+      "file": "assets/specimens/reading-listing-status.html",
+      "sha256": "9f1ee6272f94c07d8f1a5a57ca1bb7ee196a17a29d2c7ee9ec059f7c8b60f3cf",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-listing-sections",
+      "file": "assets/specimens/reading-listing-sections.html",
+      "sha256": "6e63eac599b5d4be728e5f27e2c3f8821467b7c34e0f04207e74aa8004aaf551",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-listing-shapes",
+      "file": "assets/specimens/reading-listing-shapes.html",
+      "sha256": "a03c655a3ab61bd07785fc7430177c503cb59cd42c527bacaa6fe7eaeeeba73a",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-listing-icons",
+      "file": "assets/specimens/reading-listing-icons.html",
+      "sha256": "baeccc40030e6556e158b0dd4907152c5703934128015b1e384c90ef28901bd8",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-task-brief",
+      "file": "assets/specimens/reading-task-brief.html",
+      "sha256": "05879b965637a00a1cae9d0dda60d2a5308ee400090438e8467593bbccc002ce",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-rule-check-fix",
+      "file": "assets/specimens/reading-rule-check-fix.html",
+      "sha256": "e5e32444fa54cae106ef68afc8a9c18f1216ff1e86db5ed18e5d8d5d5d38e615",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-readiness-levels",
+      "file": "assets/specimens/reading-readiness-levels.html",
+      "sha256": "b830dfe13f6fa98114e91d19e96c4d42d5ed17ee8cda5f89d88d507e6dc9e241",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-worked-example",
+      "file": "assets/specimens/reading-worked-example.html",
+      "sha256": "795f7e0bb3789e94ecf5d23270872c3624392bec794a213b70b8df25bd3e975b",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "reading-reference-card",
+      "file": "assets/specimens/reading-reference-card.html",
+      "sha256": "37353210e0f55af9e249e7e8fa64e8ec12b317a83c9c788733d65441defbc6ec",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/melab-rules.md",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-background-squiggle",
+      "file": "assets/background-squiggle.svg",
+      "sha256": "fb7928678082423af93dbd5056da48583b78ba6be5dbd0e2f05983b9b315949f",
+      "dependencies": [
+        "assets/squiggle.svg"
+      ]
+    },
+    {
+      "id": "melab-background-geometric",
+      "file": "assets/background-geometric.svg",
+      "sha256": "d5a63db0f6e80b022a18487771d84d4158799643691d8b2fa35ef138404c03dd",
+      "dependencies": [
+        "assets/squiggle.svg"
+      ]
+    },
+    {
+      "id": "map-us",
+      "file": "assets/maps/united-states.html",
+      "sha256": "03c05ce7a3f897d094a2c8e51005606058c53bd22d217e603866393ca7ac6b6b",
+      "dependencies": [
+        "assets/maps/index.html",
+        "assets/maps/vietnam.html",
+        "assets/maps/world.html",
+        "assets/maps/sources.html"
+      ]
+    },
+    {
+      "id": "map-vietnam",
+      "file": "assets/maps/vietnam.html",
+      "sha256": "5a22b4c44ce8bc6c6712d1c5bf196f33ac141e8b81a6acc469c8a6852392e411",
+      "dependencies": [
+        "assets/maps/index.html",
+        "assets/maps/united-states.html",
+        "assets/maps/world.html",
+        "assets/maps/sources.html"
+      ]
+    },
+    {
+      "id": "map-world-3d",
+      "file": "assets/maps/world.html",
+      "sha256": "6b072c5054132f9f3165a755eb2fbabd9766b903526a2662e3ded1f4996e6605",
+      "dependencies": [
+        "assets/maps/index.html",
+        "assets/maps/united-states.html",
+        "assets/maps/vietnam.html",
+        "assets/maps/sources.html"
+      ]
+    },
+    {
+      "id": "melab-slide283-default-cover",
+      "file": "assets/applications/melab-slide283-default-cover.html",
+      "sha256": "16d84d418bd1cc16d583364bee9d970a68c1f5a8ad062bd494be319c888bb37d",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-default-agenda",
+      "file": "assets/applications/melab-slide283-default-agenda.html",
+      "sha256": "7b94b3e82b18425a4fe4b1e0f37404044a3680a952a1205ef7d910e7c12f0106",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-default-divider",
+      "file": "assets/applications/melab-slide283-default-divider.html",
+      "sha256": "10a5f5073638796a89852852c6c06df50a768a406f758c3b7380c55545fa7d2b",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-default-close",
+      "file": "assets/applications/melab-slide283-default-close.html",
+      "sha256": "d82c3636264121ab3e712e6f7293ca611fb5020ee1a41adcf6876d8ef565e292",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-image-hero",
+      "file": "assets/applications/melab-slide283-image-hero.html",
+      "sha256": "b2525417aff2908d984d15859eba519d479c816c75ef6c9fc52bbd850757b1b0",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-image-strip",
+      "file": "assets/applications/melab-slide283-image-strip.html",
+      "sha256": "eef347f19734a1cec1855380fd834e8147d6dceff93b5d5c38ec6d21b4efd74b",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-image-grid",
+      "file": "assets/applications/melab-slide283-image-grid.html",
+      "sha256": "00b29b6539becbb96499cf80ccd45d73fc84b9f4607b375270cbccf0487eaa0e",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-image-story",
+      "file": "assets/applications/melab-slide283-image-story.html",
+      "sha256": "d1d9c7b39100fd60601f46ad616f230224d347a3204049969dbef67580605259",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-image-detail",
+      "file": "assets/applications/melab-slide283-image-detail.html",
+      "sha256": "36c0952d0507fc97fe9d9ba02bf4cea5591980f3401a597e35565ad275264836",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-image-collage",
+      "file": "assets/applications/melab-slide283-image-collage.html",
+      "sha256": "8ca4445a49469647badb96b51f8da3e45d3ef1380eb6fd644f59a7f439306e67",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-image-pair",
+      "file": "assets/applications/melab-slide283-image-pair.html",
+      "sha256": "76620539e575176bb3c1c43dc7a1717f5e54ccb69858f2d797f5c7e412aff31c",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-image-mosaic",
+      "file": "assets/applications/melab-slide283-image-mosaic.html",
+      "sha256": "2aee1d7ad74d150281bb4cac4a5ed4d5c4b8548686540f5fcc5e68bfe35f07c2",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-image-background",
+      "file": "assets/applications/melab-slide283-image-background.html",
+      "sha256": "bd37815331254b20e30023a2c68c861a86860a1b51e262df285556eae506d37b",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-image-split",
+      "file": "assets/applications/melab-slide283-image-split.html",
+      "sha256": "9338fd694a1ab8ff90d5c96287cc3302c739a8b20f966cd8ec2f03d1f1ab730c",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-text-matrix",
+      "file": "assets/applications/melab-slide283-text-matrix.html",
+      "sha256": "b88efdb84ad1c7a8fb3bf6127f48b5138f60c8d28305146e6b201d7ce8a56c85",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-text-tables",
+      "file": "assets/applications/melab-slide283-text-tables.html",
+      "sha256": "697c68c60fa71719e0a57cf3b1c621274b7843817d8c5ce4a62bfbd44cb2cdf1",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-text-columns",
+      "file": "assets/applications/melab-slide283-text-columns.html",
+      "sha256": "001a5ef9aa75391bca264c88d1061476430bcf44cfd268666b9dbf6af44c17a5",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-text-evidence",
+      "file": "assets/applications/melab-slide283-text-evidence.html",
+      "sha256": "c577f51e156b9499c7e56a9b00c9e52faf793e157c81621d11c64f4d745721db",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-text-plan",
+      "file": "assets/applications/melab-slide283-text-plan.html",
+      "sha256": "4291594df9b12c7c9a19e08866734e72a4aea10bd10bda16031b07a93c4350d3",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-text-dashboard",
+      "file": "assets/applications/melab-slide283-text-dashboard.html",
+      "sha256": "4cf59bd3ccc33d57b3c591bd0b6a6e8f3f65b135d2475e426e7ebaec44846267",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-text-overview",
+      "file": "assets/applications/melab-slide283-text-overview.html",
+      "sha256": "8f0f694bdc66502979b84e71fed0f81d4dbde35ef0289d77a663f8112d5c3a26",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-text-mixed",
+      "file": "assets/applications/melab-slide283-text-mixed.html",
+      "sha256": "381c2b8790b515ccb11ad688a31889b8bb682e370a3a8ef0898d4829c262cb4f",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-text-sections",
+      "file": "assets/applications/melab-slide283-text-sections.html",
+      "sha256": "29cc6c70c3bcad1875898e7cf153805a49559a28218af4f71afa378594a7ba3c",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-text-journey",
+      "file": "assets/applications/melab-slide283-text-journey.html",
+      "sha256": "9fa151c24a5aeb95f0ce6aa6e6ba1d03c4db4ef2c127fab371013dde008e82c3",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-text-sales-mix",
+      "file": "assets/applications/melab-slide283-text-sales-mix.html",
+      "sha256": "6768ed56f9acd542cc05c985ea412351f626036bc63d44ca9a1cc9fc053cba03",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-text-competitors",
+      "file": "assets/applications/melab-slide283-text-competitors.html",
+      "sha256": "3e4d5e6f574534d4ad2162fa97ed264a0678dee8a97c5e1336e231c0f599de3b",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-slide283-text-ranking",
+      "file": "assets/applications/melab-slide283-text-ranking.html",
+      "sha256": "8adc460e781bb30e7463cf90412127fc1801241a26129ad4a17a063674a4c914",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-pdf-cover",
+      "file": "assets/applications/melab-pdf-cover.html",
+      "sha256": "cb3ac40ccc92be248571414ec9f400a63c793f275eecc0fc0007005b7eb67b0a",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-pdf-task-brief",
+      "file": "assets/applications/melab-pdf-task-brief.html",
+      "sha256": "8f058e6153ab732237c0af1070cc2fecfa4bd1319656c1f267025d1a4983718b",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-pdf-rule-check-fix",
+      "file": "assets/applications/melab-pdf-rule-check-fix.html",
+      "sha256": "0a5439e23b13ac352d954b76bc94008b4e19d62878246c21d9648fe193ebeb86",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-pdf-readiness-levels",
+      "file": "assets/applications/melab-pdf-readiness-levels.html",
+      "sha256": "2f6aedcf18fcf98c90ff2ef2d3ef06d5c87af0c00e67e88dfc963df563e4da1f",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-pdf-worked-example",
+      "file": "assets/applications/melab-pdf-worked-example.html",
+      "sha256": "9d2e688d12aaebdad80336bb21533089453804131d4d8ff4700e46a7be4df612",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-pdf-reference-card",
+      "file": "assets/applications/melab-pdf-reference-card.html",
+      "sha256": "c2d3d9ca7e35416cea823cf4a37a08e8c73fa24ea8540f67c1645cb89ddb33c7",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/melab-rules.md",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-pdf-source-index",
+      "file": "assets/applications/melab-pdf-source-index.html",
+      "sha256": "70b9c312c53e00e1fcac3d342d1f280bda2913f7a98fa1f64c6bb8339f9863a5",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-service",
+      "file": "assets/applications/melab-service.html",
+      "sha256": "627cb0f8ce93aaad7dcee205bdb14e6a1048e1d05b243ae236fd5bb941dedb56",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/applications/melab-article.html",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-article",
+      "file": "assets/applications/melab-article.html",
+      "sha256": "ae1d47effd19f3d7913f5dd870031f7fd901e09deb80d511508373e4b9bd1b42",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/applications/melab-service.html",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-dashboard",
+      "file": "assets/applications/melab-dashboard.html",
+      "sha256": "4cc22ccddb6e8a0a19477e1ac0874f58b53947708512accbbd720ca8c5e19bef",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/applications/melab-editor.html",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-editor",
+      "file": "assets/applications/melab-editor.html",
+      "sha256": "da877ac456d97f35073cb6d2e90521dd9f7d76ef9525e3bcd2409d91a9e6dc00",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/logo.png",
+        "assets/applications/melab-dashboard.html",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-poster-moodboard",
+      "file": "assets/applications/melab-poster-moodboard.html",
+      "sha256": "6721fb2731ea322e9b2760b2441170dfd7652bb07031c55264091f22501213b0",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/references/blocks-reference.png",
+        "assets/references/fire-reference.png",
+        "assets/imagery/melab-poster-geometric-v2-original.png",
+        "assets/imagery/melab-poster-dynamic-v2-original.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-thumbnail-guideline",
+      "file": "assets/applications/melab-thumbnail-guideline.html",
+      "sha256": "745aa30bb5a4bd06ea8ff3fd42b6eb7a2ad1dcc0e3400762f550f285b84a26ad",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/imagery/melab-image-master-original.png",
+        "assets/imagery/melab-wardrobe-example-original.png",
+        "assets/imagery/melab-set-example-original.png",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-image-style",
+      "file": "assets/applications/melab-image-style.html",
+      "sha256": "2f955fe5465bc7a13e9d30c013abc13dea23d125916b4636f3cd0fdb8376b20d",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/imagery/melab-image-master-original.png",
+        "assets/imagery/melab-wardrobe-example-original.png",
+        "assets/imagery/melab-set-example-original.png",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    },
+    {
+      "id": "melab-edit-guideline",
+      "file": "assets/applications/melab-edit-guideline.html",
+      "sha256": "35281920dff6514bd95328c005b00f6c2da623bfaa0ec82fea65ab2ac9d34811",
+      "dependencies": [
+        "assets/native-layout.css",
+        "assets/fonts/OFL.txt",
+        "assets/fonts/BeVietnamPro-200.ttf",
+        "assets/fonts/BeVietnamPro-300.ttf",
+        "assets/fonts/BeVietnamPro-400.ttf",
+        "assets/fonts/BeVietnamPro-500.ttf",
+        "assets/fonts/BeVietnamPro-600.ttf",
+        "assets/fonts/BeVietnamPro-700.ttf",
+        "assets/fonts/BeVietnamPro-800.ttf",
+        "assets/imagery/melab-image-master-original.png",
+        "assets/imagery/melab-wardrobe-example-original.png",
+        "assets/imagery/melab-set-example-original.png",
+        "assets/logo.png",
+        "assets/sample-viewer-bridge.js"
+      ]
+    }
+  ],
+  "viewerFiles": {
+    "assets/sample-viewer.js": "5c71133c07f465e2edc4ffc19fdfcc889ee412243a90b031df16b4e0d8dae4e7",
+    "assets/sample-viewer.css": "643e320767f1afd5c2511ea12d31f9ac17808f5b1a1ef21983cf76005c478fa5",
+    "assets/sample-viewer-bridge.js": "2b87665a9e31d0f2aade4f63eb8485e540e42736b4f14800ca4a329809e5fd75"
+  },
+  "catalogueFiles": {
+    "assets/catalogue-expanded.js": "0b0780929ca7ca0ebcbaddaa8aa429bc860617c892a8fe96b81a81f19ada3b70",
+    "assets/catalogue-expanded.css": "839e8bd48b19401d0f97d42d9309260d244717c09fe18a5b1213eec411aa9b27",
+    "assets/catalogue-inline-child.js": "e032f8a64909cecdf9a658aaed24e87c47bb94a936f5a6b76a6dfa13dd056516",
+    "assets/catalogue-inline-data.js": "c3ac51961f76919bc11307a8865a341af20afba0d8cb517dcb6d1d6453caa074",
+    "assets/catalogue-reading.css": "5e052bac76c720a99714d64aec8eec046aec3a37fb21003a29f5742e8c52c1de"
+  },
+  "reviewDraftFiles": {
+    "assets/maps-review/index.html": "df1a82aa06b1a69ff470fdad6d40323ad7b78ec13c18a4a53bacb214a5e4c27a",
+    "assets/maps-review/united-states.html": "01596b9525f2903ae5f151048dd9328f75206bd89258dfdf12c5f41c20c3cc44",
+    "assets/maps-review/vietnam.html": "89420106e70fbf5a2ec38222a39baedc4a3876e6b22e160fd78dc4f0b6d7ce6e",
+    "assets/maps-review/world.html": "fff7f84ce0bd5732ffb2aebe530a2a9dfafda8eb114aab5bdc6cf1230a6bd9e9",
+    "assets/maps-review/sources.html": "4564f9fbdae4ccbf3228181cd344543c8a069da1fde399fb2b19add768cb1dc0",
+    "assets/maps-review/map-manifest.json": "5f2468ec92cd01c33b0deef78224918972555474c49ea8b53fb379af05b7c6e9",
+    "assets/maps-review/source-manifest.json": "96c02fa07aff144d3ef70408755a3de21e272ec5a9bf5c49c74f4d418bd4f40c",
+    "assets/maps-review/LICENSES.txt": "8e1064520499a7dcf507215e2d271062767d114204fe20d7282f8642dea495ab"
+  },
+  "chartCatalogue": {
+    "families": 22,
+    "variants": 40,
+    "source": "cecf8d045f5872162d17cb43140b1b4d85e0c8e2f0c77f6f87b3efa51ecef590"
+  },
+  "frameLayoutFiles": {
+    "assets/frame-layout.css": "ee618786b71f6f9d5c90ec36cd1227fc9dad43b6ee770da7640c2c456c1089b0",
+    "assets/asset-layout.css": "3d22086b18b8a4356c01e1caee665ca89cb392cf7786ff6c2304560c06cc9e2a",
+    "assets/asset-layout.js": "b6d9fcefa4c59877f26d112f273a09b18a30a136bda30bb2e8365b9e2836f377",
+    "assets/charts/chart-frame.css": "563c097b8356e30b4f474bff63f768b358a6cdeed0406015ed94071d61a3f5fc",
+    "assets/charts/chart-frame.js": "1d5a8920b82ea9554d92a9cdc6bce0e7e41da1832c21c91ffe2819d4d80e1040"
+  }
+}

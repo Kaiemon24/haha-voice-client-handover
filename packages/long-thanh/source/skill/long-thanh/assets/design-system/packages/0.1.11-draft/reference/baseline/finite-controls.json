@@ -1,0 +1,291 @@
+{
+  "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+  "runtimeSha256": "596a6b167ad82f370bf57f5d2e8ab640eedaf58388dba5f58817c0c8605b3b7c",
+  "tests": [
+    {
+      "id": "global-motion",
+      "play": {
+        "time": 116.61799999941147,
+        "playState": "running",
+        "offscreen": "false"
+      },
+      "pause": {
+        "time": 208.3159999994113,
+        "playState": "paused",
+        "offscreen": "false"
+      },
+      "pausedLater": {
+        "time": 208.3159999994113,
+        "playState": "paused",
+        "offscreen": "false"
+      },
+      "resume": {
+        "time": 308.4020000425838,
+        "playState": "running",
+        "offscreen": "false"
+      },
+      "pass": true
+    },
+    {
+      "id": "offscreen-motion",
+      "off": {
+        "time": 341.7720000425839,
+        "playState": "paused",
+        "offscreen": "true"
+      },
+      "offLater": {
+        "time": 341.7720000425839,
+        "playState": "paused",
+        "offscreen": "true"
+      },
+      "pass": true
+    },
+    {
+      "id": "reduced-motion",
+      "reduced": {
+        "animations": 0,
+        "name": "none"
+      },
+      "pass": true
+    },
+    {
+      "id": "individual-pause",
+      "state": {
+        "time": 49.96900004064653,
+        "playState": "paused",
+        "offscreen": "false"
+      },
+      "pass": true
+    },
+    {
+      "id": "icon-play-global-offscreen",
+      "it": {
+        "time": 116.6620000191032,
+        "state": "running"
+      },
+      "ip": {
+        "time": 174.99400001910325,
+        "state": "paused"
+      },
+      "io": {
+        "time": 266.7020000392273,
+        "state": "paused",
+        "offscreen": "true"
+      },
+      "iol": 266.7020000392273,
+      "pass": true
+    },
+    {
+      "id": "icon-reduced",
+      "pass": true
+    },
+    {
+      "id": "menu-Escape-focus",
+      "pass": true
+    },
+    {
+      "id": "UI-empty-busy-success-destructive",
+      "empty": "Chưa lưu: nhập tên mẫu trước.",
+      "busy": "true",
+      "success": "Đã lưu mẫu minh họa: Mẫu cục bộ",
+      "blocked": "Chưa xóa. Mẫu thật cần xác nhận trước khi xóa dữ liệu.",
+      "pass": true
+    },
+    {
+      "id": "root-save-reset-race",
+      "text": "Đã đặt lại mẫu minh họa.",
+      "pass": true
+    },
+    {
+      "id": "native-save-reset-ui-buttons",
+      "disabled": true,
+      "text": "Đã đặt lại lựa chọn trong mẫu.",
+      "pass": true
+    },
+    {
+      "id": "native-save-reset-ui-actions",
+      "disabled": true,
+      "text": "Đã đặt lại lựa chọn trong mẫu.",
+      "pass": true
+    },
+    {
+      "id": "native-tabs-arrow",
+      "right": "true",
+      "left": "true",
+      "pass": true
+    },
+    {
+      "id": "native-dialog-Escape-focus",
+      "pass": true
+    },
+    {
+      "id": "reuse-chart-cohort",
+      "assetId": "chart-cohort",
+      "recordSource": "assets/specimens/chart-cohort.html",
+      "model": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+      "focus": "chart-cohort",
+      "pass": true
+    },
+    {
+      "id": "reuse-chart-combo",
+      "assetId": "chart-combo",
+      "recordSource": "assets/specimens/chart-combo.html",
+      "model": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+      "focus": "chart-combo",
+      "pass": true
+    },
+    {
+      "id": "reuse-icon-001-square",
+      "assetId": "icon-001-square",
+      "recordSource": "assets/icons/role-icon-core-bullet-square-blue-on-white.svg",
+      "model": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+      "focus": "icon-001-square",
+      "pass": true
+    },
+    {
+      "id": "reuse-source-role-reading-listing-icons",
+      "assetId": "source-role-reading-listing-icons",
+      "recordSource": "assets/specimens/reading-listing-icons.html",
+      "model": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+      "focus": "source-role-reading-listing-icons",
+      "pass": true
+    },
+    {
+      "id": "reuse-slide-image-split",
+      "assetId": "slide-image-split",
+      "recordSource": "assets/applications/slide-image-split.html",
+      "model": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+      "focus": "slide-image-split",
+      "pass": true
+    },
+    {
+      "id": "map-vietnam",
+      "images": true,
+      "labels": true,
+      "pass": true
+    },
+    {
+      "id": "map-united-states",
+      "images": true,
+      "labels": true,
+      "pass": true
+    },
+    {
+      "id": "map-world",
+      "images": true,
+      "globe": {
+        "angle": -1.83,
+        "play": false,
+        "visible": true,
+        "webgl": true,
+        "polygons": 127,
+        "coordinates": 5141
+      },
+      "labels": true,
+      "pass": true
+    },
+    {
+      "id": "globe-parent-play-globalpause",
+      "w1": {
+        "angle": -1.8033400000000008,
+        "play": true,
+        "visible": true,
+        "webgl": true,
+        "polygons": 127,
+        "coordinates": 5141
+      },
+      "w2": {
+        "angle": -1.780000000000001,
+        "play": true,
+        "visible": true,
+        "webgl": true,
+        "polygons": 127,
+        "coordinates": 5141
+      },
+      "w3": {
+        "angle": -1.7650200000000011,
+        "play": false,
+        "visible": true,
+        "webgl": true,
+        "polygons": 127,
+        "coordinates": 5141
+      },
+      "w4": {
+        "angle": -1.7650200000000011,
+        "play": false,
+        "visible": true,
+        "webgl": true,
+        "polygons": 127,
+        "coordinates": 5141
+      },
+      "pass": true
+    },
+    {
+      "id": "nested-model-globalpause",
+      "m1": {
+        "playing": true,
+        "parentPaused": false,
+        "visible": true,
+        "angle": 0.6899899999999998,
+        "webgl": true,
+        "parts": 13
+      },
+      "m2": {
+        "playing": true,
+        "parentPaused": false,
+        "visible": true,
+        "angle": 0.7225099999999997,
+        "webgl": true,
+        "parts": 13
+      },
+      "m3": {
+        "playing": true,
+        "parentPaused": true,
+        "visible": true,
+        "angle": 0.7524799999999996,
+        "webgl": true,
+        "parts": 13
+      },
+      "m4": {
+        "playing": true,
+        "parentPaused": true,
+        "visible": true,
+        "angle": 0.7524799999999996,
+        "webgl": true,
+        "parts": 13
+      },
+      "pass": true
+    },
+    {
+      "id": "keyboard-view-sidebar-history",
+      "back": "overview",
+      "forward": "library",
+      "keyboard": "overview",
+      "opened": true,
+      "pass": true
+    },
+    {
+      "id": "injected-WebGL-unavailable-model-pallet",
+      "text": "WebGL không khả dụng. Xem hình minh họa tĩnh bên dưới.",
+      "pass": true
+    },
+    {
+      "id": "injected-WebGL-unavailable-model-crate",
+      "text": "WebGL không khả dụng. Xem hình minh họa tĩnh bên dưới.",
+      "pass": true
+    },
+    {
+      "id": "injected-WebGL-unavailable-model-cooler",
+      "text": "WebGL không khả dụng. Xem hình minh họa tĩnh bên dưới.",
+      "pass": true
+    },
+    {
+      "id": "injected-WebGL-unavailable-map-world-3d",
+      "text": "WebGL không khả dụng; bản đồ phẳng bên dưới giữ toàn bộ hình học nguồn.",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "network": [],
+  "pass": true
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "portable-slide-reader-binding/v2",
+  "policy": {
+    "path": "slide-reader-policy.json",
+    "sha256": "5b127fdb523f9a91ad54e3d81383adf236019c8b82ef2f23ea4fb24398a2d9d5"
+  },
+  "sharedSourceSha256": "2058e7cacd3ddb3139c6c73bbe12868bf6deba102fd7aca9adb723130c231dfd",
+  "files": [
+    {
+      "path": "reader-guidance61.js",
+      "sha256": "5648c4bc396d3289f62cbef49235f9062f94f0ae47fc6eaa660f7965b1b4a909"
+    },
+    {
+      "path": "reader-guidance61.css",
+      "sha256": "c6d64aab406f6e323dcbc289862cc2c20a141fc77e15dc566314fd9854efec55"
+    },
+    {
+      "path": "DESIGN.md",
+      "sha256": "9384941f5e85d33cde9019bbab85cedbecf6c3f1d7db396adf79b9fcdb00c2c5"
+    },
+    {
+      "path": "COMPOSITION.md",
+      "sha256": "764e49990d116f084239c9f88e2816c4d0bd6a9f92b5a50cc00607a726fe6b7e"
+    }
+  ],
+  "placement": "Slide16:9 before template groups",
+  "priorityRuleCount": 3,
+  "targetLinkAdaptation": "Current source links point to own four-purpose slides PDF and complete Markdown; no policy sentence changed."
+}

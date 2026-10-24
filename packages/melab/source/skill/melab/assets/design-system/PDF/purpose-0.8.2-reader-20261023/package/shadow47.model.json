@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "design-shadow-policy/v1",
+  "depthPolicy": {
+    "brand": "MELAB",
+    "version": "0.6.2-shadow-theory-review",
+    "status": "inactive-user-directed-proposal",
+    "requiredShadow": true,
+    "style": "soft",
+    "reason": "User-directed mandatory carrier shadows; preserves brand geometry, identity and underlying data. Numerical choices are proposals, not claims from original brandkit.",
+    "levels": {
+      "control": {
+        "x": 0,
+        "y": 2,
+        "blur": 6,
+        "spread": 0,
+        "opacity": 0.14
+      },
+      "surface": {
+        "x": 0,
+        "y": 4,
+        "blur": 12,
+        "spread": 0,
+        "opacity": 0.14
+      },
+      "floating": {
+        "x": 0,
+        "y": 12,
+        "blur": 28,
+        "spread": 0,
+        "opacity": 0.2
+      },
+      "hover": {
+        "x": 0,
+        "y": 3,
+        "blur": 8,
+        "spread": 0,
+        "opacity": 0.18
+      },
+      "pressed": {
+        "x": 0,
+        "y": 1,
+        "blur": 3,
+        "spread": 0,
+        "opacity": 0.12
+      }
+    },
+    "receivingSurfaces": {
+      "light": {
+        "background": "#F5F8FF",
+        "ink": "#14213D"
+      },
+      "dark": {
+        "background": "#111B31",
+        "ink": "#AFC2FF"
+      }
+    },
+    "roles": [
+      {
+        "role": "control",
+        "components": [
+          "button",
+          "input",
+          "select",
+          "textarea",
+          "toggle",
+          "theme-switch",
+          "menu-toggle",
+          "motion-toggle"
+        ],
+        "level": "control",
+        "states": {
+          "default": "control",
+          "hover": "hover",
+          "pressed": "pressed",
+          "disabled": "pressed",
+          "loading": "control",
+          "focus-visible": "control",
+          "selected": "control",
+          "error": "control"
+        }
+      },
+      {
+        "role": "surface",
+        "components": [
+          "content-card",
+          "UI-panel",
+          "chart-carrier",
+          "table-carrier",
+          "application-scene",
+          "slide-panel",
+          "document-panel",
+          "joined-group",
+          "header-navigation-group"
+        ],
+        "level": "surface",
+        "states": {
+          "default": "surface",
+          "selected": "surface"
+        }
+      },
+      {
+        "role": "floating",
+        "components": [
+          "dialog",
+          "popover",
+          "tooltip"
+        ],
+        "level": "floating",
+        "states": {
+          "default": "floating",
+          "open": "floating"
+        }
+      }
+    ],
+    "clearancePx": 24,
+    "focus": {
+      "widthPx": 2,
+      "offsetPx": 4,
+      "rule": "Keep a separate visible keyboard outline; never shadow-only focus."
+    },
+    "exceptions": [
+      {
+        "shadowExempt": "data-mark",
+        "reason": "Preserve exact data geometry; enclosing chart carrier owns shadow.",
+        "owningCarrier": "chart-carrier"
+      },
+      {
+        "shadowExempt": "axis",
+        "reason": "Preserve original scale and position; enclosing chart carrier owns shadow.",
+        "owningCarrier": "chart-carrier"
+      },
+      {
+        "shadowExempt": "text",
+        "reason": "Keep glyphs and labels unshadowed for clear reading."
+      },
+      {
+        "shadowExempt": "logo",
+        "reason": "Preserve original logo/photo/icon pixels; containing composition owns shadow."
+      },
+      {
+        "shadowExempt": "inner-wrapper",
+        "reason": "One responsible outer silhouette; no redundant shadow stack.",
+        "owningCarrier": "nearest-responsible-surface"
+      },
+      {
+        "shadowExempt": "forced-colors",
+        "reason": "Accessibility: system border replaces shadow only while forced colors is active."
+      }
+    ],
+    "formats": {
+      "Website": "one carrier for each independent composition; control shadows remain visible",
+      "App": "same roles; preserve data and state meaning",
+      "Slide": "one nonzero shadow on responsible panel or scene; no text/data mark shadows",
+      "PDF": "retain carrier shadow in print; native export requires separate actual proof",
+      "Design": "shadow outer graphic carrier, preserve source imagery",
+      "Edit": "shadow functional overlay carrier, preserve people/logos/subtitles"
+    },
+    "nonGoals": [
+      "No source brandkit edit",
+      "No sidebar changes",
+      "No changed counts/data/behavior",
+      "No claimed native export readiness"
+    ],
+    "sourceVersion": "0.6.1-frame-review",
+    "stateNotes": {
+      "header-navigation-group": "Joined main navigation tabs share one header carrier; independent theme/menu/motion controls keep their own nonzero control shadow.",
+      "sidebar": "Main cards/groups have one shadow; nested child links remain flat."
+    }
+  },
+  "appearanceContract": "mandatory-shadow/v1"
+}

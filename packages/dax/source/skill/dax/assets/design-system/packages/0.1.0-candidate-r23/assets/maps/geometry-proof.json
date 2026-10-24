@@ -1,0 +1,233 @@
+{
+  "schema": "approved-map-geometry-preservation/v1",
+  "brand": "KAI",
+  "rows": [
+    {
+      "page": "index.html",
+      "sourceSha256": "df1a82aa06b1a69ff470fdad6d40323ad7b78ec13c18a4a53bacb214a5e4c27a",
+      "variantSha256": "3dce88ea1dfe89ac903e340d303698610dbceebbfe1f98bf1dcfc46a98226c7e",
+      "svgGeometrySha256": "7a74eea7e009602b8bd2abb6d2adaed03814cc60b62511e0c1e8acb4923f3776",
+      "svgGeometryUnchanged": true,
+      "nativeScriptChangesOnly": [
+        [
+          "melab-map-theme",
+          "kai-map-theme"
+        ],
+        [
+          "melab-theme",
+          "kai-map-theme"
+        ],
+        [
+          "'#0D1D3E'",
+          "'#17241B'"
+        ],
+        [
+          "'#EDF2FF'",
+          "'#F5F1E5'"
+        ],
+        [
+          "'#A8BFFF'",
+          "'#AEC49C'"
+        ],
+        [
+          "'#4164FF'",
+          "'#365735'"
+        ],
+        [
+          "'#4164FF14'",
+          "'#36573514'"
+        ],
+        [
+          "vec3(0.57,0.70,1.0)",
+          "vec3(0.886,0.639,0.212)"
+        ]
+      ],
+      "geographicCodeUnchangedExceptNamedPaletteAndThemeStrings": true
+    },
+    {
+      "page": "united-states.html",
+      "sourceSha256": "01596b9525f2903ae5f151048dd9328f75206bd89258dfdf12c5f41c20c3cc44",
+      "variantSha256": "b056c1ce9e87a46e04e92106d2eee32fc8ae0f2991245a1a08590bbea935d9f3",
+      "svgGeometrySha256": "569fad95e89e381b95d801196092cc7d9617c2f302d03e3ef9697c59b32daf0c",
+      "svgGeometryUnchanged": false,
+      "nativeScriptChangesOnly": [
+        [
+          "melab-map-theme",
+          "kai-map-theme"
+        ],
+        [
+          "melab-theme",
+          "kai-map-theme"
+        ],
+        [
+          "'#0D1D3E'",
+          "'#17241B'"
+        ],
+        [
+          "'#EDF2FF'",
+          "'#F5F1E5'"
+        ],
+        [
+          "'#A8BFFF'",
+          "'#AEC49C'"
+        ],
+        [
+          "'#4164FF'",
+          "'#365735'"
+        ],
+        [
+          "'#4164FF14'",
+          "'#36573514'"
+        ],
+        [
+          "vec3(0.57,0.70,1.0)",
+          "vec3(0.886,0.639,0.212)"
+        ]
+      ],
+      "geographicCodeUnchangedExceptNamedPaletteAndThemeStrings": true,
+      "pathCoordinatesUnchanged": true,
+      "receivingGeometrySha256": "1796edf76616442627e13034b4de12a81050161d351576d5fbde555f7ba88b0a",
+      "receivingComposition": {
+        "revision": 3,
+        "authority": "Parent measured US SVG bbox -57.63,12.98,1014.69,593.59 and authorized exact receiving-only repair.",
+        "rootViewBox": {
+          "from": "0 0 975 610",
+          "to": "-76 -8 1056 640"
+        },
+        "stateListRule": ".state-list button{min-width:0;overflow-wrap:anywhere}",
+        "pathCoordinatesUnchanged": true,
+        "nativeScriptBytesUnchanged": true,
+        "materialVersion": "1.0.1",
+        "materialHash": "7af4ebf4be745d995c71ed30e828d3b5cd3fadefe1676c628a1e3caeb595d3f5",
+        "currentBrowser": "PENDING_PARENT_CURRENT_RECAPTURE"
+      }
+    },
+    {
+      "page": "vietnam.html",
+      "sourceSha256": "89420106e70fbf5a2ec38222a39baedc4a3876e6b22e160fd78dc4f0b6d7ce6e",
+      "variantSha256": "087521925d3ed04e292517778b4d3eaddd8ce9e78f5434978be6cb92ca867d2f",
+      "svgGeometrySha256": "7102edf232ffca76fe9d9003b962149c4fbed107984bff32bffd3a1512cedeb6",
+      "svgGeometryUnchanged": true,
+      "nativeScriptChangesOnly": [
+        [
+          "melab-map-theme",
+          "kai-map-theme"
+        ],
+        [
+          "melab-theme",
+          "kai-map-theme"
+        ],
+        [
+          "'#0D1D3E'",
+          "'#17241B'"
+        ],
+        [
+          "'#EDF2FF'",
+          "'#F5F1E5'"
+        ],
+        [
+          "'#A8BFFF'",
+          "'#AEC49C'"
+        ],
+        [
+          "'#4164FF'",
+          "'#365735'"
+        ],
+        [
+          "'#4164FF14'",
+          "'#36573514'"
+        ],
+        [
+          "vec3(0.57,0.70,1.0)",
+          "vec3(0.886,0.639,0.212)"
+        ]
+      ],
+      "geographicCodeUnchangedExceptNamedPaletteAndThemeStrings": true
+    },
+    {
+      "page": "world.html",
+      "sourceSha256": "fff7f84ce0bd5732ffb2aebe530a2a9dfafda8eb114aab5bdc6cf1230a6bd9e9",
+      "variantSha256": "a723fbce5c9ae907c3db923f53c1ca51d3ac624282a33a817778373082f4dd53",
+      "svgGeometrySha256": "931dda4f1cfb54103ad9260a2d22747154d7df9689f5f2fd542e0bfc6cddbf29",
+      "svgGeometryUnchanged": true,
+      "nativeScriptChangesOnly": [
+        [
+          "melab-map-theme",
+          "kai-map-theme"
+        ],
+        [
+          "melab-theme",
+          "kai-map-theme"
+        ],
+        [
+          "'#0D1D3E'",
+          "'#17241B'"
+        ],
+        [
+          "'#EDF2FF'",
+          "'#F5F1E5'"
+        ],
+        [
+          "'#A8BFFF'",
+          "'#AEC49C'"
+        ],
+        [
+          "'#4164FF'",
+          "'#365735'"
+        ],
+        [
+          "'#4164FF14'",
+          "'#36573514'"
+        ],
+        [
+          "vec3(0.57,0.70,1.0)",
+          "vec3(0.886,0.639,0.212)"
+        ]
+      ],
+      "geographicCodeUnchangedExceptNamedPaletteAndThemeStrings": true
+    },
+    {
+      "page": "sources.html",
+      "sourceSha256": "4564f9fbdae4ccbf3228181cd344543c8a069da1fde399fb2b19add768cb1dc0",
+      "variantSha256": "06c6464ca76295476cbb58ab765d0af14d9adda4d7590657a5b5205ba2a4a9be",
+      "svgGeometrySha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "svgGeometryUnchanged": true,
+      "nativeScriptChangesOnly": [
+        [
+          "melab-map-theme",
+          "kai-map-theme"
+        ],
+        [
+          "melab-theme",
+          "kai-map-theme"
+        ],
+        [
+          "'#0D1D3E'",
+          "'#17241B'"
+        ],
+        [
+          "'#EDF2FF'",
+          "'#F5F1E5'"
+        ],
+        [
+          "'#A8BFFF'",
+          "'#AEC49C'"
+        ],
+        [
+          "'#4164FF'",
+          "'#365735'"
+        ],
+        [
+          "'#4164FF14'",
+          "'#36573514'"
+        ],
+        [
+          "vec3(0.57,0.70,1.0)",
+          "vec3(0.886,0.639,0.212)"
+        ]
+      ],
+      "geographicCodeUnchangedExceptNamedPaletteAndThemeStrings": true
+    }
+  ],
+  "scope": "Approved geographic path/coordinate bytes and render algorithms remain unchanged. US root receiving viewBox and state-list text wrapping intentionally repaired in revision3; declared KAI palette/theme receiving adaptations remain. Current rendered proof pending."
+}

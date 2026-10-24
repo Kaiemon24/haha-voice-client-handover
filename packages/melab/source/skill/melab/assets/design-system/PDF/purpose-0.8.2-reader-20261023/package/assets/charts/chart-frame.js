@@ -1,0 +1,6 @@
+/* Uniform display transform only: no values, axes, points or SVG geometry edits. */
+(()=>{'use strict';const frame=document.querySelector('.chart-frame'),canvas=frame?.querySelector('.chart-canvas');if(!canvas)return;
+const fit=()=>{if(document.documentElement.dataset.melabReceiving==='reading'){frame.style.height='auto';canvas.style.transform='none';return;}const scale=document.documentElement.hasAttribute('data-chart-canvas-only')?1:Math.min(1,frame.clientWidth/720);canvas.style.transform='scale('+scale+')';frame.style.height=(405*scale)+'px';frame.dataset.frameRatio='16:9';frame.dataset.frameScale=String(scale);};
+if(parent===window){const tools=document.createElement('div');tools.className='chart-frame-tools';const button=document.createElement('button');button.type='button';button.textContent='Đọc biểu đồ ở cỡ chữ đầy đủ';button.setAttribute('aria-pressed','false');tools.append(button);frame.before(tools);button.addEventListener('click',()=>{const reading=document.documentElement.dataset.melabReceiving!=='reading';document.documentElement.dataset.melabReceiving=reading?'reading':'canvas';button.textContent=reading?'Xem khung 16:9':'Đọc biểu đồ ở cỡ chữ đầy đủ';button.setAttribute('aria-pressed',String(reading));fit();});}
+new ResizeObserver(fit).observe(frame);fit();document.fonts.ready.then(fit);
+})();

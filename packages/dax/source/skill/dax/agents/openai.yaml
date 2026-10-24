@@ -1,0 +1,4 @@
+interface:
+  display_name: "DAX Design"
+  short_description: "Áp dụng bộ thiết kế DAX đã đóng gói"
+  default_prompt: "Dùng $dax theo đúng phiên bản để áp dụng thiết kế và kiểm đầu ra."

@@ -1,0 +1,1726 @@
+{
+  "schemaVersion": "shared-chart-semantic-profile/v1",
+  "revision": "reviewed-chart-examples-20261017/v1",
+  "role": "Accepted example semantic/data revision for the3namedbrand preparations; other tasks must explicitly bind their reviewed input revision. No business facts, brand visual values or live project dependency.",
+  "counts": {
+    "families": 22,
+    "sourceIds": 40,
+    "nativeCharts": 37,
+    "actualRows": 137
+  },
+  "families": [
+    {
+      "id": "comparison",
+      "labelVi": "So sánh bằng chiều dài",
+      "canonicalOldId": "chart-bar",
+      "canonicalId": "chart-bar",
+      "title": "So sánh bằng chiều dài",
+      "useWhen": "So sánh một lượng giữa các nhóm; chọn hướng, nhóm con, giá trị có dấu hoặc mục tiêu trong phần chi tiết.",
+      "doNotUseWhen": "Không dùng thay phân bố theo khoảng, tổng cộng dồn, thời lượng hay hai lần đo theo cặp.",
+      "rationale": "All six use a common quantitative length scale. Orientation/stem styling is aliasing; subgroup/sign/target add explicit contracts.",
+      "memberDetails": [
+        {
+          "oldId": "chart-bar",
+          "disposition": "distinct",
+          "variantId": "horizontal"
+        },
+        {
+          "oldId": "chart-column",
+          "disposition": "alias",
+          "variantId": "vertical-ordered"
+        },
+        {
+          "oldId": "chart-diverging",
+          "disposition": "meaningful_variant",
+          "variantId": "signed"
+        },
+        {
+          "oldId": "chart-grouped",
+          "disposition": "meaningful_variant",
+          "variantId": "grouped-series"
+        },
+        {
+          "oldId": "chart-bullet",
+          "disposition": "meaningful_variant",
+          "variantId": "actual-target"
+        },
+        {
+          "oldId": "chart-lollipop",
+          "disposition": "alias",
+          "variantId": "stem-dot"
+        }
+      ],
+      "members": [
+        "chart-bar",
+        "chart-column",
+        "chart-grouped",
+        "chart-diverging",
+        "chart-lollipop",
+        "chart-bullet"
+      ],
+      "dataContract": "One comparable measure per category; grouping, signed values and target references are explicit variants."
+    },
+    {
+      "id": "ordered-series",
+      "labelVi": "Chuỗi theo thứ tự",
+      "canonicalOldId": "chart-line",
+      "canonicalId": "chart-line",
+      "title": "Chuỗi theo thứ tự",
+      "useWhen": "Theo dõi một hoặc nhiều lượng cùng đơn vị qua các mốc có thứ tự; chọn phần tô, nhiều ô nhỏ hoặc ngưỡng khi cần.",
+      "doNotUseWhen": "Không nối các nhóm không có thứ tự, coi các tiêu chí độc lập là thời gian hoặc tự thêm trục đơn vị thứ hai.",
+      "rationale": "Line/area share exact points; sparklines facet the same trend grammar, threshold annotates it, combo layers two same-unit series.",
+      "memberDetails": [
+        {
+          "oldId": "chart-line",
+          "disposition": "distinct",
+          "variantId": "line"
+        },
+        {
+          "oldId": "chart-area",
+          "disposition": "alias",
+          "variantId": "filled-line"
+        },
+        {
+          "oldId": "chart-combo",
+          "disposition": "meaningful_variant",
+          "variantId": "bar-line-same-unit"
+        },
+        {
+          "oldId": "chart-sparklines",
+          "disposition": "meaningful_variant",
+          "variantId": "faceted-compact"
+        },
+        {
+          "oldId": "chart-monitored-series",
+          "disposition": "meaningful_variant",
+          "variantId": "reference-threshold"
+        }
+      ],
+      "members": [
+        "chart-line",
+        "chart-area",
+        "chart-sparklines",
+        "chart-monitored-series",
+        "chart-combo"
+      ],
+      "dataContract": "Ordered x and quantitative y; fill, faceting, reference thresholds and same-unit layering belong in details."
+    },
+    {
+      "id": "circular-share",
+      "labelVi": "Tỷ phần hình tròn",
+      "canonicalOldId": "chart-donut",
+      "canonicalId": "chart-donut",
+      "title": "Tỷ phần hình tròn",
+      "useWhen": "Đọc tỷ phần của một tổng đã biết; dùng vòng tiến độ khi có số hoàn tất và mục tiêu.",
+      "doNotUseWhen": "Không dùng cho phần âm, nhiều tổng không liên quan hoặc tiến độ chưa có mẫu số.",
+      "rationale": "Donut and pie share angular fractions. The completion ring adds numerator/denominator semantics, not a new primary mark family.",
+      "memberDetails": [
+        {
+          "oldId": "chart-donut",
+          "disposition": "distinct",
+          "variantId": "donut"
+        },
+        {
+          "oldId": "chart-pie",
+          "disposition": "alias",
+          "variantId": "pie"
+        },
+        {
+          "oldId": "chart-progress-ring",
+          "disposition": "meaningful_variant",
+          "variantId": "completion"
+        }
+      ],
+      "members": [
+        "chart-donut",
+        "chart-pie",
+        "chart-progress-ring"
+      ],
+      "dataContract": "Nonnegative parts of one known whole; completion additionally needs completed amount and denominator."
+    },
+    {
+      "id": "stacked-parts",
+      "labelVi": "Các phần xếp chồng",
+      "canonicalOldId": "chart-stacked-absolute",
+      "canonicalId": "chart-stacked-absolute",
+      "title": "Các phần xếp chồng",
+      "useWhen": "So sánh các phần cộng thành tổng; chọn rõ số tuyệt đối hoặc tỷ lệ100%.",
+      "doNotUseWhen": "Không đổi chế độ mà bỏ tổng, mẫu số hay đơn vị; không xếp chồng các đại lượng không cộng được.",
+      "rationale": "Absolute and normalized are one stacking family with incompatible output units; a mode contract prevents silent normalization.",
+      "memberDetails": [
+        {
+          "oldId": "chart-stack",
+          "disposition": "meaningful_variant",
+          "variantId": "normalized-100"
+        },
+        {
+          "oldId": "chart-stacked-absolute",
+          "disposition": "distinct",
+          "variantId": "absolute"
+        }
+      ],
+      "members": [
+        "chart-stack",
+        "chart-stacked-absolute"
+      ],
+      "dataContract": "Additive same-unit parts. Absolute and normalized modes remain separately typed."
+    },
+    {
+      "id": "scatter",
+      "labelVi": "Quan hệ hai đại lượng",
+      "canonicalOldId": "chart-scatter",
+      "canonicalId": "chart-scatter",
+      "title": "Quan hệ hai đại lượng",
+      "useWhen": "Xem quan hệ giữa hai lượng đo trên từng quan sát.",
+      "doNotUseWhen": "Không suy nhân quả, nối theo thời gian khi chưa có thứ tự hoặc coi tọa độ là địa lý.",
+      "rationale": "Independent quantitative x/y pairs differ from ordered-series, dimension-axis and geographic contracts.",
+      "memberDetails": [
+        {
+          "oldId": "chart-scatter",
+          "disposition": "distinct",
+          "variantId": "xy-points"
+        }
+      ],
+      "members": [
+        "chart-scatter"
+      ],
+      "dataContract": "One independent quantitative x/y pair per observation; no implied order or causality."
+    },
+    {
+      "id": "histogram",
+      "labelVi": "Phân bố theo khoảng",
+      "canonicalOldId": "chart-histogram",
+      "canonicalId": "chart-histogram",
+      "title": "Phân bố theo khoảng",
+      "useWhen": "Xem phân bố quan sát số theo các khoảng có ranh giới rõ.",
+      "doNotUseWhen": "Không coi nhãn nhóm là khoảng số hoặc dùng tần số làm giá trị đo ban đầu.",
+      "rationale": "Contiguous numeric bins and frequencies require a distribution contract beyond generic categorical bars.",
+      "memberDetails": [
+        {
+          "oldId": "chart-histogram",
+          "disposition": "distinct",
+          "variantId": "equal-width-bins"
+        }
+      ],
+      "members": [
+        "chart-histogram"
+      ],
+      "dataContract": "Numeric bin boundaries, endpoint inclusivity and frequencies; not nominal categories."
+    },
+    {
+      "id": "box-summary",
+      "labelVi": "Tóm tắt phân bố bằng hộp",
+      "canonicalOldId": "chart-box",
+      "canonicalId": "chart-box",
+      "title": "Tóm tắt phân bố bằng hộp",
+      "useWhen": "Đọc trung vị, tứ phân vị và khoảng nhỏ nhất/lớn nhất của mẫu.",
+      "doNotUseWhen": "Không thay tứ phân vị bằng mở/đóng hoặc tự đổi râu thành quy tắc ngoại lệ.",
+      "rationale": "Five-number distribution summary differs from OHLC even though both use a box and whisker-like marks.",
+      "memberDetails": [
+        {
+          "oldId": "chart-box",
+          "disposition": "distinct",
+          "variantId": "minmax-whiskers"
+        }
+      ],
+      "members": [
+        "chart-box"
+      ],
+      "dataContract": "Min, Q1, median, Q3, max; current whiskers are min/max."
+    },
+    {
+      "id": "waterfall",
+      "labelVi": "Biến động tạo thành tổng",
+      "canonicalOldId": "chart-waterfall",
+      "canonicalId": "chart-waterfall",
+      "title": "Biến động tạo thành tổng",
+      "useWhen": "Giải thích tổng cuối bằng tổng đầu và các khoản tăng/giảm theo thứ tự.",
+      "doNotUseWhen": "Không dùng các thanh có dấu độc lập mà không tính mốc cộng dồn.",
+      "rationale": "Floating bars and connectors encode cumulative reconciliation, not independent signed category amounts.",
+      "memberDetails": [
+        {
+          "oldId": "chart-waterfall",
+          "disposition": "distinct",
+          "variantId": "cumulative-contributions"
+        }
+      ],
+      "members": [
+        "chart-waterfall"
+      ],
+      "dataContract": "Start total, ordered signed contributions and computed end total."
+    },
+    {
+      "id": "value-matrix",
+      "labelVi": "Ma trận ô có giá trị",
+      "canonicalOldId": "chart-heatmap",
+      "canonicalId": "chart-heatmap",
+      "title": "Ma trận ô có giá trị",
+      "useWhen": "Đối chiếu giá trị trong lưới; chọn tọa độ nhóm/kỳ, ngày/tuần hoặc nhóm bắt đầu/tuổi nhóm.",
+      "doNotUseWhen": "Không bỏ kiểu tọa độ, mẫu số, ô chưa quan sát hoặc dùng màu chú ý như thang đo liên tục.",
+      "rationale": "All three use discrete row/column cells. Calendar and relative-age retention remain separately typed variants with explicit missingness.",
+      "memberDetails": [
+        {
+          "oldId": "chart-heatmap",
+          "disposition": "distinct",
+          "variantId": "threshold-cells"
+        },
+        {
+          "oldId": "chart-calendar-density",
+          "disposition": "meaningful_variant",
+          "variantId": "calendar-grid"
+        },
+        {
+          "oldId": "chart-cohort",
+          "disposition": "meaningful_variant",
+          "variantId": "relative-age-retention"
+        }
+      ],
+      "members": [
+        "chart-heatmap",
+        "chart-calendar-density",
+        "chart-cohort"
+      ],
+      "dataContract": "Discrete row/column coordinates, value and missingness; calendar and cohort require explicit coordinate contracts."
+    },
+    {
+      "id": "funnel",
+      "labelVi": "Hao hụt qua các bước",
+      "canonicalOldId": "chart-funnel",
+      "canonicalId": "chart-funnel",
+      "title": "Hao hụt qua các bước",
+      "useWhen": "Theo dõi số còn lại của cùng một nhóm qua các bước nối tiếp.",
+      "doNotUseWhen": "Không gọi số lượng các nhóm độc lập là tỷ lệ chuyển bước.",
+      "rationale": "The current ordered same-cohort subset constraint is the purpose of the funnel, rather than arbitrary category comparison.",
+      "memberDetails": [
+        {
+          "oldId": "chart-funnel",
+          "disposition": "distinct",
+          "variantId": "same-cohort-stages"
+        }
+      ],
+      "members": [
+        "chart-funnel"
+      ],
+      "dataContract": "One cohort through ordered subset stages, sharing population and observation window."
+    },
+    {
+      "id": "area-partition",
+      "labelVi": "Cơ cấu bằng diện tích",
+      "canonicalOldId": "chart-treemap",
+      "canonicalId": "chart-treemap",
+      "title": "Cơ cấu bằng diện tích",
+      "useWhen": "Đọc các phần của một tổng theo diện tích ô chữ nhật.",
+      "doNotUseWhen": "Không đọc giá trị bằng riêng chiều rộng hoặc tuyên bố mẫu hiện có nhiều tầng phân cấp.",
+      "rationale": "A partition of a whole by rectangle area is different from common-baseline length or invented region geometry.",
+      "memberDetails": [
+        {
+          "oldId": "chart-treemap",
+          "disposition": "distinct",
+          "variantId": "flat-parts"
+        }
+      ],
+      "members": [
+        "chart-treemap"
+      ],
+      "dataContract": "Nonnegative part values determine rectangle area; the current sample has one level."
+    },
+    {
+      "id": "time-interval",
+      "labelVi": "Khoảng trên trục thời gian",
+      "canonicalOldId": "chart-gantt",
+      "canonicalId": "chart-gantt",
+      "title": "Khoảng trên trục thời gian",
+      "useWhen": "Đọc thời điểm bắt đầu, kết thúc, chồng lấn hoặc trạng thái trên một trục thời gian.",
+      "doNotUseWhen": "Không coi độ dài là lượng trạng thái hay tỷ lệ; phải giữ quy ước tính ngày đầu/cuối.",
+      "rationale": "Gantt and state timeline share ranged-time geometry. Task rows versus categorical segments remain explicit variants.",
+      "memberDetails": [
+        {
+          "oldId": "chart-gantt",
+          "disposition": "distinct",
+          "variantId": "task-rows"
+        },
+        {
+          "oldId": "chart-state-timeline",
+          "disposition": "meaningful_variant",
+          "variantId": "state-segments"
+        }
+      ],
+      "members": [
+        "chart-gantt",
+        "chart-state-timeline"
+      ],
+      "dataContract": "Start/end coordinates and an entity or categorical state; explicit endpoint convention."
+    },
+    {
+      "id": "paired-comparison",
+      "labelVi": "So sánh hai lần đo",
+      "canonicalOldId": "chart-slope",
+      "canonicalId": "chart-slope",
+      "title": "So sánh hai lần đo",
+      "useWhen": "So sánh hai lần đo cùng đơn vị cho từng đối tượng; chọn bố cục dốc hoặc hai đầu theo hàng.",
+      "doNotUseWhen": "Không ghép khác đối tượng hoặc ngụ ý đã đo đường đi liên tục giữa hai đầu.",
+      "rationale": "Slope and dumbbell preserve entity pairing and two endpoints, with layout adapted for crossings/rank or row-wise differences.",
+      "memberDetails": [
+        {
+          "oldId": "chart-slope",
+          "disposition": "distinct",
+          "variantId": "two-period-slope"
+        },
+        {
+          "oldId": "chart-dumbbell",
+          "disposition": "meaningful_variant",
+          "variantId": "two-endpoints-by-row"
+        }
+      ],
+      "members": [
+        "chart-slope",
+        "chart-dumbbell"
+      ],
+      "dataContract": "Entity identity and two comparable measurements; slope/dumbbell preserve separate layouts."
+    },
+    {
+      "id": "dependency",
+      "labelVi": "Quan hệ phụ thuộc",
+      "canonicalOldId": "chart-dependency-network",
+      "canonicalId": "chart-dependency-network",
+      "title": "Quan hệ phụ thuộc",
+      "useWhen": "Đọc các quan hệ cần hoàn thành trước hoặc đầu vào phụ thuộc.",
+      "doNotUseWhen": "Không suy lượng luồng hay điều kiện lựa chọn từ cạnh phụ thuộc.",
+      "rationale": "The current directed graph permits convergence and has neither edge amounts nor decision predicates.",
+      "memberDetails": [
+        {
+          "oldId": "chart-dependency-network",
+          "disposition": "distinct",
+          "variantId": "directed-prerequisites"
+        }
+      ],
+      "members": [
+        "chart-dependency-network"
+      ],
+      "dataContract": "Directed prerequisites; convergent inputs permitted; no amounts or branching predicates."
+    },
+    {
+      "id": "quantified-flow",
+      "labelVi": "Luồng có lượng",
+      "canonicalOldId": "chart-sankey",
+      "canonicalId": "chart-sankey",
+      "title": "Luồng có lượng",
+      "useWhen": "Đọc lượng đi từ nguồn đến đích theo độ rộng luồng.",
+      "doNotUseWhen": "Không thay lượng bằng mũi tên bằng nhau hoặc bỏ quy tắc bảo toàn/thất thoát.",
+      "rationale": "Edge width and node extent encode quantitative flow; unweighted dependencies do not satisfy this contract.",
+      "memberDetails": [
+        {
+          "oldId": "chart-sankey",
+          "disposition": "distinct",
+          "variantId": "conserved-branch"
+        }
+      ],
+      "members": [
+        "chart-sankey"
+      ],
+      "dataContract": "Source/target/value links; width proportional to amount; conservation or loss documented."
+    },
+    {
+      "id": "parallel-coordinates",
+      "labelVi": "Đối chiếu nhiều tiêu chí",
+      "canonicalOldId": "chart-parallel",
+      "canonicalId": "chart-parallel",
+      "title": "Đối chiếu nhiều tiêu chí",
+      "useWhen": "Đối chiếu một đối tượng trên nhiều tiêu chí độc lập.",
+      "doNotUseWhen": "Không coi trục tiêu chí là các kỳ thời gian hoặc quên đơn vị/thang từng trục.",
+      "rationale": "One axis per dimension encodes a multivariate profile; a polyline alone does not make a trend.",
+      "memberDetails": [
+        {
+          "oldId": "chart-parallel",
+          "disposition": "distinct",
+          "variantId": "independent-dimensions"
+        }
+      ],
+      "members": [
+        "chart-parallel"
+      ],
+      "dataContract": "Independent dimension axes and a vector per entity; adjacency is not elapsed time."
+    },
+    {
+      "id": "ohlc",
+      "labelVi": "Mở, cao, thấp và đóng",
+      "canonicalOldId": "chart-candlestick",
+      "canonicalId": "chart-candlestick",
+      "title": "Mở, cao, thấp và đóng",
+      "useWhen": "Đọc mở, cao, thấp và đóng trong từng kỳ.",
+      "doNotUseWhen": "Không dùng thay hộp phân bố hoặc để mở/đóng nằm ngoài thấp/cao.",
+      "rationale": "Period endpoints and extremes require four semantically typed fields, unlike quartile summaries.",
+      "memberDetails": [
+        {
+          "oldId": "chart-candlestick",
+          "disposition": "distinct",
+          "variantId": "open-high-low-close"
+        }
+      ],
+      "members": [
+        "chart-candlestick"
+      ],
+      "dataContract": "Per-period open/high/low/close; both endpoints stay inside low/high."
+    },
+    {
+      "id": "schematic-regions",
+      "labelVi": "Sơ đồ vùng minh họa",
+      "canonicalOldId": "chart-regional-map",
+      "canonicalId": "chart-regional-map",
+      "title": "Sơ đồ vùng minh họa",
+      "useWhen": "Minh họa giá trị của các vùng tự tạo có nhãn rõ.",
+      "doNotUseWhen": "Không nhận là địa giới thật, bản đồ số liệu địa lý hoặc diện tích tỷ lệ.",
+      "rationale": "Invented shapes have no geographic coordinate or proportional-area data contract.",
+      "memberDetails": [
+        {
+          "oldId": "chart-regional-map",
+          "disposition": "distinct",
+          "variantId": "invented-regions"
+        }
+      ],
+      "members": [
+        "chart-regional-map"
+      ],
+      "dataContract": "Invented region identities and values; no geographical or proportional-area claim."
+    },
+    {
+      "id": "numeric-summary",
+      "labelVi": "Chỉ số kèm bảng số",
+      "canonicalOldId": "chart-kpi-table",
+      "canonicalId": "chart-kpi-table",
+      "title": "Chỉ số kèm bảng số",
+      "useWhen": "Đọc một chỉ số tổng và các dòng số chi tiết cần đối chiếu.",
+      "doNotUseWhen": "Không tính thẻ số là một kiểu mã hóa thống kê mới hoặc bỏ phép cộng đối chiếu.",
+      "rationale": "The specimen is a numeric card plus table, rather than marks on a quantitative visual scale.",
+      "memberDetails": [
+        {
+          "oldId": "chart-kpi-table",
+          "disposition": "distinct",
+          "variantId": "total-plus-rows"
+        }
+      ],
+      "members": [
+        "chart-kpi-table"
+      ],
+      "dataContract": "Summary, exact rows and reconciliation rule; no graphical quantity scale."
+    },
+    {
+      "id": "decision-rules",
+      "labelVi": "Cây điều kiện",
+      "canonicalOldId": "chart-decision-tree",
+      "canonicalId": "chart-decision-tree",
+      "title": "Cây điều kiện",
+      "useWhen": "Chọn hướng xử lý dựa trên các điều kiện có nhánh được ghi rõ.",
+      "doNotUseWhen": "Không dùng cạnh phụ thuộc thay cho điều kiện hoặc bỏ tên nhánh có/không.",
+      "rationale": "Predicates and mutually exclusive outcomes differ from prerequisite graph edges and quantified flows.",
+      "memberDetails": [
+        {
+          "oldId": "chart-decision-tree",
+          "disposition": "distinct",
+          "variantId": "conditional-branches"
+        }
+      ],
+      "members": [
+        "chart-decision-tree"
+      ],
+      "dataContract": "Predicates, labeled branches and outcomes; not prerequisites or measured flows."
+    },
+    {
+      "id": "journey-matrix",
+      "labelVi": "Hành trình và điểm cần cải thiện",
+      "canonicalOldId": "chart-journey-comparison",
+      "canonicalId": "chart-journey-comparison",
+      "title": "Hành trình và điểm cần cải thiện",
+      "useWhen": "Đọc hành động, điểm khó và cách cải thiện theo từng bước.",
+      "doNotUseWhen": "Không coi văn bản định tính là mức nhiệt hay số đo trên ma trận.",
+      "rationale": "A qualitative journey grid has text roles, not numeric cell values or conditional graph traversal.",
+      "memberDetails": [
+        {
+          "oldId": "chart-journey-comparison",
+          "disposition": "distinct",
+          "variantId": "steps-pain-improvement"
+        }
+      ],
+      "members": [
+        "chart-journey-comparison"
+      ],
+      "dataContract": "Ordered steps with action, pain point and improvement text; no quantitative scale."
+    },
+    {
+      "id": "geographic-map",
+      "labelVi": "Bản đồ địa lý",
+      "canonicalOldId": "map-us",
+      "canonicalId": "map-us",
+      "title": "Bản đồ địa lý",
+      "useWhen": "Xem vị trí địa lý; chọn Hoa Kỳ, Việt Nam hoặc địa cầu xoay trong chi tiết và từ liên kết cũ.",
+      "doNotUseWhen": "Không coi màu hình dạng là số liệu, ô phụ là cùng tỷ lệ hoặc địa cầu là công cụ phân loại chủ quyền.",
+      "rationale": "US/Vietnam are distinct geographic datasets; globe adds a real native sphere renderer and interactions. Keep all three approved addressable components.",
+      "memberDetails": [
+        {
+          "oldId": "map-us",
+          "disposition": "distinct",
+          "variantId": "us-geographic-selection"
+        },
+        {
+          "oldId": "map-vietnam",
+          "disposition": "meaningful_variant",
+          "variantId": "vietnam-sourced-landmarks"
+        },
+        {
+          "oldId": "map-world-3d",
+          "disposition": "meaningful_variant",
+          "variantId": "native-sphere"
+        }
+      ],
+      "members": [
+        "map-us",
+        "map-vietnam",
+        "map-world-3d"
+      ],
+      "dataContract": "Approved geography/source limits; region datasets and native-sphere renderer remain explicit variants."
+    }
+  ],
+  "aliases": {
+    "chart-bar": "chart-bar",
+    "chart-column": "chart-bar",
+    "chart-line": "chart-line",
+    "chart-area": "chart-line",
+    "chart-donut": "chart-donut",
+    "chart-stack": "chart-stacked-absolute",
+    "chart-scatter": "chart-scatter",
+    "chart-pie": "chart-donut",
+    "chart-histogram": "chart-histogram",
+    "chart-box": "chart-box",
+    "chart-waterfall": "chart-waterfall",
+    "chart-heatmap": "chart-heatmap",
+    "chart-progress-ring": "chart-donut",
+    "chart-stacked-absolute": "chart-stacked-absolute",
+    "chart-funnel": "chart-funnel",
+    "chart-treemap": "chart-treemap",
+    "chart-diverging": "chart-bar",
+    "chart-gantt": "chart-gantt",
+    "chart-grouped": "chart-bar",
+    "chart-combo": "chart-line",
+    "chart-slope": "chart-slope",
+    "chart-dumbbell": "chart-slope",
+    "chart-bullet": "chart-bar",
+    "chart-lollipop": "chart-bar",
+    "chart-sparklines": "chart-line",
+    "chart-calendar-density": "chart-heatmap",
+    "chart-state-timeline": "chart-gantt",
+    "chart-cohort": "chart-heatmap",
+    "chart-dependency-network": "chart-dependency-network",
+    "chart-sankey": "chart-sankey",
+    "chart-parallel": "chart-parallel",
+    "chart-candlestick": "chart-candlestick",
+    "chart-regional-map": "chart-regional-map",
+    "chart-kpi-table": "chart-kpi-table",
+    "chart-monitored-series": "chart-line",
+    "chart-decision-tree": "chart-decision-tree",
+    "chart-journey-comparison": "chart-journey-comparison",
+    "map-us": "map-us",
+    "map-vietnam": "map-us",
+    "map-world-3d": "map-us"
+  },
+  "usageComparisons": {
+    "comparison": {
+      "use": [
+        {
+          "text": "So sánh một lượng giữa các nhóm; chọn hướng, nhóm con, giá trị có dấu hoặc mục tiêu trong phần chi tiết.",
+          "sourceIds": [
+            "chart-bar",
+            "chart-column",
+            "chart-grouped",
+            "chart-diverging",
+            "chart-lollipop",
+            "chart-bullet"
+          ]
+        },
+        {
+          "text": "Giữ mốc 0 và cùng đơn vị giữa các thanh để so sánh độ dài.",
+          "sourceIds": [
+            "chart-bar"
+          ],
+          "variantTitle": "Thanh ngang"
+        },
+        {
+          "text": "Đổi hướng không tạo thành họ mới.",
+          "sourceIds": [
+            "chart-column"
+          ],
+          "variantTitle": "Cột theo kỳ"
+        },
+        {
+          "text": "Giữ thứ tự các kỳ và cùng đơn vị đo.",
+          "sourceIds": [
+            "chart-column"
+          ],
+          "variantTitle": "Cột theo kỳ"
+        },
+        {
+          "text": "Giữ trường nhóm và trường chuỗi riêng biệt.",
+          "sourceIds": [
+            "chart-grouped"
+          ],
+          "variantTitle": "Cột theo nhóm"
+        },
+        {
+          "text": "Hai cột cạnh nhau không mặc nhiên là các phần cộng thành tổng.",
+          "sourceIds": [
+            "chart-grouped"
+          ],
+          "variantTitle": "Cột theo nhóm"
+        },
+        {
+          "text": "Giữ dấu và mốc tham chiếu chung.",
+          "sourceIds": [
+            "chart-diverging"
+          ],
+          "variantTitle": "Thanh hai phía"
+        },
+        {
+          "text": "Các thanh này độc lập, không phải các khoản nối thành tổng cộng dồn.",
+          "sourceIds": [
+            "chart-diverging"
+          ],
+          "variantTitle": "Thanh hai phía"
+        },
+        {
+          "text": "Đổi thanh thành nét và chấm không thêm lần đo thứ hai.",
+          "sourceIds": [
+            "chart-lollipop"
+          ],
+          "variantTitle": "Chấm có trục so sánh"
+        },
+        {
+          "text": "Giữ mốc 0 và thang đo chung.",
+          "sourceIds": [
+            "chart-lollipop"
+          ],
+          "variantTitle": "Chấm có trục so sánh"
+        },
+        {
+          "text": "Mục tiêu là mốc tham chiếu, không phải phần cộng thêm vào thực tế.",
+          "sourceIds": [
+            "chart-bullet"
+          ],
+          "variantTitle": "Thực tế và mục tiêu"
+        },
+        {
+          "text": "Mẫu hiện chưa có các dải mức đánh giá định tính.",
+          "sourceIds": [
+            "chart-bullet"
+          ],
+          "variantTitle": "Thực tế và mục tiêu"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không dùng thay phân bố theo khoảng, tổng cộng dồn, thời lượng hay hai lần đo theo cặp.",
+          "sourceIds": [
+            "chart-bar",
+            "chart-column",
+            "chart-grouped",
+            "chart-diverging",
+            "chart-lollipop",
+            "chart-bullet"
+          ]
+        }
+      ]
+    },
+    "ordered-series": {
+      "use": [
+        {
+          "text": "Theo dõi một hoặc nhiều lượng cùng đơn vị qua các mốc có thứ tự; chọn phần tô, nhiều ô nhỏ hoặc ngưỡng khi cần.",
+          "sourceIds": [
+            "chart-line",
+            "chart-area",
+            "chart-sparklines",
+            "chart-monitored-series",
+            "chart-combo"
+          ]
+        },
+        {
+          "text": "Chỉ nối các mốc có thứ tự có ý nghĩa.",
+          "sourceIds": [
+            "chart-line"
+          ],
+          "variantTitle": "Đường xu hướng"
+        },
+        {
+          "text": "Phần tô hiện không thêm dữ liệu tích lũy, xếp chồng hay khoảng biến thiên.",
+          "sourceIds": [
+            "chart-area"
+          ],
+          "variantTitle": "Vùng theo thời gian"
+        },
+        {
+          "text": "Giữ nó như một lựa chọn thể hiện trong cùng họ đường.",
+          "sourceIds": [
+            "chart-area"
+          ],
+          "variantTitle": "Vùng theo thời gian"
+        },
+        {
+          "text": "Giữ tên nhóm và thứ tự các kỳ.",
+          "sourceIds": [
+            "chart-sparklines"
+          ],
+          "variantTitle": "Đường nhỏ theo nhóm"
+        },
+        {
+          "text": "Một ngưỡng tham chiếu không phải giới hạn kiểm soát được suy ra bằng thống kê.",
+          "sourceIds": [
+            "chart-monitored-series"
+          ],
+          "variantTitle": "Chuỗi có ngưỡng theo dõi"
+        },
+        {
+          "text": "Giữ ý nghĩa và đơn vị của ngưỡng.",
+          "sourceIds": [
+            "chart-monitored-series"
+          ],
+          "variantTitle": "Chuỗi có ngưỡng theo dõi"
+        },
+        {
+          "text": "Giữ tên từng chuỗi, chú giải và thang chung.",
+          "sourceIds": [
+            "chart-combo"
+          ],
+          "variantTitle": "Cột và đường cùng trục"
+        },
+        {
+          "text": "Mẫu hiện không có trục thứ hai hay đơn vị đo thứ hai.",
+          "sourceIds": [
+            "chart-combo"
+          ],
+          "variantTitle": "Cột và đường cùng trục"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không nối các nhóm không có thứ tự, coi các tiêu chí độc lập là thời gian hoặc tự thêm trục đơn vị thứ hai.",
+          "sourceIds": [
+            "chart-line",
+            "chart-area",
+            "chart-sparklines",
+            "chart-monitored-series",
+            "chart-combo"
+          ]
+        },
+        {
+          "text": "Không coi nhóm không có thứ tự hoặc tiêu chí độc lập là chuỗi thời gian.",
+          "sourceIds": [
+            "chart-line"
+          ],
+          "variantTitle": "Đường xu hướng"
+        },
+        {
+          "text": "Không tự thay thang riêng cho từng hàng khi người đọc cần so độ lớn giữa các nhóm.",
+          "sourceIds": [
+            "chart-sparklines"
+          ],
+          "variantTitle": "Đường nhỏ theo nhóm"
+        }
+      ]
+    },
+    "circular-share": {
+      "use": [
+        {
+          "text": "Đọc tỷ phần của một tổng đã biết; dùng vòng tiến độ khi có số hoàn tất và mục tiêu.",
+          "sourceIds": [
+            "chart-donut",
+            "chart-pie",
+            "chart-progress-ring"
+          ]
+        },
+        {
+          "text": "Các phần phải không âm và cùng thuộc một tổng.",
+          "sourceIds": [
+            "chart-donut"
+          ],
+          "variantTitle": "Vòng cơ cấu"
+        },
+        {
+          "text": "Giữ cùng tổng và các phần không âm.",
+          "sourceIds": [
+            "chart-pie"
+          ],
+          "variantTitle": "Tròn cơ cấu"
+        },
+        {
+          "text": "Có hay không có lỗ tròn là lựa chọn thể hiện, không đổi câu hỏi dữ liệu.",
+          "sourceIds": [
+            "chart-pie"
+          ],
+          "variantTitle": "Tròn cơ cấu"
+        },
+        {
+          "text": "Giữ số hoàn tất, mẫu số mục tiêu và phép tính tỷ lệ.",
+          "sourceIds": [
+            "chart-progress-ring"
+          ],
+          "variantTitle": "Vòng tiến độ"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không dùng cho phần âm, nhiều tổng không liên quan hoặc tiến độ chưa có mẫu số.",
+          "sourceIds": [
+            "chart-donut",
+            "chart-pie",
+            "chart-progress-ring"
+          ]
+        },
+        {
+          "text": "Không so độ lớn giữa các vòng có tổng khác nhau mà không ghi rõ tổng.",
+          "sourceIds": [
+            "chart-donut"
+          ],
+          "variantTitle": "Vòng cơ cấu"
+        },
+        {
+          "text": "Không tự biến các nhóm cơ cấu thông thường thành tiến độ.",
+          "sourceIds": [
+            "chart-progress-ring"
+          ],
+          "variantTitle": "Vòng tiến độ"
+        }
+      ]
+    },
+    "stacked-parts": {
+      "use": [
+        {
+          "text": "So sánh các phần cộng thành tổng; chọn rõ số tuyệt đối hoặc tỷ lệ100%.",
+          "sourceIds": [
+            "chart-stack",
+            "chart-stacked-absolute"
+          ]
+        },
+        {
+          "text": "Giữ mẫu số và chế độ chuẩn hóa thành 100%.",
+          "sourceIds": [
+            "chart-stack"
+          ],
+          "variantTitle": "Thanh cơ cấu 100%"
+        },
+        {
+          "text": "Giữ các tổng khác nhau là 10 và 8, các phần cộng được và cùng đơn vị.",
+          "sourceIds": [
+            "chart-stacked-absolute"
+          ],
+          "variantTitle": "Thanh chồng số tuyệt đối"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không đổi chế độ mà bỏ tổng, mẫu số hay đơn vị; không xếp chồng các đại lượng không cộng được.",
+          "sourceIds": [
+            "chart-stack",
+            "chart-stacked-absolute"
+          ]
+        },
+        {
+          "text": "Không dùng trục số tuyệt đối hoặc tự đổi số lượng sang tỷ lệ mà không nói rõ.",
+          "sourceIds": [
+            "chart-stack"
+          ],
+          "variantTitle": "Thanh cơ cấu 100%"
+        },
+        {
+          "text": "Không tự chuẩn hóa để làm hai tổng bằng nhau.",
+          "sourceIds": [
+            "chart-stacked-absolute"
+          ],
+          "variantTitle": "Thanh chồng số tuyệt đối"
+        }
+      ]
+    },
+    "scatter": {
+      "use": [
+        {
+          "text": "Xem quan hệ giữa hai lượng đo trên từng quan sát.",
+          "sourceIds": [
+            "chart-scatter"
+          ]
+        },
+        {
+          "text": "Các điểm không mặc nhiên có thứ tự nối với nhau.",
+          "sourceIds": [
+            "chart-scatter"
+          ],
+          "variantTitle": "Phân tán hai biến"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không suy nhân quả, nối theo thời gian khi chưa có thứ tự hoặc coi tọa độ là địa lý.",
+          "sourceIds": [
+            "chart-scatter"
+          ]
+        },
+        {
+          "text": "Không suy quan hệ nhân quả hoặc coi tọa độ hai đại lượng là tọa độ địa lý.",
+          "sourceIds": [
+            "chart-scatter"
+          ],
+          "variantTitle": "Phân tán hai biến"
+        }
+      ]
+    },
+    "histogram": {
+      "use": [
+        {
+          "text": "Xem phân bố quan sát số theo các khoảng có ranh giới rõ.",
+          "sourceIds": [
+            "chart-histogram"
+          ]
+        },
+        {
+          "text": "Giữ ranh giới và quy tắc tính hai đầu của từng khoảng.",
+          "sourceIds": [
+            "chart-histogram"
+          ],
+          "variantTitle": "Phân bố theo khoảng"
+        },
+        {
+          "text": "Tần số là số quan sát trong khoảng, không phải giá trị đo ban đầu.",
+          "sourceIds": [
+            "chart-histogram"
+          ],
+          "variantTitle": "Phân bố theo khoảng"
+        },
+        {
+          "text": "Khoảng rộng không đều cần quy tắc mật độ riêng.",
+          "sourceIds": [
+            "chart-histogram"
+          ],
+          "variantTitle": "Phân bố theo khoảng"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không coi nhãn nhóm là khoảng số hoặc dùng tần số làm giá trị đo ban đầu.",
+          "sourceIds": [
+            "chart-histogram"
+          ]
+        }
+      ]
+    },
+    "box-summary": {
+      "use": [
+        {
+          "text": "Đọc trung vị, tứ phân vị và khoảng nhỏ nhất/lớn nhất của mẫu.",
+          "sourceIds": [
+            "chart-box"
+          ]
+        },
+        {
+          "text": "Râu hộp hiện là nhỏ nhất và lớn nhất, không tự đổi thành giới hạn ngoại lệ.",
+          "sourceIds": [
+            "chart-box"
+          ],
+          "variantTitle": "Hộp và khoảng biến thiên"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không thay tứ phân vị bằng mở/đóng hoặc tự đổi râu thành quy tắc ngoại lệ.",
+          "sourceIds": [
+            "chart-box"
+          ]
+        },
+        {
+          "text": "Không thay tứ phân vị bằng giá trị mở/đóng hoặc tự thêm điểm ngoại lệ.",
+          "sourceIds": [
+            "chart-box"
+          ],
+          "variantTitle": "Hộp và khoảng biến thiên"
+        }
+      ]
+    },
+    "waterfall": {
+      "use": [
+        {
+          "text": "Giải thích tổng cuối bằng tổng đầu và các khoản tăng/giảm theo thứ tự.",
+          "sourceIds": [
+            "chart-waterfall"
+          ]
+        },
+        {
+          "text": "Các thanh đóng góp phải nối với mốc cộng dồn.",
+          "sourceIds": [
+            "chart-waterfall"
+          ],
+          "variantTitle": "Đóng góp tăng và giảm"
+        },
+        {
+          "text": "Tổng cuối bằng tổng đầu cộng các khoản tăng/giảm; thanh có dấu độc lập không thay thế được phép tính này.",
+          "sourceIds": [
+            "chart-waterfall"
+          ],
+          "variantTitle": "Đóng góp tăng và giảm"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không dùng các thanh có dấu độc lập mà không tính mốc cộng dồn.",
+          "sourceIds": [
+            "chart-waterfall"
+          ]
+        }
+      ]
+    },
+    "value-matrix": {
+      "use": [
+        {
+          "text": "Đối chiếu giá trị trong lưới; chọn tọa độ nhóm/kỳ, ngày/tuần hoặc nhóm bắt đầu/tuổi nhóm.",
+          "sourceIds": [
+            "chart-heatmap",
+            "chart-calendar-density",
+            "chart-cohort"
+          ]
+        },
+        {
+          "text": "Độ đậm biểu thị giá trị theo thang chú giải.",
+          "sourceIds": [
+            "chart-heatmap"
+          ],
+          "variantTitle": "Ma trận có giá trị"
+        },
+        {
+          "text": "Giữ riêng ô thiếu dữ liệu và ô giá trị 0; không dùng màu chú ý để giả thành mức đo.",
+          "sourceIds": [
+            "chart-heatmap"
+          ],
+          "variantTitle": "Ma trận có giá trị"
+        },
+        {
+          "text": "Mẫu dùng 21 ngày minh họa, giá trị 0–4; cột đầu là Thứ hai.",
+          "sourceIds": [
+            "chart-calendar-density"
+          ],
+          "variantTitle": "Lịch có giá trị"
+        },
+        {
+          "text": "Độ đậm theo mức độ trong chú giải.",
+          "sourceIds": [
+            "chart-calendar-density"
+          ],
+          "variantTitle": "Lịch có giá trị"
+        },
+        {
+          "text": "Giữ đúng mã ngày; đây chưa phải lịch có ngày tháng thật.",
+          "sourceIds": [
+            "chart-calendar-density"
+          ],
+          "variantTitle": "Lịch có giá trị"
+        },
+        {
+          "text": "Cột là tuổi của nhóm kể từ lúc bắt đầu, không phải kỳ lịch chung.",
+          "sourceIds": [
+            "chart-cohort"
+          ],
+          "variantTitle": "Giữ lại theo nhóm bắt đầu"
+        },
+        {
+          "text": "Giữ mẫu số và thời gian đủ điều kiện quan sát; ô chưa đến kỳ không được đổi thành 0.",
+          "sourceIds": [
+            "chart-cohort"
+          ],
+          "variantTitle": "Giữ lại theo nhóm bắt đầu"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không bỏ kiểu tọa độ, mẫu số, ô chưa quan sát hoặc dùng màu chú ý như thang đo liên tục.",
+          "sourceIds": [
+            "chart-heatmap",
+            "chart-calendar-density",
+            "chart-cohort"
+          ]
+        }
+      ]
+    },
+    "funnel": {
+      "use": [
+        {
+          "text": "Theo dõi số còn lại của cùng một nhóm qua các bước nối tiếp.",
+          "sourceIds": [
+            "chart-funnel"
+          ]
+        },
+        {
+          "text": "Giữ cùng một nhóm quan sát, thứ tự các bước lồng tiếp nhau và khoảng thời gian theo dõi.",
+          "sourceIds": [
+            "chart-funnel"
+          ],
+          "variantTitle": "Phễu theo bước"
+        },
+        {
+          "text": "Số lượng của các nhóm độc lập không chứng minh chuyển bước.",
+          "sourceIds": [
+            "chart-funnel"
+          ],
+          "variantTitle": "Phễu theo bước"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không gọi số lượng các nhóm độc lập là tỷ lệ chuyển bước.",
+          "sourceIds": [
+            "chart-funnel"
+          ]
+        }
+      ]
+    },
+    "area-partition": {
+      "use": [
+        {
+          "text": "Đọc các phần của một tổng theo diện tích ô chữ nhật.",
+          "sourceIds": [
+            "chart-treemap"
+          ]
+        },
+        {
+          "text": "Mẫu hiện chỉ có một tầng, chưa thể hiện phân cấp lồng nhau.",
+          "sourceIds": [
+            "chart-treemap"
+          ],
+          "variantTitle": "Ô diện tích cơ cấu"
+        },
+        {
+          "text": "Đọc giá trị bằng diện tích, không riêng chiều rộng; không coi ô này là hình địa lý.",
+          "sourceIds": [
+            "chart-treemap"
+          ],
+          "variantTitle": "Ô diện tích cơ cấu"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không đọc giá trị bằng riêng chiều rộng hoặc tuyên bố mẫu hiện có nhiều tầng phân cấp.",
+          "sourceIds": [
+            "chart-treemap"
+          ]
+        }
+      ]
+    },
+    "time-interval": {
+      "use": [
+        {
+          "text": "Đọc thời điểm bắt đầu, kết thúc, chồng lấn hoặc trạng thái trên một trục thời gian.",
+          "sourceIds": [
+            "chart-gantt",
+            "chart-state-timeline"
+          ]
+        },
+        {
+          "text": "Mẫu hiện tính cả ngày đầu và ngày cuối.",
+          "sourceIds": [
+            "chart-gantt"
+          ],
+          "variantTitle": "Lịch công việc"
+        },
+        {
+          "text": "Độ dài đoạn biểu thị thời gian; trạng thái là nhãn định tính.",
+          "sourceIds": [
+            "chart-state-timeline"
+          ],
+          "variantTitle": "Dải trạng thái theo thời gian"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không coi độ dài là lượng trạng thái hay tỷ lệ; phải giữ quy ước tính ngày đầu/cuối.",
+          "sourceIds": [
+            "chart-gantt",
+            "chart-state-timeline"
+          ]
+        },
+        {
+          "text": "Không lấy ngày cuối trừ ngày đầu để đổi thời lượng nếu chưa nêu rõ quy tắc chuyển ranh giới.",
+          "sourceIds": [
+            "chart-gantt"
+          ],
+          "variantTitle": "Lịch công việc"
+        },
+        {
+          "text": "Không đọc độ dài thành tỷ lệ 100% hoặc giá trị số của trạng thái.",
+          "sourceIds": [
+            "chart-state-timeline"
+          ],
+          "variantTitle": "Dải trạng thái theo thời gian"
+        }
+      ]
+    },
+    "paired-comparison": {
+      "use": [
+        {
+          "text": "So sánh hai lần đo cùng đơn vị cho từng đối tượng; chọn bố cục dốc hoặc hai đầu theo hàng.",
+          "sourceIds": [
+            "chart-slope",
+            "chart-dumbbell"
+          ]
+        },
+        {
+          "text": "Ghép hai lần đo theo đúng đối tượng.",
+          "sourceIds": [
+            "chart-slope"
+          ],
+          "variantTitle": "Độ dốc giữa hai kỳ"
+        },
+        {
+          "text": "Hai đầu đo không chứng minh đã quan sát một đường đi liên tục giữa chúng.",
+          "sourceIds": [
+            "chart-slope"
+          ],
+          "variantTitle": "Độ dốc giữa hai kỳ"
+        },
+        {
+          "text": "Giữ cả hai giá trị đo, nhãn hai đầu, cùng đơn vị và đúng cặp đối tượng.",
+          "sourceIds": [
+            "chart-dumbbell"
+          ],
+          "variantTitle": "Hai đầu theo nhóm"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không ghép khác đối tượng hoặc ngụ ý đã đo đường đi liên tục giữa hai đầu.",
+          "sourceIds": [
+            "chart-slope",
+            "chart-dumbbell"
+          ]
+        },
+        {
+          "text": "Không thay bằng chấm có chân chỉ mang một giá trị.",
+          "sourceIds": [
+            "chart-dumbbell"
+          ],
+          "variantTitle": "Hai đầu theo nhóm"
+        }
+      ]
+    },
+    "dependency": {
+      "use": [
+        {
+          "text": "Đọc các quan hệ cần hoàn thành trước hoặc đầu vào phụ thuộc.",
+          "sourceIds": [
+            "chart-dependency-network"
+          ]
+        },
+        {
+          "text": "Cạnh biểu thị phụ thuộc, không phải luồng có lượng hoặc nhánh điều kiện.",
+          "sourceIds": [
+            "chart-dependency-network"
+          ],
+          "variantTitle": "Quan hệ phụ thuộc"
+        },
+        {
+          "text": "Mẫu hỗ trợ một nút đầu, hai nút giữa và một nút cuối; tên nút tối đa bốn ký tự.",
+          "sourceIds": [
+            "chart-dependency-network"
+          ],
+          "variantTitle": "Quan hệ phụ thuộc"
+        },
+        {
+          "text": "Cấu trúc khác sẽ báo chưa hỗ trợ.",
+          "sourceIds": [
+            "chart-dependency-network"
+          ],
+          "variantTitle": "Quan hệ phụ thuộc"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không suy lượng luồng hay điều kiện lựa chọn từ cạnh phụ thuộc.",
+          "sourceIds": [
+            "chart-dependency-network"
+          ]
+        }
+      ]
+    },
+    "quantified-flow": {
+      "use": [
+        {
+          "text": "Đọc lượng đi từ nguồn đến đích theo độ rộng luồng.",
+          "sourceIds": [
+            "chart-sankey"
+          ]
+        },
+        {
+          "text": "Giữ lượng trên từng luồng và quy tắc bảo toàn hoặc thất thoát.",
+          "sourceIds": [
+            "chart-sankey"
+          ],
+          "variantTitle": "Luồng có lượng"
+        },
+        {
+          "text": "Các mũi tên có độ rộng bằng nhau không thay thế được độ rộng theo lượng.",
+          "sourceIds": [
+            "chart-sankey"
+          ],
+          "variantTitle": "Luồng có lượng"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không thay lượng bằng mũi tên bằng nhau hoặc bỏ quy tắc bảo toàn/thất thoát.",
+          "sourceIds": [
+            "chart-sankey"
+          ]
+        }
+      ]
+    },
+    "parallel-coordinates": {
+      "use": [
+        {
+          "text": "Đối chiếu một đối tượng trên nhiều tiêu chí độc lập.",
+          "sourceIds": [
+            "chart-parallel"
+          ]
+        },
+        {
+          "text": "Mỗi trục là một tiêu chí độc lập, không phải một kỳ thời gian.",
+          "sourceIds": [
+            "chart-parallel"
+          ],
+          "variantTitle": "Nhiều tiêu chí song song"
+        },
+        {
+          "text": "Giữ đơn vị, thang đo và ảnh hưởng của thứ tự các tiêu chí.",
+          "sourceIds": [
+            "chart-parallel"
+          ],
+          "variantTitle": "Nhiều tiêu chí song song"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không coi trục tiêu chí là các kỳ thời gian hoặc quên đơn vị/thang từng trục.",
+          "sourceIds": [
+            "chart-parallel"
+          ]
+        }
+      ]
+    },
+    "ohlc": {
+      "use": [
+        {
+          "text": "Đọc mở, cao, thấp và đóng trong từng kỳ.",
+          "sourceIds": [
+            "chart-candlestick"
+          ]
+        },
+        {
+          "text": "Mở và đóng không phải hai tứ phân vị.",
+          "sourceIds": [
+            "chart-candlestick"
+          ],
+          "variantTitle": "Nến khoảng và hai thời điểm"
+        },
+        {
+          "text": "Giá trị mở/đóng phải nằm giữa thấp và cao; màu biểu thị hướng tăng/giảm, không phải trạng thái ngoại lệ.",
+          "sourceIds": [
+            "chart-candlestick"
+          ],
+          "variantTitle": "Nến khoảng và hai thời điểm"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không dùng thay hộp phân bố hoặc để mở/đóng nằm ngoài thấp/cao.",
+          "sourceIds": [
+            "chart-candlestick"
+          ]
+        }
+      ]
+    },
+    "schematic-regions": {
+      "use": [
+        {
+          "text": "Minh họa giá trị của các vùng tự tạo có nhãn rõ.",
+          "sourceIds": [
+            "chart-regional-map"
+          ]
+        },
+        {
+          "text": "Các vùng là hình minh họa tự tạo.",
+          "sourceIds": [
+            "chart-regional-map"
+          ],
+          "variantTitle": "Bản đồ vùng sơ đồ"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không nhận là địa giới thật, bản đồ số liệu địa lý hoặc diện tích tỷ lệ.",
+          "sourceIds": [
+            "chart-regional-map"
+          ]
+        },
+        {
+          "text": "Không nhận là địa giới thật, bản đồ địa lý tô màu theo số liệu hoặc diện tích tỷ lệ với giá trị.",
+          "sourceIds": [
+            "chart-regional-map"
+          ],
+          "variantTitle": "Bản đồ vùng sơ đồ"
+        }
+      ]
+    },
+    "numeric-summary": {
+      "use": [
+        {
+          "text": "Đọc một chỉ số tổng và các dòng số chi tiết cần đối chiếu.",
+          "sourceIds": [
+            "chart-kpi-table"
+          ]
+        },
+        {
+          "text": "Đây là mẫu chỉ số kèm bảng số, không phải một phép mã hóa thống kê riêng.",
+          "sourceIds": [
+            "chart-kpi-table"
+          ],
+          "variantTitle": "Chỉ số và bảng chi tiết"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không tính thẻ số là một kiểu mã hóa thống kê mới hoặc bỏ phép cộng đối chiếu.",
+          "sourceIds": [
+            "chart-kpi-table"
+          ]
+        }
+      ]
+    },
+    "decision-rules": {
+      "use": [
+        {
+          "text": "Chọn hướng xử lý dựa trên các điều kiện có nhánh được ghi rõ.",
+          "sourceIds": [
+            "chart-decision-tree"
+          ]
+        },
+        {
+          "text": "Nhánh biểu thị điều kiện và kết quả, không phải phụ thuộc hay lượng chảy.",
+          "sourceIds": [
+            "chart-decision-tree"
+          ],
+          "variantTitle": "Cây lựa chọn"
+        },
+        {
+          "text": "Mẫu hiện hỗ trợ hai câu hỏi “Có nguồn?” và “Cần duyệt?”; điều kiện khác sẽ báo chưa hỗ trợ.",
+          "sourceIds": [
+            "chart-decision-tree"
+          ],
+          "variantTitle": "Cây lựa chọn"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không dùng cạnh phụ thuộc thay cho điều kiện hoặc bỏ tên nhánh có/không.",
+          "sourceIds": [
+            "chart-decision-tree"
+          ]
+        }
+      ]
+    },
+    "journey-matrix": {
+      "use": [
+        {
+          "text": "Đọc hành động, điểm khó và cách cải thiện theo từng bước.",
+          "sourceIds": [
+            "chart-journey-comparison"
+          ]
+        },
+        {
+          "text": "Đây là bảng hành trình định tính, không phải ma trận số.",
+          "sourceIds": [
+            "chart-journey-comparison"
+          ],
+          "variantTitle": "Hành trình theo bước"
+        },
+        {
+          "text": "Giữ vai trò từng dòng văn bản và thứ tự các bước.",
+          "sourceIds": [
+            "chart-journey-comparison"
+          ],
+          "variantTitle": "Hành trình theo bước"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không coi văn bản định tính là mức nhiệt hay số đo trên ma trận.",
+          "sourceIds": [
+            "chart-journey-comparison"
+          ]
+        }
+      ]
+    },
+    "geographic-map": {
+      "use": [
+        {
+          "text": "Xem vị trí địa lý; chọn Hoa Kỳ, Việt Nam hoặc địa cầu xoay trong chi tiết và từ liên kết cũ.",
+          "sourceIds": [
+            "map-us",
+            "map-vietnam",
+            "map-world-3d"
+          ]
+        },
+        {
+          "text": "Giữ đủ 50 tiểu bang và DC, cảnh báo Alaska/Hawaii được chuyển vị trí và thu phóng, năm và nguồn dữ liệu, cùng giới hạn không dùng để đo đạc.",
+          "sourceIds": [
+            "map-us"
+          ],
+          "variantTitle": "Bản đồ Hoa Kỳ"
+        },
+        {
+          "text": "Màu hình dạng không phải số liệu thống kê.",
+          "sourceIds": [
+            "map-us"
+          ],
+          "variantTitle": "Bản đồ Hoa Kỳ"
+        },
+        {
+          "text": "Giữ tên gọi theo nguồn chính thức Việt Nam, bối cảnh tranh chấp quốc tế và giới hạn chưa đầy đủ mọi đảo.",
+          "sourceIds": [
+            "map-vietnam"
+          ],
+          "variantTitle": "Bản đồ Việt Nam"
+        },
+        {
+          "text": "Giữ bộ vẽ khối cầu thật, tương tác, bản đồ phẳng dự phòng và giới hạn nguồn.",
+          "sourceIds": [
+            "map-world-3d"
+          ],
+          "variantTitle": "Địa cầu 3D"
+        }
+      ],
+      "avoid": [
+        {
+          "text": "Không coi màu hình dạng là số liệu, ô phụ là cùng tỷ lệ hoặc địa cầu là công cụ phân loại chủ quyền.",
+          "sourceIds": [
+            "map-us",
+            "map-vietnam",
+            "map-world-3d"
+          ]
+        },
+        {
+          "text": "Không nhận là ranh giới biển; điểm đại diện không phải đơn vị hành chính như mẫu Hoa Kỳ.",
+          "sourceIds": [
+            "map-vietnam"
+          ],
+          "variantTitle": "Bản đồ Việt Nam"
+        },
+        {
+          "text": "Không biến thành hình trang trí, công cụ phân loại chủ quyền hoặc bản đồ tô màu theo số liệu.",
+          "sourceIds": [
+            "map-world-3d"
+          ],
+          "variantTitle": "Địa cầu 3D"
+        }
+      ]
+    }
+  },
+  "sourceIds": [
+    "chart-bar",
+    "chart-column",
+    "chart-line",
+    "chart-area",
+    "chart-donut",
+    "chart-stack",
+    "chart-scatter",
+    "chart-pie",
+    "chart-histogram",
+    "chart-box",
+    "chart-waterfall",
+    "chart-heatmap",
+    "chart-progress-ring",
+    "chart-stacked-absolute",
+    "chart-funnel",
+    "chart-treemap",
+    "chart-diverging",
+    "chart-gantt",
+    "chart-grouped",
+    "chart-combo",
+    "chart-slope",
+    "chart-dumbbell",
+    "chart-bullet",
+    "chart-lollipop",
+    "chart-sparklines",
+    "chart-calendar-density",
+    "chart-state-timeline",
+    "chart-cohort",
+    "chart-dependency-network",
+    "chart-sankey",
+    "chart-parallel",
+    "chart-candlestick",
+    "chart-regional-map",
+    "chart-kpi-table",
+    "chart-monitored-series",
+    "chart-decision-tree",
+    "chart-journey-comparison",
+    "map-us",
+    "map-vietnam",
+    "map-world-3d"
+  ],
+  "originFingerprints": {
+    "acceptedSourceModelSha256": "0bc7e770fd38fcebc506eda6eb3a6ec98035e9d0fa9930d12536b489c80df329",
+    "nativeRendererSha256": "72347533186cffb05017e33498cf3779fdb4870cba805ee25b148387dbaf0b54"
+  },
+  "constraints": [
+    "One actual visual/data/interaction family per primary record; aliases and meaningful variants retain source identity in detail.",
+    "Numeric axes, units, denominator, order, null/missing and graph branch meaning stay data-owned.",
+    "Geographic map source, projection, coordinates, rights and behavior remain target-local explicit dependencies.",
+    "Visual roles resolve the selected brand; no MELAB palette, logos, fonts, media or business claims are inherited."
+  ],
+  "defaultDataRole": "reviewed-synthetic-example-revision-only; explicit other reviewed input required for new facts",
+  "boundedInputs": {
+    "calendar-density": {
+      "rowLabels": [
+        "Ngày1",
+        "Ngày2",
+        "Ngày3",
+        "Ngày4",
+        "Ngày5",
+        "Ngày6",
+        "Ngày7",
+        "Ngày8",
+        "Ngày9",
+        "Ngày10",
+        "Ngày11",
+        "Ngày12",
+        "Ngày13",
+        "Ngày14",
+        "Ngày15",
+        "Ngày16",
+        "Ngày17",
+        "Ngày18",
+        "Ngày19",
+        "Ngày20",
+        "Ngày21"
+      ],
+      "ordering": "exact21mockdays; firstcolumnMonday; no arbitrary date/calendar semantics",
+      "values": "integers0through4; absent and0 are not interchangeable"
+    }
+  },
+  "files": [
+    {
+      "path": "example-data.json",
+      "sha256": "baeb4a9126032b149e889037bc20740b2483b81cfbabfc1fbe373f97e416aba1"
+    },
+    {
+      "path": "chart-core.js",
+      "sha256": "9877f8f2716bf64a0264e26f26462136ab7c0518a76ef5249d01b30ecd737e89"
+    },
+    {
+      "path": "catalogue-adapter.js",
+      "sha256": "5eb86bbbed47971ce45a300d216b1360d5e558253cf25bf9f1712202e2bd911b"
+    },
+    {
+      "path": "chart-roles.css",
+      "sha256": "2fa99b1f32a68b25e14585358d01a2fc4af811a7d573fbbb9225d11572658555"
+    }
+  ]
+}

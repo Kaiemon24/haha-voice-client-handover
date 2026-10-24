@@ -1,0 +1,2004 @@
+{
+  "schema": "design-binding/v1",
+  "profile": "generated-draft-package/v1",
+  "designTree": "Design",
+  "systemId": "long-thanh-industrial",
+  "version": "0.1.11-draft",
+  "systemHash": "sha256:bfb4d7ebafa5138e2b9b67f8452b4776227ae10b0c3f0cf008a0c6422161938c",
+  "hashProfile": "design-md-bytes/v1",
+  "modelHash": "sha256:e039d77a02d9852bf4b45f0ce2a87fbaf1ec5121b644c1063419aaa0f14a70a0",
+  "modelHashProfile": "system-model-excluding-elements/v1",
+  "registryRef": null,
+  "registered": false,
+  "semanticTokens": {
+    "canvas": "#F9FBFF",
+    "text": "#00102E",
+    "muted": "#435674",
+    "accent": "#084DD1",
+    "surface": "#FFFFFF",
+    "border": "#B8C9E6",
+    "hover": "#E5EEFF",
+    "accentHover": "#052368",
+    "track": "#DDE6F4",
+    "font": "Be Vietnam Pro, Arial, sans-serif",
+    "motionMs": 180
+  },
+  "sections": {
+    "colors": {
+      "status": "proposed",
+      "recordIds": [
+        "brand-blue",
+        "brand-red",
+        "ink-surfaces",
+        "dark-colors",
+        "status-colors",
+        "contrast-contract"
+      ]
+    },
+    "typography": {
+      "status": "proposed",
+      "recordIds": [
+        "source-type",
+        "proposal-type",
+        "type-scale",
+        "type-number",
+        "type-vietnamese"
+      ]
+    },
+    "spacing-shape": {
+      "status": "proposed",
+      "recordIds": [
+        "spacing-scale",
+        "geometry",
+        "safe-zone",
+        "painted-gap",
+        "fill-outline"
+      ]
+    },
+    "components": {
+      "status": "proposed",
+      "recordIds": [
+        "button-contract",
+        "input-contract",
+        "nav-contract",
+        "dialog-contract",
+        "component-census"
+      ]
+    },
+    "guidelines": {
+      "status": "proposed",
+      "recordIds": [
+        "principles",
+        "claim-discipline",
+        "voice-policy",
+        "data-limits"
+      ]
+    },
+    "surfaces-elevation": {
+      "status": "proposed",
+      "recordIds": [
+        "shadow-levels",
+        "layering",
+        "surface-exception"
+      ]
+    },
+    "imagery-icons": {
+      "status": "proposed",
+      "recordIds": [
+        "identity-original",
+        "industrial-grammar",
+        "icon-grid",
+        "product-image",
+        "illustration-ai"
+      ]
+    },
+    "layout-composition": {
+      "status": "proposed",
+      "recordIds": [
+        "responsive-grid",
+        "eye-stops",
+        "composition-rule",
+        "table-rule",
+        "slide-rule",
+        "map-rule"
+      ]
+    },
+    "motion": {
+      "status": "proposed",
+      "recordIds": [
+        "motion-timing",
+        "motion-lifecycle",
+        "opposing-ribbon",
+        "model-control"
+      ]
+    },
+    "usage": {
+      "status": "proposed",
+      "recordIds": [
+        "reading-map",
+        "exact-reuse",
+        "rights-scope",
+        "output-scope",
+        "version-gaps",
+        "runtime-reading-00",
+        "runtime-reading-01",
+        "runtime-reading-02",
+        "runtime-reading-03",
+        "runtime-reading-04",
+        "runtime-reading-05",
+        "runtime-reading-06",
+        "runtime-reading-07",
+        "runtime-reading-08",
+        "runtime-reading-09",
+        "runtime-reading-10",
+        "runtime-reading-11",
+        "runtime-reading-12",
+        "runtime-reading-13",
+        "runtime-reading-14",
+        "runtime-reading-15"
+      ]
+    }
+  },
+  "rights": {
+    "license": "unknown; inspect record sources",
+    "sources": [
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Official CSS/logo observation where named; otherwise task-authored proposal.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim.",
+      "Current own-authored runtime literal readback; component/source figures remain in the associated native records; no operation or approval claim."
+    ]
+  },
+  "qaProfile": {
+    "release": "draft-only",
+    "renderedReviewRequired": true
+  },
+  "adaptation": {},
+  "showcase": {
+    "schemaVersion": "design-showcase/v2",
+    "coverageMode": "full-benchmark-adaptation",
+    "navigation": "header-views-sidebar-contents",
+    "counts": {
+      "proposedByFamily": {
+        "logo": 1,
+        "icons-static": 124,
+        "ui": 7,
+        "reading": 25,
+        "backgrounds": 2,
+        "charts": 40,
+        "models": 3,
+        "generative-ai": 1,
+        "icons-motion": 8
+      },
+      "admitted": 0,
+      "applications": 42
+    },
+    "benchmark": {
+      "version": "324.10-standard-review",
+      "sha256": "2f3a8daf9f6eb3148622a00b31487d9a62fa4909cedf51211940cc38d719f52b"
+    },
+    "overviewMap": [
+      {
+        "sourceId": "identity-crest",
+        "disposition": "mapped",
+        "targetGroups": [
+          "imagery-icons"
+        ],
+        "targetId": "source-overview-identity-crest"
+      },
+      {
+        "sourceId": "identity-direction",
+        "disposition": "mapped",
+        "targetGroups": [
+          "imagery-icons"
+        ],
+        "targetId": "source-overview-identity-direction"
+      },
+      {
+        "sourceId": "overview",
+        "disposition": "mapped",
+        "targetGroups": [
+          "layout-composition"
+        ],
+        "targetId": "overview"
+      },
+      {
+        "sourceId": "identity",
+        "disposition": "mapped",
+        "targetGroups": [
+          "imagery-icons"
+        ],
+        "targetId": "identity"
+      },
+      {
+        "sourceId": "type",
+        "disposition": "mapped",
+        "targetGroups": [
+          "layout-composition"
+        ],
+        "targetId": "type"
+      },
+      {
+        "sourceId": "colors",
+        "disposition": "mapped",
+        "targetGroups": [
+          "layout-composition"
+        ],
+        "targetId": "colors"
+      },
+      {
+        "sourceId": "spacing",
+        "disposition": "mapped",
+        "targetGroups": [
+          "spacing-shape"
+        ],
+        "targetId": "spacing"
+      },
+      {
+        "sourceId": "icon-geometry",
+        "disposition": "mapped",
+        "targetGroups": [
+          "imagery-icons"
+        ],
+        "targetId": "icon-geometry"
+      },
+      {
+        "sourceId": "body-rules",
+        "disposition": "mapped",
+        "targetGroups": [
+          "layout-composition"
+        ],
+        "targetId": "body-rules"
+      },
+      {
+        "sourceId": "relation-rules",
+        "disposition": "mapped",
+        "targetGroups": [
+          "layout-composition"
+        ],
+        "targetId": "relation-rules"
+      },
+      {
+        "sourceId": "component-rules",
+        "disposition": "mapped",
+        "targetGroups": [
+          "layout-composition"
+        ],
+        "targetId": "component-rules"
+      },
+      {
+        "sourceId": "layout-rules",
+        "disposition": "mapped",
+        "targetGroups": [
+          "layout-composition"
+        ],
+        "targetId": "layout-rules"
+      },
+      {
+        "sourceId": "motion-rules",
+        "disposition": "mapped",
+        "targetGroups": [
+          "layout-composition"
+        ],
+        "targetId": "motion-rules"
+      },
+      {
+        "sourceId": "icon-clearance",
+        "disposition": "mapped",
+        "targetGroups": [
+          "spacing-shape"
+        ],
+        "targetId": "source-overview-icon-clearance"
+      },
+      {
+        "sourceId": "guidelines",
+        "disposition": "mapped",
+        "targetGroups": [
+          "layout-composition"
+        ],
+        "targetId": "guidelines"
+      },
+      {
+        "sourceId": "voice",
+        "disposition": "mapped",
+        "targetGroups": [
+          "layout-composition"
+        ],
+        "targetId": "voice"
+      },
+      {
+        "sourceId": "system-relationship",
+        "disposition": "mapped",
+        "targetGroups": [
+          "layout-composition"
+        ],
+        "targetId": "system-relationship"
+      },
+      {
+        "sourceId": "adapt",
+        "disposition": "mapped",
+        "targetGroups": [
+          "layout-composition"
+        ],
+        "targetId": "adapt"
+      },
+      {
+        "sourceId": "package-docs",
+        "disposition": "mapped",
+        "targetGroups": [
+          "layout-composition"
+        ],
+        "targetId": "package-docs"
+      }
+    ],
+    "exclusions": [
+      "No KAI identity, literal brand copy or donor-count quota transfer.",
+      "AI image not generated/verified; guidance and blocked image state retained.",
+      "No admission, canonical activation, public rights certification or publication."
+    ],
+    "authorityReference": "Explicit current user request full current-standard Long Thành system; task-local draft preparation only.",
+    "featureDisposition": {
+      "downloadActions": "none"
+    },
+    "coverageIntent": {
+      "mode": "full-benchmark",
+      "authorityReference": "Current explicit full creation request; preserve all256 source-function addresses, independent Long Thành masters and full current20-feature profile."
+    },
+    "navigationProfile": "compact-design-system/v2",
+    "benchmarkFunctions": [
+      {
+        "id": "icon-core-bullet-square",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-checkbox-empty",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-page-outline",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-home",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-back",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-forward",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-up",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-down",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-menu",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-expand",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-collapse",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-add",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-edit",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-delete",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-duplicate",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-save",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-download",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-upload",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-share",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-search",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-filter",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-sort",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-grid",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-list",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-zoom-in",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-zoom-out",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-eye",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-success",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-warning",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-error",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-info",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-loading",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-help",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-blocked",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-pending",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-file",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-folder",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-text",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-image",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-video",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-audio",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-archive",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-link",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-user",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-team",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-mail",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-chat",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-notification",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-calendar",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-meeting",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-contact",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-task",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-checklist",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-project",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-kanban",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-flag",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-target",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-clock",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-approval",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-bar-chart",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-line-chart",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-pie-chart",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-table",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-trend-up",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-trend-down",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-database",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-report",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-agent",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-workflow",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-terminal",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-code",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-integration",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-run",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-pause",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-stop",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-settings",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-lock",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-unlock",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-key",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-shield",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-permissions",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-refresh",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-logout",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-cart",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-bag",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-card",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-receipt",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-tag",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-package",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-delivery",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-refund",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-book",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-lesson",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-bookmark",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-idea",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-microphone",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-camera",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-presentation",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-core-certificate",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-sword",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-shield-crest",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-helmet",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-armor",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-boots",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-gauntlet",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-bow",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-arrow",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-staff",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-potion",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-scroll",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-quest-board",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-bonfire",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-ember",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-torch",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-lantern",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-castle",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-gate",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-tower",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-tent",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-compass",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-map-marker",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-gem",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "icon-kai-chest",
+        "view": "library",
+        "family": "icons-static"
+      },
+      {
+        "id": "agent-knight-automation",
+        "view": "library",
+        "family": "icons-motion"
+      },
+      {
+        "id": "agent-knight-design",
+        "view": "library",
+        "family": "icons-motion"
+      },
+      {
+        "id": "agent-knight-html",
+        "view": "library",
+        "family": "icons-motion"
+      },
+      {
+        "id": "agent-knight-video",
+        "view": "library",
+        "family": "icons-motion"
+      },
+      {
+        "id": "agent-knight-content",
+        "view": "library",
+        "family": "icons-motion"
+      },
+      {
+        "id": "animated-compass",
+        "view": "library",
+        "family": "icons-motion"
+      },
+      {
+        "id": "animated-fire",
+        "view": "library",
+        "family": "icons-motion"
+      },
+      {
+        "id": "animated-shield",
+        "view": "library",
+        "family": "icons-motion"
+      },
+      {
+        "id": "ui-buttons",
+        "view": "library",
+        "family": "ui"
+      },
+      {
+        "id": "ui-topnav",
+        "view": "library",
+        "family": "ui"
+      },
+      {
+        "id": "ui-actions",
+        "view": "library",
+        "family": "ui"
+      },
+      {
+        "id": "ui-search",
+        "view": "library",
+        "family": "ui"
+      },
+      {
+        "id": "ui-tabs",
+        "view": "library",
+        "family": "ui"
+      },
+      {
+        "id": "ui-check",
+        "view": "library",
+        "family": "ui"
+      },
+      {
+        "id": "ui-dialog",
+        "view": "library",
+        "family": "ui"
+      },
+      {
+        "id": "model-helmet",
+        "view": "library",
+        "family": "models"
+      },
+      {
+        "id": "model-treasure",
+        "view": "library",
+        "family": "models"
+      },
+      {
+        "id": "model-bonfire",
+        "view": "library",
+        "family": "models"
+      },
+      {
+        "id": "chart-bar",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-column",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-line",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-area",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-donut",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-stack",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-scatter",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-pie",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-histogram",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-box",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-waterfall",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-heatmap",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-progress-ring",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-stacked-absolute",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-funnel",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-treemap",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-diverging",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-gantt",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-grouped",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-combo",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-slope",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-dumbbell",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-bullet",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-lollipop",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-sparklines",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-calendar-density",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-state-timeline",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-cohort",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-dependency-network",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-sankey",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-parallel",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-candlestick",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-regional-map",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-kpi-table",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-monitored-series",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-decision-tree",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "chart-journey-comparison",
+        "view": "library",
+        "family": "charts"
+      },
+      {
+        "id": "reading-five-actions",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-moodboard",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-comparison-table",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-quantitative-chart",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-attributed-quote",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-literal-command",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-connectors",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-listing-status",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-listing-sections",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-listing-shapes",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-listing-icons",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-task-brief",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-rule-check-fix",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-readiness-levels",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-worked-example",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "reading-reference-card",
+        "view": "library",
+        "family": "reading"
+      },
+      {
+        "id": "slide283-default-cover",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-default-agenda",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-default-divider",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-default-close",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-image-hero",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-image-strip",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-image-grid",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-image-story",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-image-detail",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-image-collage",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-image-pair",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-image-mosaic",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-image-background",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-image-split",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-text-matrix",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-text-tables",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-text-columns",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-text-evidence",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-text-plan",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-text-dashboard",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-text-overview",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-text-mixed",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-text-sections",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-text-journey",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-text-sales-mix",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-text-competitors",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "slide283-text-ranking",
+        "view": "applications",
+        "family": "slides"
+      },
+      {
+        "id": "pdf-cover",
+        "view": "applications",
+        "family": "pdf"
+      },
+      {
+        "id": "pdf-task-brief",
+        "view": "applications",
+        "family": "pdf"
+      },
+      {
+        "id": "pdf-rule-check-fix",
+        "view": "applications",
+        "family": "pdf"
+      },
+      {
+        "id": "pdf-readiness-levels",
+        "view": "applications",
+        "family": "pdf"
+      },
+      {
+        "id": "pdf-worked-example",
+        "view": "applications",
+        "family": "pdf"
+      },
+      {
+        "id": "pdf-reference-card",
+        "view": "applications",
+        "family": "pdf"
+      },
+      {
+        "id": "pdf-source-index",
+        "view": "applications",
+        "family": "pdf"
+      },
+      {
+        "id": "application-service",
+        "view": "applications",
+        "family": "web-app"
+      },
+      {
+        "id": "application-article",
+        "view": "applications",
+        "family": "web-app"
+      },
+      {
+        "id": "application-dashboard",
+        "view": "applications",
+        "family": "web-app"
+      },
+      {
+        "id": "application-editor",
+        "view": "applications",
+        "family": "web-app"
+      },
+      {
+        "id": "identity-crest",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "identity-direction",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "logo-pair",
+        "view": "library",
+        "family": "logo"
+      },
+      {
+        "id": "poster-moodboard",
+        "view": "applications",
+        "family": "production"
+      },
+      {
+        "id": "thumbnail-guideline",
+        "view": "applications",
+        "family": "production"
+      },
+      {
+        "id": "image-style",
+        "view": "applications",
+        "family": "production"
+      },
+      {
+        "id": "edit-guideline",
+        "view": "applications",
+        "family": "production"
+      },
+      {
+        "id": "overview",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "identity",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "type",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "colors",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "spacing",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "icon-geometry",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "body-rules",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "relation-rules",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "component-rules",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "layout-rules",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "motion-rules",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "icon-clearance",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "guidelines",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "voice",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "system-relationship",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "adapt",
+        "view": "overview",
+        "family": "rule-jobs"
+      },
+      {
+        "id": "package-docs",
+        "view": "overview",
+        "family": "rule-jobs"
+      }
+    ],
+    "nativeCensusRef": {
+      "path": "assets/native-census.json",
+      "sha256": "c9e7369fb508a1675832bd0b13a9b10ab8562ffaa251948795bd242e9057a472"
+    },
+    "requiredLibraryCategories": [
+      "backgrounds",
+      "charts",
+      "generative-ai",
+      "icons-motion",
+      "icons-static",
+      "logo",
+      "models",
+      "reading",
+      "ui"
+    ],
+    "primaryCounts": {
+      "library": 189,
+      "applications": 42,
+      "icons": 118,
+      "sourceFunctions": 256,
+      "sourceRoleAliases": 22,
+      "overviewRoleAliases": 3
+    },
+    "nativeLibrary": {
+      "hostId": "view",
+      "dataScript": "data.js",
+      "rendererScript": "system.js"
+    },
+    "methodProvenance": {
+      "profile": "compact-design-system/v2",
+      "profilePath": "reference/benchmark/compact-role-model-v2.json",
+      "sha256": "6187b5cac7152e1412309e2404c43354eee1346485b84116d5320a50b290e9e9",
+      "revision": "20261021-r09",
+      "acceptance": "user-accepted frozen source closure; structure/function transfer only; no donor identity or new asset admission"
+    }
+  },
+  "authoring": {
+    "hashProfile": "overview-authoring-rules/v1",
+    "ruleHash": "43964dd25fd46246b70050bdf23bfce169aeba97540c9b40aa8b7f3f06c974c3",
+    "policy": {
+      "schemaVersion": "overview-authoring/v1",
+      "types": {
+        "text": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        },
+        "image": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        },
+        "data": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        },
+        "control": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        }
+      },
+      "states": {
+        "normal": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        },
+        "error": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        },
+        "uncertain": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        },
+        "reduced-motion": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        }
+      },
+      "formats": {
+        "website": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        },
+        "app": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        },
+        "slide": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        },
+        "knowledge-pdf": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        },
+        "design": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        },
+        "edit": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ]
+        }
+      },
+      "roles": {
+        "message": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ],
+          "typeIds": [
+            "text",
+            "image",
+            "data",
+            "control"
+          ],
+          "stateIds": [
+            "normal",
+            "error",
+            "uncertain",
+            "reduced-motion"
+          ],
+          "formatIds": [
+            "website",
+            "app",
+            "slide",
+            "knowledge-pdf",
+            "design",
+            "edit"
+          ]
+        },
+        "technical-data": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ],
+          "typeIds": [
+            "text",
+            "image",
+            "data",
+            "control"
+          ],
+          "stateIds": [
+            "normal",
+            "error",
+            "uncertain",
+            "reduced-motion"
+          ],
+          "formatIds": [
+            "website",
+            "app",
+            "slide",
+            "knowledge-pdf",
+            "design",
+            "edit"
+          ]
+        },
+        "navigation": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ],
+          "typeIds": [
+            "text",
+            "image",
+            "data",
+            "control"
+          ],
+          "stateIds": [
+            "normal",
+            "error",
+            "uncertain",
+            "reduced-motion"
+          ],
+          "formatIds": [
+            "website",
+            "app",
+            "slide",
+            "knowledge-pdf",
+            "design",
+            "edit"
+          ]
+        },
+        "illustration": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ],
+          "typeIds": [
+            "text",
+            "image",
+            "data",
+            "control"
+          ],
+          "stateIds": [
+            "normal",
+            "error",
+            "uncertain",
+            "reduced-motion"
+          ],
+          "formatIds": [
+            "website",
+            "app",
+            "slide",
+            "knowledge-pdf",
+            "design",
+            "edit"
+          ]
+        },
+        "feedback": {
+          "ruleIds": [
+            "principles",
+            "composition-rule",
+            "exact-reuse",
+            "rights-scope"
+          ],
+          "typeIds": [
+            "text",
+            "image",
+            "data",
+            "control"
+          ],
+          "stateIds": [
+            "normal",
+            "error",
+            "uncertain",
+            "reduced-motion"
+          ],
+          "formatIds": [
+            "website",
+            "app",
+            "slide",
+            "knowledge-pdf",
+            "design",
+            "edit"
+          ]
+        }
+      }
+    }
+  },
+  "voice": {
+    "id": "long-thanh-clear-technical",
+    "version": "0.1.11-draft",
+    "systemId": "long-thanh-industrial",
+    "path": "VOICE.md",
+    "sha256": "58b557113e6fb551a53968b1fad0f26e4479564409584b501fade7f312f4af45",
+    "status": "proposed",
+    "languages": [
+      "en",
+      "vi"
+    ]
+  }
+}

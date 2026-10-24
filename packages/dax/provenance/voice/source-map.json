@@ -1,0 +1,315 @@
+{
+  "schemaVersion": "portable-voice-snapshot/v1",
+  "version": "2026.10.12-v1",
+  "status": "NON-CANONICAL DELIVERY SNAPSHOT",
+  "records": [
+    {
+      "source": ".codex/skills/Content/voice/SKILL.md",
+      "source_sha256": "92c859cc86d6fa49d9a4826c3683fbcb44b64fc01780bff83ea9c9fb2e6811e2",
+      "source_revision": "sha256:92c859cc86d6fa49d9a4826c3683fbcb44b64fc01780bff83ea9c9fb2e6811e2",
+      "original": "provenance/originals/SKILL.md.original.txt",
+      "delivered": "skill/voice/SKILL.md",
+      "delivered_sha256": "e4d36b611d012fe753285ca7ecb1fea239ea2ea903801b5f1f72a3a414b5b970",
+      "adaptation": "Host-neutral brand selection/optional model scope, local CLI adapter and explicit snapshot identity.",
+      "final_package_delivered": "source/skill/voice/SKILL.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/agents/openai.yaml",
+      "source_sha256": "64adbdc5fa380ac3a212224f7b882cfd0098446ea2b55ecc16a44bd6811c0eff",
+      "source_revision": "sha256:64adbdc5fa380ac3a212224f7b882cfd0098446ea2b55ecc16a44bd6811c0eff",
+      "original": "provenance/originals/agents/openai.yaml.original.txt",
+      "delivered": "skill/voice/agents/openai.yaml",
+      "delivered_sha256": "64adbdc5fa380ac3a212224f7b882cfd0098446ea2b55ecc16a44bd6811c0eff",
+      "adaptation": "Byte-identical copy.",
+      "final_package_delivered": "source/skill/voice/agents/openai.yaml"
+    },
+    {
+      "source": ".codex/skills/Content/voice/references/portable-bootstrap.md",
+      "source_sha256": "31ab0c68c90906ea8aff864e6c97d96042c3679e081ad3f4ae4c3b4c7a65ae3c",
+      "source_revision": "sha256:31ab0c68c90906ea8aff864e6c97d96042c3679e081ad3f4ae4c3b4c7a65ae3c",
+      "original": "provenance/originals/references/portable-bootstrap.md.original.txt",
+      "delivered": "skill/voice/references/portable-bootstrap.md",
+      "delivered_sha256": "b610f40d1a91dd55ed2c6c1785aa9db3d1fa925e0df8a93dfbb97f5658eb92ff",
+      "adaptation": "Delivery snapshot marker / module vocabulary only.",
+      "final_package_delivered": "source/skill/voice/references/portable-bootstrap.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/references/output-voice.md",
+      "source_sha256": "52890b9f679b691837c593cfcbf04e37d2366c64ab7d6838a16a201ad1e4b6fa",
+      "source_revision": "sha256:52890b9f679b691837c593cfcbf04e37d2366c64ab7d6838a16a201ad1e4b6fa",
+      "original": "provenance/originals/references/output-voice.md.original.txt",
+      "delivered": "skill/voice/references/output-voice.md",
+      "delivered_sha256": "437c69ff8a9d4df9d01523245eaad907b196f538d875ce6f453640e22a9aabb1",
+      "adaptation": "Generic approved-profile vocabulary and caller ownership; no changed review facts or priorities.",
+      "final_package_delivered": "source/skill/voice/references/output-voice.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/references/output-handoff.md",
+      "source_sha256": "027ec4edcc7ffd1899d4f24ccf545ad0a058896839f80e0289466fcb16983d5e",
+      "source_revision": "sha256:027ec4edcc7ffd1899d4f24ccf545ad0a058896839f80e0289466fcb16983d5e",
+      "original": "provenance/originals/references/output-handoff.md.original.txt",
+      "delivered": "skill/voice/references/output-handoff.md",
+      "delivered_sha256": "552de591bfeaecd4b44f025007b27be2a59996c357e1c95d7d94e36d89f08baa",
+      "adaptation": "Snapshot identity only; exact final-merge receipt contract retained.",
+      "final_package_delivered": "source/skill/voice/references/output-handoff.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/references/brand/voice-baselines.md",
+      "source_sha256": "8aa78d12090fe9f67abc8097a6bdc32bfcd01f54a9ecb06452b4d7e30fd574bd",
+      "source_revision": "sha256:8aa78d12090fe9f67abc8097a6bdc32bfcd01f54a9ecb06452b4d7e30fd574bd",
+      "original": "provenance/originals/references/brand/voice-baselines.md.original.txt",
+      "delivered": "skill/voice/references/brand/voice-baselines.md",
+      "delivered_sha256": "d76e4620ade1586e5be60bae5bd7fdaff2ccaef23329bc73c803a7f7c1ce0384",
+      "adaptation": "Delivery snapshot marker / module vocabulary only.",
+      "final_package_delivered": "source/skill/voice/references/brand/voice-baselines.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/references/brand/voice-and-tone.md",
+      "source_sha256": "f155962944f3c0d4645c222a20f4053fca57f10bb05ec144e5ea4c0dfcb7f8d5",
+      "source_revision": "sha256:f155962944f3c0d4645c222a20f4053fca57f10bb05ec144e5ea4c0dfcb7f8d5",
+      "original": "provenance/originals/references/brand/voice-and-tone.md.original.txt",
+      "delivered": "skill/voice/references/brand/voice-and-tone.md",
+      "delivered_sha256": "48af4814b9405404e9002cbd95873c1644377be877efb8a6a858bcd90b977ab3",
+      "adaptation": "Eight blocks/scenario matrix preserved; removes required Design/Teacher workflow and offers standalone VOICE.md.",
+      "final_package_delivered": "source/skill/voice/references/brand/voice-and-tone.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/references/brand/voice-evidence-method.md",
+      "source_sha256": "68513bff34a7f7a2fb34386dcfa0e9aab41417194185ae11eeee6a2c4d4cbd0c",
+      "source_revision": "sha256:68513bff34a7f7a2fb34386dcfa0e9aab41417194185ae11eeee6a2c4d4cbd0c",
+      "original": "provenance/originals/references/brand/voice-evidence-method.md.original.txt",
+      "delivered": "skill/voice/references/brand/voice-evidence-method.md",
+      "delivered_sha256": "cdacf4aec5453ae63ce0131e8cfc1ffe54a190b283f6c7203aea1e4003d48b05",
+      "adaptation": "Preserves evidence extraction, deduplication and update approval; replaces Design builder with optional local compiler.",
+      "final_package_delivered": "source/skill/voice/references/brand/voice-evidence-method.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/references/brand/voice-portable-contract.md",
+      "source_sha256": "5fd38af7da500cc80b71aed8a2f2cc3e834bfb33d06303907a61210718197b92",
+      "source_revision": "sha256:5fd38af7da500cc80b71aed8a2f2cc3e834bfb33d06303907a61210718197b92",
+      "original": "provenance/originals/references/brand/voice-portable-contract.md.original.txt",
+      "delivered": "skill/voice/references/brand/voice-portable-contract.md",
+      "delivered_sha256": "8c8a6edb0030ded85110c46bb013565273b6a454c191eb6ff892e6fdb2f3d841",
+      "adaptation": "Standalone per-brand VOICE.md replaces required Design package; preserves complete EN/VI review compilation.",
+      "final_package_delivered": "source/skill/voice/references/brand/voice-portable-contract.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/references/brand/voice-sources.md",
+      "source_sha256": "736733ca69e93e7faeea577b6ceeaaa982fc12a313f6e2f9e3720da2dde42b5d",
+      "source_revision": "sha256:736733ca69e93e7faeea577b6ceeaaa982fc12a313f6e2f9e3720da2dde42b5d",
+      "original": "provenance/originals/references/brand/voice-sources.md.original.txt",
+      "delivered": "skill/voice/references/brand/voice-sources.md",
+      "delivered_sha256": "7c18d0ec54d4af68a402f18c9930362319cda03e91e9a28ef23c45fbabdb7a9d",
+      "adaptation": "Removes historical private drive locator from execution text; preserves title/hash/attribution and audit limits.",
+      "final_package_delivered": "source/skill/voice/references/brand/voice-sources.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/vi/README.md",
+      "source_sha256": "8c9b17e4f4d39ebfb4eb93399b2aa6bc55b0e5109bc0a7314dbccd16037e6afe",
+      "source_revision": "sha256:8c9b17e4f4d39ebfb4eb93399b2aa6bc55b0e5109bc0a7314dbccd16037e6afe",
+      "original": "provenance/originals/functions/vi/README.md.original.txt",
+      "delivered": "skill/voice/functions/vi/README.md",
+      "delivered_sha256": "cddf58ebaf91f40395e7ae35bb8972ae4e9f94d7d5d216a686b6a4d91819b25c",
+      "adaptation": "Fixes relative shared-selector path; replaces canonical index with included closure; installation discovery remains distinct from presence.",
+      "final_package_delivered": "source/skill/voice/functions/vi/README.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/vi/references/field-answer-reader-fit.md",
+      "source_sha256": "b6cada0ea108d4b5139b59e2feb4bd61a7c4e3c2af576be2629e5ec9385b619d",
+      "source_revision": "sha256:b6cada0ea108d4b5139b59e2feb4bd61a7c4e3c2af576be2629e5ec9385b619d",
+      "original": "provenance/originals/functions/vi/references/field-answer-reader-fit.md.original.txt",
+      "delivered": "skill/voice/functions/vi/references/field-answer-reader-fit.md",
+      "delivered_sha256": "797fc595582b05da8b9d8145857611c5a6fe22341f9dec3d4a20ba46cf98a179",
+      "adaptation": "Delivery snapshot marker / module vocabulary only.",
+      "final_package_delivered": "source/skill/voice/functions/vi/references/field-answer-reader-fit.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/vi/references/humanization-register-and-translationese.md",
+      "source_sha256": "fda4a52abfe07ffb58452fc52fbc57ddf726626f2733500969f4fead170e00fc",
+      "source_revision": "sha256:fda4a52abfe07ffb58452fc52fbc57ddf726626f2733500969f4fead170e00fc",
+      "original": "provenance/originals/functions/vi/references/humanization-register-and-translationese.md.original.txt",
+      "delivered": "skill/voice/functions/vi/references/humanization-register-and-translationese.md",
+      "delivered_sha256": "d5cca7425b770e1c5a6039402fac779f281c9c969fa1cee984ffc2b6e595a4cb",
+      "adaptation": "Delivery snapshot marker / module vocabulary only.",
+      "final_package_delivered": "source/skill/voice/functions/vi/references/humanization-register-and-translationese.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/vi/references/vietnamese-ai-sounding-detection.md",
+      "source_sha256": "6b51ba3b0021d80cb68ee7b4a4263ad80c39b1a84cf91c4c598f46c3e12ddbf5",
+      "source_revision": "sha256:6b51ba3b0021d80cb68ee7b4a4263ad80c39b1a84cf91c4c598f46c3e12ddbf5",
+      "original": "provenance/originals/functions/vi/references/vietnamese-ai-sounding-detection.md.original.txt",
+      "delivered": "skill/voice/functions/vi/references/vietnamese-ai-sounding-detection.md",
+      "delivered_sha256": "184f8cdef1e24aff27e23bdc218fc5626477655968da84267c7d6b6243f9ff8c",
+      "adaptation": "Preserves detection method; explicitly warns synthetic after-examples need their own supplied facts.",
+      "final_package_delivered": "source/skill/voice/functions/vi/references/vietnamese-ai-sounding-detection.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/vi/references/vietnamese-lint-rewrite-gate.md",
+      "source_sha256": "b69551fa2d7f3fe9785405c47935eefd8526c4be2b33df2cb4e7dbc662445cdb",
+      "source_revision": "sha256:b69551fa2d7f3fe9785405c47935eefd8526c4be2b33df2cb4e7dbc662445cdb",
+      "original": "provenance/originals/functions/vi/references/vietnamese-lint-rewrite-gate.md.original.txt",
+      "delivered": "skill/voice/functions/vi/references/vietnamese-lint-rewrite-gate.md",
+      "delivered_sha256": "2a9dc6f72c4e2cfd32e50e60e7b8bc95d7dd14694c5a7d0ae16491dfa7d1031a",
+      "adaptation": "Delivery snapshot marker / module vocabulary only.",
+      "final_package_delivered": "source/skill/voice/functions/vi/references/vietnamese-lint-rewrite-gate.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/vi/references/vietnamese-sentence-opening-case-v1.md",
+      "source_sha256": "93945feef7fb2e99d41eb322b78d4042593dbd18c356d6acf24246357317bdba",
+      "source_revision": "sha256:93945feef7fb2e99d41eb322b78d4042593dbd18c356d6acf24246357317bdba",
+      "original": "provenance/originals/functions/vi/references/vietnamese-sentence-opening-case-v1.md.original.txt",
+      "delivered": "skill/voice/functions/vi/references/vietnamese-sentence-opening-case-v1.md",
+      "delivered_sha256": "d9018d976b530a9b1eb15f1e0dc96bf587fbc039670dfb353d717bc2fb727d14",
+      "adaptation": "Delivery snapshot marker / module vocabulary only.",
+      "final_package_delivered": "source/skill/voice/functions/vi/references/vietnamese-sentence-opening-case-v1.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/vi/references/voice-profile-and-blind-review.md",
+      "source_sha256": "8d8eb3a837e3df6cfceb8ec0e6c8fd80325930d738a956aa016caae885736397",
+      "source_revision": "sha256:8d8eb3a837e3df6cfceb8ec0e6c8fd80325930d738a956aa016caae885736397",
+      "original": "provenance/originals/functions/vi/references/voice-profile-and-blind-review.md.original.txt",
+      "delivered": "skill/voice/functions/vi/references/voice-profile-and-blind-review.md",
+      "delivered_sha256": "735e6db004225a7eef5d5967a39bab56d0846710a76bbd31f811fc99b1acf630",
+      "adaptation": "Keeps source-blind comparison and real human review principles; removes references to unshipped benchmark fixtures/checker.",
+      "final_package_delivered": "source/skill/voice/functions/vi/references/voice-profile-and-blind-review.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/vi/references/writing-voice-profile.md",
+      "source_sha256": "2895cbfb43a13e07779761cbc693a63ddd2e09f19b663919d6d8767d3b5666d4",
+      "source_revision": "sha256:2895cbfb43a13e07779761cbc693a63ddd2e09f19b663919d6d8767d3b5666d4",
+      "original": "provenance/originals/functions/vi/references/writing-voice-profile.md.original.txt",
+      "delivered": "skill/voice/functions/vi/references/writing-voice-profile.md",
+      "delivered_sha256": "a81b3f372229b0eec0e12769d7f810037e1af0a10c69ed460a7fe0b38fda299a",
+      "adaptation": "Generic approved brand profiles/host approval and correct local SKILL entry.",
+      "final_package_delivered": "source/skill/voice/functions/vi/references/writing-voice-profile.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/vi/scripts/check_vietnamese_release.py",
+      "source_sha256": "86901a5a6e7a9ad185e9acddfe146566c25846ed714c5714938d0ce878aa6af3",
+      "source_revision": "sha256:86901a5a6e7a9ad185e9acddfe146566c25846ed714c5714938d0ce878aa6af3",
+      "original": "provenance/originals/functions/vi/scripts/check_vietnamese_release.py.original.txt",
+      "delivered": "skill/voice/functions/vi/scripts/check_vietnamese_release.py",
+      "delivered_sha256": "c40f6f4386d482fc7ff35fca76505e03b8b7d14a178d668d9adafb54beb0d283",
+      "adaptation": "Windows cp1252-safe console JSON escapes; UTF-8 file output and lint verdicts unchanged.",
+      "final_package_delivered": "source/skill/voice/functions/vi/scripts/check_vietnamese_release.py"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/en/README.md",
+      "source_sha256": "9ce5183958b7225163d8c0a6989045db04676f2df587b247636b83752c7a6a86",
+      "source_revision": "sha256:9ce5183958b7225163d8c0a6989045db04676f2df587b247636b83752c7a6a86",
+      "original": "provenance/originals/functions/en/README.md.original.txt",
+      "delivered": "skill/voice/functions/en/README.md",
+      "delivered_sha256": "9562830bc75feca3678e027482a9a0c356e88dd3fd26577f2ac6629cae0e58ea",
+      "adaptation": "Retains local lint/rewrite/re-lint; excluded external cleanse becomes clearly optional unbundled host review.",
+      "final_package_delivered": "source/skill/voice/functions/en/README.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/en/LICENSE",
+      "source_sha256": "c0f18cfb62c0745fc89316fd691678f594dcf06b9a018ee2c78a5f202e214ab0",
+      "source_revision": "sha256:c0f18cfb62c0745fc89316fd691678f594dcf06b9a018ee2c78a5f202e214ab0",
+      "original": "provenance/originals/functions/en/LICENSE.original.txt",
+      "delivered": "skill/voice/functions/en/LICENSE",
+      "delivered_sha256": "c0f18cfb62c0745fc89316fd691678f594dcf06b9a018ee2c78a5f202e214ab0",
+      "adaptation": "Byte-identical copy.",
+      "final_package_delivered": "source/skill/voice/functions/en/LICENSE"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/en/references/principles.md",
+      "source_sha256": "e02059dee4f81141e46a43fa9363dff3707ea839d6a7818a24524e30526ab7ac",
+      "source_revision": "sha256:e02059dee4f81141e46a43fa9363dff3707ea839d6a7818a24524e30526ab7ac",
+      "original": "provenance/originals/functions/en/references/principles.md.original.txt",
+      "delivered": "skill/voice/functions/en/references/principles.md",
+      "delivered_sha256": "3ecdb51425735d82439a53ec4dc932a7e49ebd10e9769ce9eed3a376590766c5",
+      "adaptation": "Delivery snapshot marker / module vocabulary only.",
+      "final_package_delivered": "source/skill/voice/functions/en/references/principles.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/en/references/signs-of-ai-writing.md",
+      "source_sha256": "2cf6ae533c72702ec712d2ecac5f0ffb0588ad87e9c60e20cd95558f79673df1",
+      "source_revision": "sha256:2cf6ae533c72702ec712d2ecac5f0ffb0588ad87e9c60e20cd95558f79673df1",
+      "original": "provenance/originals/functions/en/references/signs-of-ai-writing.md.original.txt",
+      "delivered": "skill/voice/functions/en/references/signs-of-ai-writing.md",
+      "delivered_sha256": "6b90a3687398ce86918cc969d998b0e7fdf153d8461d06b8d6115a78466b44f1",
+      "adaptation": "Catalogue retained as review signals; removes unverified population-rate assertion and protects factual hedges/true limits.",
+      "final_package_delivered": "source/skill/voice/functions/en/references/signs-of-ai-writing.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/en/references/upstream-provenance.md",
+      "source_sha256": "96c8d2a2119d1d8492cd59617b66f9f14f48c8cbe8352fd72d92003e88416819",
+      "source_revision": "sha256:96c8d2a2119d1d8492cd59617b66f9f14f48c8cbe8352fd72d92003e88416819",
+      "original": "provenance/originals/functions/en/references/upstream-provenance.md.original.txt",
+      "delivered": "skill/voice/functions/en/references/upstream-provenance.md",
+      "delivered_sha256": "7b8afc29f61ac55369f909cc5fefc04b5c8529b371a3b7cbc70e917f2d13343c",
+      "adaptation": "Delivery snapshot marker / module vocabulary only.",
+      "final_package_delivered": "source/skill/voice/functions/en/references/upstream-provenance.md"
+    },
+    {
+      "source": ".codex/skills/Content/voice/functions/en/scripts/deslop.py",
+      "source_sha256": "d31fd8c9b7013bd857c38afa53b59aa734a9cf96e5026ff69921e43537a9fd5a",
+      "source_revision": "sha256:d31fd8c9b7013bd857c38afa53b59aa734a9cf96e5026ff69921e43537a9fd5a",
+      "original": "provenance/originals/functions/en/scripts/deslop.py.original.txt",
+      "delivered": "skill/voice/functions/en/scripts/deslop.py",
+      "delivered_sha256": "d31fd8c9b7013bd857c38afa53b59aa734a9cf96e5026ff69921e43537a9fd5a",
+      "adaptation": "Byte-identical copy.",
+      "final_package_delivered": "source/skill/voice/functions/en/scripts/deslop.py"
+    },
+    {
+      "source": ".codex/skills/Content/voice/scripts/voice_contract.py",
+      "source_sha256": "f236e241020d82a3a90fde9d0ef6e8eb3886f11bc3779b8b8e38729444cd1507",
+      "source_revision": "sha256:f236e241020d82a3a90fde9d0ef6e8eb3886f11bc3779b8b8e38729444cd1507",
+      "original": "provenance/originals/scripts/voice_contract.py.original.txt",
+      "delivered": "skill/voice/scripts/voice_contract.py",
+      "delivered_sha256": "c2bb2df24c290d0f7648894f30ed65eb6e34f5330891f2437bc3f1145fd8149e",
+      "adaptation": "Optional binding input renamed DesignBinding.json to VoiceBinding.json; all core model fields and compilation checks retained.",
+      "final_package_delivered": "source/skill/voice/scripts/voice_contract.py"
+    },
+    {
+      "source": ".codex/skills/Content/voice/scripts/verify_output_receipt.py",
+      "source_sha256": "5a698b45f936ae444b45d177ca6fd6bc9896d6613dec6f547181eb5c826df1ff",
+      "source_revision": "sha256:5a698b45f936ae444b45d177ca6fd6bc9896d6613dec6f547181eb5c826df1ff",
+      "original": "provenance/originals/scripts/verify_output_receipt.py.original.txt",
+      "delivered": "skill/voice/scripts/verify_output_receipt.py",
+      "delivered_sha256": "5a698b45f936ae444b45d177ca6fd6bc9896d6613dec6f547181eb5c826df1ff",
+      "adaptation": "Byte-identical copy.",
+      "final_package_delivered": "source/skill/voice/scripts/verify_output_receipt.py"
+    }
+  ],
+  "excluded": [
+    "tests",
+    "benchmarks and review fixtures",
+    "private samples",
+    ".retired",
+    "caches",
+    "optional external cleanse scripts/prompts",
+    "historical EN source commentary"
+  ],
+  "runtime": [
+    "Language-capable agent with complete selected local instructions",
+    "Python 3 for deterministic scripts; no third-party runtime library",
+    "Browser/native artifact readback only when output requires visual evidence"
+  ],
+  "limits": [
+    "No persistent installation performed",
+    "No authentic learned profile shipped",
+    "No external model call",
+    "No fresh-context or human-native-quality claim",
+    "Profile field compiler does not validate linguistic truth"
+  ],
+  "generated": [
+    {
+      "path": "skill/voice/references/script-usage.md",
+      "sha256": "22a900382c85ec16bb73944e66d2d7f2d3288d32f13f0f5a0878694481b64e6a",
+      "basis": "CLI/schema documentation read directly from the four included script implementations and output-handoff.md"
+    },
+    {
+      "path": "HOW-TO.md",
+      "sha256": "5b27e82089d22c36ddef98f0bc81ca19e4f3460757d75c1bb37a71749b819aac",
+      "basis": "Portable-bootstrap.md and final parent installer CLI; Vietnamese client instructions"
+    },
+    {
+      "path": "COMPILED-VOICE.md",
+      "sha256": "435347ea006e28ef4fd42d284922980da520d3575940cf2e1ab4b38eaed9d76a",
+      "basis": "Exact selected local rules, four script sources and retained English MIT license compiled into one generic-agent document"
+    }
+  ]
+}

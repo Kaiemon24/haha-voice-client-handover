@@ -6,7 +6,7 @@ description: Apply the bundled HAHA design system and brand voice to visual and 
 
 ## Chọn dữ liệu
 
-Tìm `assets/design-system/package` bên trong thư mục của chính skill này; xác định theo đường dẫn SKILL.md đã được nạp, không theo thư mục shell. Dùng `scripts/inspect_haha.py` để kiểm manifest và phiên bản; có thể truyền `--brand-root` khi gói chưa cài. Đọc bảng đường dẫn mở đầu `DESIGN.md`, sau đó chỉ mở phần/quy tắc/mẫu phù hợp nhiệm vụ. Không quét toàn bộ máy, chọn thư mục mới nhất hay lấy nhận diện thương hiệu khác thay HAHA.
+Tìm `assets/design-system/PDF/purpose-1.2.11-reader-20261023/package` bên trong thư mục của chính skill này; xác định theo đường dẫn SKILL.md đã được nạp, không theo thư mục shell. Dùng `scripts/inspect_haha.py` để kiểm manifest và phiên bản; có thể truyền `--brand-root` khi gói chưa cài. Đọc bảng đường dẫn mở đầu `DESIGN.md`, sau đó chỉ mở phần/quy tắc/mẫu phù hợp nhiệm vụ. Không quét toàn bộ máy, chọn thư mục mới nhất hay lấy nhận diện thương hiệu khác thay HAHA.
 
 ## Áp dụng
 
@@ -24,7 +24,7 @@ Không báo đã lưu/gửi/thanh toán/cài/xuất bản khi chưa có thao tá
 
 ## Tệp đi kèm
 
-`references/apply-design.md`, `references/quality-checks.md`, `scripts/inspect_haha.py`, bộ HAHA trong assets/design-system/package, và Voice đi kèm. Không cần Design, Teacher Mode, Skill Manager hay thư mục dự án của bên tạo để chạy.
+`references/apply-design.md`, `references/quality-checks.md`, `scripts/inspect_haha.py`, bộ HAHA trong assets/design-system/PDF/purpose-1.2.11-reader-20261023/package, và Voice đi kèm. Không cần Design, Teacher Mode, Skill Manager hay thư mục dự án của bên tạo để chạy.
 
 ## Client installation and discovery
 
@@ -34,4 +34,4 @@ For new reusable visual elements, read `references/library-elements.md`; keep ba
 
 ## Phiên bản và tài liệu hiện hành
 
-Bản dữ liệu: **1.2.11-reader**. Đọc `references/current-production.md` trước khi tạo đầu ra. Thư viện có đúng Overview và Library; Logo, Design và Edit nằm trong Overview. Bốn tài liệu theo công việc nằm tại `assets/design-system/documents/index.html`; chúng là PDF đã kiểm sẵn, không phải chứng nhận cho đầu ra mới. Giữ Voice đi kèm nguyên bản; không nâng cấp, ghi đè hoặc đổi quyền Voice đã có.
+Bản dữ liệu: **1.2.11-reader**. Đọc `references/current-production.md` trước khi tạo đầu ra. Thư viện có đúng Overview và Library; Logo, Design và Edit nằm trong Overview. Bốn tài liệu theo công việc nằm tại `assets/design-system/design-system.html`; chúng là PDF đã kiểm sẵn, không phải chứng nhận cho đầu ra mới. Giữ Voice đi kèm nguyên bản; không nâng cấp, ghi đè hoặc đổi quyền Voice đã có.

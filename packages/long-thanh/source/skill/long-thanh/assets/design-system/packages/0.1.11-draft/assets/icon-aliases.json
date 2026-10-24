@@ -1,0 +1,26 @@
+{
+  "icon-072-square": {
+    "canonicalId": "icon-001-square",
+    "reason": "Same semantic function, exact SVG geometry and receiving-color variants; one primary card, old source ID retained for lookup/reuse.",
+    "originalSourceFile": "assets/icons/icon-072-square.svg",
+    "sha256": "dd59d751d1b54e47447f1d151cff723faab0791475fc7b414e448ecd5f807bd1"
+  },
+  "icon-036-file": {
+    "canonicalId": "icon-003-file",
+    "reason": "Same semantic function, exact SVG geometry and receiving-color variants; one primary card, old source ID retained for lookup/reuse.",
+    "originalSourceFile": "assets/icons/icon-036-file.svg",
+    "sha256": "72a53f6d7f71cf252747b9cea0e5ce933dfb147ae373fc26a955d3e1312f61d2"
+  },
+  "icon-097-package": {
+    "canonicalId": "icon-086-package",
+    "reason": "Same semantic function, exact SVG geometry and receiving-color variants; one primary card, old source ID retained for lookup/reuse.",
+    "originalSourceFile": "assets/icons/icon-097-package.svg",
+    "sha256": "0264855e7bc4e15ffc86f7f82a5d692879f780c14e5aa7003672d56e675a3c75"
+  },
+  "icon-101-truck": {
+    "canonicalId": "icon-087-truck",
+    "reason": "Same semantic function, exact SVG geometry and receiving-color variants; one primary card, old source ID retained for lookup/reuse.",
+    "originalSourceFile": "assets/icons/icon-101-truck.svg",
+    "sha256": "fa7491b1d782fdc85d920ac8bb7a11f5ea0f7a2db637012fc8193b4950244eaf"
+  }
+}

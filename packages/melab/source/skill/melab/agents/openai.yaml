@@ -1,0 +1,4 @@
+interface:
+  display_name: "MELAB Design"
+  short_description: "Áp dụng bộ thiết kế MELAB đã đóng gói"
+  default_prompt: "Dùng $melab theo đúng phiên bản để áp dụng thiết kế và kiểm đầu ra."

@@ -1,0 +1,40 @@
+/* Generated artifact projection from slide-reader-policy.json; DO NOT EDIT. */
+.reader-guide{--rg-ink:#15233F;--rg-muted:#4B5B77;--rg-accent:#2945D9;--rg-paper:#FFFFFF;--rg-tint:#EDF2FF;--rg-line:#D9E0EF;--rg-radius:16px;color:var(--rg-ink);background:var(--rg-paper);border:1px solid var(--rg-line);border-radius:var(--rg-radius);box-shadow:var(--s47-surface);padding:32px;margin:32px 0 48px;scroll-margin-top:116px;overflow-wrap:anywhere;font-family:inherit;text-align:left}
+body[data-reader-brand="KAI"] .reader-guide{--rg-ink:#233629;--rg-muted:#365735;--rg-accent:#365735;--rg-paper:#FFFCF3;--rg-tint:#E2E8D3;--rg-line:#365735;--rg-radius:0px}
+body[data-reader-brand="HAHA"] .reader-guide{--rg-ink:#000000;--rg-muted:#444444;--rg-accent:#000000;--rg-paper:#FFFFFF;--rg-tint:#F0F0F0;--rg-line:#000000;--rg-radius:4px}
+body.dark .reader-guide{--rg-ink:#F5F8FF;--rg-muted:#CCD6F0;--rg-accent:#B7C8FF;--rg-paper:#111B31;--rg-tint:#1C2946;--rg-line:#8494B8}
+body.dark[data-reader-brand="KAI"] .reader-guide{--rg-ink:#F5F1E5;--rg-muted:#D6E1C5;--rg-accent:#D6E1C5;--rg-paper:#17241B;--rg-tint:#233629;--rg-line:#AEC49C}
+body.dark[data-reader-brand="HAHA"] .reader-guide{--rg-ink:#FFFFFF;--rg-muted:#DDDDDD;--rg-accent:#FFFFFF;--rg-paper:#111111;--rg-tint:#222222;--rg-line:#FFFFFF}
+.reader-guide h2,.reader-guide h3,.reader-guide p,.reader-guide li,.reader-guide td,.reader-guide th,.reader-guide strong{color:var(--rg-ink)!important;font-family:inherit}
+.reader-guide h2{font-size:clamp(24px,2.6vw,32px);line-height:1.3;margin:0 0 16px;font-weight:700}
+body[data-reader-brand="KAI"] .reader-guide h2,body[data-reader-brand="KAI"] .reader-guide h3{font-family:Cambria,Georgia,serif}
+.reader-guide .rg-label{font-size:13px;font-weight:700;letter-spacing:.06em;color:var(--rg-accent)!important;margin:0 0 12px}
+.reader-guide .rg-intro{font-size:18px;line-height:1.65;margin:0 0 24px;max-width:66ch}
+.reader-guide .rg-rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 32px;margin:28px 0 32px;padding:0;list-style:none;counter-reset:rg-rule}
+.reader-guide .rg-rules>li{margin:0;padding:0;min-width:0;counter-increment:rg-rule;font-size:16px;line-height:1.7;font-weight:400}
+.reader-guide .rg-rules h3{font-size:20px;font-weight:700;line-height:1.4;margin:0 0 12px}
+.reader-guide .rg-rules h3:before{content:counter(rg-rule,decimal-leading-zero) " · ";color:var(--rg-accent)}
+.reader-guide p{font-size:16px;line-height:1.7;margin:0 0 16px;font-weight:400}
+.reader-guide strong{font-weight:700!important}
+.reader-guide .rg-table-scroll{overflow-x:auto;margin:24px 0 32px;padding:0 4px 6px 0}
+.reader-guide table{width:100%;min-width:0!important;max-width:100%;border-collapse:collapse;table-layout:fixed;font-size:16px;line-height:1.65;margin:0;border:1px solid var(--rg-line)}
+.reader-guide th,.reader-guide td{padding:14px 16px;border:1px solid var(--rg-line);vertical-align:top;font-weight:400;text-align:left;white-space:normal;overflow-wrap:anywhere;min-width:0}
+.reader-guide th{font-weight:700;background:var(--rg-tint)}
+.reader-guide .rg-example{padding:24px;background:var(--rg-tint);border-left:4px solid var(--rg-accent);margin:24px 0 32px}
+.reader-guide .rg-example h3,.reader-guide .rg-rhythm-title{font-size:20px;font-weight:700;line-height:1.4;margin:0 0 16px}
+.reader-guide .rg-example ul{list-style:disc outside;margin:0;padding-left:24px;display:block}
+.reader-guide .rg-example li{display:list-item;font-size:16px;line-height:1.7;margin:0 0 12px;padding-left:4px;font-weight:400}
+.reader-guide .rg-example li:last-child{margin-bottom:0}
+.reader-guide .rg-example .rg-context{margin-bottom:16px}
+.reader-guide .rg-cadence{display:flex;flex-wrap:wrap;gap:16px;margin:0 0 16px}
+.reader-guide .rg-scene{flex:1 1 88px;min-width:0;padding:16px 12px;text-align:center;background:var(--rg-tint);border:1px solid var(--rg-line);font-size:16px;line-height:1.4}
+.reader-guide .rg-scene span{display:block;font-size:13px;margin-top:8px;line-height:1.5}
+.reader-guide .rg-scene.visual{border:2px solid var(--rg-accent)}
+.reader-guide .rg-links{display:flex;flex-wrap:wrap;gap:16px 24px;margin-top:24px;padding-top:24px;border-top:1px solid var(--rg-line)}
+.reader-guide a{color:var(--rg-accent)!important;text-decoration:underline;display:inline-block;min-height:36px;line-height:1.6;font-size:16px}
+.reader-guide a:focus-visible{outline:3px solid var(--rg-accent);outline-offset:4px}
+@media(max-width:1050px){.reader-guide .rg-rules{grid-template-columns:1fr}}
+@media(max-width:760px){.reader-guide{padding:20px 16px;margin:24px 0 32px}.reader-guide .rg-intro{font-size:16px}.reader-guide th,.reader-guide td{padding:12px 10px}.reader-guide .rg-example{padding:20px 16px}.reader-guide table{font-size:16px}.reader-guide .rg-table-scroll{overflow-x:auto;max-width:100%;min-width:0}.reader-guide .rg-cadence{gap:12px}}
+
+/* slide-template-guidance/v2 */
+.reader-guide .rg-priority{grid-template-columns:1fr}.reader-guide .rg-detail{margin:24px 0;padding:20px 0;border-top:1px solid var(--rg-line)}.reader-guide .rg-detail>summary{cursor:pointer;font-weight:700;line-height:1.6}.reader-guide .rg-detail .rg-rules{counter-reset:rg-rule 3}

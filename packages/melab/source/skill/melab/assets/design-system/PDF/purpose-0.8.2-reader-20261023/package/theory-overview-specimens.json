@@ -1,0 +1,407 @@
+{
+  "sourceModelSha256": "855c7e52af5bb9cebaa560f64a2e1be02865798e50f790f03072d90837c25f38",
+  "sourcePlanSha256": "c1fb5be39c21975632178271717a45af6d3900a7efd009f1b2cc1344fa8a082d",
+  "headless": true,
+  "rows": [
+    {
+      "id": "overview:identity",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".demo",
+      "index": 0,
+      "file": "theory-specimens/overview-identity-visual-specimen-0.png",
+      "sha256": "813739c3c89f3ab880970a07b2d3d58c0ec707c229e2ce3119f6ce7adbae5484",
+      "sourceJobHTMLSha256": "3ae8a34ccd2495ed234a95b717af8ccdea277135df71fc7c216aebf62cec692e",
+      "state": {
+        "width": 445.40625,
+        "height": 272.3125,
+        "text": "",
+        "scrollWidth": 445,
+        "clientWidth": 445,
+        "images": [
+          {
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "overview:identity",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".demo",
+      "index": 1,
+      "file": "theory-specimens/overview-identity-visual-specimen-1.png",
+      "sha256": "d89e1497e2609cce5223a8a7ee0f28a547c438df89d05296a716d33bb50ce6f4",
+      "sourceJobHTMLSha256": "3ae8a34ccd2495ed234a95b717af8ccdea277135df71fc7c216aebf62cec692e",
+      "state": {
+        "width": 445.40625,
+        "height": 243.421875,
+        "text": "",
+        "scrollWidth": 445,
+        "clientWidth": 445,
+        "images": [
+          {
+            "loaded": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "overview:type",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".ov252-type",
+      "index": 0,
+      "file": "theory-specimens/overview-type-visual-specimen-0.png",
+      "sha256": "e417f4ea9e7a6b83ad749f3e713e1ad1d99c04b68c0ba81070508933cf55a896",
+      "sourceJobHTMLSha256": "f2ce5840ab36e344af4b206dd969c7813ecf0dee1d4c45caeaa56efdd8c34098",
+      "state": {
+        "width": 1012.8125,
+        "height": 196.890625,
+        "text": "Tiêu đề chính · 48/58 px · độ đậm 800\nHọc hỏi để mở điều mới.",
+        "scrollWidth": 1011,
+        "clientWidth": 1011,
+        "images": []
+      }
+    },
+    {
+      "id": "overview:type",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".ov252-type",
+      "index": 1,
+      "file": "theory-specimens/overview-type-visual-specimen-1.png",
+      "sha256": "2e792afcbb57617874656537003f4c4f03be92c783bc88c9abf18cec427b7076",
+      "sourceJobHTMLSha256": "f2ce5840ab36e344af4b206dd969c7813ecf0dee1d4c45caeaa56efdd8c34098",
+      "state": {
+        "width": 1012.8125,
+        "height": 180.890625,
+        "text": "Tiêu đề phần · 32/42 px · độ đậm 700\nHọc hỏi để mở điều mới.",
+        "scrollWidth": 1011,
+        "clientWidth": 1011,
+        "images": []
+      }
+    },
+    {
+      "id": "overview:type",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".ov252-type",
+      "index": 2,
+      "file": "theory-specimens/overview-type-visual-specimen-2.png",
+      "sha256": "d4a5bc5bb828d6bc4dc0a9eeb2f7084324723fd11ce07dd84fea07ae51e83d17",
+      "sourceJobHTMLSha256": "f2ce5840ab36e344af4b206dd969c7813ecf0dee1d4c45caeaa56efdd8c34098",
+      "state": {
+        "width": 1012.8125,
+        "height": 172.890625,
+        "text": "Đề mục · 24/34 px · độ đậm 700\nHọc hỏi để mở điều mới.",
+        "scrollWidth": 1011,
+        "clientWidth": 1011,
+        "images": []
+      }
+    },
+    {
+      "id": "overview:type",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".ov252-type",
+      "index": 3,
+      "file": "theory-specimens/overview-type-visual-specimen-3.png",
+      "sha256": "c5b1b538ede5dac308a1784dab70f762395459e48fe15c52d032e7ca54fcaa81",
+      "sourceJobHTMLSha256": "f2ce5840ab36e344af4b206dd969c7813ecf0dee1d4c45caeaa56efdd8c34098",
+      "state": {
+        "width": 1012.8125,
+        "height": 168.890625,
+        "text": "Nội dung · 18/30 px · độ đậm 400\nHọc hỏi để mở điều mới.",
+        "scrollWidth": 1011,
+        "clientWidth": 1011,
+        "images": []
+      }
+    },
+    {
+      "id": "overview:type",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".ov252-type",
+      "index": 4,
+      "file": "theory-specimens/overview-type-visual-specimen-4.png",
+      "sha256": "c0ac047091b99945884002bce50a35eecda8bfabdb2c34758395fcef9db5c160",
+      "sourceJobHTMLSha256": "f2ce5840ab36e344af4b206dd969c7813ecf0dee1d4c45caeaa56efdd8c34098",
+      "state": {
+        "width": 1012.8125,
+        "height": 160.890625,
+        "text": "Chú thích · 14/22 px · độ đậm 400\nHọc hỏi để mở điều mới.",
+        "scrollWidth": 1011,
+        "clientWidth": 1011,
+        "images": []
+      }
+    },
+    {
+      "id": "overview:type",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".ov252-type",
+      "index": 5,
+      "file": "theory-specimens/overview-type-visual-specimen-5.png",
+      "sha256": "b5e6aeb26e09901dbf09feeb256445783620cee41ac2280b4882f221cee42019",
+      "sourceJobHTMLSha256": "f2ce5840ab36e344af4b206dd969c7813ecf0dee1d4c45caeaa56efdd8c34098",
+      "state": {
+        "width": 1012.8125,
+        "height": 196.890625,
+        "text": "Số nổi bật · 48/58 px · độ đậm 800\n0123456789",
+        "scrollWidth": 1011,
+        "clientWidth": 1011,
+        "images": []
+      }
+    },
+    {
+      "id": "overview:type",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".ov252-type",
+      "index": 6,
+      "file": "theory-specimens/overview-type-visual-specimen-6.png",
+      "sha256": "1ac0baae22d34dc33703e4ee37991966dceb47b9400c5b7146e01f17b0bf2664",
+      "sourceJobHTMLSha256": "f2ce5840ab36e344af4b206dd969c7813ecf0dee1d4c45caeaa56efdd8c34098",
+      "state": {
+        "width": 1012.8125,
+        "height": 161.890625,
+        "text": "Nhãn thao tác · 16/24 px · độ đậm 700\nHọc hỏi để mở điều mới.",
+        "scrollWidth": 1011,
+        "clientWidth": 1011,
+        "images": []
+      }
+    },
+    {
+      "id": "overview:colors",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".ov252-swatches",
+      "index": 0,
+      "file": "theory-specimens/overview-colors-visual-specimen-0.png",
+      "sha256": "9878dd8e20f1f7dd8e6dbf138d16ace26149068127d93b1ef23c2f3e9a85d996",
+      "sourceJobHTMLSha256": "dbed0a83649a13a6632050aa1de53521537ee81d609546182139e4c06a3f478e",
+      "state": {
+        "width": 1014.8125,
+        "height": 678.3125,
+        "text": "Tiger Flame\n\n#FE6237\n\nMàu gốc\nSunflower Gold\n\n#FFB62E\n\nMàu gốc\nMaya Blue\n\n#7CC3FF\n\nMàu gốc\nElectric Sapphire\n\n#4164FF\n\nMàu gốc\nNền sáng\n\n#F5F8FF\n\nVai trò đề xuất\nBề mặt\n\n#FFFFFF\n\nVai trò đề xuất\nChữ chính\n\n#15233F\n\nVai trò đề xuất\nNền tối\n\n#111B31\n\nVai trò đề xuất",
+        "scrollWidth": 1015,
+        "clientWidth": 1015,
+        "images": []
+      }
+    },
+    {
+      "id": "overview:spacing",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".ov252-measures",
+      "index": 0,
+      "file": "theory-specimens/overview-spacing-visual-specimen-0.png",
+      "sha256": "3d435bdcb4382cf10c91fe652f0ccc99035794c7c26e911798693f24ff4899cd",
+      "sourceJobHTMLSha256": "bcf53a1e0c2a2bc5c8258e80b65471b01aeeef8a229ccb599152ee3b1d3c648f",
+      "state": {
+        "width": 1014.8125,
+        "height": 171.78125,
+        "text": "4 px\n8 px\n16 px\n24 px\n32 px\n48 px",
+        "scrollWidth": 1015,
+        "clientWidth": 1015,
+        "images": []
+      }
+    },
+    {
+      "id": "overview:shadow-guideline",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".shadow47-scene",
+      "index": 0,
+      "file": "theory-specimens/overview-shadow-guideline-visual-specimen-0.png",
+      "sha256": "d85f2603cb87a84b62a4f7d6895c0c507a39633b7d5054e66139064f5b3e019d",
+      "sourceJobHTMLSha256": "037fd09289ce2d25116243fe6151a9f6445f7fdac55d7ba2a11ca22f44741867",
+      "state": {
+        "width": 491.40625,
+        "height": 472.84375,
+        "text": "Nền sáng nhận bóng\nKhối nội dung có bóng\n\nMột lớp ngoài; chữ và hình bên trong giữ nguyên.\n\nThử hành động\nKhông khả dụng\nĐang xử lý\n\nNhấn thử để kiểm chức năng; dùng Tab để kiểm viền.",
+        "scrollWidth": 489,
+        "clientWidth": 489,
+        "images": []
+      }
+    },
+    {
+      "id": "overview:shadow-guideline",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".shadow47-scene",
+      "index": 1,
+      "file": "theory-specimens/overview-shadow-guideline-visual-specimen-1.png",
+      "sha256": "6c7dbc6ec4653d558b3c111e6d0ef5b1bb322451cb58406966089ee06389d1c2",
+      "sourceJobHTMLSha256": "037fd09289ce2d25116243fe6151a9f6445f7fdac55d7ba2a11ca22f44741867",
+      "state": {
+        "width": 491.40625,
+        "height": 472.84375,
+        "text": "Nền tối nhận bóng\nKhối nội dung có bóng\n\nMột lớp ngoài; chữ và hình bên trong giữ nguyên.\n\nThử hành động\nKhông khả dụng\nĐang xử lý\n\nNhấn thử để kiểm chức năng; dùng Tab để kiểm viền.",
+        "scrollWidth": 489,
+        "clientWidth": 489,
+        "images": []
+      }
+    },
+    {
+      "id": "overview:component-rules",
+      "kind": "overview-specimen",
+      "role": "visual-specimen",
+      "selector": ".inline-controls",
+      "index": 0,
+      "file": "theory-specimens/overview-component-rules-visual-specimen-0.png",
+      "sha256": "713e84fb572edbf345932a836145ea246c46aa9a2381c1f40c164f39881f0efa",
+      "sourceJobHTMLSha256": "6852c903edefe6d414a8a905f7afbfd7e4d89ce3b9d025f0903c323875d46a1d",
+      "state": {
+        "width": 964.8125,
+        "height": 46.390625,
+        "text": "Thử hành động\nĐang khóa\nĐang xử lý",
+        "scrollWidth": 965,
+        "clientWidth": 965,
+        "images": []
+      }
+    },
+    {
+      "id": "library:ui-buttons",
+      "kind": "detail",
+      "role": "button-role",
+      "title": "Vai trò nút và các trạng thái",
+      "selector": "section.ui261-type",
+      "index": 0,
+      "file": "theory-specimens/library-ui-buttons-button-role-0.png",
+      "sha256": "d9b0e2306b83dadf0eb6c5b5842b23b0a14f9698a4f010f3c29df5e652c10607",
+      "source": "assets/specimens/ui-buttons.html",
+      "sourceHash": "1f21fdf2722d3ab492a72a70609182a917edf4e91bae3b4402f61596a774b609",
+      "state": {
+        "width": 592,
+        "height": 280.453125,
+        "text": "Hành động chính\nBắt đầu\nDùng khi: Việc tiếp theo quan trọng nhất trong một nhóm.\nTránh dùng: Không đặt nhiều hành động chính cạnh nhau; không dùng để đánh dấu trang hiện tại.",
+        "scrollWidth": 590,
+        "clientWidth": 590,
+        "images": []
+      }
+    },
+    {
+      "id": "library:ui-buttons",
+      "kind": "detail",
+      "role": "button-role",
+      "title": "Vai trò nút và các trạng thái",
+      "selector": "section.ui261-type",
+      "index": 1,
+      "file": "theory-specimens/library-ui-buttons-button-role-1.png",
+      "sha256": "478689206c69f015b8ff44acb67ce4a653ea53ec47315252b5495731e2dc69fd",
+      "source": "assets/specimens/ui-buttons.html",
+      "sourceHash": "1f21fdf2722d3ab492a72a70609182a917edf4e91bae3b4402f61596a774b609",
+      "state": {
+        "width": 592,
+        "height": 280.453125,
+        "text": "Hành động phụ\nXem chi tiết\nDùng khi: Lựa chọn hỗ trợ bên cạnh hành động chính, như xem chi tiết hoặc quay lại.\nTránh dùng: Không dùng khi cần nổi bật hơn việc chính.",
+        "scrollWidth": 590,
+        "clientWidth": 590,
+        "images": []
+      }
+    },
+    {
+      "id": "library:ui-buttons",
+      "kind": "detail",
+      "role": "button-role",
+      "title": "Vai trò nút và các trạng thái",
+      "selector": "section.ui261-type",
+      "index": 2,
+      "file": "theory-specimens/library-ui-buttons-button-role-2.png",
+      "sha256": "0bda851729cd9b8888db674a4fd8a9fbae786d22ea3d0e4b1d5fb1be2cc54ef6",
+      "source": "assets/specimens/ui-buttons.html",
+      "sourceHash": "1f21fdf2722d3ab492a72a70609182a917edf4e91bae3b4402f61596a774b609",
+      "state": {
+        "width": 592,
+        "height": 310.140625,
+        "text": "Hành động cần chú ý\nTái sử dụng\nDùng khi: Thao tác ưu tiên riêng của ngữ cảnh, như tái sử dụng tài sản trong Thư viện.\nTránh dùng: Không tô vàng mọi nút; không dùng vàng để ngụ ý hoàn thành.",
+        "scrollWidth": 590,
+        "clientWidth": 590,
+        "images": []
+      }
+    },
+    {
+      "id": "library:ui-buttons",
+      "kind": "detail",
+      "role": "button-role",
+      "title": "Vai trò nút và các trạng thái",
+      "selector": "section.ui261-type",
+      "index": 3,
+      "file": "theory-specimens/library-ui-buttons-button-role-3.png",
+      "sha256": "9bc94e2b38a5e3001a4e7bc81078f7a6d57cab8ddf659ea564fdb8c11f189fb1",
+      "source": "assets/specimens/ui-buttons.html",
+      "sourceHash": "1f21fdf2722d3ab492a72a70609182a917edf4e91bae3b4402f61596a774b609",
+      "state": {
+        "width": 592,
+        "height": 342.828125,
+        "text": "Quan trọng / đang chọn\nĐang chọn\nDùng khi: Lựa chọn cần giữ dấu nhận biết. Mẫu bật/tắt dùng nền sapphire, chữ trắng và gạch vàng; trang hiện tại phải dùng thuộc tính riêng.\nTránh dùng: Không đánh dấu nhiều trang cùng đang ở. Với hành động, chỉ dùng khi có lý do ưu tiên rõ.",
+        "scrollWidth": 590,
+        "clientWidth": 590,
+        "images": []
+      }
+    },
+    {
+      "id": "library:ui-buttons",
+      "kind": "detail",
+      "role": "button-role",
+      "title": "Vai trò nút và các trạng thái",
+      "selector": "section.ui261-type",
+      "index": 4,
+      "file": "theory-specimens/library-ui-buttons-button-role-4.png",
+      "sha256": "80f83e5bbf35eec5020390b181b7d481086bcdc35343b334992db8d725cf780b",
+      "source": "assets/specimens/ui-buttons.html",
+      "sourceHash": "1f21fdf2722d3ab492a72a70609182a917edf4e91bae3b4402f61596a774b609",
+      "state": {
+        "width": 592,
+        "height": 287.75,
+        "text": "Liên kết nhẹ\nĐọc hướng dẫn\nDùng khi: Mở một đích hỗ trợ trong đoạn văn, khi không cần khung nút.\nTránh dùng: Không dùng liên kết để chạy thao tác; không bỏ gạch dưới làm mất dấu nhận biết.",
+        "scrollWidth": 590,
+        "clientWidth": 590,
+        "images": []
+      }
+    },
+    {
+      "id": "library:ui-buttons",
+      "kind": "detail",
+      "role": "button-role",
+      "title": "Vai trò nút và các trạng thái",
+      "selector": "section.ui261-type",
+      "index": 5,
+      "file": "theory-specimens/library-ui-buttons-button-role-5.png",
+      "sha256": "5e9089cce11461368db09e8a9f855980ac4b8e11f1a314d3a44f5860822b2126",
+      "source": "assets/specimens/ui-buttons.html",
+      "sourceHash": "1f21fdf2722d3ab492a72a70609182a917edf4e91bae3b4402f61596a774b609",
+      "state": {
+        "width": 592,
+        "height": 385.515625,
+        "text": "Trạng thái không khả dụng\nTiếp tục\n\nVí dụ điều kiện chưa đáp ứng: chưa chọn tệp. Nút này chỉ minh họa trạng thái khóa; trang không có chức năng gửi tệp.\n\nDùng khi: Chỉ khóa khi có điều kiện chưa đáp ứng và giải thích điều kiện cạnh nút.\nTránh dùng: Không dùng màu nhạt để giả trạng thái đang chọn; không để người đọc đoán lý do.",
+        "scrollWidth": 590,
+        "clientWidth": 590,
+        "images": []
+      }
+    },
+    {
+      "id": "library:ui-buttons",
+      "kind": "detail",
+      "role": "button-framework",
+      "title": "Quy tắc khung nút và cách áp dụng",
+      "selector": "section.button268-framework",
+      "index": 0,
+      "file": "theory-specimens/library-ui-buttons-button-framework-0.png",
+      "sha256": "caf9496d19c6a272e4637ccc0b9cbf9a5a87cbef6c78c383d1a642e8277bb5af",
+      "source": "assets/specimens/ui-buttons.html",
+      "sourceHash": "1f21fdf2722d3ab492a72a70609182a917edf4e91bae3b4402f61596a774b609",
+      "state": {
+        "width": 1216,
+        "height": 1645.9375,
+        "text": "Trạng thái rõ. Bề mặt phẳng, dấu chọn riêng.\n\nCùng một quy tắc: Nút hành động, chọn mục, điều hướng và nút biểu tượng cần phản hồi rõ. Liên kết trong câu có gạch dưới và mở đúng đích; không dùng để chạy thao tác.\n\nChữ trên nền màu: Dùng chữ trắng trên sapphire và chữ #15233F trên vàng. Nền trắng dùng chữ đậm. Đây là vai trò giao diện đề xuất cho MELAB.\n\nThử trực tiếp: Dùng chuột hoặc bàn phím. “Chạy mẫu” chờ ngắn rồi trả kết quả; “Thử lỗi mẫu” dừng bước chờ; “Đặt lại mẫu” trở về đầu.\n\nChạy mẫu\nThử lỗi mẫu\n\nChưa chạy mẫu. Đây là thao tác minh họa cục bộ.\n\nTrạng thái\tThể hiện\tDùng và tránh dùng\nThường\tMàu theo vai trò; bề mặt phẳng, đường viền rõ.\tMột hành động chính trong mỗi nhóm. Vàng dành cho việc cần chú ý, không tự mang nghĩa hoàn tất.\nRê chuột\tĐổi nền hoặc tăng nét gạch dưới của liên kết; không nâng nút hoặc thêm bóng cứng.\tChỉ áp dụng khi có con trỏ và nút khả dụng. Phản hồi này không thay trạng thái đang chọn.\nĐang nhấn\tĐổi nền tạm thời; giữ vị trí và kích thước khung.\tGiữ chuột, Space hoặc Enter theo hành vi của điều khiển. Nhấn không đồng nghĩa hoàn tất.\nBàn phím\tDấu viền 3 px rõ quanh điều khiển; không làm đổi kích thước bố cục.\tGiữ dấu nhận biết khi dùng Tab. Liên kết vẫn có gạch dưới; không chỉ đổi màu để báo tiêu điểm.\nĐang chọn\tGiữ dấu gạch vàng ở nút đang chọn; chữ trắng trên sapphire, chữ đậm trên vàng.\tTrang dùng aria-current; nút bật/tắt dùng aria-pressed; tab dùng aria-selected. Mẫu này là nút bật/tắt, không khai báo một trang hiện tại giả.\nKhông khả dụng\tNền dịu, chữ vẫn đọc được; không chạy thao tác. Lý do nằm cạnh nút.\tNút dùng disabled. Không khóa chỉ bằng màu; không để người đọc đoán điều kiện cần đáp ứng.\nĐang xử lý\tNhãn “Đang xử lý…” và aria-busy; chặn nhấn lặp, giữ chỗ nút.\tChỉ dùng khi có bước chờ thật trong mẫu. Đây là khoảng chờ mô phỏng cục bộ, không phải tiến độ của một dịch vụ.\nKết quả / lỗi\tThông báo bằng chữ cạnh nút, được đọc qua vùng trạng thái.\tNêu kết quả đã quan sát. Lỗi trong mẫu là lỗi mô phỏng; chỉ dẫn chạy lại áp dụng cho chính mẫu cục bộ này.\nGiữ dấu nhận biết: Rê chuột, nhấn và bàn phím là phản hồi tạm thời. Dấu đang chọn phải còn nhìn thấy.\nBề mặt: Giữ vị trí điều khiển, bề mặt phẳng và khoảng trống cho dấu bàn phím.\nGiảm chuyển động: Khi hệ thống yêu cầu giảm chuyển động, bỏ chuyển tiếp; vẫn giữ màu, dấu chọn và dấu bàn phím.\nKhoảng hở: Không để nút đụng chữ hoặc dấu bàn phím bị cắt. Số trạng thái không làm tăng số tài sản.\nTự kiểm: Kiểm rộng/hẹp, chuột, bàn phím, khóa/chờ, lỗi, đặt lại và chế độ tương phản của hệ thống tại nơi dùng.",
+        "scrollWidth": 1216,
+        "clientWidth": 1216,
+        "images": []
+      }
+    }
+  ]
+}

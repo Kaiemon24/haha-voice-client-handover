@@ -2,9 +2,8 @@
 
 ```mermaid
 flowchart TD
-A[Yêu cầu trong workspace đã chọn] --> B[Đọc skill HAHA hoặc Voice]
-B --> C[Chọn quy tắc và vật liệu phù hợp]
-C --> D[Dựng bản nháp từ dữ kiện thật]
-D --> E[Kiểm nội dung và đầu ra thực tế]
-E --> F[Bàn giao hoặc nêu giới hạn cụ thể]
+A[Yêu cầu trong workspace đã chọn] --> B[Đọc bộ thiết kế và giọng phù hợp]
+B --> C[Chọn vật liệu theo nội dung]
+C --> D[Dựng và kiểm bản xuất thực]
+D --> E[Bàn giao trong quyền được cấp]
 ```

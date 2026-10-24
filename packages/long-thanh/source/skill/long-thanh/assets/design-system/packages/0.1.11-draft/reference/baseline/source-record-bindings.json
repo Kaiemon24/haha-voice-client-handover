@@ -1,0 +1,2310 @@
+{
+  "schemaVersion": "long-thanh-source-record-bindings/v1",
+  "rows": [
+    {
+      "id": "icon-001-square",
+      "sourceId": "icon-core-bullet-square",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/role-icon-core-bullet-square-blue-on-white.svg",
+      "sha256": "c4cda87000bfef75ef9f9e81af5cb8f3882337e40431300d323f232326dbdd29",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-icon-core-checkbox-empty",
+      "sourceId": "icon-core-checkbox-empty",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/role-icon-core-checkbox-empty-blue-on-white.svg",
+      "sha256": "7d5e54737a059b422b536070506157c0f1b1179a8832ce6043468b3e1c3ec259",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-003-file",
+      "sourceId": "icon-core-page-outline",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-003-file.svg",
+      "sha256": "72a53f6d7f71cf252747b9cea0e5ce933dfb147ae373fc26a955d3e1312f61d2",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-004-house",
+      "sourceId": "icon-core-home",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-004-house.svg",
+      "sha256": "e326d73d1ab4d091e4b28e961f17a49503f42186ce47a118cf15d959c19e5180",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-005-arrow-left",
+      "sourceId": "icon-core-back",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-005-arrow-left.svg",
+      "sha256": "5233c0182903b6da41ae279dc633288ea0b26e5bfba75d95434553d8077f1862",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-006-arrow-right",
+      "sourceId": "icon-core-forward",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-006-arrow-right.svg",
+      "sha256": "76c4f8bae36ea86520444ac0655bbdd547353910dd58eedf28306c7522afad37",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-007-arrow-up",
+      "sourceId": "icon-core-up",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-007-arrow-up.svg",
+      "sha256": "ae2f6ec7d0679121b0c01a9148936ded1dbcb28bdfc7c9022d0598cc2f06e6e2",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-008-arrow-down",
+      "sourceId": "icon-core-down",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-008-arrow-down.svg",
+      "sha256": "69ab197cde1dcc0a7ec254f6d6c0b339fa3873d6a9a21b38b404f2f5a3ce1464",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-009-menu",
+      "sourceId": "icon-core-menu",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-009-menu.svg",
+      "sha256": "b385fd20eda9e4ef3a99c5fa14f703d7a2461e9a2ca750d416d914e417011e87",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-010-maximize",
+      "sourceId": "icon-core-expand",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-010-maximize.svg",
+      "sha256": "36734038d448f96045a4a12638b67d3617e55ca1ca44323dc0a9a11c904f16d0",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-011-minimize",
+      "sourceId": "icon-core-collapse",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-011-minimize.svg",
+      "sha256": "a8e09f03d05f8814d81fda5704f32d16ad84af9edfcbf0b402a68ad4cd41a930",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-012-plus",
+      "sourceId": "icon-core-add",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-012-plus.svg",
+      "sha256": "4e8152507d6f82d10751f3ce2cf12b11d262687fa09df98a2237c936fb8afc38",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-013-pencil",
+      "sourceId": "icon-core-edit",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-013-pencil.svg",
+      "sha256": "f6737cfdfa2465e27803e1dab47072a2271043c7469280a9007361d8b912a4a4",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-014-trash-2",
+      "sourceId": "icon-core-delete",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-014-trash-2.svg",
+      "sha256": "10d4c998a6ebfcb8494a563cf5f3992e333cdc4645836c075d9f25d720b9e0f3",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-015-copy",
+      "sourceId": "icon-core-duplicate",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-015-copy.svg",
+      "sha256": "9b24a77491f3695bf195b45b69929f93d97718387e6f3fcbc56bfa358776ab96",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-016-save",
+      "sourceId": "icon-core-save",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-016-save.svg",
+      "sha256": "3329ffda9153875fd8bff19eb686a79ecf28dc1bcdf95688c3695e2bfe9457ba",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-017-download",
+      "sourceId": "icon-core-download",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-017-download.svg",
+      "sha256": "dd65a111c25ef2dca99bf47d3843b392ccce3bc173595ced3148c29ba88f637d",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-018-upload",
+      "sourceId": "icon-core-upload",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-018-upload.svg",
+      "sha256": "341e22ca36a30c0772948f4ffd7e04bd895f61577bb44dd6a9d4d3a0ba3db7a2",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-019-share-2",
+      "sourceId": "icon-core-share",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-019-share-2.svg",
+      "sha256": "8e9045cf0e2a906e7673008af8fffa5213c860b8d92c8637490de149456ee6b1",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-020-search",
+      "sourceId": "icon-core-search",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-020-search.svg",
+      "sha256": "e5c9749e27d28bbd0c6454aeae0d55f1865d145c32a89d19a7d09354e7501d33",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-021-list-filter",
+      "sourceId": "icon-core-filter",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-021-list-filter.svg",
+      "sha256": "9db87802b0976ebde3b39f9ee628a311f1f980be1db1f27871e51101204b5b14",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-022-arrow-down-up",
+      "sourceId": "icon-core-sort",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-022-arrow-down-up.svg",
+      "sha256": "5bdecf64800d5326a237fa7a77ee52a94970a58bae668008ab8ce1208b1b62d4",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-023-layout-grid",
+      "sourceId": "icon-core-grid",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-023-layout-grid.svg",
+      "sha256": "41e581db2dd5b8d71c79733f5e7a4e9301d0e2f843500df047295edf3639d60e",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-024-list",
+      "sourceId": "icon-core-list",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-024-list.svg",
+      "sha256": "d4419a58c8dc6260c9d02c378241efdd898569f45a493ac61967eed5728161d9",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-025-zoom-in",
+      "sourceId": "icon-core-zoom-in",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-025-zoom-in.svg",
+      "sha256": "f67928c92030187a632914a160f48181b902f18f555fd95e8da4267be26343ec",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-026-zoom-out",
+      "sourceId": "icon-core-zoom-out",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-026-zoom-out.svg",
+      "sha256": "ba2ba9994987a081208f579750c61505d94eca031ac430b8386e7e35274b4fff",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-027-eye",
+      "sourceId": "icon-core-eye",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-027-eye.svg",
+      "sha256": "8fda53ef326a301a15b36763fadcbff5a611ee35a2c0112b67559c8bee822ae3",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-028-circle-check",
+      "sourceId": "icon-core-success",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-028-circle-check.svg",
+      "sha256": "40882bf12e3696b6faddf0dc3bb665d7f5d166f5a49f7944bf9b8fc953e0a0ea",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-029-triangle-alert",
+      "sourceId": "icon-core-warning",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-029-triangle-alert.svg",
+      "sha256": "a8e7fe3815a23a62536af9289750e6802fffcc84a20b75cf4fb4b77245596ee8",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-030-circle-x",
+      "sourceId": "icon-core-error",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-030-circle-x.svg",
+      "sha256": "ca5d04dac65667eedb1fb10ad7e79bb89b8aacbcd1c9e2d8f44be326000d85ac",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-031-info",
+      "sourceId": "icon-core-info",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-031-info.svg",
+      "sha256": "36b30d7032f2fc80b850f44dabffd6c19869d8518a30831a05e6f8da02678334",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-032-loader-circle",
+      "sourceId": "icon-core-loading",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-032-loader-circle.svg",
+      "sha256": "67f46c6b502ca799e3259b09547d1499e949119685a3c9a76e68a6e6daac42f3",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-033-circle-question-mark",
+      "sourceId": "icon-core-help",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-033-circle-question-mark.svg",
+      "sha256": "63a01d7a87548efa692ec4a9f2a5484b99b12ee6383378dc8ac6a1d86950ad70",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-034-ban",
+      "sourceId": "icon-core-blocked",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-034-ban.svg",
+      "sha256": "9328ecd9895a7fa88fbbe010c116776c11cccc0ebbc70479d008325f09c32b23",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-035-clock",
+      "sourceId": "icon-core-pending",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-035-clock.svg",
+      "sha256": "f8bfbecfe0accf86ce253bd2295645dde891b2eef28f4af7dd0cc03a03f1754f",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-icon-core-file",
+      "sourceId": "icon-core-file",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-003-file.svg",
+      "sha256": "72a53f6d7f71cf252747b9cea0e5ce933dfb147ae373fc26a955d3e1312f61d2",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-037-folder",
+      "sourceId": "icon-core-folder",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-037-folder.svg",
+      "sha256": "bd4aa1795fad67343c0b4879295d6971553a75445e68a435a287ca8431542163",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-038-type",
+      "sourceId": "icon-core-text",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-038-type.svg",
+      "sha256": "ce1cf5749008838d44707dd58ab016205ed8d105b5d16f3c8ab35a3a4e889c3f",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-039-image",
+      "sourceId": "icon-core-image",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-039-image.svg",
+      "sha256": "b64f2490eb854a92668ee8985a94be266776b78ac52de23d0e68e6e95abe271f",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-040-video",
+      "sourceId": "icon-core-video",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-040-video.svg",
+      "sha256": "458aa72af9d6c7b5ea221f55fd5440e99c36ee34029419cbc372d4b65db87beb",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-041-volume-2",
+      "sourceId": "icon-core-audio",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-041-volume-2.svg",
+      "sha256": "8729f0a5de53016ed00d71ed57ebc2658acaa647df652e6d196ad837650ee3da",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-042-archive",
+      "sourceId": "icon-core-archive",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-042-archive.svg",
+      "sha256": "f62fe01556e4603f52644abe70177ec58b430948fdcea3889fad3680733fa352",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-043-link",
+      "sourceId": "icon-core-link",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-043-link.svg",
+      "sha256": "e70b57a2dae09fa79575f12d8fe47206d51b28191cfe901dce9717ee51d8fac8",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-044-user",
+      "sourceId": "icon-core-user",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-044-user.svg",
+      "sha256": "a68baf464838f62c9f1d49e99526e4b9fa3a58332aeb2a4df2c388da9826b466",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-045-users",
+      "sourceId": "icon-core-team",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-045-users.svg",
+      "sha256": "533e0cc2e2ddb4401dc73159974e6bec09f6e37308f6a116d68e7b865bce7303",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-046-mail",
+      "sourceId": "icon-core-mail",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-046-mail.svg",
+      "sha256": "07901902b5af58a782a4db8c661081a748d9349178b5f71b5d2b9ee8342c8bb4",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-native-message-circle",
+      "sourceId": "icon-core-chat",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-native-message-circle.svg",
+      "sha256": "8306b205e6fd58fb82daedcd2783ec3e7388677c7cbd9cc77641790250bf3363",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-native-bell",
+      "sourceId": "icon-core-notification",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-native-bell.svg",
+      "sha256": "4121f40106126a5a2da0f595520d759a94853d641d7d5213fd094b05b60c866c",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-047-calendar",
+      "sourceId": "icon-core-calendar",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-047-calendar.svg",
+      "sha256": "a45e88866adc9370c96362d87891a3f4cfeb2b9f6973ed12ccb7f4c1358ad3e1",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-native-calendar-clock",
+      "sourceId": "icon-core-meeting",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-native-calendar-clock.svg",
+      "sha256": "cc321f2a1e01750f6ab68d5da01f672c4c8f184752168b0d7398a223d576e978",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-048-contact",
+      "sourceId": "icon-core-contact",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-048-contact.svg",
+      "sha256": "a29d3bce08d0e9f877707668e28eff4708d76f498198cd544f0bba1e379d735e",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-049-list-checks",
+      "sourceId": "icon-core-task",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-049-list-checks.svg",
+      "sha256": "f8aba07103b91ca7f6634928a826ccbea153bae5fcd34144ac21566cf564aaf2",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-050-clipboard-check",
+      "sourceId": "icon-core-checklist",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-050-clipboard-check.svg",
+      "sha256": "151ba4080b9a321ff17b2bd6189f03adf6a2c15f5dcc18becc246803de97bba6",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-051-folder-kanban",
+      "sourceId": "icon-core-project",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-051-folder-kanban.svg",
+      "sha256": "bc1e5fef3b32aba82a4194081cc0e7abf1f6397ee3cd6e8e26b3722f7d8c930d",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-052-columns-3",
+      "sourceId": "icon-core-kanban",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-052-columns-3.svg",
+      "sha256": "c7b5d259f328e2b700b2ad661c8fbfc0daec17ff6170b551b3d1fdf3171dc5c3",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-053-flag",
+      "sourceId": "icon-core-flag",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-053-flag.svg",
+      "sha256": "927dd075f22bbca515ee049828ff0e9e68427b21e855ffdc5ce628207d9bcc4e",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-054-target",
+      "sourceId": "icon-core-target",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-054-target.svg",
+      "sha256": "9a576908dc5d34c0f2e3f1b83c44b9d3b5e4e5bad76995cd84f8ce41abeb2ff0",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-055-timer",
+      "sourceId": "icon-core-clock",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-055-timer.svg",
+      "sha256": "3a82350b9981403178d81fd8002ba5f716f71281abf10b1f3229b3d1232d1a1c",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-056-badge-check",
+      "sourceId": "icon-core-approval",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-056-badge-check.svg",
+      "sha256": "a0b7575d0111822f5e7afaf3cd3ad6ef8a1325d42ec8957828a51fc294c26319",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-057-chart-no-axes-column",
+      "sourceId": "icon-core-bar-chart",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-057-chart-no-axes-column.svg",
+      "sha256": "58a800d43197ddbf2310a80bd17cf1d0ceb0d2604aaba08cfc6971f3c1f2012f",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-058-chart-line",
+      "sourceId": "icon-core-line-chart",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-058-chart-line.svg",
+      "sha256": "bac963d061f26db990d8773cf4e09f1f646f9cc04cf52bf5ef45cf1255386cd2",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-059-chart-pie",
+      "sourceId": "icon-core-pie-chart",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-059-chart-pie.svg",
+      "sha256": "062bbbc3e4cdf307c1aa05c212fa114711d40bddcf9908310900e333d4541b5c",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-060-table",
+      "sourceId": "icon-core-table",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-060-table.svg",
+      "sha256": "c94df58fe7a422f9d260c28a5d14c83d1bd3fd84f01ac82906ff9db5822346fc",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-061-trending-up",
+      "sourceId": "icon-core-trend-up",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-061-trending-up.svg",
+      "sha256": "6b18afe42b9704694d6f5e76a6e93e49ab30d10279975db42ba14f41a06b6f4f",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-062-trending-down",
+      "sourceId": "icon-core-trend-down",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-062-trending-down.svg",
+      "sha256": "5e7613b1f2b5a587c76256e2f354b7443ebfbfc8e4d3bcf19c16d7725a809b40",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-063-database",
+      "sourceId": "icon-core-database",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-063-database.svg",
+      "sha256": "f3c5ac5fba795a85e8659ff67dbeebf03d93dd25b0e9d3feb3cf86db5252daa9",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-064-file-chart-column",
+      "sourceId": "icon-core-report",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-064-file-chart-column.svg",
+      "sha256": "ecd01b43c9bcc398fddd0b3d7d66ca4d8b19af3c93e9eac313875342958ea247",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-065-bot",
+      "sourceId": "icon-core-agent",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-065-bot.svg",
+      "sha256": "2d037088764a807e91535474b633287ef7cac5b33661ad9818829f93f0536a47",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-066-workflow",
+      "sourceId": "icon-core-workflow",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-066-workflow.svg",
+      "sha256": "226cdfd0d4993bffa2fe7a4ac79590b7dfa656349994d069cd6b467ed449dde4",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-067-terminal",
+      "sourceId": "icon-core-terminal",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-067-terminal.svg",
+      "sha256": "fa498ad081b1312fb265b277ef8edd3aae808750b4639e863ee8c2f3742ce686",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-068-code",
+      "sourceId": "icon-core-code",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-068-code.svg",
+      "sha256": "d085542f703f94c64b5cf909c1c939e996e68a49389bcbb27f04ad5262cab117",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-069-plug",
+      "sourceId": "icon-core-integration",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-069-plug.svg",
+      "sha256": "21f60c9dcf7293354d0be4c545d36c477ff007421c72d10469719076ae01ab9a",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-070-play",
+      "sourceId": "icon-core-run",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-070-play.svg",
+      "sha256": "f517633a4419eee5cba18779bf571072f6852764c293aec61ae0827f70e1b6d9",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-071-pause",
+      "sourceId": "icon-core-pause",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-071-pause.svg",
+      "sha256": "0992f926e9d3f6456781d3a46ef1d55484ff382573eb3cc9737364ef09cf146d",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-icon-core-stop",
+      "sourceId": "icon-core-stop",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/role-icon-core-stop-blue-on-white.svg",
+      "sha256": "3cd087b9153749486f967dd66b830bd420bffd6f132eeefc5d3260852467476c",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-073-settings",
+      "sourceId": "icon-core-settings",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-073-settings.svg",
+      "sha256": "c38f466a5fd9ea8ba115cc277613a1e8cda742ffe5fbf38d22abf714248d055c",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-074-lock",
+      "sourceId": "icon-core-lock",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-074-lock.svg",
+      "sha256": "516e1a3a7a6ec7f184161fb7304c2970179752abc480821570312d78b04a0a6b",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-075-lock-open",
+      "sourceId": "icon-core-unlock",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-075-lock-open.svg",
+      "sha256": "fb64f96a8e0a75367b435405081ee6a8218e179bf3940a811f67c32f5cc34d2f",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-076-key-round",
+      "sourceId": "icon-core-key",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-076-key-round.svg",
+      "sha256": "127be296181ae99bb14cd969318f1a48eff629ca187d7928545d5a17d6eff870",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-077-shield",
+      "sourceId": "icon-core-shield",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-077-shield.svg",
+      "sha256": "3c6f12823a08455ef9d9990ef5abbf6924f30c956909ee24fcc9b452774f2846",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-078-user-check",
+      "sourceId": "icon-core-permissions",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-078-user-check.svg",
+      "sha256": "394bfc60755e0ece1374c88a2f940a15b4661b4d170cc60d5d225fd31dfceba3",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-079-refresh-cw",
+      "sourceId": "icon-core-refresh",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-079-refresh-cw.svg",
+      "sha256": "a0fe9fba2bc730dcc4cc273205bb9cf646f889b5b52cb7290081d7c7bb2ae4ea",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-080-log-out",
+      "sourceId": "icon-core-logout",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-080-log-out.svg",
+      "sha256": "f7f4956f690c521066a20d3ebabb5ca81d203f5cecc14bee8e79c71207d07d75",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-081-shopping-cart",
+      "sourceId": "icon-core-cart",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-081-shopping-cart.svg",
+      "sha256": "db566e32f3fcd2eaf81745f91e0be64fb6f63da7d12407353af926f7f4259dda",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-082-shopping-bag",
+      "sourceId": "icon-core-bag",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-082-shopping-bag.svg",
+      "sha256": "400a1862a39cd9346f46a5b078b6344b8198abb22bd104670cda428b9af99bb0",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-083-credit-card",
+      "sourceId": "icon-core-card",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-083-credit-card.svg",
+      "sha256": "a418fa2abfc49cfcd1d1c075b2abd8becab9295b70302ffcbefb8987a2a7e01e",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-084-receipt",
+      "sourceId": "icon-core-receipt",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-084-receipt.svg",
+      "sha256": "f2147e73ec8db51d75a5c4dd40a8936371bf040d5a111a4d399ef3cdfb4c6d74",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-085-tag",
+      "sourceId": "icon-core-tag",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-085-tag.svg",
+      "sha256": "1201fbe23903b8ad5f62c90a8b6b5e806ffbd20b2161e617ceec139e8976653e",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-086-package",
+      "sourceId": "icon-core-package",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-086-package.svg",
+      "sha256": "0264855e7bc4e15ffc86f7f82a5d692879f780c14e5aa7003672d56e675a3c75",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-087-truck",
+      "sourceId": "icon-core-delivery",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-087-truck.svg",
+      "sha256": "fa7491b1d782fdc85d920ac8bb7a11f5ea0f7a2db637012fc8193b4950244eaf",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-088-undo-2",
+      "sourceId": "icon-core-refund",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-088-undo-2.svg",
+      "sha256": "1a65379939da998a6034a30c38a8a847492d570f869419cfecaca472f1cde90f",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-089-book-open",
+      "sourceId": "icon-core-book",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-089-book-open.svg",
+      "sha256": "bf438b59f6466679394f898ba203f72a4b9d0fe3429b2d773e1d6b9f496c55a5",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-090-graduation-cap",
+      "sourceId": "icon-core-lesson",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-090-graduation-cap.svg",
+      "sha256": "d0bb69729bb4d2809ad9e18c9130f0b3cd3c9ff82d4e11a80bdf0754b95aa7b4",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-091-bookmark",
+      "sourceId": "icon-core-bookmark",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-091-bookmark.svg",
+      "sha256": "2154341347850d2b025285f3f4877ceece335e1f5ef70d1a5285ab392f2921df",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-092-lightbulb",
+      "sourceId": "icon-core-idea",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-092-lightbulb.svg",
+      "sha256": "96de48444bc37d4cfd8f4792019aec52458d07164d3388170d0fd9c9c586f888",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-093-mic",
+      "sourceId": "icon-core-microphone",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-093-mic.svg",
+      "sha256": "6129b22cdd5c321c7703849cc32118a14e6ee53890a453b8bf8ed756f36b1bfd",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-094-camera",
+      "sourceId": "icon-core-camera",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-094-camera.svg",
+      "sha256": "30a01d4a528d9ad337c2c576be8c7e92be847f50390355cb9ff36b71fd72edf1",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-095-presentation",
+      "sourceId": "icon-core-presentation",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-095-presentation.svg",
+      "sha256": "e1a4db176eb9e9aa165259966bda476cfd6acd054ccbdbbf179fae1f8c86251b",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-096-award",
+      "sourceId": "icon-core-certificate",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-096-award.svg",
+      "sha256": "63d5f6219adfee9ec699ee734dfa59292507dda8f587ae7c0963f3adf45c641a",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-icon-kai-sword",
+      "sourceId": "icon-kai-sword",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-086-package.svg",
+      "sha256": "0264855e7bc4e15ffc86f7f82a5d692879f780c14e5aa7003672d56e675a3c75",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-098-warehouse",
+      "sourceId": "icon-kai-shield-crest",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-098-warehouse.svg",
+      "sha256": "37cacb2575a5de23d91433848eb777ea2c09a1449075d227f523a552a2e9f255",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-099-container",
+      "sourceId": "icon-kai-helmet",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-099-container.svg",
+      "sha256": "66aa3785398f37035d27d78d23e50a8aa8b5d50a981b251124e8ddf3d81f4bc1",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-100-forklift",
+      "sourceId": "icon-kai-armor",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-100-forklift.svg",
+      "sha256": "3f7079c0b5d99106741acc3c7c10c3e12a0af4dc6690c9473eaf5fd5619d38f9",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-icon-kai-boots",
+      "sourceId": "icon-kai-boots",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-087-truck.svg",
+      "sha256": "fa7491b1d782fdc85d920ac8bb7a11f5ea0f7a2db637012fc8193b4950244eaf",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-102-boxes",
+      "sourceId": "icon-kai-gauntlet",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-102-boxes.svg",
+      "sha256": "2f681897651b1e7350e87de5281fe49eb50f578f65038d72cfb94cf87cc9a929",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-103-layers",
+      "sourceId": "icon-kai-bow",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-103-layers.svg",
+      "sha256": "eac496acd4a62be9e76acabbdda323131af904ac25e8ddd34ebdf2b46aa8dda9",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-104-ruler",
+      "sourceId": "icon-kai-arrow",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-104-ruler.svg",
+      "sha256": "95f9e3c6f4338f1af31748da33b2cd39d65eff32816bc3fe00319e1f133ec11b",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-105-gauge",
+      "sourceId": "icon-kai-staff",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-105-gauge.svg",
+      "sha256": "d69c029ca85fe166582b60a9a08fae826c8f7a312bfdf1e43f207d6044df1fa3",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-106-weight",
+      "sourceId": "icon-kai-potion",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-106-weight.svg",
+      "sha256": "3eafbca0fda764f9b4295175d846fac3eb5751592d358846497443e707a710a0",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-107-snowflake",
+      "sourceId": "icon-kai-scroll",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-107-snowflake.svg",
+      "sha256": "7e00159b56ddfee8d13a1899250271b7fd2d8e4b48c9be7c4e4fb08994998ce9",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-108-wine",
+      "sourceId": "icon-kai-quest-board",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-108-wine.svg",
+      "sha256": "1594f2cbc022b372895a867d326e38bc17ce85f895db93d73a9861fc2b63c0f1",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-109-armchair",
+      "sourceId": "icon-kai-bonfire",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-109-armchair.svg",
+      "sha256": "1354dd68ff84f2b0fe348ca2eaa8f0b3e80d01b9a5e4fd4087f49d79bfb414aa",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-110-shopping-basket",
+      "sourceId": "icon-kai-ember",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-110-shopping-basket.svg",
+      "sha256": "dbb2b5f2a9250a28e81c23d26db726463326edf6d721788ad78e763e591e68bb",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-111-factory",
+      "sourceId": "icon-kai-torch",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-111-factory.svg",
+      "sha256": "36dd72bbfed5a29b983948ccbf3af1fc815266d8aec1de9155e1a5b05fcb9388",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-112-package-open",
+      "sourceId": "icon-kai-lantern",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-112-package-open.svg",
+      "sha256": "dbc1bbbb756a809cd5f310be7f14a56c22395d207b71f091474a14931c8ba6c4",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-113-recycle",
+      "sourceId": "icon-kai-castle",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-113-recycle.svg",
+      "sha256": "ef9bc26779acf6d0e6f56a052cad13f5142e7e22cf7ae0c71ecce53a5ba268c4",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-114-shield-check",
+      "sourceId": "icon-kai-gate",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-114-shield-check.svg",
+      "sha256": "46443ec418874d4fb82654f3786a71c82f4bd86ed8c46a73b747f07b7dc7da4b",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-115-thermometer",
+      "sourceId": "icon-kai-tower",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-115-thermometer.svg",
+      "sha256": "341ffabce6b0b1cc43018be7100ca68b996e38842339f19aea8bdc636fd1217c",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-116-droplets",
+      "sourceId": "icon-kai-tent",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-116-droplets.svg",
+      "sha256": "6d017f2ee5424fbd305af6ed277b06c53839bec96073ee8c9dbc1b98bedcdab1",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-117-sun",
+      "sourceId": "icon-kai-compass",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-117-sun.svg",
+      "sha256": "2ae0a6e84e68b2c1df9069daab054dfe5f83eecc129b9de84922fb6d3015f625",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-118-grid-3x3",
+      "sourceId": "icon-kai-map-marker",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-118-grid-3x3.svg",
+      "sha256": "80c8dd026a7179f08eee8d9b7024b71137143a069e444642ec20f6cfd77f69b8",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-119-waypoints",
+      "sourceId": "icon-kai-gem",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-119-waypoints.svg",
+      "sha256": "c9bbdec25d4588b2b20ce255000947c5260ebbef7ede87bc83d48f0752a321bd",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-icon-kai-chest",
+      "sourceId": "icon-kai-chest",
+      "sourceView": "library",
+      "sourceFamily": "icons-static",
+      "file": "assets/icons/icon-086-package.svg",
+      "sha256": "0264855e7bc4e15ffc86f7f82a5d692879f780c14e5aa7003672d56e675a3c75",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-agent-knight-automation",
+      "sourceId": "agent-knight-automation",
+      "sourceView": "library",
+      "sourceFamily": "icons-motion",
+      "file": "assets/icons/icon-065-bot.svg",
+      "sha256": "2d037088764a807e91535474b633287ef7cac5b33661ad9818829f93f0536a47",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-agent-knight-design",
+      "sourceId": "agent-knight-design",
+      "sourceView": "library",
+      "sourceFamily": "icons-motion",
+      "file": "assets/icons/icon-013-pencil.svg",
+      "sha256": "f6737cfdfa2465e27803e1dab47072a2271043c7469280a9007361d8b912a4a4",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-agent-knight-html",
+      "sourceId": "agent-knight-html",
+      "sourceView": "library",
+      "sourceFamily": "icons-motion",
+      "file": "assets/icons/icon-068-code.svg",
+      "sha256": "d085542f703f94c64b5cf909c1c939e996e68a49389bcbb27f04ad5262cab117",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-agent-knight-video",
+      "sourceId": "agent-knight-video",
+      "sourceView": "library",
+      "sourceFamily": "icons-motion",
+      "file": "assets/icons/icon-040-video.svg",
+      "sha256": "458aa72af9d6c7b5ea221f55fd5440e99c36ee34029419cbc372d4b65db87beb",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-agent-knight-content",
+      "sourceId": "agent-knight-content",
+      "sourceView": "library",
+      "sourceFamily": "icons-motion",
+      "file": "assets/icons/icon-038-type.svg",
+      "sha256": "ce1cf5749008838d44707dd58ab016205ed8d105b5d16f3c8ab35a3a4e889c3f",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-animated-compass",
+      "sourceId": "animated-compass",
+      "sourceView": "library",
+      "sourceFamily": "icons-motion",
+      "file": "assets/icons/icon-119-waypoints.svg",
+      "sha256": "c9bbdec25d4588b2b20ce255000947c5260ebbef7ede87bc83d48f0752a321bd",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-animated-fire",
+      "sourceId": "animated-fire",
+      "sourceView": "library",
+      "sourceFamily": "icons-motion",
+      "file": "assets/icons/icon-079-refresh-cw.svg",
+      "sha256": "a0fe9fba2bc730dcc4cc273205bb9cf646f889b5b52cb7290081d7c7bb2ae4ea",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-animated-shield",
+      "sourceId": "animated-shield",
+      "sourceView": "library",
+      "sourceFamily": "icons-motion",
+      "file": "assets/icons/icon-114-shield-check.svg",
+      "sha256": "46443ec418874d4fb82654f3786a71c82f4bd86ed8c46a73b747f07b7dc7da4b",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "ui-buttons",
+      "sourceId": "ui-buttons",
+      "sourceView": "library",
+      "sourceFamily": "ui",
+      "file": "assets/specimens/ui-buttons.html",
+      "sha256": "f4328143612500ba6db27704cf4401ee64e53fd5ac0aff2e539242bb5d638d13",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "ui-topnav",
+      "sourceId": "ui-topnav",
+      "sourceView": "library",
+      "sourceFamily": "ui",
+      "file": "assets/specimens/ui-topnav.html",
+      "sha256": "34d51e92f024e951d403fce909ef685cadb582efeeea1f61377e794d767d81a6",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "ui-actions",
+      "sourceId": "ui-actions",
+      "sourceView": "library",
+      "sourceFamily": "ui",
+      "file": "assets/specimens/ui-actions.html",
+      "sha256": "936b323399fe579f07e8f53a4c036b82dcef6eb6bfa7520970c1bd9a4f8bf2f4",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "ui-search",
+      "sourceId": "ui-search",
+      "sourceView": "library",
+      "sourceFamily": "ui",
+      "file": "assets/specimens/ui-search.html",
+      "sha256": "a7c09003f9fd40ef60ab6ed9605e33701a66706656b4724eec9f3e22b090d8cf",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "ui-tabs",
+      "sourceId": "ui-tabs",
+      "sourceView": "library",
+      "sourceFamily": "ui",
+      "file": "assets/specimens/ui-tabs.html",
+      "sha256": "d6ea5ef91dacea0db188a2d252a2a6ee8534295d4105ab616fe1a3d19ae07917",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "ui-check",
+      "sourceId": "ui-check",
+      "sourceView": "library",
+      "sourceFamily": "ui",
+      "file": "assets/specimens/ui-check.html",
+      "sha256": "0d9e6004fb9929ef7aebf5faf58ddb2cef832456018e1fdcf58488b272a6e67e",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "ui-dialog",
+      "sourceId": "ui-dialog",
+      "sourceView": "library",
+      "sourceFamily": "ui",
+      "file": "assets/specimens/ui-dialog.html",
+      "sha256": "bfe41e678ada98c910f5be9a9d7c4a74bd77d5487499f07e1f6df816cff16874",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "model-pallet",
+      "sourceId": "model-helmet",
+      "sourceView": "library",
+      "sourceFamily": "models",
+      "file": "assets/specimens/model-pallet.html",
+      "sha256": "e3723172c6fead43bcf02fc3bc9a9d5a100cebe4efca54fb5998d2f9e94dbd47",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "model-crate",
+      "sourceId": "model-treasure",
+      "sourceView": "library",
+      "sourceFamily": "models",
+      "file": "assets/specimens/model-crate.html",
+      "sha256": "913673cdba3579b08b9588c64a56bdc87ce94add7709ee7c82420b618a9986f6",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "model-cooler",
+      "sourceId": "model-bonfire",
+      "sourceView": "library",
+      "sourceFamily": "models",
+      "file": "assets/specimens/model-cooler.html",
+      "sha256": "7563d427d07f99895174598f5ec40e056b696c8e703551ad4ac4f9cfa82357cf",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-bar",
+      "sourceId": "chart-bar",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-bar.html",
+      "sha256": "99ba6b14277db1122da67769e6020d4d7f4b64635f469f2b5c71be19427a230c",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-column",
+      "sourceId": "chart-column",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-column.html",
+      "sha256": "42c16676ae7e632850394bf5a9a2907a606a85d063a183105521fa2dfdb8171f",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-line",
+      "sourceId": "chart-line",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-line.html",
+      "sha256": "01a9b4c68b3affdfefbb87647213804980c4bef53eaafd607c43a0b105f8e574",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-area",
+      "sourceId": "chart-area",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-area.html",
+      "sha256": "600cd756431cf1e4ebaa973c17e30d4497d6b59ee1d8cffabab15770a761c3e9",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-donut",
+      "sourceId": "chart-donut",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-donut.html",
+      "sha256": "274525dd9fdfec3d8c89b81bc32164078a689a035a1108b65f50920e59f331f1",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-stack",
+      "sourceId": "chart-stack",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-stack.html",
+      "sha256": "4d231df71e6ed06bc22c48476d0cd42a284b8287bf0757783f0783fbce27e8a0",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-scatter",
+      "sourceId": "chart-scatter",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-scatter.html",
+      "sha256": "7405286b22220fe3f1f5eacb6821ad1a617efae54e7c3938335188068d75cbb6",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-pie",
+      "sourceId": "chart-pie",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-pie.html",
+      "sha256": "50e6d3ecbb6de89d6a881dc81523222bda066e1b95ff65c258373566159aa32a",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-histogram",
+      "sourceId": "chart-histogram",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-histogram.html",
+      "sha256": "127be270d5c65d6e693d74210d707fdfdf9cfac6e36c49e3a3bb7f4c75d31afc",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-box",
+      "sourceId": "chart-box",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-box.html",
+      "sha256": "1a25f95bd170028a1eea02f647bf3c2e851bf2f0cf4f5ee28314fa624b7e8701",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-waterfall",
+      "sourceId": "chart-waterfall",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-waterfall.html",
+      "sha256": "66f1c0c6424bdbe3cc317f105975a8e1e31cadbb1101227581fab1ee118d5fc0",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-heatmap",
+      "sourceId": "chart-heatmap",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-heatmap.html",
+      "sha256": "9b8fa5ee64b13ac76ef40b5a0b60e0cf85933eec3f4c57bdef64d10a70abf2f6",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-progress-ring",
+      "sourceId": "chart-progress-ring",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-progress-ring.html",
+      "sha256": "23780f265d43c79c05e3e862d991a667812442646e67e782d3e77235fc7529a0",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-stacked-absolute",
+      "sourceId": "chart-stacked-absolute",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-stacked-absolute.html",
+      "sha256": "a0ad347e1492fae273994f485a2658ebeeae392fe83111d2f54639a1dc478e0f",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-funnel",
+      "sourceId": "chart-funnel",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-funnel.html",
+      "sha256": "d392f976fd0c53ae27b35d7e898e67ecc32ed07e3bf947e20e0fed25d2389eaf",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-treemap",
+      "sourceId": "chart-treemap",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-treemap.html",
+      "sha256": "f02f5d39d7899827cb55d05129a5ffe59c8368e02b4c2de81504bbb39d8df07b",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-diverging",
+      "sourceId": "chart-diverging",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-diverging.html",
+      "sha256": "8c403cc14cf645063fcf639d7dbf4803f246dc36f184984b15473789d7168d69",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-gantt",
+      "sourceId": "chart-gantt",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-gantt.html",
+      "sha256": "14fd6289f092b838d12fde215af2b15b56730f947df79f1b238c87c922a3cddd",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-grouped",
+      "sourceId": "chart-grouped",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-grouped.html",
+      "sha256": "b30b55ffcbf507d59af18595045f5bc96af454b2fceea39a4d6910381dcf7708",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-combo",
+      "sourceId": "chart-combo",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-combo.html",
+      "sha256": "425b0098cbe6d70f7097a29d0380cb1a9d8a95938c1cc0dc43c0db44d4ecc989",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-slope",
+      "sourceId": "chart-slope",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-slope.html",
+      "sha256": "9e246e03466b5e56683f9238a889efe0d37b781c08b25713364f1c591b010419",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-dumbbell",
+      "sourceId": "chart-dumbbell",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-dumbbell.html",
+      "sha256": "c6ba9290f97a715b7f564336bd3d9715e6d1e83977bf7c7953d6f423c80634c7",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-bullet",
+      "sourceId": "chart-bullet",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-bullet.html",
+      "sha256": "3537e4a26c1da3e1520fd9245f89d6596f86c8fde8267ae221cf6569eb44c40c",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-lollipop",
+      "sourceId": "chart-lollipop",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-lollipop.html",
+      "sha256": "48c8917ddb7c4722701c931fa70af9abb8f1616060b4e41652e1d8a8164556a5",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-sparklines",
+      "sourceId": "chart-sparklines",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-sparklines.html",
+      "sha256": "7c32d2888ba959e82d7ad17c243ded45eeaf4d839f12a11d93ce6ca580106c0d",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-calendar-density",
+      "sourceId": "chart-calendar-density",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-calendar-density.html",
+      "sha256": "d21efbc2213c56b03660b58ac24222216094ea3944440c38e15650a4552bc4e5",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-state-timeline",
+      "sourceId": "chart-state-timeline",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-state-timeline.html",
+      "sha256": "adf4828ec059508120cd70e1d3891715905c1973b6c4e8b23201cdfce0451256",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-cohort",
+      "sourceId": "chart-cohort",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-cohort.html",
+      "sha256": "1bedc806151ab8f23c53be3d23fede89e89e4a190356fb22b5ca8bc6d694dc47",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-dependency-network",
+      "sourceId": "chart-dependency-network",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-dependency-network.html",
+      "sha256": "3fcc6cc380fac011230c3f36712db175fc92860f59d26b9f7b42058317eca073",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-sankey",
+      "sourceId": "chart-sankey",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-sankey.html",
+      "sha256": "ed0ec3684bd70636ef611ddf29757f0d3b6bb07a153f40ef99f3c7aea75979f2",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-parallel",
+      "sourceId": "chart-parallel",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-parallel.html",
+      "sha256": "eaab058cd4645c1eebb25d8c3980cb117b0351a598b30f2890b7ce7cb99ddd1b",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-candlestick",
+      "sourceId": "chart-candlestick",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-candlestick.html",
+      "sha256": "a3944cdcc37e6af94d8345887bf92b0ad5dcb6bc2c8aacdc96b51b98b628fadd",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-regional-map",
+      "sourceId": "chart-regional-map",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-regional-map.html",
+      "sha256": "f1075e1e2e163bccf4f5ea31ef8d5fd2090d4bba9132850a20663efc3fcfb67d",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-kpi-table",
+      "sourceId": "chart-kpi-table",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-kpi-table.html",
+      "sha256": "20562c97391fa6c74127e69f772b01287922b1e1c2f6d61a1374df03368fe888",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-monitored-series",
+      "sourceId": "chart-monitored-series",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-monitored-series.html",
+      "sha256": "e381585f3eb421df09967c846a5c2b0d69de16da11809f0c326e4ab721560964",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-decision-tree",
+      "sourceId": "chart-decision-tree",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-decision-tree.html",
+      "sha256": "9954f6dfa2aa4a0b03f62b56f7fda183ee70be3fee1ec33270d561aad7cdc882",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "chart-journey-comparison",
+      "sourceId": "chart-journey-comparison",
+      "sourceView": "library",
+      "sourceFamily": "charts",
+      "file": "assets/specimens/chart-journey-comparison.html",
+      "sha256": "f952e5c18dbf7d30f9a93f3b2f6f4eb1556b2778f2f122f8ca5e7a0db73159f6",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "reading-steps",
+      "sourceId": "reading-five-actions",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/specimens/reading-steps.html",
+      "sha256": "3ff6c585c2f91fac5f33df5ddef16577259a2b5f10ac41063ea2f9596f282373",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "reading-moodboard",
+      "sourceId": "reading-moodboard",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/specimens/reading-moodboard.html",
+      "sha256": "21c5b7335ce7f8f30916d425c1a86585f24716840f46072a514d85c1987ad120",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "reading-comparison",
+      "sourceId": "reading-comparison-table",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/specimens/reading-comparison.html",
+      "sha256": "a654ddee538695491f6065e348c4f5b84642e026aa58d9781304bc3fc28e4d1d",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-reading-quantitative-chart",
+      "sourceId": "reading-quantitative-chart",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/specimens/chart-bar.html",
+      "sha256": "99ba6b14277db1122da67769e6020d4d7f4b64635f469f2b5c71be19427a230c",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "reading-quote",
+      "sourceId": "reading-attributed-quote",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/specimens/reading-quote.html",
+      "sha256": "f0bf8163013faaeb35e3608a270631d9b8414cf7a9a86ff10e40695433c210f3",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "reading-literal",
+      "sourceId": "reading-literal-command",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/specimens/reading-literal.html",
+      "sha256": "b71f77a26a85b109f965afb7c01d68cad0c6429c103604e91a70263b4bfdbc05",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "reading-connectors",
+      "sourceId": "reading-connectors",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/specimens/reading-connectors.html",
+      "sha256": "bfcc0776d67813ca52771acaaa958a988e5a70b8378410103c342ec454a415a2",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "reading-status",
+      "sourceId": "reading-listing-status",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/specimens/reading-status.html",
+      "sha256": "9d920dc4999ea0027b46f7af345047835af93779f88708d97281e4d269cb60ec",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "reading-list",
+      "sourceId": "reading-listing-sections",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/specimens/reading-list.html",
+      "sha256": "2c7fffb3e20079e849d87f50a00cf200e268da39ea849c029eae9586494d0f73",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-reading-listing-shapes",
+      "sourceId": "reading-listing-shapes",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/specimens/reading-listing-shapes.html",
+      "sha256": "fc7dadff9c469a55b8c4e7964939115148b373d8e653ef667777e334359a49fc",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-reading-listing-icons",
+      "sourceId": "reading-listing-icons",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/specimens/reading-listing-icons.html",
+      "sha256": "c8f117ee9cab42893e930e7b5cddad72f166651bc7655511cbcb2b4fb6b42007",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-reading-task-brief",
+      "sourceId": "reading-task-brief",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/applications/document-task-brief.html",
+      "sha256": "bdb654a7ebf24a4554a350fa3fc420e1abb4eeb5d99deed9fce131982a008313",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-reading-rule-check-fix",
+      "sourceId": "reading-rule-check-fix",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/applications/document-rule-check-fix.html",
+      "sha256": "cf628865a7beb0fce753fe424d7b66cda77d68dece1892d7a6f95909414aa869",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-reading-readiness-levels",
+      "sourceId": "reading-readiness-levels",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/applications/document-readiness-levels.html",
+      "sha256": "38be07289a6d8d999f2703b83958012840c3d31e3143ae68081a964fc79ae90f",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-reading-worked-example",
+      "sourceId": "reading-worked-example",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/applications/document-worked-example.html",
+      "sha256": "196342f9150fd7a1b7e8bf73d0e3dc5fc4e44303e0d44ce4d0571eebb7fc47fb",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-role-reading-reference-card",
+      "sourceId": "reading-reference-card",
+      "sourceView": "library",
+      "sourceFamily": "reading",
+      "file": "assets/applications/document-reference-card.html",
+      "sha256": "cfdf4408889cf88443bea590f682cc029491d29cf9db0269c0fcd43bb16cb879",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-default-cover",
+      "sourceId": "slide283-default-cover",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-default-cover.html",
+      "sha256": "5e0b67102001f7f8eeee83e096622fe5ce655fafa33503fe37b5f2684cf6695c",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-default-agenda",
+      "sourceId": "slide283-default-agenda",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-default-agenda.html",
+      "sha256": "3f5b813a14ad7488aa6086de5d58648707816fdb9f5e15e6a9decc9beefd9570",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-default-divider",
+      "sourceId": "slide283-default-divider",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-default-divider.html",
+      "sha256": "2fdf7a5d97924e14da4c20dfe641792b89783f169bc8205c76dd1b69dc2d52a4",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-default-close",
+      "sourceId": "slide283-default-close",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-default-close.html",
+      "sha256": "306eaee62023e901b9d5c5f4e2752cefd088ac6c5e6d374ce176ca3d3e7f918b",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-image-hero",
+      "sourceId": "slide283-image-hero",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-image-hero.html",
+      "sha256": "5885d16654ce51ef06764dffc4c2d39464c505e0c1119bdb810625f06c45471c",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-image-strip",
+      "sourceId": "slide283-image-strip",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-image-strip.html",
+      "sha256": "6e36350509fb1e6de676d43abc9989118bb8f2e3a1bc4f8cb0314a646a58518d",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-image-grid",
+      "sourceId": "slide283-image-grid",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-image-grid.html",
+      "sha256": "7b5fff1b2e8aca5b50122b98220063623ffad338055eff5bab9137bc002470ea",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-image-story",
+      "sourceId": "slide283-image-story",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-image-story.html",
+      "sha256": "49104f214a6e278f243d8c485eee176a8d7ec3ead7fa28a37c50b092d4b7e939",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-image-detail",
+      "sourceId": "slide283-image-detail",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-image-detail.html",
+      "sha256": "aa8930fa4e07d86cd9b47ef17d1d561c29785ce31410e7640dc960c35fb2f6f8",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-image-collage",
+      "sourceId": "slide283-image-collage",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-image-collage.html",
+      "sha256": "7eb04d7b5a2dbc9d94567f97243a5336d8e4bd2a60fd92b03f732707ed6443d4",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-image-pair",
+      "sourceId": "slide283-image-pair",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-image-pair.html",
+      "sha256": "1106702b98e63f7c1a7694b86504036b8210a891f41cf71a754b8c4261329d14",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-image-mosaic",
+      "sourceId": "slide283-image-mosaic",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-image-mosaic.html",
+      "sha256": "00b18ea158892ff6940db127742c40c7f5719e25f8207d0718a03837f94090ac",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-image-background",
+      "sourceId": "slide283-image-background",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-image-background.html",
+      "sha256": "a882d93f36f7945668aba247b810b6fac4336ca920557f95eb19fd5d01b13c24",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-image-split",
+      "sourceId": "slide283-image-split",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-image-split.html",
+      "sha256": "092af9b434ee76d67d377b039ba75ad99a1a9725ec05afce66c4ba90f9fd7de6",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-text-matrix",
+      "sourceId": "slide283-text-matrix",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-text-matrix.html",
+      "sha256": "c66bfcfef3f16817070b7f7d243d3f2b7f2ce4dc09e854b61afad859a016349e",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-text-tables",
+      "sourceId": "slide283-text-tables",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-text-tables.html",
+      "sha256": "729d619824ad4b92017d25a4d884e46059e114fa6b20accf595054be638b4a09",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-text-columns",
+      "sourceId": "slide283-text-columns",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-text-columns.html",
+      "sha256": "3068419227be2f50351b56f3ebf340f0085cb2096e755526cd088582cf1790f5",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-text-evidence",
+      "sourceId": "slide283-text-evidence",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-text-evidence.html",
+      "sha256": "e03c6026911095941f3388734ca6ea39256eb8b9c99cafc45ac07000eb514b11",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-text-plan",
+      "sourceId": "slide283-text-plan",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-text-plan.html",
+      "sha256": "3e604394c83b6633db7a88b29739ba1ca751db7131f9d98f1025cd7fa6a633fc",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-text-dashboard",
+      "sourceId": "slide283-text-dashboard",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-text-dashboard.html",
+      "sha256": "c2bcced7aaf6379bab9918478d0fd1570f38825c2835dc2fe6aa5785ce198d91",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-text-overview",
+      "sourceId": "slide283-text-overview",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-text-overview.html",
+      "sha256": "3415f1c1c45cd303c98835f93e7e920661323810b5dfd6125938ea7298a8d3d9",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-text-mixed",
+      "sourceId": "slide283-text-mixed",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-text-mixed.html",
+      "sha256": "bc77c7205e7b17b4d3ef1483bd27c6f8b0460e2b60290500af76b7f1acd3ddc6",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-text-sections",
+      "sourceId": "slide283-text-sections",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-text-sections.html",
+      "sha256": "072b1259cc4644e7cead2dd0f7380a01496998959da486600df9ceb3464b391b",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-text-journey",
+      "sourceId": "slide283-text-journey",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-text-journey.html",
+      "sha256": "af18a3b47b556e6affbf43bed8ee642adde0d06d7e45159ca696953af453ff2d",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-text-sales-mix",
+      "sourceId": "slide283-text-sales-mix",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-text-sales-mix.html",
+      "sha256": "1f9ab01322a7b2c2a4baa4e0fed5a5c35e4b5f63747be7c40502fdc0953558e8",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-text-competitors",
+      "sourceId": "slide283-text-competitors",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-text-competitors.html",
+      "sha256": "ba782a6f28325ceb95275417b010265f95ac35b25024666915ff26c034722d2f",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "slide-text-ranking",
+      "sourceId": "slide283-text-ranking",
+      "sourceView": "applications",
+      "sourceFamily": "slides",
+      "file": "assets/applications/slide-text-ranking.html",
+      "sha256": "2e10b0b3151699bd592f7286a922e370da929de84d3963a2e9b30e9d8e5102ff",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "document-cover",
+      "sourceId": "pdf-cover",
+      "sourceView": "applications",
+      "sourceFamily": "pdf",
+      "file": "assets/applications/document-cover.html",
+      "sha256": "1f48c9fa49ae2c4038968a212d8bc82cf744cb4b0653ee59869143463ff42984",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "document-task-brief",
+      "sourceId": "pdf-task-brief",
+      "sourceView": "applications",
+      "sourceFamily": "pdf",
+      "file": "assets/applications/document-task-brief.html",
+      "sha256": "bdb654a7ebf24a4554a350fa3fc420e1abb4eeb5d99deed9fce131982a008313",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "document-rule-check-fix",
+      "sourceId": "pdf-rule-check-fix",
+      "sourceView": "applications",
+      "sourceFamily": "pdf",
+      "file": "assets/applications/document-rule-check-fix.html",
+      "sha256": "cf628865a7beb0fce753fe424d7b66cda77d68dece1892d7a6f95909414aa869",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "document-readiness-levels",
+      "sourceId": "pdf-readiness-levels",
+      "sourceView": "applications",
+      "sourceFamily": "pdf",
+      "file": "assets/applications/document-readiness-levels.html",
+      "sha256": "38be07289a6d8d999f2703b83958012840c3d31e3143ae68081a964fc79ae90f",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "document-worked-example",
+      "sourceId": "pdf-worked-example",
+      "sourceView": "applications",
+      "sourceFamily": "pdf",
+      "file": "assets/applications/document-worked-example.html",
+      "sha256": "196342f9150fd7a1b7e8bf73d0e3dc5fc4e44303e0d44ce4d0571eebb7fc47fb",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "document-reference-card",
+      "sourceId": "pdf-reference-card",
+      "sourceView": "applications",
+      "sourceFamily": "pdf",
+      "file": "assets/applications/document-reference-card.html",
+      "sha256": "cfdf4408889cf88443bea590f682cc029491d29cf9db0269c0fcd43bb16cb879",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "document-source-index",
+      "sourceId": "pdf-source-index",
+      "sourceView": "applications",
+      "sourceFamily": "pdf",
+      "file": "assets/applications/document-source-index.html",
+      "sha256": "31570c604c890e66b2b6eca2d3883f47570fe47dba6c6f03487ffac77a5d5c2e",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "website-products",
+      "sourceId": "application-service",
+      "sourceView": "applications",
+      "sourceFamily": "web-app",
+      "file": "assets/applications/website-products.html",
+      "sha256": "12c0fce39ce9a751ae6050a0bc5d9e3a4e2fb37d1806ef919a25b8aa90966d8c",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "website-guide",
+      "sourceId": "application-article",
+      "sourceView": "applications",
+      "sourceFamily": "web-app",
+      "file": "assets/applications/website-guide.html",
+      "sha256": "56eff9f3b941b58cd07e787578e950e8bd5990ad9abbf4603442e69ec26d3476",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "app-dashboard",
+      "sourceId": "application-dashboard",
+      "sourceView": "applications",
+      "sourceFamily": "web-app",
+      "file": "assets/applications/app-dashboard.html",
+      "sha256": "f14ffcda12e6a8f11855711a7bcd0b16ade602710d8f0514d05622cae5147081",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "app-editor",
+      "sourceId": "application-editor",
+      "sourceView": "applications",
+      "sourceFamily": "web-app",
+      "file": "assets/applications/app-editor.html",
+      "sha256": "58f7ec08fc769deb4cec3d19fac66f6d9222f71d51c33b384879529f585247a5",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-overview-identity-crest",
+      "sourceId": "identity-crest",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-overview-identity-direction",
+      "sourceId": "identity-direction",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "logo-pair",
+      "sourceId": "logo-pair",
+      "sourceView": "library",
+      "sourceFamily": "logo",
+      "file": "assets/identity/logo_nhựa long thành.png",
+      "sha256": "2c36850ebc2bc0e305936836f4dd4bcb174f7c714e81711303bdbb5738afc6eb",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "poster",
+      "sourceId": "poster-moodboard",
+      "sourceView": "applications",
+      "sourceFamily": "production",
+      "file": "assets/applications/poster.html",
+      "sha256": "12043c5cb91258235d4870c49b2fc5cd52f2bcf1942aa02d49ecf57fedfe09fb",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "thumbnail",
+      "sourceId": "thumbnail-guideline",
+      "sourceView": "applications",
+      "sourceFamily": "production",
+      "file": "assets/applications/thumbnail.html",
+      "sha256": "c253cefd1664c7728bcd2b0c46ff68c84892241252faef10a53a9682a45633a2",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "image-style",
+      "sourceId": "image-style",
+      "sourceView": "applications",
+      "sourceFamily": "production",
+      "file": "assets/applications/image-style.html",
+      "sha256": "3c311896f2d49372dc34b0a8917065723fac110fbadcf8fb88606c968feed518",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "edit-treatment",
+      "sourceId": "edit-guideline",
+      "sourceView": "applications",
+      "sourceFamily": "production",
+      "file": "assets/applications/edit-treatment.html",
+      "sha256": "63d9868fb8244c783c7560a22f19e75cd0825420c0be4001760dbd5d109962d7",
+      "actualAddressProbed": true
+    },
+    {
+      "id": "overview",
+      "sourceId": "overview",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "identity",
+      "sourceId": "identity",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "type",
+      "sourceId": "type",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "colors",
+      "sourceId": "colors",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "spacing",
+      "sourceId": "spacing",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "icon-geometry",
+      "sourceId": "icon-geometry",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "body-rules",
+      "sourceId": "body-rules",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "relation-rules",
+      "sourceId": "relation-rules",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "component-rules",
+      "sourceId": "component-rules",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "layout-rules",
+      "sourceId": "layout-rules",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "motion-rules",
+      "sourceId": "motion-rules",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "source-overview-icon-clearance",
+      "sourceId": "icon-clearance",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "guidelines",
+      "sourceId": "guidelines",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "voice",
+      "sourceId": "voice",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "system-relationship",
+      "sourceId": "system-relationship",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "adapt",
+      "sourceId": "adapt",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    },
+    {
+      "id": "package-docs",
+      "sourceId": "package-docs",
+      "sourceView": "overview",
+      "sourceFamily": "rule-jobs",
+      "file": null,
+      "sha256": null,
+      "actualAddressProbed": true
+    }
+  ],
+  "scope": "Current exact source-role mapping plus actual DOM observations, not universal visual or rights approval."
+}

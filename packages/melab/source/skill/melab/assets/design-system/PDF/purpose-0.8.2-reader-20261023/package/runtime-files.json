@@ -1,0 +1,42 @@
+{
+  "schema": "design-runtime-files/v1",
+  "generated": true,
+  "doNotEdit": true,
+  "source": "Reviewed frozen template plus melab_sample_viewer.py and source-bound rendered preview manifest",
+  "files": {
+    "design-system.html": "045521564a67ad4416225a9f9090ce1e3d56a1c1e10c3ec58344296b3b531947",
+    "system.css": "6c311cbc472463305af727aeead6bd95e79e8ad29800e36e0544d16685f67e90",
+    "system.js": "aaf7154e6de75066f8a458c2df6a97141d038f0a487f78b68173e3e83ac8d118",
+    "elements/index.html": "654c9fbf1a0e6e9b158a780b8bed22869bf05b00686dc22d779935c655f55d24",
+    "elements/gallery.js": "4e30f22217176f5a2e914d65758aade4ba387af004186bd38d2019380a9164dc",
+    "body-keywords58.js": "57b2d2f3692a5369ebf3d86684ccb198693b64a299c49dd6ac2f5a3f56b8e979",
+    "slide-reader-policy.json": "b523c1c256dca6d7e63fa041c6838c6cd2ca97dd3bd492d90a3ae3bfe068808e",
+    "reader-guidance61.js": "67cdaf6766f75b909acaec9c78844852a2a47f4d099102409b4de36e7c4a2f11",
+    "reader-guidance61.css": "13f5d81416f4faff8a6e4e6e0b9d55e41025ef0725ce32dd3a250a664c9b6d8b",
+    "reader-guidance-binding.json": "867f6ae55d8f5d849aea1ad1aa35e4e98c116009dbddd94abef7d5d1cb2b888a",
+    "DesignBinding.json": "42b59ad475f8bd239053954cf19977a19467fc71556c210e6d98c2ece495da9b"
+  },
+  "shadow47Proposal": {
+    "version": "0.6.2-shadow-theory-review",
+    "source": "shadow47.model.json",
+    "sha256": "e9d12c849576c3155cd4318525bd52de0c2bba2eef8df0fedecb7d96497610ed",
+    "status": "inactive-proposal"
+  },
+  "bodyEmphasisRevision": {
+    "sourceHtmlSha256": "b6bda322efac07e636f07547ce04713f9155813b82d724e107b035f779d5e334",
+    "revision": "body-emphasis58",
+    "scope": "Task-local current-artifact derivative, not canonical registry activation/admission",
+    "bodyProjection": {
+      "path": "body-keywords58.js",
+      "sha256": "57b2d2f3692a5369ebf3d86684ccb198693b64a299c49dd6ac2f5a3f56b8e979"
+    }
+  },
+  "readerGuidanceRevision": {
+    "revision": "reader-guidance61",
+    "sourceHtmlSha256": "1182ed70f407fe6aca5ec4cd0e66fc8bcdd2c6880924816737327a6d4f184184",
+    "scope": "User-approved local artifact migration; no registry/site or full-library admission",
+    "policyFile": "slide-reader-policy.json",
+    "policySha256": "3c54533858c21037c30a08bfd15a993becfe471efd884cd4c425c362762cd89d"
+  },
+  "deliverySnapshot": true
+}

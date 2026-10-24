@@ -1,0 +1,957 @@
+{
+  "chart-bar": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-bar",
+    "kind": "bar",
+    "title": "Thanh ngang",
+    "purpose": "Số công việc: 8, 6, 10. Trục 0–12.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Tạo",
+        "value": "8"
+      },
+      {
+        "label": "Làm",
+        "value": "6"
+      },
+      {
+        "label": "Xong",
+        "value": "10"
+      }
+    ]
+  },
+  "chart-column": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-column",
+    "kind": "column",
+    "title": "Cột theo kỳ",
+    "purpose": "Ba kỳ: 4, 7, 9. Trục 0–10.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Giá trị minh họa; nguồn chưa xác định đơn vị đo cụ thể.",
+    "rows": [
+      {
+        "label": "T1",
+        "value": "4"
+      },
+      {
+        "label": "T2",
+        "value": "7"
+      },
+      {
+        "label": "T3",
+        "value": "9"
+      }
+    ]
+  },
+  "chart-line": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-line",
+    "kind": "line",
+    "title": "Đường xu hướng",
+    "purpose": "Bốn kỳ: 2, 5, 4, 9. Trục 0–10.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Giá trị minh họa; nguồn chưa xác định đơn vị đo cụ thể.",
+    "rows": [
+      {
+        "label": "T1",
+        "value": "2"
+      },
+      {
+        "label": "T2",
+        "value": "5"
+      },
+      {
+        "label": "T3",
+        "value": "4"
+      },
+      {
+        "label": "T4",
+        "value": "9"
+      }
+    ]
+  },
+  "chart-area": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-area",
+    "kind": "area",
+    "title": "Vùng theo thời gian",
+    "purpose": "Cùng chuỗi 2, 5, 4, 9; nền vùng giữ đường rõ.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Giá trị minh họa; nguồn chưa xác định đơn vị đo cụ thể.",
+    "rows": [
+      {
+        "label": "T1",
+        "value": "2"
+      },
+      {
+        "label": "T2",
+        "value": "5"
+      },
+      {
+        "label": "T3",
+        "value": "4"
+      },
+      {
+        "label": "T4",
+        "value": "9"
+      }
+    ]
+  },
+  "chart-donut": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-donut",
+    "kind": "donut",
+    "title": "Vòng cơ cấu",
+    "purpose": "Xong 60, còn 40; tổng 100.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Xong",
+        "value": "60%"
+      },
+      {
+        "label": "Còn",
+        "value": "40%"
+      }
+    ]
+  },
+  "chart-stack": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-stack",
+    "kind": "stack",
+    "title": "Thanh cơ cấu 100%",
+    "purpose": "Hai nhóm 60% và 40%; không dùng cho số tuyệt đối.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Nhóm A",
+        "value": "60%"
+      },
+      {
+        "label": "Nhóm B",
+        "value": "40%"
+      }
+    ]
+  },
+  "chart-scatter": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-scatter",
+    "kind": "scatter",
+    "title": "Phân tán hai biến",
+    "purpose": "Năm cặp x/y; hai trục 0–10. Không suy quan hệ nhân quả.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Giá trị minh họa; nguồn chưa xác định đơn vị đo cụ thể.",
+    "rows": [
+      {
+        "label": "x = 1",
+        "value": "y = 2"
+      },
+      {
+        "label": "x = 3",
+        "value": "y = 4"
+      },
+      {
+        "label": "x = 4",
+        "value": "y = 3"
+      },
+      {
+        "label": "x = 6",
+        "value": "y = 7"
+      },
+      {
+        "label": "x = 8",
+        "value": "y = 6"
+      }
+    ]
+  },
+  "chart-pie": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-pie",
+    "kind": "pie",
+    "title": "Tròn cơ cấu",
+    "purpose": "Hai phần 60 và 40, tổng 100; nhãn ghi trực tiếp tỷ lệ.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Nhóm A",
+        "value": "60%"
+      },
+      {
+        "label": "Nhóm B",
+        "value": "40%"
+      }
+    ]
+  },
+  "chart-histogram": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-histogram",
+    "kind": "histogram",
+    "title": "Phân bố theo khoảng",
+    "purpose": "Ba khoảng bằng nhau: 0–10 có 2, 10–20 có 5, 20–30 có 3 quan sát.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Giá trị minh họa; nguồn chưa xác định đơn vị đo cụ thể.",
+    "rows": [
+      {
+        "label": "0 ≤ x < 10",
+        "value": "2 quan sát"
+      },
+      {
+        "label": "10 ≤ x < 20",
+        "value": "5 quan sát"
+      },
+      {
+        "label": "20 ≤ x ≤ 30",
+        "value": "3 quan sát"
+      }
+    ]
+  },
+  "chart-box": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-box",
+    "kind": "box",
+    "title": "Hộp và khoảng biến thiên",
+    "purpose": "Tóm tắt mẫu: nhỏ nhất 2, tứ phân vị 4 và 8, trung vị 6, lớn nhất 10.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Giá trị minh họa; nguồn chưa xác định đơn vị đo cụ thể.",
+    "rows": [
+      {
+        "label": "Nhỏ nhất",
+        "value": "2"
+      },
+      {
+        "label": "Tứ phân vị dưới",
+        "value": "4"
+      },
+      {
+        "label": "Trung vị",
+        "value": "6"
+      },
+      {
+        "label": "Tứ phân vị trên",
+        "value": "8"
+      },
+      {
+        "label": "Lớn nhất",
+        "value": "10"
+      }
+    ]
+  },
+  "chart-waterfall": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-waterfall",
+    "kind": "waterfall",
+    "title": "Đóng góp tăng và giảm",
+    "purpose": "Bắt đầu 8, thêm 4, bớt 2, kết thúc 10. Giữ dấu tăng/giảm.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Giá trị minh họa; nguồn chưa xác định đơn vị đo cụ thể.",
+    "rows": [
+      {
+        "label": "Bắt đầu",
+        "value": "8"
+      },
+      {
+        "label": "Thêm",
+        "value": "+4 → 12"
+      },
+      {
+        "label": "Bớt",
+        "value": "−2 → 10"
+      },
+      {
+        "label": "Kết thúc",
+        "value": "10"
+      }
+    ]
+  },
+  "chart-heatmap": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-heatmap",
+    "kind": "heatmap",
+    "title": "Ma trận có giá trị",
+    "purpose": "Hai nhóm, ba kỳ; mỗi ô giữ số. Màu hỗ trợ đọc, không thay số.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Giá trị minh họa; nguồn chưa xác định đơn vị đo cụ thể.",
+    "rows": [
+      {
+        "label": "Nhóm A · T1",
+        "value": "2"
+      },
+      {
+        "label": "Nhóm A · T2",
+        "value": "5"
+      },
+      {
+        "label": "Nhóm A · T3",
+        "value": "8"
+      },
+      {
+        "label": "Nhóm B · T1",
+        "value": "6"
+      },
+      {
+        "label": "Nhóm B · T2",
+        "value": "3"
+      },
+      {
+        "label": "Nhóm B · T3",
+        "value": "7"
+      }
+    ]
+  },
+  "chart-progress-ring": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-progress-ring",
+    "kind": "progress-ring",
+    "title": "Vòng tiến độ",
+    "purpose": "Hoàn tất 6 trên 10 mục; tỷ lệ 60%.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Hoàn tất",
+        "value": "6 mục"
+      },
+      {
+        "label": "Tổng",
+        "value": "10 mục"
+      },
+      {
+        "label": "Tỷ lệ",
+        "value": "60%"
+      }
+    ]
+  },
+  "chart-stacked-absolute": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-stacked-absolute",
+    "kind": "stacked-absolute",
+    "title": "Thanh chồng số tuyệt đối",
+    "purpose": "A có 4+6=10; B có 3+5=8 mục.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "A · Đọc",
+        "value": "4 mục"
+      },
+      {
+        "label": "A · Dựng",
+        "value": "6 mục"
+      },
+      {
+        "label": "B · Đọc",
+        "value": "3 mục"
+      },
+      {
+        "label": "B · Dựng",
+        "value": "5 mục"
+      }
+    ]
+  },
+  "chart-funnel": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-funnel",
+    "kind": "funnel",
+    "title": "Phễu theo bước",
+    "purpose": "Cùng một nhóm:20→12→6 mục qua ba bước.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Tiếp nhận",
+        "value": "20 mục"
+      },
+      {
+        "label": "Xử lý",
+        "value": "12 mục"
+      },
+      {
+        "label": "Hoàn tất",
+        "value": "6 mục"
+      }
+    ]
+  },
+  "chart-treemap": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-treemap",
+    "kind": "treemap",
+    "title": "Ô diện tích cơ cấu",
+    "purpose": "Ba phần 50,30,20 mục; tổng 100.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "A",
+        "value": "50 mục"
+      },
+      {
+        "label": "B",
+        "value": "30 mục"
+      },
+      {
+        "label": "C",
+        "value": "20 mục"
+      }
+    ]
+  },
+  "chart-diverging": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-diverging",
+    "kind": "diverging",
+    "title": "Thanh hai phía",
+    "purpose": "Thay đổi: A−4; B+6; C−2; D+3 mục.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "A",
+        "value": "−4 mục"
+      },
+      {
+        "label": "B",
+        "value": "+6 mục"
+      },
+      {
+        "label": "C",
+        "value": "−2 mục"
+      },
+      {
+        "label": "D",
+        "value": "+3 mục"
+      }
+    ]
+  },
+  "chart-gantt": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-gantt",
+    "kind": "gantt",
+    "title": "Lịch công việc",
+    "purpose": "A ngày 1–3; B ngày 3–6; C ngày 5–8.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "A",
+        "value": "Ngày 1–3"
+      },
+      {
+        "label": "B",
+        "value": "Ngày 3–6"
+      },
+      {
+        "label": "C",
+        "value": "Ngày 5–8"
+      }
+    ]
+  },
+  "chart-grouped": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-grouped",
+    "kind": "grouped",
+    "title": "Cột theo nhóm",
+    "purpose": "A:4/7; B:6/5; C:3/8 mục cho Đọc/Dựng.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "A · Đọc/Dựng",
+        "value": "4 / 7 mục"
+      },
+      {
+        "label": "B · Đọc/Dựng",
+        "value": "6 / 5 mục"
+      },
+      {
+        "label": "C · Đọc/Dựng",
+        "value": "3 / 8 mục"
+      }
+    ]
+  },
+  "chart-combo": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-combo",
+    "kind": "combo",
+    "title": "Cột và đường cùng trục",
+    "purpose": "Số tiếp nhận 4/7/9; số hoàn tất 3/5/8 mục.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Kỳ 1 · Nhận/Xong",
+        "value": "4 / 3 mục"
+      },
+      {
+        "label": "Kỳ 2 · Nhận/Xong",
+        "value": "7 / 5 mục"
+      },
+      {
+        "label": "Kỳ 3 · Nhận/Xong",
+        "value": "9 / 8 mục"
+      }
+    ]
+  },
+  "chart-slope": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-slope",
+    "kind": "slope",
+    "title": "Độ dốc giữa hai kỳ",
+    "purpose": "A 4→7; B 8→6; C 2→5 mục.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "A",
+        "value": "4→7 mục"
+      },
+      {
+        "label": "B",
+        "value": "8→6 mục"
+      },
+      {
+        "label": "C",
+        "value": "2→5 mục"
+      }
+    ]
+  },
+  "chart-dumbbell": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-dumbbell",
+    "kind": "dumbbell",
+    "title": "Hai đầu theo nhóm",
+    "purpose": "A 3→7; B 5→8; C 2→6 mục.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "A",
+        "value": "3→7 mục"
+      },
+      {
+        "label": "B",
+        "value": "5→8 mục"
+      },
+      {
+        "label": "C",
+        "value": "2→6 mục"
+      }
+    ]
+  },
+  "chart-bullet": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-bullet",
+    "kind": "bullet",
+    "title": "Thực tế và mục tiêu",
+    "purpose": "Thực tế 7; mục tiêu 9; thang 0–12 mục.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Thực tế",
+        "value": "7 mục"
+      },
+      {
+        "label": "Mục tiêu",
+        "value": "9 mục"
+      },
+      {
+        "label": "Thang đo",
+        "value": "0–12 mục"
+      }
+    ]
+  },
+  "chart-lollipop": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-lollipop",
+    "kind": "lollipop",
+    "title": "Chấm có trục so sánh",
+    "purpose": "A 4; B 7; C 9 mục; trục 0–10.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "A",
+        "value": "4 mục"
+      },
+      {
+        "label": "B",
+        "value": "7 mục"
+      },
+      {
+        "label": "C",
+        "value": "9 mục"
+      }
+    ]
+  },
+  "chart-sparklines": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-sparklines",
+    "kind": "sparklines",
+    "title": "Đường nhỏ theo nhóm",
+    "purpose": "A 2/4/3/6; B 5/3/4/7 mục; cùng thang 0–10.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "A · Kỳ 1–4",
+        "value": "2 / 4 / 3 / 6 mục"
+      },
+      {
+        "label": "B · Kỳ 1–4",
+        "value": "5 / 3 / 4 / 7 mục"
+      }
+    ]
+  },
+  "chart-calendar-density": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-calendar-density",
+    "kind": "calendar-density",
+    "title": "Lịch có giá trị",
+    "purpose": "Ba tuần minh họa, mỗi ngày 0–4 mục.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Ngày1",
+        "value": "0 mục"
+      },
+      {
+        "label": "Ngày2",
+        "value": "3 mục"
+      },
+      {
+        "label": "Ngày3",
+        "value": "1 mục"
+      },
+      {
+        "label": "Ngày4",
+        "value": "4 mục"
+      },
+      {
+        "label": "Ngày5",
+        "value": "2 mục"
+      },
+      {
+        "label": "Ngày6",
+        "value": "0 mục"
+      },
+      {
+        "label": "Ngày7",
+        "value": "3 mục"
+      },
+      {
+        "label": "Ngày8",
+        "value": "1 mục"
+      },
+      {
+        "label": "Ngày9",
+        "value": "4 mục"
+      },
+      {
+        "label": "Ngày10",
+        "value": "2 mục"
+      },
+      {
+        "label": "Ngày11",
+        "value": "0 mục"
+      },
+      {
+        "label": "Ngày12",
+        "value": "3 mục"
+      },
+      {
+        "label": "Ngày13",
+        "value": "1 mục"
+      },
+      {
+        "label": "Ngày14",
+        "value": "4 mục"
+      },
+      {
+        "label": "Ngày15",
+        "value": "2 mục"
+      },
+      {
+        "label": "Ngày16",
+        "value": "0 mục"
+      },
+      {
+        "label": "Ngày17",
+        "value": "3 mục"
+      },
+      {
+        "label": "Ngày18",
+        "value": "1 mục"
+      },
+      {
+        "label": "Ngày19",
+        "value": "4 mục"
+      },
+      {
+        "label": "Ngày20",
+        "value": "2 mục"
+      },
+      {
+        "label": "Ngày21",
+        "value": "0 mục"
+      }
+    ]
+  },
+  "chart-state-timeline": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-state-timeline",
+    "kind": "state-timeline",
+    "title": "Dải trạng thái theo thời gian",
+    "purpose": "Ngày 1–2 Chờ;3–5 Làm;6–8 Kiểm.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Chờ",
+        "value": "Ngày 1–2"
+      },
+      {
+        "label": "Làm",
+        "value": "Ngày 3–5"
+      },
+      {
+        "label": "Kiểm",
+        "value": "Ngày 6–8"
+      }
+    ]
+  },
+  "chart-cohort": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-cohort",
+    "kind": "cohort",
+    "title": "Giữ lại theo nhóm bắt đầu",
+    "purpose": "Ba nhóm; tỷ lệ ở kỳ 0 luôn 100%.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Nhóm A · Kỳ 0/1/2",
+        "value": "100 / 70 / 50%"
+      },
+      {
+        "label": "Nhóm B · Kỳ 0/1",
+        "value": "100 / 80%"
+      },
+      {
+        "label": "Nhóm C · Kỳ 0",
+        "value": "100%"
+      }
+    ]
+  },
+  "chart-dependency-network": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-dependency-network",
+    "kind": "dependency-network",
+    "title": "Quan hệ phụ thuộc",
+    "purpose": "A→B; A→C; B→D; C→D.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Cạnh",
+        "value": "A→B"
+      },
+      {
+        "label": "Cạnh",
+        "value": "A→C"
+      },
+      {
+        "label": "Cạnh",
+        "value": "B→D"
+      },
+      {
+        "label": "Cạnh",
+        "value": "C→D"
+      }
+    ]
+  },
+  "chart-sankey": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-sankey",
+    "kind": "sankey",
+    "title": "Luồng có lượng",
+    "purpose": "A 10 mục chia thành B 6 và C 4.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "A→B",
+        "value": "6 mục"
+      },
+      {
+        "label": "A→C",
+        "value": "4 mục"
+      },
+      {
+        "label": "Tổng vào/ra",
+        "value": "10 / 10 mục"
+      }
+    ]
+  },
+  "chart-parallel": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-parallel",
+    "kind": "parallel",
+    "title": "Nhiều tiêu chí song song",
+    "purpose": "Ba tiêu chí đều thang 0–10 điểm; hai nhóm A/B.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "A · X/Y/Z",
+        "value": "2 / 8 / 4"
+      },
+      {
+        "label": "B · X/Y/Z",
+        "value": "7 / 3 / 9"
+      }
+    ]
+  },
+  "chart-candlestick": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-candlestick",
+    "kind": "candlestick",
+    "title": "Nến khoảng và hai thời điểm",
+    "purpose": "Ba kỳ; mở/cao/thấp/đóng trên thang 0–10 điểm minh họa.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Kỳ 1 · Mở/Cao/Thấp/Đóng",
+        "value": "4 / 8 / 2 / 6"
+      },
+      {
+        "label": "Kỳ 2 · Mở/Cao/Thấp/Đóng",
+        "value": "6 / 9 / 3 / 5"
+      },
+      {
+        "label": "Kỳ 3 · Mở/Cao/Thấp/Đóng",
+        "value": "5 / 10 / 4 / 8"
+      }
+    ]
+  },
+  "chart-regional-map": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-regional-map",
+    "kind": "regional-map",
+    "title": "Bản đồ vùng sơ đồ",
+    "purpose": "Ba vùng A 4; B 7; C 2 mục. Hình không theo địa lý thật.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Vùng A",
+        "value": "4 mục"
+      },
+      {
+        "label": "Vùng B",
+        "value": "7 mục"
+      },
+      {
+        "label": "Vùng C",
+        "value": "2 mục"
+      }
+    ]
+  },
+  "chart-kpi-table": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-kpi-table",
+    "kind": "kpi-table",
+    "title": "Chỉ số và bảng chi tiết",
+    "purpose": "Tổng 15 mục = Đọc 6 + Dựng 5 + Kiểm 4.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Tổng",
+        "value": "15 mục"
+      },
+      {
+        "label": "Đọc",
+        "value": "6 mục"
+      },
+      {
+        "label": "Dựng",
+        "value": "5 mục"
+      },
+      {
+        "label": "Kiểm",
+        "value": "4 mục"
+      }
+    ]
+  },
+  "chart-monitored-series": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-monitored-series",
+    "kind": "monitored-series",
+    "title": "Chuỗi có ngưỡng theo dõi",
+    "purpose": "Bốn kỳ 2/5/4/8; ngưỡng 6 mục.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Kỳ 1–4",
+        "value": "2 / 5 / 4 / 8 mục"
+      },
+      {
+        "label": "Ngưỡng",
+        "value": "6 mục"
+      }
+    ]
+  },
+  "chart-decision-tree": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-decision-tree",
+    "kind": "decision-tree",
+    "title": "Cây lựa chọn",
+    "purpose": "Hai điều kiện: có nguồn và cần duyệt; ba hướng đi.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Chưa có nguồn",
+        "value": "Bổ sung"
+      },
+      {
+        "label": "Có nguồn · Cần duyệt",
+        "value": "Xin duyệt"
+      },
+      {
+        "label": "Có nguồn · Không cần duyệt",
+        "value": "Dựng"
+      }
+    ]
+  },
+  "chart-journey-comparison": {
+    "schema": "reviewed-native-chart-example/v1",
+    "id": "chart-journey-comparison",
+    "kind": "journey-comparison",
+    "title": "Hành trình theo bước",
+    "purpose": "Ba bước; đối chiếu hành động, điểm khó và cách cải thiện.",
+    "limits": "Dữ liệu minh họa có giới hạn; kiểm lại nội dung mới và từng đầu ra. Không tự đăng ký hay công bố.",
+    "unitNote": "Đơn vị và phạm vi giữ nguyên như từng giá trị nguồn.",
+    "rows": [
+      {
+        "label": "Đọc",
+        "value": "Đọc tài liệu / Thiếu nguồn / Bổ sung nguồn"
+      },
+      {
+        "label": "Dựng",
+        "value": "Dựng mẫu / Vai trò chưa rõ / Ánh xạ vai trò"
+      },
+      {
+        "label": "Kiểm",
+        "value": "Kiểm đầu ra / Lỗi hiển thị / Sửa lại"
+      }
+    ]
+  }
+}

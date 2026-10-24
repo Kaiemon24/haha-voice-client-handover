@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "long-thanh-native-runtime-files/v1",
+  "generated": true,
+  "doNotEdit": true,
+  "source": "Current own-authored native package root dependency closure; immutable asset dependencies remain in model.showcaseFiles.",
+  "files": {
+    "design-system.html": "54371c2ab2b775f563c535e6e366c65d0969ee6f0b94a3071f10db470deb476c",
+    "system.css": "7a7fe0bd296e6a37df39a1c73b2ed79f7346361a7fa7a89bacd63e283a42fe39",
+    "system.js": "0c354abc702e9c669b56899b5f1d5e68dc713b097bae192579c831b5674be0c5",
+    "elements/index.html": "1719bb8b153fdb1d3581e937afb9c644bba2d2909b174c34fa3178aaa2b335a5",
+    "elements/gallery.js": "3308e7e9e34fe0fbf6d9051a007d4303aecd6029ab6ce3283b8c4b058a6d0a56",
+    "compact-design.css": "1cd403e322eb36c17aaf167247fb4a96674b0844babec592c2515f429bcf87e5",
+    "compact-design.js": "5f12098abb734883e58e005c60c30dec7ef29dd72b18bd5adf382c885566ddc6",
+    "compact-effects.js": "c105f62447b9bfda935067456ef7ef3309cc916a838467dece5e340d1d9553bf",
+    "compact-guidelines.js": "9bacf39fcb9b4263df1b35df1921e38101218f42bd6caf24c905a06cf603f3e0",
+    "native-binding.js": "a5835ca84ca766a3e877af5ec343432f9764bdaf03d8a44646d8b838a06f7a9c",
+    "reader-guidance61.js": "953be93bc10ed67d1909f06397f68ea836e02490a48a807c09e401109c1bbdb8",
+    "reader-guidance61.css": "9c2d6c05784240a745a91b73e9a729aac4ca9519b3fe81b6e0f862d366960a10",
+    "component-map.json": "b18a58353e20dae257c3ad8b6ff9007a6b4ac19e08c7eca728b16bb4441cdbdb",
+    "data.js": "84a48e3176e6bca273577ee64863a924ca8aba05531c5a34a20be723d3fb8555",
+    "elements/data.js": "504bbf38af21727bd550b6a9f2e370b27c4e1693af000b1f337dc6008d5729ee",
+    "elements/manifest.json": "9f6c94e52c2f9ea91e175d80db2b5006d0af21fb9a27cd031642bcd1c8893c70"
+  },
+  "deliverySnapshot": true
+}

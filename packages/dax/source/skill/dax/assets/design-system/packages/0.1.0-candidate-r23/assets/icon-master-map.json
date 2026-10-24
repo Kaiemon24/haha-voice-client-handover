@@ -1,0 +1,860 @@
+{
+  "schemaVersion": "dax-icon-master-map/v1",
+  "countUnit": "unique-geometry-primary",
+  "sourceRoleCount": 131,
+  "primaryMasterCount": 120,
+  "masters": [
+    {
+      "sha256": "1b48ecfc6d35d5313bc35c582bc7bda6e169141a55776ffb3a4e72b4a478f3d4",
+      "canonicalId": "dax-icon-square-1",
+      "roleVariantIds": [
+        "dax-icon-square-1"
+      ]
+    },
+    {
+      "sha256": "2ace7c206a06522fe18f3268784e0e97c2912b4f1b3fa020c154db54bd3ba022",
+      "canonicalId": "dax-icon-square-2",
+      "roleVariantIds": [
+        "dax-icon-square-2"
+      ]
+    },
+    {
+      "sha256": "3d449e931d4828aaa5afc90262d21be742142b7139a0364b6b1c5ce96b14f9de",
+      "canonicalId": "dax-icon-file-3",
+      "roleVariantIds": [
+        "dax-icon-file-3"
+      ]
+    },
+    {
+      "sha256": "def97e84ffc85d828622ad3ed244a65319ba2d9522c3fdcd10e2533cd60701f0",
+      "canonicalId": "dax-icon-house-4",
+      "roleVariantIds": [
+        "dax-icon-house-4"
+      ]
+    },
+    {
+      "sha256": "df6b9d2f41f79d1d36ce7b2299807756466adf2d87dfebabe2e1e4c93b67f521",
+      "canonicalId": "dax-icon-arrowleft-5",
+      "roleVariantIds": [
+        "dax-icon-arrowleft-5"
+      ]
+    },
+    {
+      "sha256": "e9ca617d0cb7f4edac0ff438768b2248157209e8c72d116bd21dbab7749ae519",
+      "canonicalId": "dax-icon-arrowright-6",
+      "roleVariantIds": [
+        "dax-icon-arrowright-6"
+      ]
+    },
+    {
+      "sha256": "5592e2a57864f9a552719507f4021987a94b380c4e63b77862f8aee208ba3318",
+      "canonicalId": "dax-icon-arrowup-7",
+      "roleVariantIds": [
+        "dax-icon-arrowup-7"
+      ]
+    },
+    {
+      "sha256": "cf16a064eba911154c6ce6c28fa397f8356ce518af32513183aeaea0b92532fa",
+      "canonicalId": "dax-icon-arrowdown-8",
+      "roleVariantIds": [
+        "dax-icon-arrowdown-8"
+      ]
+    },
+    {
+      "sha256": "ee2cd2a38e46d87c7ff240507a97baba41fbc1de3084ef2d50b7026f9176beb6",
+      "canonicalId": "dax-icon-menu-9",
+      "roleVariantIds": [
+        "dax-icon-menu-9"
+      ]
+    },
+    {
+      "sha256": "fe62393de0345f6251d9df34cba593ba24a45aafd5f347a80b113f3329be05b4",
+      "canonicalId": "dax-icon-maximize-10",
+      "roleVariantIds": [
+        "dax-icon-maximize-10"
+      ]
+    },
+    {
+      "sha256": "8c44c74d5fa351c70294e183e68a49534f9c59d263019a36334263ed19b1eee2",
+      "canonicalId": "dax-icon-minimize-11",
+      "roleVariantIds": [
+        "dax-icon-minimize-11"
+      ]
+    },
+    {
+      "sha256": "f6f119e45f1b0bfb9fbdc2e2fdaf6a0e72cdc5e2f8eafee4280361bfbd3e3a63",
+      "canonicalId": "dax-icon-plus-12",
+      "roleVariantIds": [
+        "dax-icon-plus-12"
+      ]
+    },
+    {
+      "sha256": "42c9566b9037845293d6f9c570b2c217174422fb0da654b54c4643d20248b13a",
+      "canonicalId": "dax-icon-pencil-13",
+      "roleVariantIds": [
+        "dax-icon-pencil-13"
+      ]
+    },
+    {
+      "sha256": "ad9bc0bf04b17d5b4c6430d71d0f2188d2c37e3eaf0f0b0dce64ad8b4784d12a",
+      "canonicalId": "dax-icon-trash2-14",
+      "roleVariantIds": [
+        "dax-icon-trash2-14"
+      ]
+    },
+    {
+      "sha256": "12f1d60c9b13783e9ed7aac8008a600e7a31e201f46c99a9721fd04b26ff96eb",
+      "canonicalId": "dax-icon-copy-15",
+      "roleVariantIds": [
+        "dax-icon-copy-15"
+      ]
+    },
+    {
+      "sha256": "71e1aab211ae9e1e9aa57591667923329b3b3c4cfdc8a77797c0f6d8502abcb0",
+      "canonicalId": "dax-icon-save-16",
+      "roleVariantIds": [
+        "dax-icon-save-16"
+      ]
+    },
+    {
+      "sha256": "5935677479f7234d6c700afe06297a2f6bb0f8545707bc0c5e7d77ddd9f2efa6",
+      "canonicalId": "dax-icon-download-17",
+      "roleVariantIds": [
+        "dax-icon-download-17"
+      ]
+    },
+    {
+      "sha256": "d58038d0de80c1049881f023565bf5edb34df50e33e9c805759c58476712e28e",
+      "canonicalId": "dax-icon-upload-18",
+      "roleVariantIds": [
+        "dax-icon-upload-18"
+      ]
+    },
+    {
+      "sha256": "df93205e97a364129a7ebac6b5b3c95fa3729950e39596ae31f4e9224a56cc89",
+      "canonicalId": "dax-icon-share2-19",
+      "roleVariantIds": [
+        "dax-icon-share2-19"
+      ]
+    },
+    {
+      "sha256": "fee2b84ada4ceb28e03db90f7340b9d4986f71ae30c42ae41e32a4698ba12a46",
+      "canonicalId": "dax-icon-search-20",
+      "roleVariantIds": [
+        "dax-icon-search-20"
+      ]
+    },
+    {
+      "sha256": "ca31bd1f6a59f15f0fbcae1baa207fdeed8da12e701105e7021b993c7d177214",
+      "canonicalId": "dax-icon-listfilter-21",
+      "roleVariantIds": [
+        "dax-icon-listfilter-21"
+      ]
+    },
+    {
+      "sha256": "6c4cf189841e000a3bbaf47617f270bf922831b92fdd9b332f27216fba79e60b",
+      "canonicalId": "dax-icon-arrowdownup-22",
+      "roleVariantIds": [
+        "dax-icon-arrowdownup-22"
+      ]
+    },
+    {
+      "sha256": "99efe254bd03f4baffb1b2e709c044f72da3983769abf3d317d4e946e911ba53",
+      "canonicalId": "dax-icon-layoutgrid-23",
+      "roleVariantIds": [
+        "dax-icon-layoutgrid-23"
+      ]
+    },
+    {
+      "sha256": "fb1033d6116946a8bab66e2547720204f27d1e93fe6a13ecd495d62dcc1163c4",
+      "canonicalId": "dax-icon-list-24",
+      "roleVariantIds": [
+        "dax-icon-list-24"
+      ]
+    },
+    {
+      "sha256": "b5b7ecd611c41b4852c3311d2a060f81d787e8fb2625846f244ac7d8ad52a15d",
+      "canonicalId": "dax-icon-zoomin-25",
+      "roleVariantIds": [
+        "dax-icon-zoomin-25"
+      ]
+    },
+    {
+      "sha256": "bc8fbd5dca78e07e48a4efbaa5111f7244989e294c0fc9bdcbbb2d09e94008c2",
+      "canonicalId": "dax-icon-zoomout-26",
+      "roleVariantIds": [
+        "dax-icon-zoomout-26"
+      ]
+    },
+    {
+      "sha256": "139f5dfa0ab57f690e78fa19847705f6e932aee850d86674e566c57190b7bc59",
+      "canonicalId": "dax-icon-eye-27",
+      "roleVariantIds": [
+        "dax-icon-eye-27"
+      ]
+    },
+    {
+      "sha256": "3589c03aacf8803c09508101c4cc10f30726df3dc2a7d789fa6741aab7d47eb2",
+      "canonicalId": "dax-icon-circlecheck-28",
+      "roleVariantIds": [
+        "dax-icon-circlecheck-28",
+        "dax-icon-circlecheck-59"
+      ]
+    },
+    {
+      "sha256": "84ea1b838a65360d792332f8b3e27e7042cb3a55ee99b4e293bf15e8f9a2f93a",
+      "canonicalId": "dax-icon-trianglealert-29",
+      "roleVariantIds": [
+        "dax-icon-trianglealert-29"
+      ]
+    },
+    {
+      "sha256": "23ad5925d6f1c14b0272ecd5d853c73fa7680cb8851d88d71cec172c1424e08f",
+      "canonicalId": "dax-icon-circlex-30",
+      "roleVariantIds": [
+        "dax-icon-circlex-30"
+      ]
+    },
+    {
+      "sha256": "24b31416689743df733055fd65296094d22b62d3da8e837fe24b70842928d0ad",
+      "canonicalId": "dax-icon-info-31",
+      "roleVariantIds": [
+        "dax-icon-info-31"
+      ]
+    },
+    {
+      "sha256": "fb79f927b769248c0a61d44de7bf008eb68c0c9fcc847c2519c7e64b785502ca",
+      "canonicalId": "dax-icon-loadercircle-32",
+      "roleVariantIds": [
+        "dax-icon-loadercircle-32"
+      ]
+    },
+    {
+      "sha256": "7be3ce967ac5d70430a0443ff9a35b36d0dda9e117fdd0b0770cb07e1a9690f8",
+      "canonicalId": "dax-icon-circlehelp-33",
+      "roleVariantIds": [
+        "dax-icon-circlehelp-33"
+      ]
+    },
+    {
+      "sha256": "f9a9a02430a571920b82f71c8a8bd066199f7129df0197608ab80d11164baaca",
+      "canonicalId": "dax-icon-ban-34",
+      "roleVariantIds": [
+        "dax-icon-ban-34"
+      ]
+    },
+    {
+      "sha256": "b3cae7245fe0c94fa069dedf0724bb7310cce0ed6533bf6b221c0f7a82f2d777",
+      "canonicalId": "dax-icon-clock-35",
+      "roleVariantIds": [
+        "dax-icon-clock-35",
+        "dax-icon-clock-58"
+      ]
+    },
+    {
+      "sha256": "68ae6e56cc7016a46e2d1ffb27772a3932b259c92713eb411b8405c2d40560fd",
+      "canonicalId": "dax-icon-filetext-36",
+      "roleVariantIds": [
+        "dax-icon-filetext-36",
+        "dax-icon-filetext-128"
+      ]
+    },
+    {
+      "sha256": "91c1a8c4f24fd35959305f04f4ff723224453d7564cb45a8a38b2d8f22b45e9a",
+      "canonicalId": "dax-icon-folder-37",
+      "roleVariantIds": [
+        "dax-icon-folder-37"
+      ]
+    },
+    {
+      "sha256": "b74bd6457b8c9b10b1e86ef5f8a1ee9a369cbe447078b12f7e2229224c566b17",
+      "canonicalId": "dax-icon-type-38",
+      "roleVariantIds": [
+        "dax-icon-type-38"
+      ]
+    },
+    {
+      "sha256": "ac8d22fc7960794834cf69adb87b087278ca2a302d1bb0f88f1350c4a111cdfb",
+      "canonicalId": "dax-icon-image-39",
+      "roleVariantIds": [
+        "dax-icon-image-39"
+      ]
+    },
+    {
+      "sha256": "ea8d4c27cb5bb60e1e50a38579898128929adc34a22c803740680853938a0e11",
+      "canonicalId": "dax-icon-video-40",
+      "roleVariantIds": [
+        "dax-icon-video-40",
+        "dax-icon-video-50",
+        "dax-icon-video-127"
+      ]
+    },
+    {
+      "sha256": "20ed98cd94fe68f26e9d6c7a1e45ef547aa9ce11e6bb0160dc293f715c4b0501",
+      "canonicalId": "dax-icon-volume2-41",
+      "roleVariantIds": [
+        "dax-icon-volume2-41"
+      ]
+    },
+    {
+      "sha256": "a8af3e363726283f75f5054670738939ec539c91d88c858ff0232b62814939ef",
+      "canonicalId": "dax-icon-archive-42",
+      "roleVariantIds": [
+        "dax-icon-archive-42"
+      ]
+    },
+    {
+      "sha256": "b5290cb3fa87bf3cf176f517172adfd64ab2f58aa7435353cf317c7408e38f3c",
+      "canonicalId": "dax-icon-link-43",
+      "roleVariantIds": [
+        "dax-icon-link-43"
+      ]
+    },
+    {
+      "sha256": "2d9fe82fc3b1d79db1e1057c9331f4c8884025bb1445ad4d6c6cb55f5f43cfa1",
+      "canonicalId": "dax-icon-user-44",
+      "roleVariantIds": [
+        "dax-icon-user-44"
+      ]
+    },
+    {
+      "sha256": "971d8f989cad90575b058de317451b82f5c823a32cae32ae5ec2d1c669c40af3",
+      "canonicalId": "dax-icon-users-45",
+      "roleVariantIds": [
+        "dax-icon-users-45"
+      ]
+    },
+    {
+      "sha256": "4635754b1b4431d6ec2ef8186342dbf43acf5f48f861977cb17c5ea469268441",
+      "canonicalId": "dax-icon-mail-46",
+      "roleVariantIds": [
+        "dax-icon-mail-46"
+      ]
+    },
+    {
+      "sha256": "7fd04c336e9df2284d7abf32a5fb0bb8c8f29b8663fa86d36c054627392535a8",
+      "canonicalId": "dax-icon-messagecircle-47",
+      "roleVariantIds": [
+        "dax-icon-messagecircle-47"
+      ]
+    },
+    {
+      "sha256": "a9881487bf230c18c36337d163e503079d6ee108f7a08dc9a4e5738a7688ccb5",
+      "canonicalId": "dax-icon-bell-48",
+      "roleVariantIds": [
+        "dax-icon-bell-48"
+      ]
+    },
+    {
+      "sha256": "109e73e6a6d8ee6714828405cce0cc8687de57af60917db40accf33dae4c9a1a",
+      "canonicalId": "dax-icon-calendar-49",
+      "roleVariantIds": [
+        "dax-icon-calendar-49"
+      ]
+    },
+    {
+      "sha256": "74b2a29352dddaff806a42968f387757a966de6ab57480585e6f11ab9ef6d1b0",
+      "canonicalId": "dax-icon-contact-51",
+      "roleVariantIds": [
+        "dax-icon-contact-51"
+      ]
+    },
+    {
+      "sha256": "675941ef51775c3d3f5a27cde72f52eb357e9686ba8e20bc82fc34fa6439bbb5",
+      "canonicalId": "dax-icon-listtodo-52",
+      "roleVariantIds": [
+        "dax-icon-listtodo-52"
+      ]
+    },
+    {
+      "sha256": "4cbdd209885e520121aa250829db912edd9614ea8e98fc7c7a6992dd1425fe49",
+      "canonicalId": "dax-icon-listchecks-53",
+      "roleVariantIds": [
+        "dax-icon-listchecks-53",
+        "dax-icon-listchecks-111"
+      ]
+    },
+    {
+      "sha256": "974230dd140405ffd9640051bd52c1f6e10213e6d6e49423560fc201a5a59684",
+      "canonicalId": "dax-icon-folderkanban-54",
+      "roleVariantIds": [
+        "dax-icon-folderkanban-54"
+      ]
+    },
+    {
+      "sha256": "61632c9ab104e93b05d9db966c40d71aa9825f42277fa53b2b3ed50702752a36",
+      "canonicalId": "dax-icon-columns3-55",
+      "roleVariantIds": [
+        "dax-icon-columns3-55"
+      ]
+    },
+    {
+      "sha256": "22b8dbef34c964772bf51bbded3edf123a90e7d8ec9a0ece4c1d917fb300a770",
+      "canonicalId": "dax-icon-flag-56",
+      "roleVariantIds": [
+        "dax-icon-flag-56"
+      ]
+    },
+    {
+      "sha256": "41b3c3cccc26381b1717c2f0aef368d542593a134c52d08e9b79e9e5e8fde1cb",
+      "canonicalId": "dax-icon-target-57",
+      "roleVariantIds": [
+        "dax-icon-target-57"
+      ]
+    },
+    {
+      "sha256": "05f7b2828357bf896ae9c48c586db8380fe6c9bcd77e06584fd386b35ddacd78",
+      "canonicalId": "dax-icon-chartcolumn-60",
+      "roleVariantIds": [
+        "dax-icon-chartcolumn-60"
+      ]
+    },
+    {
+      "sha256": "ba3252240a2efed648654c4c4288c78e3b968c4ba6af0cb07786966f81167f7a",
+      "canonicalId": "dax-icon-chartline-61",
+      "roleVariantIds": [
+        "dax-icon-chartline-61"
+      ]
+    },
+    {
+      "sha256": "3dd77b019d7586fd329f257359ab36afbcc01ea046c0393822679aa37c0200a9",
+      "canonicalId": "dax-icon-chartpie-62",
+      "roleVariantIds": [
+        "dax-icon-chartpie-62"
+      ]
+    },
+    {
+      "sha256": "2b5495a9be47a61fe2ea22e05c3e054dab064b89c6aae4f2c2dfe84c8bbb54eb",
+      "canonicalId": "dax-icon-table-63",
+      "roleVariantIds": [
+        "dax-icon-table-63"
+      ]
+    },
+    {
+      "sha256": "b68c21e0e1a9b9fc5b65e7b24f072cc59adda6df7204a90a9daab41902dbb004",
+      "canonicalId": "dax-icon-trendingup-64",
+      "roleVariantIds": [
+        "dax-icon-trendingup-64"
+      ]
+    },
+    {
+      "sha256": "6833e48c2cdb9bce070db2a4b6f7a21e1c115641eb15c019890f58597a25551a",
+      "canonicalId": "dax-icon-trendingdown-65",
+      "roleVariantIds": [
+        "dax-icon-trendingdown-65"
+      ]
+    },
+    {
+      "sha256": "bd8f8610896020402b26494ba74ea7d8ccdd2a7de3a836d71b2e26ef6a7220fa",
+      "canonicalId": "dax-icon-database-66",
+      "roleVariantIds": [
+        "dax-icon-database-66"
+      ]
+    },
+    {
+      "sha256": "971d0ab310fe4eb5e0819379845021646b13f1f66a0864aeb323d6e536dc7f92",
+      "canonicalId": "dax-icon-filechartcolumn-67",
+      "roleVariantIds": [
+        "dax-icon-filechartcolumn-67"
+      ]
+    },
+    {
+      "sha256": "18c250ee3ac708636c10668adedac349579c4afed70deccfe8e0d0fc2d94ec28",
+      "canonicalId": "dax-icon-bot-68",
+      "roleVariantIds": [
+        "dax-icon-bot-68",
+        "dax-icon-bot-124"
+      ]
+    },
+    {
+      "sha256": "4daf39b11a9a5735666ef5d61453e270dfb4d4f2b5070dbb987154a8eea369ae",
+      "canonicalId": "dax-icon-workflow-69",
+      "roleVariantIds": [
+        "dax-icon-workflow-69"
+      ]
+    },
+    {
+      "sha256": "aca0858d2f934607b6afb45f4355d174a1b79a2d231b9137ef4d1f941d80d62d",
+      "canonicalId": "dax-icon-terminal-70",
+      "roleVariantIds": [
+        "dax-icon-terminal-70"
+      ]
+    },
+    {
+      "sha256": "4c8dfb3bdfa32cc2d7482899d86dfecaff8a6abfa5112f90c674b147e50f7f3d",
+      "canonicalId": "dax-icon-code-71",
+      "roleVariantIds": [
+        "dax-icon-code-71",
+        "dax-icon-code-126"
+      ]
+    },
+    {
+      "sha256": "a15958efb748310d673bfd902810b142db3e5af929e7f4f2337a400ef73c63b8",
+      "canonicalId": "dax-icon-plug-72",
+      "roleVariantIds": [
+        "dax-icon-plug-72"
+      ]
+    },
+    {
+      "sha256": "c0590b54d90ab21be804e79bf2b43d35e76200ab364f63aeee93453353e77028",
+      "canonicalId": "dax-icon-play-73",
+      "roleVariantIds": [
+        "dax-icon-play-73"
+      ]
+    },
+    {
+      "sha256": "9f67f04d85757cd6e45b6c61b7de6871ddacded65f99de56e0a20979b8dda18d",
+      "canonicalId": "dax-icon-pause-74",
+      "roleVariantIds": [
+        "dax-icon-pause-74"
+      ]
+    },
+    {
+      "sha256": "421459f5923fe07ddc931932cac9b0779c89d93300d3bf0dee5292acef7c0823",
+      "canonicalId": "dax-icon-square-75",
+      "roleVariantIds": [
+        "dax-icon-square-75"
+      ]
+    },
+    {
+      "sha256": "6c8158e29a19616f8daf04b813d5f1c73ffa56500c84b60243226e3f51849678",
+      "canonicalId": "dax-icon-settings-76",
+      "roleVariantIds": [
+        "dax-icon-settings-76"
+      ]
+    },
+    {
+      "sha256": "55bf2c1c262cfad459ce7baa0f86715f99effeb64ba32d01b74f93d8c80049ff",
+      "canonicalId": "dax-icon-lock-77",
+      "roleVariantIds": [
+        "dax-icon-lock-77"
+      ]
+    },
+    {
+      "sha256": "e7642215257b1603d3643cf2e74f5659b8a4b2f798d7ba5c02e4b3be1e969794",
+      "canonicalId": "dax-icon-lockopen-78",
+      "roleVariantIds": [
+        "dax-icon-lockopen-78"
+      ]
+    },
+    {
+      "sha256": "54f14bcbf7745f685b5e2295abe5046e7fecc577eb159f2cfc1227b54639a395",
+      "canonicalId": "dax-icon-key-79",
+      "roleVariantIds": [
+        "dax-icon-key-79"
+      ]
+    },
+    {
+      "sha256": "834788eee22c4f6bce1ec84da1c90016bc2503e0eef578642efe599651121931",
+      "canonicalId": "dax-icon-shield-80",
+      "roleVariantIds": [
+        "dax-icon-shield-80",
+        "dax-icon-shield-131"
+      ]
+    },
+    {
+      "sha256": "fa6cdc2c358474577a7d333148ee22d86448430be66ecac2638b0c92412dcdde",
+      "canonicalId": "dax-icon-userlock-81",
+      "roleVariantIds": [
+        "dax-icon-userlock-81"
+      ]
+    },
+    {
+      "sha256": "d2d0630cbfe805641556d69b0f56517c37d51ac767948869a7c85632e2b41d9a",
+      "canonicalId": "dax-icon-refreshcw-82",
+      "roleVariantIds": [
+        "dax-icon-refreshcw-82"
+      ]
+    },
+    {
+      "sha256": "e1ceed52112d036fd75d15539d896fed1f29c065e4d84bdbf92737e4e83d108b",
+      "canonicalId": "dax-icon-logout-83",
+      "roleVariantIds": [
+        "dax-icon-logout-83"
+      ]
+    },
+    {
+      "sha256": "97b2ea497a68f87b0418799e87d1547bcd60ee529463b34d63771ff5e8f6126b",
+      "canonicalId": "dax-icon-shoppingcart-84",
+      "roleVariantIds": [
+        "dax-icon-shoppingcart-84"
+      ]
+    },
+    {
+      "sha256": "c42a6a7e12f9ce8d51d30e417a1f0cc8bef300d5d26809c854786a6ece9a22da",
+      "canonicalId": "dax-icon-shoppingbag-85",
+      "roleVariantIds": [
+        "dax-icon-shoppingbag-85"
+      ]
+    },
+    {
+      "sha256": "4e59a5c392e0f255e97e4add7b05ef193265bd0778a456729118a5273ccbf7e1",
+      "canonicalId": "dax-icon-creditcard-86",
+      "roleVariantIds": [
+        "dax-icon-creditcard-86"
+      ]
+    },
+    {
+      "sha256": "3be64d5f57b38a9aaff45e8fddb7d4748337e7bcc67108d367e76d8e06648f63",
+      "canonicalId": "dax-icon-receipt-87",
+      "roleVariantIds": [
+        "dax-icon-receipt-87"
+      ]
+    },
+    {
+      "sha256": "dca97708ceac1a6537cf6cb399c001dad9b4ff4ef0ab2e9e81ac64b63c814ab8",
+      "canonicalId": "dax-icon-tag-88",
+      "roleVariantIds": [
+        "dax-icon-tag-88"
+      ]
+    },
+    {
+      "sha256": "fdce44c279e4d3c038b86087f7236de7b6168fad39b049c80a6a3d4957cb0b96",
+      "canonicalId": "dax-icon-package-89",
+      "roleVariantIds": [
+        "dax-icon-package-89"
+      ]
+    },
+    {
+      "sha256": "fb5c50e042af6abdae3c44a616f6a4271bcb813d8dc848589c70023c1d2ae23b",
+      "canonicalId": "dax-icon-truck-90",
+      "roleVariantIds": [
+        "dax-icon-truck-90"
+      ]
+    },
+    {
+      "sha256": "a0b4088730db708dbffb4718bea3876b3c22f9d3bc0a05bffdc9c738a57c4fd8",
+      "canonicalId": "dax-icon-undo2-91",
+      "roleVariantIds": [
+        "dax-icon-undo2-91"
+      ]
+    },
+    {
+      "sha256": "468c59430bcac39d605bf4fb6d94c8549db04d7fba560a230935bbc2aa780850",
+      "canonicalId": "dax-icon-bookopen-92",
+      "roleVariantIds": [
+        "dax-icon-bookopen-92"
+      ]
+    },
+    {
+      "sha256": "1b560a3696ddda071fdb462538199817c3209f7c359d6f79fa5be352f18c26ee",
+      "canonicalId": "dax-icon-graduationcap-93",
+      "roleVariantIds": [
+        "dax-icon-graduationcap-93"
+      ]
+    },
+    {
+      "sha256": "f4a8556fafd9284a5208319077c2146bf5f3f7c7ff9b62ec94267af3c22f9b03",
+      "canonicalId": "dax-icon-bookmark-94",
+      "roleVariantIds": [
+        "dax-icon-bookmark-94"
+      ]
+    },
+    {
+      "sha256": "6f1fc329cf297769a25935a6021ee7179655c535fa306d1442ff8c6fa588a080",
+      "canonicalId": "dax-icon-lightbulb-95",
+      "roleVariantIds": [
+        "dax-icon-lightbulb-95"
+      ]
+    },
+    {
+      "sha256": "6d4572d6d6336793dcc9d462669bbd0a9094c325785c0a6875190f7b3037d6a3",
+      "canonicalId": "dax-icon-mic-96",
+      "roleVariantIds": [
+        "dax-icon-mic-96"
+      ]
+    },
+    {
+      "sha256": "2def21aff164e4ced812617a83b5eef589ace47a91e99b198004160269560cf0",
+      "canonicalId": "dax-icon-camera-97",
+      "roleVariantIds": [
+        "dax-icon-camera-97"
+      ]
+    },
+    {
+      "sha256": "9ad1b0a47682032760750d1f1ba9d9c0cad7501c6fbbc878e53ecb39354a99a8",
+      "canonicalId": "dax-icon-presentation-98",
+      "roleVariantIds": [
+        "dax-icon-presentation-98"
+      ]
+    },
+    {
+      "sha256": "7ebaa72f0da8c9db2f2ab48d2d1e6a3685007161de1cf37848866d02686a4c75",
+      "canonicalId": "dax-icon-award-99",
+      "roleVariantIds": [
+        "dax-icon-award-99"
+      ]
+    },
+    {
+      "sha256": "3d3153b1d01f103adc996a80b7dc5087e8b36693339e7e0ae18f5953ec1aeaa4",
+      "canonicalId": "dax-icon-snowflake-100",
+      "roleVariantIds": [
+        "dax-icon-snowflake-100"
+      ]
+    },
+    {
+      "sha256": "15070eee2cead9d82c603a46763ee657dcbfc1d4d199648ea7b44f6b8314cc21",
+      "canonicalId": "dax-icon-shieldcheck-101",
+      "roleVariantIds": [
+        "dax-icon-shieldcheck-101"
+      ]
+    },
+    {
+      "sha256": "64c13f7740218f51a051614d149ba5c64f2a5c20414d98bfcb92703d044dfc4a",
+      "canonicalId": "dax-icon-thermometer-102",
+      "roleVariantIds": [
+        "dax-icon-thermometer-102"
+      ]
+    },
+    {
+      "sha256": "634408f6f82713dd44763ac59f6d9cc5fdf6db2780845395a59395860cdae041",
+      "canonicalId": "dax-icon-backpack-103",
+      "roleVariantIds": [
+        "dax-icon-backpack-103"
+      ]
+    },
+    {
+      "sha256": "5d53f5fb3aafcea4397e1c5eef42c42debbe189c0fd286455c082c56e627c259",
+      "canonicalId": "dax-icon-footprints-104",
+      "roleVariantIds": [
+        "dax-icon-footprints-104"
+      ]
+    },
+    {
+      "sha256": "d9072f0af4722462b48c2cfafd4a0353059eb0d38a2e6acaeab3edaeb0d90800",
+      "canonicalId": "dax-icon-hand-105",
+      "roleVariantIds": [
+        "dax-icon-hand-105"
+      ]
+    },
+    {
+      "sha256": "0135e295a136ac177e255c0b8654598a9d7d3eddd5479d568da223dd11a42e7c",
+      "canonicalId": "dax-icon-fish-106",
+      "roleVariantIds": [
+        "dax-icon-fish-106"
+      ]
+    },
+    {
+      "sha256": "3ca32bcb139976f1a8f9255214525c17eb48f7f0282b3787363a35cb56559e86",
+      "canonicalId": "dax-icon-moveupright-107",
+      "roleVariantIds": [
+        "dax-icon-moveupright-107"
+      ]
+    },
+    {
+      "sha256": "df6a049ab092d030090f1bd2b922528c45a4c17634ba893a6bb0099a5afbde92",
+      "canonicalId": "dax-icon-bottlewine-108",
+      "roleVariantIds": [
+        "dax-icon-bottlewine-108"
+      ]
+    },
+    {
+      "sha256": "5a02f2654ae9f5b3c30cbe7450e9c2c8d56b73c52f022eba2b7b2256fc3c5e9f",
+      "canonicalId": "dax-icon-droplets-109",
+      "roleVariantIds": [
+        "dax-icon-droplets-109"
+      ]
+    },
+    {
+      "sha256": "79a03f7414700e500bf2b4aae9d4712d684a2ef52e462b9c7c6d8946e91a3510",
+      "canonicalId": "dax-icon-map-110",
+      "roleVariantIds": [
+        "dax-icon-map-110"
+      ]
+    },
+    {
+      "sha256": "389b8c805b3b5604a0dc4bf54a7ffe9747169cda71676e518c3afd7167e5ab57",
+      "canonicalId": "dax-icon-flame-112",
+      "roleVariantIds": [
+        "dax-icon-flame-112",
+        "dax-icon-flame-130"
+      ]
+    },
+    {
+      "sha256": "f62173b533eb9456d8ed25a6a84f22e43b0753c56417b74b8dd63fbc430dd32d",
+      "canonicalId": "dax-icon-sparkles-113",
+      "roleVariantIds": [
+        "dax-icon-sparkles-113"
+      ]
+    },
+    {
+      "sha256": "250e16b452f6c5ce58660324e141e017931d1b9396498b667544697c4476c815",
+      "canonicalId": "dax-icon-flashlight-114",
+      "roleVariantIds": [
+        "dax-icon-flashlight-114"
+      ]
+    },
+    {
+      "sha256": "d0132a96d6c1a7a82537c45f2f8c583e4f2aa773a041e8d6659997985a3781a0",
+      "canonicalId": "dax-icon-lampdesk-115",
+      "roleVariantIds": [
+        "dax-icon-lampdesk-115"
+      ]
+    },
+    {
+      "sha256": "76a03a65ed4748bf005a83463eec67c47a9bb74d49617e91b725f4b4f67d5ad9",
+      "canonicalId": "dax-icon-mountain-116",
+      "roleVariantIds": [
+        "dax-icon-mountain-116"
+      ]
+    },
+    {
+      "sha256": "e53a02473593570f961faa831c25ae85423cb6294356eb3776b7f7e6de44e543",
+      "canonicalId": "dax-icon-dooropen-117",
+      "roleVariantIds": [
+        "dax-icon-dooropen-117"
+      ]
+    },
+    {
+      "sha256": "56ddef579730821263da916ab12d2eff1c4ea41d12d4f145bb2846ba08681986",
+      "canonicalId": "dax-icon-towercontrol-118",
+      "roleVariantIds": [
+        "dax-icon-towercontrol-118"
+      ]
+    },
+    {
+      "sha256": "235171d2e2bf6072fdc2d39d0f561f43486e8fe688a31dca46877709c1895e62",
+      "canonicalId": "dax-icon-tent-119",
+      "roleVariantIds": [
+        "dax-icon-tent-119"
+      ]
+    },
+    {
+      "sha256": "e1682dfc927d5e4083688551fcd59affd3185bdb470c14a45606da76e15f0347",
+      "canonicalId": "dax-icon-compass-120",
+      "roleVariantIds": [
+        "dax-icon-compass-120",
+        "dax-icon-compass-129"
+      ]
+    },
+    {
+      "sha256": "5df48377f5121756abc7fec6aa7f219dd6b5293ba4c2b0cde783367791b5facf",
+      "canonicalId": "dax-icon-mappin-121",
+      "roleVariantIds": [
+        "dax-icon-mappin-121"
+      ]
+    },
+    {
+      "sha256": "8b4b23a0df5bc85bbdef23ae80ca44abb5f7357cae39a175b87a259d8706ad1f",
+      "canonicalId": "dax-icon-gem-122",
+      "roleVariantIds": [
+        "dax-icon-gem-122"
+      ]
+    },
+    {
+      "sha256": "27a4446ee8cedca34faa9595a0aec25382cdb0b8d1e23a453b628518dce262ab",
+      "canonicalId": "dax-icon-box-123",
+      "roleVariantIds": [
+        "dax-icon-box-123"
+      ]
+    },
+    {
+      "sha256": "49cc4511247dbb338e77c8111345fc5174afd116a0afb8d38807b9e7fcd50fbe",
+      "canonicalId": "dax-icon-palette-125",
+      "roleVariantIds": [
+        "dax-icon-palette-125"
+      ]
+    }
+  ],
+  "rule": "One visible primary per exact geometry; explicit source roles use selectable variants and current reuse. Static/motion states do not inflate asset counts."
+}

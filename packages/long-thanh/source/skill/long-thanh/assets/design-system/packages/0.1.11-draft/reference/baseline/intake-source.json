@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "brand-candidate-source-audit/v1",
+  "brandId": "long-thanh",
+  "time": "2026-10-23T18:25:31.014144+00:00",
+  "canonicalWrites": false,
+  "files": [
+    {
+      "path": "Brand asset/LONG THANH/ROUTER.md",
+      "sha256": "6acd8f532afa81ab42788036528616fb3d63c9353fc3e299f0bd5e1cab1e2c08",
+      "bytes": 2085
+    },
+    {
+      "path": "Brand asset/LONG THANH/brand.json",
+      "sha256": "f27337daada1c84182775122db9ab3234a3c5e0099857eaac61cc188a23ac32b",
+      "bytes": 2164
+    },
+    {
+      "path": "Brand asset/LONG THANH/System/layout.json",
+      "sha256": "0c1a9c683ca8310f6f3f55b47cbe925332b2e5939600c05f2e01ac66b40b395d",
+      "bytes": 691
+    },
+    {
+      "path": "Brand asset/LONG THANH/Brandkit/BRAND.md",
+      "sha256": "05dcfc17abcb241102742c278f29aab8fd00288c9491c87301b2fa32ee9aba44",
+      "bytes": 466
+    },
+    {
+      "path": "Brand asset/LONG THANH/Brandkit/asset-manifest.json",
+      "sha256": "eb4751c1defbd89cbd5f86fe640bde6d2e75f75b36720a0029b9f3bd0f423674",
+      "bytes": 988
+    },
+    {
+      "path": "Brand asset/LONG THANH/Knowledge base/company-and-brand-portfolio.html",
+      "sha256": "fa95272a6ea41b94978bf0e756e40c4385003bce19ccf7c0114269cd9c1c17fd",
+      "bytes": 15255
+    },
+    {
+      "path": ".codex/skills/Visual/design/references/design-system/compact-role-model-v2.json",
+      "sha256": "6187b5cac7152e1412309e2404c43354eee1346485b84116d5320a50b290e9e9",
+      "bytes": 48391
+    },
+    {
+      "path": ".codex/skills/Visual/design/references/design-system/slide-template-guidance-v2.json",
+      "sha256": "2058e7cacd3ddb3139c6c73bbe12868bf6deba102fd7aca9adb723130c231dfd",
+      "bytes": 9044
+    },
+    {
+      "path": ".codex/rules/design-baseline.md",
+      "sha256": "be2efc9d6af0c46094528d25ffe3701ec55e4cc017af1e98aba1a22aa0f13dda",
+      "bytes": 8640
+    },
+    {
+      "path": "Brand asset/LONG THANH/Brandkit/assets/logos/logo-01.png",
+      "sha256": "da269afffb066992a09ee94bd76f16723b9b1e8bae711d49ddccd582b0523dfd",
+      "bytes": 47354
+    },
+    {
+      "path": "Brand asset/LONG THANH/Brandkit/assets/logos/logo-03.png",
+      "sha256": "66f40a157fd94a2ac33eb84077b81720f28ecdc3e8b4d9a4f226558719e64976",
+      "bytes": 29911
+    },
+    {
+      "path": "Brand asset/LONG THANH/Brandkit/assets/logos/logo_nhựa long thành (1).png",
+      "sha256": "7770b842857c4a943ab3d6abd1d8a750e7f1c38c1076813afbcbe627cfca0cc9",
+      "bytes": 94997
+    },
+    {
+      "path": "Brand asset/LONG THANH/Brandkit/assets/logos/logo_nhựa long thành.png",
+      "sha256": "2c36850ebc2bc0e305936836f4dd4bcb174f7c714e81711303bdbb5738afc6eb",
+      "bytes": 132652
+    }
+  ],
+  "facts": {
+    "existingDesignSystem": "not-created",
+    "logoRights": "approved-reusable per supplied manifest; does not approve full identity",
+    "productImageFiles": 0,
+    "brandVoice": "proposed neutral EN/VI baseline; authentic voice untested"
+  },
+  "constraints": [
+    "No canonical integration, registration, runtime sync, external send or publish.",
+    "No imported HTML/JS execution.",
+    "No KAI identity, palette, mascot, pixel or game motif transfer.",
+    "Preserve full current r09 functionality; current shared slide guidance 2.1.0.",
+    "Four purpose PDFs and native/rendered evidence required before readiness."
+  ]
+}

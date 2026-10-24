@@ -1,0 +1,265 @@
+{
+  "schemaVersion": "public-brand-source-observations/v1",
+  "time": "2026-10-23T18:25:34.371266+00:00",
+  "sources": [
+    {
+      "url": "https://longthanhplastic.com.vn/",
+      "status": 200,
+      "sha256": "f32870d00150ab350cdeaebae2cf31c279e6e737997ae4988a141a77ee3a8ce5",
+      "bytes": 244103,
+      "colors": [
+        [
+          "#2962FF",
+          5
+        ],
+        [
+          "#FFFFFF",
+          3
+        ],
+        [
+          "#32373C",
+          2
+        ],
+        [
+          "#00102E",
+          2
+        ],
+        [
+          "#F4511E",
+          2
+        ],
+        [
+          "#000000",
+          1
+        ],
+        [
+          "#ABB8C3",
+          1
+        ],
+        [
+          "#F78DA7",
+          1
+        ],
+        [
+          "#CF2E2E",
+          1
+        ],
+        [
+          "#FF6900",
+          1
+        ],
+        [
+          "#FCB900",
+          1
+        ],
+        [
+          "#7BDCB5",
+          1
+        ],
+        [
+          "#00D084",
+          1
+        ],
+        [
+          "#8ED1FC",
+          1
+        ],
+        [
+          "#0693E3",
+          1
+        ],
+        [
+          "#9B51E0",
+          1
+        ],
+        [
+          "#212121",
+          1
+        ],
+        [
+          "#5BC0DE",
+          1
+        ],
+        [
+          "#D5D8DC",
+          1
+        ],
+        [
+          "#EABE12",
+          1
+        ],
+        [
+          "#E0B252",
+          1
+        ],
+        [
+          "#111111",
+          1
+        ],
+        [
+          "#084DD1",
+          1
+        ],
+        [
+          "#052368",
+          1
+        ],
+        [
+          "#FF0005",
+          1
+        ],
+        [
+          "#CC0004",
+          1
+        ],
+        [
+          "#FEA703",
+          1
+        ],
+        [
+          "#E59603",
+          1
+        ],
+        [
+          "#E5EEFF",
+          1
+        ],
+        [
+          "#FAFAFA",
+          1
+        ]
+      ],
+      "fontDeclarations": [
+        "\"SVN-Kelson Bold\"",
+        "\"SVN-Kelson Bold\", Arial, Helvetica, sans-serif",
+        "\"SVN-Kelson Light\"",
+        "\"SVN-Kelson Regular\"",
+        "\"WooCommerce\"",
+        "\"star\"",
+        "\"woodmart-font\"",
+        "&quot",
+        "'SVN-Kelson Sans'",
+        "inherit",
+        "var(--btn-accented-font-family, var(--btn-font-family, inherit))",
+        "var(--ltp-font-primary)",
+        "var(--wd-alternative-font)",
+        "var(--wd-entities-title-font)",
+        "var(--wd-header-el-font)",
+        "var(--wd-text-font)",
+        "var(--wd-title-font)",
+        "var(--wd-widget-title-font)"
+      ],
+      "inertReadOnly": true,
+      "sourceUIExecuted": false
+    },
+    {
+      "url": "https://longthanhplastic.com.vn/wp-content/uploads/elementor/css/post-16.css?ver=1792575426",
+      "status": 200,
+      "sha256": "7b494d827262d52fde4f9455014c9136636d32e4dd59f2f569c14a062ba76285",
+      "bytes": 8072,
+      "colors": [
+        [
+          "#E5EEFF",
+          2
+        ],
+        [
+          "#084DD1",
+          1
+        ],
+        [
+          "#FF0005",
+          1
+        ],
+        [
+          "#010101",
+          1
+        ],
+        [
+          "#FEA703",
+          1
+        ],
+        [
+          "#F9FBFF",
+          1
+        ],
+        [
+          "#0942A6",
+          1
+        ],
+        [
+          "#052368",
+          1
+        ],
+        [
+          "#00102E",
+          1
+        ],
+        [
+          "#FFFFFF",
+          1
+        ]
+      ],
+      "fontDeclarations": [
+        "\"Inter Tight\"",
+        "\"SVN-Kelson Sans\"",
+        "'SVN-Kelson Sans'",
+        "var( --e-global-typography-text-font-family ), Sans-serif"
+      ],
+      "inertReadOnly": true,
+      "sourceUIExecuted": false
+    },
+    {
+      "url": "https://longthanhplastic.com.vn/wp-content/uploads/elementor/css/post-10162.css?ver=1792575483",
+      "status": 200,
+      "sha256": "cc1e0decee991887d4c4eee043b2f50a3f42af24c080262564d9150b86b4d175",
+      "bytes": 76310,
+      "colors": [
+        [
+          "#084DD1",
+          22
+        ],
+        [
+          "#00102E",
+          1
+        ],
+        [
+          "#020E25",
+          1
+        ]
+      ],
+      "fontDeclarations": [
+        "var( --e-global-typography-0b630fd-font-family ), Sans-serif",
+        "var( --e-global-typography-2f3fd1a-font-family ), Sans-serif",
+        "var( --e-global-typography-47c8634-font-family ), Sans-serif",
+        "var( --e-global-typography-72392ef-font-family ), Sans-serif",
+        "var( --e-global-typography-8d6936f-font-family ), Sans-serif",
+        "var( --e-global-typography-a18a684-font-family ), Sans-serif",
+        "var( --e-global-typography-e07f542-font-family ), Sans-serif",
+        "var( --e-global-typography-primary-font-family ), Sans-serif",
+        "var( --e-global-typography-text-font-family ), Sans-serif"
+      ],
+      "inertReadOnly": true,
+      "sourceUIExecuted": false
+    }
+  ],
+  "observations": [
+    "Official site presents industrial and household plastics, including pallets, crates and coolers.",
+    "Supplied logo is a blue/red/white 405 sun mark. Logo bytes will be retained.",
+    "The design proposal uses warehouse/product technical structure; no claim that proposed type, geometry or voice is officially approved."
+  ],
+  "transportHistory": [
+    {
+      "method": "web open",
+      "result": "transport timeout; not an access refusal"
+    },
+    {
+      "method": "structured Firecrawl scrape",
+      "result": "account credits unavailable; no scrape executed; no retry"
+    },
+    {
+      "method": "native HTTP inert read",
+      "result": "content inspection only, not rendered-site proof"
+    }
+  ],
+  "rights": "Public fact/style observations only. No site code, product photos or marketing prose copied into candidate."
+}

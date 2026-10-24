@@ -1,0 +1,29 @@
+---
+name: design-system-dax-movement-core
+description: Inspect or apply the exact pinned DAX Design data package through Design.
+metadata:
+  instruction-contract: instruction-contract/v1
+  routing-role: internal-child
+---
+# DAX Design child — registered brand data adapter
+
+## 1. Purpose and scope
+Select the full current native DAX Design data package. Design owns all reusable design procedure, quality and admission rules. Brand asset/DAX/Design system owns selected brand design data and its exact local package closure.
+
+## 2. Inputs
+Require exact DAX identity, operation, version, descriptor hash, explicit workspace root and registered brand root. Inspect is read-only; apply requires exact caller binding and permitted rights.
+
+## 3. Workflow
+Use the existing Design resolver and hash-pinned child registry to inspect the selected package. Delegate design work to Design; this adapter introduces no competing procedure. Preserve the full native baseline and its declared dependencies.
+
+## 4. Tools and permissions
+Read only bound local files. No source execution, project/history callback, canonical mutation, runtime mirror, asset admission, publication or external sending is implied. Existing approval gates remain with their owners.
+
+## 5. Output
+Return the selected system, exact version and descriptor binding, validated file closure, current status and unresolved evidence. Inspection proves declared identity and file hashes, not rights or visual acceptance.
+
+## 6. Verification and stopping
+Missing, stale, escaped or cross-brand dependencies fail closed. For user-requested visual work, use operation reuse with the exact selected version/descriptor hash. For a new task without an existing project pin, derive the caller binding from the registered brand metadata and its approved useAcceptance, then record that exact version/hash; do not ask the user to supply hashes or approve the same design again. Preserve an existing explicit project pin and resolve any real conflict. An approved useAcceptance permits applying the accepted rules without renewed design approval even when whole-library admission, export proof or public rights remain pending. Read USE.md before historical readiness fields; restrict missing asset rights and output proof to the affected item/action. Operation apply retains the stricter fully-admitted package gate. Never use reuse to publish, admit assets, mutate instructions or substitute another version. Native command invocation requires intended-host discovery and readback; no slash-discovery claim is permitted.
+
+## 7. Supporting material
+Use the existing Design SKILL.md, references/design-system/child-systems.md, its systems/registry.json, this system.json and the explicit registered DAX Brand asset package. Preserve functional ownership and exact pins.

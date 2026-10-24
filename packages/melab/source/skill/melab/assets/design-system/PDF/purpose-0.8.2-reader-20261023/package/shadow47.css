@@ -1,0 +1,48 @@
+/* DO NOT EDIT: generated from shadow47.model.json. Inactive proposal. */
+:root{--s47-ink:#14213D;--s47-control:0px 2px 6px 0px color-mix(in srgb,var(--s47-ink) 14%,transparent);--s47-surface:0px 4px 12px 0px color-mix(in srgb,var(--s47-ink) 14%,transparent);--s47-floating:0px 12px 28px 0px color-mix(in srgb,var(--s47-ink) 20%,transparent);--s47-hover:0px 3px 8px 0px color-mix(in srgb,var(--s47-ink) 18%,transparent);--s47-pressed:0px 1px 3px 0px color-mix(in srgb,var(--s47-ink) 12%,transparent)}
+body.dark,html.dark,[data-theme="dark"],[data-depth-surface="dark"]{--s47-ink:#AFC2FF;--s47-control:0px 2px 6px 0px color-mix(in srgb,var(--s47-ink) 14%,transparent);--s47-surface:0px 4px 12px 0px color-mix(in srgb,var(--s47-ink) 14%,transparent);--s47-floating:0px 12px 28px 0px color-mix(in srgb,var(--s47-ink) 20%,transparent);--s47-hover:0px 3px 8px 0px color-mix(in srgb,var(--s47-ink) 18%,transparent);--s47-pressed:0px 1px 3px 0px color-mix(in srgb,var(--s47-ink) 12%,transparent)}
+[data-depth-surface="light"]{--s47-ink:#14213D;--s47-control:0px 2px 6px 0px color-mix(in srgb,var(--s47-ink) 14%,transparent);--s47-surface:0px 4px 12px 0px color-mix(in srgb,var(--s47-ink) 14%,transparent);--s47-floating:0px 12px 28px 0px color-mix(in srgb,var(--s47-ink) 20%,transparent);--s47-hover:0px 3px 8px 0px color-mix(in srgb,var(--s47-ink) 18%,transparent);--s47-pressed:0px 1px 3px 0px color-mix(in srgb,var(--s47-ink) 12%,transparent)}
+[data-shadow47="surface"]{box-shadow:var(--s47-surface)!important}
+[data-shadow47="floating"]{box-shadow:var(--s47-floating)!important}
+[data-shadow47="control"]{box-shadow:var(--s47-control)!important}
+[data-shadow47="control"]:hover{box-shadow:var(--s47-hover)!important}
+[data-shadow47="control"]:active,[data-shadow47="control"]:disabled,[data-shadow47="control"][aria-disabled="true"]{box-shadow:var(--s47-pressed)!important}
+[data-shadow47="control"][aria-busy="true"],.loading[data-shadow47="control"]{box-shadow:var(--s47-control)!important}
+[data-shadow47="control"]:focus-visible{outline:2px solid currentColor!important;outline-offset:4px!important}
+/* Inner specimens keep their real marks/text; shadow belongs to enclosing carrier. */
+.chart-svg[data-chart-id],.chart-svg[data-chart-id] *,[data-shadow47-data]{box-shadow:none!important;filter:none!important;text-shadow:none!important}
+.shadow47-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;margin:24px 0}
+.shadow47-scene{padding:24px;background:#F5F8FF;color:#15233F;border:1px solid #D9E0EF;border-radius:inherit}
+.shadow47-scene[data-depth-surface="dark"]{background:#111B31;color:#F7F9FF;border-color:#52617D}
+.shadow47-card{padding:20px;background:#FFFFFF;color:#15233F;border:1px solid #D9E0EF;margin:20px 0}
+.shadow47-scene[data-depth-surface="dark"]>.shadow47-card{background:#1C2942;color:#F7F9FF;border-color:#52617D}
+.shadow47-controls{display:flex;flex-wrap:wrap;gap:20px;margin:24px 0}
+.shadow47-controls button{padding:10px 16px;font:inherit;line-height:1.6;background:#FFFFFF;color:#15233F;border:1px solid currentColor}
+.shadow47-controls button:disabled{opacity:1;color:#566176}
+.shadow47-note{font-size:16px;line-height:1.7}
+.shadow47-table{width:100%;border-collapse:collapse;font-size:16px;table-layout:fixed}
+.shadow47-table th,.shadow47-table td{text-align:left;padding:12px;border:1px solid currentColor;overflow-wrap:anywhere;vertical-align:top}
+@media(max-width:760px){.shadow47-grid{grid-template-columns:1fr}.shadow47-scene{padding:20px}}
+@media print{[data-shadow47]{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+@media(forced-colors:active){[data-shadow47]{box-shadow:none!important;border:1px solid CanvasText!important}}
+.shadow47-scene[data-depth-surface="dark"] h3,.shadow47-scene[data-depth-surface="dark"] strong{color:#F7F9FF!important}
+
+#contents>a.nav-card[data-shadow47],#contents>details.nav-group[data-shadow47]{box-shadow:var(--s47-surface)!important}
+#contents .nav-child{box-shadow:none!important}
+body.dark #shadow-guideline .shadow47-scene[data-depth-surface="light"] :is(h3,strong){color:#15233F!important}
+
+/* Actual native consumers: retain final cascade precedence over legacy flat reset rules. */
+:root body [data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47=surface]{box-shadow:var(--s47-surface)!important}
+:root body [data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47=floating]{box-shadow:var(--s47-floating)!important}
+:root body [data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47=control]{box-shadow:var(--s47-control)!important}
+:root body [data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47=control]:hover{box-shadow:var(--s47-hover)!important}
+:root body [data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47=control]:active,:root body [data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47=control]:disabled,:root body [data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47=control][aria-disabled=true]{box-shadow:var(--s47-pressed)!important}
+:root body [data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47=control][aria-busy=true]{box-shadow:var(--s47-control)!important}
+@media(forced-colors:active){:root body [data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47][data-shadow47]{box-shadow:none!important;border:1px solid CanvasText!important}}
+
+#shadow-guideline .shadow47-table,#shadow-guideline .shadow47-table th,#shadow-guideline .shadow47-table td{border-color:var(--s47-ink)!important}
+body.dark #shadow-guideline .shadow47-table{color:#F7F9FF!important;--s47-ink:#AFC2FF}
+body.dark #shadow-guideline .shadow47-table :is(th,td){color:#F7F9FF!important}
+
+/* Joined main tabs share the header carrier; independent header controls retain control depth. */
+:root body header [data-view],:root body .topbar .topnav>a{box-shadow:none!important}

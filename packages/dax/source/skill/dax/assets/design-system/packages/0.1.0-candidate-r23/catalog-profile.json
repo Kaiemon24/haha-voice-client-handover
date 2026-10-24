@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "design-catalog-profile/v1",
+  "role": "discovery-summary-not-authoritative-rules",
+  "systemId": "dax-movement-core",
+  "version": "0.1.0-candidate-r23",
+  "sourceModelSha256": "a419250bb249dc7c9e8e580442b293b77c7712a44faa8ecfadbd08266f8bab9a",
+  "editorialScope": "Brand-owned discovery summary and proposed display copy only; selected full model/HTML/Markdown own rules. No extra rights, admission, publication or native-host acceptance.",
+  "profile": {
+    "font": "Arial",
+    "bodyFont": "Arial",
+    "shadow": "0px 5px 18px rgba(22,23,25,0.16)",
+    "specimenColors": {
+      "paper": "#FFFFFF",
+      "ink": "#161719",
+      "accent": "#002ED3",
+      "surface": "#F6F5EC",
+      "on": "#FFFFFF"
+    },
+    "keywords": [
+      "dax",
+      "dax-movement-core",
+      "sản phẩm",
+      "quy cách",
+      "nguồn",
+      "thông tin"
+    ],
+    "type": "Sans",
+    "tags": [
+      "Hiện đại",
+      "Bóng mềm",
+      "Sans",
+      "Sản phẩm"
+    ],
+    "body": "Giữ phiên bản, điều kiện và nguồn khi dùng.",
+    "sampleTitle": "Nguồn rõ. Điều kiện đủ.",
+    "sampleBody": "Đối chiếu thông tin trước khi chia sẻ.",
+    "catalogFacets": {
+      "mood": [
+        "Hiện đại"
+      ],
+      "tone": [
+        "Rõ ràng"
+      ],
+      "use": [
+        "Tạo design system",
+        "Website",
+        "Sản phẩm"
+      ],
+      "features": [
+        "Bóng mềm",
+        "Sans"
+      ]
+    },
+    "title": "DAX",
+    "subtitle": "Chọn đúng. Đi gọn.",
+    "description": "Ảnh sản phẩm theo nguồn, nền sáng và điểm nhấn xanh. Dành cho thông tin sản phẩm cần giữ đúng phiên bản và điều kiện.",
+    "palette": [
+      "#002ED3",
+      "#F6F5EC",
+      "#FFFFFF",
+      "#161719",
+      "#E8EDFF"
+    ],
+    "mood": "Rõ ràng · Gọn",
+    "radius": "10px",
+    "scene": "Chọn đúng. Đi gọn.",
+    "icon": "grid",
+    "edition": "04",
+    "catalogPersonality": [
+      "Chuyên nghiệp",
+      "Cá tính"
+    ]
+  }
+}

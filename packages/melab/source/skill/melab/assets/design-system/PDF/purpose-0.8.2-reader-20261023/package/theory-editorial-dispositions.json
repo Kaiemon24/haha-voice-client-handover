@@ -1,0 +1,4586 @@
+{
+  "schemaVersion": "design-system-pdf-editorial/v1",
+  "sourceModelSha256": "855c7e52af5bb9cebaa560f64a2e1be02865798e50f790f03072d90837c25f38",
+  "units": [
+    {
+      "id": "library:map-us",
+      "sourceFile": "assets/maps/united-states.html",
+      "sourceHash": "03c05ce7a3f897d094a2c8e51005606058c53bd22d217e603866393ca7ac6b6b",
+      "sourceBlocks": [
+        {
+          "kind": "h3",
+          "text": "Nhãn địa lý, nguồn và cách dùng"
+        },
+        {
+          "kind": "h1",
+          "text": "Hoa Kỳ, nhìn trọn 50 tiểu bang."
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Đường bao từng tiểu bang, hai ô Alaska và Hawaii, cùng điểm gọi tên Washington, DC. Chọn trên bản đồ hoặc dùng danh sách bên dưới."
+        },
+        {
+          "kind": "p",
+          "text": "50 tiểu bang + DC · Đường bao địa lý · Dữ liệu nền năm 2017"
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Chọn một vùng để xem tên"
+        },
+        {
+          "kind": "title",
+          "text": "Bản đồ 50 tiểu bang và Washington, DC"
+        },
+        {
+          "kind": "desc",
+          "text": "Trong HTML · Đường bao địa lý thật từ U.S. Census 2017 qua us-atlas. Alaska và Hawaii được chuyển vào ô nhìn gần. Chọn một vùng hoặc tên trong danh sách để xem."
+        },
+        {
+          "kind": "text",
+          "text": "Washington, DC"
+        },
+        {
+          "kind": "p",
+          "text": "Tiểu bang và DC"
+        },
+        {
+          "kind": "p",
+          "text": "Alaska và Hawaii được đặt lại vị trí để dễ đọc; Alaska được thu nhỏ tương đối. Nguồn: U.S. Census 2017 qua us-atlas 3.0.1. Bản đồ khái quát, không dùng để đo đạc."
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Chọn một tiểu bang hoặc Washington, DC."
+        },
+        {
+          "kind": "p",
+          "text": "Màu xanh chỉ đánh dấu hình dạng, không thể hiện giá trị thống kê."
+        },
+        {
+          "kind": "h2",
+          "text": "Danh sách 51 đơn vị"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Tên địa lý",
+              "Tên địa lý",
+              "Tên địa lý"
+            ],
+            [
+              "Alabama",
+              "Alaska",
+              "Arizona"
+            ],
+            [
+              "Arkansas",
+              "California",
+              "Colorado"
+            ],
+            [
+              "Connecticut",
+              "Delaware",
+              "District of Columbia"
+            ],
+            [
+              "Florida",
+              "Georgia",
+              "Hawaii"
+            ],
+            [
+              "Idaho",
+              "Illinois",
+              "Indiana"
+            ],
+            [
+              "Iowa",
+              "Kansas",
+              "Kentucky"
+            ],
+            [
+              "Louisiana",
+              "Maine",
+              "Maryland"
+            ],
+            [
+              "Massachusetts",
+              "Michigan",
+              "Minnesota"
+            ],
+            [
+              "Mississippi",
+              "Missouri",
+              "Montana"
+            ],
+            [
+              "Nebraska",
+              "Nevada",
+              "New Hampshire"
+            ],
+            [
+              "New Jersey",
+              "New Mexico",
+              "New York"
+            ],
+            [
+              "North Carolina",
+              "North Dakota",
+              "Ohio"
+            ],
+            [
+              "Oklahoma",
+              "Oregon",
+              "Pennsylvania"
+            ],
+            [
+              "Rhode Island",
+              "South Carolina",
+              "South Dakota"
+            ],
+            [
+              "Tennessee",
+              "Texas",
+              "Utah"
+            ],
+            [
+              "Vermont",
+              "Virginia",
+              "Washington"
+            ],
+            [
+              "West Virginia",
+              "Wisconsin",
+              "Wyoming"
+            ]
+          ]
+        }
+      ],
+      "readerBlocks": [
+        {
+          "kind": "h3",
+          "text": "Địa lý và phạm vi"
+        },
+        {
+          "kind": "p",
+          "text": "Đường bao địa lý thật của 50 tiểu bang và Washington, DC. Alaska và Hawaii được chuyển vào hai ô nhìn gần."
+        },
+        {
+          "kind": "p",
+          "text": "Alaska và Hawaii được đặt lại vị trí để dễ đọc; Alaska được thu nhỏ tương đối. Nguồn: U.S. Census 2017 qua us-atlas 3.0.1. Bản đồ khái quát, không dùng để đo đạc."
+        },
+        {
+          "kind": "p",
+          "text": "Màu xanh chỉ đánh dấu hình dạng, không thể hiện giá trị thống kê."
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Chọn một tiểu bang hoặc Washington, DC trên bản đồ hoặc trong danh sách để xem tên."
+        },
+        {
+          "kind": "h2",
+          "text": "Danh sách 51 đơn vị"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Tên địa lý",
+              "Tên địa lý",
+              "Tên địa lý"
+            ],
+            [
+              "Alabama",
+              "Alaska",
+              "Arizona"
+            ],
+            [
+              "Arkansas",
+              "California",
+              "Colorado"
+            ],
+            [
+              "Connecticut",
+              "Delaware",
+              "District of Columbia"
+            ],
+            [
+              "Florida",
+              "Georgia",
+              "Hawaii"
+            ],
+            [
+              "Idaho",
+              "Illinois",
+              "Indiana"
+            ],
+            [
+              "Iowa",
+              "Kansas",
+              "Kentucky"
+            ],
+            [
+              "Louisiana",
+              "Maine",
+              "Maryland"
+            ],
+            [
+              "Massachusetts",
+              "Michigan",
+              "Minnesota"
+            ],
+            [
+              "Mississippi",
+              "Missouri",
+              "Montana"
+            ],
+            [
+              "Nebraska",
+              "Nevada",
+              "New Hampshire"
+            ],
+            [
+              "New Jersey",
+              "New Mexico",
+              "New York"
+            ],
+            [
+              "North Carolina",
+              "North Dakota",
+              "Ohio"
+            ],
+            [
+              "Oklahoma",
+              "Oregon",
+              "Pennsylvania"
+            ],
+            [
+              "Rhode Island",
+              "South Carolina",
+              "South Dakota"
+            ],
+            [
+              "Tennessee",
+              "Texas",
+              "Utah"
+            ],
+            [
+              "Vermont",
+              "Virginia",
+              "Washington"
+            ],
+            [
+              "West Virginia",
+              "Wisconsin",
+              "Wyoming"
+            ]
+          ]
+        }
+      ],
+      "dispositions": [
+        {
+          "sourceIndexes": [
+            0
+          ],
+          "targetIndexes": [
+            0
+          ],
+          "relation": "equivalent",
+          "reason": "Reader heading replaces extraction label; no geographic instruction is removed.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            1,
+            3,
+            5,
+            7,
+            8
+          ],
+          "targetIndexes": [
+            1,
+            2
+          ],
+          "relation": "equivalent",
+          "reason": "Repeated title, coverage badge and DC label refer to the same fifty states plus DC; boundary/source year are retained with their source relationship.",
+          "protectedFacts": [
+            "50",
+            "Washington, DC",
+            "2017"
+          ]
+        },
+        {
+          "sourceIndexes": [
+            2,
+            4,
+            6,
+            10
+          ],
+          "targetIndexes": [
+            1,
+            2,
+            4
+          ],
+          "relation": "equivalent",
+          "reason": "One HTML-only selection instruction retains both map/list entry points, naming result, state/DC scope; two Alaska/Hawaii inset frames and genuine boundary source remain in geography/projection.",
+          "protectedFacts": [
+            "Alaska và Hawaii",
+            "U.S. Census 2017 qua us-atlas"
+          ]
+        },
+        {
+          "sourceIndexes": [
+            9
+          ],
+          "targetIndexes": [
+            2
+          ],
+          "relation": "exact",
+          "reason": "Projection scale, provenance/version, schematic scope and measurement prohibition retained verbatim.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            11
+          ],
+          "targetIndexes": [
+            3
+          ],
+          "relation": "exact",
+          "reason": "Color meaning and statistical-value negation retained verbatim.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            12
+          ],
+          "targetIndexes": [
+            5
+          ],
+          "relation": "exact",
+          "reason": "Exact geographic-name census heading retained.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            13
+          ],
+          "targetIndexes": [
+            6
+          ],
+          "relation": "exact",
+          "reason": "All fifty-one geographic names retained once in the native three-column table.",
+          "protectedFacts": []
+        }
+      ]
+    },
+    {
+      "id": "library:map-vietnam",
+      "sourceFile": "assets/maps/vietnam.html",
+      "sourceHash": "5a22b4c44ce8bc6c6712d1c5bf196f33ac141e8b81a6acc469c8a6852392e411",
+      "sourceBlocks": [
+        {
+          "kind": "h3",
+          "text": "Nhãn địa lý, nguồn và cách dùng"
+        },
+        {
+          "kind": "h1",
+          "text": "Việt Nam, từ đất liền đến các đảo."
+        },
+        {
+          "kind": "p",
+          "text": "Xem đường bờ khái quát, vị trí Phú Quốc và Côn Đảo, cùng các điểm đại diện tại Hoàng Sa và Trường Sa. Hai khung nhìn gần giúp đọc rõ các địa danh ngoài khơi."
+        },
+        {
+          "kind": "p",
+          "text": "Đường bờ và đảo nhỏ · 7 điểm có nguồn tọa độ · Không thể hiện ranh giới biển"
+        },
+        {
+          "kind": "p",
+          "text": "Các điểm đại diện được khoanh tròn"
+        },
+        {
+          "kind": "title",
+          "text": "Việt Nam, Phú Quốc, Côn Đảo và vị trí Hoàng Sa, Trường Sa"
+        },
+        {
+          "kind": "desc",
+          "text": "Đất liền và các đảo từ Natural Earth. Bảy điểm đại diện có tọa độ từ nguồn chính thức Việt Nam. Đường bờ khái quát; không thể hiện ranh giới biển hoặc đầy đủ mọi đảo, đá."
+        },
+        {
+          "kind": "text",
+          "text": "102°Đ"
+        },
+        {
+          "kind": "text",
+          "text": "106°Đ"
+        },
+        {
+          "kind": "text",
+          "text": "110°Đ"
+        },
+        {
+          "kind": "text",
+          "text": "114°Đ"
+        },
+        {
+          "kind": "text",
+          "text": "118°Đ"
+        },
+        {
+          "kind": "text",
+          "text": "8°B"
+        },
+        {
+          "kind": "text",
+          "text": "12°B"
+        },
+        {
+          "kind": "text",
+          "text": "16°B"
+        },
+        {
+          "kind": "text",
+          "text": "20°B"
+        },
+        {
+          "kind": "text",
+          "text": "24°B"
+        },
+        {
+          "kind": "title",
+          "text": "Phú Quốc"
+        },
+        {
+          "kind": "title",
+          "text": "Hoàng Sa"
+        },
+        {
+          "kind": "title",
+          "text": "Phú Lâm"
+        },
+        {
+          "kind": "title",
+          "text": "Tri Tôn"
+        },
+        {
+          "kind": "title",
+          "text": "Trường Sa Lớn"
+        },
+        {
+          "kind": "title",
+          "text": "Song Tử Tây"
+        },
+        {
+          "kind": "title",
+          "text": "Nam Yết"
+        },
+        {
+          "kind": "text",
+          "text": "VIỆT NAM"
+        },
+        {
+          "kind": "text",
+          "text": "Quần đảo Hoàng Sa (Việt Nam)"
+        },
+        {
+          "kind": "text",
+          "text": "Quần đảo Trường Sa (Việt Nam)"
+        },
+        {
+          "kind": "text",
+          "text": "BIỂN ĐÔNG"
+        },
+        {
+          "kind": "text",
+          "text": "Phú Quốc"
+        },
+        {
+          "kind": "text",
+          "text": "Côn Đảo"
+        },
+        {
+          "kind": "p",
+          "text": "Đường bao Việt Nam từ dữ liệu nền · Đảo nhỏ · lớp địa hình · Điểm đại diện có nguồn"
+        },
+        {
+          "kind": "p",
+          "text": "Tên gọi và thể hiện chủ quyền theo nguồn chính thức Việt Nam. Chủ quyền tại Hoàng Sa và Trường Sa có tranh chấp quốc tế; ký hiệu vị trí không thể hiện ranh giới biển."
+        },
+        {
+          "kind": "h3",
+          "text": "Hoàng Sa · nhìn gần"
+        },
+        {
+          "kind": "p",
+          "text": "Ba vị trí từ Cổng thông tin thành phố Đà Nẵng."
+        },
+        {
+          "kind": "title",
+          "text": "Hoàng Sa"
+        },
+        {
+          "kind": "text",
+          "text": "Hoàng Sa"
+        },
+        {
+          "kind": "title",
+          "text": "Phú Lâm"
+        },
+        {
+          "kind": "text",
+          "text": "Phú Lâm"
+        },
+        {
+          "kind": "title",
+          "text": "Tri Tôn"
+        },
+        {
+          "kind": "text",
+          "text": "Tri Tôn"
+        },
+        {
+          "kind": "p",
+          "text": "Các chấm đánh dấu vị trí đại diện. Hình đảo nhỏ lấy từ lớp địa hình khái quát, không thay cho hải đồ."
+        },
+        {
+          "kind": "h3",
+          "text": "Trường Sa · nhìn gần"
+        },
+        {
+          "kind": "p",
+          "text": "Đảo Trường Sa Lớn và hai vị trí bia chủ quyền."
+        },
+        {
+          "kind": "title",
+          "text": "Trường Sa Lớn"
+        },
+        {
+          "kind": "text",
+          "text": "Trường Sa Lớn"
+        },
+        {
+          "kind": "title",
+          "text": "Song Tử Tây"
+        },
+        {
+          "kind": "text",
+          "text": "Song Tử Tây"
+        },
+        {
+          "kind": "title",
+          "text": "Nam Yết"
+        },
+        {
+          "kind": "text",
+          "text": "Nam Yết"
+        },
+        {
+          "kind": "p",
+          "text": "Các chấm đánh dấu vị trí đại diện. Hình đảo nhỏ lấy từ lớp địa hình khái quát, không thay cho hải đồ."
+        },
+        {
+          "kind": "h2",
+          "text": "Điểm đại diện và nguồn tọa độ"
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Đây là các mốc có nguồn để đọc vị trí, không phải danh mục đầy đủ đảo, đá và bãi ngầm. Chọn một mốc để mở nguồn và xem giới hạn của tọa độ."
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Chọn một điểm đại diện."
+        },
+        {
+          "kind": "p",
+          "text": "Đường bao Phú Quốc và đảo chính Côn Đảo có trong dữ liệu nền. Nhãn Côn Đảo gắn với hình đảo, không dùng tọa độ tự nhận là đo đạc chính thức."
+        },
+        {
+          "kind": "p",
+          "text": "Phạm vi bản đồ: Đường bờ Natural Earth tỷ lệ khái quát 1:10 triệu và lớp đảo nhỏ riêng. Dữ liệu này chưa chứng minh đầy đủ mọi thực thể ngoài khơi. Bản đồ không dùng để đo đạc, phân định chủ quyền hoặc xác định ranh giới hành chính hiện hành."
+        },
+        {
+          "kind": "h3",
+          "text": "Tọa độ của 7 điểm đại diện"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Địa điểm",
+              "Vĩ độ · độ/phút/giây",
+              "Kinh độ · độ/phút/giây",
+              "Vĩ độ · thập phân",
+              "Kinh độ · thập phân"
+            ],
+            [
+              "Đảo Phú Quốc",
+              "10°14′26.2″N",
+              "103°58′21.2″E",
+              "10.2406111",
+              "103.9725556"
+            ],
+            [
+              "Đảo Hoàng Sa",
+              "16°32′0″N",
+              "111°36′7″E",
+              "16.5333333",
+              "111.6019444"
+            ],
+            [
+              "Đảo Phú Lâm",
+              "16°50′2″N",
+              "112°20′0″E",
+              "16.8338889",
+              "112.3333333"
+            ],
+            [
+              "Đảo Tri Tôn",
+              "15°47′2″N",
+              "111°11′8″E",
+              "15.7838889",
+              "111.1855556"
+            ],
+            [
+              "Đảo Trường Sa Lớn",
+              "8°38′30″N",
+              "111°55′55″E",
+              "8.6416667",
+              "111.9319444"
+            ],
+            [
+              "Bia chủ quyền đảo Song Tử Tây",
+              "11°25′55″N",
+              "114°18′00″E",
+              "11.4319444",
+              "114.3"
+            ],
+            [
+              "Bia chủ quyền đảo Nam Yết",
+              "10°10′45″N",
+              "114°22′00″E",
+              "10.1791667",
+              "114.3666667"
+            ]
+          ]
+        },
+        {
+          "kind": "h3",
+          "text": "Nguồn tọa độ và giới hạn từng điểm"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Địa điểm",
+              "Phạm vi nguồn · đường dẫn"
+            ],
+            [
+              "Đảo Phú Quốc",
+              "Tọa độ theo bài giới thiệu địa lý. · https://phuquoc.angiang.gov.vn/tong-quan-ve-phu-quoc-0"
+            ],
+            [
+              "Đảo Hoàng Sa",
+              "Tọa độ theo bài giới thiệu địa lý. · https://duyxuyen.danang.gov.vn/vi/web/dng-old/w/ubnd-huy%E1%BB%87n-ho%C3%A0ng-sa"
+            ],
+            [
+              "Đảo Phú Lâm",
+              "Tọa độ theo bài giới thiệu địa lý. · https://duyxuyen.danang.gov.vn/vi/web/dng-old/w/ubnd-huy%E1%BB%87n-ho%C3%A0ng-sa"
+            ],
+            [
+              "Đảo Tri Tôn",
+              "Tọa độ theo bài giới thiệu địa lý. · https://duyxuyen.danang.gov.vn/vi/web/dng-old/w/ubnd-huy%E1%BB%87n-ho%C3%A0ng-sa"
+            ],
+            [
+              "Đảo Trường Sa Lớn",
+              "Tọa độ theo bài giới thiệu địa lý. · https://scov.gov.vn/cong-tac-ve-nvnonn/tin-tuc/den-voi-truong-sa-lon-thu-do-cua-huyen-dao-truong-sa-.html"
+            ],
+            [
+              "Bia chủ quyền đảo Song Tử Tây",
+              "Tọa độ bia chủ quyền; không phải tâm đảo. · https://svhttdl.khanhhoa.gov.vn/vi/di-tichdi-san-cap-quoc-gia/bia-chu-quyen-quan-dao-truong-sa-tai-dao-song-tu-tay-va-dao-nam-yet"
+            ],
+            [
+              "Bia chủ quyền đảo Nam Yết",
+              "Tọa độ bia chủ quyền; không phải tâm đảo. · https://svhttdl.khanhhoa.gov.vn/vi/di-tichdi-san-cap-quoc-gia/bia-chu-quyen-quan-dao-truong-sa-tai-dao-song-tu-tay-va-dao-nam-yet"
+            ]
+          ]
+        }
+      ],
+      "readerBlocks": [
+        {
+          "kind": "h3",
+          "text": "Việt Nam · Phạm vi và cách đọc"
+        },
+        {
+          "kind": "p",
+          "text": "Xem đường bờ khái quát, vị trí Phú Quốc và Côn Đảo, cùng các điểm đại diện tại Hoàng Sa và Trường Sa. Hai khung nhìn gần giúp đọc rõ các địa danh ngoài khơi."
+        },
+        {
+          "kind": "p",
+          "text": "Đất liền và các đảo từ Natural Earth. 7 điểm đại diện có tọa độ từ nguồn chính thức Việt Nam. Đường bờ khái quát; không thể hiện ranh giới biển hoặc đầy đủ mọi đảo, đá."
+        },
+        {
+          "kind": "p",
+          "text": "Tên gọi và thể hiện chủ quyền theo nguồn chính thức Việt Nam. Chủ quyền tại Hoàng Sa và Trường Sa có tranh chấp quốc tế; ký hiệu vị trí không thể hiện ranh giới biển."
+        },
+        {
+          "kind": "p",
+          "text": "Đường bao Việt Nam từ dữ liệu nền · Đảo nhỏ · lớp địa hình · Điểm đại diện có nguồn"
+        },
+        {
+          "kind": "h3",
+          "text": "Nhãn trục và địa danh"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Trục",
+              "Nhãn trong hình"
+            ],
+            [
+              "Kinh độ",
+              "102°Đ · 106°Đ · 110°Đ · 114°Đ · 118°Đ"
+            ],
+            [
+              "Vĩ độ",
+              "8°B · 12°B · 16°B · 20°B · 24°B"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Địa danh và nhãn",
+              "Địa danh và nhãn",
+              "Địa danh và nhãn"
+            ],
+            [
+              "Phú Quốc",
+              "Hoàng Sa",
+              "Phú Lâm"
+            ],
+            [
+              "Tri Tôn",
+              "Trường Sa Lớn",
+              "Song Tử Tây"
+            ],
+            [
+              "Nam Yết",
+              "VIỆT NAM",
+              "Quần đảo Hoàng Sa (Việt Nam)"
+            ],
+            [
+              "Quần đảo Trường Sa (Việt Nam)",
+              "BIỂN ĐÔNG",
+              "Côn Đảo"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Các chấm đánh dấu vị trí đại diện. Hình đảo nhỏ lấy từ lớp địa hình khái quát, không thay cho hải đồ."
+        },
+        {
+          "kind": "h3",
+          "text": "Hoàng Sa · nhìn gần"
+        },
+        {
+          "kind": "p",
+          "text": "Ba vị trí từ Cổng thông tin thành phố Đà Nẵng."
+        },
+        {
+          "kind": "h3",
+          "text": "Trường Sa · nhìn gần"
+        },
+        {
+          "kind": "p",
+          "text": "Đảo Trường Sa Lớn và hai vị trí bia chủ quyền."
+        },
+        {
+          "kind": "h2",
+          "text": "Điểm đại diện và nguồn tọa độ"
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Đây là các mốc có nguồn để đọc vị trí, không phải danh mục đầy đủ đảo, đá và bãi ngầm. Chọn một mốc để mở nguồn và xem giới hạn của tọa độ."
+        },
+        {
+          "kind": "p",
+          "text": "Đường bao Phú Quốc và đảo chính Côn Đảo có trong dữ liệu nền. Nhãn Côn Đảo gắn với hình đảo, không dùng tọa độ tự nhận là đo đạc chính thức."
+        },
+        {
+          "kind": "p",
+          "text": "Phạm vi bản đồ: Đường bờ Natural Earth tỷ lệ khái quát 1:10 triệu và lớp đảo nhỏ riêng. Dữ liệu này chưa chứng minh đầy đủ mọi thực thể ngoài khơi. Bản đồ không dùng để đo đạc, phân định chủ quyền hoặc xác định ranh giới hành chính hiện hành."
+        },
+        {
+          "kind": "h3",
+          "text": "Tọa độ của 7 điểm đại diện"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Địa điểm",
+              "Vĩ độ · độ/phút/giây",
+              "Kinh độ · độ/phút/giây",
+              "Vĩ độ · thập phân",
+              "Kinh độ · thập phân"
+            ],
+            [
+              "Đảo Phú Quốc",
+              "10°14′26.2″N",
+              "103°58′21.2″E",
+              "10.2406111",
+              "103.9725556"
+            ],
+            [
+              "Đảo Hoàng Sa",
+              "16°32′0″N",
+              "111°36′7″E",
+              "16.5333333",
+              "111.6019444"
+            ],
+            [
+              "Đảo Phú Lâm",
+              "16°50′2″N",
+              "112°20′0″E",
+              "16.8338889",
+              "112.3333333"
+            ],
+            [
+              "Đảo Tri Tôn",
+              "15°47′2″N",
+              "111°11′8″E",
+              "15.7838889",
+              "111.1855556"
+            ],
+            [
+              "Đảo Trường Sa Lớn",
+              "8°38′30″N",
+              "111°55′55″E",
+              "8.6416667",
+              "111.9319444"
+            ],
+            [
+              "Bia chủ quyền đảo Song Tử Tây",
+              "11°25′55″N",
+              "114°18′00″E",
+              "11.4319444",
+              "114.3"
+            ],
+            [
+              "Bia chủ quyền đảo Nam Yết",
+              "10°10′45″N",
+              "114°22′00″E",
+              "10.1791667",
+              "114.3666667"
+            ]
+          ]
+        },
+        {
+          "kind": "h3",
+          "text": "Nguồn tọa độ và giới hạn từng điểm"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Địa điểm",
+              "Phạm vi nguồn · đường dẫn"
+            ],
+            [
+              "Đảo Phú Quốc",
+              "Tọa độ theo bài giới thiệu địa lý. · https://phuquoc.angiang.gov.vn/tong-quan-ve-phu-quoc-0"
+            ],
+            [
+              "Đảo Hoàng Sa",
+              "Tọa độ theo bài giới thiệu địa lý. · https://duyxuyen.danang.gov.vn/vi/web/dng-old/w/ubnd-huy%E1%BB%87n-ho%C3%A0ng-sa"
+            ],
+            [
+              "Đảo Phú Lâm",
+              "Tọa độ theo bài giới thiệu địa lý. · https://duyxuyen.danang.gov.vn/vi/web/dng-old/w/ubnd-huy%E1%BB%87n-ho%C3%A0ng-sa"
+            ],
+            [
+              "Đảo Tri Tôn",
+              "Tọa độ theo bài giới thiệu địa lý. · https://duyxuyen.danang.gov.vn/vi/web/dng-old/w/ubnd-huy%E1%BB%87n-ho%C3%A0ng-sa"
+            ],
+            [
+              "Đảo Trường Sa Lớn",
+              "Tọa độ theo bài giới thiệu địa lý. · https://scov.gov.vn/cong-tac-ve-nvnonn/tin-tuc/den-voi-truong-sa-lon-thu-do-cua-huyen-dao-truong-sa-.html"
+            ],
+            [
+              "Bia chủ quyền đảo Song Tử Tây",
+              "Tọa độ bia chủ quyền; không phải tâm đảo. · https://svhttdl.khanhhoa.gov.vn/vi/di-tichdi-san-cap-quoc-gia/bia-chu-quyen-quan-dao-truong-sa-tai-dao-song-tu-tay-va-dao-nam-yet"
+            ],
+            [
+              "Bia chủ quyền đảo Nam Yết",
+              "Tọa độ bia chủ quyền; không phải tâm đảo. · https://svhttdl.khanhhoa.gov.vn/vi/di-tichdi-san-cap-quoc-gia/bia-chu-quyen-quan-dao-truong-sa-tai-dao-song-tu-tay-va-dao-nam-yet"
+            ]
+          ]
+        }
+      ],
+      "dispositions": [
+        {
+          "sourceIndexes": [
+            0,
+            1
+          ],
+          "targetIndexes": [
+            0,
+            1,
+            5
+          ],
+          "relation": "equivalent",
+          "reason": "One Vietnam scope heading and mainland/island statement replace extraction heading/title.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            2
+          ],
+          "targetIndexes": [
+            1
+          ],
+          "relation": "exact",
+          "reason": "Exact mainland, offshore-name and two-inset context.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            3,
+            6
+          ],
+          "targetIndexes": [
+            2
+          ],
+          "relation": "equivalent",
+          "reason": "Geographic-source paragraph includes7 sourced representative points and full maritime/island completeness qualification.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            4
+          ],
+          "targetIndexes": [
+            8
+          ],
+          "relation": "equivalent",
+          "reason": "Representative-point circle/dot appearance is preserved in the shared inset-symbol explanation.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            5
+          ],
+          "targetIndexes": [
+            1,
+            7
+          ],
+          "relation": "equivalent",
+          "reason": "Repeated SVG title resolves to the same named mainland and offshore places in scope and label table.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "targetIndexes": [
+            6
+          ],
+          "relation": "exact",
+          "reason": "Each independent axis label retained in its longitude/latitude row, without implying coordinate pairs.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "targetIndexes": [
+            7
+          ],
+          "relation": "exact",
+          "reason": "Repeated SVG title/text labels printed once; all distinct geographic/territorial labels remain.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            30
+          ],
+          "targetIndexes": [
+            4
+          ],
+          "relation": "exact",
+          "reason": "Exact map-layer legend retained.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            31
+          ],
+          "targetIndexes": [
+            3
+          ],
+          "relation": "exact",
+          "reason": "Exact official naming, international dispute and non-maritime-boundary qualification.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            32
+          ],
+          "targetIndexes": [
+            9
+          ],
+          "relation": "exact",
+          "reason": "HoangSa inset remains named.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            33
+          ],
+          "targetIndexes": [
+            10
+          ],
+          "relation": "exact",
+          "reason": "Three-point official-source association remains under HoangSa.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            40,
+            49
+          ],
+          "targetIndexes": [
+            8
+          ],
+          "relation": "exact",
+          "reason": "Same schematic point-marker/no-nautical-chart rule applies to both inset groups once.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            41
+          ],
+          "targetIndexes": [
+            11
+          ],
+          "relation": "exact",
+          "reason": "TruongSa inset remains named.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            42
+          ],
+          "targetIndexes": [
+            12
+          ],
+          "relation": "exact",
+          "reason": "TruongSaLon and two sovereignty-marker association retained.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            50
+          ],
+          "targetIndexes": [
+            13
+          ],
+          "relation": "exact",
+          "reason": "Sourced representative-point heading retained.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            51,
+            52
+          ],
+          "targetIndexes": [
+            14
+          ],
+          "relation": "equivalent",
+          "reason": "Full HTML source-opening instruction retains representative-point scope; repeated choose-one hint adds no other behavior.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            53
+          ],
+          "targetIndexes": [
+            15
+          ],
+          "relation": "exact",
+          "reason": "Exact PhuQuoc/ConDao outline and unsupported-official-measurement qualifier.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            54
+          ],
+          "targetIndexes": [
+            16
+          ],
+          "relation": "exact",
+          "reason": "Exact scale, source completeness and measurement/sovereignty/administrative-boundary prohibition.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            55,
+            56,
+            57,
+            58
+          ],
+          "targetIndexes": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "relation": "exact",
+          "reason": "All7 current human-facing landmark coordinates and source qualifications are parsed from the declared inert JSON assignment. Exact DMS, decimal precision, names, source URLs and measurement scope are native searchable table cells; internal record IDs remain machine metadata.",
+          "protectedFacts": [
+            "10°14′26.2″N",
+            "103°58′21.2″E",
+            "10.2406111",
+            "103.9725556",
+            "https://phuquoc.angiang.gov.vn/tong-quan-ve-phu-quoc-0",
+            "Tọa độ theo bài giới thiệu địa lý.",
+            "16°32′0″N",
+            "111°36′7″E",
+            "16.5333333",
+            "111.6019444",
+            "https://duyxuyen.danang.gov.vn/vi/web/dng-old/w/ubnd-huy%E1%BB%87n-ho%C3%A0ng-sa",
+            "Tọa độ theo bài giới thiệu địa lý.",
+            "16°50′2″N",
+            "112°20′0″E",
+            "16.8338889",
+            "112.3333333",
+            "https://duyxuyen.danang.gov.vn/vi/web/dng-old/w/ubnd-huy%E1%BB%87n-ho%C3%A0ng-sa",
+            "Tọa độ theo bài giới thiệu địa lý.",
+            "15°47′2″N",
+            "111°11′8″E",
+            "15.7838889",
+            "111.1855556",
+            "https://duyxuyen.danang.gov.vn/vi/web/dng-old/w/ubnd-huy%E1%BB%87n-ho%C3%A0ng-sa",
+            "Tọa độ theo bài giới thiệu địa lý.",
+            "8°38′30″N",
+            "111°55′55″E",
+            "8.6416667",
+            "111.9319444",
+            "https://scov.gov.vn/cong-tac-ve-nvnonn/tin-tuc/den-voi-truong-sa-lon-thu-do-cua-huyen-dao-truong-sa-.html",
+            "Tọa độ theo bài giới thiệu địa lý.",
+            "11°25′55″N",
+            "114°18′00″E",
+            "11.4319444",
+            "114.3",
+            "https://svhttdl.khanhhoa.gov.vn/vi/di-tichdi-san-cap-quoc-gia/bia-chu-quyen-quan-dao-truong-sa-tai-dao-song-tu-tay-va-dao-nam-yet",
+            "Tọa độ bia chủ quyền; không phải tâm đảo.",
+            "10°10′45″N",
+            "114°22′00″E",
+            "10.1791667",
+            "114.3666667",
+            "https://svhttdl.khanhhoa.gov.vn/vi/di-tichdi-san-cap-quoc-gia/bia-chu-quyen-quan-dao-truong-sa-tai-dao-song-tu-tay-va-dao-nam-yet",
+            "Tọa độ bia chủ quyền; không phải tâm đảo."
+          ]
+        }
+      ],
+      "embeddedData": [
+        {
+          "assignment": "MAP_POINTS",
+          "expectedRows": 7,
+          "dataSha256": "d4a827a31bada99a706b7ced6702e182cdf283ee9fd2b29e9afd0c6ea203e047",
+          "metadataFields": [
+            "id"
+          ],
+          "tables": [
+            {
+              "title": "Tọa độ của 7 điểm đại diện",
+              "columns": [
+                {
+                  "label": "Địa điểm",
+                  "keys": [
+                    "label"
+                  ]
+                },
+                {
+                  "label": "Vĩ độ · độ/phút/giây",
+                  "keys": [
+                    "latDms"
+                  ]
+                },
+                {
+                  "label": "Kinh độ · độ/phút/giây",
+                  "keys": [
+                    "lonDms"
+                  ]
+                },
+                {
+                  "label": "Vĩ độ · thập phân",
+                  "keys": [
+                    "lat"
+                  ]
+                },
+                {
+                  "label": "Kinh độ · thập phân",
+                  "keys": [
+                    "lon"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Nguồn tọa độ và giới hạn từng điểm",
+              "columns": [
+                {
+                  "label": "Địa điểm",
+                  "keys": [
+                    "label"
+                  ]
+                },
+                {
+                  "label": "Phạm vi nguồn · đường dẫn",
+                  "keys": [
+                    "kind",
+                    "source"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "library:map-world-3d",
+      "sourceFile": "assets/maps/world.html",
+      "sourceHash": "6b072c5054132f9f3165a755eb2fbabd9766b903526a2662e3ded1f4996e6605",
+      "sourceBlocks": [
+        {
+          "kind": "h3",
+          "text": "Nhãn địa lý, nguồn và cách dùng"
+        },
+        {
+          "kind": "h1",
+          "text": "Thế giới trên một quả địa cầu."
+        },
+        {
+          "kind": "p",
+          "text": "Xoay để nhìn đường bờ từ các phía. Bề mặt chỉ thể hiện đất liền và đại dương; màu sắc không phân loại quốc gia hoặc chủ quyền."
+        },
+        {
+          "kind": "p",
+          "text": "Khối cầu 3D thật · Đường bờ thế giới · Mở đầu từ châu Á"
+        },
+        {
+          "kind": "p",
+          "text": "Góc nhìn châu Á · Đường bờ tự nhiên · Không có ranh giới chủ quyền"
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Kéo để xoay. Khi chọn quả địa cầu: dùng phím mũi tên để đổi góc nhìn, + và − để phóng to hoặc thu nhỏ, Home để về châu Á, phím cách để tạm dừng. Có thể chọn bản đồ 2D bất cứ lúc nào."
+        },
+        {
+          "kind": "p",
+          "text": "Nguồn đường bờ: Natural Earth qua world-atlas 2.0.2, độ khái quát 1:110 triệu. Các đảo rất nhỏ có thể không xuất hiện ở mức này. Khi thiết bị yêu cầu giảm chuyển động, quả địa cầu đứng yên mặc định."
+        },
+        {
+          "kind": "p",
+          "text": "Cách đọc: Đây là bề mặt địa lý để nhìn tổng thể thế giới. Màu đất liền không xác định chủ quyền, và quả địa cầu không thay thế bản đồ chi tiết Việt Nam."
+        }
+      ],
+      "readerBlocks": [
+        {
+          "kind": "h3",
+          "text": "Quả địa cầu · Phạm vi và cách đọc"
+        },
+        {
+          "kind": "p",
+          "text": "Khối cầu 3D thật, mở đầu từ châu Á. Bề mặt chỉ thể hiện đất liền và đại dương; màu sắc không phân loại quốc gia hoặc chủ quyền. Không có ranh giới chủ quyền."
+        },
+        {
+          "kind": "p",
+          "text": "Nguồn đường bờ: Natural Earth qua world-atlas 2.0.2, độ khái quát 1:110 triệu. Các đảo rất nhỏ có thể không xuất hiện ở mức này. Khi thiết bị yêu cầu giảm chuyển động, quả địa cầu đứng yên mặc định."
+        },
+        {
+          "kind": "p",
+          "text": "Cách đọc: Đây là bề mặt địa lý để nhìn tổng thể thế giới. Màu đất liền không xác định chủ quyền, và quả địa cầu không thay thế bản đồ chi tiết Việt Nam."
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Kéo để xoay. Khi chọn quả địa cầu: dùng phím mũi tên để đổi góc nhìn, + và − để phóng to hoặc thu nhỏ, Home để về châu Á, phím cách để tạm dừng. Có thể chọn bản đồ 2D bất cứ lúc nào."
+        }
+      ],
+      "dispositions": [
+        {
+          "sourceIndexes": [
+            0,
+            1
+          ],
+          "targetIndexes": [
+            0
+          ],
+          "relation": "equivalent",
+          "reason": "One globe scope heading replaces extraction/page-title recap.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            2,
+            3,
+            4
+          ],
+          "targetIndexes": [
+            1,
+            4
+          ],
+          "relation": "equivalent",
+          "reason": "One surface/3D/default-Asia statement and full HTML rotation instruction preserve all scope and startup meaning.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            5
+          ],
+          "targetIndexes": [
+            4
+          ],
+          "relation": "exact",
+          "reason": "All pointer, keyboard, zoom, reset, pause and2D escape behavior labelled HTML.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            6
+          ],
+          "targetIndexes": [
+            2
+          ],
+          "relation": "exact",
+          "reason": "Exact coast source/version/scale, missing-small-island and reduced-motion qualifications.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            7
+          ],
+          "targetIndexes": [
+            3
+          ],
+          "relation": "exact",
+          "reason": "Exact sovereignty meaning and Vietnam-detail-map limitation.",
+          "protectedFacts": []
+        }
+      ]
+    },
+    {
+      "id": "overview:voice",
+      "sourceFile": "system.model.json",
+      "sourceHash": "855c7e52af5bb9cebaa560f64a2e1be02865798e50f790f03072d90837c25f38",
+      "sourceBlocks": [
+        {
+          "kind": "h2",
+          "text": "Rõ và cụ thể. · Clear and concrete."
+        },
+        {
+          "kind": "p",
+          "text": "Giọng biên tập đề xuất cho hướng dẫn MELAB, không chứng nhận giọng thương hiệu chính thức."
+        },
+        {
+          "kind": "summary",
+          "text": "Bối cảnh"
+        },
+        {
+          "kind": "p",
+          "text": "Đội thiết kế, nội dung và phát triển cần tìm đúng quy tắc và mẫu dùng lại."
+        },
+        {
+          "kind": "summary",
+          "text": "Công việc người đọc"
+        },
+        {
+          "kind": "p",
+          "text": "Tìm việc cần làm, hiểu cách áp dụng, biết giới hạn và bước tiếp theo."
+        },
+        {
+          "kind": "summary",
+          "text": "Đặc tính"
+        },
+        {
+          "kind": "p",
+          "text": "Rõ, cụ thể, có năng lượng vừa đủ. Đây là đề xuất biên tập, chưa phải giọng thương hiệu đã học từ tập mẫu."
+        },
+        {
+          "kind": "summary",
+          "text": "Giọng theo tình huống"
+        },
+        {
+          "kind": "p",
+          "text": "Bình thường: chỉ hành động. Lỗi: nói điều chưa làm được, nguyên nhân đã biết hoặc chưa biết và bước xử lý đã xác minh. Chưa rõ: nêu thiếu nguồn, không đoán."
+        },
+        {
+          "kind": "summary",
+          "text": "Tiếng Việt / English"
+        },
+        {
+          "kind": "p",
+          "text": "VI: câu tự nhiên, giữ dấu và điều kiện. EN: concrete verbs, consistent terms, explicit uncertainty."
+        },
+        {
+          "kind": "summary",
+          "text": "Tuyên bố"
+        },
+        {
+          "kind": "p",
+          "text": "Giữ nguyên màu, tên, đơn vị và số nguồn. Không thêm lời hứa về doanh thu hay kết quả học tập."
+        },
+        {
+          "kind": "summary",
+          "text": "Thành phần và ví dụ"
+        },
+        {
+          "kind": "p",
+          "text": "Bình thường: Chọn một mục để xem cách dùng. Lỗi: Chưa mở được mẫu; chưa xác định nguyên nhân. Xem thông tin và giới hạn trong bản ghi. Unknown: Official print specifications have not been verified."
+        },
+        {
+          "kind": "summary",
+          "text": "Cách cập nhật"
+        },
+        {
+          "kind": "p",
+          "text": "Đọc nguồn → viết theo nhiệm vụ → kiểm nghĩa và tiếng Việt/Anh → xem trên bản thật. Chỉnh nội dung làm hết giá trị kiểm chứng cũ."
+        }
+      ],
+      "readerBlocks": [
+        {
+          "kind": "reference",
+          "source": "voice/traits/0/instruction",
+          "text": "Cụ thể để dễ hiểu: gọi tên việc làm và đối tượng trước lời khen. Concrete and useful: name the action and object before praise. Is: an identifiable action. Is not: a vague promise."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/0/appliesWhen",
+          "text": "Headings, explanations, labels and calls to action across written and spoken material."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/0/exception",
+          "text": "Preserve approved official names and exact quoted source lines; do not rewrite them as operational claims."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/0/confidence",
+          "text": "Limited brand-fit confidence; editorial proposal, not extracted behavior."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/0/positiveExample",
+          "text": "VI: Chọn một chủ đề để xem ví dụ. EN: Choose a topic to see an example."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/0/negativeExample",
+          "text": "VI: Mở khóa tiềm năng vô hạn ngay hôm nay. EN: Unlock limitless potential today."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/1/instruction",
+          "text": "Khuyến khích bằng bước vừa sức: nêu việc có thể làm tiếp mà không đánh giá người đọc. Encourage through a manageable next step without judging the reader. Is: an invitation with a clear task. Is not: pressure or assumed ability."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/1/appliesWhen",
+          "text": "First visits, learning introductions, onboarding and empty states when a real next action exists."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/1/exception",
+          "text": "For safety, payment, security and irreversible actions, state the facts and consequences before encouragement; omit humor."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/1/confidence",
+          "text": "Limited; proposed direction awaiting approved MELAB samples."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/1/positiveExample",
+          "text": "VI: Bắt đầu với ví dụ này, rồi thử cách của bạn. EN: Start with this example, then try your own approach."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/1/negativeExample",
+          "text": "VI: Ai cũng làm được, bạn còn chờ gì? EN: Anyone can do this. What are you waiting for?"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/2/instruction",
+          "text": "Giữ mức chắc chắn đúng với bằng chứng: nói rõ giới hạn, trạng thái và điều kiện. Match certainty to evidence: name the limit, state and condition. Is: an honest, useful boundary. Is not: confidence used to hide missing facts."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/2/appliesWhen",
+          "text": "Claims, reports, examples, errors, unknown states and success messages."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/2/exception",
+          "text": "A verified fact may be stated directly; do not add artificial doubt. Omit a recovery step when none is supported."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/2/confidence",
+          "text": "High editorial need; limited evidence of distinctive MELAB behavior."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/2/positiveExample",
+          "text": "VI: Chưa có thông tin xác nhận ngày bắt đầu. EN: The start date has not been confirmed."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/2/negativeExample",
+          "text": "VI: Chắc chắn bắt đầu sớm. EN: It will definitely start soon."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/3/instruction",
+          "text": "Giải thích theo mạch làm việc: ý chính, ví dụ cụ thể, rồi bước tiếp theo khi cần. Explain in a usable order: main point, concrete example, then the next step when needed. Is: a sequence with purpose. Is not: a compulsory formula for every short label."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/3/appliesWhen",
+          "text": "Full explanations, learning passages and implementation-team walkthroughs."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/3/exception",
+          "text": "A warning starts with the risk; a short label contains only the action. Preserve the order required for safe execution."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/3/confidence",
+          "text": "Limited; an original teaching proposal, not evidence of MELAB's established method."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/3/positiveExample",
+          "text": "VI: Chọn màu chữ. Sau đó kiểm tra chữ trên nền sáng và nền tối để bảo đảm dễ đọc. EN: Choose the text color. Then check it on light and dark backgrounds for readability."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/traits/3/negativeExample",
+          "text": "VI: Hãy khám phá hành trình màu sắc đầy cảm hứng. EN: Explore an inspiring color journey."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/governance/authenticity",
+          "text": "proposed; no authentic writing corpus supplied or inferred. Original brandkit identity and display lines are not a corpus."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/governance/gaps",
+          "text": "Approved MELAB writing samples and anti-samples, actual audience/offer facts, English regional preference, human language review, held-out corpus test and final rendered copy readback remain absent or belong to later package verification."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/governance/confidence",
+          "text": "Limited brand-fit confidence for both languages. Structural completeness and reviewed synthetic examples prove only their stated local checks."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/context/audience",
+          "text": "Đề xuất cho người đọc hướng dẫn MELAB, người học và đội ngũ thực hiện; mức kiến thức và quan hệ khách hàng cần xác nhận theo từng nội dung. Proposed for guideline readers, learners and implementation teams; confirm expertise and relationship for each task."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/context/job",
+          "text": "Giúp người đọc hiểu một ý, nhận biết điều đã biết hoặc chưa biết, rồi chọn hành động phù hợp. Help readers understand one idea, distinguish known from unknown, and choose a supported next action."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/context/channels",
+          "text": "Hướng dẫn, nội dung giới thiệu, tài liệu, bài trình bày, giao diện mẫu và lời giải thích trực tiếp. Guidelines, introductions, documents, presentations, illustrative interfaces and spoken explanations."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/context/owner",
+          "text": "MELAB owns brand approval; this task model supplies an unapproved editorial proposal. Content owners retain facts and offers; visual-system packaging does not approve voice authenticity."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/context/languages",
+          "text": "vi and en; use the requested language naturally. Two language profiles express one proposed character, not two brand identities."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/context/facts",
+          "text": "Original brandkit shows the name MELAB and the display lines CREATE and Learn. Build. Transform. Those lines are identity evidence only; they do not establish a service offer, guarantee, audience age or writing personality."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/context/writing",
+          "text": "Lead with the reader's useful point; use headings for scanning, concrete verbs and one main idea per paragraph. Labels name the actual object or action. Keep necessary conditions beside the claim."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/context/speaking",
+          "text": "State the useful point first, explain one idea per beat, pause between dependent steps and name the next check. Use complete, natural sentences; wording guidance grants no audio-production authority."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/niche/domain",
+          "text": "Proposed learning-and-making orientation for this guideline, suggested by the original display line only. MELAB's actual products, services and commercial category remain unspecified."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/niche/readerKnowledge",
+          "text": "Assume no prior knowledge of internal design or technology terms. For specialists, retain the exact term needed for work and explain its role once."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/niche/readerDecision",
+          "text": "Understand the example, choose a supported action or identify the fact that must be confirmed; never imply a real purchase or enrollment exists."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/niche/risks",
+          "text": "Overstated learning outcomes, invented features or saved-data claims, assumed reader age, inaccessible labels, and instructions whose action differs from the interface."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/niche/evidenceNeeded",
+          "text": "Current owner-confirmed task facts, actual interface state and approved offer terms before making operational or commercial claims; approved writing samples before claiming authentic voice."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/niche/termPolicy",
+          "text": "Keep MELAB unchanged. Prefer familiar words; explain necessary specialist terms by their concrete role. Do not use English in Vietnamese for prestige."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/niche/emotionalContext",
+          "text": "Proposed stance: respectful encouragement in ordinary learning; calm directness during errors, uncertainty, payment or security concerns. Do not assume excitement or familiarity."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/niche/excludedPromises",
+          "text": "No guaranteed progress, transformation, free access, scarce places, fastest results, security assurance or payment confirmation without specific current evidence."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/0/scenario",
+          "text": "Thông thường"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/0/readerState",
+          "text": "Looking for a useful starting point."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/0/informationOrder",
+          "text": "Useful point, concrete example, supported next action."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/0/personalityLimit",
+          "text": "Respectful, clear and lightly encouraging; medium warmth, low formality, no forced joke, direct action."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/0/action",
+          "text": "Name the object to view or choose; do not invent a feature."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/1/scenario",
+          "text": "Lần đầu tìm hiểu"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/1/readerState",
+          "text": "Unfamiliar with MELAB or this material."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/1/informationOrder",
+          "text": "What this material contains, who it helps if confirmed, where to begin."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/1/personalityLimit",
+          "text": "Welcoming without assumed age, intimacy or excitement."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/1/action",
+          "text": "Offer a concrete first step supported by the page."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/2/scenario",
+          "text": "Bắt đầu sử dụng"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/2/readerState",
+          "text": "Ready to begin but may need guidance."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/2/informationOrder",
+          "text": "Required step, reason, next check; distinguish optional steps."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/2/personalityLimit",
+          "text": "Patient, direct and free of blame; no claim that the task is easy."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/2/action",
+          "text": "Explain each requested input and its actual use."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/3/scenario",
+          "text": "Xác nhận kết quả"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/3/readerState",
+          "text": "Needs confirmation of an action."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/3/informationOrder",
+          "text": "Verified result, relevant scope, next action only if useful."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/3/personalityLimit",
+          "text": "Brief and measured; no celebration that obscures state."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/3/action",
+          "text": "Say saved, sent or paid only when that exact result is confirmed."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/4/scenario",
+          "text": "Chưa có nội dung"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/4/readerState",
+          "text": "Has no item or no matching result."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/4/informationOrder",
+          "text": "What is absent, why only if known, available action."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/4/personalityLimit",
+          "text": "Neutral and helpful; do not suggest the reader failed."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/4/action",
+          "text": "Distinguish no existing items from no search matches."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/5/scenario",
+          "text": "Khi có lỗi"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/5/readerState",
+          "text": "An action failed; may be worried about work."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/5/informationOrder",
+          "text": "Failed action, known cause if any, supported recovery; state data preservation only when verified."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/5/personalityLimit",
+          "text": "Calm, direct and respectful; no joke, blame or false reassurance."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/5/action",
+          "text": "Use a safe documented recovery action; otherwise state the failure without inventing a retry."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/6/scenario",
+          "text": "Khi chưa xác nhận"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/6/readerState",
+          "text": "Needs a fact that has not been confirmed."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/6/informationOrder",
+          "text": "Unknown fact, consequence, actual way to verify if one exists."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/6/personalityLimit",
+          "text": "Plain uncertainty; do not fill the gap with optimistic wording."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/6/action",
+          "text": "Name the missing confirmation. Do not fabricate an owner, response time or contact channel."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/7/scenario",
+          "text": "Thao tác xóa hoặc thay đổi lớn"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/7/readerState",
+          "text": "Considering a change that may remove work."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/7/informationOrder",
+          "text": "Object and scope, actual consequence, recovery availability, explicit action."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/7/personalityLimit",
+          "text": "Sober and precise; no humor or persuasive urgency."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/7/action",
+          "text": "Apply only to a real destructive control. Use a specific verb and a clear cancellation choice; never claim undo exists without proof."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/8/scenario",
+          "text": "Thanh toán và bảo mật"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/8/readerState",
+          "text": "Concerned about payment, access or personal information."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/8/informationOrder",
+          "text": "Verified state, immediate protective action if supported, verified support route."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/8/personalityLimit",
+          "text": "Formal enough for clarity, low warmth, no minimization or certainty about unknown safety."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/8/action",
+          "text": "No live billing or security service is established by this guideline; adapt only after the actual service and approved procedure are confirmed."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/9/scenario",
+          "text": "Hỗ trợ"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/9/readerState",
+          "text": "Needs help or clarification."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/9/informationOrder",
+          "text": "Acknowledge the specific issue, provide a supported explanation, name the available next step."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/9/personalityLimit",
+          "text": "Patient without patronizing or promising a resolution time."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/tones/9/action",
+          "text": "Use actual contact details and approved support policy only; otherwise keep the contact field unresolved."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/claims/immutable",
+          "text": "MELAB spelling and supplied source facts remain exact. Preserve quantities, dates, units, negation, conditions, rights, ownership and uncertainty. Original brandkit display lines remain identity examples rather than evidence of a promised result."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/claims/allowed",
+          "text": "Describe what a verified artifact contains or what a confirmed control does. In examples, state the assumed behavior explicitly. Identity evidence permits naming MELAB; it does not prove a service, audience or performance claim."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/claims/forbidden",
+          "text": "No invented price, free trial, offer, schedule, customer, testimonial, certification, learning result, urgency, saved data, safe retry, undo, payment confirmation or security guarantee. Do not treat competitor language, colors or synthetic examples as MELAB voice evidence."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/claims/unknownHandling",
+          "text": "Name the exact unknown and retain it. Use a neutral proposal when the missing fact affects only tone; block the affected factual claim when it changes an action, right, safety, payment or promise. Ask only if the missing fact changes the required output; do not fill it with plausible copy."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/address",
+          "text": "Dùng 'bạn' cho hướng dẫn chung; có thể lược đại từ khi chủ thể vẫn rõ. Dùng 'MELAB' khi thương hiệu chịu trách nhiệm. Không tự suy đoán tuổi, giới tính, quan hệ thân mật hoặc dùng 'anh/chị'. Với thư chính thức, xác nhận cách xưng hô theo người nhận."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/syntax",
+          "text": "Viết từ ý nghĩa bằng trật tự tự nhiên của tiếng Việt. Ưu tiên động từ và chủ thể cụ thể; giữ nguyên ai làm gì, đối tượng, phủ định, điều kiện, quyền hạn và mức chắc chắn. Mỗi câu hoàn chỉnh mở đầu bằng chữ hoa; giữ dấu tiếng Việt."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/rhythm",
+          "text": "Mỗi đoạn một ý chính; phối hợp câu ngắn và câu giải thích khi cần. Đọc thành tiếng một lượt để sửa câu cứng hoặc giống bản dịch. Không áp giới hạn số từ tiếng Anh cho tiếng Việt, không bỏ điều kiện để rút câu."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/terminology",
+          "text": "Giữ MELAB đúng chữ hoa. Dùng 'hướng dẫn', 'ví dụ', 'chủ đề', 'bản nháp' khi đúng nghĩa. Chỉ giữ thuật ngữ tiếng Anh nếu cần thao tác hoặc tra cứu; giải thích vai trò ngay lần đầu trong mỗi phần độc lập, ưu tiên tối đa năm và không quá chín từ cách nhau bằng khoảng trắng. Giữ nguyên nhãn sản phẩm chính thức, mã, đường dẫn và số liệu. Với tài liệu vi-VN, dùng 1.234,5 khi cần số thập phân và ngày dạng '15 tháng 10 năm 2026' để tránh nhập nhằng; giữ đơn vị và tiền tệ của dữ liệu gốc. Ví dụ này không công bố ngày hay giá của MELAB."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/opening",
+          "text": "Mở bằng điều người đọc cần hiểu hoặc làm. Với cảnh báo, đưa hậu quả lên trước. Không mở đầu bằng lời tự khen hay lịch sử biên soạn nội bộ."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/closing",
+          "text": "Kết bằng bước tiếp theo có thật khi cần; nếu không có hành động, dừng ở thông tin hữu ích. Không thúc giục hoặc hứa hẹn phản hồi khi chưa có chính sách."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/do",
+          "text": "Đặt tên đúng hành động, giải thích từ khó, giữ điều kiện cạnh lời khẳng định; dùng dấu câu tiết chế. Giao diện và cảnh báo không dùng biểu tượng cảm xúc thay nghĩa. Nội dung giới thiệu chỉ dùng biểu tượng khi có mục đích và không che mất thông tin."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/dont",
+          "text": "Không dùng 'đột phá', 'vô hạn', 'bảo đảm thành công', 'chỉ cần', 'ai cũng làm được' như lời hứa mặc định. Không mượn từ tiếng Anh để làm câu có vẻ chuyên nghiệp; không dùng câu máy móc hoặc ẩn người chịu trách nhiệm."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/normalExample",
+          "text": "Chọn một chủ đề để xem ví dụ."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/errorExample",
+          "text": "Không mở được tài liệu này."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/uncertainExample",
+          "text": "Chưa có thông tin xác nhận ngày bắt đầu."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/writtenExample",
+          "text": "Chọn màu chữ, rồi kiểm tra trên nền sáng và nền tối để bảo đảm dễ đọc."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/spokenExample",
+          "text": "Trước hết, chọn màu chữ. Tiếp theo, đặt chữ trên nền sáng và nền tối. Kiểm tra xem ở cả hai nền, chữ có dễ đọc không."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/vi/review",
+          "text": "So từng câu với dữ kiện gốc: chủ thể, hành động, đối tượng, số lượng, đơn vị, ngày, điều kiện, quan hệ nguyên nhân, quyền hạn và điều chưa chắc chắn. Sau đó đọc riêng bản tiếng Việt để kiểm tra tự nhiên, cụ thể và đúng cách xưng hô. Sửa câu không được làm đổi sự thật. Mẫu tự biên soạn không chứng minh độ phù hợp với giọng MELAB đã được duyệt."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/address",
+          "text": "Use 'you' in general guidance and 'MELAB' when the brand is responsible. Do not assume age, gender, familiarity or a customer relationship. Use the requested English variety; this neutral proposal avoids region-dependent idioms."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/syntax",
+          "text": "Name concrete subjects, actions and objects. Prefer active voice when responsibility matters; passive voice is useful when the actor is unknown or irrelevant. Preserve negation, conditions, permissions, ownership and uncertainty. Use parallel list structures."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/rhythm",
+          "text": "Use one main idea per paragraph and vary sentence length with purpose. Keep labels brief and explanations complete. Read aloud for repetition and abrupt transitions; no universal sentence-length limit."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/terminology",
+          "text": "Keep MELAB in uppercase. Use consistent terms such as guide, example, topic and draft when accurate. Expand unfamiliar abbreviations and explain specialist terms by their role. Preserve exact product names, source labels, units and machine values. Spell out months for ambiguous dates, such as 15 October 2026; use 1,234.5 for an English-locale decimal example. Never convert currency or invent a price."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/opening",
+          "text": "Lead with the information or action the reader needs. Start warnings with the consequence. Omit self-praise and production-history narration unless it changes the reader's decision."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/closing",
+          "text": "End with a real next step when useful. End with the answer when no action is needed; do not invent contact details or response commitments."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/do",
+          "text": "Use familiar precise words and measured punctuation. Explain a necessary term once per independent section. Keep valid uncertainty and approved wording. Interface or warning text uses words rather than emoji as the only signal."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/dont",
+          "text": "Avoid unsupported superlatives, vague promotional abstractions, patronizing 'just' or 'easy', forced excitement and formulaic contrast. Do not remove a factual limit merely to make copy sound confident."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/normalExample",
+          "text": "Choose a topic to see an example."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/errorExample",
+          "text": "This document could not be opened."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/uncertainExample",
+          "text": "The start date has not been confirmed."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/writtenExample",
+          "text": "Choose the text color, then check it on light and dark backgrounds for readability."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/spokenExample",
+          "text": "First, choose the text color. Next, place the text on a light background and a dark background. Check that it is readable on both."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/locales/en/review",
+          "text": "Compare every statement with frozen facts: actor, action, object, quantities, units, dates, conditions, causality, certainty, rights and obligations. Review repetition, inflated claims, vague abstractions and unnecessary jargon separately. Fluency cannot waive a changed fact; self-authored examples do not establish authentic MELAB voice."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/0/type",
+          "text": "heading"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/0/behavior",
+          "text": "Introduces the actual subject or result."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/0/copyRule",
+          "text": "Use a concrete useful point; no invented outcome."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/0/budget",
+          "text": "Aim for one or two lines at the designed width; revise wording or layout rather than reduce essential type."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/0/notApplicable",
+          "text": "Do not force an action heading on an identity-only title."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/1/type",
+          "text": "cta"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/1/behavior",
+          "text": "Names the action the real control performs."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/1/copyRule",
+          "text": "Verb plus object where useful: Xem ví dụ / View example. Avoid generic Continue when destination is unclear."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/1/budget",
+          "text": "One short phrase; retain a clear accessible name and inspect wrapping."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/1/notApplicable",
+          "text": "No action label where no control or destination exists."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/2/type",
+          "text": "field"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/2/behavior",
+          "text": "Labels an actual input and any required format."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/2/copyRule",
+          "text": "Keep persistent labels; put conditions in helper text and errors beside the affected input. Never use placeholder text as the only label."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/2/budget",
+          "text": "Short label, one useful helper sentence; use more space for necessary conditions."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/2/notApplicable",
+          "text": "No invented registration or personal-data field."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/3/type",
+          "text": "empty-loading"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/3/behavior",
+          "text": "Separates no items, no search matches and an operation in progress."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/3/copyRule",
+          "text": "Name the state and a supported action. Loading text does not imply completion or a known remaining time."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/3/budget",
+          "text": "One state line and one optional action line; no arbitrary countdown."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/3/notApplicable",
+          "text": "Do not add a loader to static content."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/4/type",
+          "text": "error"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/4/behavior",
+          "text": "Reports the actual failure."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/4/copyRule",
+          "text": "State failed action, cause only if known, recovery only if supported. Do not claim data is safe or retry is harmless without proof."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/4/budget",
+          "text": "A clear state sentence; add necessary recovery detail without hiding it in a tooltip."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/4/notApplicable",
+          "text": "If no recovery is known, state the failure only."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/5/type",
+          "text": "confirmation"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/5/behavior",
+          "text": "Precedes a consequential action or confirms a verified result."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/5/copyRule",
+          "text": "Name object, scope and consequence before action; success text follows observed success. Destructive actions have an explicit cancellation choice."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/5/budget",
+          "text": "Heading plus enough body text for consequences; controls keep distinct verbs."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/5/notApplicable",
+          "text": "No payment, deletion or undo behavior is established by the illustrative system."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/6/type",
+          "text": "notification"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/6/behavior",
+          "text": "Communicates a relevant change without replacing the task."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/6/copyRule",
+          "text": "State the verified change and the action if needed; retain accessible text and avoid unnecessary interruption."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/6/budget",
+          "text": "One main message with an optional action; persistent detail for critical information."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/6/notApplicable",
+          "text": "No invented subscription, send channel or response deadline."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/7/type",
+          "text": "chart-label-tooltip"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/7/behavior",
+          "text": "Explains a value, measure or comparison."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/7/copyRule",
+          "text": "Include measure, unit, period and source context when available; distinguish illustration from operational data. Tooltips supplement visible labels."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/7/budget",
+          "text": "Labels remain readable at intended width; tooltip supports full precision rather than replacing the axis meaning."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/components/7/notApplicable",
+          "text": "Do not invent a measurement method or operational result for sample charts."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/0/scenario",
+          "text": "Thông thường"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/0/language",
+          "text": "Tiếng Việt"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/0/facts",
+          "text": "Illustration only: a page offers topic choices and selecting one reveals an example. No real enrollment or outcome assumed."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/0/before",
+          "text": "Mở khóa tiềm năng vô hạn ngay hôm nay."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/0/after",
+          "text": "Chọn một chủ đề để xem ví dụ."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/0/reason",
+          "text": "Names the available action and object without inventing a benefit."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/1/scenario",
+          "text": "Thông thường"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/1/language",
+          "text": "Tiếng Anh"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/1/facts",
+          "text": "Same illustrative topic-selection facts as the Vietnamese example."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/1/before",
+          "text": "Unlock limitless potential today."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/1/after",
+          "text": "Choose a topic to see an example."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/1/reason",
+          "text": "Keeps the same action and meaning in natural English."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/2/scenario",
+          "text": "Khi có lỗi"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/2/language",
+          "text": "Tiếng Việt"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/2/facts",
+          "text": "Illustration only: opening a document failed; cause, retry safety and data preservation are unknown."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/2/before",
+          "text": "Có lỗi nhỏ thôi, thử lại là được nhé!"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/2/after",
+          "text": "Không mở được tài liệu này."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/2/reason",
+          "text": "Names the failure without minimizing it or promising safe recovery."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/3/scenario",
+          "text": "Khi có lỗi"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/3/language",
+          "text": "Tiếng Anh"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/3/facts",
+          "text": "Same failed-open facts; no known cause or supported recovery."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/3/before",
+          "text": "Just a tiny hiccup. Try again and you are all set!"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/3/after",
+          "text": "This document could not be opened."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/3/reason",
+          "text": "Preserves the actual failure and omits unverified reassurance."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/4/scenario",
+          "text": "Khi chưa xác nhận"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/4/language",
+          "text": "Tiếng Việt"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/4/facts",
+          "text": "Illustration only: a start date has not been confirmed; no contact route or announcement time is supplied."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/4/before",
+          "text": "Chắc chắn bắt đầu sớm, hãy sẵn sàng!"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/4/after",
+          "text": "Chưa có thông tin xác nhận ngày bắt đầu."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/4/reason",
+          "text": "Keeps the unknown visible and does not invent a schedule."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/5/scenario",
+          "text": "Khi chưa xác nhận"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/5/language",
+          "text": "Tiếng Anh"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/5/facts",
+          "text": "Same unconfirmed start-date facts as the Vietnamese example."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/5/before",
+          "text": "It will definitely start soon. Get ready!"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/5/after",
+          "text": "The start date has not been confirmed."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/5/reason",
+          "text": "Matches the Vietnamese certainty level without literal translation."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/6/scenario",
+          "text": "implementation-written"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/6/language",
+          "text": "Tiếng Việt"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/6/facts",
+          "text": "Illustration only: choose a text color and check its readability against light and dark backgrounds. No measured contrast score is supplied."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/6/before",
+          "text": "Khám phá hành trình màu sắc đầy cảm hứng."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/6/after",
+          "text": "Chọn màu chữ, rồi kiểm tra trên nền sáng và nền tối để bảo đảm dễ đọc."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/6/reason",
+          "text": "Gives a concrete sequence and purpose without inventing a measured result."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/7/scenario",
+          "text": "implementation-spoken"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/7/language",
+          "text": "Tiếng Việt"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/7/facts",
+          "text": "Same text-color and two-background check as the written example."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/7/before",
+          "text": "Chọn và kiểm tra màu chữ trên các nền khác nhau để bảo đảm tính khả dụng."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/7/after",
+          "text": "Trước hết, chọn màu chữ. Tiếp theo, đặt chữ trên nền sáng và nền tối. Kiểm tra xem ở cả hai nền, chữ có dễ đọc không."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/7/reason",
+          "text": "One action per spoken beat; keeps the two backgrounds and the actual check."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/8/scenario",
+          "text": "implementation-written"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/8/language",
+          "text": "Tiếng Anh"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/8/facts",
+          "text": "Same text-color and light/dark readability check; no measured contrast score."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/8/before",
+          "text": "Explore an inspiring color journey."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/8/after",
+          "text": "Choose the text color, then check it on light and dark backgrounds for readability."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/8/reason",
+          "text": "Replaces abstraction with the actual action and check."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/9/scenario",
+          "text": "implementation-spoken"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/9/language",
+          "text": "Tiếng Anh"
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/9/facts",
+          "text": "Same text-color and two-background check as the written example."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/9/before",
+          "text": "Select and validate the text color across different contexts."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/9/after",
+          "text": "First, choose the text color. Next, place the text on a light background and a dark background. Check that it is readable on both."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/examples/9/reason",
+          "text": "Provides a speakable sequence without changing the facts."
+        },
+        {
+          "kind": "p",
+          "text": "Bình thường: Chọn một mục để xem cách dùng. Lỗi: Chưa mở được mẫu; chưa xác định nguyên nhân. Xem thông tin và giới hạn trong bản ghi. Unknown: Official print specifications have not been verified."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/procedure/0",
+          "text": "Read the supplied task facts and requested language. Freeze names, actors, actions, objects, quantities, units, dates, conditions, rights and uncertainty before drafting."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/procedure/1",
+          "text": "Select the actual channel and situation. Apply the proposed traits only where relevant; approved facts and safety-critical order take priority."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/procedure/2",
+          "text": "For written material, lead with the useful point and keep labels tied to real behavior. For spoken explanation, use one idea per beat and name each step's purpose and check."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/procedure/3",
+          "text": "Draft in natural Vietnamese or English using its actual locale rules above. Do not use English as an intermediate skeleton for Vietnamese."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/procedure/4",
+          "text": "Compare every claim and action with the frozen facts. Reject invented services, guarantees, schedules, saved data, safe retries or recovery routes. Preserve unknowns."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/procedure/5",
+          "text": "Review naturalness separately: read aloud, remove vague abstractions and repetition, check address and terminology, and keep necessary conditions. A fluent sentence cannot waive changed meaning."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/procedure/6",
+          "text": "For mixed languages, review each unit in its language and compare shared facts and certainty across both. Preserve exact product labels and machine-only values."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/procedure/7",
+          "text": "Read the actual final output after assembly. For visual or interactive material, inspect all relevant rendered states and accessible labels at intended widths; source text and schema checks alone do not prove fit."
+        },
+        {
+          "kind": "reference",
+          "source": "voice/procedure/8",
+          "text": "Return the artifact with unresolved facts and evidence limits. Keep the voice proposed until actual brand approval; later copy, rule or data edits require renewed review of affected units."
+        }
+      ],
+      "dispositions": [
+        {
+          "sourceIndexes": [
+            0
+          ],
+          "targetIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "relation": "equivalent",
+          "reason": "Clear/concrete recap is represented by the full contextual trait instructions already printed.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            1
+          ],
+          "targetIndexes": [
+            24,
+            25,
+            26
+          ],
+          "relation": "equivalent",
+          "reason": "Proposal/authenticity restriction is represented by the exact current governance source fields, not removed or promoted.",
+          "protectedFacts": [],
+          "negationMappings": [
+            {
+              "source": "không chứng nhận giọng thương hiệu chính thức",
+              "target": "proposed; no authentic writing corpus supplied or inferred. Original brandkit identity and display lines are not a corpus."
+            }
+          ]
+        },
+        {
+          "sourceIndexes": [
+            2,
+            3
+          ],
+          "targetIndexes": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ],
+          "relation": "equivalent",
+          "reason": "Same-context recap maps to the complete contextual source fields already rendered once; unique conditions remain in those exact fields.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            4,
+            5
+          ],
+          "targetIndexes": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "relation": "equivalent",
+          "reason": "Same-context recap maps to the complete contextual source fields already rendered once; unique conditions remain in those exact fields.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            6,
+            7
+          ],
+          "targetIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "relation": "equivalent",
+          "reason": "Same-context recap maps to the complete contextual source fields already rendered once; unique conditions remain in those exact fields.",
+          "protectedFacts": [],
+          "negationMappings": [
+            {
+              "source": "chưa phải giọng thương hiệu đã học từ tập mẫu",
+              "target": "proposed; no authentic writing corpus supplied or inferred. Original brandkit identity and display lines are not a corpus."
+            }
+          ]
+        },
+        {
+          "sourceIndexes": [
+            8,
+            9
+          ],
+          "targetIndexes": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96
+          ],
+          "relation": "equivalent",
+          "reason": "Same-context recap maps to the complete contextual source fields already rendered once; unique conditions remain in those exact fields.",
+          "protectedFacts": [],
+          "negationMappings": [
+            {
+              "source": "chưa làm được, nguyên nhân đã biết hoặc chưa biết và bước xử lý đã xác minh",
+              "target": "No invented price, free trial, offer, schedule, customer, testimonial, certification, learning result, urgency, saved data, safe retry, undo, payment confirmation or security guarantee. Do not treat competitor language, colors or synthetic examples as MELAB voice evidence."
+            },
+            {
+              "source": "Chưa rõ: nêu thiếu nguồn, không đoán",
+              "target": "Name the exact unknown and retain it. Use a neutral proposal when the missing fact affects only tone; block the affected factual claim when it changes an action, right, safety, payment or promise. Ask only if the missing fact changes the required output; do not fill it with plausible copy."
+            }
+          ]
+        },
+        {
+          "sourceIndexes": [
+            10,
+            11
+          ],
+          "targetIndexes": [
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124
+          ],
+          "relation": "equivalent",
+          "reason": "Same-context recap maps to the complete contextual source fields already rendered once; unique conditions remain in those exact fields.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            12,
+            13
+          ],
+          "targetIndexes": [
+            93,
+            94,
+            95,
+            96
+          ],
+          "relation": "equivalent",
+          "reason": "Same-context recap maps to the complete contextual source fields already rendered once; unique conditions remain in those exact fields.",
+          "protectedFacts": [],
+          "negationMappings": [
+            {
+              "source": "Không thêm lời hứa về doanh thu hay kết quả học tập",
+              "target": "No invented price, free trial, offer, schedule, customer, testimonial, certification, learning result, urgency, saved data, safe retry, undo, payment confirmation or security guarantee. Do not treat competitor language, colors or synthetic examples as MELAB voice evidence."
+            }
+          ]
+        },
+        {
+          "sourceIndexes": [
+            14
+          ],
+          "targetIndexes": [
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224
+          ],
+          "relation": "equivalent",
+          "reason": "Component/example heading maps to full contextual blocks.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            15
+          ],
+          "targetIndexes": [
+            225
+          ],
+          "relation": "exact",
+          "reason": "Distinct example wording and unverified official-print fact retained verbatim.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            16,
+            17
+          ],
+          "targetIndexes": [
+            226,
+            227,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234
+          ],
+          "relation": "equivalent",
+          "reason": "Same-context recap maps to the complete contextual source fields already rendered once; unique conditions remain in those exact fields.",
+          "protectedFacts": []
+        }
+      ]
+    },
+    {
+      "pairedData": [
+        {
+          "sourceIndexes": [
+            1,
+            0
+          ],
+          "targetIndex": 1,
+          "targetRow": 1,
+          "targetColumns": [
+            0,
+            1
+          ]
+        },
+        {
+          "sourceIndexes": [
+            3,
+            2
+          ],
+          "targetIndex": 1,
+          "targetRow": 2,
+          "targetColumns": [
+            0,
+            1
+          ]
+        },
+        {
+          "sourceIndexes": [
+            5,
+            4
+          ],
+          "targetIndex": 1,
+          "targetRow": 3,
+          "targetColumns": [
+            0,
+            1
+          ]
+        }
+      ],
+      "id": "application:melab-slide283-text-evidence",
+      "sourceFile": "assets/applications/melab-slide283-text-evidence.html",
+      "sourceHash": "c577f51e156b9499c7e56a9b00c9e52faf793e157c81621d11c64f4d745721db",
+      "sourceBlocks": [
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "T1"
+        },
+        {
+          "kind": "text",
+          "text": "7"
+        },
+        {
+          "kind": "text",
+          "text": "T2"
+        },
+        {
+          "kind": "text",
+          "text": "9"
+        },
+        {
+          "kind": "text",
+          "text": "T3"
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "10"
+        },
+        {
+          "kind": "h3",
+          "text": "Tổng"
+        },
+        {
+          "kind": "p",
+          "text": "20 mục"
+        },
+        {
+          "kind": "h3",
+          "text": "Ba kỳ"
+        },
+        {
+          "kind": "p",
+          "text": "4 · 7 · 9"
+        },
+        {
+          "kind": "h3",
+          "text": "Giới hạn"
+        },
+        {
+          "kind": "p",
+          "text": "Dữ liệu minh họa; không phải kết quả vận hành."
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Nếu bảng hoặc biểu đồ rộng hơn màn hình, vuốt ngang hoặc dùng phím mũi tên trong vùng đó."
+        },
+        {
+          "kind": "p",
+          "text": "MELAB · Nội dung minh họa · 18 / 27"
+        },
+        {
+          "kind": "p",
+          "text": "Hình · Logo MELAB nguyên bản"
+        }
+      ],
+      "readerBlocks": [
+        {
+          "kind": "h3",
+          "text": "Dữ liệu minh họa trong biểu đồ"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Kỳ",
+              "Số mục"
+            ],
+            [
+              "T1",
+              "4"
+            ],
+            [
+              "T2",
+              "7"
+            ],
+            [
+              "T3",
+              "9"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Trục giá trị trong hình: 0–10."
+        },
+        {
+          "kind": "h3",
+          "text": "Tổng"
+        },
+        {
+          "kind": "p",
+          "text": "20 mục"
+        },
+        {
+          "kind": "h3",
+          "text": "Ba kỳ"
+        },
+        {
+          "kind": "p",
+          "text": "4 · 7 · 9"
+        },
+        {
+          "kind": "h3",
+          "text": "Giới hạn"
+        },
+        {
+          "kind": "p",
+          "text": "Dữ liệu minh họa; không phải kết quả vận hành."
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Nếu bảng hoặc biểu đồ rộng hơn màn hình, vuốt ngang hoặc dùng phím mũi tên trong vùng đó."
+        },
+        {
+          "kind": "p",
+          "text": "MELAB · Nội dung minh họa · 18 / 27"
+        },
+        {
+          "kind": "p",
+          "text": "Hình · Logo MELAB nguyên bản"
+        }
+      ],
+      "dispositions": [
+        {
+          "sourceIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "targetIndexes": [
+            0,
+            1,
+            2
+          ],
+          "relation": "exact",
+          "reason": "Exact source SVG labels paired by each source bar and horizontal text positions; explicit source axis labels 0 and10 retained as displayed bounds. No137-row cross-dataset inference.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            8
+          ],
+          "targetIndexes": [
+            3
+          ],
+          "relation": "exact",
+          "reason": "Original source heading, total20, series recap, non-operational-data qualification and HTML/source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            9
+          ],
+          "targetIndexes": [
+            4
+          ],
+          "relation": "exact",
+          "reason": "Original source heading, total20, series recap, non-operational-data qualification and HTML/source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            10
+          ],
+          "targetIndexes": [
+            5
+          ],
+          "relation": "exact",
+          "reason": "Original source heading, total20, series recap, non-operational-data qualification and HTML/source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            11
+          ],
+          "targetIndexes": [
+            6
+          ],
+          "relation": "exact",
+          "reason": "Original source heading, total20, series recap, non-operational-data qualification and HTML/source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            12
+          ],
+          "targetIndexes": [
+            7
+          ],
+          "relation": "exact",
+          "reason": "Original source heading, total20, series recap, non-operational-data qualification and HTML/source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            13
+          ],
+          "targetIndexes": [
+            8
+          ],
+          "relation": "exact",
+          "reason": "Original source heading, total20, series recap, non-operational-data qualification and HTML/source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            14
+          ],
+          "targetIndexes": [
+            9
+          ],
+          "relation": "exact",
+          "reason": "Original source heading, total20, series recap, non-operational-data qualification and HTML/source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            15
+          ],
+          "targetIndexes": [
+            10
+          ],
+          "relation": "exact",
+          "reason": "Original source heading, total20, series recap, non-operational-data qualification and HTML/source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            16
+          ],
+          "targetIndexes": [
+            11
+          ],
+          "relation": "exact",
+          "reason": "Original source heading, total20, series recap, non-operational-data qualification and HTML/source caption retained exactly.",
+          "protectedFacts": []
+        }
+      ]
+    },
+    {
+      "pairedData": [
+        {
+          "sourceIndexes": [
+            9,
+            8
+          ],
+          "targetIndex": 8,
+          "targetRow": 1,
+          "targetColumns": [
+            0,
+            1
+          ]
+        },
+        {
+          "sourceIndexes": [
+            11,
+            10
+          ],
+          "targetIndex": 8,
+          "targetRow": 2,
+          "targetColumns": [
+            0,
+            1
+          ]
+        },
+        {
+          "sourceIndexes": [
+            13,
+            12
+          ],
+          "targetIndex": 8,
+          "targetRow": 3,
+          "targetColumns": [
+            0,
+            1
+          ]
+        }
+      ],
+      "id": "application:melab-slide283-text-dashboard",
+      "sourceFile": "assets/applications/melab-slide283-text-dashboard.html",
+      "sourceHash": "4cf59bd3ccc33d57b3c591bd0b6a6e8f3f65b135d2475e426e7ebaec44846267",
+      "sourceBlocks": [
+        {
+          "kind": "h3",
+          "text": "Tín hiệu tiêu dùng"
+        },
+        {
+          "kind": "h4",
+          "text": "Thói quen"
+        },
+        {
+          "kind": "p",
+          "text": "Ưu tiên dùng tiện và mang theo."
+        },
+        {
+          "kind": "h4",
+          "text": "Tiêu chí"
+        },
+        {
+          "kind": "p",
+          "text": "Đọc độ bền cùng mức giá."
+        },
+        {
+          "kind": "h4",
+          "text": "Trở ngại"
+        },
+        {
+          "kind": "p",
+          "text": "Kiểm nhu cầu trước khi mở nhóm."
+        },
+        {
+          "kind": "text",
+          "text": "0"
+        },
+        {
+          "kind": "text",
+          "text": "4"
+        },
+        {
+          "kind": "text",
+          "text": "Kỳ 1"
+        },
+        {
+          "kind": "text",
+          "text": "7"
+        },
+        {
+          "kind": "text",
+          "text": "Kỳ 2"
+        },
+        {
+          "kind": "text",
+          "text": "9"
+        },
+        {
+          "kind": "text",
+          "text": "Kỳ 3"
+        },
+        {
+          "kind": "h3",
+          "text": "Điều cần đối chiếu"
+        },
+        {
+          "kind": "p",
+          "text": "Tín hiệu tăng qua ba kỳ; chưa đủ để suy ra nhu cầu cả thị trường."
+        },
+        {
+          "kind": "p",
+          "text": "Di động1:1"
+        },
+        {
+          "kind": "p",
+          "text": "Mang theo hằng ngày."
+        },
+        {
+          "kind": "p",
+          "text": "Tại chỗ1:1"
+        },
+        {
+          "kind": "p",
+          "text": "Dùng trong một không gian."
+        },
+        {
+          "kind": "p",
+          "text": "Cá nhân1:1"
+        },
+        {
+          "kind": "p",
+          "text": "Chọn theo sở thích."
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Nếu bảng hoặc biểu đồ rộng hơn màn hình, vuốt ngang hoặc dùng phím mũi tên trong vùng đó."
+        },
+        {
+          "kind": "p",
+          "text": "MELAB · Nội dung minh họa · 20 / 27"
+        },
+        {
+          "kind": "p",
+          "text": "Hình · Logo MELAB nguyên bản"
+        }
+      ],
+      "readerBlocks": [
+        {
+          "kind": "h3",
+          "text": "Tín hiệu tiêu dùng"
+        },
+        {
+          "kind": "h3",
+          "text": "Thói quen"
+        },
+        {
+          "kind": "p",
+          "text": "Ưu tiên dùng tiện và mang theo."
+        },
+        {
+          "kind": "h3",
+          "text": "Tiêu chí"
+        },
+        {
+          "kind": "p",
+          "text": "Đọc độ bền cùng mức giá."
+        },
+        {
+          "kind": "h3",
+          "text": "Trở ngại"
+        },
+        {
+          "kind": "p",
+          "text": "Kiểm nhu cầu trước khi mở nhóm."
+        },
+        {
+          "kind": "h3",
+          "text": "Dữ liệu theo kỳ"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Kỳ",
+              "Giá trị minh họa"
+            ],
+            [
+              "Kỳ 1",
+              "4"
+            ],
+            [
+              "Kỳ 2",
+              "7"
+            ],
+            [
+              "Kỳ 3",
+              "9"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Mốc gốc của trục trong hình: 0. Hình không ghi giới hạn trên của trục."
+        },
+        {
+          "kind": "h3",
+          "text": "Điều cần đối chiếu"
+        },
+        {
+          "kind": "p",
+          "text": "Tín hiệu tăng qua ba kỳ; chưa đủ để suy ra nhu cầu cả thị trường."
+        },
+        {
+          "kind": "p",
+          "text": "Di động1:1"
+        },
+        {
+          "kind": "p",
+          "text": "Mang theo hằng ngày."
+        },
+        {
+          "kind": "p",
+          "text": "Tại chỗ1:1"
+        },
+        {
+          "kind": "p",
+          "text": "Dùng trong một không gian."
+        },
+        {
+          "kind": "p",
+          "text": "Cá nhân1:1"
+        },
+        {
+          "kind": "p",
+          "text": "Chọn theo sở thích."
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Nếu bảng hoặc biểu đồ rộng hơn màn hình, vuốt ngang hoặc dùng phím mũi tên trong vùng đó."
+        },
+        {
+          "kind": "p",
+          "text": "MELAB · Nội dung minh họa · 20 / 27"
+        },
+        {
+          "kind": "p",
+          "text": "Hình · Logo MELAB nguyên bản"
+        }
+      ],
+      "dispositions": [
+        {
+          "sourceIndexes": [
+            0
+          ],
+          "targetIndexes": [
+            0
+          ],
+          "relation": "exact",
+          "reason": "Original contextual consumption signals retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            1
+          ],
+          "targetIndexes": [
+            1
+          ],
+          "relation": "exact",
+          "reason": "Original contextual consumption signals retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            2
+          ],
+          "targetIndexes": [
+            2
+          ],
+          "relation": "exact",
+          "reason": "Original contextual consumption signals retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            3
+          ],
+          "targetIndexes": [
+            3
+          ],
+          "relation": "exact",
+          "reason": "Original contextual consumption signals retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            4
+          ],
+          "targetIndexes": [
+            4
+          ],
+          "relation": "exact",
+          "reason": "Original contextual consumption signals retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            5
+          ],
+          "targetIndexes": [
+            5
+          ],
+          "relation": "exact",
+          "reason": "Original contextual consumption signals retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            6
+          ],
+          "targetIndexes": [
+            6
+          ],
+          "relation": "exact",
+          "reason": "Original contextual consumption signals retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "targetIndexes": [
+            7,
+            8,
+            9
+          ],
+          "relation": "exact",
+          "reason": "SVG value/period pairs share exact source x positions117/247/377. Source baseline0 retained; absence of upper-axis label disclosed without inferring10 from other source.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            14
+          ],
+          "targetIndexes": [
+            10
+          ],
+          "relation": "exact",
+          "reason": "Original inference limit, image placeholders, HTML behavior and source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            15
+          ],
+          "targetIndexes": [
+            11
+          ],
+          "relation": "exact",
+          "reason": "Original inference limit, image placeholders, HTML behavior and source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            16
+          ],
+          "targetIndexes": [
+            12
+          ],
+          "relation": "exact",
+          "reason": "Original inference limit, image placeholders, HTML behavior and source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            17
+          ],
+          "targetIndexes": [
+            13
+          ],
+          "relation": "exact",
+          "reason": "Original inference limit, image placeholders, HTML behavior and source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            18
+          ],
+          "targetIndexes": [
+            14
+          ],
+          "relation": "exact",
+          "reason": "Original inference limit, image placeholders, HTML behavior and source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            19
+          ],
+          "targetIndexes": [
+            15
+          ],
+          "relation": "exact",
+          "reason": "Original inference limit, image placeholders, HTML behavior and source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            20
+          ],
+          "targetIndexes": [
+            16
+          ],
+          "relation": "exact",
+          "reason": "Original inference limit, image placeholders, HTML behavior and source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            21
+          ],
+          "targetIndexes": [
+            17
+          ],
+          "relation": "exact",
+          "reason": "Original inference limit, image placeholders, HTML behavior and source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            22
+          ],
+          "targetIndexes": [
+            18
+          ],
+          "relation": "exact",
+          "reason": "Original inference limit, image placeholders, HTML behavior and source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            23
+          ],
+          "targetIndexes": [
+            19
+          ],
+          "relation": "exact",
+          "reason": "Original inference limit, image placeholders, HTML behavior and source caption retained exactly.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            24
+          ],
+          "targetIndexes": [
+            20
+          ],
+          "relation": "exact",
+          "reason": "Original inference limit, image placeholders, HTML behavior and source caption retained exactly.",
+          "protectedFacts": []
+        }
+      ]
+    },
+    {
+      "pairedData": [
+        {
+          "sourceIndexes": [
+            0,
+            1
+          ],
+          "targetIndex": 1,
+          "targetRow": 1,
+          "targetColumns": [
+            1,
+            2
+          ]
+        }
+      ],
+      "id": "application:melab-slide283-text-overview",
+      "sourceFile": "assets/applications/melab-slide283-text-overview.html",
+      "sourceHash": "8f0f694bdc66502979b84e71fed0f81d4dbde35ef0289d77a663f8112d5c3a26",
+      "sourceBlocks": [
+        {
+          "kind": "text",
+          "text": "100"
+        },
+        {
+          "kind": "text",
+          "text": "mục"
+        },
+        {
+          "kind": "p",
+          "text": "Nhóm A: 60% · B: 25% · C: 15%. Nguồn: bộ số liệu minh họa trong mẫu bố cục; không phải số liệu MELAB."
+        },
+        {
+          "kind": "h3",
+          "text": "Kỳ hiện tại"
+        },
+        {
+          "kind": "p",
+          "text": "100 mục"
+        },
+        {
+          "kind": "h3",
+          "text": "Kỳ trước"
+        },
+        {
+          "kind": "p",
+          "text": "80 mục"
+        },
+        {
+          "kind": "h3",
+          "text": "Tăng từ kỳ trước"
+        },
+        {
+          "kind": "p",
+          "text": "25%"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Nhóm",
+              "Tỷ trọng",
+              "Nhu cầu",
+              "Điểm kiểm"
+            ],
+            [
+              "A",
+              "60%",
+              "Di động",
+              "Mức giá"
+            ],
+            [
+              "B",
+              "25%",
+              "Tại chỗ",
+              "Độ bền"
+            ],
+            [
+              "C",
+              "15%",
+              "Cá nhân",
+              "Cách dùng"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Cùng phạm vi và đơn vị; số liệu chưa phải kết quả thị trường."
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Nếu bảng hoặc biểu đồ rộng hơn màn hình, vuốt ngang hoặc dùng phím mũi tên trong vùng đó."
+        },
+        {
+          "kind": "p",
+          "text": "MELAB · Nội dung minh họa · 21 / 27"
+        },
+        {
+          "kind": "p",
+          "text": "Hình · Logo MELAB nguyên bản"
+        }
+      ],
+      "readerBlocks": [
+        {
+          "kind": "h3",
+          "text": "Mẫu số của biểu đồ tỷ trọng"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Phạm vi",
+              "Tổng",
+              "Đơn vị"
+            ],
+            [
+              "Kỳ hiện tại",
+              "100",
+              "mục"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Nhóm A: 60% · B: 25% · C: 15%. Nguồn: bộ số liệu minh họa trong mẫu bố cục; không phải số liệu MELAB."
+        },
+        {
+          "kind": "h3",
+          "text": "Kỳ hiện tại"
+        },
+        {
+          "kind": "p",
+          "text": "100 mục"
+        },
+        {
+          "kind": "h3",
+          "text": "Kỳ trước"
+        },
+        {
+          "kind": "p",
+          "text": "80 mục"
+        },
+        {
+          "kind": "h3",
+          "text": "Tăng từ kỳ trước"
+        },
+        {
+          "kind": "p",
+          "text": "25%"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Nhóm",
+              "Tỷ trọng",
+              "Nhu cầu",
+              "Điểm kiểm"
+            ],
+            [
+              "A",
+              "60%",
+              "Di động",
+              "Mức giá"
+            ],
+            [
+              "B",
+              "25%",
+              "Tại chỗ",
+              "Độ bền"
+            ],
+            [
+              "C",
+              "15%",
+              "Cá nhân",
+              "Cách dùng"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Cùng phạm vi và đơn vị; số liệu chưa phải kết quả thị trường."
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Nếu bảng hoặc biểu đồ rộng hơn màn hình, vuốt ngang hoặc dùng phím mũi tên trong vùng đó."
+        },
+        {
+          "kind": "p",
+          "text": "MELAB · Nội dung minh họa · 21 / 27"
+        },
+        {
+          "kind": "p",
+          "text": "Hình · Logo MELAB nguyên bản"
+        }
+      ],
+      "dispositions": [
+        {
+          "sourceIndexes": [
+            0,
+            1
+          ],
+          "targetIndexes": [
+            0,
+            1
+          ],
+          "relation": "exact",
+          "reason": "Center SVG100muc is the source current-period denominator, repeated explicitly with its period; A60/B25/C15 native parts table retained below.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            2
+          ],
+          "targetIndexes": [
+            2
+          ],
+          "relation": "exact",
+          "reason": "Exact native share/period/table/source qualifications retained, including100 current,80 prior,25percent and three approved rows.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            3
+          ],
+          "targetIndexes": [
+            3
+          ],
+          "relation": "exact",
+          "reason": "Exact native share/period/table/source qualifications retained, including100 current,80 prior,25percent and three approved rows.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            4
+          ],
+          "targetIndexes": [
+            4
+          ],
+          "relation": "exact",
+          "reason": "Exact native share/period/table/source qualifications retained, including100 current,80 prior,25percent and three approved rows.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            5
+          ],
+          "targetIndexes": [
+            5
+          ],
+          "relation": "exact",
+          "reason": "Exact native share/period/table/source qualifications retained, including100 current,80 prior,25percent and three approved rows.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            6
+          ],
+          "targetIndexes": [
+            6
+          ],
+          "relation": "exact",
+          "reason": "Exact native share/period/table/source qualifications retained, including100 current,80 prior,25percent and three approved rows.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            7
+          ],
+          "targetIndexes": [
+            7
+          ],
+          "relation": "exact",
+          "reason": "Exact native share/period/table/source qualifications retained, including100 current,80 prior,25percent and three approved rows.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            8
+          ],
+          "targetIndexes": [
+            8
+          ],
+          "relation": "exact",
+          "reason": "Exact native share/period/table/source qualifications retained, including100 current,80 prior,25percent and three approved rows.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            9
+          ],
+          "targetIndexes": [
+            9
+          ],
+          "relation": "exact",
+          "reason": "Exact native share/period/table/source qualifications retained, including100 current,80 prior,25percent and three approved rows.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            10
+          ],
+          "targetIndexes": [
+            10
+          ],
+          "relation": "exact",
+          "reason": "Exact native share/period/table/source qualifications retained, including100 current,80 prior,25percent and three approved rows.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            11
+          ],
+          "targetIndexes": [
+            11
+          ],
+          "relation": "exact",
+          "reason": "Exact native share/period/table/source qualifications retained, including100 current,80 prior,25percent and three approved rows.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            12
+          ],
+          "targetIndexes": [
+            12
+          ],
+          "relation": "exact",
+          "reason": "Exact native share/period/table/source qualifications retained, including100 current,80 prior,25percent and three approved rows.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            13
+          ],
+          "targetIndexes": [
+            13
+          ],
+          "relation": "exact",
+          "reason": "Exact native share/period/table/source qualifications retained, including100 current,80 prior,25percent and three approved rows.",
+          "protectedFacts": []
+        }
+      ]
+    },
+    {
+      "pairedData": [
+        {
+          "sourceIndexes": [
+            0,
+            1
+          ],
+          "targetIndex": 1,
+          "targetRow": 1,
+          "targetColumns": [
+            1,
+            2
+          ]
+        }
+      ],
+      "id": "application:melab-slide283-text-sales-mix",
+      "sourceFile": "assets/applications/melab-slide283-text-sales-mix.html",
+      "sourceHash": "6768ed56f9acd542cc05c985ea412351f626036bc63d44ca9a1cc9fc053cba03",
+      "sourceBlocks": [
+        {
+          "kind": "text",
+          "text": "100"
+        },
+        {
+          "kind": "text",
+          "text": "mục"
+        },
+        {
+          "kind": "p",
+          "text": "Hai sản phẩm được so sánh16:9 · Chờ gắn ảnh"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Sản phẩm",
+              "Số lượng (mục)",
+              "Tỷ trọng",
+              "Doanh thu (triệu đồng)"
+            ],
+            [
+              "A",
+              "60",
+              "60%",
+              "120"
+            ],
+            [
+              "B",
+              "40",
+              "40%",
+              "80"
+            ],
+            [
+              "Tổng",
+              "100",
+              "100%",
+              "200"
+            ]
+          ]
+        },
+        {
+          "kind": "h3",
+          "text": "Vai trò và điều kiện"
+        },
+        {
+          "kind": "p",
+          "text": "A: Tỷ trọng sản lượng lớn hơn; kiểm khả năng đáp ứng."
+        },
+        {
+          "kind": "p",
+          "text": "B: Giữ nhóm bổ sung; so doanh thu cùng kỳ và đơn vị."
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Nếu bảng hoặc biểu đồ rộng hơn màn hình, vuốt ngang hoặc dùng phím mũi tên trong vùng đó."
+        },
+        {
+          "kind": "p",
+          "text": "MELAB · Nội dung minh họa · 25 / 27"
+        },
+        {
+          "kind": "p",
+          "text": "Hình · Logo MELAB nguyên bản"
+        }
+      ],
+      "readerBlocks": [
+        {
+          "kind": "h3",
+          "text": "Mẫu số của biểu đồ tỷ trọng"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Phạm vi",
+              "Tổng",
+              "Đơn vị"
+            ],
+            [
+              "Số lượng",
+              "100",
+              "mục"
+            ]
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Hai sản phẩm được so sánh16:9 · Chờ gắn ảnh"
+        },
+        {
+          "kind": "table",
+          "rows": [
+            [
+              "Sản phẩm",
+              "Số lượng (mục)",
+              "Tỷ trọng",
+              "Doanh thu (triệu đồng)"
+            ],
+            [
+              "A",
+              "60",
+              "60%",
+              "120"
+            ],
+            [
+              "B",
+              "40",
+              "40%",
+              "80"
+            ],
+            [
+              "Tổng",
+              "100",
+              "100%",
+              "200"
+            ]
+          ]
+        },
+        {
+          "kind": "h3",
+          "text": "Vai trò và điều kiện"
+        },
+        {
+          "kind": "p",
+          "text": "A: Tỷ trọng sản lượng lớn hơn; kiểm khả năng đáp ứng."
+        },
+        {
+          "kind": "p",
+          "text": "B: Giữ nhóm bổ sung; so doanh thu cùng kỳ và đơn vị."
+        },
+        {
+          "kind": "p",
+          "text": "Trong HTML · Nếu bảng hoặc biểu đồ rộng hơn màn hình, vuốt ngang hoặc dùng phím mũi tên trong vùng đó."
+        },
+        {
+          "kind": "p",
+          "text": "MELAB · Nội dung minh họa · 25 / 27"
+        },
+        {
+          "kind": "p",
+          "text": "Hình · Logo MELAB nguyên bản"
+        }
+      ],
+      "dispositions": [
+        {
+          "sourceIndexes": [
+            0,
+            1
+          ],
+          "targetIndexes": [
+            0,
+            1
+          ],
+          "relation": "exact",
+          "reason": "Source center SVG100muc binds quantity denominator, confirmed by native total100/100percent row. Revenue200million remains distinct in original table.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            2
+          ],
+          "targetIndexes": [
+            2
+          ],
+          "relation": "exact",
+          "reason": "Exact native product quantity/share/revenue table and conditional interpretation retained.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            3
+          ],
+          "targetIndexes": [
+            3
+          ],
+          "relation": "exact",
+          "reason": "Exact native product quantity/share/revenue table and conditional interpretation retained.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            4
+          ],
+          "targetIndexes": [
+            4
+          ],
+          "relation": "exact",
+          "reason": "Exact native product quantity/share/revenue table and conditional interpretation retained.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            5
+          ],
+          "targetIndexes": [
+            5
+          ],
+          "relation": "exact",
+          "reason": "Exact native product quantity/share/revenue table and conditional interpretation retained.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            6
+          ],
+          "targetIndexes": [
+            6
+          ],
+          "relation": "exact",
+          "reason": "Exact native product quantity/share/revenue table and conditional interpretation retained.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            7
+          ],
+          "targetIndexes": [
+            7
+          ],
+          "relation": "exact",
+          "reason": "Exact native product quantity/share/revenue table and conditional interpretation retained.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            8
+          ],
+          "targetIndexes": [
+            8
+          ],
+          "relation": "exact",
+          "reason": "Exact native product quantity/share/revenue table and conditional interpretation retained.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            9
+          ],
+          "targetIndexes": [
+            9
+          ],
+          "relation": "exact",
+          "reason": "Exact native product quantity/share/revenue table and conditional interpretation retained.",
+          "protectedFacts": []
+        }
+      ]
+    },
+    {
+      "id": "application:melab-slide283-image-background",
+      "sourceFile": "assets/applications/melab-slide283-image-background.html",
+      "sourceHash": "bd37815331254b20e30023a2c68c861a86860a1b51e262df285556eae506d37b",
+      "sourceBlocks": [
+        {
+          "kind": "p",
+          "text": "Ảnh nền toàn slide16:9 · Chờ gắn ảnh"
+        },
+        {
+          "kind": "h3",
+          "text": "Một ý chính"
+        },
+        {
+          "kind": "p",
+          "text": "Đặt chữ trên nền kín; ảnh giữ vai trò dẫn đường."
+        },
+        {
+          "kind": "p",
+          "text": "MELAB · Nội dung minh họa · 13 / 27"
+        },
+        {
+          "kind": "p",
+          "text": "Hình · Logo MELAB nguyên bản"
+        }
+      ],
+      "readerBlocks": [
+        {
+          "kind": "p",
+          "text": "Ảnh nền toàn slide16:9 · Chờ gắn ảnh"
+        },
+        {
+          "kind": "h3",
+          "text": "Một ý chính"
+        },
+        {
+          "kind": "p",
+          "text": "Đặt chữ trên nền kín; ảnh giữ vai trò dẫn đường."
+        },
+        {
+          "kind": "p",
+          "text": "MELAB · Nội dung minh họa · 13 / 27"
+        },
+        {
+          "kind": "p",
+          "text": "Hình · Logo MELAB nguyên bản"
+        }
+      ],
+      "dispositions": [
+        {
+          "sourceIndexes": [
+            0
+          ],
+          "targetIndexes": [
+            0
+          ],
+          "relation": "exact",
+          "reason": "Original native image/background/HTML demonstration text preserved.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            1
+          ],
+          "targetIndexes": [
+            1
+          ],
+          "relation": "exact",
+          "reason": "Original native image/background/HTML demonstration text preserved.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            2
+          ],
+          "targetIndexes": [
+            2
+          ],
+          "relation": "exact",
+          "reason": "Original native image/background/HTML demonstration text preserved.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            3
+          ],
+          "targetIndexes": [
+            3
+          ],
+          "relation": "exact",
+          "reason": "Original native image/background/HTML demonstration text preserved.",
+          "protectedFacts": []
+        },
+        {
+          "sourceIndexes": [
+            4
+          ],
+          "targetIndexes": [
+            4
+          ],
+          "relation": "exact",
+          "reason": "Original native image/background/HTML demonstration text preserved.",
+          "protectedFacts": []
+        }
+      ],
+      "fieldCorrections": [
+        {
+          "label": "Cấu tạo",
+          "sourceText": "Ảnh phủ toàn nền; chữ đặt trên mặt phẳng KAI có nền kín. ",
+          "readerText": "Ảnh phủ toàn nền; chữ đặt trên mặt phẳng MELAB có nền kín. ",
+          "reason": "Applied-brand correction: selected MELAB source purpose, usage and actual whole source canvas are MELAB. Replace foreign applied-surface name only; preserve all geometry/opaque-background conditions. KAI324.1 provenance in UI buttons is intentionally retained. Frozen source855 remains immutable.",
+          "replacements": [
+            {
+              "source": "KAI",
+              "target": "MELAB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

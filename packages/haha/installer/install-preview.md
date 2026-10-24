@@ -1,3 +1,3 @@
-# Chưa xem trước trên máy khách
+# Bản xem trước
 
-Agent chạy chế độ --preview sau khi xác định đúng workspace. Bản này chưa phải nghiệm thu cài đặt.
+Chạy bộ cài --preview với workspace tuyệt đối thực để có danh sách tệp; chưa có thao tác cài vào máy khách.

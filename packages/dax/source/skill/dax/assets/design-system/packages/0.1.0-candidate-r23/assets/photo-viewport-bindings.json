@@ -1,0 +1,110 @@
+{
+  "assets/26qt-adventure-cooler-dark-blue-1.jpg": {
+    "sha256": "14110e624d537bce6eb0591dde5febf99ec6fb0a58a86170dfbed2b61f522025",
+    "width": 933,
+    "height": 1400,
+    "viewport": [
+      105,
+      711,
+      911,
+      1349
+    ],
+    "method": "Native layout viewport around non-white source paint plus40px safety; original file unchanged. Source remains separately openable in full."
+  },
+  "assets/26qt-adventure-cooler-dark-blue-2.jpg": {
+    "sha256": "c5a6abd565083ccf8787bc80e695dd1565abdb2addcddd27898dc86f0fd8f45f",
+    "width": 933,
+    "height": 1400,
+    "viewport": [
+      102,
+      532,
+      909,
+      1350
+    ],
+    "method": "Native layout viewport around non-white source paint plus40px safety; original file unchanged. Source remains separately openable in full."
+  },
+  "assets/26qt-adventure-cooler-dark-blue-3.jpg": {
+    "sha256": "0af83c5bac7f8734e6b6c2f49868932f35d90079716752d4c23140f99393e326",
+    "width": 933,
+    "height": 1400,
+    "viewport": [
+      71,
+      714,
+      928,
+      1366
+    ],
+    "method": "Native layout viewport around non-white source paint plus40px safety; original file unchanged. Source remains separately openable in full."
+  },
+  "assets/60qt-wheeled-hard-cooler-dark-blue-1.jpg": {
+    "sha256": "254fe9368b4eaa7780969c46ae830bb6d071e8263cb4b8bdf1bc0f6e444a4904",
+    "width": 933,
+    "height": 1400,
+    "viewport": [
+      155,
+      615,
+      855,
+      1207
+    ],
+    "method": "Native layout viewport around non-white source paint plus40px safety; original file unchanged. Source remains separately openable in full."
+  },
+  "assets/60qt-wheeled-hard-cooler-dark-blue-2.jpg": {
+    "sha256": "c2cfbb153714f3cf00438b72096853045b7f4e6e1df6c182c3544f8c5d447493",
+    "width": 933,
+    "height": 1400,
+    "viewport": [
+      161,
+      615,
+      898,
+      1217
+    ],
+    "method": "Native layout viewport around non-white source paint plus40px safety; original file unchanged. Source remains separately openable in full."
+  },
+  "assets/60qt-wheeled-hard-cooler-dark-blue-3.jpg": {
+    "sha256": "159dc03c1ca5d39b8cf8ee673cfc9230a3ff5195619fdf7cf4a0f172172f35bf",
+    "width": 933,
+    "height": 1400,
+    "viewport": [
+      129,
+      616,
+      872,
+      1224
+    ],
+    "method": "Native layout viewport around non-white source paint plus40px safety; original file unchanged. Source remains separately openable in full."
+  },
+  "assets/60qt-wheeled-hard-cooler-white-1.jpg": {
+    "sha256": "b695e2bf20aa8068e59651f324625d99ca8590416f943460857aa8c9dc3de326",
+    "width": 1400,
+    "height": 934,
+    "viewport": [
+      320,
+      222,
+      1080,
+      849
+    ],
+    "method": "Native layout viewport around non-white source paint plus40px safety; original file unchanged. Source remains separately openable in full."
+  },
+  "assets/60qt-wheeled-hard-cooler-white-2.jpg": {
+    "sha256": "969e0692c45a9c6d4af24236796479cc9621751836807fdc85f5dbb16a02d56b",
+    "width": 1400,
+    "height": 934,
+    "viewport": [
+      320,
+      219,
+      1075,
+      848
+    ],
+    "method": "Native layout viewport around non-white source paint plus40px safety; original file unchanged. Source remains separately openable in full."
+  },
+  "assets/60qt-wheeled-hard-cooler-white-3.jpg": {
+    "sha256": "b1c1bedc127952c64e9007ad84aedffd364b9ab56c93fcfa836189aaf0ecad89",
+    "width": 1400,
+    "height": 934,
+    "viewport": [
+      373,
+      219,
+      1015,
+      858
+    ],
+    "method": "Native layout viewport around non-white source paint plus40px safety; original file unchanged. Source remains separately openable in full."
+  }
+}

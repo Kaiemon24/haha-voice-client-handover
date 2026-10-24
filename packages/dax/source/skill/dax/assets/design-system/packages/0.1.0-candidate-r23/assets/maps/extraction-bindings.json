@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "path": "Brand asset/KAI/Design system/snapshots/compact-20261021-r09/maps/world.html",
+      "sha256": "89b9e9af3adfb34d5391271e850e6ddc3b681d4d478112a8fa4b41cbbcffb4d7",
+      "roots": 1,
+      "method": "Only inert SVG geometry/text extracted; originalHTML/CSS/JS never executed. DAX presentation independently applied."
+    },
+    {
+      "path": "Brand asset/KAI/Design system/snapshots/compact-20261021-r09/maps/vietnam.html",
+      "sha256": "535e8401ad9838a218366d3c719ca3716fb041cdf3ffb9422289d3671159d740",
+      "roots": 3,
+      "method": "Only inert SVG geometry/text extracted; originalHTML/CSS/JS never executed. DAX presentation independently applied."
+    },
+    {
+      "path": "Brand asset/KAI/Design system/snapshots/compact-20261021-r09/maps/united-states.html",
+      "sha256": "80190eb54b2a84a638253e5cad13158fc2c4c9a53025a4927cd7ce538cd83d2b",
+      "roots": 1,
+      "method": "Only inert SVG geometry/text extracted; originalHTML/CSS/JS never executed. DAX presentation independently applied."
+    }
+  ],
+  "rights": "Source licenses retained. Geometry is not sales coverage, navigation-grade or boundary adjudication.",
+  "landPolygons": 127
+}

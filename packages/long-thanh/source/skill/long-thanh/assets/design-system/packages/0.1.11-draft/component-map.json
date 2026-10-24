@@ -1,0 +1,1493 @@
+{
+  "schemaVersion": "long-thanh-component-map/v1",
+  "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+  "nativeReadback": {
+    "records": [
+      {
+        "id": "content-heading-1",
+        "role": "heading",
+        "title": "Tiêu đề và nhãn dẫn",
+        "sourceSlide": "slide-default-cover",
+        "sourceOrdinal": 0,
+        "variants": [],
+        "usedBy": [
+          "slide-default-cover",
+          "slide-default-agenda",
+          "slide-default-divider",
+          "slide-default-close",
+          "slide-image-hero",
+          "slide-image-strip",
+          "slide-image-grid",
+          "slide-image-story",
+          "slide-image-detail",
+          "slide-image-collage",
+          "slide-image-pair",
+          "slide-image-mosaic",
+          "slide-image-background",
+          "slide-image-split",
+          "slide-text-matrix",
+          "slide-text-tables",
+          "slide-text-columns",
+          "slide-text-evidence",
+          "slide-text-plan",
+          "slide-text-dashboard",
+          "slide-text-overview",
+          "slide-text-mixed",
+          "slide-text-sections",
+          "slide-text-journey",
+          "slide-text-sales-mix",
+          "slide-text-competitors",
+          "slide-text-ranking"
+        ],
+        "structuralVariants": [
+          {
+            "anatomy": "s283-head|HEADER",
+            "sourceSlide": "slide-default-cover"
+          },
+          {
+            "anatomy": "|H2",
+            "sourceSlide": "slide-default-cover"
+          }
+        ]
+      },
+      {
+        "id": "content-text-1",
+        "role": "text",
+        "title": "Khối chữ · nội dung và chú thích",
+        "sourceSlide": "slide-default-cover",
+        "sourceOrdinal": 1,
+        "variants": [
+          {
+            "textRole": "Đoạn nội dung"
+          },
+          {
+            "textRole": "Chú thích"
+          }
+        ],
+        "usedBy": [
+          "slide-default-cover",
+          "slide-default-agenda",
+          "slide-default-divider",
+          "slide-default-close",
+          "slide-image-hero",
+          "slide-image-strip",
+          "slide-image-grid",
+          "slide-image-story",
+          "slide-image-detail",
+          "slide-image-collage",
+          "slide-image-pair",
+          "slide-image-mosaic",
+          "slide-image-background",
+          "slide-image-split",
+          "slide-text-dashboard",
+          "slide-text-overview",
+          "slide-text-mixed",
+          "slide-text-sections",
+          "slide-text-journey",
+          "slide-text-sales-mix"
+        ],
+        "structuralVariants": [
+          {
+            "anatomy": "job-kicker|P",
+            "sourceSlide": "slide-default-cover"
+          },
+          {
+            "anatomy": "|P",
+            "sourceSlide": "slide-default-cover"
+          },
+          {
+            "anatomy": "|FIGCAPTION",
+            "sourceSlide": "slide-default-cover"
+          }
+        ]
+      },
+      {
+        "id": "content-source-1",
+        "role": "source",
+        "title": "Nguồn và số trang",
+        "sourceSlide": "slide-default-cover",
+        "sourceOrdinal": 7,
+        "variants": [],
+        "usedBy": [
+          "slide-default-cover",
+          "slide-default-agenda",
+          "slide-default-divider",
+          "slide-default-close",
+          "slide-image-hero",
+          "slide-image-strip",
+          "slide-image-grid",
+          "slide-image-story",
+          "slide-image-detail",
+          "slide-image-collage",
+          "slide-image-pair",
+          "slide-image-mosaic",
+          "slide-image-background",
+          "slide-image-split",
+          "slide-text-matrix",
+          "slide-text-tables",
+          "slide-text-columns",
+          "slide-text-evidence",
+          "slide-text-plan",
+          "slide-text-dashboard",
+          "slide-text-overview",
+          "slide-text-mixed",
+          "slide-text-sections",
+          "slide-text-journey",
+          "slide-text-sales-mix",
+          "slide-text-competitors",
+          "slide-text-ranking"
+        ],
+        "structuralVariants": [
+          {
+            "anatomy": "s283-footer|FOOTER",
+            "sourceSlide": "slide-default-cover"
+          }
+        ]
+      },
+      {
+        "id": "content-list-1",
+        "role": "list",
+        "title": "Danh sách và các bước",
+        "sourceSlide": "slide-default-agenda",
+        "sourceOrdinal": 1,
+        "variants": [],
+        "usedBy": [
+          "slide-default-agenda",
+          "slide-default-divider",
+          "slide-text-plan",
+          "slide-text-competitors"
+        ],
+        "structuralVariants": [
+          {
+            "anatomy": "job-agenda|OL",
+            "sourceSlide": "slide-default-agenda"
+          },
+          {
+            "anatomy": "|OL",
+            "sourceSlide": "slide-default-divider"
+          },
+          {
+            "anatomy": "job-steps|OL",
+            "sourceSlide": "slide-text-plan"
+          }
+        ]
+      },
+      {
+        "id": "content-panel-1",
+        "role": "panel",
+        "title": "Thẻ tiêu đề và diễn giải",
+        "sourceSlide": "slide-image-hero",
+        "sourceOrdinal": 2,
+        "variants": [],
+        "usedBy": [
+          "slide-image-hero",
+          "slide-image-story",
+          "slide-text-matrix",
+          "slide-text-columns",
+          "slide-text-evidence",
+          "slide-text-sections",
+          "slide-text-ranking"
+        ],
+        "structuralVariants": [
+          {
+            "anatomy": "s283-panel|SECTION",
+            "sourceSlide": "slide-image-hero"
+          }
+        ]
+      },
+      {
+        "id": "content-table-1",
+        "role": "table",
+        "title": "Bảng đối chiếu",
+        "sourceSlide": "slide-text-matrix",
+        "sourceOrdinal": 1,
+        "variants": [
+          {
+            "columns": 3
+          },
+          {
+            "columns": 2
+          },
+          {
+            "columns": 4
+          },
+          {
+            "columns": 5
+          }
+        ],
+        "usedBy": [
+          "slide-text-matrix",
+          "slide-text-tables",
+          "slide-text-plan",
+          "slide-text-overview",
+          "slide-text-mixed",
+          "slide-text-journey",
+          "slide-text-sales-mix",
+          "slide-text-competitors",
+          "slide-text-ranking"
+        ],
+        "structuralVariants": [
+          {
+            "anatomy": "s283-table|TABLE",
+            "sourceSlide": "slide-text-matrix"
+          }
+        ]
+      },
+      {
+        "id": "content-chart-column-1",
+        "role": "chart-column",
+        "title": "Biểu đồ cột trong slide",
+        "sourceSlide": "slide-text-evidence",
+        "sourceOrdinal": 1,
+        "variants": [],
+        "usedBy": [
+          "slide-text-evidence",
+          "slide-text-dashboard",
+          "slide-text-overview",
+          "slide-text-sales-mix"
+        ],
+        "structuralVariants": [
+          {
+            "anatomy": "s283-chart|FIGURE",
+            "sourceSlide": "slide-text-evidence"
+          }
+        ]
+      }
+    ],
+    "compositions": [
+      {
+        "id": "slide-default-cover",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 1,
+            "tag": "P",
+            "classes": "job-kicker"
+          },
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 2,
+            "tag": "H2",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 3,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 4,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 5,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 6,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 7,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-default-agenda",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-list-1",
+            "ordinal": 1,
+            "tag": "OL",
+            "classes": "job-agenda"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 3,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-list-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-default-divider",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 1,
+            "tag": "P",
+            "classes": "job-kicker"
+          },
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 2,
+            "tag": "H2",
+            "classes": ""
+          },
+          {
+            "componentId": "content-list-1",
+            "ordinal": 3,
+            "tag": "OL",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 4,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 5,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 6,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 7,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-list-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-default-close",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 1,
+            "tag": "H2",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 3,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 4,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 5,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 6,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 7,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 8,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 9,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-image-hero",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 1,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 2,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 3,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-panel-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-image-strip",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 1,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 3,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 4,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-image-grid",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 1,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 3,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 4,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 5,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-image-story",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 1,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 2,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 3,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 4,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 5,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-panel-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-image-detail",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 1,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 3,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 4,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-image-collage",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 1,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 3,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 4,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-image-pair",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 1,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 3,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 4,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-image-mosaic",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 1,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 3,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 4,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 5,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 6,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 7,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-image-background",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 1,
+            "tag": "H2",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 3,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-image-split",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 1,
+            "tag": "H2",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 3,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 4,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 5,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-text-matrix",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-table-1",
+            "ordinal": 1,
+            "tag": "TABLE",
+            "classes": "s283-table"
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 2,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 3,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-table-1",
+          "content-panel-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-text-tables",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 1,
+            "tag": "H2",
+            "classes": ""
+          },
+          {
+            "componentId": "content-table-1",
+            "ordinal": 2,
+            "tag": "TABLE",
+            "classes": "s283-table"
+          },
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 3,
+            "tag": "H2",
+            "classes": ""
+          },
+          {
+            "componentId": "content-table-1",
+            "ordinal": 4,
+            "tag": "TABLE",
+            "classes": "s283-table"
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 5,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-table-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-text-columns",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 1,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 2,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 3,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 4,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-panel-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-text-evidence",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-chart-column-1",
+            "ordinal": 1,
+            "tag": "FIGURE",
+            "classes": "s283-chart"
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 2,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 3,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-chart-column-1",
+          "content-panel-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-text-plan",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-list-1",
+            "ordinal": 1,
+            "tag": "OL",
+            "classes": "job-steps"
+          },
+          {
+            "componentId": "content-table-1",
+            "ordinal": 2,
+            "tag": "TABLE",
+            "classes": "s283-table"
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 3,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-list-1",
+          "content-table-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-text-dashboard",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 1,
+            "tag": "H2",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-chart-column-1",
+            "ordinal": 3,
+            "tag": "FIGURE",
+            "classes": "s283-chart"
+          },
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 4,
+            "tag": "H2",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 5,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 6,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 7,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 8,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-chart-column-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-text-overview",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 1,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-chart-column-1",
+            "ordinal": 2,
+            "tag": "FIGURE",
+            "classes": "s283-chart"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 3,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 4,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 5,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-table-1",
+            "ordinal": 6,
+            "tag": "TABLE",
+            "classes": "s283-table"
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 7,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-text-1",
+          "content-chart-column-1",
+          "content-table-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-text-mixed",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-table-1",
+            "ordinal": 1,
+            "tag": "TABLE",
+            "classes": "s283-table"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-table-1",
+            "ordinal": 3,
+            "tag": "TABLE",
+            "classes": "s283-table"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 4,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 5,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-table-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-text-sections",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 1,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 2,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 3,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 4,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 5,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 6,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-panel-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-text-journey",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-table-1",
+            "ordinal": 1,
+            "tag": "TABLE",
+            "classes": "s283-table"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 3,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-table-1",
+          "content-text-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-text-sales-mix",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-chart-column-1",
+            "ordinal": 1,
+            "tag": "FIGURE",
+            "classes": "s283-chart"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 2,
+            "tag": "FIGCAPTION",
+            "classes": ""
+          },
+          {
+            "componentId": "content-table-1",
+            "ordinal": 3,
+            "tag": "TABLE",
+            "classes": "s283-table"
+          },
+          {
+            "componentId": "content-text-1",
+            "ordinal": 4,
+            "tag": "P",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 5,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-chart-column-1",
+          "content-text-1",
+          "content-table-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-text-competitors",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-table-1",
+            "ordinal": 1,
+            "tag": "TABLE",
+            "classes": "s283-table"
+          },
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 2,
+            "tag": "H2",
+            "classes": ""
+          },
+          {
+            "componentId": "content-list-1",
+            "ordinal": 3,
+            "tag": "OL",
+            "classes": ""
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 4,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-table-1",
+          "content-list-1",
+          "content-source-1"
+        ]
+      },
+      {
+        "id": "slide-text-ranking",
+        "units": [
+          {
+            "componentId": "content-heading-1",
+            "ordinal": 0,
+            "tag": "HEADER",
+            "classes": "s283-head"
+          },
+          {
+            "componentId": "content-table-1",
+            "ordinal": 1,
+            "tag": "TABLE",
+            "classes": "s283-table"
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 2,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-panel-1",
+            "ordinal": 3,
+            "tag": "SECTION",
+            "classes": "s283-panel"
+          },
+          {
+            "componentId": "content-source-1",
+            "ordinal": 4,
+            "tag": "FOOTER",
+            "classes": "s283-footer"
+          }
+        ],
+        "componentIds": [
+          "content-heading-1",
+          "content-table-1",
+          "content-panel-1",
+          "content-source-1"
+        ]
+      }
+    ],
+    "version": "compact-design-system-v2",
+    "status": "review-only"
+  },
+  "status": "proposed-review-only",
+  "source": "Revalidated current identical compact renderer/native slide composition bodies; final native equality check required."
+}

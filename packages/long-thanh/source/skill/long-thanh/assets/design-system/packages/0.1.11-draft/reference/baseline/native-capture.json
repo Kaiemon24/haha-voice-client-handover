@@ -1,0 +1,2488 @@
+{
+  "schemaVersion": "long-thanh-native-capture/v1",
+  "packageVersion": "0.1.11-draft",
+  "sourceModelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+  "headless": true,
+  "browser": "155.0.8059.85",
+  "jobs": 17,
+  "figures": 411,
+  "extraUnits": [
+    {
+      "id": "source:runtime-00",
+      "sourceId": "#source-function-index-library",
+      "kind": "source",
+      "title": "Vai trò dùng chung và địa chỉ nguồn",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Vai trò dùng chung và địa chỉ nguồn",
+        "Mỗi vai trò giữ một địa chỉ riêng. Các vai trò có thể dùng chung hình gốc; số vai trò không phải số hình gốc.",
+        "Hộp kiểm chưa chọn · vai trò dùng chung",
+        "Hộp kiểm chưa chọn",
+        "Trạng thái chưa chọn của một lựa chọn; đi cùng nhãn và điều khiển hộp kiểm native.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Tệp · vai trò dùng chung",
+        "Tệp",
+        "Biểu đạt chức năng tệp; cùng hình ở hai nền nhận.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Dừng tác vụ · vai trò dùng chung",
+        "Dừng tác vụ",
+        "Lệnh dừng có chủ ý, hình vuông đặc; không dùng thay dấu đầu dòng hay hộp kiểm.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Kiện hàng · vai trò dùng chung",
+        "Kiện hàng",
+        "Biểu đạt chức năng kiện hàng; cùng hình ở hai nền nhận.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Vận chuyển · vai trò dùng chung",
+        "Vận chuyển",
+        "Biểu đạt chức năng vận chuyển; cùng hình ở hai nền nhận.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Kiện hàng · vai trò dùng chung",
+        "Kiện hàng",
+        "Biểu đạt chức năng kiện hàng; cùng hình ở hai nền nhận.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Tác vụ tự động minh họa · vai trò dùng chung",
+        "Tác vụ tự động minh họa",
+        "Nhịp nhấn nhẹ quanh biểu tượng tác vụ tự động. Chuyển động minh họa không báo tác vụ đang chạy hoặc hoàn tất.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Hiệu chỉnh thiết kế · vai trò dùng chung",
+        "Hiệu chỉnh thiết kế",
+        "Nhấn hình bút để chỉ vị trí chỉnh sửa; không tự sửa nội dung.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Đọc mã giao diện · vai trò dùng chung",
+        "Đọc mã giao diện",
+        "Nhấn biểu tượng mã khi giới thiệu tài liệu HTML; không báo chương trình đã chạy.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Nội dung video · vai trò dùng chung",
+        "Nội dung video",
+        "Nhịp nhấn cho loại video; nút phát thực tế phải có tên và trạng thái riêng.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Soạn nội dung · vai trò dùng chung",
+        "Soạn nội dung",
+        "Nhấn biểu tượng chữ để giới thiệu bước soạn; không báo đã lưu.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Định hướng theo điểm nối · vai trò dùng chung",
+        "Định hướng theo điểm nối",
+        "Đánh dấu đường đi giữa các điểm nội dung bằng nhịp chú ý. Không phải la bàn địa lý hay dữ liệu định vị.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Làm mới thông tin · vai trò dùng chung",
+        "Làm mới thông tin",
+        "Nhịp chú ý quanh hình làm mới để minh họa yêu cầu cập nhật. Không chứng minh dữ liệu đã được tải hoặc kiểm chứng.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Đối chiếu điều kiện bảo vệ · vai trò dùng chung",
+        "Đối chiếu điều kiện bảo vệ",
+        "Nhịp chú ý cho bước đối chiếu điều kiện; không phải chứng nhận an toàn hoặc xác nhận hệ thống đã được bảo vệ.",
+        "Trạng thái: tĩnh · phát · dừng · giảm chuyển động.",
+        "Play",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Thanh ngang · vai trò dùng chung",
+        "Thanh ngang",
+        "Số công việc: 8, 6, 10. Trục 0–12.",
+        "Trạng thái: tĩnh · chi tiết · tái sử dụng.",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Danh sách bằng dấu hình · vai trò dùng chung",
+        "Danh sách bằng dấu hình",
+        "Nhóm các ý ngang cấp bằng dấu vuông nhỏ.",
+        "Trạng thái: tĩnh · chi tiết · tái sử dụng.",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Danh sách bằng biểu tượng · vai trò dùng chung",
+        "Danh sách bằng biểu tượng",
+        "Nhóm các ý ngang cấp bằng biểu tượng có nhãn.",
+        "Trạng thái: tĩnh · chi tiết · tái sử dụng.",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Phiếu mục tiêu · vai trò dùng chung",
+        "Phiếu mục tiêu",
+        "Tài liệu đọc theo dòng; đủ nội dung và giới hạn khi phân trang.",
+        "Trạng thái: tĩnh · chi tiết · tái sử dụng.",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Quy tắc và cách sửa · vai trò dùng chung",
+        "Quy tắc và cách sửa",
+        "Tài liệu đọc theo dòng; đủ nội dung và giới hạn khi phân trang.",
+        "Trạng thái: tĩnh · chi tiết · tái sử dụng.",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Phạm vi sử dụng · vai trò dùng chung",
+        "Phạm vi sử dụng",
+        "Tài liệu đọc theo dòng; đủ nội dung và giới hạn khi phân trang.",
+        "Trạng thái: tĩnh · chi tiết · tái sử dụng.",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Ví dụ có giải thích · vai trò dùng chung",
+        "Ví dụ có giải thích",
+        "Tài liệu đọc theo dòng; đủ nội dung và giới hạn khi phân trang.",
+        "Trạng thái: tĩnh · chi tiết · tái sử dụng.",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò",
+        "Thẻ nguồn · vai trò dùng chung",
+        "Thẻ nguồn",
+        "Tài liệu đọc theo dòng; đủ nội dung và giới hạn khi phân trang.",
+        "Trạng thái: tĩnh · chi tiết · tái sử dụng.",
+        "Mở hình gốc và chức năng",
+        "Tái sử dụng đúng vai trò"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#source-function-index-library",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-00.png",
+        "sha256": "b29034c728b0c724462919959caffa0d10aa26170e24d8ad12ee1daf5dc5491d",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": "#source-function-index-library",
+        "markupSha256": "8686c70e166d9121f183a18df7af5f38bfd7210272ebaaa6ad9c6aa50e747f5a",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-02",
+      "sourceId": ".compact-framework",
+      "kind": "source",
+      "title": "Ghép mảnh, không tạo thêm loại",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Ghép mảnh, không tạo thêm loại",
+        "Chốt câu hỏi và khung: xác định người đọc, ý chính, tỷ lệ, chiều rộng và cách cuộn hoặc phân trang.",
+        "Lập danh sách mảnh: chọn đúng mã component, biến thể và trường nội dung. Mỗi mảnh hiện trên composition phải có mẫu lẻ để đối chiếu.",
+        "Giữ phần cố định: phông, vai trò màu, khung, bóng, chức năng, trạng thái, đơn vị và nguồn. Chỉ thay nội dung, số lượng trong sức chứa và cách xếp.",
+        "Đổi cách xếp: chọn cột, hàng, thứ tự đọc, tỷ lệ vùng ảnh và điểm ngắt từ mảnh hiện có. Không thêm loại thẻ, biểu đồ hay điều khiển mới.",
+        "Thiếu loại cần thiết: báo đúng chỗ thiếu; đổi cách trình bày hoặc đề xuất bổ sung riêng để duyệt. Không âm thầm chế component.",
+        "Kiểm tại nơi dùng: đọc nội dung thật; kiểm căn hàng, khoảng hở, chữ, nguồn, trạng thái và tràn. Nếu quá sức chứa, thêm trang hoặc xếp dọc; không ép chữ nhỏ lại.",
+        "Đích\tCách thích nghi\tĐiều giữ nguyên",
+        "Slide 16:9\tKhung ngang, một thông điệp chính.\tMẫu lẻ, lưới căn và vùng an toàn.",
+        "PDF dọc / tỷ lệ khác\tXếp lại cùng mảnh, ngắt trang tại nhóm ý; lặp tiêu đề bảng.\tThứ tự, dữ liệu, nguồn và cỡ chữ đọc được.",
+        "Website\tChia vùng cuộn; đổi từ nhiều cột thành một cột khi hẹp.\tChức năng mảnh và quan hệ giữa các nhóm.",
+        "App\tĐặt mảnh vào luồng tác vụ và điều khiển đã có.\tTrạng thái, bàn phím và phản hồi thao tác.",
+        "Đọc hướng dẫn và hợp đồng dành cho agent"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#.compact-framework",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-02.png",
+        "sha256": "45537f00d1e7ad0422ff2e1b543643a168281c03c847c2f597da3fcc71c8814f",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": ".compact-framework",
+        "markupSha256": "15decb2f83ba6e045f6c4581450868d0bb1e01862a8273c279a8374f1d5c434b",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-03",
+      "sourceId": "#composition-label-alignment",
+      "kind": "source",
+      "title": "Căn giữa ô và thẻ nhãn ngắn",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Căn giữa ô và thẻ nhãn ngắn",
+        "Với ô hoặc thẻ độc lập chứa nhãn ngắn, căn giữa chữ theo cả hai chiều. Nếu xuống dòng, căn giữa từng dòng theo trục ngang và toàn bộ khối chữ theo trục dọc; giữ khoảng đệm quanh chữ. Đo sau khi phông chữ tải xong, không dùng vị trí dòng đầu làm tâm và không kéo lệch từng nhãn để chữa lỗi.",
+        "Khi thích nghi cùng loại component sang design system khác, giữ cách căn này, dùng phông chữ, màu và khoảng đệm của hệ thống đích rồi kiểm lại ở khung hẹp, khung rộng và nhãn nhiều dòng. Đoạn văn dài, bảng đọc theo cột và thẻ có phân cấp tiêu đề–nội dung giữ bố cục đọc riêng.",
+        "Vùng an toàn bên trong khung · Khoảng hở giữa các phần, tính cả bóng"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#composition-label-alignment",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-03.png",
+        "sha256": "eebfc6d979662e20af4b50f33c1041b2876e82894bbcb09f60b80e1bd9941dd2",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": "#composition-label-alignment",
+        "markupSha256": "d8590c63895fbea5f6becb4b41c9166fdafe17ee72af01483a653c96aa313b6e",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-04",
+      "sourceId": ".compact-format-demo",
+      "kind": "source",
+      "title": "Cùng mảnh ghép · đổi khung",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Cùng mảnh ghép · đổi khung",
+        "Chọn khung để kiểm cách dàn lại; mẫu này chỉ ghép các mảnh đã liệt kê.",
+        "16:9",
+        "A4 dọc",
+        "1:1",
+        "Website / App",
+        "VÍ DỤ THÍCH NGHI · CÙNG MẢNH GHÉP",
+        "Đọc dữ kiện cùng ngữ cảnh.",
+        "Đọc đúng ngữ cảnh",
+        "Hình pallet đặt trọng tâm. Cột này giải thích nhu cầu cần đối chiếu: kích thước, cách di chuyển và môi trường sử dụng.",
+        "Yêu cầu\tMẫu A\tMẫu B",
+        "Kích thước\tCần nguồn\tCần nguồn",
+        "Môi trường\tKho khô · ví dụ\tNgoài trời · ví dụ",
+        "Tải trọng\tChưa xác nhận\tChưa xác nhận",
+        "LONG THÀNH · Nội dung minh họa"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#.compact-format-demo",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-04.png",
+        "sha256": "533eb5a7f6dafccafd768465b0382eda8ddbc524e1a1ae2b5777efc30932021f",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": ".compact-format-demo",
+        "markupSha256": "37efbc405fbf3e8a95e6edc6fd80961148c5013efa460710a4ae5aa1191e9ade",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-05",
+      "sourceId": "#ui-state-lab",
+      "kind": "source",
+      "title": "Chức năng và trạng thái",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Chức năng và trạng thái",
+        "Hành động chính dùng một nút nổi bật trong mỗi nhóm. Hành động phụ giữ độ nhấn thấp hơn; thao tác xóa cần xác nhận trong mẫu thật.",
+        "Lưu mẫu",
+        "Đặt lại",
+        "Xóa lựa chọn",
+        "Không khả dụng",
+        "i",
+        "Nhận thông tin",
+        "Bật thông báo",
+        "Chọn nhóm",
+        "Nội dung",
+        "Tên mẫu",
+        "Chưa lưu. Đây là dữ liệu minh họa trong trình duyệt.",
+        "Cách kiểm các trạng thái",
+        "Thường: không tương tác. Rê chuột: đưa chuột lên nút. Nhấn: giữ chuột. Bàn phím: dùng Tab rồi Enter. Đang chọn: bật ô kiểm hoặc công tắc. Đang xử lý: bấm Lưu khi có tên. Lỗi: bấm Lưu khi tên trống. Không khả dụng: nút khóa không tạo hành động.",
+        "Tái sử dụng"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#ui-state-lab",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-05.png",
+        "sha256": "729968c77db6539c607100facc9568f83ad9f97ac6a191c0b00175f76607d05c",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": "#ui-state-lab",
+        "markupSha256": "04c1fc5616d5a9524ff51abd20fb32107b0aa877bac9c6682beb83267c853ab0",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-06",
+      "sourceId": "#effect-ribbon",
+      "kind": "source",
+      "title": "Dải hình và chữ chạy ngược chiều",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Dải hình và chữ chạy ngược chiều",
+        "Hình chạy sang trái, chữ chạy sang phải; hai dải lặp liên tục và dùng chung Play / Pause. Thay nội dung, giữ hai nửa của mỗi dải giống nhau.",
+        "Kích thước rõ",
+        "Điều kiện đủ",
+        "Đối chiếu nguồn",
+        "Kích thước rõ",
+        "Điều kiện đủ",
+        "Đối chiếu nguồn",
+        "Kích thước rõ",
+        "Điều kiện đủ",
+        "Đối chiếu nguồn",
+        "Kích thước rõ",
+        "Điều kiện đủ",
+        "Đối chiếu nguồn",
+        "Bản chữ tĩnh: Kích thước rõ · Điều kiện đủ · Đối chiếu nguồn.",
+        "Play",
+        "Tái sử dụng"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#effect-ribbon",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-06.png",
+        "sha256": "d31b5ecd4b0570c25f5b41c09009d4f29c651c0a21397456594290b0df679528",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": "#effect-ribbon",
+        "markupSha256": "0bbed4090d708687208761fb116345b2b622b58174ea379b0cbd4bf16141eb1c",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-07",
+      "sourceId": "#effect-globe",
+      "kind": "source",
+      "title": "Địa cầu 3D và bản đồ",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Địa cầu 3D và bản đồ",
+        "Xoay địa cầu thật hoặc chọn bản đồ Việt Nam, Hoa Kỳ. Việt Nam có hai khung nhìn gần Hoàng Sa và Trường Sa.",
+        "Địa cầu 3D",
+        "Việt Nam",
+        "Hoa Kỳ",
+        "Mở bản đồ đầy đủ và nguồn",
+        "Play",
+        "Tái sử dụng"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#effect-globe",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-07.png",
+        "sha256": "7ff9e7b1ee19f8c4cef78e7a9b642228962f6114d7bd9f6c60fa1d2789076c93",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": "#effect-globe",
+        "markupSha256": "4ccca03e1860ca16ab873bd551a8e35cef118a3daa0cfcbc8f5c36beb82fd6ef",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-08",
+      "sourceId": "#slide-template-guidance",
+      "kind": "source",
+      "title": "Làm slide theo nội dung",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "LONG THÀNH / HƯỚNG DẪN DÙNG SLIDE TEMPLATE",
+        "Làm slide theo nội dung",
+        "Chọn đúng ý. Giải thích trực quan. Viết ngắn và dễ hiểu.",
+        "Khuyến khích minh họa bằng AI khi phù hợp",
+        "Với slide nhiều hình, ít chữ, xác định ý nghĩa và vị trí từng khung ảnh. Tạo hình minh họa bằng AI khi phù hợp, đúng nội dung và phong cách thương hiệu; đặt ảnh thật vào placeholder trước khi bàn giao slide hoàn chỉnh. Giữ tỷ lệ, vùng an toàn, điểm nhìn và cách cắt ảnh của mẫu; kiểm ảnh đã tải và không còn khung trống ngoài chủ đích. Mẫu thư viện có thể giữ placeholder trung tính để tái sử dụng; phải ghi rõ đó là mẫu. Tuân thủ quyền sử dụng, riêng tư, chi phí và quy trình Image; không dùng ảnh tạo làm bằng chứng người, sự kiện hay dự án thật, không bịa số liệu.",
+        "Nhịp tham chiếu: 3 slide chữ / 1 slide hình",
+        "Dùng mốc 3 slide nhiều chữ, ít hình / 1 slide nhiều hình, ít chữ để rà soát nhịp toàn bộ bài. Không bắt buộc ba slide chữ liên tiếp và không cần chờ đủ ba mới dùng hình. Có thể xen kẽ, đặt hình sớm hoặc dùng nhiều slide hình liên tục khi nội dung phù hợp. Hình phải mang ý nghĩa giải thích; icon nhỏ, nền trang trí và trang chỉ có tiêu đề không được tính. Với bài ngắn hoặc số trang đã chốt, sắp lại trong phạm vi đó; không thêm hình hay trang thừa để đủ tỷ lệ.",
+        "Theo nội dung; trực quan, ngắn và dễ hiểu",
+        "Chọn template và cách sắp xếp theo câu hỏi cần trả lời, không ép nội dung vào một công thức cố định. Ưu tiên trực quan hóa bằng các component hiện có khi giúp người đọc hiểu nhanh hơn: sơ đồ cho quan hệ hoặc tiến trình, biểu đồ cho dữ liệu, ảnh cho bối cảnh và ví dụ. Mỗi slide tập trung một thông điệp; viết ngắn gọn, đi thẳng vào ý chính, dùng từ dễ hiểu. Giữ dữ kiện, điều kiện và nguồn cần thiết; không rút gọn đến mất nghĩa.",
+        "Giữ nghĩa, cấu trúc và kiểm bản xuất",
+        "Dùng icon có nghĩa ở tiêu đề",
+        "Đặt một icon phù hợp với ý chính bên cạnh tiêu đề slide hoặc tiêu đề nhóm khi giúp định hướng và hợp mẫu đã chọn. Dùng bộ icon đã duyệt của thương hiệu; đồng bộ nét, kích thước, màu và khoảng cách với chữ. Giữ tiêu đề là chữ đọc được, căn icon theo nhóm chữ thực tế kể cả khi xuống dòng; icon không thay nội dung, không che chữ và không thay hình minh họa chính. Kiểm tiêu đề cùng icon trên bản HTML và PDF cuối. Với tiêu đề đã khóa, trích nguyên văn hoặc mẫu chủ đích không có icon, giữ thiết kế và ghi lý do.",
+        "Giữ nghĩa trước khi rút gọn",
+        "Đọc toàn bộ nguồn. Chọn câu hỏi chính cho từng slide, viết lại ngắn và rõ theo giọng được hướng dẫn trong cẩm nang này. Giữ người phụ trách, số/đơn vị, thứ tự, điều kiện, phủ định và trạng thái đề xuất hoặc ví dụ. Không biến lịch tham chiếu thành cam kết. Ghi rõ phần gộp, đưa vào ghi chú/phụ lục hoặc loại khỏi phạm vi.",
+        "Chọn cách chia ý",
+        "Một ý giải thích liên tục dùng đoạn ngắn. Nhiều ý song song dùng danh sách có bullet; các bước có thứ tự dùng số; so sánh dùng bảng; quan hệ dùng sơ đồ đúng nghĩa. Số ngoài thẻ không thay cho danh sách các tác vụ bên trong. Chỉ dùng icon thay bullet khi nó bổ sung nghĩa và hợp bộ biểu tượng của thương hiệu.",
+        "Nhấn từ khóa trong thân bài",
+        "In đậm chọn lọc từ/cụm từ quan trọng trong thân bài bằng phông đậm thật của thương hiệu; phần còn lại thường. Giữ phủ định và điều kiện cần hiểu. Không lấy tiêu đề đậm hoặc cả đoạn đậm làm bằng chứng rằng từ khóa đã được nhấn đúng.",
+        "Kiểm chính bản xuất cuối",
+        "Giữ phông, màu, bóng, khung và vùng an toàn của thương hiệu trong cẩm nang. Kiểm bản xuất thật: đủ ý/điều kiện; tiếng Việt đủ dấu; bullet và chữ đậm đúng; hình không mất/cắt; nhịp toàn bộ bộ slide đạt; nguồn và chú thích đúng. Sửa lỗi trước bàn giao. Chỉ khẳng định đã tuân thủ sau khi kiểm chính đầu ra đó.",
+        "Chọn hình thức theo quan hệ nội dung",
+        "Nội dung\tCách thể hiện\tĐiều cần giữ",
+        "Một ý liên tục\tĐoạn ngắn\tKhông cắt vụn câu bằng dấu đầu dòng.",
+        "Nhiều ý song song\tDanh sách gạch đầu dòng\tMột ý độc lập trên mỗi mục.",
+        "Các bước có thứ tự\tSố hoặc sơ đồ tiến trình\tGiữ đúng thứ tự và người phụ trách.",
+        "So sánh cùng tiêu chí\tBảng đối chiếu\tDùng chung tiêu chí cho các đối tượng.",
+        "Số liệu hoặc quan hệ\tBiểu đồ hoặc sơ đồ\tChỉ vẽ dữ liệu và quan hệ có nguồn.",
+        "Ví dụ: nhiều việc song song",
+        "Đọc toàn bộ nguồn trước khi chọn ý chính.",
+        "Giữ điều kiện và phủ định khi viết ngắn lại.",
+        "Chọn hình giải thích đúng quan hệ cần truyền đạt.",
+        "Ví dụ hợp lệ: chữ → hình → chữ → hình; hoặc hình → hình → chữ. Không phải chờ đủ ba slide chữ mới dùng hình.",
+        "Trạng thái bốn tài liệu PDF",
+        "Đọc hướng dẫn dạng văn bản",
+        "Chọn mẫu nhiều hình"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#slide-template-guidance",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-08.png",
+        "sha256": "21149a9e9be23ce58d69ea14eb7efb95e0021aa9b5a1edbd7e0e567bde0aa88c",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": "#slide-template-guidance",
+        "markupSha256": "ea69132b28dc4e7940c1d5212ea9c57031e4a468510e2280bb377f837e2e63df",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-09",
+      "sourceId": ".compact-inventory",
+      "kind": "source",
+      "title": "Quy tắc và thông tin bổ sung",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "7 loại mảnh được đối chiếu với 27 slide. Các biến thể cùng chức năng nằm chung một thẻ. Nội dung, số hàng và tỷ lệ ảnh là tham số; không tạo thẻ trùng chỉ vì đổi chữ hoặc tỷ lệ."
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#.compact-inventory",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-09.png",
+        "sha256": "d236d12a9103561f91d49f778968f7c8f322f9e6e84eb5d02179563725fec81e",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": ".compact-inventory",
+        "markupSha256": "171623f0e9e2bd6d1ce387fd320f05ed2868fac3c768edf3d03e42d21227a8ae",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-10",
+      "sourceId": "#content-heading-1",
+      "kind": "source",
+      "title": "Tiêu đề và nhãn dẫn",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Tiêu đề và nhãn dẫn",
+        "Mở đầu",
+        "Dùng trong 27 bố cục.",
+        "Các biến thể cùng loại",
+        "Đối chiếu nhu cầu lưu trữ và vận chuyển",
+        "Xem nơi dùng",
+        "Mở đầu",
+        "Mục lục",
+        "Mở phần",
+        "Kết thúc",
+        "Một hình lớn",
+        "Dải hình",
+        "Bảng hình",
+        "Hai hàng có ngữ cảnh",
+        "Hình chính và chi tiết",
+        "Toàn cảnh và hai góc",
+        "Đối chiếu hai hình",
+        "Sáu chi tiết",
+        "Hình nền và vùng chữ",
+        "Hình dọc và thông điệp",
+        "Ma trận đối chiếu",
+        "Hai bảng dữ kiện",
+        "Ba nhóm nội dung",
+        "Dữ kiện và giới hạn",
+        "Bốn bước thực hiện",
+        "Bảng theo dõi",
+        "Tổng quan dữ kiện",
+        "Bảng và hình",
+        "Các mục và hình dọc",
+        "Hành trình theo bước",
+        "Cơ cấu dữ liệu minh họa",
+        "So sánh theo tiêu chí",
+        "Xếp hạng minh họa",
+        "Tái sử dụng"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#content-heading-1",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-10.png",
+        "sha256": "ea57bf95fc6c1c77d3dc2d47f3e0b7aaa365ecbd82744be10842cd085129a507",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": "#content-heading-1",
+        "markupSha256": "fcf6d7e59300070922afb3409ad6ebb4cbc3e179b14bad90ff61b484b816d758",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-11",
+      "sourceId": "#content-text-1",
+      "kind": "source",
+      "title": "Khối chữ · nội dung và chú thích",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Khối chữ · nội dung và chú thích",
+        "Tài liệu minh họa · 24/10/2026",
+        "Dùng trong 20 bố cục. Biến thể: Đoạn nội dung · Chú thích.",
+        "Các biến thể cùng loại",
+        "Nhóm sử dụng: người chuẩn bị thông tin sản phẩm · Người trình bày: nhóm thiết kế đề xuất",
+        "Minh họa pallet",
+        "Xem nơi dùng",
+        "Mở đầu",
+        "Mục lục",
+        "Mở phần",
+        "Kết thúc",
+        "Một hình lớn",
+        "Dải hình",
+        "Bảng hình",
+        "Hai hàng có ngữ cảnh",
+        "Hình chính và chi tiết",
+        "Toàn cảnh và hai góc",
+        "Đối chiếu hai hình",
+        "Sáu chi tiết",
+        "Hình nền và vùng chữ",
+        "Hình dọc và thông điệp",
+        "Bảng theo dõi",
+        "Tổng quan dữ kiện",
+        "Bảng và hình",
+        "Các mục và hình dọc",
+        "Hành trình theo bước",
+        "Cơ cấu dữ liệu minh họa",
+        "Tái sử dụng"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#content-text-1",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-11.png",
+        "sha256": "6f6dccf5865fc3f687a2cd632ba59f15b337b6244404c607ca527ac8ff36fb38",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": "#content-text-1",
+        "markupSha256": "4131e9353df4d9f9cf2d3ea83e8f5bdd99dc2987a835bb2c0060ac45ff3a27f6",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-12",
+      "sourceId": "#content-source-1",
+      "kind": "source",
+      "title": "Nguồn và số trang",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Nguồn và số trang",
+        "Dữ liệu và hình học giả lập · Không phải thông số, thị trường hoặc kết quả Long Thành",
+        "Dùng trong 27 bố cục.",
+        "Xem nơi dùng",
+        "Mở đầu",
+        "Mục lục",
+        "Mở phần",
+        "Kết thúc",
+        "Một hình lớn",
+        "Dải hình",
+        "Bảng hình",
+        "Hai hàng có ngữ cảnh",
+        "Hình chính và chi tiết",
+        "Toàn cảnh và hai góc",
+        "Đối chiếu hai hình",
+        "Sáu chi tiết",
+        "Hình nền và vùng chữ",
+        "Hình dọc và thông điệp",
+        "Ma trận đối chiếu",
+        "Hai bảng dữ kiện",
+        "Ba nhóm nội dung",
+        "Dữ kiện và giới hạn",
+        "Bốn bước thực hiện",
+        "Bảng theo dõi",
+        "Tổng quan dữ kiện",
+        "Bảng và hình",
+        "Các mục và hình dọc",
+        "Hành trình theo bước",
+        "Cơ cấu dữ liệu minh họa",
+        "So sánh theo tiêu chí",
+        "Xếp hạng minh họa",
+        "Tái sử dụng"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#content-source-1",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-12.png",
+        "sha256": "0848cdd7b587c63fccc483ee81dfcba63986f11c1043fc05a074b62f67b6df0f",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": "#content-source-1",
+        "markupSha256": "982c6f3112bb059d83ac922900e6f3cfe658eb39f3af857b4cf13ea1d997e4be",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-13",
+      "sourceId": "#content-list-1",
+      "kind": "source",
+      "title": "Danh sách và các bước",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Danh sách và các bước",
+        "Nhu cầu và phạm vi",
+        "Dữ kiện cần đối chiếu",
+        "Khung trình bày và nguồn",
+        "Điểm chưa xác nhận và bước tiếp theo",
+        "Dùng trong 4 bố cục.",
+        "Các biến thể cùng loại",
+        "Môi trường sử dụng",
+        "Kích thước và cách di chuyển",
+        "Điều kiện cần xác nhận",
+        "Ghi nhu cầu",
+        "Nhận nguồn",
+        "Đối chiếu",
+        "Xác nhận",
+        "Xem nơi dùng",
+        "Mục lục",
+        "Mở phần",
+        "Bốn bước thực hiện",
+        "So sánh theo tiêu chí",
+        "Tái sử dụng"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#content-list-1",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-13.png",
+        "sha256": "257e549473580d43ce861eb092bb94ed3bae90faa2b0e8f5829317b3ec31e9a1",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": "#content-list-1",
+        "markupSha256": "b126a4b0e59533351c0307c9508fe2a6c4871b2661ff78e6418978e05f16938d",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-14",
+      "sourceId": "#content-panel-1",
+      "kind": "source",
+      "title": "Thẻ tiêu đề và diễn giải",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Thẻ tiêu đề và diễn giải",
+        "Đọc đúng ngữ cảnh",
+        "Hình pallet đặt trọng tâm. Cột này giải thích nhu cầu cần đối chiếu: kích thước, cách di chuyển và môi trường sử dụng.",
+        "Dùng trong 7 bố cục.",
+        "Xem nơi dùng",
+        "Một hình lớn",
+        "Hai hàng có ngữ cảnh",
+        "Ma trận đối chiếu",
+        "Ba nhóm nội dung",
+        "Dữ kiện và giới hạn",
+        "Các mục và hình dọc",
+        "Xếp hạng minh họa",
+        "Tái sử dụng"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#content-panel-1",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-14.png",
+        "sha256": "d84b5125bb13e300ce264b79dc06773b10cfc4e12f6325dbba288a84d6b98b50",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": "#content-panel-1",
+        "markupSha256": "80d30fc9e02fa381f979511e30308cf3338d8c22edd4fd17918c79ac912d35a5",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-15",
+      "sourceId": "#content-table-1",
+      "kind": "source",
+      "title": "Bảng đối chiếu",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Bảng đối chiếu",
+        "Yêu cầu\tMẫu A\tMẫu B",
+        "Kích thước\tCần nguồn\tCần nguồn",
+        "Môi trường\tKho khô · ví dụ\tNgoài trời · ví dụ",
+        "Tải trọng\tChưa xác nhận\tChưa xác nhận",
+        "Dùng trong 9 bố cục. Biến thể: 3 cột · 2 cột · 4 cột · 5 cột.",
+        "Xem nơi dùng",
+        "Ma trận đối chiếu",
+        "Hai bảng dữ kiện",
+        "Bốn bước thực hiện",
+        "Tổng quan dữ kiện",
+        "Bảng và hình",
+        "Hành trình theo bước",
+        "Cơ cấu dữ liệu minh họa",
+        "So sánh theo tiêu chí",
+        "Xếp hạng minh họa",
+        "Tái sử dụng"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#content-table-1",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-15.png",
+        "sha256": "d6f5bb38ccbe1ff2ee9d038fe19a7daa0f328806aa6f963d6b4848eaa903adcd",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": "#content-table-1",
+        "markupSha256": "c483a1b8aa9cdf551b869497aa3d85fe0d3fb2cd34d0047b5e8d21dec00690a5",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    },
+    {
+      "id": "source:runtime-16",
+      "sourceId": "#content-chart-column-1",
+      "kind": "source",
+      "title": "Biểu đồ cột trong slide",
+      "fields": [
+        [
+          "Nguồn",
+          "Nội dung hiện hành trong trình đọc HTML, gồm vùng mở rộng."
+        ],
+        [
+          "Giới hạn",
+          "PDF giữ toàn bộ chữ và hình tĩnh; tương tác vẫn ở HTML."
+        ]
+      ],
+      "paragraphs": [
+        "Biểu đồ cột trong slide",
+        "Dữ liệu giả lập; không phải số liệu Long Thành.",
+        "Dùng trong 4 bố cục.",
+        "Xem nơi dùng",
+        "Dữ kiện và giới hạn",
+        "Bảng theo dõi",
+        "Tổng quan dữ kiện",
+        "Cơ cấu dữ liệu minh họa",
+        "Tái sử dụng"
+      ],
+      "sourceFile": "design-system.html",
+      "sourceHash": "7726b4d8b873b97c41c9cdc73a9f0724f61cee6f049f07272bf6cee2cfffc0ac",
+      "link": "../package/design-system.html#content-chart-column-1",
+      "requireAllParagraphs": true,
+      "figure": {
+        "file": "pdf-derived/runtime-16.png",
+        "sha256": "bdff10ac0c88912dd45c8dfdef08375374d8ab808efef3cc0e36a02b392c11bd",
+        "mode": "full-static-source",
+        "description": "Actual current runtime source; expanded content captured whole."
+      },
+      "runtimeBinding": {
+        "selector": "#content-chart-column-1",
+        "markupSha256": "ea147d52d93dce88155eabaad761d8c3c68d672ff118eed84fde38b61d36abf9",
+        "modelSha256": "c80b94dc79645a104d2e52df12845e043c19a23039644e1237d3ec01727c3dd8",
+        "scriptSha256": "635fb4241100ae1f3157d9b368fab80eec8dfe1c07e0aa0da610286f58cba0ff"
+      }
+    }
+  ],
+  "live": {
+    "componentMap": {
+      "records": [
+        {
+          "id": "content-heading-1",
+          "role": "heading",
+          "title": "Tiêu đề và nhãn dẫn",
+          "sourceSlide": "slide-default-cover",
+          "sourceOrdinal": 0,
+          "variants": [],
+          "usedBy": [
+            "slide-default-cover",
+            "slide-default-agenda",
+            "slide-default-divider",
+            "slide-default-close",
+            "slide-image-hero",
+            "slide-image-strip",
+            "slide-image-grid",
+            "slide-image-story",
+            "slide-image-detail",
+            "slide-image-collage",
+            "slide-image-pair",
+            "slide-image-mosaic",
+            "slide-image-background",
+            "slide-image-split",
+            "slide-text-matrix",
+            "slide-text-tables",
+            "slide-text-columns",
+            "slide-text-evidence",
+            "slide-text-plan",
+            "slide-text-dashboard",
+            "slide-text-overview",
+            "slide-text-mixed",
+            "slide-text-sections",
+            "slide-text-journey",
+            "slide-text-sales-mix",
+            "slide-text-competitors",
+            "slide-text-ranking"
+          ],
+          "structuralVariants": [
+            {
+              "anatomy": "s283-head|HEADER",
+              "sourceSlide": "slide-default-cover"
+            },
+            {
+              "anatomy": "|H2",
+              "sourceSlide": "slide-default-cover"
+            }
+          ]
+        },
+        {
+          "id": "content-text-1",
+          "role": "text",
+          "title": "Khối chữ · nội dung và chú thích",
+          "sourceSlide": "slide-default-cover",
+          "sourceOrdinal": 1,
+          "variants": [
+            {
+              "textRole": "Đoạn nội dung"
+            },
+            {
+              "textRole": "Chú thích"
+            }
+          ],
+          "usedBy": [
+            "slide-default-cover",
+            "slide-default-agenda",
+            "slide-default-divider",
+            "slide-default-close",
+            "slide-image-hero",
+            "slide-image-strip",
+            "slide-image-grid",
+            "slide-image-story",
+            "slide-image-detail",
+            "slide-image-collage",
+            "slide-image-pair",
+            "slide-image-mosaic",
+            "slide-image-background",
+            "slide-image-split",
+            "slide-text-dashboard",
+            "slide-text-overview",
+            "slide-text-mixed",
+            "slide-text-sections",
+            "slide-text-journey",
+            "slide-text-sales-mix"
+          ],
+          "structuralVariants": [
+            {
+              "anatomy": "job-kicker|P",
+              "sourceSlide": "slide-default-cover"
+            },
+            {
+              "anatomy": "|P",
+              "sourceSlide": "slide-default-cover"
+            },
+            {
+              "anatomy": "|FIGCAPTION",
+              "sourceSlide": "slide-default-cover"
+            }
+          ]
+        },
+        {
+          "id": "content-source-1",
+          "role": "source",
+          "title": "Nguồn và số trang",
+          "sourceSlide": "slide-default-cover",
+          "sourceOrdinal": 7,
+          "variants": [],
+          "usedBy": [
+            "slide-default-cover",
+            "slide-default-agenda",
+            "slide-default-divider",
+            "slide-default-close",
+            "slide-image-hero",
+            "slide-image-strip",
+            "slide-image-grid",
+            "slide-image-story",
+            "slide-image-detail",
+            "slide-image-collage",
+            "slide-image-pair",
+            "slide-image-mosaic",
+            "slide-image-background",
+            "slide-image-split",
+            "slide-text-matrix",
+            "slide-text-tables",
+            "slide-text-columns",
+            "slide-text-evidence",
+            "slide-text-plan",
+            "slide-text-dashboard",
+            "slide-text-overview",
+            "slide-text-mixed",
+            "slide-text-sections",
+            "slide-text-journey",
+            "slide-text-sales-mix",
+            "slide-text-competitors",
+            "slide-text-ranking"
+          ],
+          "structuralVariants": [
+            {
+              "anatomy": "s283-footer|FOOTER",
+              "sourceSlide": "slide-default-cover"
+            }
+          ]
+        },
+        {
+          "id": "content-list-1",
+          "role": "list",
+          "title": "Danh sách và các bước",
+          "sourceSlide": "slide-default-agenda",
+          "sourceOrdinal": 1,
+          "variants": [],
+          "usedBy": [
+            "slide-default-agenda",
+            "slide-default-divider",
+            "slide-text-plan",
+            "slide-text-competitors"
+          ],
+          "structuralVariants": [
+            {
+              "anatomy": "job-agenda|OL",
+              "sourceSlide": "slide-default-agenda"
+            },
+            {
+              "anatomy": "|OL",
+              "sourceSlide": "slide-default-divider"
+            },
+            {
+              "anatomy": "job-steps|OL",
+              "sourceSlide": "slide-text-plan"
+            }
+          ]
+        },
+        {
+          "id": "content-panel-1",
+          "role": "panel",
+          "title": "Thẻ tiêu đề và diễn giải",
+          "sourceSlide": "slide-image-hero",
+          "sourceOrdinal": 2,
+          "variants": [],
+          "usedBy": [
+            "slide-image-hero",
+            "slide-image-story",
+            "slide-text-matrix",
+            "slide-text-columns",
+            "slide-text-evidence",
+            "slide-text-sections",
+            "slide-text-ranking"
+          ],
+          "structuralVariants": [
+            {
+              "anatomy": "s283-panel|SECTION",
+              "sourceSlide": "slide-image-hero"
+            }
+          ]
+        },
+        {
+          "id": "content-table-1",
+          "role": "table",
+          "title": "Bảng đối chiếu",
+          "sourceSlide": "slide-text-matrix",
+          "sourceOrdinal": 1,
+          "variants": [
+            {
+              "columns": 3
+            },
+            {
+              "columns": 2
+            },
+            {
+              "columns": 4
+            },
+            {
+              "columns": 5
+            }
+          ],
+          "usedBy": [
+            "slide-text-matrix",
+            "slide-text-tables",
+            "slide-text-plan",
+            "slide-text-overview",
+            "slide-text-mixed",
+            "slide-text-journey",
+            "slide-text-sales-mix",
+            "slide-text-competitors",
+            "slide-text-ranking"
+          ],
+          "structuralVariants": [
+            {
+              "anatomy": "s283-table|TABLE",
+              "sourceSlide": "slide-text-matrix"
+            }
+          ]
+        },
+        {
+          "id": "content-chart-column-1",
+          "role": "chart-column",
+          "title": "Biểu đồ cột trong slide",
+          "sourceSlide": "slide-text-evidence",
+          "sourceOrdinal": 1,
+          "variants": [],
+          "usedBy": [
+            "slide-text-evidence",
+            "slide-text-dashboard",
+            "slide-text-overview",
+            "slide-text-sales-mix"
+          ],
+          "structuralVariants": [
+            {
+              "anatomy": "s283-chart|FIGURE",
+              "sourceSlide": "slide-text-evidence"
+            }
+          ]
+        }
+      ],
+      "compositions": [
+        {
+          "id": "slide-default-cover",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 1,
+              "tag": "P",
+              "classes": "job-kicker"
+            },
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 2,
+              "tag": "H2",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 3,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 4,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 5,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 6,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 7,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-default-agenda",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-list-1",
+              "ordinal": 1,
+              "tag": "OL",
+              "classes": "job-agenda"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 3,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-list-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-default-divider",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 1,
+              "tag": "P",
+              "classes": "job-kicker"
+            },
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 2,
+              "tag": "H2",
+              "classes": ""
+            },
+            {
+              "componentId": "content-list-1",
+              "ordinal": 3,
+              "tag": "OL",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 4,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 5,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 6,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 7,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-list-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-default-close",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 1,
+              "tag": "H2",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 3,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 4,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 5,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 6,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 7,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 8,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 9,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-image-hero",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 1,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 2,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 3,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-panel-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-image-strip",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 1,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 3,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 4,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-image-grid",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 1,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 3,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 4,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 5,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-image-story",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 1,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 2,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 3,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 4,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 5,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-panel-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-image-detail",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 1,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 3,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 4,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-image-collage",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 1,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 3,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 4,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-image-pair",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 1,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 3,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 4,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-image-mosaic",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 1,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 3,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 4,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 5,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 6,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 7,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-image-background",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 1,
+              "tag": "H2",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 3,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-image-split",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 1,
+              "tag": "H2",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 3,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 4,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 5,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-text-matrix",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-table-1",
+              "ordinal": 1,
+              "tag": "TABLE",
+              "classes": "s283-table"
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 2,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 3,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-table-1",
+            "content-panel-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-text-tables",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 1,
+              "tag": "H2",
+              "classes": ""
+            },
+            {
+              "componentId": "content-table-1",
+              "ordinal": 2,
+              "tag": "TABLE",
+              "classes": "s283-table"
+            },
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 3,
+              "tag": "H2",
+              "classes": ""
+            },
+            {
+              "componentId": "content-table-1",
+              "ordinal": 4,
+              "tag": "TABLE",
+              "classes": "s283-table"
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 5,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-table-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-text-columns",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 1,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 2,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 3,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 4,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-panel-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-text-evidence",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-chart-column-1",
+              "ordinal": 1,
+              "tag": "FIGURE",
+              "classes": "s283-chart"
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 2,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 3,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-chart-column-1",
+            "content-panel-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-text-plan",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-list-1",
+              "ordinal": 1,
+              "tag": "OL",
+              "classes": "job-steps"
+            },
+            {
+              "componentId": "content-table-1",
+              "ordinal": 2,
+              "tag": "TABLE",
+              "classes": "s283-table"
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 3,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-list-1",
+            "content-table-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-text-dashboard",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 1,
+              "tag": "H2",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-chart-column-1",
+              "ordinal": 3,
+              "tag": "FIGURE",
+              "classes": "s283-chart"
+            },
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 4,
+              "tag": "H2",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 5,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 6,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 7,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 8,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-chart-column-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-text-overview",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 1,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-chart-column-1",
+              "ordinal": 2,
+              "tag": "FIGURE",
+              "classes": "s283-chart"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 3,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 4,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 5,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-table-1",
+              "ordinal": 6,
+              "tag": "TABLE",
+              "classes": "s283-table"
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 7,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-text-1",
+            "content-chart-column-1",
+            "content-table-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-text-mixed",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-table-1",
+              "ordinal": 1,
+              "tag": "TABLE",
+              "classes": "s283-table"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-table-1",
+              "ordinal": 3,
+              "tag": "TABLE",
+              "classes": "s283-table"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 4,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 5,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-table-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-text-sections",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 1,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 2,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 3,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 4,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 5,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 6,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-panel-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-text-journey",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-table-1",
+              "ordinal": 1,
+              "tag": "TABLE",
+              "classes": "s283-table"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 3,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-table-1",
+            "content-text-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-text-sales-mix",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-chart-column-1",
+              "ordinal": 1,
+              "tag": "FIGURE",
+              "classes": "s283-chart"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 2,
+              "tag": "FIGCAPTION",
+              "classes": ""
+            },
+            {
+              "componentId": "content-table-1",
+              "ordinal": 3,
+              "tag": "TABLE",
+              "classes": "s283-table"
+            },
+            {
+              "componentId": "content-text-1",
+              "ordinal": 4,
+              "tag": "P",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 5,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-chart-column-1",
+            "content-text-1",
+            "content-table-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-text-competitors",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-table-1",
+              "ordinal": 1,
+              "tag": "TABLE",
+              "classes": "s283-table"
+            },
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 2,
+              "tag": "H2",
+              "classes": ""
+            },
+            {
+              "componentId": "content-list-1",
+              "ordinal": 3,
+              "tag": "OL",
+              "classes": ""
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 4,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-table-1",
+            "content-list-1",
+            "content-source-1"
+          ]
+        },
+        {
+          "id": "slide-text-ranking",
+          "units": [
+            {
+              "componentId": "content-heading-1",
+              "ordinal": 0,
+              "tag": "HEADER",
+              "classes": "s283-head"
+            },
+            {
+              "componentId": "content-table-1",
+              "ordinal": 1,
+              "tag": "TABLE",
+              "classes": "s283-table"
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 2,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-panel-1",
+              "ordinal": 3,
+              "tag": "SECTION",
+              "classes": "s283-panel"
+            },
+            {
+              "componentId": "content-source-1",
+              "ordinal": 4,
+              "tag": "FOOTER",
+              "classes": "s283-footer"
+            }
+          ],
+          "componentIds": [
+            "content-heading-1",
+            "content-table-1",
+            "content-panel-1",
+            "content-source-1"
+          ]
+        }
+      ],
+      "version": "compact-design-system-v2",
+      "status": "review-only"
+    },
+    "counts": {
+      "icons": 118,
+      "models": 3,
+      "ui": 8,
+      "effects": 2,
+      "websites": 2,
+      "apps": 2,
+      "reading": 24,
+      "basicComponents": 7,
+      "charts": 22,
+      "chartSources": 40,
+      "slides": 27,
+      "slideDefault": 4,
+      "slideImage": 10,
+      "slideText": 13,
+      "pdf": 0,
+      "groups": 17
+    },
+    "readerGuidance": {
+      "version": "2.1.0",
+      "text": "Khuyến khích minh họa bằng AI khi phù hợp\nVới slide nhiều hình, ít chữ, xác định ý nghĩa và vị trí từng khung ảnh. Tạo hình minh họa bằng AI khi phù hợp, đúng nội dung và phong cách thương hiệu; đặt ảnh thật vào placeholder trước khi bàn giao slide hoàn chỉnh. Giữ tỷ lệ, vùng an toàn, điểm nhìn và cách cắt ảnh của mẫu; kiểm ảnh đã tải và không còn khung trống ngoài chủ đích. Mẫu thư viện có thể giữ placeholder trung tính để tái sử dụng; phải ghi rõ đó là mẫu. Tuân thủ quyền sử dụng, riêng tư, chi phí và quy trình Image; không dùng ảnh tạo làm bằng chứng người, sự kiện hay dự án thật, không bịa số liệu.\nNhịp tham chiếu: 3 slide chữ / 1 slide hình\nDùng mốc 3 slide nhiều chữ, ít hình / 1 slide nhiều hình, ít chữ để rà soát nhịp toàn bộ bài. Không bắt buộc ba slide chữ liên tiếp và không cần chờ đủ ba mới dùng hình. Có thể xen kẽ, đặt hình sớm hoặc dùng nhiều slide hình liên tục khi nội dung phù hợp. Hình phải mang ý nghĩa giải thích; icon nhỏ, nền trang trí và trang chỉ có tiêu đề không được tính. Với bài ngắn hoặc số trang đã chốt, sắp lại trong phạm vi đó; không thêm hình hay trang thừa để đủ tỷ lệ.\nTheo nội dung; trực quan, ngắn và dễ hiểu\nChọn template và cách sắp xếp theo câu hỏi cần trả lời, không ép nội dung vào một công thức cố định. Ưu tiên trực quan hóa bằng các component hiện có khi giúp người đọc hiểu nhanh hơn: sơ đồ cho quan hệ hoặc tiến trình, biểu đồ cho dữ liệu, ảnh cho bối cảnh và ví dụ. Mỗi slide tập trung một thông điệp; viết ngắn gọn, đi thẳng vào ý chính, dùng từ dễ hiểu. Giữ dữ kiện, điều kiện và nguồn cần thiết; không rút gọn đến mất nghĩa.\nDùng icon có nghĩa ở tiêu đề\nĐặt một icon phù hợp với ý chính bên cạnh tiêu đề slide hoặc tiêu đề nhóm khi giúp định hướng và hợp mẫu đã chọn. Dùng bộ icon đã duyệt của thương hiệu; đồng bộ nét, kích thước, màu và khoảng cách với chữ. Giữ tiêu đề là chữ đọc được, căn icon theo nhóm chữ thực tế kể cả khi xuống dòng; icon không thay nội dung, không che chữ và không thay hình minh họa chính. Kiểm tiêu đề cùng icon trên bản HTML và PDF cuối. Với tiêu đề đã khóa, trích nguyên văn hoặc mẫu chủ đích không có icon, giữ thiết kế và ghi lý do.\nGiữ nghĩa trước khi rút gọn\nĐọc toàn bộ nguồn. Chọn câu hỏi chính cho từng slide, viết lại ngắn và rõ theo giọng được hướng dẫn trong cẩm nang này. Giữ người phụ trách, số/đơn vị, thứ tự, điều kiện, phủ định và trạng thái đề xuất hoặc ví dụ. Không biến lịch tham chiếu thành cam kết. Ghi rõ phần gộp, đưa vào ghi chú/phụ lục hoặc loại khỏi phạm vi.\nChọn cách chia ý\nMột ý giải thích liên tục dùng đoạn ngắn. Nhiều ý song song dùng danh sách có bullet; các bước có thứ tự dùng số; so sánh dùng bảng; quan hệ dùng sơ đồ đúng nghĩa. Số ngoài thẻ không thay cho danh sách các tác vụ bên trong. Chỉ dùng icon thay bullet khi nó bổ sung nghĩa và hợp bộ biểu tượng của thương hiệu.\nNhấn từ khóa trong thân bài\nIn đậm chọn lọc từ/cụm từ quan trọng trong thân bài bằng phông đậm thật của thương hiệu; phần còn lại thường. Giữ phủ định và điều kiện cần hiểu. Không lấy tiêu đề đậm hoặc cả đoạn đậm làm bằng chứng rằng từ khóa đã được nhấn đúng.\nKiểm chính bản xuất cuối\nGiữ phông, màu, bóng, khung và vùng an toàn của thương hiệu trong cẩm nang. Kiểm bản xuất thật: đủ ý/điều kiện; tiếng Việt đủ dấu; bullet và chữ đậm đúng; hình không mất/cắt; nhịp toàn bộ bộ slide đạt; nguồn và chú thích đúng. Sửa lỗi trước bàn giao. Chỉ khẳng định đã tuân thủ sau khi kiểm chính đầu ra đó.",
+      "policyFile": "slide-reader-policy.json"
+    },
+    "registered": false,
+    "views": [
+      "overview",
+      "library"
+    ]
+  },
+  "behavior": [],
+  "slideGeometry": [],
+  "errors": [],
+  "externalRequests": [],
+  "mechanicalPass": true,
+  "visualReading": "PENDING_CURRENT_ACTUAL_IMAGE_REVIEW"
+}

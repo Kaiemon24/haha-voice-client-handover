@@ -1,11 +1,9 @@
-# HAHA 1.2.11-reader + Voice — bản bàn giao độc lập
+# HAHA — 1.2.11-reader · Bản bàn giao hiện hành
 
-Dùng dữ liệu HAHA 1.2.11-reader mới nhất và bốn PDF theo công việc. Voice được giữ nguyên từ bản bàn giao 1.1.1; không sửa OS Voice của bên giao hoặc ghi đè Voice khác mã trên máy khách.
+Bộ thiết kế được người dùng duyệt cho đợt bàn giao 24/10/2026. Mở source/skill/haha/SKILL.md; HTML: source/skill/haha/assets/design-system/design-system.html. Bốn PDF nằm trong assets/design-system/PDF/purpose-1.2.11-reader-20261023/documents. Chọn theo công việc; giữ phiên bản, dữ kiện và quyền.
 
-Đọc SETUP.md, kiểm archive/checksums, chọn đúng workspace và xem trước. Bộ cài mặc định thêm .agents/skills/haha và .agents/skills/voice; không sửa router/toàn máy. Tệp trùng khác mã là xung đột và cần phạm vi nâng cấp riêng.
+Đọc SETUP.md trước khi cài mới cộng thêm; bộ cài không ghi đè, không sửa router, quyền hoặc ứng dụng. Python 3.10+ thư viện chuẩn và trình duyệt hiện có; không cần OS nguồn. Hình thức và giọng còn là đề xuất theo nhãn gốc, không tự trở thành chuẩn thương hiệu đã được mọi bên nghiệm thu.
 
-HAHA: mở source/skill/haha/SKILL.md; tài nguyên có một nơi tại assets/design-system/package, đầu vào/đầu ra và thư viện tùy chỉnh ở HAHA-Voice-work. HTML là thư viện trực quan; Markdown là quy tắc; bốn PDF ở assets/design-system/documents/index.html. Mẫu nguồn bất biến; tạo extension có nguồn sửa được, preview, quyền, phụ thuộc, phiên bản và kiểm tra riêng.
+Giữ giấy phép mã, biểu tượng và phông đi kèm. Tài sản thương hiệu được phép công bố trong phạm vi bàn giao này theo xác nhận người dùng; không có giấy phép mở cho logo/nhãn hiệu. Phông Arial gốc không phân phối; DAX dùng phông Arial của máy xem hoặc sans-serif dự phòng. PDF giữ nguyên byte đã duyệt, là tài liệu tĩnh.
 
-Bản chụp không cần KAI OS hay thư mục máy dựng. Python 3.10+ và thư viện chuẩn dùng bộ cài/kiểm; Codex và trình duyệt hiện có dùng tác vụ thực tế. Không tự cài công cụ/đổi quyền/xuất bản/gửi thay khách. Giữ CLIENT-USE và giấy phép font; kho công khai không cấp giấy phép mở cho thương hiệu.
-
-Bốn trạng thái tách riêng: đủ tệp; ứng dụng nhận skill; tác vụ thật; người nhận nghiệm thu. Local fixture không chứng minh ba trạng thái sau. Kiểm tra đúng tệp và mã kiểm từ URL bản phát hành đã ghim trước khi sử dụng.
+Kiểm tệp, ứng dụng nhận skill, tác vụ thật và người nhận nghiệm thu là bốn trạng thái riêng. Gói đã kiểm ở bên giao không chứng nhận máy khách. Dữ liệu khách đặt riêng, không sửa mẫu gốc. Voice trong kho giữ nguyên bản hiện có.

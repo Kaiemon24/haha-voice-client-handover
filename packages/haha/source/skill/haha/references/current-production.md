@@ -1,6 +1,6 @@
 # Quy tắc hiện hành của bản bàn giao
 
-Bản chụp bàn giao độc lập, không phải nguồn sửa chỉ dẫn OS. Đọc toàn bộ DESIGN.md, USE.md, VOICE.md và mẫu được chọn trong assets/design-system/package. Dữ liệu HAHA 1.2.11-reader giữ hai khu vực Overview/Library; không dùng số phiên bản hay vị trí Applications cũ làm chỉ dẫn hiện hành.
+Bản chụp bàn giao độc lập, không phải nguồn sửa chỉ dẫn OS. Đọc toàn bộ DESIGN.md, USE.md, VOICE.md và mẫu được chọn trong assets/design-system/PDF/purpose-1.2.11-reader-20261023/package. Dữ liệu HAHA 1.2.11-reader giữ hai khu vực Overview/Library; không dùng số phiên bản hay vị trí Applications cũ làm chỉ dẫn hiện hành.
 
 - Giữ đúng logo, font, màu, vùng an toàn, bóng theo vai trò, nội dung và trạng thái của HAHA. Không lấy nhận diện KAI/MELAB thay HAHA; các tên nguồn trong lịch sử không cấp quyền tài sản.
 - Dùng component và composition đã có trước khi tạo mới. Giữ ID/chức năng/biến thể và quan hệ; nội dung dài phải đổi bố cục hoặc tiếp trang.

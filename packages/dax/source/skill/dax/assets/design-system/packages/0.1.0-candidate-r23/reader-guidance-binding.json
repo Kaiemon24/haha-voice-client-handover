@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "portable-slide-reader-binding/v2",
+  "policy": {
+    "path": "slide-reader-policy.json",
+    "sha256": "5b127fdb523f9a91ad54e3d81383adf236019c8b82ef2f23ea4fb24398a2d9d5"
+  },
+  "sharedSourceSha256": "2058e7cacd3ddb3139c6c73bbe12868bf6deba102fd7aca9adb723130c231dfd",
+  "files": [
+    {
+      "path": "assets/reader-guidance61.js",
+      "sha256": "6f0623c8f0cda4d59af713487d07896cc705e1ccc6938a2cd7de89d23933b222"
+    },
+    {
+      "path": "assets/reader-guidance61.css",
+      "sha256": "c6d64aab406f6e323dcbc289862cc2c20a141fc77e15dc566314fd9854efec55"
+    },
+    {
+      "path": "DESIGN.md",
+      "sha256": "99ead6548352d62aace19b2f78809391061fd6a1b5b44155c6db356505fd4470"
+    },
+    {
+      "path": "COMPOSITION.md",
+      "sha256": "1cd3eb2fbe5077efb7930160ad712b1c7a2695ca614572f213c9089e01ccce8e"
+    },
+    {
+      "path": "USE.md",
+      "sha256": "731e854456f818da98efb235284b2e1fe4d67c29ff07a8ec6932ac9d7012cd51"
+    }
+  ],
+  "placement": "Current mounted Overview and Library before the27 template groups",
+  "priorityRuleCount": 3,
+  "scope": "Current task documentation and source-bound2.1.0 guidance; independent output acceptance remains separate."
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "design-runtime-files/v1",
+  "generated": true,
+  "doNotEdit": true,
+  "source": "Exact installed builder RUNTIME_FILES base contract; additional current native root dependencies in native-runtime-files.json.",
+  "files": {
+    "design-system.html": "54371c2ab2b775f563c535e6e366c65d0969ee6f0b94a3071f10db470deb476c",
+    "system.css": "7a7fe0bd296e6a37df39a1c73b2ed79f7346361a7fa7a89bacd63e283a42fe39",
+    "system.js": "0c354abc702e9c669b56899b5f1d5e68dc713b097bae192579c831b5674be0c5",
+    "elements/index.html": "1719bb8b153fdb1d3581e937afb9c644bba2d2909b174c34fa3178aaa2b335a5",
+    "elements/gallery.js": "3308e7e9e34fe0fbf6d9051a007d4303aecd6029ab6ce3283b8c4b058a6d0a56"
+  },
+  "deliverySnapshot": true
+}

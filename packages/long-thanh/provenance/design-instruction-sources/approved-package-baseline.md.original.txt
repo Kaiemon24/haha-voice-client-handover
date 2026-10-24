@@ -1,0 +1,125 @@
+# Approved package baseline
+
+| Need | Path | Rule |
+|---|---|---|
+| Scope | [1. Purpose and scope](#1-purpose-and-scope) | Load when an approved system becomes a template or a new system must meet that standard. |
+| Inputs | [2. Inputs](#2-inputs) | Pin approval and distinguish structure from identity. |
+| Authoring | [3. Workflow](#3-workflow) | Populate the neutral detail contract before composition. |
+| Authority | [4. Tools and permissions](#4-tools-and-permissions) | Preparation never activates rules or admits assets. |
+| Deliverables | [5. Output](#5-output) | Keep one rule source and three derived views. |
+| Proof | [6. Verification and stopping](#6-verification-and-stopping) | Test consumers and refuse unsupported completion. |
+| Dependencies | [7. Supporting material](#7-supporting-material) | Reuse existing owners rather than duplicate rules. |
+
+## 1. Purpose and scope
+Turn an accepted package into a reusable standard for structure, presentation and detail. KAI supplied the reviewed pattern: Overview owns decisions; Library stores conforming reusable assets; Applications explains their composition. Transfer this relationship and evidence floor, never its palette, fonts, motifs, voice, counts or hard shadows into another brand by default. An exact acceptance identifies a benchmark; it does not prove all its assets or activate this instruction.
+
+## 2. Inputs
+Read the target brief, current binding and approved applicable rules. Record the benchmark's exact accepted version/hash, coverage, limits and correction history in task evidence. Read `../../templates/approved-package-baseline-v1.json`. Its structural slots are minimum information jobs, not a compulsory visual skeleton. Resolve brand identity independently; preserve already settled choices. Use the existing family menu to select relevant scope, not to fill quotas.
+
+Bind identity choices to the target's actual approved guideline, official assets,
+brand evidence and current user decisions. Record source/locator, applicability,
+approval state and unknowns in the task-owned contract. Generic adjectives or a
+donor package cannot establish logo geometry, mascot, metaphor or brand voice.
+Use `../brief-gap.md` for consequential missing facts before dependent design.
+
+## 3. Workflow
+1. Populate a task-owned contract from the template. Assign stable rule/asset/example IDs and the required detail slots; explicitly justify not-applicable slots. Preserve authoritative model values and protected copy.
+2. Overview: each applicable group explains purpose, exact semantic values, permitted combinations, limits and a real visual preview. Typography previews use actual declared fonts, weight, size, leading and tracking; show role combinations and wide/narrow behavior. Colors show codes, roles and readable foreground/background pairs. Spacing demonstrates inside, within-group, between-group and painted-edge clearance. Components show anatomy, variants and meaningful states. Include do/don't, icon density, motion fallback, brand voice and intake/update behavior through their existing owners. Keep technical Markdown companions separately linked at the end, not an always-visible source dump.
+3. Navigation: retain three clear views, desktop contents sidebar and constrained-width equivalent. Active contents follows scrolling; links survive view changes. Library and Applications support purpose-led discovery with honest taxonomy limits, useful empty states and an emphasized declared reuse action. Test real links, keyboard and reuse payloads.
+4. Library: show actual assets, not a directory of names. Every selected family records function, anatomy, variants/states, rule references, source/version/rights, dependencies, entry and reuse instructions. Render static and moving variants separately where supported. Reuse the same icon master; verify painted size, internal clearance and motion extrema. UI, charts and 3D retain functional/data/material meaning. Unsupported assets remain explicitly proposed; no placeholder is counted as a finished image.
+5. Applications: build only requested output families and counts. Every example names the rules and Library IDs it applies, uses their actual dependencies and proves the appropriate native/rendered output. For theory and presentation use the knowledge/slide owners. Do not repeat website/app sections to fill an unrelated brief. Preserve full content, readable type and declared capacity; reflow or continue instead of arbitrary shrinking.
+6. Intake and creation: identify the requested reading job and semantic units; reuse an existing asset where suitable; map new anatomy to approved roles/tokens/states; record an explicit gap if unsupported. An incompatible request triggers a named conflict and a compliant alternative or scoped rule proposal. Build, inspect, correct, recheck the affected family, then admit only within actual membership authority. Never create a competing standard inside one asset.
+7. Update: compare every generated model/binding hash with the authoritative source, including old compatibility consumers and standalone entries. Invalidate affected proofs; regenerate exact consumers and their closure. Review every applicable item against the contract and run `scripts/check_package_baseline.py CONTRACT`; this checks declared coverage/identity only. Native evidence and visual judgment still decide readiness.
+
+### Apply the selected system to its own showcase
+
+Before composing or revising a brand system or any visual task for that brand, read the actual selected model, guideline and relevant Library/Application recipes. Map each affected button, label, table, callout, frame, backdrop and state to an existing brand role and suitable material. Reuse it when its function fits; document a specific gap before inventing a competing style. Record the selected ID/source/version, values used and a short reason for an intentional exception in task evidence. Token presence alone is not application.
+
+The baseline preserves information jobs, relationships and agreed function/count coverage; it does not prescribe one card skin or plain background. Let the target brand determine frame anatomy, emphasis shapes, background complexity, material and depth. A restrained system may be plain; another may use layered or shaped emphasis. Preserve reading, accessibility, data meaning and official identity. Inspect effective label weight, semantic column alignment, spacing, radius, receiving-surface borders/shadows and background behavior on the actual affected family, including the guideline's own examples.
+
+Assign each rule topic one explanatory owner. Spacing owns grouping/clearance/radius; Shadow owns depth values, role/state examples and receiving colors. Other sections link to that owner and enact the rule, without repeating independently authored values. Preserve exceptions, stable anchors and useful examples when consolidating; revalidate derived Markdown, models and reuse closures.
+
+### Functional parity and brand-specific visual adaptation
+
+When a full accepted package is selected as the baseline, preserve its selected structure, asset/function IDs, per-family counts and application types. Record a one-to-one function map; an omission needs an explicit task-scope decision, never a silent simpler substitute. These are the selected binding's preservation requirements, not universal quotas for unrelated briefs.
+
+For a full-benchmark adaptation, set `coverageMode: full-benchmark-adaptation`
+in the baseline contract. Pin the exact benchmark source file and its hash,
+then `selectedFunctionInventory` with a hash-bound native census source and
+one mapping for every selected source function. The census records unique IDs,
+view, family and per-family counts, bound to the selected benchmark hash/version.
+Compile it from the actual selected package and review its selection; a fabricated
+census or a donor's unrelated revision is not acceptable evidence.
+
+Each mapping names one existing target record in the same view and information
+family, including deliberate brand-specific ID renames. Extra target records do
+not compensate for missing mapped functions. An omission requires a hash-bound
+`selected-function-omission/v1` decision naming the exact source ID, benchmark
+hash, rationale and explicit user authority reference; preserve it as a scoped
+decision rather than counting the function as built. The checker verifies file
+identity and decision fields, not the authenticity of human approval.
+
+Run the checker after each affected regeneration. It rejects missing or duplicate
+source/target mappings, wrong families, stale benchmark/census files and missing
+omission decisions. Confirm actual rendered counts and per-function behavior
+separately; these declarations never certify visual quality, rights or admission.
+For an unrelated scoped-authoring contract, select `scoped-authoring` explicitly
+and omit the full inventory. Existing unmodified contracts without either field
+remain legacy-compatible with a warning and no functional-parity claim; do not
+use that compatibility route to bypass a full adaptation's inventory check.
+
+
+Transfer information jobs and reuse capability; redesign silhouettes, icon anatomy, stroke/cap/join grammar, spacing, layout, material and motion to fit the target brand. Recoloring a donor is insufficient. Do not retain donor-specific mascots, pixel motifs, metaphors or layout merely to satisfy inventory parity. Preserve official logos, locked product geometry, source facts and accessibility/authority limits. Review both functional coverage and target-brand visual coherence on actual rendered output.
+
+Treat an official logo/wordmark, a primary brand symbol, an optional mascot and
+a functional icon as distinct roles. Reuse official mark files with their
+approved variants and limits; never redraw, invent a replacement logo, turn a
+mascot into the primary mark, or import donor symbols to fill a slot. A mascot
+is conditional: include it only when requested for the target and authorized
+by its evidence or a scoped user decision. Otherwise record it as not selected;
+do not reinterpret a generic full-library request as a mascot request.
+Where a confirmed inventory contains a donor mascot's information function,
+preserve the function and count through a target-appropriate non-mascot asset;
+record its role mapping. If no compliant equivalent preserves the agreed role,
+raise that precise scope conflict rather than silently omit it or create a mascot.
+
+For every selected family, state which target evidence controls its geometry,
+composition, material and motion, which donor identity traits are excluded and
+which fields remain proposed. Overview explains those concrete choices with
+examples; Library and Applications enact them. Preserve agreed functions,
+counts and output families while giving the target its own visual treatment.
+Portable voice uses the returned Voice model and compilation contract, not
+copied donor prose or generic personality labels.
+
+Every full package or selected depth update includes a brand-adapted Shadow / depth guide; follow surface-and-table-contract.md for role/state matrix, exact values, receiving backgrounds, specimens and sibling/standalone proof. Flat policies must be explicit; mandatory guide coverage never means automatic decorative shadows. 
+
+## 4. Tools and permissions
+Use existing local builders/renderers and declared dependencies. No install, external model, registration, publish, runtime mirror, or active skill mutation is implied. This reference supplements existing Teacher, Voice, rights and format gates. Do not make a live instruction depend on project history. Keep an accepted benchmark in task evidence or a rights-reviewed inert snapshot, never a reverse project route.
+
+## 5. Output
+One model and binding; Overview rules with live previews and detail; Library records with complete reuse closure; selected composed Applications; separate Markdown companions; the completed baseline contract; scoped native/rendered proof and unresolved gaps. Record preparation, user acceptance, membership admission and instruction activation separately.
+
+## 6. Verification and stopping
+Check all selected records, effective type/color/spacing, icon peers, states, sidebar/discovery/reuse behavior and standalone dependencies. Inspect a contact sheet plus reading-size views for distinct geometry and highest-risk variants. Test wide/narrow, themes and motion only where selected; native PDF pagination and links cannot be certified from HTML. Include a different-brand fixture, an existing-system narrow update, stale secondary model/binding, missing dependency, unsupported intake and denied admission. Negative cases must fail without lowering the quality floor or expanding scope. Distinguish structural checks, same-agent review and independent/native proof. Stop at the real missing evidence boundary; no checker guarantees all future brand consistency.
+
+Check official-mark fidelity, main-symbol versus mascot roles, an unrequested
+mascot, a requested but unsupported mascot, donor-symbol leakage and a missing
+identity fact. Confirm one-to-one functional/count parity separately from
+rendered target identity. A recolor, copied brand adjective or complete count
+alone cannot pass target-brand adaptation.
+
+### Accepted production structure
+
+Read production-guidelines.md for the default five-topic logo guide and the Poster moodboard, Thumbnail, Image style and Edit contracts. Applications has six primary groups: Slide, PDF, Website, App, Design and Edit. This is an information and application floor for full authoring, not a quota of images, keywords or specimens. Preserve the selected complete baseline and all requested function/count parity; render target-brand identity rather than the donor. Existing pinned systems need a scoped update with fresh binding and proof.
+
+## 7. Supporting material
+`workflow.md` owns package authority; `semantic-composition-contract.md` owns type/composition; `surface-and-table-contract.md` owns surfaces/data; `quality-admission.md` owns rendered admission. The template and checker below supply information coverage, not new visual tokens. Existing Voice, design-production, slide and knowledge executors remain accountable. Missing selected dependencies block that branch.
+
+
+### Full native benchmark rule
+The selected current KAI native package is the full template benchmark, including its complete rule presentation, library taxonomy/detail/reuse and composed applications. Keep it intact in the registered KAI Brand asset package; do not replace it with a minimum table or a small synthetic system. Future brands meet the same information and proof standard while choosing their own identity and relevant families. Counts and KAI visual tokens are not quotas or universal values. An independent-brand fixture proves transfer boundaries only; it never replaces the benchmark or grants all its records admission. The full benchmark binding pins exact version, manifest and file closure without project/history callbacks. Per-record unknowns remain explicit; visual approval, readiness, rights, membership and instruction activation are separate.
+
+
+## Cross-brand application completion
+
+Preserving counts and information anatomy does not prove component application. The selected donor and target each need an explicit disposition: repaired, revalidated unchanged, or excluded with reason. Follow surface-and-table-contract.md for the complete live recipe/census receipt, including independently opened examples and late CSS overrides. One repaired KAI table cannot certify HAHA. The accepted KAI package is a quality benchmark; identity, visual anatomy and depth stay brand-specific.

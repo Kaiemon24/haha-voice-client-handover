@@ -1,0 +1,14 @@
+{
+  "schema": "design-runtime-files/v1",
+  "generated": true,
+  "doNotEdit": true,
+  "source": "reviewed template assets",
+  "files": {
+    "design-system.html": "e835138110db6c518dff934aee0c106c05da4fdd28c2cda833b9c875f0595752",
+    "system.css": "27188a8d63e536a1dafd9356a7cc42e4ff3cf1cd561cd2b90a5c1d4619de3ca7",
+    "system.js": "e6330ee77377219dbfed4c4aaeec8b7521ccf0e58b8b03409b183ce8310cf2c2",
+    "elements/index.html": "c1371d75a23ec85024ede5f6f95ab0c4573f6d7aae15e13b7de83585cf5d0b23",
+    "elements/gallery.js": "178e6997e59fbc1d0454abcd40346776de8c096d6fbc288d20a21bc44bd8b0dc"
+  },
+  "deliverySnapshot": true
+}
